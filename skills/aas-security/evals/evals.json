@@ -1,0 +1,328 @@
+{
+ "skill": "aas-security",
+ "skill_version": "1.1.0",
+ "description": "Probes what is verifiable on disk about AAS security: where security lives in the spec series, the V3.0 removal of security from the AAS metamodel and of PDP/PEP/PIP and certificates from the information model, the AASd- to AASs- renaming and security constraints (Part 1 v3.0 annex tables), and the Batteries Regulation Art. 77(2) access categories. IDTA-01004 Part 4 itself (Access Rule Model) is NOT on disk and is not probed.",
+ "items": [
+  {
+   "id": "aas-security-001",
+   "question": "Which part of the AAS specification series covers the security metamodel (access control)?",
+   "expected_answer": "Part 4 (IDTA-01004). Part 1 covers the core metamodel, Part 5 the AASX format and the Part 3 series the data specifications.",
+   "must_include": [
+    [
+     "Part 4",
+     "01004"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (Preamble)",
+    "revision": "3.0",
+    "section": "Preamble / document split",
+    "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+    "page": 12,
+    "quote": "Part 4 covers the security metamodel"
+   },
+   "tags": [
+    "document-series"
+   ]
+  },
+  {
+   "id": "aas-security-002",
+   "question": "Does an AssetAdministrationShell in metamodel V3.0 still carry a 'security' attribute that points at its access control?",
+   "expected_answer": "No. V3.0 removed the security attribute from the Asset Administration Shell; security is now its own part, and the AAS and its elements are referenced from Security rather than the AAS referencing it.",
+   "must_include": [
+    "removed"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (Annex H: Metamodel Changes V3.0 vs. V2.0.1)",
+    "revision": "3.0",
+    "section": "Annex H, Changes V3.0 vs. V2.0.1, major changes",
+    "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+    "page": 152,
+    "quote": "REMOVED: Security attribute removed from Asset Administration Shell, Access Control remains part of the specification"
+   },
+   "tags": [
+    "removed-between-revisions",
+    "metamodel"
+   ]
+  },
+  {
+   "id": "aas-security-003",
+   "question": "Are policy decision points, policy enforcement points and policy information points part of the V3.0 AAS information model?",
+   "expected_answer": "No. They were removed: they are not part of the information model but of the server infrastructure hosting the Asset Administration Shells.",
+   "must_include": [
+    "infrastructure"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (Annex: Metamodel Changes V3.0RC02 vs. V2.0.1 - Security Part)",
+    "revision": "3.0",
+    "section": "Metamodel Changes V3.0RC02 vs. V2.0.1 - Security Part, changes",
+    "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+    "page": 181,
+    "quote": "policy decision point, policy enforcement point, and policy information points are not part of information model but of server infrastructure hosting the Asset Administration Shells"
+   },
+   "tags": [
+    "removed-between-revisions",
+    "scope"
+   ]
+  },
+  {
+   "id": "aas-security-004",
+   "question": "Does the V3 AAS security metamodel still model certificates (Certificate / BlobCertificate) for X.509 trust anchors?",
+   "expected_answer": "No. Certificate handling was removed from the information model (Certificate, BlobCertificate and Security/certificate removed); it belongs to the server infrastructure hosting the AAS.",
+   "must_include": [
+    "removed"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (Annex: Metamodel Changes V3.0RC02 vs. V2.0.1 - Security Part)",
+    "revision": "3.0",
+    "section": "Metamodel Changes V3.0RC02 vs. V2.0.1 - Security Part, changes",
+    "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+    "page": 181,
+    "quote": "Removed: Certificate Handling not part of information model but of server infrastructure hosting the Asset Administration Shells"
+   },
+   "tags": [
+    "removed-between-revisions",
+    "certificates"
+   ]
+  },
+  {
+   "id": "aas-security-005",
+   "question": "A V3.0 validator reports AASd-010 and AASd-011 on permission properties. Are those still Part 1 metamodel constraint ids?",
+   "expected_answer": "No. Security-part constraints were renamed from the AASd- pattern to AASs- (AASd-010 became AASs-010, AASd-011 became AASs-011); they belong to the security part, not Part 1.",
+   "must_include": [
+    "AASs-"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (Annex: Metamodel Changes V3.0RC01 - Security Part)",
+    "revision": "3.0",
+    "section": "Metamodel Changes V3.0RC01 - Security Part, major changes; Table 40",
+    "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+    "page": 204,
+    "quote": "Constraints for security part renamed from pattern AASd- to AASs-."
+   },
+   "tags": [
+    "renamed-constraint"
+   ]
+  },
+  {
+   "id": "aas-security-006",
+   "question": "Under constraint AASs-010, which category must the property referenced in Permission/permission have?",
+   "expected_answer": "CONSTANT.",
+   "must_include": [
+    "CONSTANT"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (Annex: Table 27 New, Changed or Removed Constraints Security)",
+    "revision": "3.0",
+    "section": "Table 27, AASs-010",
+    "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+    "page": 182,
+    "quote": "Constraint AASs-010: the property referenced in Permission/permission shall have the category \"CONSTANT\"."
+   },
+   "tags": [
+    "constraint"
+   ]
+  },
+  {
+   "id": "aas-security-007",
+   "question": "Why was constraint AASs-009 (external policy administration point or own access control) dropped in V3.0RC02?",
+   "expected_answer": "It was removed because the class PolicyAdministrationPoint was removed.",
+   "must_include": [
+    "PolicyAdministrationPoint"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (Annex: Table 27 New, Changed or Removed Constraints Security)",
+    "revision": "3.0",
+    "section": "Table 27, AASs-009",
+    "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+    "page": 182,
+    "quote": "AASs-009 Removed Removed since class PolicyAdministrationPoint was removed"
+   },
+   "tags": [
+    "removed-constraint"
+   ]
+  },
+  {
+   "id": "aas-security-008",
+   "question": "In the V3.0 security metamodel, does AccessPermissionRule still inherit from Referable and Qualifiable?",
+   "expected_answer": "No. AccessPermissionRule no longer inherits from Referable nor from Qualifiable; a constraint attribute substitutes for the inherited qualifiers.",
+   "must_include": [
+    "Referable",
+    "Qualifiable"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (Annex: Table 25 Changes w.r.t. Security)",
+    "revision": "3.0",
+    "section": "Table 25, AccessPermissionRule",
+    "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+    "page": 181,
+    "quote": "AccessPermissionRule No longer inherits from Referable No longer inherits from Qualifiable"
+   },
+   "tags": [
+    "inheritance-change"
+   ]
+  },
+  {
+   "id": "aas-security-009",
+   "question": "Can a Qualifiable element in V3.0 carry a Formula (as qualifiers could in V2)?",
+   "expected_answer": "No. Formula is now an abstract class used only in the security part, no longer in Qualifiables (and Formula/dependsOn was removed).",
+   "must_include": [
+    "security"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (Annex: Table 25 Changes w.r.t. Security)",
+    "revision": "3.0",
+    "section": "Table 25, Formula",
+    "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+    "page": 181,
+    "quote": "Formula Now abstract class, only used in security part (no longer used in Qualifiables)"
+   },
+   "tags": [
+    "removed-between-revisions"
+   ]
+  },
+  {
+   "id": "aas-security-010",
+   "question": "How are the PermissionKind enumeration literals spelled since V2.0 (e.g. 'not applicable')?",
+   "expected_answer": "With a capital first letter and no space: Allow, Deny, NotApplicable, Undefined.",
+   "must_include": [
+    "NotApplicable"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (Annex: Table 46 Changes Metamodel w.r.t. V1.0 Security)",
+    "revision": "3.0",
+    "section": "Table 46, PermissionKind",
+    "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+    "page": 209,
+    "quote": "Now PermissionKind/NotApplicable starts with capital letter for enumeration values"
+   },
+   "tags": [
+    "enum-spelling"
+   ]
+  },
+  {
+   "id": "aas-security-011",
+   "question": "Under the EU Batteries Regulation 2023/1542 Art. 77(2), who may access the battery passport information of Annex XIII point 3?",
+   "expected_answer": "Only notified bodies, market surveillance authorities and the Commission (information under points 2 and 3 of Annex XIII).",
+   "must_include": [
+    "notified bodies",
+    "market surveillance",
+    "Commission"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Regulation (EU) 2023/1542 (Batteries Regulation), OJ text",
+    "revision": "OJ L 191, 28.7.2023",
+    "section": "Article 77(2), point (b)",
+    "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32023R1542.html",
+    "quote": "(b) information accessible only to notified bodies, market surveillance authorities and the Commission in accordance with points 2 and 3 of Annex XIII"
+   },
+   "tags": [
+    "dpp-access",
+    "regulation"
+   ]
+  },
+  {
+   "id": "aas-security-012",
+   "question": "Under Batteries Regulation Art. 77(2), which Annex XIII points are accessible to persons with a legitimate interest?",
+   "expected_answer": "Points 2 and 4 of Annex XIII (point 1 is public; points 2 and 3 go to notified bodies, market surveillance authorities and the Commission).",
+   "must_include": [
+    "points 2 and 4"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Regulation (EU) 2023/1542 (Batteries Regulation), OJ text",
+    "revision": "OJ L 191, 28.7.2023",
+    "section": "Article 77(2), point (c)",
+    "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32023R1542.html",
+    "quote": "legitimate interest in accessing and processing that information for the purposes referred to in points (a) and (b) of the third subparagraph in accordance with points 2 and 4 of Annex XIII"
+   },
+   "tags": [
+    "dpp-access",
+    "regulation"
+   ]
+  },
+  {
+   "id": "aas-security-013",
+   "question": "Does the Batteries Regulation itself enumerate which persons count as having a 'legitimate interest' for battery passport access?",
+   "expected_answer": "No. Article 77(9) requires the Commission to adopt implementing acts by 18 August 2026 specifying which persons are to be considered persons with a legitimate interest and what they may access.",
+   "must_include": [
+    "implementing act",
+    "18 August 2026"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Regulation (EU) 2023/1542 (Batteries Regulation), OJ text",
+    "revision": "OJ L 191, 28.7.2023",
+    "section": "Article 77(9)",
+    "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32023R1542.html",
+    "quote": "By 18 August 2026, the Commission shall adopt implementing acts specifying which persons are to be considered persons with a legitimate interest"
+   },
+   "tags": [
+    "dpp-access",
+    "regulation"
+   ]
+  },
+  {
+   "id": "aas-security-014",
+   "question": "Does IDTA-01004 Part 4 say anything about the format of access tokens?",
+   "expected_answer": "Yes. AAS Security uses signed JWT (JSON Web Token) bearer tokens as access tokens, as defined in RFC 7519; the authentication flow that produces them is left open (OAuth 2.0 or OIDC can be used).",
+   "must_include": [
+    "JWT",
+    [
+     "RFC 7519",
+     "7519"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01004 Part 4 Security (official PDF, paged text)",
+    "revision": "3.1",
+    "file": "idta-specs:txt/IDTA-01004-3-1_AAS-Specification_Part4_Security.txt",
+    "page": 46,
+    "quote": "AAS Security uses signed JWT (JSON Web Token) bearer tokens as Access Tokens, as they are defined in RFC 7519.",
+    "section": "Access Tokens"
+   },
+   "tags": [
+    "access-token",
+    "spec-vs-practice"
+   ]
+  },
+  {
+   "id": "aas-security-015",
+   "question": "Does IDTA-01004 Part 4 v3.1 define a digital signature format for AAS content?",
+   "expected_answer": "No. Part 4 v3.1 does not specify a native, data-bound protection mechanism such as digital signatures; it points to the /$signed endpoint of the API specification IDTA-01002 (plain JWS).",
+   "must_include": [
+    [
+     "does not specify",
+     "not specify",
+     "no native"
+    ],
+    "$signed"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01004 Part 4 Security (official PDF, paged text)",
+    "revision": "3.1",
+    "file": "idta-specs:txt/IDTA-01004-3-1_AAS-Specification_Part4_Security.txt",
+    "page": 124,
+    "quote": "This document does not specify a native way to protect AAS elements with data-bound protection mechanisms such as digital signatures.",
+    "section": "Accountability for AAS Content and Digital Signatures"
+   },
+   "tags": [
+    "signing",
+    "spec-vs-practice"
+   ]
+  }
+ ]
+}

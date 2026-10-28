@@ -1,0 +1,599 @@
+{
+ "template": "Digital Battery Passport / Material Composition",
+ "version": "1.0.1",
+ "submodelIdShort": "MaterialComposition",
+ "submodelSemanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.0#MaterialComposition",
+ "json": {
+  "path": "published/Digital Battery Passport/6_Material Composition/1/0/1/IDTA 02035-6_DBP-Part-6_MaterialComposition_without_examplevalues.json",
+  "gitBlob": "d9184515aa064ca0351569f46d7fb2b317dfb1af"
+ },
+ "pdf": {
+  "path": "published/Digital Battery Passport/6_Material Composition/1/0/1/IDTA 02035-6_DBP-Part-6_MaterialComposition.pdf",
+  "relation": "same folder",
+  "sha256": "245a3fdb20478b7b8bca263d599cb8f70f84194d62f97010dca621611e1459f3",
+  "annexA": [
+   {
+    "page": 17,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 17,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "json-only": 1,
+  "agree": 22
+ },
+ "elements": [
+  {
+   "path": "BatteryChemistry",
+   "idShort": "BatteryChemistry",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#batteryChemistry",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "BatteryChemistry > ShortName",
+   "idShort": "ShortName",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#shortName",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "ShortName",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#shortName",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "BatteryChemistry > ClearName",
+   "idShort": "ClearName",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#clearName",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "ClearName",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#clearName",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "BatteryMaterials",
+   "idShort": "BatteryMaterials",
+   "modelType": "SubmodelElementList",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#batteryMaterials",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     8
+    ],
+    "row": {
+     "page": 8,
+     "type": "[SML]",
+     "idShort": "BatteryMaterials",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#batteryMaterials",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "BatteryMaterials > BatteryMaterial",
+   "idShort": "BatteryMaterial",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#BatteryMaterial",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "BatteryMaterial",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#BatteryMaterial",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "BatteryMaterials > BatteryMaterial > BatteryMaterialLocation",
+   "idShort": "BatteryMaterialLocation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#batteryMaterialLocation",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "BatteryMaterialLocation",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#batteryMaterialLocation",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "BatteryMaterials > BatteryMaterial > BatteryMaterialLocation > ComponentName",
+   "idShort": "ComponentName",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#componentName",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14,
+     16
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "ComponentName",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#componentName",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "BatteryMaterials > BatteryMaterial > BatteryMaterialLocation > ComponentId",
+   "idShort": "ComponentId",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#componentId",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14,
+     16
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "ComponentId",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#componentId",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "BatteryMaterials > BatteryMaterial > BatteryMaterialIdentifier",
+   "idShort": "BatteryMaterialIdentifier",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#batteryMaterialIdentifier",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Prop]",
+     "idShort": "BatteryMaterialIdentifier",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#batteryMaterialIdentifier",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "BatteryMaterials > BatteryMaterial > BatteryMaterialName",
+   "idShort": "BatteryMaterialName",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#batteryMaterialName",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "BatteryMaterialName",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#batteryMaterialName",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "BatteryMaterials > BatteryMaterial > BatteryMaterialMass",
+   "idShort": "BatteryMaterialMass",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#batteryMaterialMass",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "BatteryMaterialMass",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#batteryMaterialMass",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "BatteryMaterials > BatteryMaterial > IsCriticalRawMaterial",
+   "idShort": "IsCriticalRawMaterial",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#isCriticalRawMaterial",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "IsCriticalRawMaterial",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#isCriticalRawMaterial",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "HazardousSubstances",
+   "idShort": "HazardousSubstances",
+   "modelType": "SubmodelElementList",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#hazardousSubstances",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     8
+    ],
+    "row": {
+     "page": 8,
+     "type": "[SML]",
+     "idShort": "HazardousSubstances",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#hazardousSubstances",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "HazardousSubstances > HazardousSubstance",
+   "idShort": "HazardousSubstance",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#HazardousSubstance",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[SMC]",
+     "idShort": "HazardousSubstance",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#HazardousSubstance",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "HazardousSubstances > HazardousSubstance > HazardousSubstanceClass",
+   "idShort": "HazardousSubstanceClass",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#hazardousSubstanceClass",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "HazardousSubstanceClass",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#hazardousSubstanceClass",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "HazardousSubstances > HazardousSubstance > HazardousSubstanceName",
+   "idShort": "HazardousSubstanceName",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#hazardousSubstanceName",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "HazardousSubstanceName",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#hazardousSubstanceName",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "HazardousSubstances > HazardousSubstance > HazardousSubstanceConcentration",
+   "idShort": "HazardousSubstanceConcentration",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#hazardousSubstanceConcentration",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "HazardousSubstanceConcentration",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#hazardousSubstanceConcentration",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "HazardousSubstances > HazardousSubstance > HazardousSubstanceImpact",
+   "idShort": "HazardousSubstanceImpact",
+   "modelType": "SubmodelElementList",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#hazardousSubstanceImpact",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SML]",
+     "idShort": "HazardousSubstanceImpact",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#hazardousSubstanceImpact",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "HazardousSubstances > HazardousSubstance > HazardousSubstanceImpact > Impact",
+   "idShort": "Impact",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#Impact",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "Impact",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#Impact",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "HazardousSubstances > HazardousSubstance > HazardousSubstanceLocation",
+   "idShort": "HazardousSubstanceLocation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#hazardousSubstanceLocation",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "HazardousSubstanceLocation",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#hazardousSubstanceLocation",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "HazardousSubstances > HazardousSubstance > HazardousSubstanceLocation > ComponentName",
+   "idShort": "ComponentName",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#componentName",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14,
+     16
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "ComponentName",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#componentName",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "HazardousSubstances > HazardousSubstance > HazardousSubstanceLocation > ComponentId",
+   "idShort": "ComponentId",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#componentId",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14,
+     16
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "ComponentId",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#componentId",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "HazardousSubstances > HazardousSubstance > HazardousSubstanceIdentifier",
+   "idShort": "HazardousSubstanceIdentifier",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#hazardousSubstanceIdentifier",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "HazardousSubstanceIdentifier",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.1#hazardousSubstanceIdentifier",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  }
+ ]
+}

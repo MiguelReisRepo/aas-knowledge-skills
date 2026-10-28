@@ -1,0 +1,150 @@
+{
+ "template": "Asset Interfaces Mapping Configuration",
+ "version": "1.0.0",
+ "submodelIdShort": "AssetInterfacesMappingConfiguration",
+ "submodelSemanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/1/0/Submodel",
+ "json": {
+  "path": "published/Asset Interfaces Mapping Configuration/1/0/IDTA 02027-1-0_Template_AIMC .json",
+  "gitBlob": "f629fb6b7a6eb7816c239a0678325fff23625e3a"
+ },
+ "pdf": {
+  "path": "published/Asset Interfaces Mapping Configuration/1/0/IDTA 02027-1-0_Submodel_AssetInterfacesMappingConfiguration.pdf",
+  "relation": "same folder",
+  "sha256": "aadadb998e218eb46984656059f930a6ae286fcf72908329435acf116c6ad2ca",
+  "annexA": [
+   {
+    "page": 15,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 15,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 3,
+  "unverified": 2
+ },
+ "elements": [
+  {
+   "path": "MappingConfigurations",
+   "idShort": "MappingConfigurations",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/1/0/MappingConfigurations",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SML]",
+     "idShort": "MappingConfigurations",
+     "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/1/0/MappingConfigurations",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MappingConfigurations > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/1/0/MappingConfiguration",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..*",
+     "1"
+    ],
+    "pages": [
+     11,
+     12
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "MappingConfigurations > [0] > InterfaceReference",
+   "idShort": "InterfaceReference",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/1/0/InterfaceReference",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Ref]",
+     "idShort": "InterfaceReference",
+     "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/1/0/InterfaceReference",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MappingConfigurations > [0] > MappingSourceSinkRelations",
+   "idShort": "MappingSourceSinkRelations",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/1/0/MappingSourceSinkRelations",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SML]",
+     "idShort": "MappingSourceSinkRelations",
+     "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/1/0/MappingSourceSinkRelations",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MappingConfigurations > [0] > MappingSourceSinkRelations > [0]",
+   "idShort": "",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/1/0/MappingSourceSinkRelation",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..*",
+     "1"
+    ],
+    "pages": [
+     13,
+     14
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  }
+ ]
+}

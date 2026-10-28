@@ -1,0 +1,313 @@
+{
+  "skill": "aas-time-series",
+  "skill_version": "1.0.0",
+  "description": "IDTA 02008 Time Series Data 1.1: semanticIds (Segment vs Segments), mandatory elements per segment kind, Record structure, timestamp concept descriptions, normative status.",
+  "items": [
+    {
+      "id": "aas-time-series-001",
+      "question": "What is the submodel semanticId of IDTA 02008 Time Series Data v1.1?",
+      "expected_answer": "https://admin-shell.io/idta/TimeSeries/1/1 - with no /Submodel suffix.",
+      "must_include": [
+        "https://admin-shell.io/idta/TimeSeries/1/1"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02008 Time Series Data",
+        "revision": "1.1 (March 2023)",
+        "section": "2.3, Table 2 Specification of Submodel Template TimeSeries",
+        "file": "skills/aas-time-series/IDTA-02008-1-1_Submodel_TimeSeriesData.txt",
+        "page": 14,
+        "quote": "semanticId: [IRI] https://admin-shell.io/idta/TimeSeries/1/1"
+      },
+      "tags": [
+        "semanticId"
+      ]
+    },
+    {
+      "id": "aas-time-series-002",
+      "question": "Can we name the Time Series submodel 'SensorHistory' instead of TimeSeries?",
+      "expected_answer": "No. The submodel idShort shall always be TimeSeries.",
+      "must_include": [
+        "TimeSeries"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02008 Time Series Data",
+        "revision": "1.1 (March 2023)",
+        "section": "2.3, Table 2",
+        "file": "skills/aas-time-series/IDTA-02008-1-1_Submodel_TimeSeriesData.txt",
+        "page": 14,
+        "quote": "TimeSeries Note: the above idShort shall always be as stated. Class: Submodel"
+      },
+      "tags": [
+        "idShort"
+      ]
+    },
+    {
+      "id": "aas-time-series-003",
+      "question": "What semanticId does RecordCount inside a segment have, and which valueType?",
+      "expected_answer": "https://admin-shell.io/idta/TimeSeries/Segment/RecordCount/1/1 (singular 'Segment'), valueType LONG, cardinality 0..1.",
+      "must_include": [
+        "TimeSeries/Segment/RecordCount/1/1"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02008 Time Series Data",
+        "revision": "1.1 (March 2023)",
+        "section": "2.3, Table 6 Specification of SMC InternalSegment, row RecordCount",
+        "file": "skills/aas-time-series/IDTA-02008-1-1_Submodel_TimeSeriesData.txt",
+        "page": 19,
+        "quote": "RecordCount [IRI] https://admin-shell.io/idta/TimeSeries/Segment/RecordCount/1/1"
+      },
+      "tags": [
+        "semanticId",
+        "singular-vs-plural"
+      ]
+    },
+    {
+      "id": "aas-time-series-004",
+      "question": "What semanticId identifies an InternalSegment SMC?",
+      "expected_answer": "https://admin-shell.io/idta/TimeSeries/Segments/InternalSegment/1/1 (plural 'Segments' for segment types, unlike the singular 'Segment' of segment fields).",
+      "must_include": [
+        "TimeSeries/Segments/InternalSegment/1/1"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02008 Time Series Data",
+        "revision": "1.1 (March 2023)",
+        "section": "2.3, Table 5 Specification of SMC Segments, row InternalSegment{00}",
+        "file": "skills/aas-time-series/IDTA-02008-1-1_Submodel_TimeSeriesData.txt",
+        "page": 17,
+        "quote": "https://admin-shell.io/idta/TimeSeries/Segments/InternalSegment/1/1"
+      },
+      "tags": [
+        "semanticId",
+        "singular-vs-plural"
+      ]
+    },
+    {
+      "id": "aas-time-series-005",
+      "question": "Which elements of a LinkedSegment are mandatory?",
+      "expected_answer": "Endpoint (TimeSeries/Endpoint/1/1) and Query (TimeSeries/Query/1/1), each cardinality 1; all other segment fields are 0..1.",
+      "must_include": [
+        "Endpoint",
+        "Query"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02008 Time Series Data",
+        "revision": "1.1 (March 2023)",
+        "section": "2.3, Table 8 Specification of SMC LinkedSegment",
+        "file": "skills/aas-time-series/IDTA-02008-1-1_Submodel_TimeSeriesData.txt",
+        "page": 27,
+        "quote": "server through which time series can be requested n/a 1 [Property] Query [IRI] https://admin-shell.io/idta/TimeSeries/Query/1/1"
+      },
+      "tags": [
+        "mandatory",
+        "segment-kinds"
+      ]
+    },
+    {
+      "id": "aas-time-series-006",
+      "question": "In an InternalSegment, which SMC holds the data rows, with what cardinality and collection flags?",
+      "expected_answer": "Records (TimeSeries/Records/1/1), cardinality 1, ordered = true, allowDuplicates = false; it holds Record SMCs (0..n).",
+      "must_include": [
+        "Records",
+        "allowDuplicates"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02008 Time Series Data",
+        "revision": "1.1 (March 2023)",
+        "section": "2.3, Table 6, row Records",
+        "file": "skills/aas-time-series/IDTA-02008-1-1_Submodel_TimeSeriesData.txt",
+        "page": 21,
+        "quote": "Records [IRI] https://admin-shell.io/idta/TimeSeries/Records/1/1"
+      },
+      "tags": [
+        "record-structure",
+        "mandatory"
+      ]
+    },
+    {
+      "id": "aas-time-series-007",
+      "question": "Is a Metadata SMC with only Name and Description complete?",
+      "expected_answer": "No. Metadata also needs the Record SMC (TimeSeries/Record/1/1, cardinality 1) describing the schema (timestamps and variables); Name is mandatory, Description 0..1.",
+      "must_include": [
+        "Record"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02008 Time Series Data",
+        "revision": "1.1 (March 2023)",
+        "section": "2.3, Table 3 Specification of SMC Metadata, row Record",
+        "file": "skills/aas-time-series/IDTA-02008-1-1_Submodel_TimeSeriesData.txt",
+        "page": 15,
+        "quote": "variable values referenced to the ID ordered = true allowDuplicated = true n/a 1"
+      },
+      "tags": [
+        "mandatory",
+        "record-structure"
+      ]
+    },
+    {
+      "id": "aas-time-series-008",
+      "question": "Can a single time series record carry more than one timestamp (e.g. sensor time and server time)?",
+      "expected_answer": "Yes. Time{00} has cardinality 1..n in the Record, with semanticIds such as UtcTime, TaiTime, RelativePointInTime or RelativeTimeDuration.",
+      "must_include": [
+        [
+          "1..n",
+          "1..*",
+          "one or more"
+        ]
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02008 Time Series Data",
+        "revision": "1.1 (March 2023)",
+        "section": "2.3, Table 4 Specification of SMC Record, row Time{00}",
+        "file": "skills/aas-time-series/IDTA-02008-1-1_Submodel_TimeSeriesData.txt",
+        "page": 16,
+        "quote": "preferredName @de: Zeit preferredName @en: Time 1..n"
+      },
+      "tags": [
+        "record-structure",
+        "cardinality"
+      ]
+    },
+    {
+      "id": "aas-time-series-009",
+      "question": "Which semanticId should a 'Temperature' variable in the Record use according to IDTA 02008?",
+      "expected_answer": "The spec does not define semantic IDs for time series variables; choose a suitable one for the measured quantity (e.g. from ECLASS/IEC CDD).",
+      "must_include": [
+        [
+          "does not define",
+          "not defined",
+          "doesn't define"
+        ]
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02008 Time Series Data",
+        "revision": "1.1 (March 2023)",
+        "section": "2.2.2 Data points and Segments",
+        "file": "skills/aas-time-series/IDTA-02008-1-1_Submodel_TimeSeriesData.txt",
+        "page": 11,
+        "quote": "This specification does not define semantic IDs of time series variables."
+      },
+      "tags": [
+        "semanticId"
+      ]
+    },
+    {
+      "id": "aas-time-series-010",
+      "question": "IDTA 02008 spells the relative time-point timestamp both RelativePointInTime and RelativeTimePoint. Which IRI does the official 1.1 template use?",
+      "expected_answer": "https://admin-shell.io/idta/TimeSeries/RelativePointInTime/1/1 - the template's concept description has idShort RelativeTimePoint but id .../RelativePointInTime/1/1 (the Table 10 IRI .../RelativeTimePoint/1/1 is the outlier).",
+      "must_include": [
+        "TimeSeries/RelativePointInTime/1/1"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02008 Time Series Data - official template JSON",
+        "revision": "1.1.1 (admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06)",
+        "section": "ConceptDescription RelativeTimePoint",
+        "file": "idta-pdfs:json/published/Time Series Data/1/1/1/IDTA 02008-1-1-1_Template_TimeSeriesData.json",
+        "lines": "1510-1515",
+        "quote": "\"id\": \"https://admin-shell.io/idta/TimeSeries/RelativePointInTime/1/1\""
+      },
+      "tags": [
+        "semanticId",
+        "pdf-vs-template-json"
+      ],
+      "notes": "PDF Table 4 (txt page 16) uses RelativePointInTime; Table 10 (page 29) prints RelativeTimePoint."
+    },
+    {
+      "id": "aas-time-series-011",
+      "question": "Which IEC CDD IRDI may be used instead of the admin-shell.io IRI for a UTC timestamp?",
+      "expected_answer": "0112/2///61360_4#ADA387#001 (alternative to https://admin-shell.io/idta/TimeSeries/UtcTime/1/1).",
+      "must_include": [
+        "ADA387#001"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02008 Time Series Data",
+        "revision": "1.1 (March 2023)",
+        "section": "2.4, Table 10 Example Timestamp definitions, row UtcTime",
+        "file": "skills/aas-time-series/IDTA-02008-1-1_Submodel_TimeSeriesData.txt",
+        "page": 29,
+        "quote": "[IRI] https://admin-shell.io/idta/TimeSeries/UtcTime/1/1 or [IRDI] 0112/2///61360_4#ADA387#001"
+      },
+      "tags": [
+        "semanticId",
+        "IEC-CDD"
+      ]
+    },
+    {
+      "id": "aas-time-series-012",
+      "question": "Which values may a segment's State property take?",
+      "expected_answer": "in progress (https://admin-shell.io/idta/TimeSeries/Segment/State/InProgress/1/1) or completed (https://admin-shell.io/idta/TimeSeries/Segment/State/Completed/1/1).",
+      "must_include": [
+        "State/InProgress/1/1",
+        "State/Completed/1/1"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02008 Time Series Data",
+        "revision": "1.1 (March 2023)",
+        "section": "2.3, Table 6, row State",
+        "file": "skills/aas-time-series/IDTA-02008-1-1_Submodel_TimeSeriesData.txt",
+        "page": 20,
+        "quote": "in progress (https://admin-shell.io/idta/TimeSeries/Segment/State/InProgress/1/1), completed (https://admin-shell.io/idta/TimeSeries/Segment/State/Completed/1/1)"
+      },
+      "tags": [
+        "value-list"
+      ]
+    },
+    {
+      "id": "aas-time-series-013",
+      "question": "How is a segment's Duration expressed with the standard Duration semanticId?",
+      "expected_answer": "As an ISO 8601 duration string in the format P[n]Y[n]M[n]DT[n]H[n]M[n]S (e.g. P3DT4H59M); a long in seconds only with another semanticId.",
+      "must_include": [
+        [
+          "ISO 8601",
+          "ISO-8601"
+        ]
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02008 Time Series Data",
+        "revision": "1.1 (March 2023)",
+        "section": "2.3, Table 6, row Duration",
+        "file": "skills/aas-time-series/IDTA-02008-1-1_Submodel_TimeSeriesData.txt",
+        "page": 19,
+        "quote": "Period covered by the segment, represented according to ISO 8601 by the format P[n]Y[n]M[n]DT[n]H[n]M[n]S"
+      },
+      "tags": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "aas-time-series-014",
+      "question": "Are the ReadSegments/ReadRecords operations part of the normative Time Series 1.1 template?",
+      "expected_answer": "No. The operations are in section 2.6 'Outlook on Time Series Operations', which is not normative yet.",
+      "must_include": [
+        [
+          "not normative",
+          "non-normative"
+        ]
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02008 Time Series Data",
+        "revision": "1.1 (March 2023)",
+        "section": "2.6 Outlook on Time Series Operations",
+        "file": "skills/aas-time-series/IDTA-02008-1-1_Submodel_TimeSeriesData.txt",
+        "page": 31,
+        "quote": "2.6 Outlook on Time Series Operations - not normative yet"
+      },
+      "tags": [
+        "normative-status"
+      ]
+    }
+  ]
+}

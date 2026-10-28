@@ -1,0 +1,374 @@
+{
+ "template": "Reliability",
+ "version": "1.0.0",
+ "submodelIdShort": "Reliability",
+ "submodelSemanticId": "https://admin-shell.io/idta/iec62683/1/0/Reliability",
+ "json": {
+  "path": "published/Reliability/1/0/IDTA 02013-1-0_Template_Reliability.json",
+  "gitBlob": "3348985ae0c64fdacf86c5766a78884bf447d055"
+ },
+ "pdf": {
+  "path": "published/Reliability/1/0/IDTA 02013-1-0_Submodel_Reliability.pdf",
+  "relation": "same folder",
+  "sha256": "81566d160e2aadac5a554f86288c403be8e3a39281a42e97650bdc1bf5fd1152",
+  "annexA": [
+   {
+    "page": 13,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 13,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 3,
+  "divergent": 9,
+  "json-only": 3
+ },
+ "elements": [
+  {
+   "path": "NumberOfReliabilitySets",
+   "idShort": "NumberOfReliabilitySets",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE006#001",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Property]",
+     "idShort": "NumberOfReliabilitySets",
+     "semanticId": "0112/2///62683#ACE006#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "OperatingConditionsOfReliabilityCharacteristics",
+   "idShort": "OperatingConditionsOfReliabilityCharacteristics",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0112/2///62683#ACG071#001",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "OperatingConditionsOfReliabilityCharacteristics",
+     "semanticId": "0112/2///62683#ACG071#001",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "OperatingConditionsOfReliabilityCharacteristics > TypeOfVoltage",
+   "idShort": "TypeOfVoltage",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABA969#007",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "TypeOfVoltage",
+     "semanticId": "0112/2///61987#ABA969#007",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..*"
+  },
+  {
+   "path": "OperatingConditionsOfReliabilityCharacteristics > RatedVoltage",
+   "idShort": "RatedVoltage",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABA588#004",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "RatedVoltage",
+     "semanticId": "0112/2///61987#ABA588#004",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..*"
+  },
+  {
+   "path": "OperatingConditionsOfReliabilityCharacteristics > MinimumRatedVoltage",
+   "idShort": "MinimumRatedVoltage",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABD461#004",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "MinimumRatedVoltage",
+     "semanticId": "0112/2///61987#ABD461#004",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..*"
+  },
+  {
+   "path": "OperatingConditionsOfReliabilityCharacteristics > MaximumRatedVoltage",
+   "idShort": "MaximumRatedVoltage",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABD462#004",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "MaximumRatedVoltage",
+     "semanticId": "0112/2///61987#ABD462#004",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..*"
+  },
+  {
+   "path": "OperatingConditionsOfReliabilityCharacteristics > RatedOperationalCurrent",
+   "idShort": "RatedOperationalCurrent",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/FunctionalSafety/RatedOperationalCurrent/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "OperatingConditionsOfReliabilityCharacteristics > TypeOfInterlockingDevice",
+   "idShort": "TypeOfInterlockingDevice",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE053#001",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "OperatingConditionsOfReliabilityCharacteristics > OtherOperatingConditions",
+   "idShort": "OtherOperatingConditions",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE070#001",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "OtherOperatingConditions",
+     "semanticId": "0112/2///62683#ACE070#001",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..*"
+  },
+  {
+   "path": "OperatingConditionsOfReliabilityCharacteristics > UsefulLifeInNumberOfOperations",
+   "idShort": "UsefulLifeInNumberOfOperations",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE055#001",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "UsefulLifeInNumberOfOperations",
+     "semanticId": "0112/2///62683#ACE055#001",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..*"
+  },
+  {
+   "path": "OperatingConditionsOfReliabilityCharacteristics > UsefulLifeInTimeInterval",
+   "idShort": "UsefulLifeInTimeInterval",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE054#001",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Property]",
+     "idShort": "UsefulLifeInTimeInterval",
+     "semanticId": "0112/2///62683#ACE054#001",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..*"
+  },
+  {
+   "path": "ReliabilityCharacteristics",
+   "idShort": "ReliabilityCharacteristics",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0112/2///62683#ACG080#001",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "ReliabilityCharacteristics",
+     "semanticId": "0112/2///62683#ACG080#001",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "ReliabilityCharacteristics > MTTF",
+   "idShort": "MTTF",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE061#001",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Property]",
+     "idShort": "MTTF",
+     "semanticId": "0112/2///62683#ACE061#001",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..*"
+  },
+  {
+   "path": "ReliabilityCharacteristics > MTBF",
+   "idShort": "MTBF",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE062#001",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Property]",
+     "idShort": "MTBF",
+     "semanticId": "0112/2///62683#ACE062#001",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..*"
+  },
+  {
+   "path": "ReliabilityCharacteristics > B10",
+   "idShort": "B10",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Reliability/B10/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  }
+ ]
+}

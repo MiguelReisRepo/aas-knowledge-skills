@@ -1,0 +1,47 @@
+{
+  "skill": "aas-template-registry",
+  "version": "1.0.0",
+  "last_verified": "2026-10-28",
+  "sources": [
+    {
+      "document": "IDTA submodel-templates mirror (official template JSON + PDF + extracted txt)",
+      "revision": "admin-shell-io/submodel-templates tree sha f3790038b6c9, mirrored 2026-10-06",
+      "file": "idta-pdfs:json/published",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02017-1-1 AID template JSON / spec txt",
+      "revision": "1.1; JSON sha256 62ff4811904551d4...",
+      "file": "idta-pdfs:json/published/Asset Interfaces Description/1/1/IDTA 02017-1-1_Template_Asset Interfaces Description.json",
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/main/published/Asset%20Interfaces%20Description/1/1",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02017 AID template JSON",
+      "revision": "1.2; JSON sha256 8538bb01c75ea92f...",
+      "file": "idta-pdfs:json/published/Asset Interfaces Description/1/2/IDTA 02017_Template_Asset Interfaces Description.json",
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/main/published/Asset%20Interfaces%20Description/1/2",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02010-1-0 Service Request Notification (txt; Annex A table conventions)",
+      "revision": "1.0; PDF sha256 7c10b4c535f4fe01...",
+      "file": "idta-pdfs:txt/published/Service Request Notification/1/0/IDTA 02010-1-0_Submodel_ServiceRequestNotification.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/main/published/Service%20Request%20Notification/1/0",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02023 Carbon Footprint (txt)",
+      "revision": "1.0; PDF sha256 acccc2b7d72cfc91...",
+      "file": "idta-pdfs:txt/published/Carbon Footprint/1/0/IDTA 02023_Submodel_CarbonFootprint.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/main/published/Carbon%20Footprint/1/0",
+      "bundled": false
+    }
+  ],
+  "latest_in_mirror": "Registry rebuilt 2026-10-06 against the same mirror snapshot (155 template versions); registry/*.json are derived and not cited by the evals.",
+  "claims_not_verifiable_on_disk": [
+    "status totals (agree/divergent/...) and the 194-divergence count - outputs of the skill's own heuristic tools, not of IDTA"
+  ],
+  "notes": "Evals cover the generic, source-checkable part (cardinality semantics, the AASX-definitive annex, concrete JSON-vs-PDF divergences); registry/*.json are derived from the official template JSON and PDFs."
+}

@@ -1,0 +1,86 @@
+{
+  "skill": "iec61360",
+  "version": "1.1.0",
+  "last_verified": "2026-10-28",
+  "sources": [
+    {
+      "document": "IDTA-01001 Part 1 Metamodel",
+      "revision": "3.0 via aas-core-meta v3_0.py (sha256 2ef62ab51fee...)",
+      "file": "vendor/aas-core-meta/aas-core-meta-v3_0.py",
+      "url": "https://github.com/aas-core-works/aas-core-meta",
+      "bundled": true
+    },
+    {
+      "document": "IDTA-01001 Part 1 Metamodel",
+      "revision": "3.1 via aas-core-meta v3_1.py (sha256 d60dbaca77e3...)",
+      "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+      "url": "https://github.com/aas-core-works/aas-core-meta",
+      "bundled": true
+    },
+    {
+      "document": "IDTA-01001 Part 1 Metamodel",
+      "revision": "3.2 via aas-core-meta v3_2.py (sha256 92692f843c96...)",
+      "file": "vendor/aas-core-meta/aas-core-meta-v3_2.py",
+      "url": "https://github.com/aas-core-works/aas-core-meta",
+      "bundled": true
+    },
+    {
+      "document": "Official AAS XML schema",
+      "revision": "3.0 (sha256 40eb128b1684...)",
+      "file": "vendor/schemas/3.0/AAS.xsd",
+      "url": "https://github.com/admin-shell-io/aas-specs-metamodel",
+      "bundled": true
+    },
+    {
+      "document": "Official AAS XML schema",
+      "revision": "3.1 (sha256 9270966e703a...)",
+      "file": "vendor/schemas/3.1/AAS.xsd",
+      "url": "https://github.com/admin-shell-io/aas-specs-metamodel",
+      "bundled": true
+    },
+    {
+      "document": "Official AAS XML schema",
+      "revision": "3.2 (sha256 c04279e26606...)",
+      "file": "vendor/schemas/3.2/AAS.xsd",
+      "url": "https://github.com/admin-shell-io/aas-specs-metamodel",
+      "bundled": true
+    },
+    {
+      "document": "Official AAS JSON schema (draft 2019-09)",
+      "revision": "3.1 (sha256 9a8a005e3036...)",
+      "file": "vendor/schemas/3.1/aas.json",
+      "url": "https://github.com/admin-shell-io/aas-specs-metamodel",
+      "bundled": true
+    },
+    {
+      "document": "IDTA-01001 Part 1 Metamodel (PDF, incl. Annex 'Metamodel Changes')",
+      "revision": "3.0 (sha256 8ba8171554de...)",
+      "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+      "url": "https://industrialdigitaltwin.io/aas-specifications/IDTA-01001/v3.0/",
+      "bundled": false
+    },
+    {
+      "document": "IDTA-01003-a Part 3a Data Specification IEC 61360 (PDF, paged text)",
+      "revision": "3.1.1 (official file, sha256 bad72d5347b0..., 993572 bytes, retrieved 2026-10-28)",
+      "file": "idta-specs:txt/IDTA-01003-a-3-1-1_AAS-Specification_Part3a_DataSpecification.txt",
+      "url": "https://industrialdigitaltwin.org/en/wp-content/uploads/sites/2/2025/08/IDTA-01003-a-3-1-1_AAS-Specification_Part3a_DataSpecification.pdf",
+      "bundled": false
+    },
+    {
+      "document": "IDTA-01001 Part 1 Metamodel (PDF, paged text)",
+      "revision": "3.1.2 (official file, sha256 63e0e15cd221..., 2492535 bytes, retrieved 2026-10-28)",
+      "file": "idta-specs:txt/IDTA-01001-3-1-2_AAS-Specification_Part1_Metamodel.txt",
+      "url": "https://industrialdigitaltwin.org/en/wp-content/uploads/sites/2/2025/11/IDTA-01001-3-1-2_AAS-Specification_Part1_Metamodel.pdf",
+      "bundled": false
+    }
+  ],
+  "claims_not_verifiable_on_disk": [
+    "IDTA-01003-a Part 3a v3.1.1 PDF (the skill's stated source); its content is used here only as formalised in aas-core-meta (Data_specification_IEC61360 + AASc-3a-* invariants) and in the official schemas",
+    "IDTA-01003-a Part 3a v3.0 PDF (Table 1 p.34, Annex E p.61, p.22, p.39 citations)",
+    "IEC 61360-1 / ISO 13584-42",
+    "ECLASS tiers and sizes (Basic/Standard/Advanced) and the example IRDIs in section 7",
+    "IEC CDD (cdd.iec.ch)",
+    "the claim that the dataSpecification IRI must end in /3 (not /3/0): aas-core-meta 3.0-3.2 AASc-3a-050 text on disk says .../DataSpecificationIEC61360/3/0"
+  ],
+  "notes": "Part 3a v3.1.1 settles the data-specification IRI: AASc-3a-050 names .../DataSpecificationIec61360/3; the /3/0 forms are deprecated (template table p.16). aas-core-meta still states /3/0."
+}

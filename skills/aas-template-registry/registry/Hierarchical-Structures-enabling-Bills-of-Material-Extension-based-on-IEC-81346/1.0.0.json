@@ -1,0 +1,437 @@
+{
+ "template": "Hierarchical Structures enabling Bills of Material / Extension based on IEC 81346",
+ "version": "1.0.0",
+ "submodelIdShort": "IEC81346Structure",
+ "submodelSemanticId": null,
+ "json": {
+  "path": "published/Hierarchical Structures enabling Bills of Material/Extension based on IEC 81346/1/0/IDTA 02011-1_Template_BoM_ExtensionbasedonIEC81346.json",
+  "gitBlob": "baf79b7e45f0a4848d5d1ed8a418e4052dd19224"
+ },
+ "pdf": {
+  "path": "published/Hierarchical Structures enabling Bills of Material/Extension based on IEC 81346/1/0/IDTA 02011-1_Submodel_BoM_Extension based on IEC 81346.pdf",
+  "relation": "same folder",
+  "sha256": "e36ea9cf7b4fff00e645ac6e5f28cb2779d7b328214863baf60b7d65f4518507",
+  "annexA": [
+   {
+    "page": 19,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   }
+  ]
+ },
+ "counts": {
+  "json-only": 6,
+  "divergent": 1,
+  "agree": 12
+ },
+ "elements": [
+  {
+   "path": "IEC81346EntryNode",
+   "idShort": "IEC81346EntryNode",
+   "modelType": "Entity",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "IEC81346EntryNode > IEC81346EntryNode",
+   "idShort": "IEC81346EntryNode",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ExtensionIEC81346/IEC81346EntryNode/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Entity]",
+     "idShort": "IEC81346EntryNode",
+     "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ExtensionIEC81346/IEC81346EntryNode/1/0",
+     "card": "1"
+    }
+   },
+   "status": "divergent",
+   "effective": "1..*"
+  },
+  {
+   "path": "IEC81346EntryNode > IEC81346EntryNode > AspectNode",
+   "idShort": "AspectNode",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ ExtensionIEC81346/AspectNode/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Entity]",
+     "idShort": "AspectNode",
+     "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ExtensionIEC81346/AspectNode/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "IEC81346EntryNode > IEC81346EntryNode > AspectNode > LetterCodeLevel_1",
+   "idShort": "LetterCodeLevel_1",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAC314#005",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Property]",
+     "idShort": "LetterCodeLevel_1",
+     "semanticId": "0173-1#02-AAC314#005",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "IEC81346EntryNode > IEC81346EntryNode > AspectNode > LetterCodeLevel_2",
+   "idShort": "LetterCodeLevel_2",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAC341#005",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Property]",
+     "idShort": "LetterCodeLevel_2",
+     "semanticId": "0173-1#02-AAC341#005",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "IEC81346EntryNode > IEC81346EntryNode > AspectNode > LetterCodeLevel_3",
+   "idShort": "LetterCodeLevel_3",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABC244#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Property]",
+     "idShort": "LetterCodeLevel_3",
+     "semanticId": "0173-1#02-ABC244#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "IEC81346EntryNode > IEC81346EntryNode > AspectNode > AspectNumber",
+   "idShort": "AspectNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ ExtensionIEC81346/AspectNumber/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Property]",
+     "idShort": "AspectNumber",
+     "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ExtensionIEC81346/AspectNumber/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "IEC81346EntryNode > IEC81346EntryNode > AspectNode > AspectDescription",
+   "idShort": "AspectDescription",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "] https://admin-shell.io/idta/HierarchicalStructures/ ExtensionIEC81346/AspectDescription/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[MultiLangString]",
+     "idShort": "AspectDescription",
+     "semanticId": "]https://admin-shell.io/idta/HierarchicalStructures/ExtensionIEC81346/AspectDescription/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "IEC81346EntryNode > IEC81346EntryNode > PrefixLevel",
+   "idShort": "PrefixLevel",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ ExtensionIEC81346/PrefixLevel/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "PrefixLevel",
+     "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ExtensionIEC81346/PrefixLevel/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "IEC81346EntryNode > IEC81346EntryNode > HierarchyPrefix",
+   "idShort": "HierarchyPrefix",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ ExtensionIEC81346/HierarchyPrefix/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "HierarchyPrefix",
+     "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ExtensionIEC81346/HierarchyPrefix/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "IEC81346EntryNode > IEC81346EntryNode > HasStructure",
+   "idShort": "HasStructure",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ ExtensionIEC81346/hasStructure/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Rel]",
+     "idShort": "HasStructure",
+     "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ExtensionIEC81346/hasStructure/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "IEC81346EntryNode > IEC81346EntryNode > FunctionAspectNode",
+   "idShort": "FunctionAspectNode",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ExtensionIEC81346/FunctionAspectNode/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "IEC81346EntryNode > IEC81346EntryNode > FunctionAspectNode > FullFilledBy",
+   "idShort": "FullFilledBy",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ ExtensionIEC81346/FullFilledBy/1/0 ",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Rel]",
+     "idShort": "FullFilledBy",
+     "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ExtensionIEC81346/FullFilledBy/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "IEC81346EntryNode > IEC81346EntryNode > ProductAspectNode",
+   "idShort": "ProductAspectNode",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ExtensionIEC81346/ProductAspectNode/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "IEC81346EntryNode > IEC81346EntryNode > ProductAspectNode > LocatedAt",
+   "idShort": "LocatedAt",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ ExtensionIEC81346/LocatedAt/1/0 ",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Rel]",
+     "idShort": "LocatedAt",
+     "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ExtensionIEC81346/LocatedAt/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "IEC81346EntryNode > IEC81346EntryNode > ProductAspectNode > FullFills",
+   "idShort": "FullFills",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ ExtensionIEC81346/FullFills/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Rel]",
+     "idShort": "FullFills",
+     "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ExtensionIEC81346/FullFills/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "IEC81346EntryNode > IEC81346EntryNode > LocationAspectNode",
+   "idShort": "LocationAspectNode",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ExtensionIEC81346/LocationAspectNode/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "IEC81346EntryNode > IEC81346EntryNode > TypeAspectNode",
+   "idShort": "TypeAspectNode",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ExtensionIEC81346/TypeAspectNode/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "IEC81346EntryNode > IEC81346EntryNode > OtherAspectNode",
+   "idShort": "OtherAspectNode",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ExtensionIEC81346/OtherAspectNode/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  }
+ ]
+}

@@ -1,0 +1,320 @@
+{
+ "template": "Digital Battery Passport / Product Carbon Footprint",
+ "version": "1.0.0",
+ "submodelIdShort": "CarbonFootprint",
+ "submodelSemanticId": "https://admin-shell.io/idta/CarbonFootprint/CarbonFootprint/1/0",
+ "json": {
+  "path": "published/Digital Battery Passport/3_Product Carbon Footprint/1/0/IDTA 02035-3_DBP-Part-3_ProductCarbonFootprint_without_examplevalues.json",
+  "gitBlob": "4ba34c8d8acb13bb73991c304eb4d520474b3ef4"
+ },
+ "pdf": {
+  "path": "published/Digital Battery Passport/3_Product Carbon Footprint/1/0/IDTA 02035-3_DBP-Part-3_ProductCarbonFootprint.pdf",
+  "relation": "same folder",
+  "sha256": "4b6ca28704f13997557da64695209359269df2dfb2a83e2a54b8341bd9d89bc7",
+  "annexA": [
+   {
+    "page": 13,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 13,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 11,
+  "none": 1
+ },
+ "elements": [
+  {
+   "path": "ProductCarbonFootprints",
+   "idShort": "ProductCarbonFootprints",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/CarbonFootprint/ProductCarbonFootprints/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     7
+    ],
+    "row": {
+     "page": 7,
+     "type": "[SML]",
+     "idShort": "ProductCarbonFootprints",
+     "semanticId": "https://admin-shell.io/idta/CarbonFootprint/ProductCarbonFootprints/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductCarbonFootprints > ProductCarbonFootprint",
+   "idShort": "ProductCarbonFootprint",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CarbonFootprint/ProductCarbonFootprint/1/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "ProductCarbonFootprints > ProductCarbonFootprint > PcfCalculationMethods",
+   "idShort": "PcfCalculationMethods",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/CarbonFootprint/PcfCalculationMethods/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     8
+    ],
+    "row": {
+     "page": 8,
+     "type": "[SML]",
+     "idShort": "PcfCalculationMethods",
+     "semanticId": "https://admin-shell.io/idta/CarbonFootprint/PcfCalculationMethods/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductCarbonFootprints > ProductCarbonFootprint > PcfCalculationMethods > PcfCalculationMethod",
+   "idShort": "PcfCalculationMethod",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABG854#003",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "PcfCalculationMethod",
+     "semanticId": "0173-1#02-ABG854#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductCarbonFootprints > ProductCarbonFootprint > PcfCO2eq",
+   "idShort": "PcfCO2eq",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABG855#003",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     8
+    ],
+    "row": {
+     "page": 8,
+     "type": "[Prop]",
+     "idShort": "PcfCO2eq",
+     "semanticId": "0173-1#02-ABG855#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductCarbonFootprints > ProductCarbonFootprint > ReferenceImpactUnitForCalculation",
+   "idShort": "ReferenceImpactUnitForCalculation",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABG856#003",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "ReferenceImpactUnitForCalculation",
+     "semanticId": "0173-1#02-ABG856#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductCarbonFootprints > ProductCarbonFootprint > QuantityOfMeasureForCalculation",
+   "idShort": "QuantityOfMeasureForCalculation",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABG857#003",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "QuantityOfMeasureForCalculation",
+     "semanticId": "0173-1#02-ABG857#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductCarbonFootprints > ProductCarbonFootprint > LifeCyclePhases",
+   "idShort": "LifeCyclePhases",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/CarbonFootprint/LifeCyclePhases/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SML]",
+     "idShort": "LifeCyclePhases",
+     "semanticId": "https://admin-shell.io/idta/CarbonFootprint/LifeCyclePhases/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductCarbonFootprints > ProductCarbonFootprint > LifeCyclePhases > LifeCyclePhase",
+   "idShort": "LifeCyclePhase",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABG858#004",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Prop]",
+     "idShort": "LifeCyclePhase",
+     "semanticId": "0173-1#02-ABG858#004",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductCarbonFootprints > ProductCarbonFootprint > PerformanceClass",
+   "idShort": "PerformanceClass",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.carbon_footprint:1.0.0#performanceClass",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "PerformanceClass",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.carbon_footprint:1.0.0#performanceClass",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductCarbonFootprints > ProductCarbonFootprint > WebLinkToPublicCarbonFootprintStudy",
+   "idShort": "WebLinkToPublicCarbonFootprintStudy",
+   "modelType": "SubmodelElementList",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.carbon_footprint:1.0.0#webLinkToPublicCarbonFootprintStudy",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[SML]",
+     "idShort": "WebLinkToPublicCarbonFootprintStudy",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.carbon_footprint:1.0.0#webLinkToPublicCarbonFootprintStudy",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductCarbonFootprints > ProductCarbonFootprint > WebLinkToPublicCarbonFootprintStudy > DocumentIdentifier",
+   "idShort": "DocumentIdentifier",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.handover_documentation:2.0.0#DocumentIdentifier",
+   "json": "1..*",
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "DocumentIdentifier",
+     "semanticId": "urn:samm:io.admin-shell.idta.handover_documentation:2.0.0#DocumentIdentifier",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  }
+ ]
+}

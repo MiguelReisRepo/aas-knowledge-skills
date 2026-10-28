@@ -1,0 +1,2033 @@
+
+
+===== PAGE 1/39 =====
+  
+ 
+IDTA 02008-1-1 
+Time Series Data 
+ March 2023 
+S P E C I F I C A T I O N 
+Submodel Template of the  
+Asset Administration Shell 
+
+
+===== PAGE 2/39 =====
+2 | IDTA 02008-1-1 
+Imprint  
+ 
+Publisher 
+Industrial Digital Twin Association 
+Lyoner Strasse 18 
+60528 Frankfurt am Main 
+Germany 
+https://www.industrialdigitaltwin.org/ 
+ 
+ 
+Version history 
+ 
+Date 
+Version 
+Comment 
+2021-11-01 
+1.0 
+Used for development only. No official version published. 
+2023-03-01 
+1.1 
+Release of the official Submodel template published by IDTA. 
+
+
+===== PAGE 3/39 =====
+IDTA 02008-1-1 | 3 
+Contents 
+1 
+General ........................................................................................................................................... 6 
+1.1 
+About this document ............................................................................................................... 6 
+1.2 
+Scope of the Submodel Template .......................................................................................... 6 
+1.3 
+Relevant standards for the Submodel template ..................................................................... 6 
+1.4 
+Use cases and requirements .................................................................................................. 7 
+1.4.1 
+Time series data with passive AAS and passive Assets ................................................ 7 
+1.4.2 
+Time Series Data within the engineering phase of an Asset .......................................... 7 
+1.4.3 
+Time Series Data during usage phase – smart Sensor .................................................. 8 
+2 
+Submodel Template Time Series Data ........................................................................................... 9 
+2.1 
+Approach................................................................................................................................. 9 
+2.2 
+Definitions within the Submodel template specification ........................................................ 10 
+2.2.1 
+Notions of Time ............................................................................................................. 10 
+2.2.2 
+Data points and Segments ........................................................................................... 11 
+2.2.3 
+AAS Modelling of Time Series ...................................................................................... 13 
+2.3 
+Submodel Template of Time Series Data ............................................................................. 14 
+2.4 
+Example Timestamp definitions ............................................................................................ 29 
+2.5 
+Example qualifiers ................................................................................................................ 30 
+2.6 
+Outlook on Time Series Operations – not normative yet ...................................................... 31 
+Explanations on used table formats ..................................................................................................... 37 
+1. 
+General ................................................................................................................................. 37 
+2. 
+Tables on Submodels and SubmodelElements.................................................................... 37 
+Bibliography .......................................................................................................................................... 38 
+ 
+ 
+ 
+
+
+===== PAGE 4/39 =====
+4 | IDTA 02008-1-1 
+Figures 
+Figure 1 Scope and use cases for time series data .......................................................................................... 6 
+Figure 2 Use case of time series data along the value chain of an adhesive ................................................... 7 
+Figure 3 Use case of time series data in engineering – Motion Profiles ........................................................... 7 
+Figure 4 AAS Time Series Data Submodel within the product life cycle ........................................................... 9 
+Figure 5 Classification of time specifications ................................................................................................... 10 
+Figure 6 Example of absolute and incremental time points and durations within a user-defined time scale .. 10 
+Figure 7 Element IdShort as unique ID of a time series record....................................................................... 11 
+Figure 8 Time Series Data UML Diagram ....................................................................................................... 13 
+Figure 9 Data access without operations ........................................................................................................ 31 
+Figure 10 Data access with operations ........................................................................................................... 31 
+ 
+ 
+
+
+===== PAGE 5/39 =====
+IDTA 02008-1-1 | 5 
+Tables 
+Table 3 Types of time series segments ........................................................................................................... 12 
+Table 4 Specification of Submodel Template TimeSeries ............................................................................... 14 
+Table 5 Specification of SMC Metadata .......................................................................................................... 15 
+Table 6 Specification of SMC Record .............................................................................................................. 16 
+Table 7 Specification of SMC Segments ......................................................................................................... 17 
+Table 8 Specification of SMC InternalSegment ............................................................................................... 18 
+Table 9 Specification of SMC ExternalSegment ............................................................................................. 21 
+Table 10 Specification of SMC LinkedSegment .............................................................................................. 24 
+Table 11 Specification of SMC Records .......................................................................................................... 28 
+Table 12 Example Timestamp definitions ........................................................................................................ 29 
+Table 13 Example qualifiers ............................................................................................................................ 30 
+Table 14 Outlook on Submodel Template TimeSeries with Operations ......................................................... 32 
+Table 15 Outlook on Operation DeriveSegment ............................................................................................. 33 
+Table 16 Outlook on Operation ReadRecords ................................................................................................ 35 
+Table 17 Outlook on Operation ReadSegments ............................................................................................. 36 
+ 
+
+
+===== PAGE 6/39 =====
+6 | IDTA 02008-1-1 
+1 General 
+1.1 About this document 
+This document is a part of a specification series. Each part specifies the contents of a Submodel template for 
+the Asset Administration Shell (AAS). The AAS is described in [1], [2], [3] and [6]. First exemplary Submodel 
+contents were described in [4], while the actual format of this document was derived by the "Administration 
+Shell in Practice" [5]. The format aims to be very concise, giving only minimal necessary information for 
+applying a Submodel template, while leaving deeper descriptions and specification of concepts, structures 
+and mapping to the respective documents [1] to [6]. 
+ 
+1.2 Scope of the Submodel Template 
+In Industrie 4.0, the ubiquity of data sources and sensors and low costs of storage has resulted in increasing 
+amounts of time series data being captured – not only during the operational phase of an asset. A time 
+series is a series of data points in time order over a period of time. Time Series can represent raw data, but 
+can also represent main characteristics, textual descriptions or events in a concise way. This Submodel 
+template aims at an interoperable description of time series data in industrial automation for the complete 
+asset lifecycle. The focus of this Submodel template is on the semantic information of time series data. The 
+Submodel claims to integrate time series data within the AAS itself, but also from external data sources. 
+Figure 1 shows the use cases, such as sensor data from real and virtual sensors, and their technical storage 
+options inside or outside the AAS that were taken into account in the creation of this specification.   
+ 
+ 
+Figure 1 Scope and use cases for time series data 
+ 
+1.3 Relevant standards for the Submodel template 
+- 
+ISO 8601 “Data elements and interchange formats – Information interchange – Representation of 
+dates and times” was integrated for definition of time scales and time stamps 
+- 
+JSON Time Series Format [7] was considered to add structure and metadata. 
+- 
+ECLASS & IEC CDD was included to use semantic IDs for properties and qualifiers. 
+- 
+ISO/IEC 18014-1:2008 Information technology -- Security techniques -- Time-stamping services is 
+referenced to make a boundary with this specification regarding the time synchronization of various 
+data sources. 
+- 
+IEEE/IEC 61588-2021“Precision Clock Synchronization Protocol for Networked Measurement and 
+Control Systems” [8] is referenced to make a boundary with this specification regarding the time 
+synchronization of various data sources. 
+- 
+OPC Foundation: OPC Unified Architecture Part 11“Historical Access” has been considered to 
+provide the outlook on the methods for querying time series. 
+
+
+===== PAGE 7/39 =====
+IDTA 02008-1-1 | 7 
+1.4 Use cases and requirements  
+In creating this specification, the following use cases were contributed by participants. General requirements 
+were derived from the use cases and design decisions were made. 
+1.4.1 Time series data with passive AAS and passive Assets 
+The cold chain of an adhesive must be maintained from production to consumption. For this purpose, 
+multiple distributed sensors monitor the ambient temperature and store this data in the AAS of the adhesive.  
+Regardless of whether the data is synchronized continuously or at specific time intervals, a consistent time 
+series for the asset is available throughout the entire lifecycle and across different stakeholders. For this use 
+case a passive AAS whithout computing capacity is sufficient. 
+ 
+Figure 2 Use case of time series data along the value chain of an adhesive 
+ 
+1.4.2 Time Series Data within the engineering phase of an Asset 
+In the design of power drive systems, information on the motion sequence is exchanged between different 
+partners. User defined timestamps (for instance acceleration time in seconds) are usually used to describe 
+motion sequences. The following example shows a motion sequence of a rotary table in a sizing tool during 
+the enginering phase of a machine. 
+ 
+Figure 3 Use case of time series data in engineering – Motion Profiles 
+ 
+ 
+
+
+===== PAGE 8/39 =====
+8 | IDTA 02008-1-1 
+1.4.3 Time Series Data during usage phase – smart Sensor 
+This example gives an overview of how sensor telemetry data is stored in a file (e. g.CSV or BLOB in JSON 
+Encoding). In this example a temperature Sensor and a 3-axis acceleration sensor was used to record a 
+period of 5 seconds. 
+Tabelle 1: Use case of time series data during usage – smart sensor 
+Index timestamp 
+Temperature (°C) 
+RMS of Acceleration x-axis (m/s2) 
+RMS of Acceleration y-axis (m/s2) 
+RMS of Acceleration z-axis (m/s2) 
+0 
+2020-01-22T16:38:09Z 
+23.400 
+0.60 
+0.65 
+0.90 
+1 
+2020-01-22T16:38:10Z 
+23.415 
+0.61 
+0.80 
+1.00 
+2 
+2020-01-22T16:38:11Z 
+23.420 
+0.62 
+0.85 
+0.90 
+3 
+2020-01-22T16:38:12Z 
+23.405 
+1.60 
+5.00 
+1.25 
+4 
+2020-01-22T16:38:13Z 
+23.405 
+5.65 
+6.15 
+1.20 
+5 
+2020-01-22T16:38:14Z 
+23.390 
+6.00 
+6.50 
+2.05 
+ 
+If hundreds of different sensors are used on a factory floor, whose measurements are available locally, on-
+edge and in the cloud, for example, with different retention periods and integrity, a manufacturer- and 
+technology-neutral semantic description is necessary. In addition, the requirement to support a variety of 
+optimized and distributed storage options in the Submodel is obvious. 
+
+
+===== PAGE 9/39 =====
+IDTA 02008-1-1 | 9 
+2 Submodel Template Time Series Data 
+2.1 Approach 
+This Submodel represents an approach for the semantic description of time series along the entire asset life 
+cycle in the AAS. Since there are many optimized database systems for time series data, this specification 
+defines the integration of external data sources, as well as the storage of time series in the AAS itself. In 
+addition, the outlook on operations is given to enable standardized queries, inputs and functions on time 
+series data. 
+Time Series Data throughout the asset lifecycle  
+The Time Series Data Submodel can cover different phases of a product life cycle. As shown in Figure 4, the 
+usage of Time Series Data Submodel starts during the Engineering Phases (Development of a type). During 
+this phase, the Template of Time Series Data Submodel is created based on the Metadata of the 
+corresponding product “type”. The focus of the Time Series Data Submodel, however, is after the product is 
+instantiated and starts to store the record data that the product is generating.  
+Note – an asset type can also have a Submodel-instance with type-related time series data containing 
+segments and records, e. g. time series from simulations or calculations during the design phases. 
+ 
+ 
+Figure 4 AAS Time Series Data Submodel within the product life cycle  
+ 
+Generic Structure of Time Series 
+A time series consists of data points in time order. Timestamped data is the most basic type of time series 
+that associates values with points in time. An example of time series is shown in Table 2. 
+Tabelle 2: Simple time series 
+index Timestamp 
+value 
+0 
+2020-01-22T16:38:09Z 
+4 
+1 
+2020-01-22T16:39:09Z 
+5 
+2 
+2020-01-22T16:40:00Z 
+2 
+3 
+2020-01-22T16:41:30Z 
+6 
+4 
+2020-01-22T16:45:20Z 
+4 
+5 
+2020-01-22T16:50:36Z 
+1 
+ 
+A timestamp is used to assign a time to a data point or event. Data points (variables) can be measurement 
+data, events, or even textual descriptions. Segments (subsequences) of a time series divide a time series 
+into logical sections, which can be labelled and be described by further semantics.  
+For an interoperable exchange of time series data structure, timestamps, data points and operations are 
+defined in more detail in chapter 2.2. This specification focuses on these core elements of a time series. 
+
+
+===== PAGE 10/39 =====
+10 | IDTA 02008-1-1 
+Depending on the application and technology used, the times series model should be extended by further 
+properties and qualifier. 
+2.2 Definitions within the Submodel template specification 
+2.2.1 Notions of Time 
+A timestamp is used to assign various events and data to a unique point in time. The ISO 8601 standard can 
+be used for an unambiguous and well-defined method of presenting date, time of day, date and time, time 
+intervals and recurring time intervals. For a common interpretation of the timestamp, it is also indicated with 
+its time scale. In the automation and IT world, the Coordinated Universal Time (UTC) and the International 
+Atomic Time (TAI) time scales are established and are therefore prefeared to use in this specification. 
+In contrast to these international specified time scales are relative time measurements - e.g., with a 
+stopwatch - where the zero point can be arbitrary because of the mere measurement of a time difference. 
+For these time series the ISO 8601 timestamp is not appropriate and user-defined time formats and values 
+are used (see Figure 5). 
+ 
+Figure 5 Classification of time specifications 
+ 
+To describe the timeline of a qualitative time scale, the time unit such as hours, minutes, seconds, 
+milliseconds, or microseconds must be determined. Due to the SI (Système International) base unit, seconds 
+are the preferred time unit in this specification. In addition, it must be determined whether these are time 
+points or durations. A time point is one point on the time axis, whereas duration describe the length of a time 
+interval. Time intervals are limited by two points in time. 
+Usually and if not explicitly stated, time points refer to the starting point of the time scale, whereas time 
+durations build on each other (see Figure 6). To clearly identify the measurement model (absolute or 
+incremental), this can be done via a qualifier. 
+Note – data points (variables) of a measurement series can also be absolute or incremental.  
+ 
+Figure 6 Example of absolute and incremental time points and durations within a user-defined time 
+scale 
+Based on these explanations, the requirement for the following AAS Submodel Elements were determined: 
+- 
+Time <<Property>> with its corresponding semantic ID for eg. TAI, UTC or custom time scales: 
+o 
+UtcTime <<ConceptDescription>> 
+o 
+TaiTime << ConceptDescription >> 
+o 
+RelativePointInTime << ConceptDescription >> in seconds, due to the SI base unit 
+o 
+RelativeTimeDuration << ConceptDescription >> in seconds, due to the SI base unit 
+- 
+MeasurementModelQualifier <<Qualifier>> with value list [absolute, incremental] 
+
+
+===== PAGE 11/39 =====
+IDTA 02008-1-1 | 11 
+Note – Other timestamp formats and scales, such as Unix Time, Ephemeris Time (ET) or Barycentric 
+Dynamical Time (TBD) can be defined as Concept Description with corresponding semantic IDs. 
+Note – A time series can contain several timestamps, for example a timestamp from the sensor and a 
+timestamp from superior instances or in different timescales. 
+Note – This specification does not address the synchronization of clocks in measurement and control 
+systems. A time stamp produced by the clock of the local computer should be synchronisized with a time 
+stamp service provider, which is serving a common time reference. Further specifications such as IEC/IEEE 
+61588 “Precision Clock Synchronization Protocol for Networked Measurement and Control Systems” give 
+guidance for this. 
+2.2.2 Data points and Segments 
+Data points (variables) can be measurement data, events, or even textual descriptions. A data point has 
+several values X1, X2, X3, Xn with correspondending units (e. g. °C, m/s2, rpm, V, A, …). Depending on the 
+number of data points, a time series can have simple or complex structures (e. g. X1, Y1, Z1, X2, Y2, Z2, X3, Y3, 
+Z3, Xn, Yn, Zn,). 
+This specification does not define semantic IDs of time series variables. The semantic IDs of the data points 
+depend on the measured variables and their applications and should be chosen accordingly.  
+Record IDs - Within a time series timestamps and associated values are linked in a record via by an 
+Identifier (ID). The record ID must be unique within a time series. For simple time series, the record ID could 
+be handled like an index of integers and start with 0. For mass data and harmonizations from distributed data 
+sources, the ID in the form of a GUID is more appropriate. An explicit property for the record ID can be 
+omitted, if the idShort of the Submodel Element Collection is used as unique ID within a time series (see 
+Figure 7). 
+ 
+Figure 7 Element IdShort as unique ID of a time series record 
+ 
+A time series segment is a subsequence of values from the variables within a time series. Different 
+techniques for segmentation during data processing and analysis can be used. A segment has a name, a 
+description, the number of records, a start time, and an end time. Other information such as the sampling 
+rate, the sampling interval or additional user-defined properties may be contained. In addition, the status of a 
+time series segment can be important for users, in the meaning that the segment is completed (status = 
+completed) or is still subject to ongoing changes (status = in progress). For this requirement, a last updated 
+property can also be set. 
+Note - Sampling rate refers to the number of samples per second. It is usually measured in hertz (Hz) and is 
+often expressed as a frequency. For example, a sampling rate of 44.1 kHz means that 44,100 samples are 
+taken per second. The sampling interval refers to the time between successive records. It is usually 
+measured in seconds and is the inverse of the sampling rate. For example, if the sampling rate is 44.1 kHz, 
+the sampling interval is approximately 22.68 microseconds (1/44100 seconds). 
+ 
+ 
+
+
+===== PAGE 12/39 =====
+12 | IDTA 02008-1-1 
+This specification defines three types of time series segments (Internal, Linked and External), which can be 
+used according to the requirements of the use cases. Table 1 provides an overview of these. 
+ 
+Table 1 Types of time series segments 
+ 
+ 
+ 
+  
+ 
+InternalSegment 
+LinkedSegment 
+ExternalSegment 
+Description 
+InternalSegments allow an 
+I4.0 application (defined in 
+[7]) to manage the Time 
+Series Data structure and 
+content directly in the AAS. 
+LinkedSegments allow an I4.0 
+application to read out the endpoint 
+and query to an external system to 
+manage time series without the 
+AAS. 
+ExternalSegments allow an I4.0 
+application to find a data or BLOB file 
+within which time series data is 
+stored. 
+Suitable for  - 
+Few data points 
+- 
+handover of data points 
+- 
+Permissions managed 
+within the AAS 
+- 
+Brownfield integration 
+- 
+Mass data 
+- 
+Permissions managed in 
+external system 
+- 
+dynamic time series without 
+continuous update of AAS 
+- 
+Brownfield integration 
+- 
+Static time Series 
+- 
+Handover of time Series 
+- 
+Few accesses 
+Implications - 
+dynamic time series 
+require continuous 
+updating of the AAS 
+ 
+- 
+I4.0 application must be able to 
+work with endpoint and query 
+- 
+Data semantics and payload 
+separated from each other 
+- 
+I4.0 application must be able to 
+handle different file formats 
+- 
+Data semantics and payload 
+separated from each other 
+ 
+ 
+Qualifier (e. g. from ECLASS, IEC CDD or OPC UA) can be used to express further semantics in 
+conjunction with a defined data element type or a defined data value. Therefore, Qualifier can be used in all 
+those cases where existing definitions of data element types are not sufficiently specified. 
+Possible relevant qualifiers for time series data are: 
+- ValueQualityQualifier (IEC CDD 0112/2///61360_4#ADA350) [good, bad, uncertain]: The quality of the 
+data values can be of value in a time series analysis. This allows bad data values to be omitted from 
+aggregations or calculations. 
+- ValueOriginQualifier (IEC CDD 0112/2///61360_4#AAF582) [calculated, estimated, measured, set]: 
+Information about the type of data collection or generation for the value provided.  
+- ValueProcessingQualifier (IEC CDD 0112/2///61360_4#AAF583#002) [arithmetic mean, median, root 
+mean square, …]: Information about the method of preprocessing the value provided. 
+- MeasurementModelQualifier (defined in this Submodel specification) [absolute, incremental]: Information 
+about whether there is an absolute measurement, or whether the value is to be seen as additive to the 
+previous measurement. 
+Note - The scope of a qualifier depends on its application. For example, the ValueOriginQualifier can be 
+applied to a single data element, to an entire record, or to the data element in the metadata collection. 
+
+
+===== PAGE 13/39 =====
+IDTA 02008-1-1 | 13 
+2.2.3 AAS Modelling of Time Series 
+The preceding considerations and definitions are applied to the Time Series Submodel in Figure 8. 
+ 
+Figure 8 Time Series Data UML Diagram 
+ 
+ 
+
+
+===== PAGE 14/39 =====
+14 | IDTA 02008-1-1 
+2.3 Submodel Template of Time Series Data 
+Table 2 Specification of Submodel Template TimeSeries 
+idShort: 
+TimeSeries 
+Note: the above idShort shall always be as stated. 
+Class: 
+Submodel 
+semanticId: 
+[IRI] https://admin-shell.io/idta/TimeSeries/1/1 
+Explanation: 
+@de: Enthält Zeitreihendaten und Referenzen auf Zeitreihendaten, um diese entlang des Asset 
+Lebenszyklus aufzufinden und semantisch zu beschreiben. 
+@en: Contains time series data and references to time series data to discover and semantically 
+describe them along the asset lifecycle. 
+[SME type] 
+semanticId = [idType]value 
+[valueType] 
+card. 
+idShort 
+Description@en 
+example 
+ 
+[SMC] 
+Metadata 
+[IRI] https://admin-shell.io/idta/TimeSeries/Metadata/1/1 
+preferredName @de: Zeitreihen Metadaten 
+preferredName @en: time series metadata 
+definition @de: Eine Reihe von Daten, welche die Zeitreihe 
+beschreiben und über sie Auskunft geben 
+definition @en: A set of data describing and providing 
+information about the time series 
+n/a 
+1 
+[SMC] 
+Segments 
+[IRI] https://admin-shell.io/idta/TimeSeries/Segments/1/1 
+preferredName @de: Zeitreihensegmente 
+preferredName @en: time series segments 
+definition @de: Enthält Segmente einer Zeitreihe 
+definition @en: Contains segments of a time series 
+allowDuplicates = true 
+n/a 
+1 
+ 
+Note – see 2.6 “Outlook on Time Series Operations – not normative yet” for further SMEs in TimeSeries 
+Submodel  
+
+
+===== PAGE 15/39 =====
+IDTA 02008-1-1 | 15 
+Table 3 Specification of SMC Metadata 
+idShort: 
+Metadata  
+Note: the above idShort shall always be as stated. 
+Class: 
+SubmodelElementCollection (SMC) 
+semanticId: 
+[IRI] https://admin-shell.io/idta/TimeSeries/Metadata/1/1 
+Parent: 
+Submodel TimeSeries. 
+Explanation: 
+@de: Eine Reihe von Daten, welche die Zeitreihe beschreiben und über sie Auskunft geben 
+@en: A set of data describing and providing information about the time series 
+[SME type] 
+semanticId = [idType]value 
+[valueType] 
+card. 
+idShort 
+Description@en 
+example 
+ 
+[MultiLanguageP
+roperty] 
+Name 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Metadata/Name/1/1 
+preferredName @de: Name des Zeitreihe 
+preferredName @en: Name of the time series 
+Definition @de: Aussagekräftiger Name zur Beschriftung 
+Definition @en: Meaningful name for labeling 
+[STRING_TRANSLATABLE] 
+IO-Link Sensor Data@en 
+IO-Link Sensordaten@de 
+1 
+[MultiLanguageP
+roperty] 
+Description 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Metadata/Description/1/1 
+preferredName @de: Beschreibung der Zeitreihe 
+preferredName @en: Description of the time series 
+Definition @de: Kurze Beschreibung der Zeitreihendaten 
+Definition @en: Short description of the time series 
+[STRING_TRANSLATABLE] 
+IO-Link process data of the 
+sensor@en 
+IO-Link Prozessdaten des 
+Sensors@de 
+0..1 
+[SMC] 
+Record 
+[IRI] https://admin-shell.io/idta/TimeSeries/Record/1/1 
+preferredName @de: Zeitreihen-Datensatz 
+preferredName @en: Time series record 
+definition @de: Ein Zeitreihen-Datensatz ist durch seine ID 
+innerhalb der Zeitreihe eindeutig und beinhaltet die auf die 
+ID referenzierten Zeitstempel und Variablenwerte 
+definition @en: A time series record is unique by its ID 
+within the time series and contains the timestamps and 
+variable values referenced to the ID 
+ordered = true 
+allowDuplicated = true 
+n/a 
+1 
+ 
+ 
+
+
+===== PAGE 16/39 =====
+16 | IDTA 02008-1-1 
+Table 4 Specification of SMC Record 
+idShort: 
+Record 
+Note: a different idShort might be used, as long as it is unique in the Submodel. 
+Class: 
+SubmodelElementCollection (SMC) 
+semanticId: 
+[IRI] https://admin-shell.io/idta/TimeSeries/Record/1/1 
+Parent: 
+SMC Metadata, SMC Records 
+Explanation: 
+@de: Ein Zeitreihen-Datensatz ist durch seine ID innerhalb der Zeitreihe eindeutig und beinhaltet die 
+auf die ID referenzierten Zeitstempel und Variablenwerte. Vergleichbar mit einer Zeile in einer Tabelle. 
+@en: A time series record is unique by its ID within the time series and contains the timestamps and 
+variable values referenced to the ID. Similar to a row in a table. 
+[SME type] 
+semanticId = [idType]value 
+[valueType] 
+card. 
+idShort 
+Description@en 
+example 
+ 
+[Property] 
+Time{00} 
+[IRI] https://admin-shell.io/idta/TimeSeries/UtcTime/1/1 or 
+[IRI] https://admin-shell.io/idta/TimeSeries/TaiTime/1/1 or 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/RelativePointInTime/1/1 or 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/RelativeTimeDuration/1/1 or other 
+suitable semantic ID to select the appropriate time scale and 
+time format.  
+preferredName @de: Zeit 
+preferredName @en: Time 
+ 
+ 
+1..n 
+{Variable} 
+Note: A suitable semantic ID should be used to select the 
+appropriate variable definitions. 
+n/a 
+ 
+0..n 
+ 
+
+
+===== PAGE 17/39 =====
+IDTA 02008-1-1 | 17 
+Table 5 Specification of SMC Segments 
+idShort: 
+Segments 
+Note: the above idShort shall always be as stated. 
+Class: 
+SubmodelElementCollection (SMC) 
+semanticId: 
+[IRI] https://admin-shell.io/idta/TimeSeries/Segments/1/1 
+Parent: 
+Submodel TimeSeries 
+Explanation: 
+@de: Enthält Segmente einer Zeitreihe 
+@en: Contains segments of a time series 
+[SME type] 
+semanticId = [idType]value 
+[valueType] 
+card. 
+idShort 
+Description@en 
+example 
+ 
+[SMC] 
+ExternalSegmen
+t{00} 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segments/ExternalSegment/1/1 
+preferredName @de: Externes Zeitreihensegment 
+preferredName @en: external time series segment 
+definition @de: Referenz auf eine Datei von Datenpunkten 
+in aufeinanderfolgender Reihenfolge über einen bestimmten 
+Zeitraum 
+definition @en: Reference to a file of data points in 
+sequential order over a period of time 
+n/a  
+0..n 
+[SMC] 
+LinkedSegment{
+00} 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segments/LinkedSegment/1/1 
+preferredName @de: Verknüpftes Zeitreihensegment 
+preferredName @en: linked time series segment 
+definition @de: Referenz auf einen Endpunkt von 
+Datenpunkten in aufeinanderfolgender Reihenfolge über 
+einen bestimmten Zeitraum 
+definition @en: Reference to an endpoint of data points in 
+sequential order over a period of time 
+n/a  
+0..n 
+[SMC] 
+InternalSegment
+{00} 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segments/InternalSegment/1/1 
+preferredName @de: Externes Zeitreihensegment 
+preferredName @en: external time series segment 
+definition @de: Gruppierte Abfolge von Datenpunkten in 
+aufeinanderfolgender Reihenfolge über einen bestimmten 
+Zeitraum 
+definition @en: Grouped sequence of data points in 
+sequential order over a specified period of time 
+n/a  
+0..n 
+ 
+
+
+===== PAGE 18/39 =====
+18 | IDTA 02008-1-1 
+Table 6 Specification of SMC InternalSegment 
+idShort: 
+InternalSegment 
+Note: a different idShort might be used, as long as it is unique in the Submodel. 
+Class: 
+SubmodelElementCollection (SMC) 
+semanticId: 
+[IRI] https://admin-shell.io/idta/TimeSeries/Segments/InternalSegment/1/1 
+Parent: 
+SMC Segments 
+Explanation: 
+@de: Gruppierte abfolge von Datenpunkten in aufeinanderfolgender Reihenfolge über einen 
+bestimmten Zeitraum 
+@en: Grouped sequence of data points in successive order over a specified period of time 
+[SME type] 
+semanticId = [idType]value 
+[valueType] 
+card. 
+idShort 
+Description@en 
+example 
+ 
+[MultiLanguageP
+roperty] 
+Name 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/Name/1/1 
+preferredName @de: Name des Zeitreihensegments 
+preferredName @en: Name of the time series segment 
+Definition @en: Meaningful name for labeling 
+Definition @de: Aussagekräftiger Name zur Beschriftung 
+[STRING_TRANSLATABLE] 
+Regular operation@en 
+Normalbetrieb@de 
+0..1 
+[MultiLanguageP
+roperty] 
+Description 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/Description/1/1 
+preferredName @de: Beschreibung des Zeitreihensegments 
+preferredName @en: Description of the time series segment 
+Definition @en: Short description of the time series segment 
+Definition @de: Kurze Beschreibung des 
+Zeitreihensegments 
+[STRING_TRANSLATABLE] 
+IO-Link process data of the 
+sensor during a normal 
+motion@en 
+IO-Link Prozessdaten des 
+Sensors während einer 
+Normalfahrt@de 
+0..1 
+
+
+===== PAGE 19/39 =====
+IDTA 02008-1-1 | 19 
+[Property] 
+RecordCount 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/RecordCount/1/1 
+preferredName @de: Anzahl der Datensätze 
+preferredName @en:  Record Count 
+definition @de: Gibt an, wie viele Datensätze in einem 
+Segment vorhanden sind 
+definition @en: Indicates how many records are present in a 
+segment 
+[LONG] 
+13134 
+0..1 
+[Property] 
+StartTime 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/StartTime/1/1 or other 
+meaningfull semantic id  
+preferredName @de: Startzeit 
+preferredName @en: Start time 
+definition @de: Enthält den ersten aufgezeichneten 
+Zeitstempel des Zeitreihensegments oder dessen 
+Startzeitpunkt. Zeitformat und -skala entspricht dem der 
+Zeitreihe. 
+definition@en: Contains the first recorded timestamp of the 
+time series segment or its start time if it is a qualitative time 
+series. Time format and scale corresponds to that of the 
+time series. 
+[TIMESTSAMP] 
+2020-09-19T14:40:38.318 
+0..1 
+[Property] 
+EndTime 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/EndTime/1/1 or other 
+meaningfull semantic id 
+preferredName @de: Endzeit  
+preferredName @en: End time 
+definition @de: Enthält den letzten aufgezeichneten 
+Zeitstempel des Zeitreihensegments oder dessen Ende. 
+Zeitformat und -skala entspricht dem der Zeitreihe. 
+definition@en: Contains the last recorded timestamp of the 
+time series segment or its end. Time format and scale 
+corresponds to that of the time series. 
+[TIMESTSAMP] 
+2020-09-19T14:40:38.318 
+0..1 
+[Property] 
+Duration 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/Duration/1/1 or other 
+meaningfull semantic id 
+preferredName @de: Dauer  
+preferredName @en: Duration 
+definition @de: Zeitraum den das Segment umfasst, 
+dargestellt nach ISO 8601 durch das Format 
+P[n]Y[n]M[n]DT[n]H[n]M[n]S 
+definition@en: Period covered by the segment, represented 
+according to ISO 8601 by the format 
+P[n]Y[n]M[n]DT[n]H[n]M[n]S 
+[String] 
+P3DT4H59M  
+(according to ISO 8601) 
+ 
+ 
+or in case of other seamantic 
+id  
+[long] 
+14 [s]  
+0..1 
+
+
+===== PAGE 20/39 =====
+20 | IDTA 02008-1-1 
+[Property] 
+SamplingInterval 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/SamplingInterval/1/1 
+Note: A different semantic ID is to be used to select the 
+appropriate scale and format (eg. min, s, ms, …).  
+preferredName @de: Abtastintervall 
+preferredName @en:  Sampling Interval 
+definition @de: Der zeitliche Abstand zwischen zwei 
+Datenpunkten (Länge eines Zyklus) 
+definition @en: The time period between two time series 
+records (Length of cycle) 
+[LONG] 
+1 s 
+0..1 
+[Property] 
+SamplingRate 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/SamplingRate/1/1 
+Note: A different semantic ID is to be used to select the 
+appropriate scale and format (eg. Hz, kHz, …).  
+ 
+preferredName @de: Abtastrate 
+preferredName @en:  Sampling rate 
+definition @de: Definiert die Anzahl der Abtastungen pro 
+Sekunde für eine regelmäßige Zeitreihe in Hz. 
+definition @en: Defines the number of samples per second 
+for a regular time series in Hz. 
+[LONG] 
+3200 Hz 
+0..1 
+[Property] 
+State 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/State/1/1 
+preferredName @de: Status 
+preferredName @en:  state 
+definition @de: Zustand der Zeitreihe bezogen auf ihren 
+Fortschritt 
+definition @en: State of the time series related to its 
+progress 
+enumeration:  
+in progress (https://admin-
+shell.io/idta/TimeSeries/Segment/State/InProgress/1/1), 
+completed (https://admin-
+shell.io/idta/TimeSeries/Segment/State/Completed/1/1) 
+completed 
+0..1 
+[Property] 
+LastUpdate 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/LastUpdate/1/1 
+preferredName @de: Letzte Aktualisierung 
+preferredName @en:  Last update 
+definition @de: Zeitpunkt der letzten Veränderung 
+definition @en: Time of the last chance 
+[TIMESTSAMP] 
+2020-09-19T14:40:38.318 
+0..1 
+
+
+===== PAGE 21/39 =====
+IDTA 02008-1-1 | 21 
+[SMC] 
+Records 
+[IRI] https://admin-shell.io/idta/TimeSeries/Records/1/1 
+preferredName @de: Zeitreihen-Datensätze 
+preferredName @en:  Time series records 
+definition @de: Gruppe von Datenpunkten in 
+aufeinanderfolgender Reihenfolge über einen bestimmten 
+Zeitraum 
+definition @en: Group of data points in successive order 
+over a specified period of time 
+ordered = true 
+allowDuplicates = false 
+n/a 
+1 
+ 
+Table 7 Specification of SMC ExternalSegment 
+idShort: 
+ExternalSegment 
+Note: a different idShort might be used, as long as it is unique in the Submodel. 
+Class: 
+SubmodelElementCollection (SMC) 
+semanticId: 
+[IRI] https://admin-shell.io/idta/TimeSeries/Segments/ExternalSegment/1/1 
+Parent: 
+SMC Segments 
+Explanation: 
+@de: Referenz auf eine Datei von Datenpunkten in aufeinanderfolgender Reihenfolge über einen 
+bestimmten Zeitraum 
+@en: Reference to a file of data points in sequential order over a period of time 
+[SME type] 
+semanticId = [idType]value 
+[valueType] 
+card. 
+idShort 
+Description@en 
+example 
+ 
+[MultiLanguageP
+roperty] 
+Name 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/Name/1/1 
+preferredName @de: Name des Zeitreihensegments 
+preferredName @en: Name of the time series segment 
+Definition @en: Meaningful name for labeling 
+Definition @de: Aussagekräftiger Name zur Beschriftung 
+[STRING_TRANSLATABLE] 
+Regular operation@en 
+Normalbetrieb@de 
+0..1 
+[MultiLanguageP
+roperty] 
+Description 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/Description/1/1 
+preferredName @de: Beschreibung des Zeitreihensegments 
+preferredName @en: Description of the time series segment 
+Definition @en: Short description of the time series segment 
+Definition @de: Kurze Beschreibung des 
+Zeitreihensegments 
+[STRING_TRANSLATABLE] 
+IO-Link process data of the 
+sensor during a normal 
+motion@en 
+IO-Link Prozessdaten des 
+Sensors während einer 
+Normalfahrt@de 
+0..1 
+
+
+===== PAGE 22/39 =====
+22 | IDTA 02008-1-1 
+[Property] 
+RecordCount 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/RecordCount/1/1 
+preferredName @de: Anzahl der Datensätze 
+preferredName @en:  Record Count 
+definition @de: Gibt an, wie viele Datensätze in einem 
+Segment vorhanden sind 
+definition @en: Indicates how many records are present in a 
+segment 
+[LONG] 
+13134 
+0..1 
+[Property] 
+StartTime 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/StartTime/1/1 or other 
+meaningfull semantic id  
+preferredName @de: Startzeit 
+preferredName @en: Start time 
+definition @de: Enthält den ersten aufgezeichneten 
+Zeitstempel des Zeitreihensegments oder dessen 
+Startzeitpunkt. Zeitformat und -skala entspricht dem der 
+Zeitreihe. 
+definition@en: Contains the first recorded timestamp of the 
+time series segment or its start time if it is a qualitative time 
+series. Time format and scale corresponds to that of the 
+time series. 
+[TIMESTSAMP] 
+2020-09-19T14:40:38.318 
+0..1 
+[Property] 
+EndTime 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/EndTime/1/1 or other 
+meaningfull semantic id 
+preferredName @de: Endzeit  
+preferredName @en: End time 
+definition @de: Enthält den letzten aufgezeichneten 
+Zeitstempel des Zeitreihensegments oder dessen Ende. 
+Zeitformat und -skala entspricht dem der Zeitreihe. 
+definition@en: Contains the last recorded timestamp of the 
+time series segment or its end. Time format and scale 
+corresponds to that of the time series. 
+[TIMESTSAMP] 
+2020-09-19T14:40:38.318 
+0..1 
+[Property] 
+Duration 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/Duration/1/1 or other 
+meaningfull semantic id 
+preferredName @de: Dauer  
+preferredName @en: Duration 
+definition @de: Zeitraum den das Segment umfasst, 
+dargestellt nach ISO 8601 durch das Format 
+P[n]Y[n]M[n]DT[n]H[n]M[n]S 
+definition@en: Period covered by the segment, represented 
+according to ISO 8601 by the format 
+P[n]Y[n]M[n]DT[n]H[n]M[n]S 
+[String] 
+P3DT4H59M  
+(according to ISO 8601) 
+ 
+ 
+or in case of other seamantic 
+id  
+[long] 
+14 [s]  
+0..1 
+
+
+===== PAGE 23/39 =====
+IDTA 02008-1-1 | 23 
+[Property] 
+SamplingInterval 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/SamplingInterval/1/1 
+Note: A different semantic ID is to be used to select the 
+appropriate scale and format (eg. min, s, ms, Hz, …).  
+preferredName @de: Abtastintervall 
+preferredName @en:  Sampling Interval 
+definition @de: Der zeitliche Abstand zwischen zwei 
+Datenpunkten (Länge eines Zyklus) 
+definition @en: The time period between two time series 
+records (Length of cycle) 
+[LONG] 
+1 s 
+0..1 
+[Property] 
+SamplingRate 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/SamplingRate/1/1 
+Note: A different semantic ID is to be used to select the 
+appropriate scale and format (eg. min, s, ms, Hz, …).  
+ 
+preferredName @de: Abtastrate 
+preferredName @en:  Sampling rate 
+definition @de: Definiert die Anzahl der Abtastungen pro 
+Sekunde für eine regelmäßige Zeitreihe in Hz. 
+definition @en: Defines the number of samples per second 
+for a regular time series in Hz. 
+[LONG] 
+3200 Hz 
+0..1 
+[Property] 
+State 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/State/1/1 
+preferredName @de: Status 
+preferredName @en:  state 
+definition @de: Zustand der Zeitreihe bezogen auf ihren 
+Fortschritt 
+definition @en: State of the time series related to its 
+progress 
+enumeration:  
+in progress (https://admin-
+shell.io/idta/TimeSeries/Segment/State/InProgress/1/1), 
+completed (https://admin-
+shell.io/idta/TimeSeries/Segment/State/Completed/1/1) 
+completed 
+0..1 
+[Property] 
+LastUpdate 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/LastUpdate/1/1 
+preferredName @de: Letzte Aktualisierung 
+preferredName @en:  Last update 
+definition @de: Zeitpunkt der letzten Veränderung 
+definition @en: Time of the last chance 
+[TIMESTSAMP] 
+2020-09-19T14:40:38.318 
+0..1 
+
+
+===== PAGE 24/39 =====
+24 | IDTA 02008-1-1 
+[File] 
+File 
+[IRI] https://admin-shell.io/idta/TimeSeries/File/1/1 
+preferredName @de: Zeitreihen Datendatei 
+preferredName @en:  time series data file 
+definition @de: Abfolge von Datenpunkten in 
+aufeinanderfolgender Reihenfolge über einen bestimmten 
+Zeitraum innerhalb eines ausgelagerten Datenfiles 
+definition @en: Sequence of data points in sequential order 
+over a period of time within a paged data file 
+n/a 
+0..1 
+[Blob] 
+Blob 
+[IRI] https://admin-shell.io/idta/TimeSeries/Blob/1/1 
+preferredName @de: Zeitreihen Blob 
+preferredName @en:  time series Blob 
+definition @de: Abfolge von Datenpunkten in 
+aufeinanderfolgender Reihenfolge über einen bestimmten 
+Zeitraum innerhalb eines BLOBs 
+definition @en: Sequence of data points in sequential order 
+over a period of time within a BLOB 
+n/a 
+0..1 
+ 
+Table 8 Specification of SMC LinkedSegment 
+idShort: 
+LinkedSegment 
+Note: a different idShort might be used, as long as it is unique in the Submodel. 
+Class: 
+SubmodelElementCollection (SMC) 
+semanticId: 
+[IRI] https://admin-shell.io/idta/TimeSeries/Segments/LinkedSegment/1/1 
+Parent: 
+SMC Segments 
+Explanation: 
+@de: Referenz auf einen Endpunkt von Datenpunkten in aufeinanderfolgender Reihenfolge über einen 
+bestimmten Zeitraum 
+@en: Reference to an endpoint of data points in sequential order over a period of time 
+[SME type] 
+semanticId = [idType]value 
+[valueType] 
+card. 
+idShort 
+Description@en 
+example 
+ 
+[MultiLanguageP
+roperty] 
+Name 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/Name/1/1 
+preferredName @de: Name des Zeitreihensegments 
+preferredName @en: Name of the time series segment 
+Definition @en: Meaningful name for labeling 
+Definition @de: Aussagekräftiger Name zur Beschriftung 
+[STRING_TRANSLATABLE] 
+Regular operation@en 
+Normalbetrieb@de 
+0..1 
+
+
+===== PAGE 25/39 =====
+IDTA 02008-1-1 | 25 
+[MultiLanguageP
+roperty] 
+Description 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/Description/1/1 
+preferredName @de: Beschreibung des Zeitreihensegments 
+preferredName @en: Description of the time series segment 
+Definition @en: Short description of the time series segment 
+Definition @de: Kurze Beschreibung des 
+Zeitreihensegments 
+[STRING_TRANSLATABLE] 
+IO-Link process data of the 
+sensor during a normal 
+motion@en 
+IO-Link Prozessdaten des 
+Sensors während einer 
+Normalfahrt@de 
+0..1 
+[Property] 
+RecordCount 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/RecordCount/1/1 
+preferredName @de: Anzahl der Datensätze 
+preferredName @en:  Record Count 
+definition @de: Gibt an, wie viele Datensätze in einem 
+Segment vorhanden sind 
+definition @en: Indicates how many records are present in a 
+segment 
+[LONG] 
+13134 
+0..1 
+[Property] 
+StartTime 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/StartTime/1/1 or other 
+meaningfull semantic id  
+preferredName @de: Startzeit 
+preferredName @en: Start time 
+definition @de: Enthält den ersten aufgezeichneten 
+Zeitstempel des Zeitreihensegments oder dessen 
+Startzeitpunkt. Zeitformat und -skala entspricht dem der 
+Zeitreihe. 
+definition@en: Contains the first recorded timestamp of the 
+time series segment or its start time if it is a qualitative time 
+series. Time format and scale corresponds to that of the 
+time series. 
+[TIMESTSAMP] 
+2020-09-19T14:40:38.318 
+0..1 
+[Property] 
+EndTime 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/EndTime/1/1 or other 
+meaningfull semantic id 
+preferredName @de: Endzeit  
+preferredName @en: End time 
+definition @de: Enthält den letzten aufgezeichneten 
+Zeitstempel des Zeitreihensegments oder dessen Ende. 
+Zeitformat und -skala entspricht dem der Zeitreihe. 
+definition@en: Contains the last recorded timestamp of the 
+time series segment or its end. Time format and scale 
+corresponds to that of the time series. 
+[TIMESTSAMP] 
+2020-09-19T14:40:38.318 
+0..1 
+
+
+===== PAGE 26/39 =====
+26 | IDTA 02008-1-1 
+[Property] 
+Duration 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/Duration/1/1 or other 
+meaningfull semantic id 
+preferredName @de: Dauer  
+preferredName @en: Duration 
+definition @de: Zeitraum den das Segment umfasst, 
+dargestellt nach ISO 8601 durch das Format 
+P[n]Y[n]M[n]DT[n]H[n]M[n]S 
+definition@en: Period covered by the segment, represented 
+according to ISO 8601 by the format 
+P[n]Y[n]M[n]DT[n]H[n]M[n]S 
+[String] 
+P3DT4H59M  
+(According to ISO 8601) 
+ 
+ 
+or in case of other seamantic 
+id  
+[long] 
+14 [s]  
+0..1 
+[Property] 
+SamplingInterval 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/SamplingInterval/1/1 
+Note: A different semantic ID is to be used to select the 
+appropriate scale and format (eg. min, s, ms, Hz, …).  
+preferredName @de: Abtastintervall 
+preferredName @en:  Sampling Interval 
+definition @de: Der zeitliche Abstand zwischen zwei 
+Datenpunkten (Länge eines Zyklus) 
+definition @en: The time period between two time series 
+records (Length of cycle) 
+[LONG] 
+1 s 
+0..1 
+[Property] 
+SamplingRate 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/SamplingRate/1/1 
+Note: A different semantic ID is to be used to select the 
+appropriate scale and format (eg. min, s, ms, Hz, …).  
+ 
+preferredName @de: Abtastrate 
+preferredName @en:  Sampling rate 
+definition @de: Definiert die Anzahl der Abtastungen pro 
+Sekunde für eine regelmäßige Zeitreihe in Hz. 
+definition @en: Defines the number of samples per second 
+for a regular time series in Hz. 
+[LONG] 
+3200 Hz 
+0..1 
+[Property] 
+State 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/State/1/1 
+preferredName @de: Status 
+preferredName @en:  state 
+definition @de: Zustand der Zeitreihe bezogen auf ihren 
+Fortschritt 
+definition @en: State of the time series related to its 
+progress 
+enumeration:  
+in progress (https://admin-
+shell.io/idta/TimeSeries/Segment/State/InProgress/1/1), 
+completed (https://admin-
+shell.io/idta/TimeSeries/Segment/State/Completed/1/1)  
+completed 
+0..1 
+
+
+===== PAGE 27/39 =====
+IDTA 02008-1-1 | 27 
+[Property] 
+LastUpdate 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/LastUpdate/1/1 
+preferredName @de: Letzte Aktualisierung 
+preferredName @en:  Last update 
+definition @de: Zeitpunkt der letzten Veränderung 
+definition @en: Time of the last chance 
+[TIMESTSAMP] 
+2020-09-19T14:40:38.318 
+0..1 
+[Property] 
+Endpoint 
+[IRI] https://admin-shell.io/idta/TimeSeries/Endpoint/1/1 
+preferredName @de: Zeitreihen API Endpunkt 
+preferredName @en:  time series API endpoint 
+definition @de: Gibt einen Standort einer Ressource auf 
+einen API-Server an, über den Zeitreihen angefragt werden 
+können 
+definition @en: Specifies a location of a resource on an API 
+server through which time series can be requested 
+n/a 
+1 
+[Property] 
+Query 
+[IRI] https://admin-shell.io/idta/TimeSeries/Query/1/1 
+preferredName @de: Zeitreihen API Query 
+preferredName @en:  time series API Query 
+definition @de: generische Abfrage zum Lesen von 
+Zeitreihen-Daten aus einer API 
+definition @en: generic query component to read time series 
+data from an API 
+n/a 
+1 
+ 
+ 
+
+
+===== PAGE 28/39 =====
+28 | IDTA 02008-1-1 
+Table 9 Specification of SMC Records 
+idShort: 
+Records 
+Note: the above idShort shall always be as stated. 
+Class: 
+SubmodelElementCollection (SMC) 
+semanticId: 
+[IRI] https://admin-shell.io/idta/TimeSeries/Records/1/1 
+Parent: 
+SMC Segment 
+Explanation: 
+@de: Gruppe von Datenpunkten in aufeinanderfolgender Reihenfolge über einen bestimmten Zeitraum 
+@en: Group of data points in successive order over a specified period of time 
+[SME type] 
+semanticId = [idType]value 
+[valueType] 
+card. 
+idShort 
+Description@en 
+example 
+ 
+[SMC] 
+Record 
+[IRI] https://admin-shell.io/idta/TimeSeries/Record/1/1 
+preferredName @de: Zeitreihen-Datensatz 
+preferredName @en: Time series record 
+Note: a different idShort should be chosen to be unique in 
+the InternalRecord SMC. The idShort corresponds to the 
+Record Id and can be a GUID or incremented. 
+Ordered = true 
+AllowDuplicates = true 
+n/a 
+0..n 
+ 
+ 
+
+
+===== PAGE 29/39 =====
+IDTA 02008-1-1 | 29 
+2.4 Example Timestamp definitions 
+Table 10 Example Timestamp definitions 
+[SME type] 
+semanticId = [idType]value 
+[valueType] 
+idShort 
+Description@en 
+example 
+[Property] 
+UtcTime 
+[IRI] https://admin-shell.io/idta/TimeSeries/UtcTime/1/1 
+or [IRDI] 0112/2///61360_4#ADA387#001 
+preferredName @de: Zeitstempel UTC 
+preferredName @en: Timestamp UTC 
+definition @de: Zeitstempel nach ISO 8601 auf der 
+Zeitskala der koordinierten Weltzeit (UTC). 
+definition@en: Timestamp according to ISO 8601 on the 
+timescale ccordinated universal time (UTC). 
+[TIMESTSAMP] 
+2020-09-19T14:40:38.318 
+[Property] 
+TaiTime 
+[IRI] https://admin-shell.io/idta/TimeSeries/TaiTime/1/1 
+or [IRDI] 0112/2///61360_4#ADA386#001 
+preferredName @de: Zeitstempel TAI 
+preferredName @en: Timestamp TAI 
+definition @de: Zeitstempel nach ISO 8601 auf der 
+Zeitskala internationale Atomzeit (TAI). 
+definition@en: Timestamp according to ISO 8601 on the 
+timescale international atomic time (TAI). 
+[TIMESTSAMP] 
+2020-09-19T14:40:38.318 
+[Property] 
+RelativeTimeP
+oint 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/RelativeTimePoint/1/1 
+preferredName @de: Zeitstempel 
+preferredName @en: Timestamp 
+definition @de: Zeitpunktangabe in Sekunden. 
+Zeitpunkte referenzieren auf die Startzeit des 
+Zeitreihensegments. 
+definition@en: Point of Time in seconds. Time points 
+refer to the start time of the time series segment. 
+[REAL_MEASURE] 
+ 
+5 s 
+  
+[Property] 
+RelativeTimeD
+uration 
+[IRI] [IRI] https://admin-
+shell.io/idta/TimeSeries/RelativeTimeDuration/1/1 
+or [IRDI] 0112/2///61360_4#AAE028#001 
+preferredName @de: Zeitdauer 
+preferredName @en: Timeduration 
+definition @de: Angabe der zeitlichen Dauer in 
+Sekunden (Anzahl der Sekunden). Zeitdauern 
+referenzieren auf den jeweils vorangegangenen Eintrag 
+im Zeitreihensegment. 
+definition@en: Time duration specification in seconds 
+(number of seconds). Time durations refer to the 
+previous entry in the time series segment. 
+[REAL_MEASURE] 
+ 
+5 s 
+  
+ 
+
+
+===== PAGE 30/39 =====
+30 | IDTA 02008-1-1 
+2.5 Example qualifiers 
+Table 11 Example qualifiers 
+Qualifier/type 
+Qualifier/semanticId 
+Description@en 
+Qualifier/value 
+ 
+ValueQualityQua
+lifier 
+[IRDI] 0112/2///61360_4#ADA350 
+qualifier that specifies the quality of the value 
+of a data element type 
+Notice - The quality of the data values can be 
+of value in a time series analysis. This allows 
+bad data values to be omitted from 
+aggregations or calculations. 
+0112/2///61360_7#CTA052 - good  
+0112/2///61360_7#CTA053 - bad  
+0112/2///61360_7#CTA054 - uncertain  
+0112/2///61360_7#CTA000 - others 
+ValueOriginQuali
+fier 
+[IRDI] 0112/2///61360_4#AAF582 
+qualifier that specifies the type of data 
+capturing or generation for the provided 
+value 
+Notice - Information about the type of data 
+collection or generation for the value 
+provided. 
+0112/2///61360_7#CTA004 - calculated  
+0112/2///61360_7#CTA005 - estimated  
+0112/2///61360_7#CTA006 - measured  
+0112/2///61360_7#CTA007 - set  
+0112/2///61360_7#CTA000 - others 
+ 
+ValueProcessing
+Qualifier 
+[IRDI] 
+0112/2///61360_4#AAF583#002qualifier that 
+specifies a method of selecting or computing 
+a representative value from more than one 
+valueNotice - Information about the method 
+of preprocessing the value provided. 
+0112/2///61360_7#CTA008 - arithmetic mean  
+0112/2///61360_7#CTA009 - geometric mean  
+0112/2///61360_7#CTA010 - harmonic mean  
+0112/2///61360_7#CTA011 - median  
+0112/2///61360_7#CTA012 - mode  
+0112/2///61360_7#CTA013 - root mean square  
+0112/2///61360_7#CTA014 - weighted arithmetic mean  
+0112/2///61360_7#CTA015 - weighted geometric mean  
+0112/2///61360_7#CTA000 - others 
+[Qualifier] 
+MeasurementMo
+delQualifier 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Qualifier/Measureme
+ntModel/1/1 
+qualifier that specifies whether there is an 
+absolute measurement, or whether the value 
+is to be seen as additive to the previous 
+measurement 
+Notice - Information about whether there is 
+an absolute measurement, or it must be 
+considered additive. 
+https://admin-
+shell.io/idta/TimeSeries/Qualifier/MeasurementModel/A
+bsolute/1/1 - absolute 
+https://admin-
+shell.io/idta/TimeSeries/Qualifier/MeasurementModel/In
+cremental/1/1 - incremental 
+ 
+ 
+ 
+
+
+===== PAGE 31/39 =====
+IDTA 02008-1-1 | 31 
+2.6 Outlook on Time Series Operations – not normative yet  
+The defined Submodel offers more flexibility due to the different modeling approaches for time series 
+segments, but this can lead to limitations in interoperability. I4.0 applications (defined in [7]) that access time 
+series data may have to deal with proprietary systems and data formats (Figure 9).  
+ 
+ 
+Figure 9 Data access without operations 
+ 
+Asset Administration Shells and Submodels offer Operations to specify a generic way to describe functional 
+interfaces. This allows implementations of the AAS/SM to provide, as in this case, convenience operations or 
+additional business functionality.  
+In our case we would like to simplify the identification of the data of interest: 
+• 
+ReadSegments, ReadRecords provide access to physically existing data by filtering Segments / 
+Records by time range.  
+• 
+DeriveSegment perform additional computation by rearranging / aggregating existing data to meet 
+the use case needs. 
+Since Operations may operate in many Segments, we decided to model them directly on the entry point of 
+the time series Submodel. This additionally simplifies access since no navigation to child elements is 
+required. Implementations should hide the complexity of combining data from different source aka. Segment 
+types (Internal, Linked, External). 
+This approach enables I4.0 applications to access Time Series Data interoperably, regardless of storage 
+location and format. However, the mapping and access must be programmed in the AAS for this (see Figure 
+10). 
+ 
+ 
+Figure 10 Data access with operations 
+ 
+
+
+===== PAGE 32/39 =====
+32 | IDTA 02008-1-1 
+Table 12 Outlook on Submodel Template TimeSeries with Operations 
+idShort: 
+TimeSeries 
+Note: the above idShort shall always be as stated. 
+Class: 
+Submodel 
+semanticId: 
+[IRI] https://admin-shell.io/idta/TimeSeries/1/1 
+Parent: 
+ 
+Explanation: 
+@de: Enthält Zeitreihendaten und Referenzen auf Zeitreihendaten, um diese entlang des Asset 
+Lebenszyklus aufzufinden und semantisch zu beschreiben. 
+@en: Contains time series data and references to time series data to discover and semantically 
+describe them along the asset lifecycle. 
+[SME type] 
+semanticId = [idType]value 
+[valueType] 
+card. 
+idShort 
+Description@en 
+example 
+ 
+[SMC] 
+Metadata 
+[IRI] https://admin-shell.io/idta/TimeSeries/Metadata/1/1 
+preferredName @de: Zeitreihen Metadaten 
+preferredName @en: time series metadata 
+definition @de: Eine Reihe von Daten, welche die Zeitreihe 
+beschreiben und über sie Auskunft geben 
+definition @en: A set of data describing and providing 
+information about the time series 
+n/a 
+1 
+[SMC] 
+Segments 
+[IRI] https://admin-shell.io/idta/TimeSeries/Segments/1/1 
+preferredName @de: Zeitreihensegmente 
+preferredName @en: time series segments 
+definition @de: Enthält Segmente einer Zeitreihe 
+definition @en: Contains segments of a time series 
+n/a 
+1 
+[Opr] 
+DeriveSegments 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/DeriveSegments/1/1 
+n/a 
+0..1 
+[Opr] 
+ReadRecords 
+[IRI] https://admin-shell.io/idta/TimeSeries/ReadRecords/1/1 n/a 
+0..1 
+[Opr] 
+ReadSegments 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/ReadSegments/1/1 
+n/a 
+0..1 
+ 
+ 
+ 
+ 
+
+
+===== PAGE 33/39 =====
+IDTA 02008-1-1 | 33 
+Table 13 Outlook on Operation DeriveSegment 
+idShort: 
+DeriveSegment 
+Note: the above idShort shall always be as stated. 
+Class: 
+Operation 
+semanticId: 
+[IRI] https://admin-shell.io/idta/TimeSeries/DeriveSegment/1/1 
+Parent: 
+Submodel TimeSeries 
+Explanation: 
+@de: Berechnet ein Segment, das alle Datensätze aus allen Segmenten der angegebenen Zeitspanne 
+enthält. Optional können die Datensätze auf verschiedene Arten aggregiert werden, um die 
+Datenmenge zu reduzieren. 
+@en: Computes a Segment containig all the Records from all Segments of the given timespan. 
+Optionally, the Records can be aggregated in different ways to reduce the amount of data. 
+[Variable kind / 
+Variable value 
+type] 
+semanticId = [idType]value 
+[valueType] 
+card. 
+idShort 
+Description@en 
+example 
+ 
+[IN / Range] 
+Timespan 
+[IRI]  
+https://admin-shell.io/idta/TimeSeries/Timespan/1/1 
+preferredName @de: Zeitspanne 
+preferredName @en: Timespan 
+@de: Der valueType der übergebenen Zeitspanne muss mit 
+dem valueType der Time Properties der Segemente 
+übereinstimmen. 
+@en: The valueType of the given timespan must match the 
+valueType of the time properties of the segments. 
+n/a 
+1 
+[IN / Property] 
+SamplingInterval 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/Segment/SamplingInterval/1/1 
+Note: A different semantic ID is to be used to select the 
+appropriate scale and format (eg. min, s, ms, Hz, …).  
+preferredName @de: Abtastintervall 
+preferredName @en: Sampling Interval 
+definition @de: Der zeitliche Abstand zwischen zwei 
+Datenpunkten (Länge eines Zyklus). 
+definition @en: The time period between two time series 
+records (Length of cycle). 
+long  
+5 Hz 
+0..1 
+ 
+ 
+ 
+
+
+===== PAGE 34/39 =====
+34 | IDTA 02008-1-1 
+[IN / Property] 
+AggregationM
+ethod 
+[IRI] https://admin-
+shell.io/idta/TimeSeries/AggregationMethod/1/1 
+@de: Methode zur Aggregation der Daten. Muss 
+zusammen mit SampleInterval übergeben werden.  
+@en: Method to aggregate data. Only valid in combination 
+with SamplingInterval. 
+Value List: 
+- 
+Max (Selects the largest data points) 
+- 
+Min (Selects the smallest data points) 
+- 
+Avg (Averages the data points) 
+- 
+Sum (Adds the data points together) 
+- 
+Count (The number of raw data points in the set) 
+Note – for documentation and further value lists see 
+http://opentsdb.net/docs/build/html/user_guide/query/aggr
+egators.html 
+ 
+0..1 
+[OUT / SMC] 
+Segment 
+[IRI]  
+https://admin-
+shell.io/idta/TimeSeries/Segments/InternalSegment/1/1 
+ 
+Note – Record IDs must be unique across segments. 
+n/a 
+1 
+ 
+ 
+ 
+
+
+===== PAGE 35/39 =====
+IDTA 02008-1-1 | 35 
+Table 14 Outlook on Operation ReadRecords 
+idShort: 
+ReadRecords 
+Note: the above idShort shall always be as stated. 
+Class: 
+Operation 
+semanticId: 
+[IRI] https://admin-shell.io/idta/TimeSeries/ReadRecords/1/1 
+Parent: 
+Submodel TimeSeries 
+Explanation: 
+@de: Liefert alle Records über alle Segmente, die innerhalb der übergebenen Zeitspanne liegen. 
+Etwaige Unterschiede bzgl. Abtastrate, Zeitintervallen, etc. werden nicht berücksichtigt. 
+@en: Returns all records of all segments that are within the given time span. Any differences in 
+sampling rate, time intervals, etc. are not considered. 
+[Variable kind / 
+Variable value 
+type] 
+semanticId = [idType]value 
+[valueType] 
+card. 
+idShort 
+Description@en 
+example 
+ 
+[IN / Range] 
+Timespan 
+[IRI] https://admin-shell.io/idta/TimeSeries/Timespan/1/1 
+preferredName @de: Zeitspanne 
+preferredName @en: Timespan 
+@de: Der valueType der übergebenen Zeitspanne muss mit 
+dem valueType der Time Properties der Records 
+übereinstimmen. 
+@en: The valueType of the given timespan must match the 
+valueType of the time properties of the Records. 
+n/a 
+1 
+[OUT / SMC] 
+Records 
+[IRI] https://admin-shell.io/idta/TimeSeries/Records/1/1 
+ 
+@de: Records, die innerhalb der übergebenen Zeitspanne 
+liegen. 
+@en: Segments that overlap with the passed period. 
+n/a 
+0..* 
+ 
+ 
+ 
+
+
+===== PAGE 36/39 =====
+36 | IDTA 02008-1-1 
+Table 15 Outlook on Operation ReadSegments 
+idShort: 
+ReadSegments 
+Note: the above idShort shall always be as stated. 
+Class: 
+Operation 
+semanticId: 
+[IRI] https://admin-shell.io/idta/TimeSeries/ReadSegments/1/1 
+Parent: 
+Submodel TimeSeries 
+Explanation: 
+@de: Liefert alle Segmente, deren Zeitspanne sich mit der übergebenen Periode überschneiden, ohne 
+die enthaltenen Records zu filtern. Getroffene Segmente werden komplett zurückgegeben. 
+@en: Returns all segments whose timespan overlaps the given period without filtering the records 
+contained. Hit segments are returned in full. 
+[Variable kind / 
+Variable value 
+type] 
+semanticId = [idType]value 
+[valueType] 
+card. 
+idShort 
+Description@en 
+example 
+ 
+[IN / Range] 
+Timespan 
+[IRI] https://admin-shell.io/idta/TimeSeries/Timespan/1/1 
+preferredName @de: Zeitspanne 
+preferredName @en: Timespan 
+@de: Der valueType der übergebenen Zeitspanne muss mit 
+dem valueType der Time Properties der Segemente 
+übereinstimmen. 
+@en: The valueType of the given timespan must match the 
+valueType of the time properties of the Segments. 
+n/a 
+1 
+[OUT / SMC] 
+Segments 
+[IRI] https://admin-shell.io/idta/TimeSeries/Segments/1/1 
+preferredName @de: Segments 
+preferredName @en: Segments 
+@de: Enthält Segmente, die sich zumindest teilweise mit 
+der übergebenen Periode überschneiden. 
+@en: Contains segments that at least partially overlap with 
+the passed period. 
+n/a 
+0..* 
+ 
+ 
+
+
+===== PAGE 37/39 =====
+IDTA 02008-1-1 | 37 
+Explanations on used table formats 
+1. General 
+The used tables in this document try to outline information as concise as possible. They do not convey all 
+information on Submodels and SubmodelElements. For this purpose, the definitive definitions are given by a 
+separate file in form of an AASX file of the Submodel template and its elements. 
+ 
+2. Tables on Submodels and SubmodelElements 
+For clarity and brevity, a set of rules is used for the tables for describing Submodels and SubmodelElements. 
+• 
+The tables follow in principle the same conventions as in [5]. 
+• 
+The table heads abbreviate 'cardinality' with 'card'. 
+• 
+The tables often place two information in different rows of the same table cell. In this case, the first 
+information is marked out by sharp brackets [] form the second information. A special case are the 
+semanticIds, which are marked out by the format: (type)(local)[idType]value. 
+• 
+The types of SubmodelElements are abbreviated: 
+ 
+SME type 
+SubmodelElement type 
+Property 
+Property 
+MLP 
+MultiLanguageProperty 
+Range 
+Range 
+File 
+File 
+Blob 
+Blob 
+Ref 
+ReferenceElement 
+Rel 
+RelationshipElement 
+SMC 
+SubmodelElementCollection 
+• 
+If an idShort ends with '{00}', this indicates a suffix of the respective length (here: 2) of decimal digits, 
+in order to make the idShort unique. A different idShort might be choosen, as long as it is unique in 
+the parent’s context. 
+• 
+The Keys of semanticId in the main section feature only idType and value, such as: 
+[IRI]https://admin-shell.io/vdi/2770/1/0/DocumentId/Id. The attributes "type" and "local" (typically 
+"ConceptDescription" and "(local)" or "GlobalReference" and (no-local)") need to be set accordingly; 
+see [6]. 
+• 
+If a table does not contain a column with "parent" heading, all represented attributes share the same 
+parent. This parent is denoted in the head of the table. 
+• 
+Multi-language strings are represented by the text value, followed by '@'-character and the ISO 639 
+language code: example@EN. 
+• 
+The [valueType] is only given for Properties. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+===== PAGE 38/39 =====
+38 | IDTA 02008-1-1 
+Bibliography 
+[1] 
+ 
+“Recommendations for implementing the strategic initiative INDUSTRIE 4.0”, acatech, 
+April 2013. [Online]. Available https://www.acatech.de/Publikation/recommendations-for-
+implementing-the-strategic-initiative-industrie-4-0-final-report-of-the-industrie-4-0-working-
+group/ 
+[2] 
+ 
+“Implementation Strategy Industrie 4.0: Report on the results of the Industrie 4.0 
+Platform”; BITKOM e.V. / VDMA e.V., /ZVEI e.V., April 2015. [Online]. Available: 
+https://www.bitkom.org/noindex/Publikationen/2016/Sonstiges/Implementation-Strategy-
+Industrie-40/2016-01-Implementation-Strategy-Industrie40.pdf 
+[3] 
+ 
+“The Structure of the Administration Shell: TRILATERAL PERSPECTIVES from France, 
+Italy and Germany”, March 2018, [Online]. Available:  https://www.plattform-
+i40.de/I40/Redaktion/EN/Downloads/Publikation/hm-2018-trilaterale-coop.html 
+[4] 
+ 
+“Beispiele zur Verwaltungsschale der Industrie 4.0-Komponente – Basisteil (German)”; 
+ZVEI e.V., Whitepaper, November 2016. [Online]. Available:  https://www.zvei.org/presse-
+medien/publikationen/beispiele-zur-verwaltungsschale-der-industrie-40-komponente-
+basisteil/ 
+[5] 
+ 
+“Verwaltungsschale in der Praxis. Wie definiere ich Teilmodelle, beispielhafte Teilmodelle 
+und Interaktion zwischen Verwaltungsschalen (in German)”, Version 1.0, April 2019, 
+Plattform Industrie 4.0 in Kooperation mit VDE GMA Fachausschuss 7.20, Federal 
+Ministry for Economic Affairs and Energy (BMWi), Available: https://www.plattform-
+i40.de/PI40/Redaktion/DE/Downloads/Publikation/2019-verwaltungsschale-in-der-
+praxis.html 
+[6] 
+ 
+“Details of the Asset Administration Shell; Part 1 - The exchange of information between 
+partners in the value chain of Industrie 4.0 (Version 3.0RC01)”, November 2020, [Online]. 
+Available: https://www.plattform-
+i40.de/PI40/Redaktion/EN/Downloads/Publikation/Details-of-the-Asset-Administration-
+Shell-Part1.html 
+[7] 
+ 
+”Functional View of the Asset Administration Shell”, Version 1.0, April 2021, Plattform 
+Industrie 4.0, Available: https://www.plattform-
+i40.de/IP/Redaktion/DE/Downloads/Publikation/Functional-
+View.pdf?__blob=publicationFile&v=5 
+[8] 
+ 
+ 
+ 
+IEEE SA - IEEE/IEC 61588-2021 Precision Clock Synchronization Protocol for Networked  
+Measurement and Control Systems, October 2022, [Online]. Available IEEE SA - 
+IEEE/IEC 61588-2021 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+===== PAGE 39/39 =====
+IDTA 02008-1-1 | 39 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+www.industrialdigitaltwin.org  
+ 

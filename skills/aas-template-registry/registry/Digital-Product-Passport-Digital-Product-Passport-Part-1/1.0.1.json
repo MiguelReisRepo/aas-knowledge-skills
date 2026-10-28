@@ -1,0 +1,280 @@
+{
+ "template": "Digital Product Passport / Digital Product Passport Part-1",
+ "version": "1.0.1",
+ "submodelIdShort": "DppMetadata",
+ "submodelSemanticId": "https://admin-shell.io/idta/cds/dppMetadata/1",
+ "json": {
+  "path": "published/Digital Product Passport/Digital Product Passport Part-1/1/0/1/IDTA 02099-1_Template Digital Product Passport - Part 1.json",
+  "gitBlob": "125ae9b90f3ac6b02b82e8b3d7add023bb009c79"
+ },
+ "pdf": {
+  "path": "published/Digital Product Passport/Digital Product Passport Part-1/1/0/1/IDTA 02099-1_Template Digital Product Passport - Part 1.pdf",
+  "relation": "same folder",
+  "sha256": "323a55789acc1fbdb1079904953a4097abff4be20ffe1c41c24f22b577dd6146",
+  "annexA": [
+   {
+    "page": 21,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 21,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 10
+ },
+ "elements": [
+  {
+   "path": "digitalProductPassportId",
+   "idShort": "digitalProductPassportId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/digitalProductPassportId/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "digitalProductPassportId",
+     "semanticId": "https://admin-shell.io/idta/cds/digitalProductPassportId/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "uniqueProductIdentifier",
+   "idShort": "uniqueProductIdentifier",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/uniqueProductIdentifier/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "uniqueProductIdentifier",
+     "semanticId": "https://admin-shell.io/idta/cds/uniqueProductIdentifier/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "granularity",
+   "idShort": "granularity",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/granularity/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "granularity",
+     "semanticId": "https://admin-shell.io/idta/cds/granularity/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "dppSchemaVersion",
+   "idShort": "dppSchemaVersion",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/dppSchemaVersion/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "dppSchemaVersion",
+     "semanticId": "https://admin-shell.io/idta/cds/dppSchemaVersion/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "dppStatus",
+   "idShort": "dppStatus",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/dppStatus/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "dppStatus",
+     "semanticId": "https://admin-shell.io/idta/cds/dppStatus/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "lastUpdate",
+   "idShort": "lastUpdate",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/lastUpdate/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "lastUpdate",
+     "semanticId": "https://admin-shell.io/idta/cds/lastUpdate/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "economicOperatorId",
+   "idShort": "economicOperatorId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/economicOperatorId/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "economicOperatorId",
+     "semanticId": "https://admin-shell.io/idta/cds/economicOperatorId/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "facilityId",
+   "idShort": "facilityId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/facilityId/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "facilityId",
+     "semanticId": "https://admin-shell.io/idta/cds/facilityId/1",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "contentSpecificationIds",
+   "idShort": "contentSpecificationIds",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/cds/contentSpecificationIds/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SML]",
+     "idShort": "contentSpecificationIds",
+     "semanticId": "https://admin-shell.io/idta/cds/contentSpecificationIds/1",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "contentSpecificationIds > contentSpecificationId",
+   "idShort": "contentSpecificationId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/contentSpecificationId/1",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "contentSpecificationId",
+     "semanticId": "https://admin-shell.io/idta/cds/contentSpecificationId/1",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  }
+ ]
+}

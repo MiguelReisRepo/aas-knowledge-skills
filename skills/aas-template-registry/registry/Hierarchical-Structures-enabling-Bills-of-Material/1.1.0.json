@@ -1,0 +1,302 @@
+{
+ "template": "Hierarchical Structures enabling Bills of Material",
+ "version": "1.1.0",
+ "submodelIdShort": "HierarchicalStructures",
+ "submodelSemanticId": "https://admin-shell.io/idta/HierarchicalStructures/1/1/Submodel",
+ "json": {
+  "path": "published/Hierarchical Structures enabling Bills of Material/1/1/IDTA 02011-1-1_Template_HSEBoM.json",
+  "gitBlob": "ce9540a38e1232ee3cdd38e7e2939304ea5ed786"
+ },
+ "pdf": {
+  "path": "published/Hierarchical Structures enabling Bills of Material/1/1/IDTA 02011-1-1_Submodel_HierarchicalStructuresEnablingBoM.pdf",
+  "relation": "same folder",
+  "sha256": "3d47da0d743cfa5ff92c40162887d02c4a671087f6756f5cee680e2ba36966ed",
+  "annexA": [
+   {
+    "page": 19,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 9,
+  "unverified": 2
+ },
+ "elements": [
+  {
+   "path": "EntryNode",
+   "idShort": "EntryNode",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/EntryNode/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Entity]",
+     "idShort": "EntryNode",
+     "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/EntryNode/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "EntryNode > Node",
+   "idShort": "Node",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/Node/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..*",
+     "1..*"
+    ],
+    "pages": [
+     15,
+     17
+    ]
+   },
+   "status": "unverified",
+   "effective": "1..*"
+  },
+  {
+   "path": "EntryNode > Node > Node",
+   "idShort": "Node",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/Node/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..*",
+     "1..*"
+    ],
+    "pages": [
+     15,
+     17
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "EntryNode > Node > SameAs",
+   "idShort": "SameAs",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/SameAs/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     17
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Rel]",
+     "idShort": "SameAs",
+     "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/SameAs/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "EntryNode > Node > IsPartOf",
+   "idShort": "IsPartOf",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/IsPartOf/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     17
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Rel]",
+     "idShort": "IsPartOf",
+     "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/IsPartOf/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "EntryNode > Node > HasPart",
+   "idShort": "HasPart",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/HasPart/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16,
+     18
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Rel]",
+     "idShort": "HasPart",
+     "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/HasPart/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "EntryNode > Node > BulkCount",
+   "idShort": "BulkCount",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/BulkCount/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Property]",
+     "idShort": "BulkCount",
+     "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/BulkCount/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "EntryNode > SameAs",
+   "idShort": "SameAs",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/SameAs/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     17
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Rel]",
+     "idShort": "SameAs",
+     "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/SameAs/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "EntryNode > IsPartOf",
+   "idShort": "IsPartOf",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/IsPartOf/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     17
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Rel]",
+     "idShort": "IsPartOf",
+     "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/IsPartOf/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "EntryNode > HasPart",
+   "idShort": "HasPart",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/HasPart/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16,
+     18
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Rel]",
+     "idShort": "HasPart",
+     "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/HasPart/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "ArcheType",
+   "idShort": "ArcheType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ArcheType/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "ArcheType",
+     "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/ArcheType/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  }
+ ]
+}

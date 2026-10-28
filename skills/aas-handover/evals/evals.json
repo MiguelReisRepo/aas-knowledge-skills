@@ -1,0 +1,346 @@
+{
+ "skill": "aas-handover",
+ "skill_version": "1.1.0",
+ "description": "IDTA 02004 Handover Documentation 2.0/2.0.1: IRDI submodel id, VDI 2770 classification, 1.2->2.0 renames, DocumentVersion rules, DigitalFile semantics, 2.0.1 bug fix.",
+ "items": [
+  {
+   "id": "aas-handover-001",
+   "question": "Our detector recognises Handover Documentation submodels by an admin-shell.io/vdi/2770 IRI. What is the submodel semanticId of IDTA 02004 v2.0?",
+   "expected_answer": "The ECLASS IRDI 0173-1#01-AHF578#003 (idShort HandoverDocumentation) - not an admin-shell.io IRI.",
+   "must_include": [
+    "0173-1#01-AHF578#003"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02004 Handover Documentation",
+    "revision": "2.0 (June 2025)",
+    "section": "2.4, Table 2 Attributes of the Submodel instance",
+    "file": "skills/aas-handover/IDTA-02004-2-0_Submodel_Handover-Documentation.txt",
+    "page": 9,
+    "quote": "idShort: HandoverDocumentation Class: Submodel semanticId: 0173-1#01-AHF578#003"
+   },
+   "tags": [
+    "semanticId",
+    "revision-specific"
+   ]
+  },
+  {
+   "id": "aas-handover-002",
+   "question": "What exact value must ClassificationSystem carry for the VDI 2770 classification in Handover Documentation 2.0?",
+   "expected_answer": "\"VDI 2770 Blatt 1:2020\".",
+   "must_include": [
+    "VDI 2770 Blatt 1:2020"
+   ],
+   "must_not_include": [
+    "VDI2770:2018"
+   ],
+   "citation": {
+    "document": "IDTA 02004 Handover Documentation",
+    "revision": "2.0 (June 2025)",
+    "section": "2.3 Enumeration: document classification according to VDI 2770 Blatt 1:2020",
+    "file": "skills/aas-handover/IDTA-02004-2-0_Submodel_Handover-Documentation.txt",
+    "page": 8,
+    "quote": "This classification is understood as ClassificationSystem identified by the value \"VDI 2770 Blatt 1:2020\" within this Submodel template."
+   },
+   "tags": [
+    "value-convention"
+   ]
+  },
+  {
+   "id": "aas-handover-003",
+   "question": "Which VDI 2770 ClassId and ClassName should an operating manual get?",
+   "expected_answer": "03-02 Operation (DE: Bedienung, class semanticId 0173-1#07-ABU490#003).",
+   "must_include": [
+    "03-02",
+    "Operation"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02004 Handover Documentation",
+    "revision": "2.0 (June 2025)",
+    "section": "2.3, Table 1 DocumentClassification according to VDI 2770 Blatt 1:2020",
+    "file": "skills/aas-handover/IDTA-02004-2-0_Submodel_Handover-Documentation.txt",
+    "page": 8,
+    "quote": "03-02 Operation Bedienung 0173-1#07-ABU490#003"
+   },
+   "tags": [
+    "classification"
+   ]
+  },
+  {
+   "id": "aas-handover-004",
+   "question": "Can a Document in Handover Documentation 2.0 be classified only according to IEC 61355?",
+   "expected_answer": "No. Additional systems are allowed, but the classification according to VDI 2770 Blatt 1:2020 is mandatory.",
+   "must_include": [
+    "VDI 2770",
+    [
+     "mandatory",
+     "must"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02004 Handover Documentation",
+    "revision": "2.0 (June 2025)",
+    "section": "2.3, text after Table 1",
+    "file": "skills/aas-handover/IDTA-02004-2-0_Submodel_Handover-Documentation.txt",
+    "page": 8,
+    "quote": "The classification according to VDI 2770 Blatt 1:2020 is mandatory in the Submodel Handover Documentation."
+   },
+   "tags": [
+    "mandatory",
+    "classification"
+   ]
+  },
+  {
+   "id": "aas-handover-005",
+   "question": "ClassName is a MultiLanguageProperty. Which language is mandatory in it?",
+   "expected_answer": "English (EN) is mandatory; other languages may be added.",
+   "must_include": [
+    [
+     "EN",
+     "English"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02004 Handover Documentation",
+    "revision": "2.0 (June 2025)",
+    "section": "2.3",
+    "file": "skills/aas-handover/IDTA-02004-2-0_Submodel_Handover-Documentation.txt",
+    "page": 8,
+    "quote": "While the latter can be given in multiple languages, EN is mandatory."
+   },
+   "tags": [
+    "mandatory",
+    "MLP"
+   ]
+  },
+  {
+   "id": "aas-handover-006",
+   "question": "Migrating a 1.2 handover: what are DocumentVersionId and Summary called in 2.0?",
+   "expected_answer": "DocumentVersionId became Version and Summary became Description, each with a new semanticId (non-backward compatible).",
+   "must_include": [
+    "Description"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02004 Handover Documentation",
+    "revision": "2.0 (June 2025)",
+    "section": "Annex C, Table 15 List of changes (items 6 and 7)",
+    "file": "skills/aas-handover/IDTA-02004-2-0_Submodel_Handover-Documentation.txt",
+    "page": 21,
+    "quote": "Property DocumentVersionId changed to Version with new SemanticId 7 x Property Summary changed to Description with new SemanticId."
+   },
+   "tags": [
+    "renamed-idShort",
+    "migration"
+   ]
+  },
+  {
+   "id": "aas-handover-007",
+   "question": "What replaced the 1.2 property ValueId inside DocumentId in Handover Documentation 2.0?",
+   "expected_answer": "DocumentIdentifier (semanticId 0173-1#02-AAO099#004), a non-backward-compatible change.",
+   "must_include": [
+    "DocumentIdentifier"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02004 Handover Documentation",
+    "revision": "2.0 (June 2025)",
+    "section": "Annex C, Table 15 List of changes (item 9)",
+    "file": "skills/aas-handover/IDTA-02004-2-0_Submodel_Handover-Documentation.txt",
+    "page": 21,
+    "quote": "ValueID was changed to DocumetIdentifier."
+   },
+   "tags": [
+    "renamed-idShort",
+    "migration"
+   ]
+  },
+  {
+   "id": "aas-handover-008",
+   "question": "Which values should StatusValue of a DocumentVersion take?",
+   "expected_answer": "InReview (under review) or Released (released).",
+   "must_include": [
+    "InReview",
+    "Released"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02004 Handover Documentation",
+    "revision": "2.0 (June 2025)",
+    "section": "2.8, Table 8, row StatusValue",
+    "file": "skills/aas-handover/IDTA-02004-2-0_Submodel_Handover-Documentation.txt",
+    "page": 14,
+    "quote": "The following two values should be used for the application of this guideline: InReview (under review), Released (released)"
+   },
+   "tags": [
+    "value-list"
+   ]
+  },
+  {
+   "id": "aas-handover-009",
+   "question": "A manual exists as two separate PDFs, one English and one German. Do we model one Document with two DocumentVersions?",
+   "expected_answer": "No. A document existing in multiple languages is represented by different Documents; a single DocumentVersion with several languages is only for one file that contains multiple languages.",
+   "must_include": [
+    [
+     "different Documents",
+     "separate Documents",
+     "two Documents"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02004 Handover Documentation",
+    "revision": "2.0 (June 2025)",
+    "section": "2.1 Approach",
+    "file": "skills/aas-handover/IDTA-02004-2-0_Submodel_Handover-Documentation.txt",
+    "page": 6,
+    "quote": "If a document exists in multiple languages, it shall be represented by different \"Documents\". If a document features multiple languages within itself, it shall be represented by a single \"DocumentVersion\" with multiple associated languages."
+   },
+   "tags": [
+    "multi-language",
+    "structure"
+   ]
+  },
+  {
+   "id": "aas-handover-010",
+   "question": "Can we split one document into chapters across several DigitalFile entries of the same DocumentVersion?",
+   "expected_answer": "No. If multiple DigitalFiles with different MIME types are used, each represents the DocumentVersion in total and must contain equal content.",
+   "must_include": [
+    [
+     "equal content",
+     "same content"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02004 Handover Documentation",
+    "revision": "2.0 (June 2025)",
+    "section": "2.1 Approach",
+    "file": "skills/aas-handover/IDTA-02004-2-0_Submodel_Handover-Documentation.txt",
+    "page": 6,
+    "quote": "each of them is assumed to represent the \"DocumentVersion\" in total and must contain equal content"
+   },
+   "tags": [
+    "DigitalFile"
+   ]
+  },
+  {
+   "id": "aas-handover-011",
+   "question": "Which file format does Handover Documentation (per VDI 2770) require for DigitalFile, and must every DocumentVersion have one?",
+   "expected_answer": "PDF/A (ISO 19005-1/-2/-3, i.e. PDF/A-1, -2, -3); every DocumentVersion shall contain at least one DigitalFile.",
+   "must_include": [
+    "PDF/A"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02004 Handover Documentation",
+    "revision": "2.0 (June 2025)",
+    "section": "2.1 Approach",
+    "file": "skills/aas-handover/IDTA-02004-2-0_Submodel_Handover-Documentation.txt",
+    "page": 6,
+    "quote": "According to VDI 2770, PDF/A files are required including ISO 19005-1, ISO 19005-2 and ISO 19005-3"
+   },
+   "tags": [
+    "file-format",
+    "mandatory"
+   ]
+  },
+  {
+   "id": "aas-handover-012",
+   "question": "What semanticId does OrganizationShortName have in Handover Documentation 2.0 - an ECLASS IRDI like its siblings?",
+   "expected_answer": "No IRDI is printed: its semanticId is the URL https://api.eclass-cdp.com/0173-1-02-ABI002-003 with no supplementalSemanticId (the official 2.0.1 template JSON does the same).",
+   "must_include": [
+    "api.eclass-cdp.com/0173-1-02-ABI002-003"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02004 Handover Documentation",
+    "revision": "2.0 (June 2025)",
+    "section": "2.8, Table 8, row OrganizationShortName",
+    "file": "skills/aas-handover/IDTA-02004-2-0_Submodel_Handover-Documentation.txt",
+    "page": 14,
+    "quote": "OrganizationShortName https://api.eclass-cdp.com/0173-1-02-ABI002-003"
+   },
+   "tags": [
+    "semanticId",
+    "anomaly"
+   ],
+   "notes": "Confirmed in the 2.0.1 template JSON (OrganizationShortName semanticId = the cdp URL, no supplementals)."
+  },
+  {
+   "id": "aas-handover-013",
+   "question": "The 2.0 PDF prints no cardinality for DocumentVersion inside the DocumentVersions list. What cardinality does the official template file give?",
+   "expected_answer": "OneToMany (1..*) per the SMT/Cardinality qualifier in the official 2.0.1 template JSON.",
+   "must_include": [
+    [
+     "OneToMany",
+     "1..*"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02004 Handover Documentation - official template JSON",
+    "revision": "2.0.1 (admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06)",
+    "section": "Documents/Document/DocumentVersions/DocumentVersion (semanticId 0173-1#02-ABI503#003/0173-1#01-AHF582#003), SMT/Cardinality qualifier",
+    "file": "idta-pdfs:json/published/Handover Documentation/2/0/1/IDTA 02004-2-0-1_Template_HandoverDocumentation.json",
+    "lines": "885-917",
+    "quote": "\"type\": \"SMT/Cardinality\", \"valueType\": \"xs:string\", \"value\": \"OneToMany\""
+   },
+   "tags": [
+    "cardinality",
+    "template-json"
+   ]
+  },
+  {
+   "id": "aas-handover-014",
+   "question": "Is 2.0 still the latest Handover Documentation release, and what did the next release fix?",
+   "expected_answer": "No. 2.0.1 (November 2025) is a bug-fix release: issue #196 fixed ClassName's displayName, which had 'en' twice (the 'Klassenname' text is now 'de'), plus typo fixes (#147).",
+   "must_include": [
+    "2.0.1",
+    "ClassName",
+    [
+     "displayName",
+     "display name"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02004 Handover Documentation",
+    "revision": "2.0.1 (November 2025, admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06)",
+    "section": "Annex C, Changes Version 2.0 to Version 2.0.1",
+    "file": "idta-pdfs:txt/published/Handover Documentation/2/0/1/IDTA 02004-2-0-1_Submodel_Handover Documentation.txt",
+    "page": 22,
+    "quote": "The language of the LangString with text \"Klassenname\" was changed to \"de\"."
+   },
+   "tags": [
+    "version",
+    "bug-fix"
+   ]
+  },
+  {
+   "id": "aas-handover-015",
+   "question": "Migrating from Handover Documentation 1.2: which submodel semanticId did the official 1.2 template use, and how does it differ from 2.0?",
+   "expected_answer": "The official 1.2 template JSON uses the ECLASS IRDI 0173-1#01-AHF578#001 (as a ModelReference with key type Submodel); 2.0 uses 0173-1#01-AHF578#003. Both are IRDIs, not admin-shell.io IRIs.",
+   "must_include": [
+    "0173-1#01-AHF578#001",
+    "0173-1#01-AHF578#003"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02004 Handover Documentation - official template JSON (deprecated 1.2)",
+    "revision": "1.2 (admin-shell-io/submodel-templates deprecated/Handover Documentation/1/2, git blob 621bc51d)",
+    "file": "idta-specs:templates/handover-1-2/IDTA 02004-1-2_Template_Handover Documentation.json",
+    "lines": "40-46",
+    "quote": "\"value\": \"0173-1#01-AHF578#001\""
+   },
+   "tags": [
+    "migration",
+    "semanticId",
+    "revision-specific"
+   ]
+  }
+ ]
+}

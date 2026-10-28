@@ -1,0 +1,966 @@
+{
+ "template": "Digital Battery Passport / Circularity",
+ "version": "1.0.0",
+ "submodelIdShort": "Circularity",
+ "submodelSemanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#Circularity",
+ "json": {
+  "path": "published/Digital Battery Passport/7_Circularity/1/0/IDTA 02035-7_DBP-Part-7_Circularity_without_examplevalues.json",
+  "gitBlob": "a22af6e1aa97d5a7110bb09be65a0bf87b0e44b9"
+ },
+ "pdf": {
+  "path": "published/Digital Battery Passport/7_Circularity/1/0/IDTA 02035-7_DBP-Part-7_Circularity.pdf",
+  "relation": "same folder",
+  "sha256": "9c1ede00137c70d82852b6ceddcc874e2aafee36227d11a3f35b1b21d25d5435",
+  "annexA": [
+   {
+    "page": 25,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 25,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 37
+ },
+ "elements": [
+  {
+   "path": "DismantlingAndRemovalInformation",
+   "idShort": "DismantlingAndRemovalInformation",
+   "modelType": "SubmodelElementList",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#dismantlingAndRemovalInformation",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     8
+    ],
+    "row": {
+     "page": 8,
+     "type": "[SML]",
+     "idShort": "DismantlingAndRemovalInformation",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#dismantlingAndRemovalInformation",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DismantlingAndRemovalInformation > DocumentIdentifier",
+   "idShort": "DocumentIdentifier",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.handover_documentation:2.0.0#DocumentIdentifier",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     10,
+     19,
+     20
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "DocumentIdentifier",
+     "semanticId": "urn:samm:io.admin-shell.idta.handover_documentation:2.0.0#DocumentIdentifier",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "SparePartSources",
+   "idShort": "SparePartSources",
+   "modelType": "SubmodelElementList",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#sparePartSources",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     8
+    ],
+    "row": {
+     "page": 8,
+     "type": "[SML]",
+     "idShort": "SparePartSources",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#sparePartSources",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SparePartSources > SparePartSupplier",
+   "idShort": "SparePartSupplier",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#SparePartSupplier",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[SMC]",
+     "idShort": "SparePartSupplier",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#SparePartSupplier",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SparePartSources > SparePartSupplier > NameOfSupplier",
+   "idShort": "NameOfSupplier",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "urn:samm:io.admin-shell.idta.contact_information:1.0.0#company",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[MLP]",
+     "idShort": "NameOfSupplier",
+     "semanticId": "urn:samm:io.admin-shell.idta.contact_information:1.0.0#company",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SparePartSources > SparePartSupplier > AddressOfSupplier",
+   "idShort": "AddressOfSupplier",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#addressOfSupplier",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "AddressOfSupplier",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#addressOfSupplier",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SparePartSources > SparePartSupplier > AddressOfSupplier > NationalCode",
+   "idShort": "NationalCode",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "urn:samm:io.admin-shell.idta.contact_information:1.0.0#nationalCode",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[MLP]",
+     "idShort": "NationalCode",
+     "semanticId": "urn:samm:io.admin-shell.idta.contact_information:1.0.0#nationalCode",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SparePartSources > SparePartSupplier > AddressOfSupplier > PostalCode",
+   "idShort": "PostalCode",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "urn:samm:io.admin-shell.idta.contact_information:1.0.0#postalCode",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[MLP]",
+     "idShort": "PostalCode",
+     "semanticId": "urn:samm:io.admin-shell.idta.contact_information:1.0.0#postalCode",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SparePartSources > SparePartSupplier > AddressOfSupplier > Street",
+   "idShort": "Street",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "urn:samm:io.admin-shell.idta.contact_information:1.0.0#street",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[MLP]",
+     "idShort": "Street",
+     "semanticId": "urn:samm:io.admin-shell.idta.contact_information:1.0.0#street",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SparePartSources > SparePartSupplier > EmailAddressOfSupplier",
+   "idShort": "EmailAddressOfSupplier",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.contact_information:1.0.0#email",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "EmailAddressOfSupplier",
+     "semanticId": "urn:samm:io.admin-shell.idta.contact_information:1.0.0#email",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SparePartSources > SparePartSupplier > EmailAddressOfSupplier > EmailAddress",
+   "idShort": "EmailAddress",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.contact_information:1.0.0#emailAddress",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "EmailAddress",
+     "semanticId": "urn:samm:io.admin-shell.idta.contact_information:1.0.0#emailAddress",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SparePartSources > SparePartSupplier > EmailAddressOfSupplier > PublicKey",
+   "idShort": "PublicKey",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "urn:samm:io.admin-shell.idta.contact_information:1.0.0#publicKey",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[MLP]",
+     "idShort": "PublicKey",
+     "semanticId": "urn:samm:io.admin-shell.idta.contact_information:1.0.0#publicKey",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SparePartSources > SparePartSupplier > EmailAddressOfSupplier > TypeOfEmailAddress",
+   "idShort": "TypeOfEmailAddress",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.contact_information:1.0.0#typeOfEmailAddress",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "TypeOfEmailAddress",
+     "semanticId": "urn:samm:io.admin-shell.idta.contact_information:1.0.0#typeOfEmailAddress",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SparePartSources > SparePartSupplier > EmailAddressOfSupplier > TypeOfPublicKey",
+   "idShort": "TypeOfPublicKey",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "urn:samm:io.admin-shell.idta.contact_information:1.0.0#typeOfPublicKey",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[MLP]",
+     "idShort": "TypeOfPublicKey",
+     "semanticId": "urn:samm:io.admin-shell.idta.contact_information:1.0.0#typeOfPublicKey",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SparePartSources > SparePartSupplier > SupplierWebAddress",
+   "idShort": "SupplierWebAddress",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.contact_information:1.0.0#addressOfAdditionalLink",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "SupplierWebAddress",
+     "semanticId": "urn:samm:io.admin-shell.idta.contact_information:1.0.0#addressOfAdditionalLink",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SparePartSources > SparePartSupplier > Components",
+   "idShort": "Components",
+   "modelType": "SubmodelElementList",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#components",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SML]",
+     "idShort": "Components",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#components",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SparePartSources > SparePartSupplier > Components > Component",
+   "idShort": "Component",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#Component",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[SMC]",
+     "idShort": "Component",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#Component",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "SparePartSources > SparePartSupplier > Components > Component > PartName",
+   "idShort": "PartName",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#partName",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Prop]",
+     "idShort": "PartName",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#partName",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SparePartSources > SparePartSupplier > Components > Component > PartNumber",
+   "idShort": "PartNumber",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#partNumber",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Prop]",
+     "idShort": "PartNumber",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#partNumber",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RecycledContentInformation",
+   "idShort": "RecycledContentInformation",
+   "modelType": "SubmodelElementList",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#recycledContent",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     8
+    ],
+    "row": {
+     "page": 8,
+     "type": "[SML]",
+     "idShort": "RecycledContentInformation",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#recycledContent",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RecycledContentInformation > RecycledContent",
+   "idShort": "RecycledContent",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#RecycledContent",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "RecycledContent",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#RecycledContent",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "RecycledContentInformation > RecycledContent > PreConsumerShare",
+   "idShort": "PreConsumerShare",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#preConsumerShare",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "PreConsumerShare",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#preConsumerShare",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "RecycledContentInformation > RecycledContent > RecycledMaterial",
+   "idShort": "RecycledMaterial",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#recycledMaterial",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "RecycledMaterial",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#recycledMaterial",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RecycledContentInformation > RecycledContent > PostConsumerShare",
+   "idShort": "PostConsumerShare",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#postConsumerShare",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "PostConsumerShare",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#postConsumerShare",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SafetyMeasures",
+   "idShort": "SafetyMeasures",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#safetyMeasures",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     8
+    ],
+    "row": {
+     "page": 8,
+     "type": "[SMC]",
+     "idShort": "SafetyMeasures",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#safetyMeasures",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SafetyMeasures > SafetyInstructions",
+   "idShort": "SafetyInstructions",
+   "modelType": "SubmodelElementList",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#safetyInstructions",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SML]",
+     "idShort": "SafetyInstructions",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#safetyInstructions",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SafetyMeasures > SafetyInstructions > DocumentIdentifier",
+   "idShort": "DocumentIdentifier",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.handover_documentation:2.0.0#DocumentIdentifier",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     10,
+     19,
+     20
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "DocumentIdentifier",
+     "semanticId": "urn:samm:io.admin-shell.idta.handover_documentation:2.0.0#DocumentIdentifier",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "SafetyMeasures > ExtinguishingAgents",
+   "idShort": "ExtinguishingAgents",
+   "modelType": "SubmodelElementList",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#extinguishingAgents",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SML]",
+     "idShort": "ExtinguishingAgents",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#extinguishingAgents",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SafetyMeasures > ExtinguishingAgents > ExtinguishingAgent",
+   "idShort": "ExtinguishingAgent",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#ExtinguishingAgent",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     17,
+     18
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "ExtinguishingAgent",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#ExtinguishingAgent",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "EndOfLifeInformation",
+   "idShort": "EndOfLifeInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#endOfLifeInformation",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "EndOfLifeInformation",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#endOfLifeInformation",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "EndOfLifeInformation > WastePrevention",
+   "idShort": "WastePrevention",
+   "modelType": "SubmodelElementList",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#wastePrevention",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SML]",
+     "idShort": "WastePrevention",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#wastePrevention",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "EndOfLifeInformation > WastePrevention > DocumentIdentifier",
+   "idShort": "DocumentIdentifier",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.handover_documentation:2.0.0#DocumentIdentifier",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     10,
+     19,
+     20
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "DocumentIdentifier",
+     "semanticId": "urn:samm:io.admin-shell.idta.handover_documentation:2.0.0#DocumentIdentifier",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "EndOfLifeInformation > SeparateCollection",
+   "idShort": "SeparateCollection",
+   "modelType": "SubmodelElementList",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#separateCollection",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[SML]",
+     "idShort": "SeparateCollection",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#separateCollection",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "EndOfLifeInformation > SeparateCollection > DocumentIdentifier",
+   "idShort": "DocumentIdentifier",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.handover_documentation:2.0.0#DocumentIdentifier",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     10,
+     19,
+     20
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "DocumentIdentifier",
+     "semanticId": "urn:samm:io.admin-shell.idta.handover_documentation:2.0.0#DocumentIdentifier",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "EndOfLifeInformation > InformationOnCollection",
+   "idShort": "InformationOnCollection",
+   "modelType": "SubmodelElementList",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#informationOnCollection",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[SML]",
+     "idShort": "InformationOnCollection",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#informationOnCollection",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "EndOfLifeInformation > InformationOnCollection > DocumentIdentifier",
+   "idShort": "DocumentIdentifier",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.handover_documentation:2.0.0#DocumentIdentifier",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     10,
+     19,
+     20
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "DocumentIdentifier",
+     "semanticId": "urn:samm:io.admin-shell.idta.handover_documentation:2.0.0#DocumentIdentifier",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "RenewableContent",
+   "idShort": "RenewableContent",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#renewableContent",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "RenewableContent",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#renewableContent",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  }
+ ]
+}

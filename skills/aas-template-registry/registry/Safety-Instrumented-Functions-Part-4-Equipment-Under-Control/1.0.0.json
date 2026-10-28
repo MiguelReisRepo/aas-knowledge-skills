@@ -1,0 +1,310 @@
+{
+ "template": "Safety Instrumented Functions / Part 4 Equipment Under Control",
+ "version": "1.0.0",
+ "submodelIdShort": "EquipmentUnderControl",
+ "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/EquipmentUnderControl/1/0",
+ "json": {
+  "path": "published/Safety Instrumented Functions/Part 4 Equipment Under Control/1/0/IDTA 02096_Template_EquipmentUnderControl.json",
+  "gitBlob": "a23d24e8fda7c2c80f007145f1f3a0667503435c"
+ },
+ "pdf": {
+  "path": "published/Safety Instrumented Functions/Part 4 Equipment Under Control/1/0/IDTA 02096_Submodel_EquipmentUnderControl.pdf",
+  "relation": "same folder",
+  "sha256": "fb5ffb7412281f6fed7f5e3d338222783c3afa6b646af3c96ad48f693d6aae75",
+  "annexA": [
+   {
+    "page": 12,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 12,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "json-only": 20
+ },
+ "elements": [
+  {
+   "path": "EUCSpecification",
+   "idShort": "EUCSpecification",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/EUCSpecification/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "EUCSpecification > TagName",
+   "idShort": "TagName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/TagName/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "EUCSpecification > PIDName",
+   "idShort": "PIDName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/PIDName/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "EUCSpecification > TagDescription",
+   "idShort": "TagDescription",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/TagDescription/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "EUCSpecification > Boundary",
+   "idShort": "Boundary",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EquipmentUnderControl/EUCBoundary/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "EUCSpecification > EUCControlSystem",
+   "idShort": "EUCControlSystem",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/EUCControlSystem/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "EUCSpecification > ProcessSafetyTime",
+   "idShort": "ProcessSafetyTime",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/ProcessSafetyTime/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "EUCSpecification > LinkedSIF",
+   "idShort": "LinkedSIF",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/EquipmentUnderControl/ReferenceToSIF/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "HazardousEvent",
+   "idShort": "HazardousEvent",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/HazardousEvent/1",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "HazardousEvent > HazardousEventDescription",
+   "idShort": "HazardousEventDescription",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/HazardousEventDescription/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "HazardousEvent > HazardID",
+   "idShort": "HazardID",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/HazardID/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "HazardousEvent > IndependentProtectionLayer",
+   "idShort": "IndependentProtectionLayer",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/IndependentProtectionLayer/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "HazardFromCombinedSafeProcessStates",
+   "idShort": "HazardFromCombinedSafeProcessStates",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/HazardFromCombinedSafeProcessStates/1",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "HazardFromCombinedSafeProcessStates > HazardousEventDescription",
+   "idShort": "HazardousEventDescription",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/HazardousEventDescription/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "HazardFromCombinedSafeProcessStates > HazardID",
+   "idShort": "HazardID",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/HazardID/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "HazardFromCombinedSafeProcessStates > MeasuresToAvoidHazardFromCombinedSafeProcessStates",
+   "idShort": "MeasuresToAvoidHazardFromCombinedSafeProcessStates",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EquipmentUnderControl/MeasureToAvoidHazardFromCombinedSafeProcessStates/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "HazardFromCombinedSafeProcessStates > ReferenceToHazardousEvent",
+   "idShort": "ReferenceToHazardousEvent",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/cds/ReferenceToHazardousEvent/1",
+   "json": "1..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "HazardFromCombinedSafeProcessStates > IndependentProtectionLayer",
+   "idShort": "IndependentProtectionLayer",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/IndependentProtectionLayer/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SILAllocationReport",
+   "idShort": "SILAllocationReport",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/cds/SILAllocationReport/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "HazardAndRiskAssessmentReport",
+   "idShort": "HazardAndRiskAssessmentReport",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/cds/HazardAndRiskAssessmentReport/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  }
+ ]
+}

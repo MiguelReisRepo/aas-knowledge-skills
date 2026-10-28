@@ -1,0 +1,5972 @@
+{
+ "template": "Sizing of Power Drive Trains",
+ "version": "1.0.0",
+ "submodelIdShort": "PowerDriveTrainSizing",
+ "submodelSemanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/1/0",
+ "json": {
+  "path": "published/Sizing of Power Drive Trains/1/0/IDTA 02021-1-0_Template_Sizing of Power Drive Trains.json",
+  "gitBlob": "029f0aef7f94be3b5a17975b92482b348f4771c9"
+ },
+ "pdf": {
+  "path": "published/Sizing of Power Drive Trains/1/0/IDTA 02021-1-0_Submodel_Sizing of Power Drive Trains.pdf",
+  "relation": "same folder",
+  "sha256": "339cd28da13d15ae3e01109430d8aff12b8eb7d808ed9e38cdce391863d85185",
+  "annexA": [
+   {
+    "page": 76,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 76,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "json-only": 6,
+  "agree": 201,
+  "divergent": 3,
+  "unverified": 6
+ },
+ "elements": [
+  {
+   "path": "SizingProjectInformation",
+   "idShort": "SizingProjectInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/SizingProjectInformation1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SizingProjectInformation > ClientName",
+   "idShort": "ClientName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/ClientName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "ClientName",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/ClientName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SizingProjectInformation > SizingProjectName",
+   "idShort": "SizingProjectName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/SizingProjectName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "SizingProjectName",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/SizingProjectName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SizingProjectInformation > SizingProjectAxisReference",
+   "idShort": "SizingProjectAxisReference",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/SizingProjectAxisReference/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Property]",
+     "idShort": "SizingProjectAxisReference",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/SizingProjectAxisReference/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingProjectInformation > SizingProjectDescription",
+   "idShort": "SizingProjectDescription",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/SizingProjectDescription/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[MLP]",
+     "idShort": "SizingProjectDescription",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/SizingProjectDescription/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingProjectInformation > SizingProjectLink",
+   "idShort": "SizingProjectLink",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/SizingProjectLink/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[File]",
+     "idShort": "SizingProjectLink",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/SizingProjectLink/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..*"
+  },
+  {
+   "path": "SizingProjectInformation > SizingToolName",
+   "idShort": "SizingToolName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/SizingToolName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Property]",
+     "idShort": "SizingToolName",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/SizingToolName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SizingProjectInformation > DateCreated",
+   "idShort": "DateCreated",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/DateCreated/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Property]",
+     "idShort": "DateCreated",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/DateCreated/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SizingProjectInformation > DateChanged",
+   "idShort": "DateChanged",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/DateChanged/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Property]",
+     "idShort": "DateChanged",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/DateChanged/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SizingProjectInformation > ContactInformation",
+   "idShort": "ContactInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation",
+   "json": "1..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "ContactInformation",
+     "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "SizingProjectInformation > AmlDriveConfigVersion",
+   "idShort": "AmlDriveConfigVersion",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AmlDriveConfigVersion/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "AmlDriveConfigVersion",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AmlDriveConfigVersion/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements",
+   "idShort": "ApplicationRequirements",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/ApplicationRequirements/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "ApplicationRequirements",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/ApplicationRequirements/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern",
+   "idShort": "MotionPattern",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MotionPattern/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "MotionPattern",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MotionPattern/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternName",
+   "idShort": "MotionPatternName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MotionPatternName/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Property]",
+     "idShort": "MotionPatternName",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MotionPatternName/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections",
+   "idShort": "MotionPatternSections",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MotionPatternSections/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[SMC]",
+     "idShort": "MotionPatternSections",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MotionPatternSections/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > RotativeSection",
+   "idShort": "RotativeSection",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/RotativeMotionPatternSection/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[SMC]",
+     "idShort": "RotativeSection",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/RotativeMotionPatternSection/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > RotativeSection > FrictionTorque",
+   "idShort": "FrictionTorque",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionTorque/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     26
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "FrictionTorque",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionTorque/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > RotativeSection > LeverArmAxialForce",
+   "idShort": "LeverArmAxialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmAxialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     46,
+     48,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "LeverArmAxialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmAxialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > RotativeSection > AxialForce",
+   "idShort": "AxialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AxialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     26
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "AxialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AxialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > RotativeSection > LeverArmRadialForce",
+   "idShort": "LeverArmRadialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmRadialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     40,
+     42,
+     44,
+     46,
+     48,
+     51,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "LeverArmRadialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmRadialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > RotativeSection > RadialForce",
+   "idShort": "RadialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/RadialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24,
+     27
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Property]",
+     "idShort": "RadialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/RadialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > RotativeSection > MomentOfInertiaOfLoad",
+   "idShort": "MomentOfInertiaOfLoad",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MomentOfInertiaOfLoad/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Property]",
+     "idShort": "MomentOfInertiaOfLoad",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MomentOfInertiaOfLoad/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > RotativeSection > LoadTorque",
+   "idShort": "LoadTorque",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LoadTorque/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24,
+     27
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Property]",
+     "idShort": "LoadTorque",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LoadTorque/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > RotativeSection > MetadataRotativeMotionFile",
+   "idShort": "MetadataRotativeMotionFile",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MetadataRotativeMotionFile/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[SMC]",
+     "idShort": "MetadataRotativeMotionFile",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MetadataRotativeMotionFile/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > RotativeSection > MetadataRotativeMotionFile > Time",
+   "idShort": "Time",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/TimeSeries/RelativePointInTime/1/1",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     25,
+     30
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Property]",
+     "idShort": "Time",
+     "semanticId": "https://admin-shell.io/idta/TimeSeries/RelativePointInTime/1/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > RotativeSection > MetadataRotativeMotionFile > AngularPosition",
+   "idShort": "AngularPosition",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AngularPosition/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Property]",
+     "idShort": "AngularPosition",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AngularPosition/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > RotativeSection > MetadataRotativeMotionFile > AngularVelocity",
+   "idShort": "AngularVelocity",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AngularVelocity/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Property]",
+     "idShort": "AngularVelocity",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AngularVelocity/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > RotativeSection > MetadataRotativeMotionFile > AngularAcceleration",
+   "idShort": "AngularAcceleration",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AngularAcceleration/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Property]",
+     "idShort": "AngularAcceleration",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AngularAcceleration/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > RotativeSection > MetadataRotativeMotionFile > AngularJerk",
+   "idShort": "AngularJerk",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AngularJerk/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Property]",
+     "idShort": "AngularJerk",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AngularJerk/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > RotativeSection > MetadataRotativeMotionFile > FrictionTorque",
+   "idShort": "FrictionTorque",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionTorque/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     26
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "FrictionTorque",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionTorque/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > RotativeSection > MetadataRotativeMotionFile > AxialForce",
+   "idShort": "AxialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AxialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     26
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "AxialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AxialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > RotativeSection > MetadataRotativeMotionFile > RadialForce",
+   "idShort": "RadialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/RadialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24,
+     27
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Property]",
+     "idShort": "RadialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/RadialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > RotativeSection > MetadataRotativeMotionFile > LoadTorque",
+   "idShort": "LoadTorque",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LoadTorque/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24,
+     27
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Property]",
+     "idShort": "LoadTorque",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LoadTorque/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > RotativeSection > MotionSectionFile",
+   "idShort": "MotionSectionFile",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MotionSectionFile/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25,
+     29
+    ],
+    "row": {
+     "page": 25,
+     "type": "[File]",
+     "idShort": "MotionSectionFile",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MotionSectionFile/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > LinearSection",
+   "idShort": "LinearSection",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LinearMotionPatternSection/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[SMC]",
+     "idShort": "LinearSection",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LinearMotionPatternSection/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > LinearSection > FrictionCoefficient",
+   "idShort": "FrictionCoefficient",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionCoefficient/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     47,
+     49,
+     51,
+     53,
+     56,
+     58,
+     61
+    ],
+    "row": {
+     "page": 47,
+     "type": "[Property]",
+     "idShort": "FrictionCoefficient",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionCoefficient/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > LinearSection > FrictionForce",
+   "idShort": "FrictionForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28,
+     31
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "FrictionForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > LinearSection > CompensationForce",
+   "idShort": "CompensationForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/CompensationForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "CompensationForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/CompensationForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > LinearSection > LoadMass",
+   "idShort": "LoadMass",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LoadMass/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "LoadMass",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LoadMass/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > LinearSection > LoadSideForce",
+   "idShort": "LoadSideForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LoadSideForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28,
+     31
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "LoadSideForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LoadSideForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > LinearSection > CounterMass",
+   "idShort": "CounterMass",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/CounterMass/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "CounterMass",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/CounterMass/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > LinearSection > MetadataLinearMotionFile",
+   "idShort": "MetadataLinearMotionFile",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MetadataLinearMotionFile/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[SMC]",
+     "idShort": "MetadataLinearMotionFile",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MetadataLinearMotionFile/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > LinearSection > MetadataLinearMotionFile > Time",
+   "idShort": "Time",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/TimeSeries/RelativePointInTime/1/1",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     25,
+     30
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Property]",
+     "idShort": "Time",
+     "semanticId": "https://admin-shell.io/idta/TimeSeries/RelativePointInTime/1/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > LinearSection > MetadataLinearMotionFile > Position",
+   "idShort": "Position",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Position/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Property]",
+     "idShort": "Position",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Position/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > LinearSection > MetadataLinearMotionFile > LinearVelocity",
+   "idShort": "LinearVelocity",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LinearVelocity/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Property]",
+     "idShort": "LinearVelocity",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LinearVelocity/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > LinearSection > MetadataLinearMotionFile > LinearAcceleration",
+   "idShort": "LinearAcceleration",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LinearAcceleration/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Property]",
+     "idShort": "LinearAcceleration",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LinearAcceleration/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > LinearSection > MetadataLinearMotionFile > LinearJerk",
+   "idShort": "LinearJerk",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LinearJerk/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[Property]",
+     "idShort": "LinearJerk",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LinearJerk/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > LinearSection > MetadataLinearMotionFile > FrictionForce",
+   "idShort": "FrictionForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28,
+     31
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "FrictionForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > LinearSection > MetadataLinearMotionFile > LoadSideForce",
+   "idShort": "LoadSideForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LoadSideForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28,
+     31
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "LoadSideForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LoadSideForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > MotionPattern > MotionPatternSections > LinearSection > MotionSectionFile",
+   "idShort": "MotionSectionFile",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MotionSectionFile/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25,
+     29
+    ],
+    "row": {
+     "page": 25,
+     "type": "[File]",
+     "idShort": "MotionSectionFile",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MotionSectionFile/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > Environmental",
+   "idShort": "Environmental",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/EnvironmentalRequirements/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "Environmental",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/EnvironmentalRequirements/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > Environmental > InstallationAltitude",
+   "idShort": "InstallationAltitude",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAZ614#003",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Property]",
+     "idShort": "InstallationAltitude",
+     "semanticId": "0173-1#02-AAZ614#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > Environmental > Atex2Gas",
+   "idShort": "Atex2Gas",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAR865#004",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > Environmental > Atex2Dust",
+   "idShort": "Atex2Dust",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAR866#004",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Property]",
+     "idShort": "Atex2Dust",
+     "semanticId": "0173-1#02-AAR866#004",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > Environmental > AmbientTemperatureController",
+   "idShort": "AmbientTemperatureController",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AmbientTemperatureController/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..1",
+    "pages": [
+     33
+    ]
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > Environmental > AmbientTemperatureMotor",
+   "idShort": "AmbientTemperatureMotor",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AmbientTemperatureMotor/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Range]",
+     "idShort": "AmbientTemperatureMotor",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AmbientTemperatureMotor/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > OverallSystemRequirements",
+   "idShort": "OverallSystemRequirements",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/OverallSystemRequirements/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[SMC]",
+     "idShort": "OverallSystemRequirements",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/OverallSystemRequirements/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > OverallSystemRequirements > DcLinkCoupling",
+   "idShort": "DcLinkCoupling",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/DcLinkCoupling/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     34
+    ],
+    "row": {
+     "page": 34,
+     "type": "[Property]",
+     "idShort": "DcLinkCoupling",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/DcLinkCoupling/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > OverallSystemRequirements > BrakePresent",
+   "idShort": "BrakePresent",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAE085#007",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     34
+    ],
+    "row": {
+     "page": 34,
+     "type": "[Property]",
+     "idShort": "BrakePresent",
+     "semanticId": "0173-1#02-BAE085#007",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > OverallSystemRequirements > MainsConnection",
+   "idShort": "MainsConnection",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF822#003",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     34
+    ],
+    "row": {
+     "page": 34,
+     "type": "[Property]",
+     "idShort": "MainsConnection",
+     "semanticId": "0173-1#02-ABF822#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > OverallSystemRequirements > MountingType",
+   "idShort": "MountingType",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAH167#006",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     34
+    ],
+    "row": {
+     "page": 34,
+     "type": "[Property]",
+     "idShort": "MountingType",
+     "semanticId": "0173-1#02-AAH167#006",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > OverallSystemRequirements > MinSwitchingFrequency",
+   "idShort": "MinSwitchingFrequency",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAN329#003",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     34
+    ],
+    "row": {
+     "page": 34,
+     "type": "[Property]",
+     "idShort": "MinSwitchingFrequency",
+     "semanticId": "0173-1#02-AAN329#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > OverallSystemRequirements > CoolingType",
+   "idShort": "CoolingType",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAE122#007",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     35
+    ],
+    "row": {
+     "page": 35,
+     "type": "[Property]",
+     "idShort": "CoolingType",
+     "semanticId": "0173-1#02-BAE122#007",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > OverallSystemRequirements > ProtectionType",
+   "idShort": "ProtectionType",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAG342#007",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     35
+    ],
+    "row": {
+     "page": 35,
+     "type": "[Property]",
+     "idShort": "ProtectionType",
+     "semanticId": "0173-1#02-BAG342#007",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > OverallSystemRequirements > CertificateApproval",
+   "idShort": "CertificateApproval",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAB392#018",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     35
+    ],
+    "row": {
+     "page": 35,
+     "type": "[Property]",
+     "idShort": "CertificateApproval",
+     "semanticId": "0173-1#02-BAB392#018",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > OverallSystemRequirements > SafetyIntegrityLevel",
+   "idShort": "SafetyIntegrityLevel",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABH715#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..1",
+    "pages": [
+     35
+    ]
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > UsageProfile",
+   "idShort": "UsageProfile",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/UsageProfile/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[SMC]",
+     "idShort": "UsageProfile",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/UsageProfile/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationRequirements > UsageProfile > CyclesPerMinute",
+   "idShort": "CyclesPerMinute",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/CyclesPerMinute/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     36
+    ],
+    "row": {
+     "page": 36,
+     "type": "[Property]",
+     "idShort": "CyclesPerMinute",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/CyclesPerMinute/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicationRequirements > UsageProfile > OperatingHoursPerDay",
+   "idShort": "OperatingHoursPerDay",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/OperatingHoursPerDay/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     36
+    ],
+    "row": {
+     "page": 36,
+     "type": "[Property]",
+     "idShort": "OperatingHoursPerDay",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/OperatingHoursPerDay/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicationRequirements > UsageProfile > OperatingDaysPerYear",
+   "idShort": "OperatingDaysPerYear",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/OperatingDaysPerYear/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     36
+    ],
+    "row": {
+     "page": 36,
+     "type": "[Property]",
+     "idShort": "OperatingDaysPerYear",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/OperatingDaysPerYear/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TransformationMechanism",
+   "idShort": "TransformationMechanism",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/TransformationMechanism/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "TransformationMechanism",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/TransformationMechanism/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > Fan",
+   "idShort": "Fan",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Fan/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     37
+    ],
+    "row": {
+     "page": 37,
+     "type": "[Entity]",
+     "idShort": "Fan",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Fan/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > Fan > Efficiency",
+   "idShort": "Efficiency",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Efficiency/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39,
+     41,
+     43,
+     45,
+     47,
+     50,
+     52,
+     54,
+     56,
+     59
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "Efficiency",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Efficiency/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > Fan > InertiaMotorSide",
+   "idShort": "InertiaMotorSide",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InertiaMotorSide/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39,
+     41,
+     43,
+     46,
+     48,
+     50,
+     52,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "InertiaMotorSide",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InertiaMotorSide/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > Fan > LeverArmAxialForce",
+   "idShort": "LeverArmAxialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmAxialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     46,
+     48,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "LeverArmAxialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmAxialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > Fan > LeverArmRadialForce",
+   "idShort": "LeverArmRadialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmRadialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     40,
+     42,
+     44,
+     46,
+     48,
+     51,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "LeverArmRadialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmRadialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > Fan > NoLoadTorque",
+   "idShort": "NoLoadTorque",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/NoLoadTorque/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40,
+     42,
+     44,
+     46,
+     48,
+     51,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Property]",
+     "idShort": "NoLoadTorque",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/NoLoadTorque/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > Fan > InclinationAngle",
+   "idShort": "InclinationAngle",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InclinationAngle/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40,
+     42,
+     44,
+     46,
+     49,
+     51,
+     53,
+     55,
+     58,
+     61
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Property]",
+     "idShort": "InclinationAngle",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InclinationAngle/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > Pump",
+   "idShort": "Pump",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Pump/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     37
+    ],
+    "row": {
+     "page": 37,
+     "type": "[Entity]",
+     "idShort": "Pump",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Pump/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > Pump > Efficiency",
+   "idShort": "Efficiency",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Efficiency/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39,
+     41,
+     43,
+     45,
+     47,
+     50,
+     52,
+     54,
+     56,
+     59
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "Efficiency",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Efficiency/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > Pump > InertiaMotorSide",
+   "idShort": "InertiaMotorSide",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InertiaMotorSide/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39,
+     41,
+     43,
+     46,
+     48,
+     50,
+     52,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "InertiaMotorSide",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InertiaMotorSide/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > Pump > LeverArmAxialForce",
+   "idShort": "LeverArmAxialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmAxialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     46,
+     48,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "LeverArmAxialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmAxialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > Pump > LeverArmRadialForce",
+   "idShort": "LeverArmRadialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmRadialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     40,
+     42,
+     44,
+     46,
+     48,
+     51,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "LeverArmRadialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmRadialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > Pump > NoLoadTorque",
+   "idShort": "NoLoadTorque",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/NoLoadTorque/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40,
+     42,
+     44,
+     46,
+     48,
+     51,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Property]",
+     "idShort": "NoLoadTorque",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/NoLoadTorque/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > Pump > InclinationAngle",
+   "idShort": "InclinationAngle",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InclinationAngle/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40,
+     42,
+     44,
+     46,
+     49,
+     51,
+     53,
+     55,
+     58,
+     61
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Property]",
+     "idShort": "InclinationAngle",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InclinationAngle/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RotraryTable",
+   "idShort": "RotraryTable",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/RotraryTable/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RotraryTable > Efficiency",
+   "idShort": "Efficiency",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Efficiency/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39,
+     41,
+     43,
+     45,
+     47,
+     50,
+     52,
+     54,
+     56,
+     59
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "Efficiency",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Efficiency/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RotraryTable > InertiaMotorSide",
+   "idShort": "InertiaMotorSide",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InertiaMotorSide/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39,
+     41,
+     43,
+     46,
+     48,
+     50,
+     52,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "InertiaMotorSide",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InertiaMotorSide/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RotraryTable > LeverArmAxialForce",
+   "idShort": "LeverArmAxialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmAxialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     46,
+     48,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "LeverArmAxialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmAxialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RotraryTable > LeverArmRadialForce",
+   "idShort": "LeverArmRadialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmRadialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     40,
+     42,
+     44,
+     46,
+     48,
+     51,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "LeverArmRadialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmRadialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RotraryTable > NoLoadTorque",
+   "idShort": "NoLoadTorque",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/NoLoadTorque/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40,
+     42,
+     44,
+     46,
+     48,
+     51,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Property]",
+     "idShort": "NoLoadTorque",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/NoLoadTorque/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RotraryTable > InclinationAngle",
+   "idShort": "InclinationAngle",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InclinationAngle/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40,
+     42,
+     44,
+     46,
+     49,
+     51,
+     53,
+     55,
+     58,
+     61
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Property]",
+     "idShort": "InclinationAngle",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InclinationAngle/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RotraryTable > StaticEccentricity",
+   "idShort": "StaticEccentricity",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/StaticEccentricity/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     44
+    ],
+    "row": {
+     "page": 44,
+     "type": "[Property]",
+     "idShort": "StaticEccentricity",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/StaticEccentricity/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RotraryTable > CentroidAngle",
+   "idShort": "CentroidAngle",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/CentroidAngle/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     45
+    ],
+    "row": {
+     "page": 45,
+     "type": "[Property]",
+     "idShort": "CentroidAngle",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/CentroidAngle/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > ChainConveyor",
+   "idShort": "ChainConveyor",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/ChainConveyor/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     37
+    ],
+    "row": {
+     "page": 37,
+     "type": "[Entity]",
+     "idShort": "ChainConveyor",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/ChainConveyor/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > ChainConveyor > Efficiency",
+   "idShort": "Efficiency",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Efficiency/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39,
+     41,
+     43,
+     45,
+     47,
+     50,
+     52,
+     54,
+     56,
+     59
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "Efficiency",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Efficiency/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > ChainConveyor > InertiaMotorSide",
+   "idShort": "InertiaMotorSide",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InertiaMotorSide/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39,
+     41,
+     43,
+     46,
+     48,
+     50,
+     52,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "InertiaMotorSide",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InertiaMotorSide/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > ChainConveyor > LeverArmAxialForce",
+   "idShort": "LeverArmAxialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmAxialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     46,
+     48,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "LeverArmAxialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmAxialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > ChainConveyor > LeverArmRadialForce",
+   "idShort": "LeverArmRadialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmRadialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     40,
+     42,
+     44,
+     46,
+     48,
+     51,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "LeverArmRadialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmRadialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > ChainConveyor > NoLoadTorque",
+   "idShort": "NoLoadTorque",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/NoLoadTorque/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40,
+     42,
+     44,
+     46,
+     48,
+     51,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Property]",
+     "idShort": "NoLoadTorque",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/NoLoadTorque/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > ChainConveyor > InclinationAngle",
+   "idShort": "InclinationAngle",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InclinationAngle/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40,
+     42,
+     44,
+     46,
+     49,
+     51,
+     53,
+     55,
+     58,
+     61
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Property]",
+     "idShort": "InclinationAngle",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InclinationAngle/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > ChainConveyor > FrictionCoefficient",
+   "idShort": "FrictionCoefficient",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionCoefficient/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     47,
+     49,
+     51,
+     53,
+     56,
+     58,
+     61
+    ],
+    "row": {
+     "page": 47,
+     "type": "[Property]",
+     "idShort": "FrictionCoefficient",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionCoefficient/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > ChainConveyor > FeedConstant",
+   "idShort": "FeedConstant",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FeedConstant/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     47,
+     49,
+     51,
+     54,
+     56,
+     58,
+     61
+    ],
+    "row": {
+     "page": 47,
+     "type": "[Property]",
+     "idShort": "FeedConstant",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FeedConstant/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > BeltConveyor",
+   "idShort": "BeltConveyor",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/BeltConveyor/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     37
+    ],
+    "row": {
+     "page": 37,
+     "type": "[Entity]",
+     "idShort": "BeltConveyor",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/BeltConveyor/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > BeltConveyor > Efficiency",
+   "idShort": "Efficiency",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Efficiency/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39,
+     41,
+     43,
+     45,
+     47,
+     50,
+     52,
+     54,
+     56,
+     59
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "Efficiency",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Efficiency/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > BeltConveyor > InertiaMotorSide",
+   "idShort": "InertiaMotorSide",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InertiaMotorSide/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39,
+     41,
+     43,
+     46,
+     48,
+     50,
+     52,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "InertiaMotorSide",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InertiaMotorSide/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > BeltConveyor > LeverArmAxialForce",
+   "idShort": "LeverArmAxialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmAxialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     46,
+     48,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "LeverArmAxialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmAxialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > BeltConveyor > LeverArmRadialForce",
+   "idShort": "LeverArmRadialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmRadialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     40,
+     42,
+     44,
+     46,
+     48,
+     51,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "LeverArmRadialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmRadialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > BeltConveyor > NoLoadTorque",
+   "idShort": "NoLoadTorque",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/NoLoadTorque/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40,
+     42,
+     44,
+     46,
+     48,
+     51,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Property]",
+     "idShort": "NoLoadTorque",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/NoLoadTorque/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > BeltConveyor > InclinationAngle",
+   "idShort": "InclinationAngle",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InclinationAngle/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40,
+     42,
+     44,
+     46,
+     49,
+     51,
+     53,
+     55,
+     58,
+     61
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Property]",
+     "idShort": "InclinationAngle",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InclinationAngle/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > BeltConveyor > FrictionCoefficient",
+   "idShort": "FrictionCoefficient",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionCoefficient/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     47,
+     49,
+     51,
+     53,
+     56,
+     58,
+     61
+    ],
+    "row": {
+     "page": 47,
+     "type": "[Property]",
+     "idShort": "FrictionCoefficient",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionCoefficient/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > BeltConveyor > FeedConstant",
+   "idShort": "FeedConstant",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FeedConstant/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     47,
+     49,
+     51,
+     54,
+     56,
+     58,
+     61
+    ],
+    "row": {
+     "page": 47,
+     "type": "[Property]",
+     "idShort": "FeedConstant",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FeedConstant/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RollerConveyor",
+   "idShort": "RollerConveyor",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/RollerConveyor/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     37
+    ],
+    "row": {
+     "page": 37,
+     "type": "[Entity]",
+     "idShort": "RollerConveyor",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/RollerConveyor/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RollerConveyor > Efficiency",
+   "idShort": "Efficiency",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Efficiency/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39,
+     41,
+     43,
+     45,
+     47,
+     50,
+     52,
+     54,
+     56,
+     59
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "Efficiency",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Efficiency/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RollerConveyor > InertiaMotorSide",
+   "idShort": "InertiaMotorSide",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InertiaMotorSide/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39,
+     41,
+     43,
+     46,
+     48,
+     50,
+     52,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "InertiaMotorSide",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InertiaMotorSide/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RollerConveyor > LeverArmAxialForce",
+   "idShort": "LeverArmAxialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmAxialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     46,
+     48,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "LeverArmAxialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmAxialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RollerConveyor > LeverArmRadialForce",
+   "idShort": "LeverArmRadialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmRadialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     40,
+     42,
+     44,
+     46,
+     48,
+     51,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "LeverArmRadialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmRadialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RollerConveyor > NoLoadTorque",
+   "idShort": "NoLoadTorque",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/NoLoadTorque/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40,
+     42,
+     44,
+     46,
+     48,
+     51,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Property]",
+     "idShort": "NoLoadTorque",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/NoLoadTorque/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RollerConveyor > InclinationAngle",
+   "idShort": "InclinationAngle",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InclinationAngle/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40,
+     42,
+     44,
+     46,
+     49,
+     51,
+     53,
+     55,
+     58,
+     61
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Property]",
+     "idShort": "InclinationAngle",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InclinationAngle/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RollerConveyor > FrictionCoefficient",
+   "idShort": "FrictionCoefficient",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionCoefficient/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     47,
+     49,
+     51,
+     53,
+     56,
+     58,
+     61
+    ],
+    "row": {
+     "page": 47,
+     "type": "[Property]",
+     "idShort": "FrictionCoefficient",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionCoefficient/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RollerConveyor > FeedConstant",
+   "idShort": "FeedConstant",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FeedConstant/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     47,
+     49,
+     51,
+     54,
+     56,
+     58,
+     61
+    ],
+    "row": {
+     "page": 47,
+     "type": "[Property]",
+     "idShort": "FeedConstant",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FeedConstant/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > BeltDrive",
+   "idShort": "BeltDrive",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/BeltDrive/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..1",
+    "pages": [
+     37
+    ]
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > BeltDrive > Efficiency",
+   "idShort": "Efficiency",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Efficiency/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39,
+     41,
+     43,
+     45,
+     47,
+     50,
+     52,
+     54,
+     56,
+     59
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "Efficiency",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Efficiency/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > BeltDrive > InertiaMotorSide",
+   "idShort": "InertiaMotorSide",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InertiaMotorSide/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39,
+     41,
+     43,
+     46,
+     48,
+     50,
+     52,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "InertiaMotorSide",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InertiaMotorSide/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > BeltDrive > LeverArmAxialForce",
+   "idShort": "LeverArmAxialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmAxialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     46,
+     48,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "LeverArmAxialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmAxialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > BeltDrive > LeverArmRadialForce",
+   "idShort": "LeverArmRadialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmRadialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     40,
+     42,
+     44,
+     46,
+     48,
+     51,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "LeverArmRadialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmRadialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > BeltDrive > NoLoadTorque",
+   "idShort": "NoLoadTorque",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/NoLoadTorque/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40,
+     42,
+     44,
+     46,
+     48,
+     51,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Property]",
+     "idShort": "NoLoadTorque",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/NoLoadTorque/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > BeltDrive > InclinationAngle",
+   "idShort": "InclinationAngle",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InclinationAngle/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40,
+     42,
+     44,
+     46,
+     49,
+     51,
+     53,
+     55,
+     58,
+     61
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Property]",
+     "idShort": "InclinationAngle",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InclinationAngle/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > BeltDrive > FrictionCoefficient",
+   "idShort": "FrictionCoefficient",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionCoefficient/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     47,
+     49,
+     51,
+     53,
+     56,
+     58,
+     61
+    ],
+    "row": {
+     "page": 47,
+     "type": "[Property]",
+     "idShort": "FrictionCoefficient",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionCoefficient/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > BeltDrive > FeedConstant",
+   "idShort": "FeedConstant",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FeedConstant/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     47,
+     49,
+     51,
+     54,
+     56,
+     58,
+     61
+    ],
+    "row": {
+     "page": 47,
+     "type": "[Property]",
+     "idShort": "FeedConstant",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FeedConstant/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > TravelingDrive",
+   "idShort": "TravelingDrive",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/TravelingDrive/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     38
+    ],
+    "row": {
+     "page": 38,
+     "type": "[Entity]",
+     "idShort": "TravelingDrive",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/TravelingDrive/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > TravelingDrive > Efficiency",
+   "idShort": "Efficiency",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Efficiency/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39,
+     41,
+     43,
+     45,
+     47,
+     50,
+     52,
+     54,
+     56,
+     59
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "Efficiency",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Efficiency/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > TravelingDrive > InertiaMotorSide",
+   "idShort": "InertiaMotorSide",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InertiaMotorSide/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39,
+     41,
+     43,
+     46,
+     48,
+     50,
+     52,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "InertiaMotorSide",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InertiaMotorSide/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > TravelingDrive > LeverArmAxialForce",
+   "idShort": "LeverArmAxialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmAxialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     46,
+     48,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "LeverArmAxialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmAxialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > TravelingDrive > LeverArmRadialForce",
+   "idShort": "LeverArmRadialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmRadialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     40,
+     42,
+     44,
+     46,
+     48,
+     51,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "LeverArmRadialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmRadialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > TravelingDrive > NoLoadTorque",
+   "idShort": "NoLoadTorque",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/NoLoadTorque/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40,
+     42,
+     44,
+     46,
+     48,
+     51,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Property]",
+     "idShort": "NoLoadTorque",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/NoLoadTorque/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > TravelingDrive > InclinationAngle",
+   "idShort": "InclinationAngle",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InclinationAngle/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40,
+     42,
+     44,
+     46,
+     49,
+     51,
+     53,
+     55,
+     58,
+     61
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Property]",
+     "idShort": "InclinationAngle",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InclinationAngle/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > TravelingDrive > FrictionCoefficient",
+   "idShort": "FrictionCoefficient",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionCoefficient/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     47,
+     49,
+     51,
+     53,
+     56,
+     58,
+     61
+    ],
+    "row": {
+     "page": 47,
+     "type": "[Property]",
+     "idShort": "FrictionCoefficient",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionCoefficient/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > TravelingDrive > FeedConstant",
+   "idShort": "FeedConstant",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FeedConstant/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     47,
+     49,
+     51,
+     54,
+     56,
+     58,
+     61
+    ],
+    "row": {
+     "page": 47,
+     "type": "[Property]",
+     "idShort": "FeedConstant",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FeedConstant/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RackDrive",
+   "idShort": "RackDrive",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/RackDrive/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RackDrive > Efficiency",
+   "idShort": "Efficiency",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Efficiency/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39,
+     41,
+     43,
+     45,
+     47,
+     50,
+     52,
+     54,
+     56,
+     59
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "Efficiency",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Efficiency/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RackDrive > InertiaMotorSide",
+   "idShort": "InertiaMotorSide",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InertiaMotorSide/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39,
+     41,
+     43,
+     46,
+     48,
+     50,
+     52,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "InertiaMotorSide",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InertiaMotorSide/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RackDrive > LeverArmAxialForce",
+   "idShort": "LeverArmAxialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmAxialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     46,
+     48,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "LeverArmAxialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmAxialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RackDrive > LeverArmRadialForce",
+   "idShort": "LeverArmRadialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmRadialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     40,
+     42,
+     44,
+     46,
+     48,
+     51,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "LeverArmRadialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmRadialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RackDrive > NoLoadTorque",
+   "idShort": "NoLoadTorque",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/NoLoadTorque/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40,
+     42,
+     44,
+     46,
+     48,
+     51,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Property]",
+     "idShort": "NoLoadTorque",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/NoLoadTorque/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RackDrive > InclinationAngle",
+   "idShort": "InclinationAngle",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InclinationAngle/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40,
+     42,
+     44,
+     46,
+     49,
+     51,
+     53,
+     55,
+     58,
+     61
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Property]",
+     "idShort": "InclinationAngle",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InclinationAngle/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RackDrive > FrictionCoefficient",
+   "idShort": "FrictionCoefficient",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionCoefficient/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     47,
+     49,
+     51,
+     53,
+     56,
+     58,
+     61
+    ],
+    "row": {
+     "page": 47,
+     "type": "[Property]",
+     "idShort": "FrictionCoefficient",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionCoefficient/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RackDrive > FeedConstant",
+   "idShort": "FeedConstant",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FeedConstant/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     47,
+     49,
+     51,
+     54,
+     56,
+     58,
+     61
+    ],
+    "row": {
+     "page": 47,
+     "type": "[Property]",
+     "idShort": "FeedConstant",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FeedConstant/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RackDrive > DiameterPinion",
+   "idShort": "DiameterPinion",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/DiameterPinion/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     58
+    ],
+    "row": {
+     "page": 58,
+     "type": "[Property]",
+     "idShort": "DiameterPinion",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/DiameterPinion/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RackDrive > HelixAngle",
+   "idShort": "HelixAngle",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/HelixAngle/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     58
+    ],
+    "row": {
+     "page": 58,
+     "type": "[Property]",
+     "idShort": "HelixAngle",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/HelixAngle/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > RackDrive > MovingPart",
+   "idShort": "MovingPart",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/RackMovingPart/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > SpindleDrive",
+   "idShort": "SpindleDrive",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/SpindleDrive/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     38
+    ],
+    "row": {
+     "page": 38,
+     "type": "[Entity]",
+     "idShort": "SpindleDrive",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/SpindleDrive/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > SpindleDrive > Efficiency",
+   "idShort": "Efficiency",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Efficiency/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39,
+     41,
+     43,
+     45,
+     47,
+     50,
+     52,
+     54,
+     56,
+     59
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "Efficiency",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Efficiency/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > SpindleDrive > InertiaMotorSide",
+   "idShort": "InertiaMotorSide",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InertiaMotorSide/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39,
+     41,
+     43,
+     46,
+     48,
+     50,
+     52,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "InertiaMotorSide",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InertiaMotorSide/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > SpindleDrive > LeverArmAxialForce",
+   "idShort": "LeverArmAxialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmAxialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     46,
+     48,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "LeverArmAxialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmAxialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > SpindleDrive > LeverArmRadialForce",
+   "idShort": "LeverArmRadialForce",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmRadialForce/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     40,
+     42,
+     44,
+     46,
+     48,
+     51,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "LeverArmRadialForce",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/LeverArmRadialForce/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > SpindleDrive > NoLoadTorque",
+   "idShort": "NoLoadTorque",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/NoLoadTorque/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40,
+     42,
+     44,
+     46,
+     48,
+     51,
+     53,
+     55,
+     57,
+     60
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Property]",
+     "idShort": "NoLoadTorque",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/NoLoadTorque/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > SpindleDrive > InclinationAngle",
+   "idShort": "InclinationAngle",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InclinationAngle/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40,
+     42,
+     44,
+     46,
+     49,
+     51,
+     53,
+     55,
+     58,
+     61
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Property]",
+     "idShort": "InclinationAngle",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InclinationAngle/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > SpindleDrive > FrictionCoefficient",
+   "idShort": "FrictionCoefficient",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionCoefficient/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     47,
+     49,
+     51,
+     53,
+     56,
+     58,
+     61
+    ],
+    "row": {
+     "page": 47,
+     "type": "[Property]",
+     "idShort": "FrictionCoefficient",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrictionCoefficient/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TransformationMechanism > SpindleDrive > FeedConstant",
+   "idShort": "FeedConstant",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FeedConstant/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     47,
+     49,
+     51,
+     54,
+     56,
+     58,
+     61
+    ],
+    "row": {
+     "page": 47,
+     "type": "[Property]",
+     "idShort": "FeedConstant",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FeedConstant/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult",
+   "idShort": "SizingResult",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/SizingResult/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "SizingResult",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/SizingResult/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > OverallSystem",
+   "idShort": "OverallSystem",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/OverallSystem/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     62
+    ],
+    "row": {
+     "page": 62,
+     "type": "[Entity]",
+     "idShort": "OverallSystem",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/OverallSystem/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > OverallSystem > ManufacturerName",
+   "idShort": "ManufacturerName",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO677#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     63,
+     66,
+     73
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > OverallSystem > ManufacturerArticleNumber",
+   "idShort": "ManufacturerArticleNumber",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO676#003",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     66,
+     73
+    ],
+    "row": {
+     "page": 66,
+     "type": "[Property]",
+     "idShort": "ManufacturerArticleNumber",
+     "semanticId": "0173-1#02-AAO676#003",
+     "card": "1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > OverallSystem > ManufacturerProductDesignation",
+   "idShort": "ManufacturerProductDesignation",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAW338#001",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     64,
+     67,
+     73
+    ],
+    "row": {
+     "page": 64,
+     "type": "[MLP]",
+     "idShort": "ManufacturerProductDesignation",
+     "semanticId": "0173-1#02-AAW338#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > OverallSystem > ManufacturerOrderCode",
+   "idShort": "ManufacturerOrderCode",
+   "modelType": "Property",
+   "semanticId": " 0173-1#02-AAO227#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     64,
+     67,
+     73
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > OverallSystem > ExternalMomentOfInertia",
+   "idShort": "ExternalMomentOfInertia",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/ExternalMomentOfInertia/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     64
+    ],
+    "row": {
+     "page": 64,
+     "type": "[Property]",
+     "idShort": "ExternalMomentOfInertia",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/ExternalMomentOfInertia/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > OverallSystem > InternalMomentOfIntertia",
+   "idShort": "InternalMomentOfIntertia",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InternalMomentOfInertia/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     64
+    ],
+    "row": {
+     "page": 64,
+     "type": "[Property]",
+     "idShort": "InternalMomentOfIntertia",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/InternalMomentOfInertia/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > OverallSystem > MassInertiaRatio",
+   "idShort": "MassInertiaRatio",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MassInertiaRatio/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     64,
+     71
+    ],
+    "row": {
+     "page": 64,
+     "type": "[Property]",
+     "idShort": "MassInertiaRatio",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MassInertiaRatio/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > OverallSystem > DecelerationForEmergencyStop",
+   "idShort": "DecelerationForEmergencyStop",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/DecelerationForEmergencyStop/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     65
+    ],
+    "row": {
+     "page": 65,
+     "type": "[Property]",
+     "idShort": "DecelerationForEmergencyStop",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/DecelerationForEmergencyStop/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > OverallSystem > CurrentForEmergencyStop",
+   "idShort": "CurrentForEmergencyStop",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/CurrentForEmergencyStop/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     65
+    ],
+    "row": {
+     "page": 65,
+     "type": "[Property]",
+     "idShort": "CurrentForEmergencyStop",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/CurrentForEmergencyStop/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > OverallSystem > DisplacementDuringEmergencyStop",
+   "idShort": "DisplacementDuringEmergencyStop",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/DisplacementDuringEmergencyStop/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     65
+    ],
+    "row": {
+     "page": 65,
+     "type": "[Property]",
+     "idShort": "DisplacementDuringEmergencyStop",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/DisplacementDuringEmergencyStop/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > OverallSystem > EnergyConsumtionPerCycle",
+   "idShort": "EnergyConsumtionPerCycle",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/EnergyConsumtionPerCycle/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     66,
+     72,
+     74
+    ],
+    "row": {
+     "page": 66,
+     "type": "[Property]",
+     "idShort": "EnergyConsumtionPerCycle",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/EnergyConsumtionPerCycle/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent",
+   "idShort": "MainComponent",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MainComponent/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     62
+    ],
+    "row": {
+     "page": 62,
+     "type": "[Entity]",
+     "idShort": "MainComponent",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MainComponent/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SizingResult > MainComponent > MainComponentType",
+   "idShort": "MainComponentType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MainComponentType/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     66
+    ],
+    "row": {
+     "page": 66,
+     "type": "[Property]",
+     "idShort": "MainComponentType",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MainComponentType/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "SizingResult > MainComponent > ManufacturerName",
+   "idShort": "ManufacturerName",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO677#002",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     63,
+     66,
+     73
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "SizingResult > MainComponent > ManufacturerArticleNumber",
+   "idShort": "ManufacturerArticleNumber",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO676#003",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     66,
+     73
+    ],
+    "row": {
+     "page": 66,
+     "type": "[Property]",
+     "idShort": "ManufacturerArticleNumber",
+     "semanticId": "0173-1#02-AAO676#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SizingResult > MainComponent > ManufacturerProductDesignation",
+   "idShort": "ManufacturerProductDesignation",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAW338#001",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     64,
+     67,
+     73
+    ],
+    "row": {
+     "page": 64,
+     "type": "[MLP]",
+     "idShort": "ManufacturerProductDesignation",
+     "semanticId": "0173-1#02-AAW338#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > ManufacturerOrderCode",
+   "idShort": "ManufacturerOrderCode",
+   "modelType": "Property",
+   "semanticId": " 0173-1#02-AAO227#002",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     64,
+     67,
+     73
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "SizingResult > MainComponent > MaxCurrentUtilizationPercentage",
+   "idShort": "MaxCurrentUtilizationPercentage",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MaxCurrentUtilizationPercentage/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     67
+    ],
+    "row": {
+     "page": 67,
+     "type": "[Property]",
+     "idShort": "MaxCurrentUtilizationPercentage",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MaxCurrentUtilizationPercentage/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > MaxCurrentUtilization",
+   "idShort": "MaxCurrentUtilization",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MaxCurrentUtilization/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     67
+    ],
+    "row": {
+     "page": 67,
+     "type": "[Property]",
+     "idShort": "MaxCurrentUtilization",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MaxCurrentUtilization/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > MaxThermalUtilizationPercentage",
+   "idShort": "MaxThermalUtilizationPercentage",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MaxThermalUtilizationPercentage/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     67
+    ],
+    "row": {
+     "page": 67,
+     "type": "[Property]",
+     "idShort": "MaxThermalUtilizationPercentage",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MaxThermalUtilizationPercentage/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > MaxThermalUtilization",
+   "idShort": "MaxThermalUtilization",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MaxThermalUtilization/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     67
+    ],
+    "row": {
+     "page": 67,
+     "type": "[Property]",
+     "idShort": "MaxThermalUtilization",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MaxThermalUtilization/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > AveragePowerLosses",
+   "idShort": "AveragePowerLosses",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AveragePowerLosses/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     68
+    ],
+    "row": {
+     "page": 68,
+     "type": "[Property]",
+     "idShort": "AveragePowerLosses",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AveragePowerLosses/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > AverageRegenerativePowerDcLink",
+   "idShort": "AverageRegenerativePowerDcLink",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AverageRegenerativePowerDcLink/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     68
+    ],
+    "row": {
+     "page": 68,
+     "type": "[Property]",
+     "idShort": "AverageRegenerativePowerDcLink",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AverageRegenerativePowerDcLink/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > MaxRegenerativePowerDcLink",
+   "idShort": "MaxRegenerativePowerDcLink",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MaxRegenerativePowerDcLink/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     68
+    ],
+    "row": {
+     "page": 68,
+     "type": "[Property]",
+     "idShort": "MaxRegenerativePowerDcLink",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MaxRegenerativePowerDcLink/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > AverageFeedInPowerDcLink",
+   "idShort": "AverageFeedInPowerDcLink",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AverageFeedInPowerDcLink/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > AverageFeedInPowerMains",
+   "idShort": "AverageFeedInPowerMains",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/AverageFeedInPowerMains/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..1",
+    "pages": [
+     68
+    ]
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > MaxFeedInPowerMains",
+   "idShort": "MaxFeedInPowerMains",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MaxFeedInPowerMains/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..1",
+    "pages": [
+     69
+    ]
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > ContinuousCurrent",
+   "idShort": "ContinuousCurrent",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/ContinuousCurrent/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     69
+    ],
+    "row": {
+     "page": 69,
+     "type": "[Property]",
+     "idShort": "ContinuousCurrent",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/ContinuousCurrent/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > RmsOfPower",
+   "idShort": "RmsOfPower",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/RmsOfPower/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     69
+    ],
+    "row": {
+     "page": 69,
+     "type": "[Property]",
+     "idShort": "RmsOfPower",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/RmsOfPower/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > MaxTorqueUtilizationPercentage",
+   "idShort": "MaxTorqueUtilizationPercentage",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MaxTorqueUtilizationPercentage/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     69
+    ],
+    "row": {
+     "page": 69,
+     "type": "[Property]",
+     "idShort": "MaxTorqueUtilizationPercentage",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MaxTorqueUtilizationPercentage/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > MaxTorqueUtilization",
+   "idShort": "MaxTorqueUtilization",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MaxTorqueUtilization/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     69
+    ],
+    "row": {
+     "page": 69,
+     "type": "[Property]",
+     "idShort": "MaxTorqueUtilization",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MaxTorqueUtilization/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > MaxRotationSpeedUtilizationPercentage",
+   "idShort": "MaxRotationSpeedUtilizationPercentage",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MaxRotationSpeedUtilizationPercentage/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     70
+    ],
+    "row": {
+     "page": 70,
+     "type": "[Property]",
+     "idShort": "MaxRotationSpeedUtilizationPercentage",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MaxRotationSpeedUtilizationPercentage/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > MaxRotationSpeedUtilization",
+   "idShort": "MaxRotationSpeedUtilization",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MaxRotationSpeedUtilization/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     70
+    ],
+    "row": {
+     "page": 70,
+     "type": "[Property]",
+     "idShort": "MaxRotationSpeedUtilization",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MaxRotationSpeedUtilization/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > EffectiveUtilization",
+   "idShort": "EffectiveUtilization",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/EffectiveUtilization/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     70
+    ],
+    "row": {
+     "page": 70,
+     "type": "[Property]",
+     "idShort": "EffectiveUtilization",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/EffectiveUtilization/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > CalculatedServiceLife",
+   "idShort": "CalculatedServiceLife",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/CalculatedServiceLife/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     70
+    ],
+    "row": {
+     "page": 70,
+     "type": "[Property]",
+     "idShort": "CalculatedServiceLife",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/CalculatedServiceLife/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > MassInertiaRatio",
+   "idShort": "MassInertiaRatio",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MassInertiaRatio/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     64,
+     71
+    ],
+    "row": {
+     "page": 64,
+     "type": "[Property]",
+     "idShort": "MassInertiaRatio",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MassInertiaRatio/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > FrequencyAtMaxSpeed",
+   "idShort": "FrequencyAtMaxSpeed",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrequencyAtMaxSpeed/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     71
+    ],
+    "row": {
+     "page": 71,
+     "type": "[Property]",
+     "idShort": "FrequencyAtMaxSpeed",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/FrequencyAtMaxSpeed/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > PowerInRegenerativeOperation",
+   "idShort": "PowerInRegenerativeOperation",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/PowerInRegenerativeOperation/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     71
+    ],
+    "row": {
+     "page": 71,
+     "type": "[Property]",
+     "idShort": "PowerInRegenerativeOperation",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/PowerInRegenerativeOperation/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > PowerInMotorOperation",
+   "idShort": "PowerInMotorOperation",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/PowerInMotorOperation/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     71
+    ],
+    "row": {
+     "page": 71,
+     "type": "[Property]",
+     "idShort": "PowerInMotorOperation",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/PowerInMotorOperation/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > RmsOfMotorTorque",
+   "idShort": "RmsOfMotorTorque",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/RmsOfMotorTorque/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     72
+    ],
+    "row": {
+     "page": 72,
+     "type": "[Property]",
+     "idShort": "RmsOfMotorTorque",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/RmsOfMotorTorque/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > MainComponent > EnergyConsumtionPerCycle",
+   "idShort": "EnergyConsumtionPerCycle",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/EnergyConsumtionPerCycle/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     66,
+     72,
+     74
+    ],
+    "row": {
+     "page": 66,
+     "type": "[Property]",
+     "idShort": "EnergyConsumtionPerCycle",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/EnergyConsumtionPerCycle/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > OtherComponent",
+   "idShort": "OtherComponent",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/OtherComponent/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..*",
+    "pages": [
+     62
+    ]
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SizingResult > OtherComponent > ManufacturerName",
+   "idShort": "ManufacturerName",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO677#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     63,
+     66,
+     73
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > OtherComponent > ManufacturerArticleNumber",
+   "idShort": "ManufacturerArticleNumber",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO676#003",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     66,
+     73
+    ],
+    "row": {
+     "page": 66,
+     "type": "[Property]",
+     "idShort": "ManufacturerArticleNumber",
+     "semanticId": "0173-1#02-AAO676#003",
+     "card": "1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > OtherComponent > ManufacturerProductDesignation",
+   "idShort": "ManufacturerProductDesignation",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAW338#001",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     64,
+     67,
+     73
+    ],
+    "row": {
+     "page": 64,
+     "type": "[MLP]",
+     "idShort": "ManufacturerProductDesignation",
+     "semanticId": "0173-1#02-AAW338#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > OtherComponent > ManufacturerOrderCode",
+   "idShort": "ManufacturerOrderCode",
+   "modelType": "Property",
+   "semanticId": " 0173-1#02-AAO227#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     64,
+     67,
+     73
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > OtherComponent > QuantityOfParts",
+   "idShort": "QuantityOfParts",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/QuantityOfParts/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     73
+    ],
+    "row": {
+     "page": 73,
+     "type": "[Property]",
+     "idShort": "QuantityOfParts",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/QuantityOfParts/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > OtherComponent > BulkCount",
+   "idShort": "BulkCount",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/BulkCount/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     73
+    ],
+    "row": {
+     "page": 73,
+     "type": "[Property]",
+     "idShort": "BulkCount",
+     "semanticId": "https://admin-shell.io/idta/HierarchicalStructures/BulkCount/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > OtherComponent > EnergyConsumtionPerCycle",
+   "idShort": "EnergyConsumtionPerCycle",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/EnergyConsumtionPerCycle/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     66,
+     72,
+     74
+    ],
+    "row": {
+     "page": 66,
+     "type": "[Property]",
+     "idShort": "EnergyConsumtionPerCycle",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/EnergyConsumtionPerCycle/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizingResult > Messages",
+   "idShort": "Messages",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Messages/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     63
+    ],
+    "row": {
+     "page": 63,
+     "type": "[SMC]",
+     "idShort": "Messages",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Messages/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SizingResult > Messages > Message",
+   "idShort": "Message",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Message/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     74
+    ],
+    "row": {
+     "page": 74,
+     "type": "[SMC]",
+     "idShort": "Message",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/Message/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SizingResult > Messages > Message > CriticalityOfMessage",
+   "idShort": "CriticalityOfMessage",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/CriticalityOfMessage/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     75
+    ],
+    "row": {
+     "page": 75,
+     "type": "[Property]",
+     "idShort": "CriticalityOfMessage",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/CriticalityOfMessage/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SizingResult > Messages > Message > MessageText",
+   "idShort": "MessageText",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MessageText/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     75
+    ],
+    "row": {
+     "page": 75,
+     "type": "[MultiLanguageP roperty]",
+     "idShort": "MessageText",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/MessageText/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SizingResult > TextStatement",
+   "idShort": "TextStatement",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/TextStatement/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     63
+    ],
+    "row": {
+     "page": 63,
+     "type": "[MultiLanguageP roperty]",
+     "idShort": "TextStatement",
+     "semanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/TextStatement/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  }
+ ]
+}

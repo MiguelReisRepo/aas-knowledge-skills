@@ -1,0 +1,1281 @@
+{
+ "template": "Digital Battery Passport / Technical Data",
+ "version": "1.0.0",
+ "submodelIdShort": "TechnicalData",
+ "submodelSemanticId": "https://admin-shell.io/idta/digitalbatterypassport/TechnicalData/1/0",
+ "json": {
+  "path": "published/Digital Battery Passport/4_Technical Data/1/0/IDTA 02035-4_DBP-Part-4_TechnicalData_without_examplevalues.json",
+  "gitBlob": "3538584d1d6e447cb6896d62752b49cd1e0cadff"
+ },
+ "pdf": {
+  "path": "published/Digital Battery Passport/4_Technical Data/1/0/IDTA 02035-4_DBP-Part-4_TechnicalData.pdf",
+  "relation": "same folder",
+  "sha256": "c340d33e8a7575ebbcf1fc55ef0a8540db1c3474d06d384a0fbfc0b4e9dd4369",
+  "annexA": [
+   {
+    "page": 24,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 24,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 48,
+  "divergent": 2
+ },
+ "elements": [
+  {
+   "path": "GeneralInformation",
+   "idShort": "GeneralInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABK161#002/0173-1#01-AHX838#002",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     7
+    ],
+    "row": {
+     "page": 7,
+     "type": "[SMC]",
+     "idShort": "GeneralInformation",
+     "semanticId": "0173-1#02-ABK161#002/0173-1#01-AHX838#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > ManufacturerName",
+   "idShort": "ManufacturerName",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO677#004",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     8
+    ],
+    "row": {
+     "page": 8,
+     "type": "[Prop]",
+     "idShort": "ManufacturerName",
+     "semanticId": "0173-1#02-AAO677#004",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > CompanyLogo",
+   "idShort": "CompanyLogo",
+   "modelType": "File",
+   "semanticId": "0173-1#02-ABI776#002",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     8
+    ],
+    "row": {
+     "page": 8,
+     "type": "[File]",
+     "idShort": "CompanyLogo",
+     "semanticId": "0173-1#02-ABI776#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "GeneralInformation > ManufacturerProductDesignation",
+   "idShort": "ManufacturerProductDesignation",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAW338#003",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     8
+    ],
+    "row": {
+     "page": 8,
+     "type": "[MLP]",
+     "idShort": "ManufacturerProductDesignation",
+     "semanticId": "0173-1#02-AAW338#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > ManufacturerArticleNumber",
+   "idShort": "ManufacturerArticleNumber",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO676#005",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     8
+    ],
+    "row": {
+     "page": 8,
+     "type": "[Prop]",
+     "idShort": "ManufacturerArticleNumber",
+     "semanticId": "0173-1#02-AAO676#005",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > ManufacturerOrderCode",
+   "idShort": "ManufacturerOrderCode",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO227#004",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "ManufacturerOrderCode",
+     "semanticId": "0173-1#02-AAO227#004",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > ManufacturerIdentifier",
+   "idShort": "ManufacturerIdentifier",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#manufacturerIdentifier",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "ManufacturerIdentifier",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#manufacturerIdentifier",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > WarrantyPeriod",
+   "idShort": "WarrantyPeriod",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#warrantyPeriod",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "WarrantyPeriod",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#warrantyPeriod",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > BatteryCategory",
+   "idShort": "BatteryCategory",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#batteryCategory",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "BatteryCategory",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#batteryCategory",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > BatteryMass",
+   "idShort": "BatteryMass",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#batteryMass",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "BatteryMass",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#batteryMass",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > ProductImages",
+   "idShort": "ProductImages",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABM220#001",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[SML]",
+     "idShort": "ProductImages",
+     "semanticId": "0173-1#02-ABM220#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "GeneralInformation > ProductImages > ProductImage",
+   "idShort": "ProductImage",
+   "modelType": "File",
+   "semanticId": "0173-1#02-ABM220#001/0173-1#01-AHY911#001",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[File]",
+     "idShort": "ProductImage",
+     "semanticId": "0173-1#02-ABM220#001/0173-1#01-AHY911#001",
+     "card": "0..*"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..*"
+  },
+  {
+   "path": "TechnicalPropertyAreas",
+   "idShort": "TechnicalPropertyAreas",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABK163#002",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     7
+    ],
+    "row": {
+     "page": 7,
+     "type": "[SMC]",
+     "idShort": "TechnicalPropertyAreas",
+     "semanticId": "0173-1#02-ABK163#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > CapacityEnergyVoltage",
+   "idShort": "CapacityEnergyVoltage",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#capacityEnergyVoltage",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "CapacityEnergyVoltage",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#capacityEnergyVoltage",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > CapacityEnergyVoltage > NominalVoltage",
+   "idShort": "NominalVoltage",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABL588#001",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "NominalVoltage",
+     "semanticId": "0173-1#02-ABL588#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > CapacityEnergyVoltage > MinVoltage",
+   "idShort": "MinVoltage",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABL587#001",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "MinVoltage",
+     "semanticId": "0173-1#02-ABL587#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > CapacityEnergyVoltage > MaxVoltage",
+   "idShort": "MaxVoltage",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABL589#001",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "MaxVoltage",
+     "semanticId": "0173-1#02-ABL589#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > CapacityEnergyVoltage > RatedCapacity",
+   "idShort": "RatedCapacity",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABL869#002",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "RatedCapacity",
+     "semanticId": "0173-1#02-ABL869#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > CapacityEnergyVoltage > CapacityFade",
+   "idShort": "CapacityFade",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABL828#002",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "CapacityFade",
+     "semanticId": "0173-1#02-ABL828#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > CapacityEnergyVoltage > CertifiedUsableBatteryEnergy",
+   "idShort": "CertifiedUsableBatteryEnergy",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABL829#002",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "CertifiedUsableBatteryEnergy",
+     "semanticId": "0173-1#02-ABL829#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > RoundTripEnergyEfficiency",
+   "idShort": "RoundTripEnergyEfficiency",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#roundTripEnergyEfficiency",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "RoundTripEnergyEfficiency",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#roundTripEnergyEfficiency",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > RoundTripEnergyEfficiency > InitialRoundTripEnergyEfficiency",
+   "idShort": "InitialRoundTripEnergyEfficiency",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABL833#002",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "InitialRoundTripEnergyEfficiency",
+     "semanticId": "0173-1#02-ABL833#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > RoundTripEnergyEfficiency > RoundTripEnergyEfficiencyAt50PercentOfCycleLife",
+   "idShort": "RoundTripEnergyEfficiencyAt50PercentOfCycleLife",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABL866#002",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "RoundTripEnergyEfficiencyAt50PercentOfCycleLife",
+     "semanticId": "0173-1#02-ABL866#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > RoundTripEnergyEfficiency > EnergyRoundTripEfficiencyFade",
+   "idShort": "EnergyRoundTripEfficiencyFade",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABL827#002",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "EnergyRoundTripEfficiencyFade",
+     "semanticId": "0173-1#02-ABL827#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > RoundTripEnergyEfficiency > InitialSelfDischargingRate",
+   "idShort": "InitialSelfDischargingRate",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABL834#002",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "InitialSelfDischargingRate",
+     "semanticId": "0173-1#02-ABL834#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > Resistance",
+   "idShort": "Resistance",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#resistance",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "Resistance",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#resistance",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > Resistance > InitialInternalResistanceAtBatteryCellLevel",
+   "idShort": "InitialInternalResistanceAtBatteryCellLevel",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABL844#002",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "InitialInternalResistanceAtBatteryCellLevel",
+     "semanticId": "0173-1#02-ABL844#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > Resistance > InitialInternalResistanceAtBatteryPackLevel",
+   "idShort": "InitialInternalResistanceAtBatteryPackLevel",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABL846#002",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "InitialInternalResistanceAtBatteryPackLevel",
+     "semanticId": "0173-1#02-ABL846#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > Resistance > InitialInternalResistanceAtBatteryModuleLevel",
+   "idShort": "InitialInternalResistanceAtBatteryModuleLevel",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABL832#002",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "InitialInternalResistanceAtBatteryModuleLevel",
+     "semanticId": "0173-1#02-ABL832#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > Resistance > InternalResistanceIncreaseAtBatteryCellLevel",
+   "idShort": "InternalResistanceIncreaseAtBatteryCellLevel",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#internalResistanceIncreaseAtBatteryCellLevel",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "InternalResistanceIncreaseAtBatteryCellLevel",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#internalResistanceIncreaseAtBatteryCellLevel",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > Resistance > InternalResistanceIncreaseAtBatteryPackLevel",
+   "idShort": "InternalResistanceIncreaseAtBatteryPackLevel",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#internalResistanceIncreaseAtBatteryPackLevel",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "InternalResistanceIncreaseAtBatteryPackLevel",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#internalResistanceIncreaseAtBatteryPackLevel",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > Resistance > InternalResistanceIncreaseAtBatteryModuleLevel",
+   "idShort": "InternalResistanceIncreaseAtBatteryModuleLevel",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#initialInternalResistanceAtBatteryModuleLevel",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "InternalResistanceIncreaseAtBatteryModuleLevel",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#initialInternalResistanceAtBatteryModuleLevel",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > PowerCapability",
+   "idShort": "PowerCapability",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#powerCapability",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "PowerCapability",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#powerCapability",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > PowerCapability > MaximumPermittedBatteryPower",
+   "idShort": "MaximumPermittedBatteryPower",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABL843#002",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "MaximumPermittedBatteryPower",
+     "semanticId": "0173-1#02-ABL843#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > PowerCapability > PowerFade",
+   "idShort": "PowerFade",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABL852#002",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "PowerFade",
+     "semanticId": "0173-1#02-ABL852#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > PowerCapability > RatioNorminalBatteryPowerAndBatteryEnergy",
+   "idShort": "RatioNorminalBatteryPowerAndBatteryEnergy",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#powerCapabilityRatio",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "RatioNorminalBatteryPowerAndBatteryEnergy",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#powerCapabilityRatio",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > PowerCapability > OriginalPowerCapability",
+   "idShort": "OriginalPowerCapability",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABL853#002",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SML]",
+     "idShort": "OriginalPowerCapability",
+     "semanticId": "0173-1#02-ABL853#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > PowerCapability > OriginalPowerCapability > PowerCapabilityAt",
+   "idShort": "PowerCapabilityAt",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#PowerCapabilityAt",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "PowerCapabilityAt",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#PowerCapabilityAt",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "TechnicalPropertyAreas > PowerCapability > OriginalPowerCapability > PowerCapabilityAt > atSoc",
+   "idShort": "atSoc",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#atSoC",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "atSoc",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#atSoC",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > PowerCapability > OriginalPowerCapability > PowerCapabilityAt > powerCapabilityAt",
+   "idShort": "powerCapabilityAt",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#powerCapabilityAt",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "powerCapabilityAt",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#powerCapabilityAt",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > Temperature",
+   "idShort": "Temperature",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#temperature",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "Temperature",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#temperature",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > Temperature > TemperatureRangeIdleState_LowerBoundary",
+   "idShort": "TemperatureRangeIdleState_LowerBoundary",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABL842#002",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "TemperatureRangeIdleState_LowerBoundary",
+     "semanticId": "0173-1#02-ABL842#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > Temperature > TemperatureRangeIdleState_UpperBoundary",
+   "idShort": "TemperatureRangeIdleState_UpperBoundary",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABL871#002",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "TemperatureRangeIdleState_UpperBoundary",
+     "semanticId": "0173-1#02-ABL871#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > Lifetime",
+   "idShort": "Lifetime",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#lifetime",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "Lifetime",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#lifetime",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > Lifetime > ExpectedLifetimeInCalendarYears",
+   "idShort": "ExpectedLifetimeInCalendarYears",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#expectedLifetime",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Prop]",
+     "idShort": "ExpectedLifetimeInCalendarYears",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#expectedLifetime",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > Lifetime > ExpectedNumberOfCycles",
+   "idShort": "ExpectedNumberOfCycles",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#expectedNumberOfCycles",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Prop]",
+     "idShort": "ExpectedNumberOfCycles",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#expectedNumberOfCycles",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > Lifetime > CapacityThresholdExhaustion",
+   "idShort": "CapacityThresholdExhaustion",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABL838#002",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Prop]",
+     "idShort": "CapacityThresholdExhaustion",
+     "semanticId": "0173-1#02-ABL838#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > Lifetime > CRateOfRelevantCycleLifeTest",
+   "idShort": "CRateOfRelevantCycleLifeTest",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#cRateLifeCycleTest",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "CRateOfRelevantCycleLifeTest",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#cRateLifeCycleTest",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > Lifetime > cycleLifeReferenceTest",
+   "idShort": "cycleLifeReferenceTest",
+   "modelType": "SubmodelElementList",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#cycleLifeReferenceTest",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[SML]",
+     "idShort": "cyclLifeReferenceTest",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.technical_data:1.0.0#cycleLifeReferenceTest",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TechnicalPropertyAreas > Lifetime > cycleLifeReferenceTest > DocumentIdentifier",
+   "idShort": "DocumentIdentifier",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABI501#003/0173-1#01-AHF580#003",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Prop]",
+     "idShort": "DocumentIdentifier",
+     "semanticId": "0173-1#02-ABI501#003/0173-1#01-AHF580#003",
+     "card": "1"
+    }
+   },
+   "status": "divergent",
+   "effective": "1..*"
+  }
+ ]
+}

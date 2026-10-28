@@ -1,0 +1,48 @@
+{
+  "skill": "aas-bom",
+  "version": "1.0.0",
+  "last_verified": "2026-10-28",
+  "sources": [
+    {
+      "document": "IDTA 02011 Hierarchical Structures enabling Bills of Material (PDF + paged txt)",
+      "revision": "1.0 (April 2023); bundled PDF sha256 95a9c8e63f44... (1.0 is not in the mirror)",
+      "file": "skills/aas-bom/IDTA-02011-1-0_HierarchicalStructures.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": true
+    },
+    {
+      "document": "IDTA 02011 Hierarchical Structures enabling Bills of Material",
+      "revision": "1.1 (June 2024, admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06); PDF sha256 3d47da0d743c...",
+      "file": "idta-pdfs:txt/published/Hierarchical Structures enabling Bills of Material/1/1/IDTA 02011-1-1_Submodel_HierarchicalStructuresEnablingBoM.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02011 - official template JSON",
+      "revision": "1.1.1 (admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06)",
+      "file": "idta-pdfs:json/published/Hierarchical Structures enabling Bills of Material/1/1/1/IDTA 02011-1-1-1_Template_HSEBoM.json",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02011 - official template JSON (V3.1 variant)",
+      "revision": "1.1.2 (admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06)",
+      "file": "idta-pdfs:json/published/Hierarchical Structures enabling Bills of Material/1/1/2/IDTA 02011-1-1-2_Template_HSEBoM_forAASMetamodelV3.1.json",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA-01001 Part 1 Metamodel (AASd-014) as formalised in aas-core-meta",
+      "revision": "3.0 / 3.1 / 3.2 via aas-core-meta-v3_0.py (2ef62ab51fee...), -v3_1.py (d60dbaca77e3...), -v3_2.py (92692f843c96...)",
+      "file": "vendor/aas-core-meta/aas-core-meta-v3_0.py",
+      "url": "https://github.com/aas-core-works/aas-core-meta",
+      "bundled": false
+    }
+  ],
+  "latest_in_mirror": "NOT latest: bundled 1.0; mirror has 1.1 (only change: submodel semanticId .../1/1/Submodel, marked (X) backward-compatible) and template JSON 1.1.1. Mirror also has the separate 'Extension based on IEC 81346' 1.0.",
+  "claims_not_verifiable_on_disk": [
+    "AAS Basic Discovery lookup GET /lookup/shells?assetIds=... (IDTA-01002 Part 2 API not on disk)",
+    "XML Entity child order statements -> entityType -> globalAssetId (not re-checked against the XSD for these evals)"
+  ],
+  "notes": "SKILL.md text names the 1.0 PDF as ground truth but the structure block uses the 1.1 submodel IRI; both are covered by evals."
+}

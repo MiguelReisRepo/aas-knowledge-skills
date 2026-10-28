@@ -1,0 +1,22 @@
+{
+ "must_detect": [
+  "fx-a/fx-a-003: no citation",
+  "fx-a/fx-a-004: must_include empty",
+  "fx-a/fx-a-005: citation file does not exist",
+  "fx-a/fx-a-006: quote not found in source.md$",
+  "fx-a/fx-a-007: quote not found in source.md lines 1-2",
+  "fx-a/fx-a-008: expected_answer fails its own grading",
+  "fx-a/fx-a-002: duplicate id",
+  "fx-a/wrongprefix-001: id must start with",
+  "fx-a/fx-a-010: citation gives page 3 but source.md has no page markers",
+  "fx-a/fx-a-011: citation file alias not resolvable",
+  "fx-a: VERSION.json version not semver",
+  "fx-a: VERSION.json last_verified not",
+  "fx-a: VERSION.json sources must list",
+  "fx-b: 1 items \\(expected 8\\.\\.15\\)",
+  "fx-b: VERSION.json missing"
+ ],
+ "must_not_flag": [
+  "^fx-a/fx-a-001:"
+ ]
+}

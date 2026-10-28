@@ -1,0 +1,69 @@
+{
+  "skill": "dpp-knowledge",
+  "version": "1.1.0",
+  "last_verified": "2026-10-28",
+  "sources": [
+    {
+      "document": "Regulation (EU) 2023/1542 (Batteries Regulation), OJ L 191, 28.7.2023",
+      "revision": "OJ text, CELEX 32023R1542 (sha256 2c6c1b423397...)",
+      "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32023R1542.html",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R1542",
+      "bundled": true
+    },
+    {
+      "document": "Regulation (EU) 2023/1542, consolidated version",
+      "revision": "02023R1542-20260813 (sha256 f0359e3b9673...); EUR-Lex documentation, not authentic",
+      "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_02023R1542-20260813.html",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02023R1542-20260813",
+      "bundled": true
+    },
+    {
+      "document": "Corrigenda to Regulation (EU) 2023/1542",
+      "revision": "R(05) OJ L 2024/90243; R(11) OJ L 2025/90794; R(13) OJ L 2026/90285 (Annex XIII 1(q)) (sha256 c1102a3db229... for R13)",
+      "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32023R1542R13.html",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R1542R(13)",
+      "bundled": true
+    },
+    {
+      "document": "Regulation (EU) 2025/1561 amending 2023/1542 (battery due diligence dates)",
+      "revision": "OJ text, CELEX 32025R1561 (sha256 7e6d805ad60e...)",
+      "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32025R1561.html",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025R1561",
+      "bundled": true
+    },
+    {
+      "document": "Regulation (EU) 2024/1781 (ESPR), OJ L, 2024/1781, 28.6.2024",
+      "revision": "OJ text, CELEX 32024R1781 (sha256 af6bce86c3b3...)",
+      "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32024R1781.html",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1781",
+      "bundled": true
+    },
+    {
+      "document": "Corrigenda to Regulation (EU) 2024/1781",
+      "revision": "R(01) OJ L 2024/90493 (Arts. 77-78, new Art. 77(10) of 2023/1542, sha256 8fdf3dc6a4e1...); R(02) OJ L 2025/90356 (sha256 e585d347fc72...)",
+      "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32024R1781R01.html",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1781R(01)",
+      "bundled": true
+    },
+    {
+      "document": "COM(2025) 187 final, ESPR and Energy Labelling Working Plan 2025-2030",
+      "revision": "16.4.2025, CELEX 52025DC0187 (sha256 4903e648f1b3...)",
+      "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_52025DC0187.html",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52025DC0187",
+      "bundled": true
+    }
+  ],
+  "claims_not_verifiable_on_disk": [
+    "EN 18216/18219/18220/18221/18222/18223:2026 normative texts (clause-level claims: JSON+HTML mandatory, HTTP/2, TLS 1.2, 18221 no retention period, 18219 Art. 10(4) N/A, 18223 class/field names such as 'lastUpdated')",
+    "EN 18239 / EN 18246 status (only IDTA 02099-1 sec. 1.2 lists them as JTC24 modules)",
+    "Commission Implementing Decision (EU) 2026/1736 citing the six EN 182xx standards",
+    "Regulation (EU) No 1025/2012, Regulation (EU) 2022/2480, Regulation (EC) No 765/2008 quotes",
+    "Regulation (EU) 2026/1738 (replacement of Annex I) and 2026/1770 (only reflected via the consolidated text / ALL page)",
+    "EU DPP Registry User Guide for Economic Operators v1.01 (2026-07-28) and v1.03 (2026-09-16)",
+    "prEN 18219 50-character rule (GS1 balloting comments)",
+    "CIRPASS / CIRPASS-2 deliverables (four-layer architecture, four access tiers, append-only versioning, data-carrier recommendations)",
+    "UNTP / UN/CEFACT Recommendation 49, GS1 EPCIS 2.0, GS1 Digital Link, ISO/IEC Directives, ITU",
+    "JRC145830 three-tier lattice"
+  ],
+  "notes": "Legal anchors (ESPR, Batteries Regulation, corrigenda, 2025/1561, Working Plan) are on disk and quote-checked; standards, registry guide and CIRPASS material are not."
+}

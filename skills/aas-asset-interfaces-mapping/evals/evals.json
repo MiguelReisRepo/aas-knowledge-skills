@@ -1,0 +1,343 @@
+{
+  "skill": "aas-asset-interfaces-mapping",
+  "skill_version": "1.0.0",
+  "description": "IDTA 02027 Asset Interfaces Mapping Configuration (AIMC) 1.0 vs 2.0/2.1: semanticIds (incl. the 1/0 MappingConfigurations drift), elements removed in 2.0, Sources/Sinks/SourceId/SinkId rules, Lua transformation, polling, link to AID.",
+  "items": [
+    {
+      "id": "aas-asset-interfaces-mapping-001",
+      "question": "What is the Submodel semanticId of an AIMC 2.0 submodel?",
+      "expected_answer": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/Submodel (idShort AssetInterfacesMappingConfiguration).",
+      "must_include": [
+        "AssetInterfacesMappingConfiguration/2/0/Submodel"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02027 Asset Interfaces Mapping Configuration",
+        "revision": "2.0 (May 2026 edition)",
+        "section": "2.3, Table 2 Elements of the SM AssetInterfacesMappingConfiguration",
+        "file": "skills/aas-asset-interfaces-mapping/IDTA-02027_Submodel_Asset-Interfaces-Mapping-Configuration.txt",
+        "lines": "357-363",
+        "quote": "AssetInterfacesMappingConfiguration Class: Submodel semanticId: https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/Submodel"
+      },
+      "tags": [
+        "semanticId",
+        "revision-specific"
+      ]
+    },
+    {
+      "id": "aas-asset-interfaces-mapping-002",
+      "question": "In AIMC 2.0 every element uses .../2/0/... semanticIds. Which semanticId does the specification give the MappingConfigurations SubmodelElementList?",
+      "expected_answer": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/1/0/MappingConfigurations - printed with 1/0, unlike the other 2.0 elements.",
+      "must_include": [
+        "AssetInterfacesMappingConfiguration/1/0/MappingConfigurations"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02027 Asset Interfaces Mapping Configuration",
+        "revision": "2.0 (May 2026 edition)",
+        "section": "2.4, Table 3 Elements of SML MappingConfigurations",
+        "file": "skills/aas-asset-interfaces-mapping/IDTA-02027_Submodel_Asset-Interfaces-Mapping-Configuration.txt",
+        "lines": "396-401",
+        "quote": "MappingConfigurations Class: SubmodelElementList semanticId: https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/1/0/MappingConfigurations"
+      },
+      "tags": [
+        "semanticId",
+        "trap"
+      ]
+    },
+    {
+      "id": "aas-asset-interfaces-mapping-003",
+      "question": "Is the /1/0/ in the AIMC 2.0 MappingConfigurations semanticId only a PDF typo that the official template JSON corrects to /2/0/?",
+      "expected_answer": "No. The official template JSON (also the 2.1 bug-fix JSON) carries https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/1/0/MappingConfigurations as well, so PDF and JSON agree on 1/0.",
+      "must_include": [
+        "1/0/MappingConfigurations"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02027 Asset Interfaces Mapping Configuration - official template JSON",
+        "revision": "2.1 bug-fix folder (administration 2.0)",
+        "section": "Submodel AssetInterfacesMappingConfiguration > MappingConfigurations semanticId",
+        "file": "idta-pdfs:json/published/Asset Interfaces Mapping Configuration/2/1/IDTA 02027_Template_AIMC.json",
+        "lines": "68-86",
+        "quote": "\"value\": \"https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/1/0/MappingConfigurations\""
+      },
+      "tags": [
+        "semanticId",
+        "trap"
+      ]
+    },
+    {
+      "id": "aas-asset-interfaces-mapping-004",
+      "question": "An integrator models AIMC 2.0 with an InterfaceReference ReferenceElement in each MappingConfiguration pointing to the AID interface. Is that the 2.0 structure?",
+      "expected_answer": "No. AIMC 2.0 removed InterfaceReference; the related AID submodel is inferred from each Source ReferenceElement. InterfaceReference is AIMC 1.0.",
+      "must_include": [
+        "removed",
+        [
+          "Source",
+          "inferred"
+        ]
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02027 Asset Interfaces Mapping Configuration",
+        "revision": "2.0 (May 2026 edition)",
+        "section": "Annex C. Changes between Version 1.0 and 2.0",
+        "file": "skills/aas-asset-interfaces-mapping/IDTA-02027_Submodel_Asset-Interfaces-Mapping-Configuration.txt",
+        "lines": "872-873",
+        "quote": "Removed ReferenceElement InterfaceReference from SMC MappingConfiguration since the related AID Submodel can be inferred from each Source ReferenceElement"
+      },
+      "tags": [
+        "revision-specific",
+        "removed"
+      ]
+    },
+    {
+      "id": "aas-asset-interfaces-mapping-005",
+      "question": "Where do source-to-sink relations live in AIMC 2.0 - in a MappingSourceSinkRelations list of RelationshipElements?",
+      "expected_answer": "No. 2.0 removed the MappingSourceSinkRelations SML and added the Sources and Sinks SMLs to each MappingConfiguration.",
+      "must_include": [
+        "Sources",
+        "Sinks"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02027 Asset Interfaces Mapping Configuration",
+        "revision": "2.0 (May 2026 edition)",
+        "section": "Annex C. Changes between Version 1.0 and 2.0",
+        "file": "skills/aas-asset-interfaces-mapping/IDTA-02027_Submodel_Asset-Interfaces-Mapping-Configuration.txt",
+        "lines": "876-878",
+        "quote": "Removed SML MappingSourceSinkRelations from SMC MappingConfiguration • Added SML Sources to SMC MappingConfiguration • Added SML Sinks to SMC MappingConfiguration"
+      },
+      "tags": [
+        "revision-specific",
+        "removed"
+      ]
+    },
+    {
+      "id": "aas-asset-interfaces-mapping-006",
+      "question": "In AIMC 1.0 (IDTA 02027-1-0), is InterfaceReference optional inside a {Configuration #00}?",
+      "expected_answer": "No. In 1.0 InterfaceReference (.../1/0/InterfaceReference) has cardinality 1, i.e. mandatory, as does MappingSourceSinkRelations.",
+      "must_include": [
+        "mandatory"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02027-1-0 Asset Interfaces Mapping Configuration",
+        "revision": "1.0",
+        "section": "2.5, Table 4 Elements of SMC {Configuration #00}, row InterfaceReference",
+        "file": "idta-pdfs:txt/published/Asset Interfaces Mapping Configuration/1/0/IDTA 02027-1-0_Submodel_AssetInterfacesMappingConfiguration.txt",
+        "page": 13,
+        "quote": "A reference referencing an interface of interest in an AID. (Submodel) https://asset.com/assetinterfacesdescription (SubmodelElementCollection) InterfaceHTTP 1"
+      },
+      "tags": [
+        "revision-specific",
+        "cardinality"
+      ]
+    },
+    {
+      "id": "aas-asset-interfaces-mapping-007",
+      "question": "An AIMC 2.0 MappingConfiguration has no Transformation Blob, 3 Sources and 2 Sinks. Is that valid, and how are sources paired with sinks?",
+      "expected_answer": "Not valid: without a transformation the number of sources and sinks shall be equal, each source maps to exactly one sink, and pairs are matched by equal SourceId and SinkId values.",
+      "must_include": [
+        "equal",
+        "SourceId",
+        "SinkId"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02027 Asset Interfaces Mapping Configuration",
+        "revision": "2.0 (May 2026 edition)",
+        "section": "1.4 Data Transformations",
+        "file": "skills/aas-asset-interfaces-mapping/IDTA-02027_Submodel_Asset-Interfaces-Mapping-Configuration.txt",
+        "lines": "186-189",
+        "quote": "number of sources and sinks shall be equal, and each source shall map to exactly one sink. To establish the relationship for each source-sink pair, they must have the same ID value (SourceId and SinkId, respectively)"
+      },
+      "tags": [
+        "rule"
+      ]
+    },
+    {
+      "id": "aas-asset-interfaces-mapping-008",
+      "question": "Which entry-point function must every AIMC Lua transformation define?",
+      "expected_answer": "aimc_main(sources) - it receives the inputs keyed by SourceId and returns a table keyed by SinkId.",
+      "must_include": [
+        "aimc_main"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02027 Asset Interfaces Mapping Configuration",
+        "revision": "2.0 (May 2026 edition)",
+        "section": "1.4 Data Transformations",
+        "file": "skills/aas-asset-interfaces-mapping/IDTA-02027_Submodel_Asset-Interfaces-Mapping-Configuration.txt",
+        "lines": "173-174",
+        "quote": "The Lua script above defines the function aimc_main, which shall be present in every Lua transformation and serves as the entry point for execution."
+      },
+      "tags": [
+        "rule"
+      ]
+    },
+    {
+      "id": "aas-asset-interfaces-mapping-009",
+      "question": "Should the AIMC Transformation be a File element pointing to a .lua supplementary file in the AASX?",
+      "expected_answer": "No. The Lua script is stored inline in the Transformation element as a Blob with contentType text/plain.",
+      "must_include": [
+        "Blob",
+        "text/plain"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02027 Asset Interfaces Mapping Configuration",
+        "revision": "2.0 (May 2026 edition)",
+        "section": "1.4 Data Transformations",
+        "file": "skills/aas-asset-interfaces-mapping/IDTA-02027_Submodel_Asset-Interfaces-Mapping-Configuration.txt",
+        "lines": "181-182",
+        "quote": "The Lua script is stored in the MappingConfiguration’s Transformation element as a Blob with contentType set to \"text/plain\"."
+      },
+      "tags": [
+        "structure"
+      ]
+    },
+    {
+      "id": "aas-asset-interfaces-mapping-010",
+      "question": "Can an AIMC 2.0 Lua transformation keep a running total in a global variable between executions?",
+      "expected_answer": "No. In AIMC 2.0 Lua transformations shall be stateless and may not persist state across executions (e.g. via global variables).",
+      "must_include": [
+        "stateless"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02027 Asset Interfaces Mapping Configuration",
+        "revision": "2.0 (May 2026 edition)",
+        "section": "1.4 Data Transformations",
+        "file": "skills/aas-asset-interfaces-mapping/IDTA-02027_Submodel_Asset-Interfaces-Mapping-Configuration.txt",
+        "lines": "190-191",
+        "quote": "In AIMC version 2.0, Lua transformations shall be stateless and are not allowed to persist state across executions"
+      },
+      "tags": [
+        "rule",
+        "revision-specific"
+      ]
+    },
+    {
+      "id": "aas-asset-interfaces-mapping-011",
+      "question": "Two different MappingConfigurations in one AIMC both use SourceId 'temp'. Is that a uniqueness violation?",
+      "expected_answer": "No. SourceId must only be unique within the Sources list of its parent MappingConfiguration, not globally.",
+      "must_include": [
+        [
+          "not globally",
+          "only within",
+          "locally unique",
+          "within the Sources"
+        ]
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02027 Asset Interfaces Mapping Configuration",
+        "revision": "2.0 (May 2026 edition)",
+        "section": "2.7, Table 6 Elements of SMC Source, row SourceId",
+        "file": "skills/aas-asset-interfaces-mapping/IDTA-02027_Submodel_Asset-Interfaces-Mapping-Configuration.txt",
+        "lines": "628-633",
+        "quote": "It must only be unique with respect to the Sources-list of the parent MappingConfiguration and not globally."
+      },
+      "tags": [
+        "rule",
+        "commonly-misreported-invalid"
+      ]
+    },
+    {
+      "id": "aas-asset-interfaces-mapping-012",
+      "question": "A Source has PollingInterval 2 and its MappingConfiguration has DefaultPollingInterval 10. Which applies for an HTTP source, and what about an MQTT source?",
+      "expected_answer": "For HTTP the local PollingInterval (2 s) overwrites the DefaultPollingInterval; it must be greater than zero for synchronous protocols. For asynchronous MQTT the polling interval is ignored.",
+      "must_include": [
+        [
+          "overwrite",
+          "override",
+          "precedence"
+        ],
+        "ignored"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02027 Asset Interfaces Mapping Configuration",
+        "revision": "2.0 (May 2026 edition)",
+        "section": "2.7, Table 6 Elements of SMC Source, row PollingInterval",
+        "file": "skills/aas-asset-interfaces-mapping/IDTA-02027_Submodel_Asset-Interfaces-Mapping-Configuration.txt",
+        "lines": "609-613",
+        "quote": "It must be greater than zero for synchronous protocols (e.g. HTTP) that need polling and is ignored for asynchronous protocols (e.g. MQTT). It overwrites the DefaultPollingInterval of the respective MappingConfiguration of this source."
+      },
+      "tags": [
+        "rule"
+      ]
+    },
+    {
+      "id": "aas-asset-interfaces-mapping-013",
+      "question": "Must an AIMC's Source and Sink references point into the same AAS that holds the AIMC, and what kind of reference are they?",
+      "expected_answer": "No. Each source and sink is a ReferenceElement of type ModelReference to the SubmodelElement of interest, and they may live in external AASes.",
+      "must_include": [
+        "ModelReference",
+        "external"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02027 Asset Interfaces Mapping Configuration",
+        "revision": "2.0 (May 2026 edition)",
+        "section": "2.2 (overview of the Submodel structure)",
+        "file": "skills/aas-asset-interfaces-mapping/IDTA-02027_Submodel_Asset-Interfaces-Mapping-Configuration.txt",
+        "lines": "350-353",
+        "quote": "Each source and sink is specified as reference element of the type ModelReference that points to the SubmodelElement of interest respectively. Consequently, sources and sinks can also be referenced from external AASes and do not have to be part of the same AAS where the AIMC is held."
+      },
+      "tags": [
+        "structure",
+        "references"
+      ]
+    },
+    {
+      "id": "aas-asset-interfaces-mapping-014",
+      "question": "Which AID version and protocols does AIMC 2.0 adapt to - does it already cover AID 1.2's SNMP and CAN?",
+      "expected_answer": "AIMC 2.0 adapts to AID 1.1: Modbus, HTTP, MQTT, OPC UA and BACnet. SNMP/CAN are not among them; new AID versions may trigger adapted AIMC versions.",
+      "must_include": [
+        "1.1",
+        "BACnet"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02027 Asset Interfaces Mapping Configuration",
+        "revision": "2.0 (May 2026 edition)",
+        "section": "1.2 Use cases",
+        "file": "skills/aas-asset-interfaces-mapping/IDTA-02027_Submodel_Asset-Interfaces-Mapping-Configuration.txt",
+        "lines": "113-114",
+        "quote": "The AIMC 2.0 adapts to the structure and protocols supported by the AID 1.1 standard: Modbus, HTTP, MQTT, OPC UA, BACnet."
+      },
+      "tags": [
+        "revision-specific",
+        "AID-link"
+      ]
+    },
+    {
+      "id": "aas-asset-interfaces-mapping-015",
+      "question": "The IDTA repository has an AIMC folder 2/1. What administration version and revision does its template JSON declare?",
+      "expected_answer": "Version 2, revision 0 (templateId https://admin-shell.io/IDTA02027-2-0): the 2/1 folder is a bug-fix re-issue of 2.0, not a new template version.",
+      "must_include": [
+        [
+          "revision 0",
+          "revision \"0\"",
+          "revision: 0",
+          "revision \"0\""
+        ]
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02027 Asset Interfaces Mapping Configuration - official template JSON",
+        "revision": "2.1 bug-fix folder",
+        "section": "Submodel AssetInterfacesMappingConfiguration > administration",
+        "file": "idta-pdfs:json/published/Asset Interfaces Mapping Configuration/2/1/IDTA 02027_Template_AIMC.json",
+        "lines": "50-53",
+        "quote": "\"version\": \"2\", \"revision\": \"0\", \"templateId\": \"https://admin-shell.io/IDTA02027-2-0\""
+      },
+      "tags": [
+        "revision-specific",
+        "trap"
+      ]
+    }
+  ]
+}

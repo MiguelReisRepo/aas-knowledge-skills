@@ -1,0 +1,955 @@
+{
+ "template": "Fire Protection on Railway Vehicles",
+ "version": "1.0.0",
+ "submodelIdShort": "RailwayFireProtection",
+ "submodelSemanticId": "https://admin-shell.io/idta/cds/RailwayFireProtection/1",
+ "json": {
+  "path": "published/Fire Protection on Railway Vehicles/1/0/IDTA 02102_Template Fire Protection on Railway Vehicles.json",
+  "gitBlob": "2537393c9933a04a7853e6475483663f82e0817c"
+ },
+ "pdf": {
+  "path": "published/Fire Protection on Railway Vehicles/1/0/IDTA 02102_Template Fire Protection on Railway Vehicles.pdf",
+  "relation": "same folder",
+  "sha256": "d680f04feff95cb72109c25c377e950a8522b8d73a554a4daa63f09d4fdbefa2",
+  "annexA": [
+   {
+    "page": 17,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 17,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 37
+ },
+ "elements": [
+  {
+   "path": "ManufacturerInformation",
+   "idShort": "ManufacturerInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/ManufacturerInformation/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     6
+    ],
+    "row": {
+     "page": 6,
+     "type": "[SMC]",
+     "idShort": "ManufacturerInformation",
+     "semanticId": "https://admin-shell.io/idta/cds/ManufacturerInformation/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ManufacturerInformation > ManufacturerName",
+   "idShort": "ManufacturerName",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/cds/ManufacturerName/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     6
+    ],
+    "row": {
+     "page": 6,
+     "type": "[MLP]",
+     "idShort": "ManufacturerName",
+     "semanticId": "https://admin-shell.io/idta/cds/ManufacturerName/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ManufacturerInformation > ManufacturerProductDesignation",
+   "idShort": "ManufacturerProductDesignation",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/cds/ManufacturerProductDesignation/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     6
+    ],
+    "row": {
+     "page": 6,
+     "type": "[MLP]",
+     "idShort": "ManufacturerProductDesignation",
+     "semanticId": "https://admin-shell.io/idta/cds/ManufacturerProductDesignation/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ManufacturerInformation > OrderCodeOfManufacturer",
+   "idShort": "OrderCodeOfManufacturer",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/OrderCodeOfManufacturer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     7
+    ],
+    "row": {
+     "page": 7,
+     "type": "[Prop]",
+     "idShort": "OrderCodeOfManufacturer",
+     "semanticId": "https://admin-shell.io/idta/cds/OrderCodeOfManufacturer/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ManufacturerInformation > ProductArticleNumberOfManufacturer",
+   "idShort": "ProductArticleNumberOfManufacturer",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/ProductArticleNumberOfManufacturer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     7
+    ],
+    "row": {
+     "page": 7,
+     "type": "[Prop]",
+     "idShort": "ProductArticleNumberOfManufacturer",
+     "semanticId": "https://admin-shell.io/idta/cds/ProductArticleNumberOfManufacturer/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "FireProtectionCertificates",
+   "idShort": "FireProtectionCertificates",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/FireProtectionCertificates/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     6
+    ],
+    "row": {
+     "page": 6,
+     "type": "[SMC]",
+     "idShort": "FireProtectionCertificates",
+     "semanticId": "https://admin-shell.io/idta/cds/FireProtectionCertificates/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "FireProtectionCertificates > RequirementsSets",
+   "idShort": "RequirementsSets",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/cds/RequirementsSets/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     7
+    ],
+    "row": {
+     "page": 7,
+     "type": "[SML]",
+     "idShort": "RequirementsSets",
+     "semanticId": "https://admin-shell.io/idta/cds/RequirementsSets/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "FireProtectionCertificates > RequirementsSets > RequirementsSet",
+   "idShort": "RequirementsSet",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/RequirementsSet/1",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     8
+    ],
+    "row": {
+     "page": 8,
+     "type": "[SMC]",
+     "idShort": "RequirementsSet",
+     "semanticId": "https://admin-shell.io/idta/cds/RequirementsSet/1",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "FireProtectionCertificates > RequirementsSets > RequirementsSet > HazardLevel",
+   "idShort": "HazardLevel",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/RailwayFireProtection/Submodel/1/HazardLevel",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "HazardLevel",
+     "semanticId": "https://admin-shell.io/RailwayFireProtection/Submodel/1/HazardLevel",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "FireProtectionCertificates > RequirementsSets > RequirementsSet > ReportReferences",
+   "idShort": "ReportReferences",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/cds/ReportReferences/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SML]",
+     "idShort": "ReportReferences",
+     "semanticId": "https://admin-shell.io/idta/cds/ReportReferences/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "FireProtectionCertificates > RequirementsSets > RequirementsSet > ReportReferences > ReportReference",
+   "idShort": "ReportReference",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/cds/ReportReference/1",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Ref]",
+     "idShort": "ReportReference",
+     "semanticId": "https://admin-shell.io/idta/cds/ReportReference/1",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "FireProtectionCertificates > RequirementsSets > RequirementsSet > Requirement",
+   "idShort": "Requirement",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/Requirement/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "Requirement",
+     "semanticId": "https://admin-shell.io/idta/cds/Requirement/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "FireProtectionCertificates > Reports",
+   "idShort": "Reports",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/cds/Reports/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     7
+    ],
+    "row": {
+     "page": 7,
+     "type": "[SML]",
+     "idShort": "Reports",
+     "semanticId": "https://admin-shell.io/idta/cds/Reports/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "FireProtectionCertificates > Reports > Report",
+   "idShort": "Report",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/Report/1",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[SMC]",
+     "idShort": "Report",
+     "semanticId": "https://admin-shell.io/idta/cds/Report/1",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "FireProtectionCertificates > Reports > Report > ReportFile",
+   "idShort": "ReportFile",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/cds/ReportFile/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[File]",
+     "idShort": "ReportFile",
+     "semanticId": "https://admin-shell.io/idta/cds/ReportFile/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "FireProtectionCertificates > Reports > Report > Tests",
+   "idShort": "Tests",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/cds/Tests/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SML]",
+     "idShort": "Tests",
+     "semanticId": "https://admin-shell.io/idta/cds/Tests/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "FireProtectionCertificates > Reports > Report > Tests > Test",
+   "idShort": "Test",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/Test/1",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "Test",
+     "semanticId": "https://admin-shell.io/idta/cds/Test/1",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "FireProtectionCertificates > Reports > Report > Tests > Test > TestProcedure",
+   "idShort": "TestProcedure",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/TestProcedure/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "TestProcedure",
+     "semanticId": "https://admin-shell.io/idta/cds/TestProcedure/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "FireProtectionCertificates > Reports > Report > Tests > Test > TestResult",
+   "idShort": "TestResult",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/TestResult/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "TestResult",
+     "semanticId": "https://admin-shell.io/idta/cds/TestResult/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "FireProtectionCertificates > Reports > Report > Tests > Test > TestDate",
+   "idShort": "TestDate",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/TestDate/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "TestDate",
+     "semanticId": "https://admin-shell.io/idta/cds/TestDate/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "FireProtectionCertificates > Reports > Report > Tests > Test > TestComment",
+   "idShort": "TestComment",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/TestComment/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "TestComment",
+     "semanticId": "https://admin-shell.io/idta/cds/TestComment/1",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "FireProtectionCertificates > Reports > Report > Tests > Test > TestReportNumber",
+   "idShort": "TestReportNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/TestReportNumber/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "TestReportNumber",
+     "semanticId": "https://admin-shell.io/idta/cds/TestReportNumber/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "FireProtectionCertificates > Reports > Report > ReportComment",
+   "idShort": "ReportComment",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/ReportComment/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Prop]",
+     "idShort": "ReportComment",
+     "semanticId": "https://admin-shell.io/idta/cds/ReportComment/1",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "FireProtectionCertificates > Reports > Report > LabInformation",
+   "idShort": "LabInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/LabInformation/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "LabInformation",
+     "semanticId": "https://admin-shell.io/idta/cds/LabInformation/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "FireProtectionCertificates > Reports > Report > LabInformation > LabName",
+   "idShort": "LabName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/LabName/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "LabName",
+     "semanticId": "https://admin-shell.io/idta/cds/LabName/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "FireProtectionCertificates > Reports > Report > LabInformation > LabAddress",
+   "idShort": "LabAddress",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/LabAddress/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[SMC]",
+     "idShort": "LabAddress",
+     "semanticId": "https://admin-shell.io/idta/cds/LabAddress/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "FireProtectionCertificates > Reports > Report > LabInformation > LabAccreditation",
+   "idShort": "LabAccreditation",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/LabAccreditation/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "LabAccreditation",
+     "semanticId": "https://admin-shell.io/idta/cds/LabAccreditation/1",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "FireProtectionCertificates > Reports > Report > LabInformation > ReportAuthor",
+   "idShort": "ReportAuthor",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/ReportAuthor/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "ReportAuthor",
+     "semanticId": "https://admin-shell.io/idta/cds/ReportAuthor/1",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Material",
+   "idShort": "Material",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/Material/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     6
+    ],
+    "row": {
+     "page": 6,
+     "type": "[SMC]",
+     "idShort": "Material",
+     "semanticId": "https://admin-shell.io/idta/cds/Material/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Material > MaterialName",
+   "idShort": "MaterialName",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/cds/MaterialName/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[MLP]",
+     "idShort": "MaterialName",
+     "semanticId": "https://admin-shell.io/idta/cds/MaterialName/1",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Material > MaterialManufacturer",
+   "idShort": "MaterialManufacturer",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/cds/MaterialManufacturer/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[MLP]",
+     "idShort": "MaterialManufacturer",
+     "semanticId": "https://admin-shell.io/idta/cds/MaterialManufacturer/1",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Material > Masses",
+   "idShort": "Masses",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/Masses/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "Masses",
+     "semanticId": "https://admin-shell.io/idta/cds/Masses/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Material > Masses > TotalMassPerUnit",
+   "idShort": "TotalMassPerUnit",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/TotalMassPerUnit/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "TotalMassPerUnit",
+     "semanticId": "https://admin-shell.io/idta/cds/TotalMassPerUnit/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Material > Masses > CombustibleMassPerUnit",
+   "idShort": "CombustibleMassPerUnit",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/CombustibleMassPerUnit/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "CombustibleMassPerUnit",
+     "semanticId": "https://admin-shell.io/idta/cds/CombustibleMassPerUnit/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Material > Masses > Unit",
+   "idShort": "Unit",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/Unit/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "Unit",
+     "semanticId": "https://admin-shell.io/idta/cds/Unit/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Material > MaterialCharacteristics",
+   "idShort": "MaterialCharacteristics",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/cds/MaterialCharacteristics/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Range]",
+     "idShort": "MaterialCharacteristics",
+     "semanticId": "https://admin-shell.io/idta/cds/MaterialCharacteristics/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Material > TestedMaterialCombinationDescription",
+   "idShort": "TestedMaterialCombinationDescription",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/TestedMaterialCombinationDescription/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "TestedMaterialCombinationDescription",
+     "semanticId": "https://admin-shell.io/idta/cds/TestedMaterialCombinationDescription/1",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  }
+ ]
+}

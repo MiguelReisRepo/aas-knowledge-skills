@@ -1,0 +1,1401 @@
+{
+ "template": "Digital Battery Passport / Product Condition",
+ "version": "1.0.1",
+ "submodelIdShort": "ProductCondition",
+ "submodelSemanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.0#ProductCondition",
+ "json": {
+  "path": "published/Digital Battery Passport/5_Product Condition/1/0/1/IDTA 02035-5_DBP-Part-5_ProductCondition_without_examplevalues.json",
+  "gitBlob": "3769c46ff4d9a615b3b3ea48faa0689624cfc1ad"
+ },
+ "pdf": {
+  "path": "published/Digital Battery Passport/5_Product Condition/1/0/1/IDTA 02035-5_DBP-Part-5_ProductCondition.pdf",
+  "relation": "same folder",
+  "sha256": "6a247aa7a6e931d953b7ef555a59b38d70413bc88e49b4fb6a5bd3d8a49fcf11",
+  "annexA": [
+   {
+    "page": 31,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 31,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 48,
+  "json-only": 1
+ },
+ "elements": [
+  {
+   "path": "EnergyThroughput",
+   "idShort": "EnergyThroughput",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#energyThroughput",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "EnergyThroughput",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#energyThroughput",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "EnergyThroughput > EnergyThroughputValue",
+   "idShort": "EnergyThroughputValue",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#energyThroughputValue",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "EnergyThroughputValue",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#energyThroughputValue",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "EnergyThroughput > LastUpdate",
+   "idShort": "LastUpdate",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "LastUpdate",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CapacityThroughput",
+   "idShort": "CapacityThroughput",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#capacityThroughput",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "CapacityThroughput",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#capacityThroughput",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CapacityThroughput > CapacityThroughputValue",
+   "idShort": "CapacityThroughputValue",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#capacityThroughputValue",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "CapacityThroughputValue",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#capacityThroughputValue",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CapacityThroughput > LastUpdate",
+   "idShort": "LastUpdate",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "LastUpdate",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "NumberOfFullCycles",
+   "idShort": "NumberOfFullCycles",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#numberOfFullCycles",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "NumberOfFullCycles",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#numberOfFullCycles",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "NumberOfFullCycles > NumberOfFullCyclesValue",
+   "idShort": "NumberOfFullCyclesValue",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#numberOfFullCyclesValue",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "NumberOfFullCyclesValue",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#numberOfFullCyclesValue",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "NumberOfFullCycles > LastUpdate",
+   "idShort": "LastUpdate",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "LastUpdate",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "StateOfCertifiedEnergy",
+   "idShort": "StateOfCertifiedEnergy",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#stateOfCertifiedEnergy",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "StateOfCertifiedEnergy",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#stateOfCertifiedEnergy",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "StateOfCertifiedEnergy > StateOfCertifiedEnergyValue",
+   "idShort": "StateOfCertifiedEnergyValue",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#stateOfCertifiedEnergyValue",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "StateOfCertifiedEnergyValue",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#stateOfCertifiedEnergyValue",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "StateOfCertifiedEnergy > LastUpdate",
+   "idShort": "LastUpdate",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "LastUpdate",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingEnergy",
+   "idShort": "RemainingEnergy",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#remainingEnergy",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "RemainingEnergy",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#remainingEnergy",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "RemainingEnergy > RemainingEnergyValue",
+   "idShort": "RemainingEnergyValue",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#remainingEnergyValue",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "RemainingEnergyValue",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#remainingEnergyValue",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingEnergy > LastUpdate",
+   "idShort": "LastUpdate",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "LastUpdate",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingCapacity",
+   "idShort": "RemainingCapacity",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#remainingCapacity",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "RemainingCapacity",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#remainingCapacity",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "RemainingCapacity > RemainingCapacityValue",
+   "idShort": "RemainingCapacityValue",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#remainingCapacityValue",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "RemainingCapacityValue",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#remainingCapacityValue",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingCapacity > LastUpdate",
+   "idShort": "LastUpdate",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "LastUpdate",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "NegativeEvents",
+   "idShort": "NegativeEvents",
+   "modelType": "SubmodelElementList",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#negativeEvents",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SML]",
+     "idShort": "NegativeEvents",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#negativeEvents",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "NegativeEvents > NegativeEvent",
+   "idShort": "NegativeEvent",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#NegativeEvent",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[SMC]",
+     "idShort": "NegativeEvent",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#NegativeEvent",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "NegativeEvents > NegativeEvent > NegativeEventValue",
+   "idShort": "NegativeEventValue",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#negativeEventValue",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Prop]",
+     "idShort": "NegativeEventValue",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#negativeEventValue",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "NegativeEvents > NegativeEvent > LastUpdate",
+   "idShort": "LastUpdate",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "LastUpdate",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "InformationOnAccidents",
+   "idShort": "InformationOnAccidents",
+   "modelType": "SubmodelElementList",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#informationOnAccidents",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SML]",
+     "idShort": "InformationOnAccidents",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#informationOnAccidents",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "InformationOnAccidents > DocumentIdentifier",
+   "idShort": "DocumentIdentifier",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.handover_documentation:2.0.0#DocumentIdentifier",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Prop]",
+     "idShort": "DocumentIdentifier",
+     "semanticId": "urn:samm:io.admin-shell.idta.handover_documentation:2.0.0#DocumentIdentifier",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "TemperatureInformation",
+   "idShort": "TemperatureInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#temperatureInformation",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "TemperatureInformation",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#temperatureInformation",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TemperatureInformation > MeasuredTemp",
+   "idShort": "MeasuredTemp",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#measuredTemp",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "MeasuredTemp",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#measuredTemp",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TemperatureInformation > TimeExtremeHighTemp",
+   "idShort": "TimeExtremeHighTemp",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#timeExtremeHighTemp",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "TimeExtremeHighTemp",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#timeExtremeHighTemp",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TemperatureInformation > TimeExtremeLowTemp",
+   "idShort": "TimeExtremeLowTemp",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#timeExtremeLowTemp",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "TimeExtremeLowTemp",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#timeExtremeLowTemp",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TemperatureInformation > TimeExtremeHighTempCharging",
+   "idShort": "TimeExtremeHighTempCharging",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#timeExtremeHighTempCharging",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Prop]",
+     "idShort": "TimeExtremeHighTempCharging",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#timeExtremeHighTempCharging",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TemperatureInformation > TimeExtremeLowTempCharging",
+   "idShort": "TimeExtremeLowTempCharging",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#timeExtremeLowTempCharging",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Prop]",
+     "idShort": "TimeExtremeLowTempCharging",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#timeExtremeLowTempCharging",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TemperatureInformation > LastUpdate",
+   "idShort": "LastUpdate",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "LastUpdate",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingPowerCapability",
+   "idShort": "RemainingPowerCapability",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#remainingPowerCapability",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "RemainingPowerCapability",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#remainingPowerCapability",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "RemainingPowerCapability > RemainingPowerCapabilityDynamicAt",
+   "idShort": "RemainingPowerCapabilityDynamicAt",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#remainingPowerCapabilityDynamicAt",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[SMC]",
+     "idShort": "RemainingPowerCapabilityDynamicAt",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#remainingPowerCapabilityDynamicAt",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingPowerCapability > RemainingPowerCapabilityDynamicAt > RPCLastUpdated",
+   "idShort": "RPCLastUpdated",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#rPCLastUpdated",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Prop]",
+     "idShort": "RPCLastUpdated",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#rPCLastUpdated",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingPowerCapability > RemainingPowerCapabilityDynamicAt > AtSoC",
+   "idShort": "AtSoC",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#atSoC",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Prop]",
+     "idShort": "AtSoC",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#atSoC",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingPowerCapability > RemainingPowerCapabilityDynamicAt > PowerCapabilityAt",
+   "idShort": "PowerCapabilityAt",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#powerCapabilityAt",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Prop]",
+     "idShort": "PowerCapabilityAt",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#powerCapabilityAt",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingPowerCapability > LastUpdate",
+   "idShort": "LastUpdate",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "LastUpdate",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "EvolutionOfSelfDischarge",
+   "idShort": "EvolutionOfSelfDischarge",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#evolutionOfSelfDischarge",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "EvolutionOfSelfDischarge",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#evolutionOfSelfDischarge",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "EvolutionOfSelfDischarge > EvolutionOfSelfDischargeValue",
+   "idShort": "EvolutionOfSelfDischargeValue",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#evolutionOfSelfDischargeValue",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "EvolutionOfSelfDischarge > LastUpdate",
+   "idShort": "LastUpdate",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "LastUpdate",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CurrentSelfDischargingRate",
+   "idShort": "CurrentSelfDischargingRate",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#currentSelfDischargingRate",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "CurrentSelfDischargingRate",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#currentSelfDischargingRate",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CurrentSelfDischargingRate > CurrentSelfDischargingRateValue",
+   "idShort": "CurrentSelfDischargingRateValue",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#currentSelfDischargingRateValue",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Prop]",
+     "idShort": "CurrentSelfDischargingRateValue",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#currentSelfDischargingRateValue",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CurrentSelfDischargingRate > LastUpdate",
+   "idShort": "LastUpdate",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "LastUpdate",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingRoundTripEnergyEfficiency",
+   "idShort": "RemainingRoundTripEnergyEfficiency",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#remainingRoundTripEnergyEfficiency",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[SMC]",
+     "idShort": "RemainingRoundTripEnergyEfficiency",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#remainingRoundTripEnergyEfficiency",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "RemainingRoundTripEnergyEfficiency > RemainingRoundTripEnergyEfficiencyValue",
+   "idShort": "RemainingRoundTripEnergyEfficiencyValue",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#remainingRoundTripEnergyEfficiencyValue",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[Prop]",
+     "idShort": "RemainingRoundTripEnergyEfficiencyValue",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#remainingRoundTripEnergyEfficiencyValue",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingRoundTripEnergyEfficiency > LastUpdate",
+   "idShort": "LastUpdate",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "LastUpdate",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "StateOfCharge",
+   "idShort": "StateOfCharge",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#stateOfCharge",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[SMC]",
+     "idShort": "StateOfCharge",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#stateOfCharge",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "StateOfCharge > StateOfChargeValue",
+   "idShort": "StateOfChargeValue",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#stateOfChargeValue",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Prop]",
+     "idShort": "StateOfChargeValue",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#stateOfChargeValue",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "StateOfCharge > LastUpdate",
+   "idShort": "LastUpdate",
+   "modelType": "Property",
+   "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "LastUpdate",
+     "semanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.1#lastUpdate",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  }
+ ]
+}

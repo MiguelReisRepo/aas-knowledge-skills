@@ -1,0 +1,430 @@
+{
+ "template": "sensor4.0 / Part 1 Measurement Value",
+ "version": "1.0.1",
+ "submodelIdShort": "MeasurementValue",
+ "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/measurementValue/1/0",
+ "json": {
+  "path": "published/sensor4.0/Part 1 Measurement Value/1/0/1/IDTA 02029-1-0-1_Template_Sensor4.0_MeasurementValue.json",
+  "gitBlob": "afae9405ab6fe94ee7aa40d2920286a1d9d10b27"
+ },
+ "pdf": {
+  "path": "published/sensor4.0/Part 1 Measurement Value/1/0/1/IDTA 02029-1_Template_Sensor4.0_MeasurementValue.pdf",
+  "relation": "same folder",
+  "sha256": "306913da1f315096eb22c2f3333b88fff0d670f5575ae1867f64a7ebf0ad8783",
+  "annexA": [
+   {
+    "page": 11,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 11,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 16
+ },
+ "elements": [
+  {
+   "path": "MeasuredValue",
+   "idShort": "MeasuredValue",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/measuredvalue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     6
+    ],
+    "row": {
+     "page": 6,
+     "type": "[SMC]",
+     "idShort": "MeasuredValue",
+     "semanticId": "https://admin-shell.io/idta/measurementvalue/measuredvalue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MeasuredValue > Value",
+   "idShort": "Value",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/value/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     7
+    ],
+    "row": {
+     "page": 7,
+     "type": "[Prop]",
+     "idShort": "Value",
+     "semanticId": "https://admin-shell.io/idta/measurementvalue/value/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MeasuredValue > Unit",
+   "idShort": "Unit",
+   "modelType": "Property",
+   "semanticId": "0112/2///62720#UBA000",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     8
+    ],
+    "row": {
+     "page": 8,
+     "type": "[Prop]",
+     "idShort": "Unit",
+     "semanticId": "0112/2///62720#UBA000",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MeasuredValue > Kind",
+   "idShort": "Kind",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACI144",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     8
+    ],
+    "row": {
+     "page": 8,
+     "type": "[Prop]",
+     "idShort": "Kind",
+     "semanticId": "0112/2///62683#ACI144",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MeasuredValuePreDefined",
+   "idShort": "MeasuredValuePreDefined",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/measuredvaluepredefined/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     7
+    ],
+    "row": {
+     "page": 7,
+     "type": "[SMC]",
+     "idShort": "MeasuredValuePreDefined",
+     "semanticId": "https://admin-shell.io/idta/measurementvalue/measuredvaluepredefined/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MeasuredValuePreDefined > Distance",
+   "idShort": "Distance",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABN718#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     8
+    ],
+    "row": {
+     "page": 8,
+     "type": "[Prop]",
+     "idShort": "Distance",
+     "semanticId": "0112/2///61987#ABN718#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MeasurementTimestamp",
+   "idShort": "MeasurementTimestamp",
+   "modelType": "Property",
+   "semanticId": "0112/2///61360_7#CBA007",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     7
+    ],
+    "row": {
+     "page": 7,
+     "type": "[Prop]",
+     "idShort": "MeasurementTimestamp",
+     "semanticId": "0112/2///61360_7#CBA007",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Concept",
+   "idShort": "Concept",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/concept/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     7
+    ],
+    "row": {
+     "page": 7,
+     "type": "[SMC]",
+     "idShort": "Concept",
+     "semanticId": "https://admin-shell.io/idta/measurementvalue/concept/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Concept > Origin",
+   "idShort": "Origin",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/origin/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "Origin",
+     "semanticId": "https://admin-shell.io/idta/measurementvalue/origin/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Concept > Version",
+   "idShort": "Version",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/version/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "Version",
+     "semanticId": "https://admin-shell.io/idta/measurementvalue/version/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Concept > Identifier",
+   "idShort": "Identifier",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/identifier/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "Identifier",
+     "semanticId": "https://admin-shell.io/idta/measurementvalue/identifier/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MeasurementQualifier",
+   "idShort": "MeasurementQualifier",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/measurementqualifier/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     7
+    ],
+    "row": {
+     "page": 7,
+     "type": "[SMC]",
+     "idShort": "MeasurementQualifier",
+     "semanticId": "https://admin-shell.io/idta/measurementvalue/measurementqualifier/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MeasurementQualifier > Quality",
+   "idShort": "Quality",
+   "modelType": "Property",
+   "semanticId": "0112/2///61360_7#CBA006",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "Quality",
+     "semanticId": "0112/2///61360_7#CBA006",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MeasurementQualifier > Range",
+   "idShort": "Range",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/meaurementvalue/range/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Range]",
+     "idShort": "Range",
+     "semanticId": "https://admin-shell.io/idta/meaurementvalue/range/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MeasurementQualifier > Scale",
+   "idShort": "Scale",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/scale/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "Scale",
+     "semanticId": "https://admin-shell.io/idta/measurementvalue/scale/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MeasurementQualifier > Tag",
+   "idShort": "Tag",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABB271",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "Tag",
+     "semanticId": "0112/2///61987#ABB271",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  }
+ ]
+}

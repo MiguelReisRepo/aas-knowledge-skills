@@ -1,0 +1,271 @@
+{
+  "skill": "aas-template-registry",
+  "skill_version": "1.0.0",
+  "description": "Generic IDTA template-cardinality knowledge behind the registry: what 'card.' means, which artefact the PDFs call definitive, and concrete JSON-vs-PDF cardinality divergences, each checked against the official template JSON or PDF text (never the derived registry files).",
+  "items": [
+    {
+      "id": "aas-template-registry-001",
+      "question": "In an IDTA submodel template specification table, what does a cardinality ('card.') of 1 mean - that the element must be present once, or that it must hold a value?",
+      "expected_answer": "It counts entries of the element: 1 means mandatory 1 entry (0..1 optional, 1..n mandatory 1 to many). The definition says nothing about the value having to be filled.",
+      "must_include": [
+        "mandatory 1 entry"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02010-1-0 Service Request Notification",
+        "revision": "1.0",
+        "section": "Annex A. Explanations on used table formats, 2. Tables on Submodels and SubmodelElements",
+        "file": "idta-pdfs:txt/published/Service Request Notification/1/0/IDTA 02010-1-0_Submodel_ServiceRequestNotification.txt",
+        "page": 19,
+        "quote": "The table header abbreviates 'cardinality' with 'card'. The cardinality is defined with o 0…1: optional o 1: mandatory 1 entry o 1…n: mandatory 1 to many entries"
+      },
+      "tags": [
+        "cardinality",
+        "definition"
+      ]
+    },
+    {
+      "id": "aas-template-registry-002",
+      "question": "Do IDTA submodel template PDFs say anything about whether their tables or the machine-readable template are the definitive definition?",
+      "expected_answer": "Yes. The annex boilerplate says the tables do not convey all information and that the definitive definitions are given by a separate AASX file of the Submodel template.",
+      "must_include": [
+        "AASX",
+        "definitive"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02010-1-0 Service Request Notification",
+        "revision": "1.0",
+        "section": "Annex A. Explanations on used table formats, 1. General",
+        "file": "idta-pdfs:txt/published/Service Request Notification/1/0/IDTA 02010-1-0_Submodel_ServiceRequestNotification.txt",
+        "page": 19,
+        "quote": "They do not convey all information on Submodels and SubmodelElements. For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+      },
+      "tags": [
+        "precedence",
+        "definition"
+      ]
+    },
+    {
+      "id": "aas-template-registry-003",
+      "question": "Which cardinality qualifier does the official AID 1.1 template JSON put on EndpointMetadata/contentType?",
+      "expected_answer": "One (a Cardinality qualifier with value One), i.e. mandatory - stricter than the 1.1 PDF table, which prints 0..1.",
+      "must_include": [
+        [
+          "mandatory",
+          "exactly one",
+          "value One",
+          "is One",
+          "= One",
+          "One (L"
+        ]
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02017-1-1 Asset Interfaces Description - official template JSON",
+        "revision": "1.1",
+        "section": "InterfaceTemplate EndpointMetadata > contentType qualifiers",
+        "file": "idta-pdfs:json/published/Asset Interfaces Description/1/1/IDTA 02017-1-1_Template_Asset Interfaces Description.json",
+        "lines": "322-349",
+        "quote": "\"kind\": \"ConceptQualifier\", \"type\": \"Cardinality\", \"valueType\": \"xs:string\", \"value\": \"One\""
+      },
+      "tags": [
+        "json-vs-pdf",
+        "cardinality"
+      ]
+    },
+    {
+      "id": "aas-template-registry-004",
+      "question": "The AID 1.1 template JSON marks EndpointMetadata/contentType as One. What cardinality does the AID 1.1 specification table give it?",
+      "expected_answer": "0..1 (optional): the PDF Table 4 and the JSON diverge on this element.",
+      "must_include": [
+        "0..1"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02017-1-1 Asset Interfaces Description",
+        "revision": "1.1",
+        "section": "2.5, Table 4 Elements of SMC EndpointMetadata, row contentType",
+        "file": "idta-pdfs:txt/published/Asset Interfaces Description/1/1/IDTA 02017-1-1_Submodel_Asset Interfaces Description.txt",
+        "page": 17,
+        "quote": "The local contentType definition (in the case it is used) overwrites this global contentType definition. [string] application/json 0..1"
+      },
+      "tags": [
+        "json-vs-pdf",
+        "cardinality"
+      ]
+    },
+    {
+      "id": "aas-template-registry-005",
+      "question": "Does the AID 1.2 template JSON still mark EndpointMetadata/contentType as mandatory, as the 1.1 JSON did?",
+      "expected_answer": "No. The 1.2 JSON carries an SMT/Cardinality qualifier with value ZeroToOne, matching the 0..1 of the specification table.",
+      "must_include": [
+        "ZeroToOne"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02017 Asset Interfaces Description - official template JSON",
+        "revision": "1.2",
+        "section": "InterfaceTemplate EndpointMetadata > contentType qualifiers",
+        "file": "idta-pdfs:json/published/Asset Interfaces Description/1/2/IDTA 02017_Template_Asset Interfaces Description.json",
+        "lines": "264-285",
+        "quote": "\"type\": \"SMT/Cardinality\", \"valueType\": \"xs:string\", \"value\": \"ZeroToOne\""
+      },
+      "tags": [
+        "json-vs-pdf",
+        "revision-specific"
+      ]
+    },
+    {
+      "id": "aas-template-registry-006",
+      "question": "Is htv_methodName mandatory according to the official AID 1.1 template JSON?",
+      "expected_answer": "No. The 1.1 JSON gives htv_methodName a Cardinality qualifier ZeroToOne, although the 1.1 PDF table prints 1.",
+      "must_include": [
+        "ZeroToOne"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02017-1-1 Asset Interfaces Description - official template JSON",
+        "revision": "1.1",
+        "section": "InterfaceTemplateForHTTP > ... > forms > htv_methodName qualifiers",
+        "file": "idta-pdfs:json/published/Asset Interfaces Description/1/1/IDTA 02017-1-1_Template_Asset Interfaces Description.json",
+        "lines": "4441-4468",
+        "quote": "\"kind\": \"ConceptQualifier\", \"type\": \"Cardinality\", \"valueType\": \"xs:string\", \"value\": \"ZeroToOne\""
+      },
+      "tags": [
+        "json-vs-pdf",
+        "cardinality"
+      ]
+    },
+    {
+      "id": "aas-template-registry-007",
+      "question": "The AID 1.1 template JSON makes htv_methodName ZeroToOne. What cardinality does the AID 1.1 specification table (Table 23) give it?",
+      "expected_answer": "1 (mandatory), so PDF and JSON diverge; the PDF is the stricter source here.",
+      "must_include": [
+        [
+          "mandatory",
+          "cardinality 1",
+          "card. 1",
+          "1 (Table",
+          "[1]"
+        ]
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02017-1-1 Asset Interfaces Description",
+        "revision": "1.1",
+        "section": "2.24.1, Table 23 Elements of HTTP specific terms in SMC forms, row htv_methodName",
+        "file": "idta-pdfs:txt/published/Asset Interfaces Description/1/1/IDTA 02017-1-1_Submodel_Asset Interfaces Description.txt",
+        "page": 50,
+        "quote": "htv_methodName [IRI]https://www.w3.org/2011/http#methodName Defines the action to be performed datapoint IRI [string] GET 1"
+      },
+      "tags": [
+        "json-vs-pdf",
+        "cardinality"
+      ]
+    },
+    {
+      "id": "aas-template-registry-008",
+      "question": "In AID 1.1 the template JSON gives oauth2_sc/flow the cardinality ZeroToOne. What does the specification table say?",
+      "expected_answer": "Cardinality 1 (mandatory), e.g. value 'code'; JSON and PDF diverge.",
+      "must_include": [
+        [
+          "mandatory",
+          "cardinality 1",
+          "card. 1",
+          "1 (Table",
+          "[1]"
+        ]
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02017-1-1 Asset Interfaces Description",
+        "revision": "1.1",
+        "section": "2.27.5, Table 42 Elements specific to oauth2_sc for SMC {SecurityScheme}, row flow",
+        "file": "idta-pdfs:txt/published/Asset Interfaces Description/1/1/IDTA 02017-1-1_Submodel_Asset Interfaces Description.txt",
+        "page": 67,
+        "quote": "flow [IRI] https://www.w3.org/2019/wot/security#flow Defines authorization flow such as code or client [string] code 1"
+      },
+      "tags": [
+        "json-vs-pdf",
+        "cardinality"
+      ]
+    },
+    {
+      "id": "aas-template-registry-009",
+      "question": "The AID 1.1 specification table makes bacv_useService optional (0..1). Which cardinality does the official 1.1 template JSON give it?",
+      "expected_answer": "One, i.e. mandatory - the JSON is stricter than the PDF table here.",
+      "must_include": [
+        [
+          "mandatory",
+          "exactly one",
+          "value One",
+          "is One",
+          "= One",
+          "One (L"
+        ]
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02017-1-1 Asset Interfaces Description - official template JSON",
+        "revision": "1.1",
+        "section": "InterfaceTemplateForBacnet > ... > forms > bacv_useService qualifiers",
+        "file": "idta-pdfs:json/published/Asset Interfaces Description/1/1/IDTA 02017-1-1_Template_Asset Interfaces Description.json",
+        "lines": "23075-23102",
+        "quote": "\"kind\": \"ConceptQualifier\", \"type\": \"Cardinality\", \"valueType\": \"xs:string\", \"value\": \"One\""
+      },
+      "tags": [
+        "json-vs-pdf",
+        "cardinality"
+      ]
+    },
+    {
+      "id": "aas-template-registry-010",
+      "question": "In IDTA 02023 Carbon Footprint 1.0 the template JSON marks GoodsHandoverAddress ZeroToOne. What cardinality does the specification table give it?",
+      "expected_answer": "1 (mandatory) in the ProductCarbonFootprint table; JSON and PDF diverge.",
+      "must_include": [
+        [
+          "mandatory",
+          "cardinality 1",
+          "card. 1",
+          "1 (Table",
+          "[1]"
+        ]
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02023 Carbon Footprint",
+        "revision": "1.0",
+        "section": "2.2.3, Table 4 SMC Product Carbon Footprint, row GoodsHandoverAddress",
+        "file": "idta-pdfs:txt/published/Carbon Footprint/1/0/IDTA 02023_Submodel_CarbonFootprint.txt",
+        "page": 18,
+        "quote": "indicates the hand-over address of the goods transport. Note: this set of information is defined by SMT drop-in “Address Information” n/a 1"
+      },
+      "tags": [
+        "json-vs-pdf",
+        "cardinality"
+      ]
+    },
+    {
+      "id": "aas-template-registry-011",
+      "question": "The IDTA 02010 Service Request Notification 1.0 template JSON gives the Entity RelatedAsset the cardinality One. What does the specification table allow?",
+      "expected_answer": "1..* (one or more related assets); the JSON is narrower than the PDF.",
+      "must_include": [
+        "1..*"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02010-1-0 Service Request Notification",
+        "revision": "1.0",
+        "section": "Table 3 Submodel elements of 'Service Request Notification' SMC, row RelatedAsset",
+        "file": "idta-pdfs:txt/published/Service Request Notification/1/0/IDTA 02010-1-0_Submodel_ServiceRequestNotification.txt",
+        "page": 13,
+        "quote": "definition@en: The object affected by the notification activity definition@de: Das von der Meldungsaktivität betroffene Objekt https://example.com/ids/asset/2143 1..*"
+      },
+      "tags": [
+        "json-vs-pdf",
+        "cardinality"
+      ]
+    }
+  ]
+}

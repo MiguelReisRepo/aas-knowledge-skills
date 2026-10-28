@@ -1,0 +1,1877 @@
+{
+ "template": "Data Model for Asset Location",
+ "version": "1.0.1",
+ "submodelIdShort": "AssetLocation",
+ "submodelSemanticId": "https://admin-shell.io/idta/smt/assetlocation/1/0",
+ "json": {
+  "path": "published/Data Model for Asset Location/1/0/1/IDTA 02045-1-0-1_Template_DataModelForAssetLocation_forAASMetamodelV3.1.json",
+  "gitBlob": "261a21c17b666907a90f043481eaf9e64508a956"
+ },
+ "pdf": {
+  "path": "published/Data Model for Asset Location/1/0/IDTA 02045-1-0_Submodel_Data Model for Asset Location.pdf",
+  "relation": "ancestor folder (bug-fix release without its own PDF)",
+  "sha256": "479e0663698642fe3aab173b6d8ffa6b9b800925ff8d742bdf6444a295b72c9d",
+  "annexA": [
+   {
+    "page": 30,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 30,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 66,
+  "none": 8,
+  "divergent": 1,
+  "json-only": 1
+ },
+ "elements": [
+  {
+   "path": "Addresses",
+   "idShort": "Addresses",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/sml/addresses/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SML]",
+     "idShort": "Addresses",
+     "semanticId": "https://admin-shell.io/idta/sml/addresses/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Addresses > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-ADR442#007",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..*",
+     "0..1"
+    ],
+    "pages": [
+     11,
+     12
+    ]
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "Addresses > [0] > AddressLine1",
+   "idShort": "AddressLine1",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO124#004",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "AddressLine1",
+     "semanticId": "0173-1#02-AAO124#004",
+     "card": "0..*"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..*"
+  },
+  {
+   "path": "Addresses > [0] > AddressLine2",
+   "idShort": "AddressLine2",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO125#004",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "AddressLine2",
+     "semanticId": "0173-1#02-AAO125#004",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Addresses > [0] > AddressLine3",
+   "idShort": "AddressLine3",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO126#004",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "AddressLine3",
+     "semanticId": "0173-1#02-AAO126#004",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Addresses > [0] > AddressOfAdditionalLink",
+   "idShort": "AddressOfAdditionalLink",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAQ326#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "AddressOfAdditionalLink",
+     "semanticId": "0173-1#02-AAQ326#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Addresses > [0] > AddressRemarks",
+   "idShort": "AddressRemarks",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO202#004",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "AddressRemarks",
+     "semanticId": "0173-1#02-AAO202#004",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Addresses > [0] > NationalCode",
+   "idShort": "NationalCode",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO134#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "NationalCode",
+     "semanticId": "0173-1#02-AAO134#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Addresses > [0] > Statecounty",
+   "idShort": "Statecounty",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO133#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..1",
+    "pages": [
+     13
+    ]
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Addresses > [0] > Citytown",
+   "idShort": "Citytown",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO132#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..1",
+    "pages": [
+     13
+    ]
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Addresses > [0] > Street",
+   "idShort": "Street",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO128#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "Street",
+     "semanticId": "0173-1#02-AAO128#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Addresses > [0] > ZipCode",
+   "idShort": "ZipCode",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO129#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "CoordinateSystems",
+   "idShort": "CoordinateSystems",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/sml/coordinatesystems/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SML]",
+     "idShort": "CoordinateSystems",
+     "semanticId": "https://admin-shell.io/idta/sml/coordinatesystems/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CoordinateSystems > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/smc/coordinatesystemsrecord/1/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..*",
+     "0..1"
+    ],
+    "pages": [
+     11,
+     14
+    ]
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "CoordinateSystems > [0] > CoordinateSystemName",
+   "idShort": "CoordinateSystemName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/coordinatesystemname/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "CoordinateSystemName",
+     "semanticId": "https://admin-shell.io/idta/prop/coordinatesystemname/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CoordinateSystems > [0] > CoordinateSystemId",
+   "idShort": "CoordinateSystemId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/coordinatesystemid/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "CoordinateSystemId",
+     "semanticId": "https://admin-shell.io/idta/prop/coordinatesystemid/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CoordinateSystems > [0] > CoordinateSystemType",
+   "idShort": "CoordinateSystemType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/coordinatesystemtype/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "CoordinateSystemType",
+     "semanticId": "https://admin-shell.io/idta/prop/coordinatesystemtype/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CoordinateSystems > [0] > ElevationReference",
+   "idShort": "ElevationReference",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/elevationreference/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "ElevationReference",
+     "semanticId": "https://admin-shell.io/idta/prop/elevationreference/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CoordinateSystems > [0] > SeaLevelOfBaseHeight",
+   "idShort": "SeaLevelOfBaseHeight",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/sealevelofbaseheight/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "SeaLevelOfBaseHeight",
+     "semanticId": "https://admin-shell.io/idta/prop/sealevelofbaseheight/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CoordinateSystems > [0] > GroundControlPoints",
+   "idShort": "GroundControlPoints",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/sml/groundcontrolpoints/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SML]",
+     "idShort": "GroundControlPoints",
+     "semanticId": "https://admin-shell.io/idta/sml/groundcontrolpoints/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CoordinateSystems > [0] > GroundControlPoints > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/smc/groundcontrolpointsentry/1/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..*",
+    "pages": [
+     15
+    ]
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "CoordinateSystems > [0] > GroundControlPoints > [0] > GeographicCoordinates",
+   "idShort": "GeographicCoordinates",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": " 0173-1#02-ABH934#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "GeographicCoordinates",
+     "semanticId": "0173-1#02-ABH934#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CoordinateSystems > [0] > GroundControlPoints > [0] > GeographicCoordinates > Longitude",
+   "idShort": "Longitude",
+   "modelType": "Property",
+   "semanticId": " 0173-1#02-ABH961#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "Longitude",
+     "semanticId": "0173-1#02-ABH961#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CoordinateSystems > [0] > GroundControlPoints > [0] > GeographicCoordinates > Latitude",
+   "idShort": "Latitude",
+   "modelType": "Property",
+   "semanticId": " 0173-1#02-ABH960#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "Latitude",
+     "semanticId": "0173-1#02-ABH960#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CoordinateSystems > [0] > GroundControlPoints > [0] > RelativeCoordinates",
+   "idShort": "RelativeCoordinates",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABG741#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "RelativeCoordinates",
+     "semanticId": "0173-1#02-ABG741#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CoordinateSystems > [0] > GroundControlPoints > [0] > RelativeCoordinates > X",
+   "idShort": "X",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/x/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17,
+     20,
+     25
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "X",
+     "semanticId": "https://admin-shell.io/idta/prop/x/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CoordinateSystems > [0] > GroundControlPoints > [0] > RelativeCoordinates > Y",
+   "idShort": "Y",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/y/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17,
+     20,
+     25
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "Y",
+     "semanticId": "https://admin-shell.io/idta/prop/y/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "VisitedAreas",
+   "idShort": "VisitedAreas",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/sml/visitedareas/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SML]",
+     "idShort": "VisitedAreas",
+     "semanticId": "https://admin-shell.io/idta/sml/visitedareas/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "VisitedAreas > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/smc/visitedareasrecord/1/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..*",
+     "0..1"
+    ],
+    "pages": [
+     11,
+     18
+    ]
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "VisitedAreas > [0] > CoordinateSystemOfArea",
+   "idShort": "CoordinateSystemOfArea",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/ref/coordinatesystemreference/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Ref]",
+     "idShort": "CoordinateSystemOfArea",
+     "semanticId": "https://admin-shell.io/idta/ref/coordinatesystemreference/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "VisitedAreas > [0] > AddressReferences",
+   "idShort": "AddressReferences",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/sml/addressreferences/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SML]",
+     "idShort": "AddressReferences",
+     "semanticId": "https://admin-shell.io/idta/sml/addressreferences/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "VisitedAreas > [0] > AddressReferences > [0]",
+   "idShort": "",
+   "modelType": "ReferenceElement",
+   "semanticId": "",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "VisitedAreas > [0] > AreaRegionCoordinates",
+   "idShort": "AreaRegionCoordinates",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/sml/regioncoordinates/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SML]",
+     "idShort": "AreaRegionCoordinates",
+     "semanticId": "https://admin-shell.io/idta/sml/regioncoordinates/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "VisitedAreas > [0] > AreaRegionCoordinates > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/smc/regioncoordinateentry/1/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..*",
+    "pages": [
+     19
+    ]
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "VisitedAreas > [0] > AreaRegionCoordinates > [0] > X",
+   "idShort": "X",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/x/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17,
+     20,
+     25
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "X",
+     "semanticId": "https://admin-shell.io/idta/prop/x/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "VisitedAreas > [0] > AreaRegionCoordinates > [0] > Y",
+   "idShort": "Y",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/y/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17,
+     20,
+     25
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "Y",
+     "semanticId": "https://admin-shell.io/idta/prop/y/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "VisitedAreas > [0] > KindOfArea",
+   "idShort": "KindOfArea",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/kindofarea/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "KindOfArea",
+     "semanticId": "https://admin-shell.io/idta/prop/kindofarea/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "VisitedAreas > [0] > AreaName",
+   "idShort": "AreaName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/areaname/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "AreaName",
+     "semanticId": "https://admin-shell.io/idta/prop/areaname/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "VisitedAreas > [0] > AreaId",
+   "idShort": "AreaId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/areaid/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "AreaId",
+     "semanticId": "https://admin-shell.io/idta/prop/areaid/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "VisitedAreas > [0] > AreaDesciption",
+   "idShort": "AreaDesciption",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/mlp/areadescription/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MLP]",
+     "idShort": "AreaDesciption",
+     "semanticId": "https://admin-shell.io/idta/mlp/areadescription/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "VisitedAreas > [0] > AreaLayout",
+   "idShort": "AreaLayout",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/file/arealayout/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[File]",
+     "idShort": "AreaLayout",
+     "semanticId": "https://admin-shell.io/idta/file/arealayout/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "VisitedAreas > [0] > BuildingLevel",
+   "idShort": "BuildingLevel",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABJ094#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "BuildingLevel",
+     "semanticId": "0173-1#02-ABJ094#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetTraces",
+   "idShort": "AssetTraces",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/smc/assettraces/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "AssetTraces",
+     "semanticId": "https://admin-shell.io/idta/smc/assettraces/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetTraces > AreaEventTimeSeriesData",
+   "idShort": "AreaEventTimeSeriesData",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/ref/eventtimeseriesdata/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Ref]",
+     "idShort": "AreaEventTimeSeriesData",
+     "semanticId": "https://admin-shell.io/idta/ref/eventtimeseriesdata/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetTraces > LocationEventTimeSeriesData",
+   "idShort": "LocationEventTimeSeriesData",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/ref/eventtimeseriesdata/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Ref]",
+     "idShort": "LocationEventTimeSeriesData",
+     "semanticId": "https://admin-shell.io/idta/ref/eventtimeseriesdata/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetTraces > AreaRecords",
+   "idShort": "AreaRecords",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/sml/arearecords/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[SML]",
+     "idShort": "AreaRecords",
+     "semanticId": "https://admin-shell.io/idta/sml/arearecords/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetTraces > AreaRecords > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/smc/arearecordsrecord/1/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..*",
+     "0..1"
+    ],
+    "pages": [
+     21,
+     22
+    ]
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "AssetTraces > AreaRecords > [0] > AreaRef",
+   "idShort": "AreaRef",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/ref/areareference/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Ref]",
+     "idShort": "AreaRef",
+     "semanticId": "https://admin-shell.io/idta/ref/areareference/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AssetTraces > AreaRecords > [0] > Time",
+   "idShort": "Time",
+   "modelType": "Property",
+   "semanticId": " 0173-1#02-ABF198#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22,
+     24
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "Time",
+     "semanticId": "0173-1#02-ABF198#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AssetTraces > AreaRecords > [0] > EventId",
+   "idShort": "EventId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/eventid/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Prop]",
+     "idShort": "EventId",
+     "semanticId": "https://admin-shell.io/idta/prop/eventid/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetTraces > AreaRecords > [0] > ProviderId",
+   "idShort": "ProviderId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/providerid/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     24
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Prop]",
+     "idShort": "ProviderId",
+     "semanticId": "https://admin-shell.io/idta/prop/providerid/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetTraces > AreaRecords > [0] > EventType",
+   "idShort": "EventType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/eventtype/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Prop]",
+     "idShort": "EventType",
+     "semanticId": "https://admin-shell.io/idta/prop/eventtype/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AssetTraces > LocationRecords",
+   "idShort": "LocationRecords",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/sml/locationrecords/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[SML]",
+     "idShort": "LocationRecords",
+     "semanticId": "https://admin-shell.io/idta/sml/locationrecords/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetTraces > LocationRecords > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/smc/locationrecordsrecord/1/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..*",
+     "0..1"
+    ],
+    "pages": [
+     21,
+     23
+    ]
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "AssetTraces > LocationRecords > [0] > CoordinateSystemReference",
+   "idShort": "CoordinateSystemReference",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/ref/coordinatesystemreference/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Ref]",
+     "idShort": "CoordinateSystemReference",
+     "semanticId": "https://admin-shell.io/idta/ref/coordinatesystemreference/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AssetTraces > LocationRecords > [0] > Position",
+   "idShort": "Position",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABI783#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[SMC]",
+     "idShort": "Position",
+     "semanticId": "0173-1#02-ABI783#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AssetTraces > LocationRecords > [0] > Position > X",
+   "idShort": "X",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/x/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17,
+     20,
+     25
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "X",
+     "semanticId": "https://admin-shell.io/idta/prop/x/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AssetTraces > LocationRecords > [0] > Position > Y",
+   "idShort": "Y",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/y/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17,
+     20,
+     25
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "Y",
+     "semanticId": "https://admin-shell.io/idta/prop/y/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AssetTraces > LocationRecords > [0] > Position > Z",
+   "idShort": "Z",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/z/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Prop]",
+     "idShort": "Z",
+     "semanticId": "https://admin-shell.io/idta/prop/z/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AssetTraces > LocationRecords > [0] > ProviderId",
+   "idShort": "ProviderId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/providerid/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23,
+     24
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Prop]",
+     "idShort": "ProviderId",
+     "semanticId": "https://admin-shell.io/idta/prop/providerid/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetTraces > LocationRecords > [0] > ProviderType",
+   "idShort": "ProviderType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/providertype/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Prop]",
+     "idShort": "ProviderType",
+     "semanticId": "https://admin-shell.io/idta/prop/providertype/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetTraces > LocationRecords > [0] > Accuracy",
+   "idShort": "Accuracy",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/accuracy/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Prop]",
+     "idShort": "Accuracy",
+     "semanticId": "https://admin-shell.io/idta/prop/accuracy/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetTraces > LocationRecords > [0] > MagneticHeading",
+   "idShort": "MagneticHeading",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/magneticheading/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Prop]",
+     "idShort": "MagneticHeading",
+     "semanticId": "https://admin-shell.io/idta/prop/magneticheading/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetTraces > LocationRecords > [0] > TrueHeading",
+   "idShort": "TrueHeading",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/trueheading/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Prop]",
+     "idShort": "TrueHeading",
+     "semanticId": "https://admin-shell.io/idta/prop/trueheading/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetTraces > LocationRecords > [0] > HeadingAccuracy",
+   "idShort": "HeadingAccuracy",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/headingaccuracy/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Prop]",
+     "idShort": "HeadingAccuracy",
+     "semanticId": "https://admin-shell.io/idta/prop/headingaccuracy/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetTraces > LocationRecords > [0] > Time",
+   "idShort": "Time",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF198#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22,
+     24
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "Time",
+     "semanticId": "0173-1#02-ABF198#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AssetTraces > LocationRecords > [0] > TransmissionTime",
+   "idShort": "TransmissionTime",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/transmissiontime/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Prop]",
+     "idShort": "TransmissionTime",
+     "semanticId": "https://admin-shell.io/idta/prop/transmissiontime/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetTraces > LocationRecords > [0] > LocationDescription",
+   "idShort": "LocationDescription",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/mlp/locationdescription/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[MLP]",
+     "idShort": "LocationDescription",
+     "semanticId": "https://admin-shell.io/idta/mlp/locationdescription/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetTraces > LocationRecords > [0] > Speed",
+   "idShort": "Speed",
+   "modelType": "Property",
+   "semanticId": " 0173-1#02-AAV544#004",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Prop]",
+     "idShort": "Speed",
+     "semanticId": "0173-1#02-AAV544#004",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetTraces > LocationRecords > [0] > Course",
+   "idShort": "Course",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/course/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Prop]",
+     "idShort": "Course",
+     "semanticId": "https://admin-shell.io/idta/prop/course/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetTraces > LocationRecords > [0] > ReferencePointId",
+   "idShort": "ReferencePointId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/referencepointid/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Prop]",
+     "idShort": "ReferencePointId",
+     "semanticId": "https://admin-shell.io/idta/prop/referencepointid/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetLocatingInformation",
+   "idShort": "AssetLocatingInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/sml/assetlocatinginformation/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "AssetLocatingInformation",
+     "semanticId": "https://admin-shell.io/idta/sml/assetlocatinginformation/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetLocatingInformation > Localizable",
+   "idShort": "Localizable",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/localizable/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Prop]",
+     "idShort": "Localizable",
+     "semanticId": "https://admin-shell.io/idta/prop/localizable/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetLocatingInformation > AssetLocationServiceRealTimeCapability",
+   "idShort": "AssetLocationServiceRealTimeCapability",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/mlp/realtimecapabilityofaas/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..1",
+    "pages": [
+     26
+    ]
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetLocatingInformation > RealtimeLocationSourceType",
+   "idShort": "RealtimeLocationSourceType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/realtimelocationsourcetype/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Prop]",
+     "idShort": "RealtimeLocationSourceType",
+     "semanticId": "https://admin-shell.io/idta/prop/realtimelocationsourcetype/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetLocatingInformation > RealtimeLocationSource",
+   "idShort": "RealtimeLocationSource",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/mlp/realtimelocationsource/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[MLP]",
+     "idShort": "RealtimeLocationSource",
+     "semanticId": "https://admin-shell.io/idta/mlp/realtimelocationsource/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  }
+ ]
+}

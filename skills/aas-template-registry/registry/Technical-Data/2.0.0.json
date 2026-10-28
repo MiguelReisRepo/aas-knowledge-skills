@@ -1,0 +1,1592 @@
+{
+ "template": "Technical Data",
+ "version": "2.0.0",
+ "submodelIdShort": "TechnicalData",
+ "submodelSemanticId": "0173-1#01-AHX837#002",
+ "json": {
+  "path": "published/Technical_Data/2/0/IDTA 02003_Template_TechnicalData.json",
+  "gitBlob": "55bb91b51cc28f269cabf68f3542f4a8084e959b"
+ },
+ "pdf": {
+  "path": "published/Technical_Data/2/0/IDTA 02003_Template_TechnicalData.pdf",
+  "relation": "same folder",
+  "sha256": "55af8d13a484944d8debfb8be8772d618cb92e759fb07bc7d971f02c925e6af7",
+  "annexA": [
+   {
+    "page": 21,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 21,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 58,
+  "none": 4
+ },
+ "elements": [
+  {
+   "path": "GeneralInformation",
+   "idShort": "GeneralInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABK161#002/0173-1#01-AHX838#002",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     7
+    ],
+    "row": {
+     "page": 7,
+     "type": "[SMC]",
+     "idShort": "GeneralInformation",
+     "semanticId": "0173-1#02-ABK161#002/0173-1#01-AHX838#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > ManufacturerName",
+   "idShort": "ManufacturerName",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO677#004",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "ManufacturerName",
+     "semanticId": "0173-1#02-AAO677#004",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > CompanyLogo",
+   "idShort": "CompanyLogo",
+   "modelType": "File",
+   "semanticId": "0173-1#02-ABI776#002",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[File]",
+     "idShort": "CompanyLogo",
+     "semanticId": "0173-1#02-ABI776#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "GeneralInformation > ManufacturerProductDesignation",
+   "idShort": "ManufacturerProductDesignation",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAW338#003",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[MLP]",
+     "idShort": "ManufacturerProductDesignation",
+     "semanticId": "0173-1#02-AAW338#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > ManufacturerArticleNumber",
+   "idShort": "ManufacturerArticleNumber",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO676#005",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "ManufacturerArticleNumber",
+     "semanticId": "0173-1#02-AAO676#005",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > ManufacturerOrderCode",
+   "idShort": "ManufacturerOrderCode",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO227#004",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "ManufacturerOrderCode",
+     "semanticId": "0173-1#02-AAO227#004",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > ProductImages",
+   "idShort": "ProductImages",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABM220#001",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     9,
+     10
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SML]",
+     "idShort": "ProductImages",
+     "semanticId": "0173-1#02-ABM220#001",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "GeneralInformation > ProductImages > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABM220#001/0173-1#01-AHY911#001",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..*",
+    "pages": [
+     10
+    ]
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "GeneralInformation > ProductImages > [0] > ImageFile",
+   "idShort": "ImageFile",
+   "modelType": "File",
+   "semanticId": "0173-1#02-ABK291#002",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[File]",
+     "idShort": "ImageFile",
+     "semanticId": "0173-1#02-ABK291#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > ProductImages > [0] > ImageNote",
+   "idShort": "ImageNote",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-ABL423#001",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[MLP]",
+     "idShort": "ImageNote",
+     "semanticId": "0173-1#02-ABL423#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductClassifications",
+   "idShort": "ProductClassifications",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABK162#002",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     7,
+     12
+    ],
+    "row": {
+     "page": 7,
+     "type": "[SML]",
+     "idShort": "ProductClassifications",
+     "semanticId": "0173-1#02-ABK162#002",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "ProductClassifications > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABK162#002/0173-1#01-AHX839#002",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..*",
+    "pages": [
+     12
+    ]
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "ProductClassifications > [0] > ClassificationSystem",
+   "idShort": "ClassificationSystem",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABL424#001",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "ClassificationSystem",
+     "semanticId": "0173-1#02-ABL424#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductClassifications > [0] > ClassificationSystemVersion",
+   "idShort": "ClassificationSystemVersion",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAR710#003",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "ClassificationSystemVersion",
+     "semanticId": "0173-1#02-AAR710#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductClassifications > [0] > ClassificationSystemUrl",
+   "idShort": "ClassificationSystemUrl",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/IDTA/TechnicalData/ProductClassifications/ProduktClassification/ClassificationSystemUrl/2/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "ClassificationSystemUrl",
+     "semanticId": "https://admin-shell.io/IDTA/TechnicalData/ProductClassifications/ProduktClassification/ClassificationSystemUrl/2/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductClassifications > [0] > ProductClassId",
+   "idShort": "ProductClassId",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABG776#003",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "ProductClassId",
+     "semanticId": "0173-1#02-ABG776#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductClassifications > [0] > ProductClassCodedName",
+   "idShort": "ProductClassCodedName",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABK128#002",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "ProductClassCodedName",
+     "semanticId": "0173-1#02-ABK128#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductClassifications > [0] > ProductClassName",
+   "idShort": "ProductClassName",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-ABK273#002",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "ProductClassName",
+     "semanticId": "0173-1#02-ABK273#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductClassifications > [0] > ReferenceToTechnicalPropertyArea",
+   "idShort": "ReferenceToTechnicalPropertyArea",
+   "modelType": "ReferenceElement",
+   "semanticId": "0173-1#02-ABL358#002",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Ref]",
+     "idShort": "ReferenceToTechnicalPropertyArea",
+     "semanticId": "0173-1#02-ABL358#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TechnicalPropertyAreas",
+   "idShort": "TechnicalPropertyAreas",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABK163#002",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     8
+    ],
+    "row": {
+     "page": 8,
+     "type": "[SML]",
+     "idShort": "TechnicalPropertyAreas",
+     "semanticId": "0173-1#02-ABK163#002",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "TechnicalPropertyAreas > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABL358#002/0173-1#01-AHX773#002",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..*",
+    "pages": [
+     15
+    ]
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "TechnicalPropertyAreas > [0] > Section",
+   "idShort": "Section",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     20
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "Section",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "TechnicalPropertyAreas > [0] > Section > Section",
+   "idShort": "Section",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     20
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "Section",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "TechnicalPropertyAreas > [0] > Section > ArbitrarySMC",
+   "idShort": "ArbitrarySMC",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     20
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "ArbitrarySMC",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "TechnicalPropertyAreas > [0] > Section > ArbitrarySML",
+   "idShort": "ArbitrarySML",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     21
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SML]",
+     "idShort": "ArbitrarySML",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "TechnicalPropertyAreas > [0] > Section > ArbitraryProperty",
+   "idShort": "ArbitraryProperty",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16,
+     21
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "ArbitraryProperty",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "TechnicalPropertyAreas > [0] > Section > ArbitraryMLP",
+   "idShort": "ArbitraryMLP",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16,
+     21
+    ],
+    "row": {
+     "page": 16,
+     "type": "[MLP]",
+     "idShort": "ArbitraryMLP",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "TechnicalPropertyAreas > [0] > Section > ArbitraryRange",
+   "idShort": "ArbitraryRange",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16,
+     21
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Range]",
+     "idShort": "ArbitraryRange",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "TechnicalPropertyAreas > [0] > ArbitrarySMC",
+   "idShort": "ArbitrarySMC",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     20
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "ArbitrarySMC",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "TechnicalPropertyAreas > [0] > ArbitrarySMC > Section",
+   "idShort": "Section",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     20
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "Section",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "TechnicalPropertyAreas > [0] > ArbitrarySMC > ArbitrarySMC",
+   "idShort": "ArbitrarySMC",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     20
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "ArbitrarySMC",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "TechnicalPropertyAreas > [0] > ArbitrarySMC > ArbitrarySML",
+   "idShort": "ArbitrarySML",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     21
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SML]",
+     "idShort": "ArbitrarySML",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "TechnicalPropertyAreas > [0] > ArbitrarySMC > ArbitraryProperty",
+   "idShort": "ArbitraryProperty",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16,
+     21
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "ArbitraryProperty",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "TechnicalPropertyAreas > [0] > ArbitrarySMC > ArbitraryMLP",
+   "idShort": "ArbitraryMLP",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16,
+     21
+    ],
+    "row": {
+     "page": 16,
+     "type": "[MLP]",
+     "idShort": "ArbitraryMLP",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "TechnicalPropertyAreas > [0] > ArbitrarySMC > ArbitraryRange",
+   "idShort": "ArbitraryRange",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16,
+     21
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Range]",
+     "idShort": "ArbitraryRange",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "TechnicalPropertyAreas > [0] > ArbitrarySML",
+   "idShort": "ArbitrarySML",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     21
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SML]",
+     "idShort": "ArbitrarySML",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "TechnicalPropertyAreas > [0] > ArbitraryProperty",
+   "idShort": "ArbitraryProperty",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16,
+     21
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "ArbitraryProperty",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "TechnicalPropertyAreas > [0] > ArbitraryMLP",
+   "idShort": "ArbitraryMLP",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16,
+     21
+    ],
+    "row": {
+     "page": 16,
+     "type": "[MLP]",
+     "idShort": "ArbitraryMLP",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "TechnicalPropertyAreas > [0] > ArbitraryRange",
+   "idShort": "ArbitraryRange",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16,
+     21
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Range]",
+     "idShort": "ArbitraryRange",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "FurtherInformation",
+   "idShort": "FurtherInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABK164#002",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     8
+    ],
+    "row": {
+     "page": 8,
+     "type": "[SMC]",
+     "idShort": "FurtherInformation",
+     "semanticId": "0173-1#02-ABK164#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "FurtherInformation > TextStatement",
+   "idShort": "TextStatement",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-ABK134#002",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[MLP]",
+     "idShort": "TextStatement",
+     "semanticId": "0173-1#02-ABK134#002",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "FurtherInformation > ValidDate",
+   "idShort": "ValidDate",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABL775#001",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "ValidDate",
+     "semanticId": "0173-1#02-ABL775#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SpecificDescriptions",
+   "idShort": "SpecificDescriptions",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABM221#001",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     8,
+     20
+    ],
+    "row": {
+     "page": 8,
+     "type": "[SML]",
+     "idShort": "SpecificDescriptions",
+     "semanticId": "0173-1#02-ABM221#001",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SpecificDescriptions > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABM221#001/0173-1#01-AHY912#001",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..*",
+    "pages": [
+     20
+    ]
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Section",
+   "idShort": "Section",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     20
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "Section",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Section > Section",
+   "idShort": "Section",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     20
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "Section",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Section > ArbitrarySMC",
+   "idShort": "ArbitrarySMC",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     20
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "ArbitrarySMC",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Section > ArbitrarySML",
+   "idShort": "ArbitrarySML",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     21
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SML]",
+     "idShort": "ArbitrarySML",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Section > ArbitraryProperty",
+   "idShort": "ArbitraryProperty",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16,
+     21
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "ArbitraryProperty",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Section > ArbitraryMLP",
+   "idShort": "ArbitraryMLP",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16,
+     21
+    ],
+    "row": {
+     "page": 16,
+     "type": "[MLP]",
+     "idShort": "ArbitraryMLP",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Section > ArbitraryRange",
+   "idShort": "ArbitraryRange",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16,
+     21
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Range]",
+     "idShort": "ArbitraryRange",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > ArbitrarySMC",
+   "idShort": "ArbitrarySMC",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     20
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "ArbitrarySMC",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > ArbitrarySMC > Section",
+   "idShort": "Section",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     20
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "Section",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > ArbitrarySMC > ArbitrarySMC",
+   "idShort": "ArbitrarySMC",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     20
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "ArbitrarySMC",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > ArbitrarySMC > ArbitrarySML",
+   "idShort": "ArbitrarySML",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     21
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SML]",
+     "idShort": "ArbitrarySML",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > ArbitrarySMC > ArbitraryProperty",
+   "idShort": "ArbitraryProperty",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16,
+     21
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "ArbitraryProperty",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > ArbitrarySMC > ArbitraryMLP",
+   "idShort": "ArbitraryMLP",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16,
+     21
+    ],
+    "row": {
+     "page": 16,
+     "type": "[MLP]",
+     "idShort": "ArbitraryMLP",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > ArbitrarySMC > ArbitraryRange",
+   "idShort": "ArbitraryRange",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16,
+     21
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Range]",
+     "idShort": "ArbitraryRange",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > ArbitrarySML",
+   "idShort": "ArbitrarySML",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     21
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SML]",
+     "idShort": "ArbitrarySML",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > ArbitraryProperty",
+   "idShort": "ArbitraryProperty",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16,
+     21
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "ArbitraryProperty",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > ArbitraryMLP",
+   "idShort": "ArbitraryMLP",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16,
+     21
+    ],
+    "row": {
+     "page": 16,
+     "type": "[MLP]",
+     "idShort": "ArbitraryMLP",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > ArbitraryRange",
+   "idShort": "ArbitraryRange",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16,
+     21
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Range]",
+     "idShort": "ArbitraryRange",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  }
+ ]
+}

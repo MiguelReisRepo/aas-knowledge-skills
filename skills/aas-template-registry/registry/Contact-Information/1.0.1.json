@@ -1,0 +1,917 @@
+{
+ "template": "Contact Information",
+ "version": "1.0.1",
+ "submodelIdShort": "ContactInformations",
+ "submodelSemanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations",
+ "json": {
+  "path": "published/Contact Information/1/0/1/IDTA 02002-1-0-1_Template_ContactInformation_forAASMetamodelV3.1.json",
+  "gitBlob": "3336b1166b0a0829403d7e8dfc6906b4bcb544a5"
+ },
+ "pdf": {
+  "path": "published/Contact Information/1/0/1/IDTA 02002-1-0-1_Submodel_ContactInformation.pdf",
+  "relation": "same folder",
+  "sha256": "462dae822143dd6278b84ec675b1322ac98aaf76a24a66b265e57bf5168f8db0",
+  "annexA": [
+   {
+    "page": 19,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 19,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 33,
+  "json-only": 1,
+  "unverified": 2
+ },
+ "elements": [
+  {
+   "path": "ContactInformation",
+   "idShort": "ContactInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation",
+   "json": "1..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[SubmodelElem entCollection]",
+     "idShort": "ContactInformation",
+     "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "ContactInformation > RoleOfContactPerson",
+   "idShort": "RoleOfContactPerson",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO204#003",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Property]",
+     "idShort": "RoleOfContactPerson",
+     "semanticId": "0173-1#02-AAO204#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > NationalCode",
+   "idShort": "NationalCode",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO134#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[MLP]",
+     "idShort": "NationalCode",
+     "semanticId": "0173-1#02-AAO134#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > Language",
+   "idShort": "Language",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/Language",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Property]",
+     "idShort": "Language",
+     "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/Language",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "ContactInformation > TimeZone",
+   "idShort": "TimeZone",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/TimeZone",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Property]",
+     "idShort": "TimeZone",
+     "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/TimeZone",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > CityTown",
+   "idShort": "CityTown",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO132#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[MLP]",
+     "idShort": "CityTown",
+     "semanticId": "0173-1#02-AAO132#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > Company",
+   "idShort": "Company",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAW001#001",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[MLP]",
+     "idShort": "Company",
+     "semanticId": "0173-1#02-AAW001#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > Department",
+   "idShort": "Department",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO127#003",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[MLP]",
+     "idShort": "Department",
+     "semanticId": "0173-1#02-AAO127#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > Phone",
+   "idShort": "Phone",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/Phone",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SubmodelElem entCollection]",
+     "idShort": "Phone",
+     "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/Phone",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > Phone > TelephoneNumber",
+   "idShort": "TelephoneNumber",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO136#002",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[MLP]",
+     "idShort": "TelephoneNumber",
+     "semanticId": "0173-1#02-AAO136#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ContactInformation > Phone > TypeOfTelephone",
+   "idShort": "TypeOfTelephone",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO137#003",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "TypeOfTelephone",
+     "semanticId": "0173-1#02-AAO137#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > Phone > AvailableTime",
+   "idShort": "AvailableTime",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/AvailableTime/",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14,
+     17
+    ],
+    "row": {
+     "page": 14,
+     "type": "[MLP]",
+     "idShort": "AvailableTime",
+     "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/AvailableTime/",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > Fax",
+   "idShort": "Fax",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-AAQ834#005",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SubmodelElem entCollection]",
+     "idShort": "Fax",
+     "semanticId": "0173-1#02-AAQ834#005",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > Fax > FaxNumber",
+   "idShort": "FaxNumber",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO195#002",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[MLP]",
+     "idShort": "FaxNumber",
+     "semanticId": "0173-1#02-AAO195#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ContactInformation > Fax > TypeOfFaxNumber",
+   "idShort": "TypeOfFaxNumber",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO196#003",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Property]",
+     "idShort": "TypeOfFaxNumber",
+     "semanticId": "0173-1#02-AAO196#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > Email",
+   "idShort": "Email",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-AAQ836#005",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SubmodelElem entCollection]",
+     "idShort": "Email",
+     "semanticId": "0173-1#02-AAQ836#005",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > Email > EmailAddress",
+   "idShort": "EmailAddress",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO198#002",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Property]",
+     "idShort": "EmailAddress",
+     "semanticId": "0173-1#02-AAO198#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ContactInformation > Email > PublicKey",
+   "idShort": "PublicKey",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO200#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[MLP]",
+     "idShort": "PublicKey",
+     "semanticId": "0173-1#02-AAO200#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > Email > TypeOfEmailAddress",
+   "idShort": "TypeOfEmailAddress",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO199#003",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Property]",
+     "idShort": "TypeOfEmailAddress",
+     "semanticId": "0173-1#02-AAO199#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > Email > TypeOfPublicKey",
+   "idShort": "TypeOfPublicKey",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO201#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[MLP]",
+     "idShort": "TypeOfPublicKey",
+     "semanticId": "0173-1#02-AAO201#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > IPCommunication__00__",
+   "idShort": "IPCommunication__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/IPCommunication/",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "ContactInformation > IPCommunication__00__ > AddressOfAdditionalLink",
+   "idShort": "AddressOfAdditionalLink",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAQ326#002",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     13,
+     17
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "ContactInformation > IPCommunication__00__ > TypeOfCommunication",
+   "idShort": "TypeOfCommunication",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ ContactInformations/ContactInformation/IPCommunication/TypeOfCommunication",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "TypeOfCommunication",
+     "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/IPCommunication/TypeOfCommunication",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > IPCommunication__00__ > AvailableTime",
+   "idShort": "AvailableTime",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/AvailableTime/",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14,
+     17
+    ],
+    "row": {
+     "page": 14,
+     "type": "[MLP]",
+     "idShort": "AvailableTime",
+     "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/AvailableTime/",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > Street",
+   "idShort": "Street",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO128#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "Street",
+     "semanticId": "0173-1#02-AAO128#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > Zipcode",
+   "idShort": "Zipcode",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO129#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "Zipcode",
+     "semanticId": "0173-1#02-AAO129#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > POBox",
+   "idShort": "POBox",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO130#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "POBox",
+     "semanticId": "0173-1#02-AAO130#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > ZipCodeOfPOBox",
+   "idShort": "ZipCodeOfPOBox",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO131#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "ZipCodeOfPOBox",
+     "semanticId": "0173-1#02-AAO131#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > StateCounty",
+   "idShort": "StateCounty",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO133#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "StateCounty",
+     "semanticId": "0173-1#02-AAO133#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > NameOfContact",
+   "idShort": "NameOfContact",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO205#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "NameOfContact",
+     "semanticId": "0173-1#02-AAO205#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > FirstName",
+   "idShort": "FirstName",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO206#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "FirstName",
+     "semanticId": "0173-1#02-AAO206#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > MiddleNames",
+   "idShort": "MiddleNames",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO207#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "MiddleNames",
+     "semanticId": "0173-1#02-AAO207#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > Title",
+   "idShort": "Title",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO208#003",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "Title",
+     "semanticId": "0173-1#02-AAO208#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > AcademicTitle",
+   "idShort": "AcademicTitle",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO209#003",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "AcademicTitle",
+     "semanticId": "0173-1#02-AAO209#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > FurtherDetailsOfContact",
+   "idShort": "FurtherDetailsOfContact",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO210#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "FurtherDetailsOfContact",
+     "semanticId": "0173-1#02-AAO210#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ContactInformation > AddressOfAdditionalLink",
+   "idShort": "AddressOfAdditionalLink",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAQ326#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     13,
+     17
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  }
+ ]
+}

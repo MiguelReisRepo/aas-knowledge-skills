@@ -1,0 +1,94 @@
+{
+  "skill": "aas-validation",
+  "version": "1.1.0",
+  "last_verified": "2026-10-28",
+  "sources": [
+    {
+      "document": "IDTA-01001 Part 1 Metamodel",
+      "revision": "3.0 via aas-core-meta v3_0.py (sha256 2ef62ab51fee...)",
+      "file": "vendor/aas-core-meta/aas-core-meta-v3_0.py",
+      "url": "https://github.com/aas-core-works/aas-core-meta",
+      "bundled": true
+    },
+    {
+      "document": "IDTA-01001 Part 1 Metamodel",
+      "revision": "3.1 via aas-core-meta v3_1.py (sha256 d60dbaca77e3...)",
+      "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+      "url": "https://github.com/aas-core-works/aas-core-meta",
+      "bundled": true
+    },
+    {
+      "document": "IDTA-01001 Part 1 Metamodel",
+      "revision": "3.2 via aas-core-meta v3_2.py (sha256 92692f843c96...)",
+      "file": "vendor/aas-core-meta/aas-core-meta-v3_2.py",
+      "url": "https://github.com/aas-core-works/aas-core-meta",
+      "bundled": true
+    },
+    {
+      "document": "Official AAS XML schema",
+      "revision": "3.0 (sha256 40eb128b1684...)",
+      "file": "vendor/schemas/3.0/AAS.xsd",
+      "url": "https://github.com/admin-shell-io/aas-specs-metamodel",
+      "bundled": true
+    },
+    {
+      "document": "Official AAS XML schema",
+      "revision": "3.1 (sha256 9270966e703a...)",
+      "file": "vendor/schemas/3.1/AAS.xsd",
+      "url": "https://github.com/admin-shell-io/aas-specs-metamodel",
+      "bundled": true
+    },
+    {
+      "document": "Official AAS XML schema",
+      "revision": "3.2 (sha256 c04279e26606...)",
+      "file": "vendor/schemas/3.2/AAS.xsd",
+      "url": "https://github.com/admin-shell-io/aas-specs-metamodel",
+      "bundled": true
+    },
+    {
+      "document": "Official AAS JSON schema (draft 2019-09)",
+      "revision": "3.1 (sha256 9a8a005e3036...)",
+      "file": "vendor/schemas/3.1/aas.json",
+      "url": "https://github.com/admin-shell-io/aas-specs-metamodel",
+      "bundled": true
+    },
+    {
+      "document": "IDTA-01001 Part 1 Metamodel (PDF, incl. Annex 'Metamodel Changes')",
+      "revision": "3.0 (sha256 8ba8171554de...)",
+      "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+      "url": "https://industrialdigitaltwin.io/aas-specifications/IDTA-01001/v3.0/",
+      "bundled": false
+    },
+    {
+      "document": "IDTA-01001 Part 1 Metamodel (PDF, paged text)",
+      "revision": "3.1.2 (official file, sha256 63e0e15cd221..., 2492535 bytes, retrieved 2026-10-28)",
+      "file": "idta-specs:txt/IDTA-01001-3-1-2_AAS-Specification_Part1_Metamodel.txt",
+      "url": "https://industrialdigitaltwin.org/en/wp-content/uploads/sites/2/2025/11/IDTA-01001-3-1-2_AAS-Specification_Part1_Metamodel.pdf",
+      "bundled": false
+    },
+    {
+      "document": "IDTA-01001 Part 1 Metamodel (PDF, paged text)",
+      "revision": "3.2 (official file, sha256 882e2e30788e..., 4962055 bytes, retrieved 2026-10-28)",
+      "file": "idta-specs:txt/IDTA-01001-3-2_AAS-Specification_Part1_Metamodel.txt",
+      "url": "https://industrialdigitaltwin.org/en/wp-content/uploads/sites/2/2026/07/IDTA-01001-3-2_AAS-Specification_Part1_Metamodel.pdf",
+      "bundled": false
+    },
+    {
+      "document": "IDTA-01003-a Part 3a Data Specification IEC 61360 (PDF, paged text)",
+      "revision": "3.1.1 (official file, sha256 bad72d5347b0..., 993572 bytes, retrieved 2026-10-28)",
+      "file": "idta-specs:txt/IDTA-01003-a-3-1-1_AAS-Specification_Part3a_DataSpecification.txt",
+      "url": "https://industrialdigitaltwin.org/en/wp-content/uploads/sites/2/2025/08/IDTA-01003-a-3-1-1_AAS-Specification_Part3a_DataSpecification.pdf",
+      "bundled": false
+    }
+  ],
+  "claims_not_verifiable_on_disk": [
+    "IDTA-01001 Part 1 v3.2 PDF (SKILL.md says the 79-row AASd catalogue is extracted verbatim from it; also its p.215/p.218 change-table citations for AASd-137/138)",
+    "IDTA-01001 Part 1 v3.1.1 / v3.1.2 PDFs (cited for the 'REMOVED: remove AASd-090 (#514)' and 'remove AASd-120 (#432)' change notes and the AASd-020 Qualifier wording); on disk only absence from aas-core-meta v3_1/v3_2 supports the removal, which is not literal proof",
+    "IDTA-01003-a Part 3a v3.0 PDF (p.22, p.39, p.64 citations for AASc-3a-008/010)",
+    "aas-test-engines 1.0.3 behaviour (3.0.1-only, AASc-3a-004/005/006 false positive, check_json_file skipping constraints)",
+    "IDTA-01005 Part 5 AASX v3.1",
+    "IDTA 02010-1-0 p.19 cardinality wording (not checked in this pass)",
+    "SAMM TTLs (admin-shell-io/smt-semantic-models, batterypass/BatteryPassDataModel) and Battery Pass Longlist v1.2 used in section 10"
+  ],
+  "notes": "AASd-090/120 removal now cited from the Part 1 v3.1.2 PDF (p.196, change tables p.199-200; eval 015). The row-by-row re-check of the 34 'removed before V3.0' rows against v3.1.2/v3.2 is still open."
+}

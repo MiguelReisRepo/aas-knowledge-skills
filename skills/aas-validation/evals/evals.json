@@ -1,0 +1,372 @@
+{
+ "skill": "aas-validation",
+ "skill_version": "1.1.0",
+ "description": "Revision-gated AASd-* verdicts (rules added in 3.2, removed before or in 3.x), constraint guards and wording, idShort/JSON-schema facets that are commonly misreported.",
+ "items": [
+  {
+   "id": "aas-validation-001",
+   "question": "A partner's validator reports 'AASd-138: a SubmodelElementList in a Template submodel must have exactly one element' nine times against an .aasx whose XML declares xmlns=\"https://admin-shell.io/aas/3/1\". Does this finding make the document invalid?",
+   "expected_answer": "No. AASd-138 (an SML in a Template submodel or in an OperationVariable shall have exactly one element) is a metamodel 3.2 constraint; it appears in the 3.2 formalisation, not in 3.0 or 3.1. A 3/1 document is judged by the 3.1 rule set, so this is a false invalid.",
+   "must_include": [
+    "AASd-138",
+    "3.2"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (as formalised in aas-core-meta)",
+    "revision": "3.2",
+    "section": "Constraint AASd-138 (invariant of class Submodel)",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_2.py",
+    "lines": "2622-2623",
+    "quote": "Template or as part of an operation variable shall have exactly one element."
+   },
+   "tags": [
+    "revision-specific",
+    "introduced-later",
+    "false-invalid"
+   ]
+  },
+  {
+   "id": "aas-validation-002",
+   "question": "Our 3.1 exporter writes an ExternalReference whose second key has Key/type Submodel, and a linter flags it as AASd-137. In which metamodel revision does AASd-137 exist, and should it be applied to a document declaring https://admin-shell.io/aas/3/1?",
+   "expected_answer": "AASd-137 (for external references no key may have a Key/type that is one of the AAS referables) is a 3.2 constraint. It must not be emitted against a 3/1 document; judge the document by its own revision.",
+   "must_include": [
+    "AASd-137",
+    "3.2"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (as formalised in aas-core-meta)",
+    "revision": "3.2",
+    "section": "Constraint AASd-137 (invariant of class Reference)",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_2.py",
+    "lines": "4755-4757",
+    "quote": "Reference/keys shall not be one of AAS referables."
+   },
+   "tags": [
+    "revision-specific",
+    "introduced-later"
+   ]
+  },
+  {
+   "id": "aas-validation-003",
+   "question": "A 3.1 Range element has valueType xs:double and neither min nor max. A validator reports 'AASd-013: min or max must be defined'. Is the Range invalid?",
+   "expected_answer": "No. AASd-013 (a Range with kind=Instance needs min or max or both) was removed in V2.0.1; the Part 1 V3.0 change table 'Changes V2.0.1 vs. V2.0' lists it as Removed. An open-bounds Range is valid; a validator emitting AASd-013 has a stale rule.",
+   "must_include": [
+    "removed",
+    "2.0.1"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel",
+    "revision": "3.0",
+    "section": "Annex (Metamodel Changes), Changes V2.0.1 vs. V2.0, Table 42 New, Changed or Removed Constraints w/o Security",
+    "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+    "page": 205,
+    "quote": "AASd-013 Removed Constraint AASd-013: In case of a range with kind=Instance either the min or the max value or both need to be defined."
+   },
+   "tags": [
+    "removed-rule",
+    "false-invalid"
+   ]
+  },
+  {
+   "id": "aas-validation-004",
+   "question": "Our gate rejects an idShort of 130 characters with the code 'AASd-027'. Is the length limit real, and is AASd-027 the right citation?",
+   "expected_answer": "The 128-character limit is real, but AASd-027 was removed in V3.0: the limit is now carried by the idShort type NameType (maximum length 128), i.e. enforced by the schemas. Cite the schema facet or an internal code, not AASd-027.",
+   "must_include": [
+    "128",
+    "NameType"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel",
+    "revision": "3.0",
+    "section": "Annex (Metamodel Changes), Changes V3.0 vs. V3.0RC02, constraint table row AASd-027",
+    "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+    "page": 168,
+    "quote": "AASd-027 Removed Not needed any longer since Type of idShort was changed to NameType and NameType has a maximum length of 128 characters"
+   },
+   "tags": [
+    "removed-rule",
+    "wrong-citation"
+   ]
+  },
+  {
+   "id": "aas-validation-005",
+   "question": "In an AAS 3.0 document (xmlns https://admin-shell.io/aas/3/0) a Property carries category=\"MEASUREMENT\". Does this violate a numbered constraint in 3.0, and which values would be allowed?",
+   "expected_answer": "Yes, in 3.0: AASd-090 says that for data elements category shall be one of CONSTANT, PARAMETER or VARIABLE, so MEASUREMENT violates it in a 3.0 document.",
+   "must_include": [
+    "AASd-090",
+    "CONSTANT",
+    "PARAMETER",
+    "VARIABLE"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (as formalised in aas-core-meta)",
+    "revision": "3.0",
+    "section": "Constraint AASd-090 (invariant of class Data_element)",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_0.py",
+    "lines": "2939-2940",
+    "quote": "of the following values: CONSTANT, PARAMETER or VARIABLE."
+   },
+   "tags": [
+    "revision-specific",
+    "3.0-only"
+   ]
+  },
+  {
+   "id": "aas-validation-006",
+   "question": "In an AAS 3.0 document, the direct children of a SubmodelElementList carry idShorts (Marking001, Marking002). Which numbered rule applies in 3.0?",
+   "expected_answer": "AASd-120 (3.0): the idShort of submodel elements being a direct child of a SubmodelElementList shall not be specified, so in a 3.0 document those idShorts are a violation.",
+   "must_include": [
+    "AASd-120",
+    [
+     "shall not",
+     "must not",
+     "not be specified",
+     "not allowed",
+     "forbidden"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (as formalised in aas-core-meta)",
+    "revision": "3.0",
+    "section": "Constraint AASd-120 (invariant of class Submodel_element_list)",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_0.py",
+    "lines": "2668-2669",
+    "quote": "Constraint AASd-120: ID-short of submodel elements being a direct child of a"
+   },
+   "tags": [
+    "revision-specific",
+    "3.0-only"
+   ]
+  },
+  {
+   "id": "aas-validation-007",
+   "question": "Against the official AAS 3.1 XSD, which of these idShorts are rejected: 'Motor-1', 'M', 'Motor_', 'Motor-'?",
+   "expected_answer": "'M' is rejected (the 3.1 pattern [a-zA-Z][a-zA-Z0-9_-]*[a-zA-Z0-9_]+ needs at least two characters) and 'Motor-' is rejected (it may not end with a hyphen). 'Motor-1' and 'Motor_' are valid: a mid-string hyphen is allowed in 3.1.",
+   "must_include": [
+    [
+     "two characters",
+     "2 characters",
+     "at least two",
+     "at least 2",
+     "min 2",
+     "minimum of two",
+     "two chars",
+     "2 chars"
+    ],
+    "hyphen"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Official AAS XML schema (aas-specs-metamodel)",
+    "revision": "3.1",
+    "section": "AAS.xsd, group referable, element idShort",
+    "file": "vendor/schemas/3.1/AAS.xsd",
+    "lines": "723-728",
+    "quote": "<xs:pattern value=\"[a-zA-Z][a-zA-Z0-9_-]*[a-zA-Z0-9_]+\"/>"
+   },
+   "tags": [
+    "idShort",
+    "pattern",
+    "revision-specific"
+   ]
+  },
+  {
+   "id": "aas-validation-008",
+   "question": "A 3.1 Property has valueType xs:int and value 'abc'. Our validator reports it as 'AASd-020'. Is AASd-020 the right constraint id?",
+   "expected_answer": "No. In 3.1 AASd-020 is the Qualifier rule (Qualifier/value consistent with Qualifier/valueType). The Property mismatch is still a violation, but of the unnumbered Property invariant 'Value must be consistent with the value type', so cite it with an internal code, not AASd-020.",
+   "must_include": [
+    "Qualifier"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (as formalised in aas-core-meta)",
+    "revision": "3.1",
+    "section": "Constraint AASd-020 (invariant of class Qualifier)",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+    "lines": "1979-1987",
+    "quote": "Constraint AASd-020: The value shall be consistent to the data type as defined"
+   },
+   "tags": [
+    "wrong-citation",
+    "constraint-wording"
+   ]
+  },
+  {
+   "id": "aas-validation-009",
+   "question": "A 3.1 SubmodelElementList declares no semanticIdListElement, and every child carries the same semanticId. Does AASd-107 fire?",
+   "expected_answer": "No. AASd-107 only requires a child's semanticId to equal semanticIdListElement when the list declares a semanticIdListElement; with none declared there is nothing to compare. (AASd-114 still needs the children's semanticIds to be identical, and here they are.)",
+   "must_include": [
+    [
+     "semanticIdListElement",
+     "semantic ID list element",
+     "semantic_ID_list_element"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (as formalised in aas-core-meta)",
+    "revision": "3.1",
+    "section": "Constraint AASd-107 (invariant of class Submodel_element_list, guard on semantic_ID_list_element)",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+    "lines": "2697-2712",
+    "quote": "and self.semantic_ID_list_element is not None"
+   },
+   "tags": [
+    "guard",
+    "false-invalid",
+    "SubmodelElementList"
+   ]
+  },
+  {
+   "id": "aas-validation-010",
+   "question": "A 3.1 SubmodelElementList declares typeValueListElement=SubmodelElement, holds Property children, and has no valueTypeListElement. Is that an AASd-109 violation?",
+   "expected_answer": "No. AASd-109 applies only when typeValueListElement is Property or Range; then valueTypeListElement shall be set and all children share it. A list declaring SubmodelElement is outside the rule, whatever its children are.",
+   "must_include": [
+    "Property",
+    "Range"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (as formalised in aas-core-meta)",
+    "revision": "3.1",
+    "section": "Constraint AASd-109 (invariant of class Submodel_element_list)",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+    "lines": "2675-2678",
+    "quote": "Property or Range value type list element shall be set"
+   },
+   "tags": [
+    "guard",
+    "false-invalid",
+    "SubmodelElementList"
+   ]
+  },
+  {
+   "id": "aas-validation-011",
+   "question": "Two sibling elements in the same SubmodelElementCollection are named 'Voltage' and 'voltage'. Is that an idShort uniqueness (AASd-022) violation in 3.1?",
+   "expected_answer": "No. AASd-022 requires idShorts of non-identifiable referables to be unique within the same name space case-sensitively, so 'Voltage' and 'voltage' are distinct.",
+   "must_include": [
+    [
+     "case-sensitive",
+     "case sensitive",
+     "case-sensitively"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (as formalised in aas-core-meta)",
+    "revision": "3.1",
+    "section": "Constraint AASd-022",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+    "lines": "2447-2448",
+    "quote": "within the same name space shall be unique (case-sensitive)."
+   },
+   "tags": [
+    "idShort",
+    "uniqueness"
+   ]
+  },
+  {
+   "id": "aas-validation-012",
+   "question": "The .aas.json part of a 3.1 package contains \"submodels\": [] (an empty array) while the .aas.xml part validates. Is the JSON schema-valid?",
+   "expected_answer": "No. The official 3.1 JSON schema gives Environment.submodels \"minItems\": 1, so an empty array is invalid; omit the key instead.",
+   "must_include": [
+    [
+     "minItems",
+     "at least one"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Official AAS JSON schema (aas-specs-metamodel)",
+    "revision": "3.1",
+    "section": "aas.json, definitions/Environment/properties/submodels",
+    "file": "vendor/schemas/3.1/aas.json",
+    "lines": "572-577",
+    "quote": "\"submodels\": { \"type\": \"array\", \"items\": { \"$ref\": \"#/definitions/Submodel\" }, \"minItems\": 1"
+   },
+   "tags": [
+    "json-schema",
+    "serialization-parity"
+   ]
+  },
+  {
+   "id": "aas-validation-013",
+   "question": "A File element in a document declaring https://admin-shell.io/aas/3/1 has a value but no contentType. Does the official 3.1 XSD reject it?",
+   "expected_answer": "No. In the 3.1 XSD the File contentType element is minOccurs=\"0\", i.e. optional; omitting it is schema-valid.",
+   "must_include": [
+    [
+     "optional",
+     "minOccurs=\"0\"",
+     "minOccurs=0",
+     "minOccurs 0"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Official AAS XML schema (aas-specs-metamodel)",
+    "revision": "3.1",
+    "section": "AAS.xsd, group file, element contentType",
+    "file": "vendor/schemas/3.1/AAS.xsd",
+    "lines": "400-412",
+    "quote": "<xs:element name=\"contentType\" minOccurs=\"0\" maxOccurs=\"1\">"
+   },
+   "tags": [
+    "relaxed-cardinality",
+    "revision-specific",
+    "false-invalid"
+   ]
+  },
+  {
+   "id": "aas-validation-014",
+   "question": "An AssetAdministrationShell's assetInformation has assetKind=Instance but neither globalAssetId nor any specificAssetId. The XSD passes. Is the shell valid?",
+   "expected_answer": "No. AASd-131 requires that either the globalAssetId is defined or at least one specificAssetId; an XSD pass does not cover it.",
+   "must_include": [
+    "AASd-131"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (as formalised in aas-core-meta)",
+    "revision": "3.1",
+    "section": "Constraint AASd-131 (invariant of class Asset_information)",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+    "lines": "2170-2171",
+    "quote": "Either the global asset ID shall be defined or at least one"
+   },
+   "tags": [
+    "xsd-not-enough",
+    "semantic-gate"
+   ]
+  },
+  {
+   "id": "aas-validation-015",
+   "question": "A validator reports AASd-120 (idShort on a direct child of a SubmodelElementList) on an AAS 3.1 document. Is that a real violation?",
+   "expected_answer": "No. AASd-120 was removed in V3.1 (change note: idShort also allowed for elements within a SubmodelElementList, #432). It applies to 3.0 documents only; on 3.1 it is a false invalid.",
+   "must_include": [
+    "removed",
+    [
+     "3.1",
+     "V3.1"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (official PDF, paged text)",
+    "revision": "3.1.2",
+    "file": "idta-specs:txt/IDTA-01001-3-1-2_AAS-Specification_Part1_Metamodel.txt",
+    "page": 196,
+    "quote": "REMOVED: remove AASd-120: idShort also allowed for elements within a SubmodelElementList (#432)",
+    "section": "Changes V3.1 vs. V3.0.2"
+   },
+   "tags": [
+    "revision-specific",
+    "commonly-misreported-invalid"
+   ]
+  }
+ ]
+}

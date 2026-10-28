@@ -1,0 +1,34 @@
+[
+  {
+    "id": "02006-3.2-address",
+    "templates": [{"template": "Digital nameplate", "versions": ["3.0.0", "3.0.1"]}],
+    "pdf": "published/Digital nameplate/3/0/1/IDTA 02006-3-0-1_Submodel_Digital Nameplate.pdf",
+    "page": 11,
+    "quote": "The following SubmodelElements shall be specified within SMC AddressInformation: • MLP Street • MLP Zipcode • MLP CityTown • MLP NationalCode",
+    "effect": "AddressInformation, which the template JSON ships without children, gets Street, Zipcode, CityTown and NationalCode as mandatory elements."
+  },
+  {
+    "id": "02035-1-3.2-address",
+    "templates": [{"template": "Digital Battery Passport / Digital Nameplate", "versions": ["1.0.0"]}],
+    "pdf": "published/Digital Battery Passport/1_Digital Nameplate/1/0/IDTA 02035-1_DBP-Part-1_Digital Nameplate.pdf",
+    "page": 12,
+    "quote": "The following SubmodelElements shall be specified within SMC AddressInformation: • MLP Street • MLP Zipcode • MLP CityTown • MLP NationalCode • SMC Email, if available • Property AddressOfAdditionalLink, if available for web address Additional elements from the SMT ContactInformations may be added",
+    "effect": "Same four mandatory address MLPs; Email and AddressOfAdditionalLink are conditional (\"if available\"), so they are optional."
+  },
+  {
+    "id": "02010-2.1-contact-information",
+    "templates": [{"template": "Service Request Notification", "versions": ["1.0.0", "1.0.1"]}],
+    "pdf": "published/Service Request Notification/1/0/IDTA 02010-1-0_Submodel_ServiceRequestNotification.pdf",
+    "page": 9,
+    "quote": "Multiple references are made within the Submodel to the Submodel template \"Contact Information\", or content is taken from it, to avoid having already standardized content again.",
+    "effect": "Its ContactInformation SMCs (ECLASS 0173-1#02-AAQ837, empty in the JSON) take their content from IDTA 02002 SMC ContactInformation."
+  },
+  {
+    "id": "02002-table3-isCaseOf",
+    "templates": [{"template": "Contact Information", "versions": ["1.0.0", "1.0.1"]}],
+    "pdf": "published/Contact Information/1/0/IDTA 02002-1-0_Submodel_ContactInformation.pdf",
+    "page": 11,
+    "quote": "isCaseOf [IRDI] 0173-1#02-AAQ837#005",
+    "effect": "SMC ContactInformation is the ECLASS contact information block, so an SMC carrying that IRDI (any revision) is a 02002 ContactInformation."
+  }
+]

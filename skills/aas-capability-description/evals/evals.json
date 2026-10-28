@@ -1,0 +1,313 @@
+{
+  "skill": "aas-capability-description",
+  "skill_version": "1.0.0",
+  "description": "IDTA 02020 Capability Description 1.0: normative Submodel semanticId vs the 1.6.8 illustrative IRI, role qualifier rules, the three SM-CapabilityDescription constraints, CapabilityPropertyType IRIs, cardinalities and realization/skill links.",
+  "items": [
+    {
+      "id": "aas-capability-description-001",
+      "question": "What is the Submodel semanticId of an IDTA 02020 Capability Description submodel?",
+      "expected_answer": "https://admin-shell.io/idta/SubmodelTemplate/CapabilityDescription/1/0 (with the SubmodelTemplate/ segment, version at the end, no /Submodel suffix).",
+      "must_include": [
+        "idta/SubmodelTemplate/CapabilityDescription/1/0"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02020 Capability Description",
+        "revision": "1.0 (April 2026)",
+        "section": "2.2 Attributes of the Submodel instance",
+        "file": "skills/aas-capability-description/IDTA-02020_Submodel_Capability_Description.txt",
+        "page": 17,
+        "quote": "semanticId: [IRI] https://admin-shell.io/idta/SubmodelTemplate/CapabilityDescription/1/0"
+      },
+      "tags": [
+        "semanticId",
+        "trap"
+      ]
+    },
+    {
+      "id": "aas-capability-description-002",
+      "question": "Section 1.6.8 of IDTA 02020 shows https://admin-shell.io/idta/CapabilityDescription/1/0/Submodel. Is that the semanticId to put on the Capability Description submodel?",
+      "expected_answer": "No. In 1.6.8 it is only an example used to illustrate the structure of an IRI; the normative Submodel semanticId in the 2.2 attribute table is https://admin-shell.io/idta/SubmodelTemplate/CapabilityDescription/1/0.",
+      "must_include": [
+        [
+          "example",
+          "illustrat"
+        ],
+        "SubmodelTemplate/CapabilityDescription/1/0"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02020 Capability Description",
+        "revision": "1.0 (April 2026)",
+        "section": "1.6.8 SemanticIds",
+        "file": "skills/aas-capability-description/IDTA-02020_Submodel_Capability_Description.txt",
+        "page": 14,
+        "quote": "The structure of an IRI can be illustrated using “https://admin-shell.io/idta/CapabilityDescription/1/0/Submodel” as an example."
+      },
+      "tags": [
+        "semanticId",
+        "trap"
+      ]
+    },
+    {
+      "id": "aas-capability-description-003",
+      "question": "A Capability carries the CapabilityRoleQualifier values Required=true and Offered=true. Is that allowed?",
+      "expected_answer": "No. Exactly one of the three values (Required, Offered, NotAssigned) must be set to true.",
+      "must_include": [
+        "exactly one"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02020 Capability Description",
+        "revision": "1.0 (April 2026)",
+        "section": "2.2, table of <<abstract>> CapabilityRoleQualifier",
+        "file": "skills/aas-capability-description/IDTA-02020_Submodel_Capability_Description.txt",
+        "page": 20,
+        "quote": "NotAssigned, if not described. Exactly one of the three values must be set to true."
+      },
+      "tags": [
+        "rule",
+        "qualifier"
+      ]
+    },
+    {
+      "id": "aas-capability-description-004",
+      "question": "Which role does a Capability have when no CapabilityRoleQualifier role is described, and which qualifier kind is it?",
+      "expected_answer": "NotAssigned is the default role; the CapabilityRoleQualifier is a ValueQualifier on the Capability.",
+      "must_include": [
+        "NotAssigned",
+        "ValueQualifier"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02020 Capability Description",
+        "revision": "1.0 (April 2026)",
+        "section": "2.2, table of <<abstract>> CapabilityRoleQualifier",
+        "file": "skills/aas-capability-description/IDTA-02020_Submodel_Capability_Description.txt",
+        "page": 20,
+        "quote": "Parent: Capability kind: ValueQualifier Explanation: Qualifies a Capabilitiy in its role of Required, Offered, NotAssigned. Default role is NotAssigned, if not described."
+      },
+      "tags": [
+        "qualifier",
+        "default"
+      ]
+    },
+    {
+      "id": "aas-capability-description-005",
+      "question": "We created an empty ConstraintSet under CapabilityRelations to fill later. Our AASd validator passes it. Is it conformant to IDTA 02020?",
+      "expected_answer": "No. Constraint SM-CapabilityDescription-2: a ConstraintSet must contain at least one PropertyConstraintContainer or TransitionConstraintContainer.",
+      "must_include": [
+        "SM-CapabilityDescription-2"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02020 Capability Description",
+        "revision": "1.0 (April 2026)",
+        "section": "1.7 Modelling restrictions, Table 3 Submodel constraints",
+        "file": "skills/aas-capability-description/IDTA-02020_Submodel_Capability_Description.txt",
+        "page": 15,
+        "quote": "This ConstraintSet must contain at least one or more of the following elements: PropertyConstraintContainer or TransitionConstraintContainer."
+      },
+      "tags": [
+        "constraint",
+        "template-rule"
+      ]
+    },
+    {
+      "id": "aas-capability-description-006",
+      "question": "How many template-specific constraints does Table 3 of IDTA 02020 define, and what are they called?",
+      "expected_answer": "Three: SM-CapabilityDescription-1 (list typeValueListElement/valueTypeListElement consistency), SM-CapabilityDescription-2 (non-empty ConstraintSet) and SM-CapabilityDescription-3 (PropertyConstraintType instance matches the selected ConstraintType).",
+      "must_include": [
+        "SM-CapabilityDescription-1",
+        "SM-CapabilityDescription-2",
+        "SM-CapabilityDescription-3"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02020 Capability Description",
+        "revision": "1.0 (April 2026)",
+        "section": "1.7 Modelling restrictions, Table 3 Submodel constraints (SM-CapabilityDescription-3 row)",
+        "file": "skills/aas-capability-description/IDTA-02020_Submodel_Capability_Description.txt",
+        "page": 15,
+        "quote": "The PropertyConstraintType instance needs to match the selected ConstraintType (defined in Section 2)."
+      },
+      "tags": [
+        "constraint"
+      ]
+    },
+    {
+      "id": "aas-capability-description-007",
+      "question": "In a capability PropertyContainer, a SubmodelElementList declares typeValueListElement Property. May it hold a Range as a first-level child?",
+      "expected_answer": "No. Per SM-CapabilityDescription-1, when Property, Range, MultiLanguageProperty or SubmodelElementList is selected as typeValueListElement, only that type may be used for the list's first-level children (same for valueTypeListElement).",
+      "must_include": [
+        "SM-CapabilityDescription-1"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02020 Capability Description",
+        "revision": "1.0 (April 2026)",
+        "section": "1.7 Modelling restrictions, Table 3 Submodel constraints (SM-CapabilityDescription-1 row)",
+        "file": "skills/aas-capability-description/IDTA-02020_Submodel_Capability_Description.txt",
+        "page": 15,
+        "quote": "is selected as typeValueListElement of SubmodelElementList, only this type must be used as first level child elements of the SubmodelElementList."
+      },
+      "tags": [
+        "constraint"
+      ]
+    },
+    {
+      "id": "aas-capability-description-008",
+      "question": "Will the official IDTA 02020 AASX template enforce the SM-CapabilityDescription constraints for us, e.g. through its template qualifiers?",
+      "expected_answer": "No. The restrictions are not explicitly modelled in the template in the AASX package; they still apply to the Submodel and must be checked separately.",
+      "must_include": [
+        [
+          "not explicitly",
+          "not modelled",
+          "not modeled",
+          "not encoded",
+          "not enforced",
+          "does not enforce"
+        ]
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02020 Capability Description",
+        "revision": "1.0 (April 2026)",
+        "section": "1.7 Modelling restrictions",
+        "file": "skills/aas-capability-description/IDTA-02020_Submodel_Capability_Description.txt",
+        "page": 15,
+        "quote": "The restricitons are not explicitly modelled in the Submodel template contained in the AASX package provided alongside this specification. Nevertheless, the restrictions apply to the Submodel as listed in Table 3."
+      },
+      "tags": [
+        "constraint",
+        "template-rule"
+      ]
+    },
+    {
+      "id": "aas-capability-description-009",
+      "question": "What semanticId identifies a Range used as CapabilityPropertyType in IDTA 02020? Is it under .../idta/CapabilityDescription/...?",
+      "expected_answer": "https://admin-shell.io/idta/CapabilityPropertyType/Range/1/0 - without a CapabilityDescription path segment (the abstract type itself is .../CapabilityDescription/CapabilityPropertyType/1/0).",
+      "must_include": [
+        "https://admin-shell.io/idta/CapabilityPropertyType/Range/1/0"
+      ],
+      "must_not_include": [
+        "idta/CapabilityDescription/CapabilityPropertyType/Range"
+      ],
+      "citation": {
+        "document": "IDTA 02020 Capability Description",
+        "revision": "1.0 (April 2026)",
+        "section": "2.2.1 PropertySet, PropertyContainer table row CapabilityPropertyType",
+        "file": "skills/aas-capability-description/IDTA-02020_Submodel_Capability_Description.txt",
+        "page": 22,
+        "quote": "[IRI] https://admin-shell.io/idta/CapabilityPropertyType/Range/1/0"
+      },
+      "tags": [
+        "semanticId",
+        "trap"
+      ]
+    },
+    {
+      "id": "aas-capability-description-010",
+      "question": "How many CapabilitySet elements must a Capability Description submodel contain, and is the idShort 'CapabilitySet' fixed?",
+      "expected_answer": "At least one (cardinality 1..*), semanticId https://admin-shell.io/idta/CapabilityDescription/CapabilitySet/1/0; the idShort can be chosen freely.",
+      "must_include": [
+        "1..*"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02020 Capability Description",
+        "revision": "1.0 (April 2026)",
+        "section": "2.2 Attributes of the Submodel instance, row CapabilitySet",
+        "file": "skills/aas-capability-description/IDTA-02020_Submodel_Capability_Description.txt",
+        "page": 17,
+        "quote": "CapabilitySet [IRI] https://admin-shell.io/idta/CapabilityDescription/CapabilitySet/1/0 A Set of CapabilityContainer for a Use Case for the asset. [-] 1..*"
+      },
+      "tags": [
+        "cardinality"
+      ]
+    },
+    {
+      "id": "aas-capability-description-011",
+      "question": "How many Capability elements does one CapabilityContainer hold, and what is the semanticId of that Capability element?",
+      "expected_answer": "Exactly one Capability (cardinality 1), semanticId https://admin-shell.io/idta/CapabilityDescription/Capability/1/0.",
+      "must_include": [
+        "CapabilityDescription/Capability/1/0"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02020 Capability Description",
+        "revision": "1.0 (April 2026)",
+        "section": "2.2, table of SMC CapabilityContainer, row Capability",
+        "file": "skills/aas-capability-description/IDTA-02020_Submodel_Capability_Description.txt",
+        "page": 18,
+        "quote": "implementation-independent specification of a function in industrial production to achieve an effect in the physical or virtual world. [8] [-] 1"
+      },
+      "tags": [
+        "cardinality",
+        "semanticId"
+      ]
+    },
+    {
+      "id": "aas-capability-description-012",
+      "question": "Where does the reference to the external capability semantic (e.g. an ontology class for 'drilling') go, and may there be more than one?",
+      "expected_answer": "In the supplementalSemanticId of the Capability element; setting more than one supplementalSemanticId is allowed.",
+      "must_include": [
+        "supplementalSemanticId"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02020 Capability Description",
+        "revision": "1.0 (April 2026)",
+        "section": "1.8.3 External references",
+        "file": "skills/aas-capability-description/IDTA-02020_Submodel_Capability_Description.txt",
+        "page": 16,
+        "quote": "The supplementalSemanticId is used for the capability element to reflect a capability semantic, e.g., a semantic for the capability “drilling”."
+      },
+      "tags": [
+        "semanticId",
+        "matchmaking"
+      ]
+    },
+    {
+      "id": "aas-capability-description-013",
+      "question": "What does the second attribute of a CapabilityRealizedBy relationship point to?",
+      "expected_answer": "A Skill (defined by a Skill submodel); a generic skill submodel has yet to be developed.",
+      "must_include": [
+        "skill"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02020 Capability Description",
+        "revision": "1.0 (April 2026)",
+        "section": "1.8.4 Limitations of referencing",
+        "file": "skills/aas-capability-description/IDTA-02020_Submodel_Capability_Description.txt",
+        "page": 16,
+        "quote": "The CapabilityRealizedBy relationship expects a Skill as second attribute defined by a Skill Submodel. A generic skill Submodel has yet to be developed."
+      },
+      "tags": [
+        "relationship"
+      ]
+    },
+    {
+      "id": "aas-capability-description-014",
+      "question": "Which IDTA specification number is the Capability Description submodel template - IDTA 02007?",
+      "expected_answer": "IDTA 02020 (Capability Description, Version 1.0). IDTA 02007 is a different template (Software Nameplate).",
+      "must_include": [
+        "02020"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02020 Capability Description",
+        "revision": "1.0 (April 2026)",
+        "section": "Cover page",
+        "file": "skills/aas-capability-description/IDTA-02020_Submodel_Capability_Description.txt",
+        "page": 1,
+        "quote": "IDTA 02020 Capability Description Version 1.0"
+      },
+      "tags": [
+        "identification",
+        "trap"
+      ]
+    }
+  ]
+}

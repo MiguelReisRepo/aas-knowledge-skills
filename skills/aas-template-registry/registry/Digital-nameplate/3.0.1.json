@@ -1,0 +1,923 @@
+{
+ "template": "Digital nameplate",
+ "version": "3.0.1",
+ "submodelIdShort": "Nameplate",
+ "submodelSemanticId": "https://admin-shell.io/idta/nameplate/3/0/Nameplate",
+ "json": {
+  "path": "published/Digital nameplate/3/0/1/IDTA 02006-3-0-1_Template_Digital Nameplate.json",
+  "gitBlob": "2e52e04c71ac4bfa63f85873f9bcd1c0520f75ab"
+ },
+ "pdf": {
+  "path": "published/Digital nameplate/3/0/1/IDTA 02006-3-0-1_Submodel_Digital Nameplate.pdf",
+  "relation": "same folder",
+  "sha256": "0c1d21e7743a41433370e0abe27264cd81e9b1b065888df8fd58b51000bacd90",
+  "annexA": [
+   {
+    "page": 18,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 18,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 35,
+  "unverified": 1
+ },
+ "elements": [
+  {
+   "path": "URIOfTheProduct",
+   "idShort": "URIOfTheProduct",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABN590#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     8
+    ],
+    "row": {
+     "page": 8,
+     "type": "[Prop]",
+     "idShort": "URIOfTheProduct",
+     "semanticId": "0112/2///61987#ABN590#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ManufacturerName",
+   "idShort": "ManufacturerName",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0112/2///61987#ABA565#009",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[MLP]",
+     "idShort": "ManufacturerName",
+     "semanticId": "0112/2///61987#ABA565#009",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ManufacturerProductDesignation",
+   "idShort": "ManufacturerProductDesignation",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0112/2///61987#ABA567#009",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[MLP]",
+     "idShort": "ManufacturerProductDesignation",
+     "semanticId": "0112/2///61987#ABA567#009",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AddressInformation",
+   "idShort": "AddressInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/AddressInformation",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "AddressInformation",
+     "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/AddressInformation",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ManufacturerProductRoot",
+   "idShort": "ManufacturerProductRoot",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0112/2///61360_7#AAS011#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[MLP]",
+     "idShort": "ManufacturerProductRoot",
+     "semanticId": "0112/2///61360_7#AAS011#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ManufacturerProductFamily",
+   "idShort": "ManufacturerProductFamily",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0112/2///61987#ABP464#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[MLP]",
+     "idShort": "ManufacturerProductFamily",
+     "semanticId": "0112/2///61987#ABP464#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ManufacturerProductType",
+   "idShort": "ManufacturerProductType",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABA300#008",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "ManufacturerProductType",
+     "semanticId": "0112/2///61987#ABA300#008",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "OrderCodeOfManufacturer",
+   "idShort": "OrderCodeOfManufacturer",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABA950#008",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "OrderCodeOfManufacturer",
+     "semanticId": "0112/2///61987#ABA950#008",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductArticleNumberOfManufacturer",
+   "idShort": "ProductArticleNumberOfManufacturer",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABA581#007",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "ProductArticleNumberOfManufacturer",
+     "semanticId": "0112/2///61987#ABA581#007",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SerialNumber",
+   "idShort": "SerialNumber",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABA951#009",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "SerialNumber",
+     "semanticId": "0112/2///61987#ABA951#009",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "YearOfConstruction",
+   "idShort": "YearOfConstruction",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABP000#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "YearOfConstruction",
+     "semanticId": "0112/2///61987#ABP000#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DateOfManufacture",
+   "idShort": "DateOfManufacture",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABB757#007",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "DateOfManufacture",
+     "semanticId": "0112/2///61987#ABB757#007",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "HardwareVersion",
+   "idShort": "HardwareVersion",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABA926#008",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "HardwareVersion",
+     "semanticId": "0112/2///61987#ABA926#008",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "FirmwareVersion",
+   "idShort": "FirmwareVersion",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABA302#006",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "FirmwareVersion",
+     "semanticId": "0112/2///61987#ABA302#006",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareVersion",
+   "idShort": "SoftwareVersion",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABA601#008",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "SoftwareVersion",
+     "semanticId": "0112/2///61987#ABA601#008",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CountryOfOrigin",
+   "idShort": "CountryOfOrigin",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABP462#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "CountryOfOrigin",
+     "semanticId": "0112/2///61987#ABP462#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "UniqueFacilityIdentifier",
+   "idShort": "UniqueFacilityIdentifier",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/nameplate/3/0/UniqueFacilityIdentifier",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "UniqueFacilityIdentifier",
+     "semanticId": "https://admin-shell.io/idta/nameplate/3/0/UniqueFacilityIdentifier",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyLogo",
+   "idShort": "CompanyLogo",
+   "modelType": "File",
+   "semanticId": "0112/2///61987#ABP463#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[File]",
+     "idShort": "CompanyLogo",
+     "semanticId": "0112/2///61987#ABP463#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Markings",
+   "idShort": "Markings",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0112/2///61360_7#AAS006#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SML]",
+     "idShort": "Markings",
+     "semanticId": "0112/2///61360_7#AAS006#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Markings > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0112/2///61360_7#AAS009#001",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "1..*",
+    "pages": [
+     13
+    ]
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "Markings > [0] > MarkingName",
+   "idShort": "MarkingName",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABA231#009",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "MarkingName",
+     "semanticId": "0112/2///61987#ABA231#009",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Markings > [0] > DesignationOfCertificateOrApproval",
+   "idShort": "DesignationOfCertificateOrApproval",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABH783#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "DesignationOfCertificateOrApproval",
+     "semanticId": "0112/2///61987#ABH783#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Markings > [0] > IssueDate",
+   "idShort": "IssueDate",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABO097#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "IssueDate",
+     "semanticId": "0112/2///61987#ABO097#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Markings > [0] > ExpiryDate",
+   "idShort": "ExpiryDate",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABH830#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "ExpiryDate",
+     "semanticId": "0112/2///61987#ABH830#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Markings > [0] > MarkingFile",
+   "idShort": "MarkingFile",
+   "modelType": "File",
+   "semanticId": "0112/2///61987#ABO100#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[File]",
+     "idShort": "MarkingFile",
+     "semanticId": "0112/2///61987#ABO100#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Markings > [0] > MarkingAdditionalText",
+   "idShort": "MarkingAdditionalText",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABB146#007",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "MarkingAdditionalText",
+     "semanticId": "0112/2///61987#ABB146#007",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "AssetSpecificProperties",
+   "idShort": "AssetSpecificProperties",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABI218#003/0173-1#01-AGZ672#004",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "AssetSpecificProperties",
+     "semanticId": "0173-1#02-ABI218#003/0173-1#01-AGZ672#004",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetSpecificProperties > ArbitraryProperty",
+   "idShort": "ArbitraryProperty",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/SMT/General/ArbitraryProp",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     16
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "ArbitraryProperty",
+     "semanticId": "https://admin-shell.io/SMT/General/ArbitraryProp",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "AssetSpecificProperties > ArbitraryMLP",
+   "idShort": "ArbitraryMLP",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/SMT/General/ArbitraryMLP",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     16
+    ],
+    "row": {
+     "page": 15,
+     "type": "[MLP]",
+     "idShort": "ArbitraryMLP",
+     "semanticId": "https://admin-shell.io/SMT/General/ArbitraryMLP",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "AssetSpecificProperties > ArbitraryFile",
+   "idShort": "ArbitraryFile",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/SMT/General/ArbitraryFile",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     16
+    ],
+    "row": {
+     "page": 15,
+     "type": "[File]",
+     "idShort": "ArbitraryFile",
+     "semanticId": "https://admin-shell.io/SMT/General/ArbitraryFile",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "AssetSpecificProperties > GuidelineSpecificProperties",
+   "idShort": "GuidelineSpecificProperties",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABI219#003/0173-1#01-AHD205#004",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SML]",
+     "idShort": "GuidelineSpecificProperties",
+     "semanticId": "0173-1#02-ABI219#003/0173-1#01-AHD205#004",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AssetSpecificProperties > GuidelineSpecificProperties > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AHD205#004",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..1",
+    "pages": [
+     15
+    ]
+   },
+   "status": "unverified",
+   "effective": "1..*"
+  },
+  {
+   "path": "AssetSpecificProperties > GuidelineSpecificProperties > [0] > GuidelineForConformityDeclaration",
+   "idShort": "GuidelineForConformityDeclaration",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO856#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "GuidelineForConformityDeclaration",
+     "semanticId": "0173-1#02-AAO856#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AssetSpecificProperties > GuidelineSpecificProperties > [0] > ArbitraryProperty",
+   "idShort": "ArbitraryProperty",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/SMT/General/ArbitraryProp",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     16
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "ArbitraryProperty",
+     "semanticId": "https://admin-shell.io/SMT/General/ArbitraryProp",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "AssetSpecificProperties > GuidelineSpecificProperties > [0] > ArbitraryFile",
+   "idShort": "ArbitraryFile",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/SMT/General/ArbitraryFile",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     16
+    ],
+    "row": {
+     "page": 15,
+     "type": "[File]",
+     "idShort": "ArbitraryFile",
+     "semanticId": "https://admin-shell.io/SMT/General/ArbitraryFile",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "AssetSpecificProperties > GuidelineSpecificProperties > [0] > ArbitraryMLP",
+   "idShort": "ArbitraryMLP",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/SMT/General/ArbitraryMLP",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     16
+    ],
+    "row": {
+     "page": 15,
+     "type": "[MLP]",
+     "idShort": "ArbitraryMLP",
+     "semanticId": "https://admin-shell.io/SMT/General/ArbitraryMLP",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  }
+ ]
+}

@@ -1,0 +1,364 @@
+{
+ "skill": "aas-knowledge",
+ "skill_version": "1.1.0",
+ "description": "Metamodel facts per revision (namespaces, idShort pattern, enums, relaxed cardinalities), canonical IDTA template semanticIds and cardinality changes, and the EU 2023/1542 battery-passport scope.",
+ "items": [
+  {
+   "id": "aas-knowledge-001",
+   "question": "What targetNamespace does the official AAS 3.2 XML schema declare, i.e. what xmlns must a 3.2 XML document carry?",
+   "expected_answer": "https://admin-shell.io/aas/3/2 (3.1 is https://admin-shell.io/aas/3/1, 3.0 is https://admin-shell.io/aas/3/0). Validate each document against the XSD of its own namespace.",
+   "must_include": [
+    "https://admin-shell.io/aas/3/2"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Official AAS XML schema (aas-specs-metamodel)",
+    "revision": "3.2",
+    "section": "AAS.xsd, xs:schema root element",
+    "file": "vendor/schemas/3.2/AAS.xsd",
+    "lines": "2",
+    "quote": "targetNamespace=\"https://admin-shell.io/aas/3/2\""
+   },
+   "tags": [
+    "namespace",
+    "revision-specific"
+   ]
+  },
+  {
+   "id": "aas-knowledge-002",
+   "question": "In an AAS 3.0 document (namespace https://admin-shell.io/aas/3/0), is the single-letter idShort 'X' legal? Is 'Motor-1' legal?",
+   "expected_answer": "The 3.0 XSD idShort pattern is [a-zA-Z][a-zA-Z0-9_]*: 'X' is legal (one letter suffices) and 'Motor-1' is not, because 3.0 allows no hyphen. 3.1 changed both (at least two characters, mid-string hyphen allowed).",
+   "must_include": [
+    "hyphen"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Official AAS XML schema (aas-specs-metamodel)",
+    "revision": "3.0",
+    "section": "AAS.xsd, group referable, element idShort",
+    "file": "vendor/schemas/3.0/AAS.xsd",
+    "lines": "722-727",
+    "quote": "<xs:pattern value=\"[a-zA-Z][a-zA-Z0-9_]*\"/>"
+   },
+   "tags": [
+    "idShort",
+    "pattern",
+    "revision-specific"
+   ]
+  },
+  {
+   "id": "aas-knowledge-003",
+   "question": "Which values may AssetInformation/assetKind take in an AAS 3.1 document?",
+   "expected_answer": "Type, Instance, Role and NotApplicable (the 3.1 XSD assetKind_t enumeration).",
+   "must_include": [
+    "Type",
+    "Instance",
+    "Role",
+    "NotApplicable"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Official AAS XML schema (aas-specs-metamodel)",
+    "revision": "3.1",
+    "section": "AAS.xsd, simpleType assetKind_t",
+    "file": "vendor/schemas/3.1/AAS.xsd",
+    "lines": "960-966",
+    "quote": "<xs:enumeration value=\"Role\"/>"
+   },
+   "tags": [
+    "enum",
+    "revision-specific"
+   ]
+  },
+  {
+   "id": "aas-knowledge-004",
+   "question": "An exporter writing AAS 3.1 drops every RelationshipElement that has no 'first' or 'second' reference, saying such elements are invalid. Is a 3.1 RelationshipElement without first/second schema-invalid?",
+   "expected_answer": "No. In the 3.1 XSD both first and second are minOccurs=\"0\" (optional), so the element is valid and dropping it loses data.",
+   "must_include": [
+    [
+     "optional",
+     "minOccurs=\"0\"",
+     "minOccurs=0",
+     "minOccurs 0"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Official AAS XML schema (aas-specs-metamodel)",
+    "revision": "3.1",
+    "section": "AAS.xsd, group relationshipElement",
+    "file": "vendor/schemas/3.1/AAS.xsd",
+    "lines": "789-793",
+    "quote": "<xs:element name=\"first\" type=\"reference_t\" minOccurs=\"0\" maxOccurs=\"1\"/> <xs:element name=\"second\" type=\"reference_t\" minOccurs=\"0\" maxOccurs=\"1\"/>"
+   },
+   "tags": [
+    "relaxed-cardinality",
+    "revision-specific",
+    "data-loss"
+   ]
+  },
+  {
+   "id": "aas-knowledge-005",
+   "question": "May an Entity in an AAS 3.1 document omit entityType?",
+   "expected_answer": "Yes. In the 3.1 XSD the Entity entityType element is minOccurs=\"0\", i.e. optional.",
+   "must_include": [
+    [
+     "optional",
+     "minOccurs=\"0\"",
+     "minOccurs=0",
+     "minOccurs 0"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Official AAS XML schema (aas-specs-metamodel)",
+    "revision": "3.1",
+    "section": "AAS.xsd, group entity, element entityType",
+    "file": "vendor/schemas/3.1/AAS.xsd",
+    "lines": "290-300",
+    "quote": "<xs:element name=\"entityType\" type=\"entityType_t\" minOccurs=\"0\" maxOccurs=\"1\"/>"
+   },
+   "tags": [
+    "relaxed-cardinality",
+    "revision-specific"
+   ]
+  },
+  {
+   "id": "aas-knowledge-006",
+   "question": "Can a Property omit valueType when its value is plain text?",
+   "expected_answer": "No. valueType (DataTypeDefXsd) has cardinality 1 on Property, i.e. it is mandatory; set it explicitly, e.g. xs:string.",
+   "must_include": [
+    [
+     "mandatory",
+     "required",
+     "cardinality 1",
+     "cardinality of 1"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel",
+    "revision": "3.0",
+    "section": "5.3.7.12 Property Attributes (Class: Property attribute table)",
+    "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+    "page": 75,
+    "quote": "valueType Data type of the value attribute DataTypeDefXsd 1"
+   },
+   "tags": [
+    "cardinality",
+    "Property"
+   ]
+  },
+  {
+   "id": "aas-knowledge-007",
+   "question": "What is the submodel semanticId of the IDTA 02006 Digital Nameplate template version 3.0.1?",
+   "expected_answer": "https://admin-shell.io/idta/nameplate/3/0/Nameplate (not the legacy ZVEI 2/0 nameplate IRI).",
+   "must_include": [
+    "https://admin-shell.io/idta/nameplate/3/0/Nameplate"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02006-3-0-1 Digital Nameplate for Industrial Equipment",
+    "revision": "3.0.1",
+    "section": "Submodel table for 'Nameplate' (first level)",
+    "file": "idta-pdfs:txt/published/Digital nameplate/3/0/1/IDTA 02006-3-0-1_Submodel_Digital Nameplate.txt",
+    "page": 8,
+    "quote": "idShort: Nameplate Class: Submodel semanticId: https://admin-shell.io/idta/nameplate/3/0/Nameplate"
+   },
+   "tags": [
+    "semanticId",
+    "template-version"
+   ]
+  },
+  {
+   "id": "aas-knowledge-008",
+   "question": "Is YearOfConstruction mandatory in the IDTA 02006 Digital Nameplate v3.0 template?",
+   "expected_answer": "No. Version 3.0 changed YearOfConstruction from [1] (mandatory) to [0..1], so it is optional (while OrderCodeOfManufacturer went the other way, from [0..1] to [1]).",
+   "must_include": [
+    [
+     "optional",
+     "0..1"
+    ]
+   ],
+   "must_not_include": [
+    "YearOfConstruction is mandatory"
+   ],
+   "citation": {
+    "document": "IDTA 02006-3-0-1 Digital Nameplate for Industrial Equipment",
+    "revision": "3.0.1",
+    "section": "Annex B, Changes Version 2.0 to 3.0",
+    "file": "idta-pdfs:txt/published/Digital nameplate/3/0/1/IDTA 02006-3-0-1_Submodel_Digital Nameplate.txt",
+    "page": 20,
+    "quote": "Property \"YearOfConstruction\": changed cardinality from [1] (mandatory) to [0..1] (optional)"
+   },
+   "tags": [
+    "cardinality",
+    "template-version"
+   ]
+  },
+  {
+   "id": "aas-knowledge-009",
+   "question": "A detector recognises a Handover Documentation 2.0.1 submodel by checking that its semanticId equals https://admin-shell.io/idta/SubmodelTemplate/HandoverDocumentation/2/0. What semanticId does the published IDTA 02004-2-0-1 template actually give the submodel?",
+   "expected_answer": "The ECLASS IRDI 0173-1#01-AHF578#003. The https://admin-shell.io/idta/SubmodelTemplate/HandoverDocumentation/2/0 string is the template submodel's id, not its semanticId.",
+   "must_include": [
+    "0173-1#01-AHF578#003"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02004-2-0-1 Handover Documentation",
+    "revision": "2.0.1",
+    "section": "Table 2. Attributes of the Submodel instance",
+    "file": "idta-pdfs:txt/published/Handover Documentation/2/0/1/IDTA 02004-2-0-1_Submodel_Handover Documentation.txt",
+    "page": 9,
+    "quote": "Table 2. Attributes of the Submodel instance idShort: HandoverDocumentation Class: Submodel semanticId: 0173-1#01-AHF578#003"
+   },
+   "tags": [
+    "semanticId",
+    "template-version",
+    "id-vs-semanticId"
+   ]
+  },
+  {
+   "id": "aas-knowledge-010",
+   "question": "What submodel semanticId does the currently published IDTA 02003 Technical Data template (version 2.0.1) use?",
+   "expected_answer": "The ECLASS IRDI 0173-1#01-AHX837#002. The https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2 IRI belongs to the older 1.2 template.",
+   "must_include": [
+    "0173-1#01-AHX837#002"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02003 Technical Data",
+    "revision": "2.0.1",
+    "section": "Table 1. Table for the overall Submodel",
+    "file": "idta-pdfs:txt/published/Technical_Data/2/0/1/IDTA 02003_2-0-1_Template_TechnicalData.txt",
+    "page": 7,
+    "quote": "Table 1. Table for the overall Submodel idShort: TechnicalData Class: Submodel semanticId: 0173-1#01-AHX837#002"
+   },
+   "tags": [
+    "semanticId",
+    "template-version",
+    "stale-version"
+   ]
+  },
+  {
+   "id": "aas-knowledge-011",
+   "question": "Should a CarbonFootprint submodel built on IDTA 02023 v1.0 still contain a TransportCarbonFootprint (TCF) block?",
+   "expected_answer": "No. The IDTA 02023 v1.0 change log states 'Transport Carbon Footprint removed'; v1.0 carries ProductCarbonFootprints only (submodel semanticId https://admin-shell.io/idta/CarbonFootprint/CarbonFootprint/1/0).",
+   "must_include": [
+    "removed"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02023 Carbon Footprint",
+    "revision": "1.0",
+    "section": "Document history (version table), version 1.0",
+    "file": "idta-pdfs:txt/published/Carbon Footprint/1/0/IDTA 02023_Submodel_CarbonFootprint.txt",
+    "page": 2,
+    "quote": "Transport Carbon Footprint removed • Update from ECLASS 13 IRDIs to ECLASS 15"
+   },
+   "tags": [
+    "template-version",
+    "removed-element"
+   ]
+  },
+  {
+   "id": "aas-knowledge-012",
+   "question": "Under Regulation (EU) 2023/1542, which batteries must have a battery passport from 18 February 2027 — are LMT batteries (e.g. e-bike batteries) out of scope until later delegated acts?",
+   "expected_answer": "No, LMT batteries are in scope. Article 77(1): from 18 February 2027 each LMT battery, each industrial battery with a capacity greater than 2 kWh and each electric vehicle battery placed on the market or put into service shall have a battery passport.",
+   "must_include": [
+    "LMT",
+    [
+     "18 February 2027",
+     "18 Feb 2027",
+     "2027-02-18"
+    ],
+    [
+     "Article 77",
+     "Art. 77",
+     "Art 77"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Regulation (EU) 2023/1542 (Batteries Regulation), Official Journal text",
+    "revision": "OJ L 191, 28.7.2023 (CELEX 32023R1542)",
+    "section": "Chapter IX, Article 77(1) Battery passport",
+    "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32023R1542.html",
+    "quote": "From 18 February 2027 each LMT battery, each industrial battery with a capacity greater than 2 kWh and each electric vehicle battery placed on the market or put into service shall have an electronic record"
+   },
+   "tags": [
+    "regulation",
+    "battery-passport",
+    "scope"
+   ]
+  },
+  {
+   "id": "aas-knowledge-013",
+   "question": "What submodel semanticId does IDTA 02035-1 (Digital Battery Passport Part 1, Digital Nameplate) give its BatteryNameplate submodel?",
+   "expected_answer": "https://admin-shell.io/idta/digitalbatterypassport/nameplate/1/0/Nameplate (each battery-passport part has its own submodel semanticId).",
+   "must_include": [
+    "https://admin-shell.io/idta/digitalbatterypassport/nameplate/1/0/Nameplate"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02035-1 Digital Battery Passport Part 1: Digital Nameplate",
+    "revision": "1.0",
+    "section": "Submodel table 'BatteryNameplate'",
+    "file": "idta-pdfs:txt/published/Digital Battery Passport/1_Digital Nameplate/1/0/IDTA 02035-1_DBP-Part-1_Digital Nameplate.txt",
+    "page": 7,
+    "quote": "idShort: BatteryNameplate Class: Submodel semanticId: https://admin-shell.io/idta/digitalbatterypassport/nameplate/1/0/Nameplate"
+   },
+   "tags": [
+    "semanticId",
+    "battery-passport"
+   ]
+  },
+  {
+   "id": "aas-knowledge-014",
+   "question": "What kind of identifier is the submodel semanticId of IDTA 02035-5 (Digital Battery Passport Part 5, Product Condition), and what is it?",
+   "expected_answer": "A SAMM aspect-model URN: urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.0#ProductCondition.",
+   "must_include": [
+    "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.0#ProductCondition"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02035-5 Digital Battery Passport Part 5: Product Condition",
+    "revision": "1.0",
+    "section": "Submodel table 'ProductCondition'",
+    "file": "idta-pdfs:txt/published/Digital Battery Passport/5_Product Condition/1/0/IDTA 02035-5_DBP-Part-5_ProductCondition.txt",
+    "page": 11,
+    "quote": "semanticId: urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.0#ProductCondition"
+   },
+   "tags": [
+    "semanticId",
+    "battery-passport",
+    "SAMM"
+   ]
+  },
+  {
+   "id": "aas-knowledge-015",
+   "question": "May a SubmodelElement carry an embedded IEC 61360 data specification, or is that reserved for ConceptDescriptions?",
+   "expected_answer": "It may. Part 1 says submodel elements may also have data specification templates, e.g. to mirror preferredName and unit when no corresponding concept description is available. The recommended home stays the ConceptDescription; on an element it is a permitted fallback, not an error.",
+   "must_include": [
+    "may",
+    [
+     "concept description",
+     "ConceptDescription"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (official PDF, paged text)",
+    "revision": "3.1.2",
+    "file": "idta-specs:txt/IDTA-01001-3-1-2_AAS-Specification_Part1_Metamodel.txt",
+    "page": 40,
+    "quote": "Submodel elements may also have defined data specification templates.",
+    "section": "Submodel Element Attributes"
+   },
+   "tags": [
+    "data-specification",
+    "commonly-misreported-invalid"
+   ]
+  }
+ ]
+}

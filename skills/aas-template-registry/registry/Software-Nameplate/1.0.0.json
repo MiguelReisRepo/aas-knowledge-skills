@@ -1,0 +1,1043 @@
+{
+ "template": "Software Nameplate",
+ "version": "1.0.0",
+ "submodelIdShort": "SoftwareNameplate",
+ "submodelSemanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0",
+ "json": {
+  "path": "published/Software Nameplate/1/0/IDTA 02007-1-0_Template_Software Nameplate.json",
+  "gitBlob": "d22126097600e0b27213700b1dcd22e15821fc1a"
+ },
+ "pdf": {
+  "path": "published/Software Nameplate/1/0/IDTA 02007-1-0_Submodel_Software Nameplate.pdf",
+  "relation": "same folder",
+  "sha256": "efde915e1659e92efea1552f334f36ec1ceb050cf8c682ecf674b5e63a73ff9b",
+  "annexA": []
+ },
+ "counts": {
+  "json-only": 73
+ },
+ "elements": [
+  {
+   "path": "SoftwareNameplateType",
+   "idShort": "SoftwareNameplateType",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateType > URIOfTheProduct",
+   "idShort": "URIOfTheProduct",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAY811#001",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SoftwareNameplateType > ManufacturerName",
+   "idShort": "ManufacturerName",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO677#002",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SoftwareNameplateType > ManufacturerProductDesignation",
+   "idShort": "ManufacturerProductDesignation",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAW338#001",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SoftwareNameplateType > ManufacturerProductDescription",
+   "idShort": "ManufacturerProductDescription",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/ManufacturerProductDescription",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateType > ManufacturerProductFamily",
+   "idShort": "ManufacturerProductFamily",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAU731#001",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateType > ManufacturerProductType",
+   "idShort": "ManufacturerProductType",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO057#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateType > SoftwareType",
+   "idShort": "SoftwareType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/SoftwareType",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateType > Version",
+   "idShort": "Version",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/Version",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SoftwareNameplateType > VersionName",
+   "idShort": "VersionName",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/VersionName",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateType > VersionInfo",
+   "idShort": "VersionInfo",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/VersionInfo",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateType > ReleaseDate",
+   "idShort": "ReleaseDate",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/ReleaseDate",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SoftwareNameplateType > ReleaseNotes",
+   "idShort": "ReleaseNotes",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/ReleaseNotes",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateType > ReleaseInformation",
+   "idShort": "ReleaseInformation",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/ReleaseInformation",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateType > BuildDate",
+   "idShort": "BuildDate",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/BuildDate",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SoftwareNameplateType > InstallationURI",
+   "idShort": "InstallationURI",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/InstallationURI",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateType > InstallationFile",
+   "idShort": "InstallationFile",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/InstallationFile",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateType > InstallerType",
+   "idShort": "InstallerType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/InstallerType",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateType > InstallationChecksum",
+   "idShort": "InstallationChecksum",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/InstallationChecksum",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance",
+   "idShort": "SoftwareNameplateInstance",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > SerialNumber",
+   "idShort": "SerialNumber",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAM556#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > InventoryTag",
+   "idShort": "InventoryTag",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InventoryTag",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > InstanceName",
+   "idShort": "InstanceName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InstanceName",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > InstalledVersion",
+   "idShort": "InstalledVersion",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InstalledVersion",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > InstallationDate",
+   "idShort": "InstallationDate",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InstallationDate",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > InstallationPath",
+   "idShort": "InstallationPath",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InstallationPath",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > InstallationSource",
+   "idShort": "InstallationSource",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InstallationSource",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > InstalledOnArchitecture",
+   "idShort": "InstalledOnArchitecture",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InstalledOnArchitecture",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > InstalledOnOS",
+   "idShort": "InstalledOnOS",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InstalledOnOS",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > InstalledOnHost",
+   "idShort": "InstalledOnHost",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InstalledOnHost",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > InstalledModules",
+   "idShort": "InstalledModules",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InstalledModules",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > InstalledModules > InstalledModule",
+   "idShort": "InstalledModule",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/InstalledModule",
+   "json": "1..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "SoftwareNameplateInstance > ConfigurationPaths",
+   "idShort": "ConfigurationPaths",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/ConfigurationPaths",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > ConfigurationPaths > ConfigurationPath",
+   "idShort": "ConfigurationPath",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/ConfigurationPath",
+   "json": "1..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "SoftwareNameplateInstance > ConfigurationPaths > ConfigurationPath > ConfigurationURI",
+   "idShort": "ConfigurationURI",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/ConfigurationPath",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > ConfigurationPaths > ConfigurationPath > ConfigurationType",
+   "idShort": "ConfigurationType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/ConfigurationType",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > SLAInformation",
+   "idShort": "SLAInformation",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateInstance/SLAInformation",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact",
+   "idShort": "Contact",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > RoleOfContactPerson",
+   "idShort": "RoleOfContactPerson",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO204#003",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > NationalCode",
+   "idShort": "NationalCode",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO134#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > Language",
+   "idShort": "Language",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/Language",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > TimeZone",
+   "idShort": "TimeZone",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/TimeZone",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > CityTown",
+   "idShort": "CityTown",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO132#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > Company",
+   "idShort": "Company",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAW001#001",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > Department",
+   "idShort": "Department",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO127#003",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > Phone",
+   "idShort": "Phone",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/Phone",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > Phone > TelephoneNumber",
+   "idShort": "TelephoneNumber",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO136#002",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > Phone > TypeOfTelephone",
+   "idShort": "TypeOfTelephone",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO137#003",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > Phone > AvailableTime",
+   "idShort": "AvailableTime",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/AvailableTime/",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > Fax",
+   "idShort": "Fax",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-AAQ834#005",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > Fax > FaxNumber",
+   "idShort": "FaxNumber",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO195#002",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > Fax > TypeOfFaxNumber",
+   "idShort": "TypeOfFaxNumber",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO196#003",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > Email",
+   "idShort": "Email",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-AAQ836#005",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > Email > EmailAddress",
+   "idShort": "EmailAddress",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO198#002",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > Email > PublicKey",
+   "idShort": "PublicKey",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO200#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > Email > TypeOfEmailAddress",
+   "idShort": "TypeOfEmailAddress",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO199#003",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > Email > TypeOfPublicKey",
+   "idShort": "TypeOfPublicKey",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO201#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > IPCommunication__00__",
+   "idShort": "IPCommunication__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > IPCommunication__00__ > AddressOfAdditionalLink",
+   "idShort": "AddressOfAdditionalLink",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAQ326#002",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > IPCommunication__00__ > TypeOfCommunication",
+   "idShort": "TypeOfCommunication",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ ContactInformations/ContactInformation/IPCommunication/TypeOfCommunication",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > IPCommunication__00__ > AvailableTime",
+   "idShort": "AvailableTime",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/AvailableTime/",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > Street",
+   "idShort": "Street",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO128#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > Zipcode",
+   "idShort": "Zipcode",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO129#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > POBox",
+   "idShort": "POBox",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO130#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > ZipCodeOfPOBox",
+   "idShort": "ZipCodeOfPOBox",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO131#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > StateCounty",
+   "idShort": "StateCounty",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO133#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > NameOfContact",
+   "idShort": "NameOfContact",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO205#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > FirstName",
+   "idShort": "FirstName",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO206#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > MiddleNames",
+   "idShort": "MiddleNames",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO207#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > Title",
+   "idShort": "Title",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO208#003",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > AcademicTitle",
+   "idShort": "AcademicTitle",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO209#003",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > FurtherDetailsOfContact",
+   "idShort": "FurtherDetailsOfContact",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO210#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareNameplateInstance > Contact > AddressOfAdditionalLink",
+   "idShort": "AddressOfAdditionalLink",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAQ326#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  }
+ ]
+}

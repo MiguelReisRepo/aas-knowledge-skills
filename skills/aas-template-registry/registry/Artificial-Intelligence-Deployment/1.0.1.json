@@ -1,0 +1,956 @@
+{
+ "template": "Artificial Intelligence Deployment",
+ "version": "1.0.1",
+ "submodelIdShort": "AIDeployment",
+ "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/AIDeployment/1/0",
+ "json": {
+  "path": "published/Artificial Intelligence Deployment/1/0/1/IDTA 02059-1-0-1_Template_AIDeployment_forAASMetamodelV3.1.json",
+  "gitBlob": "7fd0a98a289e59ef6e1652acc223b3c05d7ab0d9"
+ },
+ "pdf": {
+  "path": "published/Artificial Intelligence Deployment/1/0/IDTA 02059-1-0_Submodel_AIDeployment.pdf",
+  "relation": "ancestor folder (bug-fix release without its own PDF)",
+  "sha256": "840b1f936bdc4e7f36ac1fe912cfefccfaa654a5d98008c835a7449dc4e3366b",
+  "annexA": [
+   {
+    "page": 16,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 16,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 37,
+  "json-only": 1
+ },
+ "elements": [
+  {
+   "path": "URIOfTheProduct",
+   "idShort": "URIOfTheProduct",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABN590#002 ",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "URIOfTheProduct",
+     "semanticId": "0112/2///61987#ABN590#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Version",
+   "idShort": "Version",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAS354#002",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "Version",
+     "semanticId": "0173-1#02-AAS354#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ContactInformation",
+   "idShort": "ContactInformation",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/Contactinformation/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Ref]",
+     "idShort": "ContactInformation",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/Contactinformation/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ModelNameplateRef",
+   "idShort": "ModelNameplateRef",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/ModelNameplateRef/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Ref]",
+     "idShort": "ModelNameplateRef",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/ModelNameplateRef/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Storage",
+   "idShort": "Storage",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/Storage/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "Storage",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/Storage/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Storage > Format",
+   "idShort": "Format",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/Storage/Format/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "Format",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/Storage/Format/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Storage > DeployedModel",
+   "idShort": "DeployedModel",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/Storage/DeployedModel/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Input",
+   "idShort": "Input",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/Input/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "Input",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/Input/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Input > ExampleInput",
+   "idShort": "ExampleInput",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/Input/InputProperty/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "ExampleInput",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/Input/InputProperty/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "Output",
+   "idShort": "Output",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/Output/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "Output",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/Output/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Output > ExampleOutput",
+   "idShort": "ExampleOutput",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/Output/OutputProperty/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Prop]",
+     "idShort": "ExampleOutput",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/Output/OutputProperty/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "SoftwareRequirements",
+   "idShort": "SoftwareRequirements",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/SoftwareRequirements/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "SoftwareRequirements",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/SoftwareRequirements/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SoftwareRequirements > ExampleFile",
+   "idShort": "ExampleFile",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/SoftwareRequirements/RequirementsFile/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[File]",
+     "idShort": "ExampleFile",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/SoftwareRequirements/RequirementsFile/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "HardwareRequirements",
+   "idShort": "HardwareRequirements",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/HardwareRequirements/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "HardwareRequirements",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/HardwareRequirements/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "HardwareRequirements > ExampleHardware",
+   "idShort": "ExampleHardware",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/HardwareRequirements/HardwareDescription/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[File]",
+     "idShort": "ExampleHardware",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/HardwareRequirements/HardwareDescription/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PerformanceInformation",
+   "idShort": "PerformanceInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/PerformanceInformation/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "PerformanceInformation",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/PerformanceInformation/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PerformanceInformation > InferenceTime",
+   "idShort": "InferenceTime",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/PerformanceInformation/InferenceTime/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "InferenceTime",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/PerformanceInformation/InferenceTime/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "PerformanceInformation > InferenceTime > Time",
+   "idShort": "Time",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/PerformanceInformation/InferenceTime/Time/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "Time",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/PerformanceInformation/InferenceTime/Time/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PerformanceInformation > InferenceTime > Hardware",
+   "idShort": "Hardware",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/PerformanceInformation/InferenceTime/Hardware/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "Hardware",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/PerformanceInformation/InferenceTime/Hardware/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PerformanceInformation > InferenceTime > Hardware > CPU",
+   "idShort": "CPU",
+   "modelType": "Property",
+   "semanticId": "0173-1#01-ACL481#008",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "CPU",
+     "semanticId": "0173-1#01-ACL481#008",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PerformanceInformation > InferenceTime > Hardware > GPU",
+   "idShort": "GPU",
+   "modelType": "Property",
+   "semanticId": "0173-1#01-ACL476#008",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "GPU",
+     "semanticId": "0173-1#01-ACL476#008",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PerformanceInformation > InferenceTime > Hardware > TPU",
+   "idShort": "TPU",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/PerformanceInformation/InferenceTime/Hardware/TPU/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "TPU",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/PerformanceInformation/InferenceTime/Hardware/TPU/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PerformanceInformation > InferenceTime > Hardware > RAM",
+   "idShort": "RAM",
+   "modelType": "Property",
+   "semanticId": "0173-1#01-ACL340#008",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "RAM",
+     "semanticId": "0173-1#01-ACL340#008",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "LiveMonitoring",
+   "idShort": "LiveMonitoring",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "LiveMonitoring",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "LiveMonitoring > Confidence",
+   "idShort": "Confidence",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/Confidence/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "Confidence",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/Confidence/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "LiveMonitoring > TimeIntervall",
+   "idShort": "TimeIntervall",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/TimeIntervall/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..1",
+    "pages": [
+     14
+    ]
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "LiveMonitoring > AverageConfidenceOverTime",
+   "idShort": "AverageConfidenceOverTime",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/AverageConfidence/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..1",
+    "pages": [
+     14
+    ]
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "LiveMonitoring > RunTime",
+   "idShort": "RunTime",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/RunTime/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "RunTime",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/RunTime/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "LiveMonitoring > HardwareWorkload",
+   "idShort": "HardwareWorkload",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/HardwareWorkload/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[SMC]",
+     "idShort": "HardwareWorkload",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/HardwareWorkload/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "LiveMonitoring > HardwareWorkload > GPUWorkload",
+   "idShort": "GPUWorkload",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/HardwareWorkload/GPUWorkload/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "GPUWorkload",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/HardwareWorkload/GPUWorkload/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "LiveMonitoring > HardwareWorkload > CPUWorkload",
+   "idShort": "CPUWorkload",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/HardwareWorkload/CPUWorkload/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "CPUWorkload",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/HardwareWorkload/CPUWorkload/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "LiveMonitoring > HardwareWorkload > TPUWorkload",
+   "idShort": "TPUWorkload",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/HardwareWorkload/TPUWorkload/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "TPUWorkload",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/HardwareWorkload/TPUWorkload/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "LiveMonitoring > HardwareWorkload > RAMWorkload",
+   "idShort": "RAMWorkload",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/HardwareWorkload/RAMWorkload/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "RAMWorkload",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/HardwareWorkload/RAMWorkload/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "LiveMonitoring > DriftMetrics",
+   "idShort": "DriftMetrics",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/DriftMetrics/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[SMC]",
+     "idShort": "DriftMetrics",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/DriftMetrics/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "LiveMonitoring > DriftMetrics > DataDrift",
+   "idShort": "DataDrift",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/DriftMetrics/DataDrift/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "DataDrift",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/DriftMetrics/DataDrift/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "LiveMonitoring > DriftMetrics > ConceptDrift",
+   "idShort": "ConceptDrift",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/DriftMetrics/ConceptDrift/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "ConceptDrift",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/DriftMetrics/ConceptDrift/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "LiveMonitoring > DriftMetrics > PerformanceDrift",
+   "idShort": "PerformanceDrift",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/DriftMetrics/PerformanceDrift/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "PerformanceDrift",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/LiveMonitoring/DriftMetrics/PerformanceDrift/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "RiskAssessment",
+   "idShort": "RiskAssessment",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/AIDeployment/RiskAssessment/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Ref]",
+     "idShort": "RiskAssessment",
+     "semanticId": "https://admin-shell.io/idta/AIDeployment/RiskAssessment/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  }
+ ]
+}

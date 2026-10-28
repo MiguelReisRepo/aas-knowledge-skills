@@ -1,0 +1,4835 @@
+{
+ "template": "Intelligent Information  for Use",
+ "version": "1.0.2",
+ "submodelIdShort": "IntelligentInformationforUse",
+ "submodelSemanticId": "https://admin-shell.io/idta/IntelligentInformationForUse/1/0",
+ "json": {
+  "path": "published/Intelligent Information  for Use/1/0/2/IDTA 02063-1-0-2_Template__IntelligentInformationForUse_forAASMetamodelV3.1.json",
+  "gitBlob": "576306283369027f436280d611428fe662a2e4c0"
+ },
+ "pdf": {
+  "path": "published/Intelligent Information  for Use/1/0/IDTA 02063-1-0_Submodel__IntelligentInformationForUse.pdf",
+  "relation": "ancestor folder (bug-fix release without its own PDF)",
+  "sha256": "1867bccaa353d485d0460218428fa6b3c7fb51bf37181b3d4400589d808fef48",
+  "annexA": [
+   {
+    "page": 39,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 39,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "unverified": 26,
+  "agree": 145,
+  "json-only": 3,
+  "divergent": 1
+ },
+ "elements": [
+  {
+   "path": "ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "FormatRestriction",
+   "idShort": "FormatRestriction",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#formatRestriction",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Property]",
+     "idShort": "FormatRestriction",
+     "semanticId": "http://iirds.tekom.de/iirds#formatRestriction",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "IirdsVersion",
+   "idShort": "IirdsVersion",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#iiRDSVersion",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "1",
+    "pages": [
+     13
+    ]
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "InformationUnitCollection",
+   "idShort": "InformationUnitCollection",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/IntelligentInformationForUse/InformationUnitCollection/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "InformationUnitCollection",
+     "semanticId": "https://admin-shell.io/idta/IntelligentInformationForUse/InformationUnitCollection/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__",
+   "idShort": "Document__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#Document",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "Document__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#Document",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > Title",
+   "idShort": "Title",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#title",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16,
+     19,
+     21
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Property]",
+     "idShort": "Title",
+     "semanticId": "http://iirds.tekom.de/iirds#title",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > DateOfCreation",
+   "idShort": "DateOfCreation",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#dateOfCreation",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19,
+     21
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "DateOfCreation",
+     "semanticId": "http://iirds.tekom.de/iirds#dateOfCreation",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > DateOfLastModification",
+   "idShort": "DateOfLastModification",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#dateOfLastModification",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17,
+     19,
+     21
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "DateOfLastModification",
+     "semanticId": "http://iirds.tekom.de/iirds#dateOfLastModification",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > Language__00__",
+   "idShort": "Language__00__",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#language",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     17,
+     19,
+     21
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "Language__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#language",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > Revision",
+   "idShort": "Revision",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#revision",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17,
+     19,
+     21
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "Revision",
+     "semanticId": "http://iirds.tekom.de/iirds#revision",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > Rights__00__",
+   "idShort": "Rights__00__",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "http://iirds.tekom.de/iirds#rights",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     17,
+     19,
+     21
+    ],
+    "row": {
+     "page": 17,
+     "type": "[MLP]",
+     "idShort": "Rights__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#rights",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > HasRendition__00__",
+   "idShort": "HasRendition__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-rendition",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     17,
+     19
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Rel]",
+     "idShort": "HasRendition__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#has-rendition",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > HasContentLifecycleStatus__00__",
+   "idShort": "HasContentLifecycleStatus__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-content-lifecycle-status",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     17,
+     22
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Rel]",
+     "idShort": "HasContentLifecycleStatus__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#has-content-lifecycle-status",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > IsReplacementOf",
+   "idShort": "IsReplacementOf",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#is-replacement-of",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17,
+     20,
+     22
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "IsReplacementOf",
+     "semanticId": "http://iirds.tekom.de/iirds#is-replacement-of",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > IsVersionOf",
+   "idShort": "IsVersionOf",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#is-version-of",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17,
+     19,
+     22
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "IsVersionOf",
+     "semanticId": "http://iirds.tekom.de/iirds#is-version-of",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > RelatesToEvent__00__",
+   "idShort": "RelatesToEvent__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-event",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     17,
+     20,
+     22
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Rel]",
+     "idShort": "RelatesToEvent__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-event",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > RelatesToSupply__00__",
+   "idShort": "RelatesToSupply__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-supply",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     20,
+     22
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Rel]",
+     "idShort": "RelatesToSupply__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-supply",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > RelatesToQualification__00__",
+   "idShort": "RelatesToQualification__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-qualification",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     19,
+     22
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Rel]",
+     "idShort": "RelatesToQualification__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-qualification",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > HasIdentity__00__",
+   "idShort": "HasIdentity__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-identity",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     17,
+     20,
+     22
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Rel]",
+     "idShort": "HasIdentity__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#has-identity",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > RelatesToParty__00__",
+   "idShort": "RelatesToParty__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-party",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     20,
+     22
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "RelatesToParty__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-party",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > HasDocumentType__00__",
+   "idShort": "HasDocumentType__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-document-type",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "HasDocumentType__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#has-document-type",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > RelatesToComponent__00__",
+   "idShort": "RelatesToComponent__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-component",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     20,
+     22
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "RelatesToComponent__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-component",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > HasSubject__00__",
+   "idShort": "HasSubject__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-subject",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     20,
+     22
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "HasSubject__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#has-subject",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > RelatesToAction__00__",
+   "idShort": "RelatesToAction__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-action",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     20,
+     22
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "RelatesToAction__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-action",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > RelatesToProductFeature__00__",
+   "idShort": "RelatesToProductFeature__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-product-feature",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     20,
+     22
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "RelatesToProductFeature__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-product-feature",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > RelatesToProductLifecyclePhase__00__",
+   "idShort": "RelatesToProductLifecyclePhase__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-product-lifecycle-phase",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     20,
+     23
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "RelatesToProductLifecyclePhase__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-product-lifecycle-phase",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > RelatesToProductVariant__00__",
+   "idShort": "RelatesToProductVariant__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#ProductVariant",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     19,
+     21
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "RelatesToProductVariant__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#ProductVariant",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Document__00__ > HasPlanningTime__00__",
+   "idShort": "HasPlanningTime__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-planning-time",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     20
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "HasPlanningTime__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#has-planning-time",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__",
+   "idShort": "Topic__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#Topic",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "Topic__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#Topic",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > HasTopicType__00__",
+   "idShort": "HasTopicType__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-topic-type",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Rel]",
+     "idShort": "HasTopicType__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#has-topic-type",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > IsVersionOf",
+   "idShort": "IsVersionOf",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#is-version-of",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17,
+     19,
+     22
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "IsVersionOf",
+     "semanticId": "http://iirds.tekom.de/iirds#is-version-of",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > RelatesToQualification__00__",
+   "idShort": "RelatesToQualification__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-qualification",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     19,
+     22
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Rel]",
+     "idShort": "RelatesToQualification__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-qualification",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > RelatesToProductVariant__00__",
+   "idShort": "RelatesToProductVariant__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#ProductVariant",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     19,
+     21
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "RelatesToProductVariant__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#ProductVariant",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > Title",
+   "idShort": "Title",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#title",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16,
+     19,
+     21
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Property]",
+     "idShort": "Title",
+     "semanticId": "http://iirds.tekom.de/iirds#title",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > DateOfCreation",
+   "idShort": "DateOfCreation",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#dateOfCreation",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19,
+     21
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "DateOfCreation",
+     "semanticId": "http://iirds.tekom.de/iirds#dateOfCreation",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > DateOfLastModification",
+   "idShort": "DateOfLastModification",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#dateOfLastModification",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17,
+     19,
+     21
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "DateOfLastModification",
+     "semanticId": "http://iirds.tekom.de/iirds#dateOfLastModification",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > Language__00__",
+   "idShort": "Language__00__",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#language",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     17,
+     19,
+     21
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "Language__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#language",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > Revision",
+   "idShort": "Revision",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#revision",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17,
+     19,
+     21
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "Revision",
+     "semanticId": "http://iirds.tekom.de/iirds#revision",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > Rights__00__",
+   "idShort": "Rights__00__",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "http://iirds.tekom.de/iirds#rights",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     17,
+     19,
+     21
+    ],
+    "row": {
+     "page": 17,
+     "type": "[MLP]",
+     "idShort": "Rights__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#rights",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > HasRendition__00__",
+   "idShort": "HasRendition__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-rendition",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     17,
+     19
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Rel]",
+     "idShort": "HasRendition__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#has-rendition",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > HasContentLifecycleStatus__00__",
+   "idShort": "HasContentLifecycleStatus__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-content-lifecycle-status",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     17,
+     22
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Rel]",
+     "idShort": "HasContentLifecycleStatus__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#has-content-lifecycle-status",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > IsReplacementOf__00__",
+   "idShort": "IsReplacementOf__00__",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#is-replacement-of",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     17,
+     20,
+     22
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > RelatesToEvent__00__",
+   "idShort": "RelatesToEvent__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-event",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     17,
+     20,
+     22
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Rel]",
+     "idShort": "RelatesToEvent__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-event",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > RelatesToSupply__00__",
+   "idShort": "RelatesToSupply__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-supply",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     20,
+     22
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Rel]",
+     "idShort": "RelatesToSupply__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-supply",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > HasIdentity__00__",
+   "idShort": "HasIdentity__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-identity",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     17,
+     20,
+     22
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Rel]",
+     "idShort": "HasIdentity__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#has-identity",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > RelatesToParty__00__",
+   "idShort": "RelatesToParty__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-party",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     20,
+     22
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "RelatesToParty__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-party",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > RelatesToComponent__00__",
+   "idShort": "RelatesToComponent__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-component",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     20,
+     22
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "RelatesToComponent__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-component",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > HasSubject__00__",
+   "idShort": "HasSubject__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-subject",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     20,
+     22
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "HasSubject__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#has-subject",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > RelatesToAction__00__",
+   "idShort": "RelatesToAction__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-action",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     20,
+     22
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "RelatesToAction__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-action",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > RelatesToProductFeature__00__",
+   "idShort": "RelatesToProductFeature__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-product-feature",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     20,
+     22
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "RelatesToProductFeature__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-product-feature",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > RelatesToProductLifecyclePhase__00__",
+   "idShort": "RelatesToProductLifecyclePhase__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-product-lifecycle-phase",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     20,
+     23
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "RelatesToProductLifecyclePhase__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-product-lifecycle-phase",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > IsApplicableForDocumentType__00__",
+   "idShort": "IsApplicableForDocumentType__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#is-applicable-for-document-type",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Rel]",
+     "idShort": "IsApplicableForDocumentType__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#is-applicable-for-document-type",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Topic__00__ > HasPlanningTime__00__",
+   "idShort": "HasPlanningTime__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-planning-time",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     20
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "HasPlanningTime__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#has-planning-time",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__",
+   "idShort": "Fragment__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#Fragment",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "Fragment__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#Fragment",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__ > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__ > RelatesToProductVariant",
+   "idShort": "RelatesToProductVariant",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#ProductVariant",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..*"
+    ],
+    "pages": [
+     18,
+     19,
+     21,
+     36
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__ > Title",
+   "idShort": "Title",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#title",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16,
+     19,
+     21
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Property]",
+     "idShort": "Title",
+     "semanticId": "http://iirds.tekom.de/iirds#title",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__ > DateOfCreation",
+   "idShort": "DateOfCreation",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#dateOfCreation",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19,
+     21
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "DateOfCreation",
+     "semanticId": "http://iirds.tekom.de/iirds#dateOfCreation",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__ > DateOfLastModification",
+   "idShort": "DateOfLastModification",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#dateOfLastModification",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17,
+     19,
+     21
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "DateOfLastModification",
+     "semanticId": "http://iirds.tekom.de/iirds#dateOfLastModification",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__ > Language__00__",
+   "idShort": "Language__00__",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#language",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     17,
+     19,
+     21
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "Language__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#language",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__ > Revision",
+   "idShort": "Revision",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#revision",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17,
+     19,
+     21
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "Revision",
+     "semanticId": "http://iirds.tekom.de/iirds#revision",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__ > Rights__00__",
+   "idShort": "Rights__00__",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "http://iirds.tekom.de/iirds#rights",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     17,
+     19,
+     21
+    ],
+    "row": {
+     "page": 17,
+     "type": "[MLP]",
+     "idShort": "Rights__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#rights",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__ > HasRendition__00__",
+   "idShort": "HasRendition__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-rendition",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     17,
+     19
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Rel]",
+     "idShort": "HasRendition__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#has-rendition",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__ > HasContentLifecycleStatus__00__",
+   "idShort": "HasContentLifecycleStatus__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-content-lifecycle-status",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     17,
+     22
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Rel]",
+     "idShort": "HasContentLifecycleStatus__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#has-content-lifecycle-status",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__ > IsReplacementOf",
+   "idShort": "IsReplacementOf",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#is-replacement-of",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17,
+     20,
+     22
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "IsReplacementOf",
+     "semanticId": "http://iirds.tekom.de/iirds#is-replacement-of",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__ > IsVersionOf",
+   "idShort": "IsVersionOf",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#is-version-of",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17,
+     19,
+     22
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "IsVersionOf",
+     "semanticId": "http://iirds.tekom.de/iirds#is-version-of",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__ > RelatesToEvent__00__",
+   "idShort": "RelatesToEvent__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-event",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     17,
+     20,
+     22
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Rel]",
+     "idShort": "RelatesToEvent__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-event",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__ > RelatesToQualification__00__",
+   "idShort": "RelatesToQualification__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-qualification",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     19,
+     22
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Rel]",
+     "idShort": "RelatesToQualification__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-qualification",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__ > RelatesToSupply__00__",
+   "idShort": "RelatesToSupply__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-supply",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     20,
+     22
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Rel]",
+     "idShort": "RelatesToSupply__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-supply",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__ > HasIdentity__00__",
+   "idShort": "HasIdentity__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-identity",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     17,
+     20,
+     22
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Rel]",
+     "idShort": "HasIdentity__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#has-identity",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__ > RelatesToParty__00__",
+   "idShort": "RelatesToParty__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-party",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     20,
+     22
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "RelatesToParty__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-party",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__ > RelatesToComponent__00__",
+   "idShort": "RelatesToComponent__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-component",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     20,
+     22
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "RelatesToComponent__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-component",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__ > HasSubject__00__",
+   "idShort": "HasSubject__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-subject",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     20,
+     22
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "HasSubject__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#has-subject",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__ > RelatesToAction__00__",
+   "idShort": "RelatesToAction__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-action",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     20,
+     22
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "RelatesToAction__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-action",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__ > RelatesToProductFeature__00__",
+   "idShort": "RelatesToProductFeature__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-product-feature",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     20,
+     22
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "RelatesToProductFeature__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-product-feature",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationUnitCollection > Fragment__00__ > RelatesToProductLifecyclePhase__00__",
+   "idShort": "RelatesToProductLifecyclePhase__00__",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-product-lifecycle-phase",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     20,
+     23
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Rel]",
+     "idShort": "RelatesToProductLifecyclePhase__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-product-lifecycle-phase",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationObjectCollection",
+   "idShort": "InformationObjectCollection",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/IntelligentInformationForUse/InformationObjectCollection/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "InformationObjectCollection",
+     "semanticId": "https://admin-shell.io/idta/IntelligentInformationForUse/InformationObjectCollection/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationObjectCollection > InformationObject__00__",
+   "idShort": "InformationObject__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#InformationObject",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[SMC]",
+     "idShort": "InformationObject__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#InformationObject",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationObjectCollection > InformationObject__00__ > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "DirectoryNodeCollection",
+   "idShort": "DirectoryNodeCollection",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/IntelligentInformationForUse/DirectoryNodeCollection/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "DirectoryNodeCollection",
+     "semanticId": "https://admin-shell.io/idta/IntelligentInformationForUse/DirectoryNodeCollection/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DirectoryNodeCollection > DirectoryNode__00__",
+   "idShort": "DirectoryNode__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#DirectoryNode",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[SMC]",
+     "idShort": "DirectoryNode__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#DirectoryNode",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "DirectoryNodeCollection > DirectoryNode__00__ > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI\">",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DirectoryNodeCollection > DirectoryNode__00__ > RelatesToInformationUnit",
+   "idShort": "RelatesToInformationUnit",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-information-unit",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Rel]",
+     "idShort": "RelatesToInformationUnit",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-information-unit",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DirectoryNodeCollection > DirectoryNode__00__ > HasNextSibling",
+   "idShort": "HasNextSibling",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#has-next-sibling",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[SMC]",
+     "idShort": "HasNextSibling",
+     "semanticId": "http://iirds.tekom.de/iirds#has-next-sibling",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DirectoryNodeCollection > DirectoryNode__00__ > HasFirstChild",
+   "idShort": "HasFirstChild",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#has-first-child",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[SMC]",
+     "idShort": "HasFirstChild",
+     "semanticId": "http://iirds.tekom.de/iirds#has-first-child",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DirectoryNodeCollection > DirectoryNode__00__ > HasDirectoryStructureType",
+   "idShort": "HasDirectoryStructureType",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-directory-structure-type",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Rel]",
+     "idShort": "HasDirectoryStructureType",
+     "semanticId": "http://iirds.tekom.de/iirds#has-directory-structure-type",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DirectoryNodeCollection > DirectoryNode__00__ > Label",
+   "idShort": "Label",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ],
+    "row": {
+     "page": 25,
+     "type": "[MLP]",
+     "idShort": "Label",
+     "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "RenditionCollection",
+   "idShort": "RenditionCollection",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/IntelligentInformationForUse/RenditionCollection/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "RenditionCollection",
+     "semanticId": "https://admin-shell.io/idta/IntelligentInformationForUse/RenditionCollection/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "RenditionCollection > Rendition",
+   "idShort": "Rendition",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#Rendition",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..*",
+    "pages": [
+     25
+    ]
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "RenditionCollection > Rendition > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "RenditionCollection > Rendition > Format",
+   "idShort": "Format",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#format",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Property]",
+     "idShort": "Format",
+     "semanticId": "http://iirds.tekom.de/iirds#format",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RenditionCollection > Rendition > Source",
+   "idShort": "Source",
+   "modelType": "File",
+   "semanticId": "http://iirds.tekom.de/iirds#source",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[File]",
+     "idShort": "Source",
+     "semanticId": "http://iirds.tekom.de/iirds#source",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RenditionCollection > Rendition > HasSelector",
+   "idShort": "HasSelector",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-selector",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Rel]",
+     "idShort": "HasSelector",
+     "semanticId": "http://iirds.tekom.de/iirds#has-selector",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "RenditionCollection > Rendition > RangeSelector__00__",
+   "idShort": "RangeSelector__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#RangeSelector",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[SMC]",
+     "idShort": "RangeSelector__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#RangeSelector",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "RenditionCollection > Rendition > RangeSelector__00__ > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "RenditionCollection > Rendition > RangeSelector__00__ > HasStartSelector",
+   "idShort": "HasStartSelector",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-start-selector",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Rel]",
+     "idShort": "HasStartSelector",
+     "semanticId": "http://iirds.tekom.de/iirds#has-start-selector",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RenditionCollection > Rendition > RangeSelector__00__ > HasEndSelector",
+   "idShort": "HasEndSelector",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-end-selector",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Rel]",
+     "idShort": "HasEndSelector",
+     "semanticId": "http://iirds.tekom.de/iirds#has-end-selector",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RenditionCollection > Rendition > FragmentSelector__00__",
+   "idShort": "FragmentSelector__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#FragmentSelector",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[SMC]",
+     "idShort": "FragmentSelector__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#FragmentSelector",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "RenditionCollection > Rendition > FragmentSelector__00__ > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "RenditionCollection > Rendition > FragmentSelector__00__ > ConformsTo",
+   "idShort": "ConformsTo",
+   "modelType": "Property",
+   "semanticId": "http://purl.org/dc/terms/conformsTo",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[Property]",
+     "idShort": "ConformsTo",
+     "semanticId": "http://purl.org/dc/terms/conformsTo",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RenditionCollection > Rendition > FragmentSelector__00__ > Value",
+   "idShort": "Value",
+   "modelType": "Property",
+   "semanticId": "https://www.w3.org/TR/rdf12-schema/#ch_value",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[Property]",
+     "idShort": "Value",
+     "semanticId": "https://www.w3.org/TR/rdf12-schema/#ch_value",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AdministrativeMetadataCollection",
+   "idShort": "AdministrativeMetadataCollection",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/IntelligentInformationForUse/AdministrativeMetadataCollection/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "AdministrativeMetadataCollection",
+     "semanticId": "https://admin-shell.io/idta/IntelligentInformationForUse/AdministrativeMetadataCollection/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AdministrativeMetadataCollection > ContentLifecycleStatus__00__",
+   "idShort": "ContentLifecycleStatus__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#ContentLifeCycleStatus",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[SMC]",
+     "idShort": "ContentLifecycleStatus__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#ContentLifeCycleStatus",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "AdministrativeMetadataCollection > ContentLifecycleStatus__00__ > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "AdministrativeMetadataCollection > ContentLifecycleStatus__00__ > DateOfEffect",
+   "idShort": "DateOfEffect",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#dateOfEffect",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "DateOfEffect",
+     "semanticId": "http://iirds.tekom.de/iirds#dateOfEffect",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AdministrativeMetadataCollection > ContentLifecycleStatus__00__ > DateOfExpiry",
+   "idShort": "DateOfExpiry",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#dateOfExpiry",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "DateOfExpiry",
+     "semanticId": "http://iirds.tekom.de/iirds#dateOfExpiry",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AdministrativeMetadataCollection > ContentLifecycleStatus__00__ > DateOfStatus",
+   "idShort": "DateOfStatus",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#dateOfStatus",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "DateOfStatus",
+     "semanticId": "http://iirds.tekom.de/iirds#dateOfStatus",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AdministrativeMetadataCollection > ContentLifecycleStatus__00__ > StatusComment__00__",
+   "idShort": "StatusComment__00__",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#statusComment",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "StatusComment__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#statusComment",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "AdministrativeMetadataCollection > ContentLifecycleStatus__00__ > Purpose",
+   "idShort": "Purpose",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#purpose",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Property]",
+     "idShort": "Purpose",
+     "semanticId": "http://iirds.tekom.de/iirds#purpose",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AdministrativeMetadataCollection > ContentLifecycleStatus__00__ > HasContentLifecycleStatusValue",
+   "idShort": "HasContentLifecycleStatusValue",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-content-lifecycle-status-value",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Rel]",
+     "idShort": "HasContentLifecycleStatusValue",
+     "semanticId": "http://iirds.tekom.de/iirds#has-content-lifecycle-status-value",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AdministrativeMetadataCollection > ContentLifecycleStatus__00__ > RelatesToParty",
+   "idShort": "RelatesToParty",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-party",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     29,
+     30,
+     37,
+     38
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Rel]",
+     "idShort": "RelatesToParty",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-party",
+     "card": "0..*"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..*"
+  },
+  {
+   "path": "AdministrativeMetadataCollection > Identity",
+   "idShort": "Identity",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#Identity",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..*",
+     "0..1"
+    ],
+    "pages": [
+     27,
+     28,
+     30
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "AdministrativeMetadataCollection > Identity > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "AdministrativeMetadataCollection > Identity > Identifier",
+   "idShort": "Identifier",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#identifier",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Property]",
+     "idShort": "Identifier",
+     "semanticId": "http://iirds.tekom.de/iirds#identifier",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AdministrativeMetadataCollection > Identity > HasIdentityDomain",
+   "idShort": "HasIdentityDomain",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-identity-domain",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Rel]",
+     "idShort": "HasIdentityDomain",
+     "semanticId": "http://iirds.tekom.de/iirds#has-identity-domain",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AdministrativeMetadataCollection > Party__00__",
+   "idShort": "Party__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#Party",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[SMC]",
+     "idShort": "Party__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#Party",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "AdministrativeMetadataCollection > Party__00__ > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "AdministrativeMetadataCollection > Party__00__ > HasPartyRole",
+   "idShort": "HasPartyRole",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-party-role",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Rel]",
+     "idShort": "HasPartyRole",
+     "semanticId": "http://iirds.tekom.de/iirds#has-party-role",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AdministrativeMetadataCollection > Party__00__ > RelatesToVcard",
+   "idShort": "RelatesToVcard",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-vcard",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Rel]",
+     "idShort": "RelatesToVcard",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-vcard",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AdministrativeMetadataCollection > IdentityDomain__00__",
+   "idShort": "IdentityDomain__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#IdentityDomain",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[SMC]",
+     "idShort": "IdentityDomain__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#IdentityDomain",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "AdministrativeMetadataCollection > IdentityDomain__00__ > HasIdentityType",
+   "idShort": "HasIdentityType",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#IdentityType",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Rel]",
+     "idShort": "HasIdentityType",
+     "semanticId": "http://iirds.tekom.de/iirds#IdentityType",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AdministrativeMetadataCollection > IdentityDomain__00__ > RelatesToParty",
+   "idShort": "RelatesToParty",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-party",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     29,
+     30,
+     37,
+     38
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Rel]",
+     "idShort": "RelatesToParty",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-party",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "AdministrativeMetadataCollection > IdentityType__00__",
+   "idShort": "IdentityType__00__",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#IdentityType",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[SMC]",
+     "idShort": "IdentityType__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#IdentityType",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "AdministrativeMetadataCollection > VCard__00__",
+   "idShort": "VCard__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://www.w3.org/2006/vcard/ns#Kind",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "FunctionalMetadataCollection",
+   "idShort": "FunctionalMetadataCollection",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/IntelligentInformationForUse/FunctionalMetadataCollection/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[SMC]",
+     "idShort": "FunctionalMetadataCollection",
+     "semanticId": "https://admin-shell.io/idta/IntelligentInformationForUse/FunctionalMetadataCollection/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "FunctionalMetadataCollection > Supply__00__",
+   "idShort": "Supply__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#Supply",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[SMC]",
+     "idShort": "Supply__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#Supply",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "FunctionalMetadataCollection > Supply__00__ > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "FunctionalMetadataCollection > Supply__00__ > Label",
+   "idShort": "Label",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ],
+    "row": {
+     "page": 25,
+     "type": "[MLP]",
+     "idShort": "Label",
+     "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "FunctionalMetadataCollection > Event__00__",
+   "idShort": "Event__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#Event",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[SMC]",
+     "idShort": "Event__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#Event",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "FunctionalMetadataCollection > Event__00__ > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "FunctionalMetadataCollection > Event__00__ > HasEventCode",
+   "idShort": "HasEventCode",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-event-code",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Rel]",
+     "idShort": "HasEventCode",
+     "semanticId": "http://iirds.tekom.de/iirds#has-event-code",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "FunctionalMetadataCollection > Event__00__ > HasEventType",
+   "idShort": "HasEventType",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#has-event-type",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Rel]",
+     "idShort": "HasEventType",
+     "semanticId": "http://iirds.tekom.de/iirds#has-event-type",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "FunctionalMetadataCollection > Event__00__ > Label",
+   "idShort": "Label",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ],
+    "row": {
+     "page": 25,
+     "type": "[MLP]",
+     "idShort": "Label",
+     "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "FunctionalMetadataCollection > EventCode__00__",
+   "idShort": "EventCode__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#EventCode",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[SMC]",
+     "idShort": "EventCode__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#EventCode",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "FunctionalMetadataCollection > EventType__00__",
+   "idShort": "EventType__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "event's property referencing its type",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[SMC]",
+     "idShort": "EventType__00__",
+     "semanticId": "event'spropertyreferencingitstype",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "FunctionalMetadataCollection > Role__00__",
+   "idShort": "Role__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#Role",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[SMC]",
+     "idShort": "Role__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#Role",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "FunctionalMetadataCollection > Role__00__ > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "FunctionalMetadataCollection > Role__00__ > Label",
+   "idShort": "Label",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ],
+    "row": {
+     "page": 25,
+     "type": "[MLP]",
+     "idShort": "Label",
+     "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "FunctionalMetadataCollection > SkillLevel__00__",
+   "idShort": "SkillLevel__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#SkillLevel",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[SMC]",
+     "idShort": "SkillLevel__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#SkillLevel",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "FunctionalMetadataCollection > SkillLevel__00__ > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "FunctionalMetadataCollection > SkillLevel__00__ > Label",
+   "idShort": "Label",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ],
+    "row": {
+     "page": 25,
+     "type": "[MLP]",
+     "idShort": "Label",
+     "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "FunctionalMetadataCollection > Action__00__",
+   "idShort": "Action__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#Action",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[SMC]",
+     "idShort": "Action__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#Action",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "FunctionalMetadataCollection > Action__00__ > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "FunctionalMetadataCollection > Action__00__ > Label",
+   "idShort": "Label",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ],
+    "row": {
+     "page": 25,
+     "type": "[MLP]",
+     "idShort": "Label",
+     "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "FunctionalMetadataCollection > WorkingTime__00__",
+   "idShort": "WorkingTime__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#WorkingTime",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[SMC]",
+     "idShort": "WorkingTime__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#WorkingTime",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "FunctionalMetadataCollection > WorkingTime__00__ > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "FunctionalMetadataCollection > WorkingTime__00__ > Label",
+   "idShort": "Label",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ],
+    "row": {
+     "page": 25,
+     "type": "[MLP]",
+     "idShort": "Label",
+     "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "FunctionalMetadataCollection > WorkingTime__00__ > Duration",
+   "idShort": "Duration",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#duration",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     34,
+     35,
+     36
+    ],
+    "row": {
+     "page": 34,
+     "type": "[Property]",
+     "idShort": "Duration",
+     "semanticId": "http://iirds.tekom.de/iirds#duration",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "FunctionalMetadataCollection > MaintenanceInterval__00__",
+   "idShort": "MaintenanceInterval__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#MaintenanceInterval",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[SMC]",
+     "idShort": "MaintenanceInterval__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#MaintenanceInterval",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "FunctionalMetadataCollection > MaintenanceInterval__00__ > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "FunctionalMetadataCollection > MaintenanceInterval__00__ > Label",
+   "idShort": "Label",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ],
+    "row": {
+     "page": 25,
+     "type": "[MLP]",
+     "idShort": "Label",
+     "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "FunctionalMetadataCollection > MaintenanceInterval__00__ > Frequency",
+   "idShort": "Frequency",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#frequency",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     35
+    ],
+    "row": {
+     "page": 35,
+     "type": "[Property]",
+     "idShort": "Frequency",
+     "semanticId": "http://iirds.tekom.de/iirds#frequency",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "FunctionalMetadataCollection > MaintenanceInterval__00__ > Duration",
+   "idShort": "Duration",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#duration",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     34,
+     35,
+     36
+    ],
+    "row": {
+     "page": 34,
+     "type": "[Property]",
+     "idShort": "Duration",
+     "semanticId": "http://iirds.tekom.de/iirds#duration",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "FunctionalMetadataCollection > DownTime__00__",
+   "idShort": "DownTime__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#DownTime",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[SMC]",
+     "idShort": "DownTime__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#DownTime",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "FunctionalMetadataCollection > DownTime__00__ > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "FunctionalMetadataCollection > DownTime__00__ > Label",
+   "idShort": "Label",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ],
+    "row": {
+     "page": 25,
+     "type": "[MLP]",
+     "idShort": "Label",
+     "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "FunctionalMetadataCollection > DownTime__00__ > Duration",
+   "idShort": "Duration",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#duration",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     34,
+     35,
+     36
+    ],
+    "row": {
+     "page": 34,
+     "type": "[Property]",
+     "idShort": "Duration",
+     "semanticId": "http://iirds.tekom.de/iirds#duration",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductMetadataCollection",
+   "idShort": "ProductMetadataCollection",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/IntelligentInformationForUse/ProductMetadataCollection/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[SMC]",
+     "idShort": "ProductMetadataCollection",
+     "semanticId": "https://admin-shell.io/idta/IntelligentInformationForUse/ProductMetadataCollection/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductMetadataCollection > Component__00__",
+   "idShort": "Component__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#Component",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     36
+    ],
+    "row": {
+     "page": 36,
+     "type": "[SMC]",
+     "idShort": "Component__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#Component",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "ProductMetadataCollection > Component__00__ > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "ProductMetadataCollection > Component__00__ > Asset__00__",
+   "idShort": "Asset__00__",
+   "modelType": "Entity",
+   "semanticId": "",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "ProductMetadataCollection > Component__00__ > Label",
+   "idShort": "Label",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ],
+    "row": {
+     "page": 25,
+     "type": "[MLP]",
+     "idShort": "Label",
+     "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductMetadataCollection > Component__00__ > RelatesToParty",
+   "idShort": "RelatesToParty",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-party",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     29,
+     30,
+     37,
+     38
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Rel]",
+     "idShort": "RelatesToParty",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-party",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "ProductMetadataCollection > ProductFeature__00__",
+   "idShort": "ProductFeature__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#ProductFeature",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     36
+    ],
+    "row": {
+     "page": 36,
+     "type": "[SMC]",
+     "idShort": "ProductFeature__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#ProductFeature",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "ProductMetadataCollection > ProductFeature__00__ > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "ProductMetadataCollection > ProductFeature__00__ > Label",
+   "idShort": "Label",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ],
+    "row": {
+     "page": 25,
+     "type": "[MLP]",
+     "idShort": "Label",
+     "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductMetadataCollection > ProductLifeCyclePhase__00__",
+   "idShort": "ProductLifeCyclePhase__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#ProductLifeCyclePhase",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     36
+    ],
+    "row": {
+     "page": 36,
+     "type": "[SMC]",
+     "idShort": "ProductLifeCyclePhase__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#ProductLifeCyclePhase",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "ProductMetadataCollection > ProductLifeCyclePhase__00__ > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "ProductMetadataCollection > ProductLifeCyclePhase__00__ > Label",
+   "idShort": "Label",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ],
+    "row": {
+     "page": 25,
+     "type": "[MLP]",
+     "idShort": "Label",
+     "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductMetadataCollection > ProductVariant__00__",
+   "idShort": "ProductVariant__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://iirds.tekom.de/iirds#ProductVariant",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     36
+    ],
+    "row": {
+     "page": 36,
+     "type": "[SMC]",
+     "idShort": "ProductVariant__00__",
+     "semanticId": "http://iirds.tekom.de/iirds#ProductVariant",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "ProductMetadataCollection > ProductVariant__00__ > ResourceIRI",
+   "idShort": "ResourceIRI",
+   "modelType": "Property",
+   "semanticId": "http://iirds.tekom.de/iirds#ResourceIRI",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     16,
+     19,
+     21,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "ProductMetadataCollection > ProductVariant__00__ > Label",
+   "idShort": "Label",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25,
+     32,
+     33,
+     34,
+     35,
+     37,
+     38
+    ],
+    "row": {
+     "page": 25,
+     "type": "[MLP]",
+     "idShort": "Label",
+     "semanticId": "https://www.w3.org/2000/01/rdf-schema#label",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductMetadataCollection > ProductVariant__00__ > RelatesToParty",
+   "idShort": "RelatesToParty",
+   "modelType": "RelationshipElement",
+   "semanticId": "http://iirds.tekom.de/iirds#relates-to-party",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     29,
+     30,
+     37,
+     38
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Rel]",
+     "idShort": "RelatesToParty",
+     "semanticId": "http://iirds.tekom.de/iirds#relates-to-party",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  }
+ ]
+}

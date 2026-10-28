@@ -1,0 +1,1486 @@
+{
+ "template": "Digital Quality Documents / Part 1 Core Elements",
+ "version": "1.1.0",
+ "submodelIdShort": "DigitalQualityDocuments",
+ "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/DigitalQualityDocument/1/0",
+ "json": {
+  "path": "published/Digital Quality Documents/Part 1 Core Elements/1/1/IDTA 02065-1_Template_DigitalQualityDocuments-part-1.json",
+  "gitBlob": "7176a800db3ce95fb6215a1cbfaee06324972616"
+ },
+ "pdf": {
+  "path": "published/Digital Quality Documents/Part 1 Core Elements/1/1/IDTA 02065-1_Submodel_DigitalQualityDocuments-part-1.pdf",
+  "relation": "same folder",
+  "sha256": "e4cd0df8413a749751424296f272b5160dac3206cd133838241f9198e1a822e5",
+  "annexA": [
+   {
+    "page": 23,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 23,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 33,
+  "none": 13,
+  "pdf-only": 1,
+  "unverified": 1,
+  "json-only": 26,
+  "divergent": 1
+ },
+ "elements": [
+  {
+   "path": "DocumentIds",
+   "idShort": "DocumentIds",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABI501#003",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SML]",
+     "idShort": "DocumentIds",
+     "semanticId": "0173-1#02-ABI501#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentIds > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABI501#003/0173-1#01-AHF580#003",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "DocumentIds > [0] > DocumentDomainId",
+   "idShort": "DocumentDomainId",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABH994#003",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "DocumentDomainId",
+     "semanticId": "0173-1#02-ABH994#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentIds > [0] > DocumentIdentifier",
+   "idShort": "DocumentIdentifier",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO099#004",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "DocumentIdentifier",
+     "semanticId": "0173-1#02-AAO099#004",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentIds > [0] > DocumentIsPrimary",
+   "idShort": "DocumentIsPrimary",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABH995#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "DocumentIsPrimary",
+     "semanticId": "0173-1#02-ABH995#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentClassifications",
+   "idShort": "DocumentClassifications",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABI502#003",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SML]",
+     "idShort": "DocumentClassifications",
+     "semanticId": "0173-1#02-ABI502#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentClassifications > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABI502#003/0173-1#01-AHF581#003",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "DocumentClassifications > [0] > ClassId",
+   "idShort": "ClassId",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABH996#003",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "ClassId",
+     "semanticId": "0173-1#02-ABH996#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentClassifications > [0] > ClassName",
+   "idShort": "ClassName",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-ABJ219#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[MLP]",
+     "idShort": "ClassName",
+     "semanticId": "0173-1#02-ABJ219#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentClassifications > [0] > ClassificationSystem",
+   "idShort": "ClassificationSystem",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABH997#003",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "ClassificationSystem",
+     "semanticId": "0173-1#02-ABH997#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentInstances",
+   "idShort": "DocumentInstances",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABI503#003",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SML]",
+     "idShort": "DocumentInstances",
+     "semanticId": "0173-1#02-ABI503#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentInstances > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABI503#003/0173-1#01-AHF582#003",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "DocumentInstances > [0] > Language",
+   "idShort": "Language",
+   "modelType": "SubmodelElementList",
+   "semanticId": " 0173-1#02-AAN468#008",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SML]",
+     "idShort": "Language",
+     "semanticId": "0173-1#02-AAN468#008",
+     "card": "1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentInstances > [0] > Language > [0]",
+   "idShort": "",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAN468#008",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "1",
+    "pages": [
+     13
+    ]
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "DocumentInstances > [0] > Version",
+   "idShort": "Version",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAP003#005",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "Version",
+     "semanticId": "0173-1#02-AAP003#005",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentInstances > [0] > Title",
+   "idShort": "Title",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-ABG940#003",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "Title",
+     "semanticId": "0173-1#02-ABG940#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentInstances > [0] > Description",
+   "idShort": "Description",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAN466#004",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "Description",
+     "semanticId": "0173-1#02-AAN466#004",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentInstances > [0] > StatusSetDate",
+   "idShort": "StatusSetDate",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABI000#003",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "StatusSetDate",
+     "semanticId": "0173-1#02-ABI000#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentInstances > [0] > StatusValue",
+   "idShort": "StatusValue",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABI001#003",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "StatusValue",
+     "semanticId": "0173-1#02-ABI001#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentInstances > [0] > OrganizationShortName",
+   "idShort": "OrganizationShortName",
+   "modelType": "Property",
+   "semanticId": "https://api.eclass-cdp.com/0173-1-02-ABI002-003",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "OrganizationShortName",
+     "semanticId": "https://api.eclass-cdp.com/0173-1-02-ABI002-003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentInstances > [0] > OrganizationOfficialName",
+   "idShort": "OrganizationOfficialName",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABI004#003",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "OrganizationOfficialName",
+     "semanticId": "0173-1#02-ABI004#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentInstances > [0] > RefersToEntities",
+   "idShort": "RefersToEntities",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABK288#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[SML]",
+     "idShort": "RefersToEntities",
+     "semanticId": "0173-1#02-ABK288#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > RefersToEntities > [0]",
+   "idShort": "",
+   "modelType": "ReferenceElement",
+   "semanticId": "0173-1#02-ABK288#002",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     14
+    ]
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "DocumentInstances > [0] > BasedOnReferences",
+   "idShort": "BasedOnReferences",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABK289#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[SML]",
+     "idShort": "BasedOnReferences",
+     "semanticId": "0173-1#02-ABK289#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > BasedOnReferences > [0]",
+   "idShort": "",
+   "modelType": "ReferenceElement",
+   "semanticId": "",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "DocumentInstances > [0] > DigitalFiles",
+   "idShort": "DigitalFiles",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABK126#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[SML]",
+     "idShort": "DigitalFiles",
+     "semanticId": "0173-1#02-ABK126#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentInstances > [0] > DigitalFiles > [0]",
+   "idShort": "",
+   "modelType": "File",
+   "semanticId": "0173-1#02-ABK126#002",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1"
+    ],
+    "pages": [
+     14
+    ]
+   },
+   "status": "unverified",
+   "effective": "1..*"
+  },
+  {
+   "path": "DocumentInstances > [0] > PreviewFile",
+   "idShort": "PreviewFile",
+   "modelType": "File",
+   "semanticId": "0173-1#02-ABK127#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[File]",
+     "idShort": "PreviewFile",
+     "semanticId": "0173-1#02-ABK127#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData",
+   "idShort": "AdministrativeData",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/AdministrativeData",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[SMC]",
+     "idShort": "AdministrativeData",
+     "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/AdministrativeData",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > CoreData",
+   "idShort": "CoreData",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > CoreData > UniqueIdentifier",
+   "idShort": "UniqueIdentifier",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABI501#001/0173-1#01-AHF580#001*01",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > CoreData > Identifications",
+   "idShort": "Identifications",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identifications",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > CoreData > Identifications > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identification",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > CoreData > Identifications > [0] > IdentificationName",
+   "idShort": "IdentificationName",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identifications/IdentificationName",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > CoreData > Identifications > [0] > IdentificationIssuer",
+   "idShort": "IdentificationIssuer",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identifications/IdentificationIssuer",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > CoreData > Identifications > [0] > IdentificationValue",
+   "idShort": "IdentificationValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identifications/IdentificationValue",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > CoreData > Identifications > [0] > ID",
+   "idShort": "ID",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identifications/ID",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > CoreData > Identifications > [0] > RefID",
+   "idShort": "RefID",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identifications/refID",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > CoreData > Identifications > [0] > RefType",
+   "idShort": "RefType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identifications/refType",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > CoreData > IssueDate",
+   "idShort": "IssueDate",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABI000#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Property]",
+     "idShort": "IssueDate",
+     "semanticId": "0173-1#02-ABI000#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Items",
+   "idShort": "Items",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/items",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Items > Identifications",
+   "idShort": "Identifications",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identification",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Items > Identifications > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identification",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Items > Identifications > [0] > IdentificationName",
+   "idShort": "IdentificationName",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identifications/IdentificationName",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Items > Identifications > [0] > IdentificationIssuer",
+   "idShort": "IdentificationIssuer",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identifications/IdentificationIssuer",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Items > Identifications > [0] > IdentificationValue",
+   "idShort": "IdentificationValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identifications/IdentificationValue",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Items > Identifications > [0] > ID",
+   "idShort": "ID",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identifications/ID",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Items > Identifications > [0] > RefID",
+   "idShort": "RefID",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identifications/refID",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Items > Identifications > [0] > RefType",
+   "idShort": "RefType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identifications/refType",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Items > Item",
+   "idShort": "Item",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Items",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Items > Item > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://dccwiki.ptb.de/en/dccitems",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Items > Item > [0] > Identifications",
+   "idShort": "Identifications",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identification",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Items > Item > [0] > Identifications > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identification",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Items > Item > [0] > Identifications > [0] > IdentificationName",
+   "idShort": "IdentificationName",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identifications/IdentificationName",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Items > Item > [0] > Identifications > [0] > IdentificationIssuer",
+   "idShort": "IdentificationIssuer",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identifications/IdentificationIssuer",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Items > Item > [0] > Identifications > [0] > IdentificationValue",
+   "idShort": "IdentificationValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identifications/IdentificationValue",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Items > Item > [0] > Identifications > [0] > ID",
+   "idShort": "ID",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identifications/ID",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Items > Item > [0] > Identifications > [0] > RefID",
+   "idShort": "RefID",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identifications/refID",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Items > Item > [0] > Identifications > [0] > RefType",
+   "idShort": "RefType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/coreData/Identifications/refType",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Statements",
+   "idShort": "Statements",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/statements",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Statements > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Statements > [0] > DateOfStatement",
+   "idShort": "DateOfStatement",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/AdministrativeData/Statements/Date",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Statements > [0] > StatementReference",
+   "idShort": "StatementReference",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/AdministrativeData/Statement/StatementReference",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "StatementReference",
+     "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/AdministrativeData/Statement/StatementReference",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Statements > [0] > Declaration",
+   "idShort": "Declaration",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/AdministrativeData/Statement/Declaration",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[MLP]",
+     "idShort": "Declaration",
+     "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/AdministrativeData/Statement/Declaration",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > AdministrativeData > Statements > [0] > Conformity",
+   "idShort": "Conformity",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/administrativeData/Statements/Conformity",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentInstances > [0] > DocumentSignature",
+   "idShort": "DocumentSignature",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/DocumentSignature",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "DocumentSignature",
+     "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/DocumentSignature",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "DocumentInstances > [0] > DocumentSignature > SignedInfo",
+   "idShort": "SignedInfo",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/DocumentSignature/SignedInfo",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[SMC]",
+     "idShort": "SignedInfo",
+     "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/DocumentSignature/SignedInfo",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentInstances > [0] > DocumentSignature > SignedInfo > CanonicalizationMethod",
+   "idShort": "CanonicalizationMethod",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/DocumentSignature/SignedInfo/CanonicalizationMethod",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Prop]",
+     "idShort": "CanonicalizationMethod",
+     "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/DocumentSignature/SignedInfo/CanonicalizationMethod",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentInstances > [0] > DocumentSignature > SignedInfo > SignatureMethod",
+   "idShort": "SignatureMethod",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/DocumentSignature/SignedInfo/SignatureMethod",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Prop]",
+     "idShort": "SignatureMethod",
+     "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/DocumentSignature/SignedInfo/SignatureMethod",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentInstances > [0] > DocumentSignature > SignedInfo > SignatureReference",
+   "idShort": "SignatureReference",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/DocumentSignature/SignedInfo/SignatureReference",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[SMC]",
+     "idShort": "SignatureReference",
+     "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/DocumentSignature/SignedInfo/SignatureReference",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "DocumentInstances > [0] > DocumentSignature > SignedInfo > SignatureReference > Transforms",
+   "idShort": "Transforms",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/DocumentSignature/SignedInfo/SignatureReference/Transforms",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "Transforms",
+     "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/DocumentSignature/SignedInfo/SignatureReference/Transforms",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentInstances > [0] > DocumentSignature > SignedInfo > SignatureReference > DigestMethod",
+   "idShort": "DigestMethod",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/DocumentSignature/SignedInfo/SignatureReference/DigestMethod",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "DigestMethod",
+     "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/DocumentSignature/SignedInfo/SignatureReference/DigestMethod",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentInstances > [0] > DocumentSignature > SignedInfo > SignatureReference > DigestValue",
+   "idShort": "DigestValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/DocumentSignature/SignedInfo/SignatureReference/DigestValue",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "DigestValue",
+     "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/DocumentSignature/SignedInfo/SignatureReference/DigestValue",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentInstances > [0] > DocumentSignature > SignatureValue",
+   "idShort": "SignatureValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/DocumentSignature/SignatureValue",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Prop]",
+     "idShort": "SignatureValue",
+     "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/DocumentSignature/SignatureValue",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentInstances > [0] > DocumentSignature > KeyInfo",
+   "idShort": "KeyInfo",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/DocumentSignature/KeyInfo",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Prop]",
+     "idShort": "KeyInfo",
+     "semanticId": "https://admin-shell.io/idta/DigitalQualityDocument/1/0/DocumentSignature/KeyInfo",
+     "card": "0..*"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..*"
+  }
+ ]
+}

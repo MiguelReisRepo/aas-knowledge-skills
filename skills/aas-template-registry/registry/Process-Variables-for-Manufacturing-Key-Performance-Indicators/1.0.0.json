@@ -1,0 +1,2726 @@
+{
+ "template": "Process Variables for Manufacturing Key Performance Indicators",
+ "version": "1.0.0",
+ "submodelIdShort": "ProcessVariablesForManufacturingKPICalculation",
+ "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/ProcessVariablesForManufacturingKPICalculation/1/0",
+ "json": {
+  "path": "published/Process Variables for Manufacturing Key Performance Indicators/1/0/IDTA 02066_Template_PVM.json",
+  "gitBlob": "5825335a6f59e629337271f1e27c47fe04daa94c"
+ },
+ "pdf": {
+  "path": "published/Process Variables for Manufacturing Key Performance Indicators/1/0/IDTA 02066_Submodel_PVM.pdf",
+  "relation": "same folder",
+  "sha256": "8a9340a39158906fdb4d03e3a98f3fc406047b6a215f5484c24652226a7cd5d9",
+  "annexA": [
+   {
+    "page": 35,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 35,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 74,
+  "json-only": 2
+ },
+ "elements": [
+  {
+   "path": "ActualPersonnelWorkTime",
+   "idShort": "ActualPersonnelWorkTime",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ActualPersonnelWorkTime",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "ActualPersonnelWorkTime",
+     "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ActualPersonnelWorkTime",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ActualPersonnelWorkTime > key",
+   "idShort": "key",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "key",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualPersonnelWorkTime > currentValue",
+   "idShort": "currentValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "currentValue",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualPersonnelWorkTime > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MultiLanguageP roperty]",
+     "idShort": "comment",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualUnitProcessingTime",
+   "idShort": "ActualUnitProcessingTime",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ActualUnitProcessingTime",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "ActualUnitProcessingTime",
+     "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ActualUnitProcessingTime",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ActualUnitProcessingTime > key",
+   "idShort": "key",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "key",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualUnitProcessingTime > currentValue",
+   "idShort": "currentValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "currentValue",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualUnitProcessingTime > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MultiLanguageP roperty]",
+     "idShort": "comment",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualUnitBusyTime",
+   "idShort": "ActualUnitBusyTime",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ActualUnitBusyTime",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "ActualUnitBusyTime",
+     "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ActualUnitBusyTime",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ActualUnitBusyTime > key",
+   "idShort": "key",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "key",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualUnitBusyTime > currentValue",
+   "idShort": "currentValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "currentValue",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualUnitBusyTime > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MultiLanguageP roperty]",
+     "idShort": "comment",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualOrderExecutionTime",
+   "idShort": "ActualOrderExecutionTime",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ActualOrderExecutionTime",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "ActualOrderExecutionTime",
+     "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ActualOrderExecutionTime",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ActualOrderExecutionTime > key",
+   "idShort": "key",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "key",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualOrderExecutionTime > currentValue",
+   "idShort": "currentValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "currentValue",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualOrderExecutionTime > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MultiLanguageP roperty]",
+     "idShort": "comment",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualPersonnelAttendanceTime",
+   "idShort": "ActualPersonnelAttendanceTime",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ActualPersonnelAttendanceTime",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "ActualPersonnelAttendanceTime",
+     "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ActualPersonnelAttendanceTime",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ActualPersonnelAttendanceTime > key",
+   "idShort": "key",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "key",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualPersonnelAttendanceTime > currentValue",
+   "idShort": "currentValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "currentValue",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualPersonnelAttendanceTime > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MultiLanguageP roperty]",
+     "idShort": "comment",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualProductionTime",
+   "idShort": "ActualProductionTime",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ActualProductionTime",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "ActualProductionTime",
+     "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ActualProductionTime",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ActualProductionTime > key",
+   "idShort": "key",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "key",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualProductionTime > currentValue",
+   "idShort": "currentValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "currentValue",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualProductionTime > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MultiLanguageP roperty]",
+     "idShort": "comment",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualQueuingTime",
+   "idShort": "ActualQueuingTime",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ActualQueuingTime",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "ActualQueuingTime",
+     "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ActualQueuingTime",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ActualQueuingTime > key",
+   "idShort": "key",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "key",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualQueuingTime > currentValue",
+   "idShort": "currentValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "currentValue",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualQueuingTime > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MultiLanguageP roperty]",
+     "idShort": "comment",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualUnitDownTime",
+   "idShort": "ActualUnitDownTime",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ActualUnitDownTime",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "ActualUnitDownTime",
+     "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ActualUnitDownTime",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ActualUnitDownTime > key",
+   "idShort": "key",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "key",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualUnitDownTime > currentValue",
+   "idShort": "currentValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "currentValue",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualUnitDownTime > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MultiLanguageP roperty]",
+     "idShort": "comment",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualUnitDelayTime",
+   "idShort": "ActualUnitDelayTime",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ActualUnitDelayTime",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "ActualUnitDelayTime",
+     "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ActualUnitDelayTime",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ActualUnitDelayTime > key",
+   "idShort": "key",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "key",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualUnitDelayTime > currentValue",
+   "idShort": "currentValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "currentValue",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualUnitDelayTime > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MultiLanguageP roperty]",
+     "idShort": "comment",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualUnitSetupTime",
+   "idShort": "ActualUnitSetupTime",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ActualSetupTime",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "ActualUnitSetupTime",
+     "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ActualSetupTime",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ActualUnitSetupTime > key",
+   "idShort": "key",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "key",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualUnitSetupTime > currentValue",
+   "idShort": "currentValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "currentValue",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualUnitSetupTime > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MultiLanguageP roperty]",
+     "idShort": "comment",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualTransportTime",
+   "idShort": "ActualTransportTime",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ActualTransportTime",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "ActualTransportTime",
+     "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ActualTransportTime",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ActualTransportTime > key",
+   "idShort": "key",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "key",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualTransportTime > currentValue",
+   "idShort": "currentValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "currentValue",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ActualTransportTime > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MultiLanguageP roperty]",
+     "idShort": "comment",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GoodPart",
+   "idShort": "GoodPart",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#GoodPart",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "GoodPart",
+     "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#GoodPart",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "GoodPart > key",
+   "idShort": "key",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "key",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GoodPart > currentValue",
+   "idShort": "currentValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "currentValue",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GoodPart > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MultiLanguageP roperty]",
+     "idShort": "comment",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "InspectedPart",
+   "idShort": "InspectedPart",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#InspectedPart",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "InspectedPart",
+     "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#InspectedPart",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InspectedPart > key",
+   "idShort": "key",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "key",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "InspectedPart > currentValue",
+   "idShort": "currentValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "currentValue",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "InspectedPart > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MultiLanguageP roperty]",
+     "idShort": "comment",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ScrapQuantity",
+   "idShort": "ScrapQuantity",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ScrapQuantity",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "ScrapQuantity",
+     "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ScrapQuantity",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ScrapQuantity > key",
+   "idShort": "key",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "key",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ScrapQuantity > currentValue",
+   "idShort": "currentValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "currentValue",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ScrapQuantity > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MultiLanguageP roperty]",
+     "idShort": "comment",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GoodQuantity",
+   "idShort": "GoodQuantity",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#GoodQuantity",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "GoodQuantity",
+     "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#GoodQuantity",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "GoodQuantity > key",
+   "idShort": "key",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "key",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GoodQuantity > currentValue",
+   "idShort": "currentValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "currentValue",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GoodQuantity > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MultiLanguageP roperty]",
+     "idShort": "comment",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ReworkQuantity",
+   "idShort": "ReworkQuantity",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ReworkQuantity",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "ReworkQuantity",
+     "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ReworkQuantity",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ReworkQuantity > key",
+   "idShort": "key",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "key",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ReworkQuantity > currentValue",
+   "idShort": "currentValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "currentValue",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ReworkQuantity > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MultiLanguageP roperty]",
+     "idShort": "comment",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProducedQuantity",
+   "idShort": "ProducedQuantity",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ProducedQuantity",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "ProducedQuantity",
+     "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#ProducedQuantity",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProducedQuantity > key",
+   "idShort": "key",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "key",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProducedQuantity > currentValue",
+   "idShort": "currentValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "currentValue",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProducedQuantity > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MultiLanguageP roperty]",
+     "idShort": "comment",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PlannedBusyTime",
+   "idShort": "PlannedBusyTime",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#PlannedBusyTime",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlannedBusyTime > key",
+   "idShort": "key",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "key",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PlannedBusyTime > currentValue",
+   "idShort": "currentValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "currentValue",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PlannedBusyTime > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MultiLanguageP roperty]",
+     "idShort": "comment",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PlannedRuntimePerItem",
+   "idShort": "PlannedRuntimePerItem",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://www.w3id.org/hsu-aut/ISO22400-2#PlannedRuntimePerUnit",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlannedRuntimePerItem > key",
+   "idShort": "key",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "key",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/key/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PlannedRuntimePerItem > currentValue",
+   "idShort": "currentValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "currentValue",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/currentValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PlannedRuntimePerItem > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MultiLanguageP roperty]",
+     "idShort": "comment",
+     "semanticId": "https://admin-shell.io/idta/ProcessVariablesForManufacturingKPICalculation/comment/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  }
+ ]
+}

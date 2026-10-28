@@ -1,0 +1,123 @@
+{
+ "template": "MTP",
+ "version": "1.0.0",
+ "submodelIdShort": "ModuleTypePackage",
+ "submodelSemanticId": "https://admin-shell.io/vdi/2658/1/0/MTPSubmodel",
+ "json": {
+  "path": "published/MTP/1/0/IDTA 02001-1-0_Subomdel_MTPv1.0-rc2-with-documentation.json",
+  "gitBlob": "8052775526ebbc7511c242a71022235bfec007b1"
+ },
+ "pdf": {
+  "path": "published/MTP/1/0/IDTA 02001-1-0_Submodel_MTP.pdf",
+  "relation": "same folder",
+  "sha256": "19e55e165b5b0715a13f99bfe15acabfa9db0e7757dcbaa89cf6d8b489dfd1c8",
+  "annexA": [
+   {
+    "page": 16,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 16,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "unverified": 3,
+  "divergent": 1
+ },
+ "elements": [
+  {
+   "path": "MTPFile",
+   "idShort": "MTPFile",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/vdi/2658/1/0/MTPSUCLib/ModuleTypePackage",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     9,
+     13
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentationReferences",
+   "idShort": "DocumentationReferences",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/vdi/2658/1/0/MTPReferences",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "DocumentationReferences",
+     "semanticId": "https://admin-shell.io/vdi/2658/1/0/MTPReferences",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..*"
+  },
+  {
+   "path": "DocumentationReferences > M0013_Datasheet",
+   "idShort": "M0013_Datasheet",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/vdi/2658/1/0/MTPReference",
+   "json": "1..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..*",
+     "0..1"
+    ],
+    "pages": [
+     9,
+     10,
+     13
+    ]
+   },
+   "status": "unverified",
+   "effective": "1..*"
+  },
+  {
+   "path": "BOMReferences",
+   "idShort": "BOMReferences",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/vdi/2658/1/0/MTPReferences",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..*",
+     "0..1"
+    ],
+    "pages": [
+     9,
+     13
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  }
+ ]
+}

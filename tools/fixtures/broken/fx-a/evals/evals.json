@@ -1,0 +1,214 @@
+{
+ "skill": "fx-a",
+ "items": [
+  {
+   "id": "fx-a-001",
+   "question": "q?",
+   "expected_answer": "alpha beta",
+   "must_include": [
+    "alpha"
+   ],
+   "must_not_include": [
+    "gamma"
+   ],
+   "citation": {
+    "document": "eval self-test fixture source",
+    "revision": "n/a",
+    "section": "intro",
+    "file": "tools/fixtures/source.md",
+    "quote": "the **fixture quote** used by the planted-defect self-test"
+   }
+  },
+  {
+   "id": "fx-a-002",
+   "question": "q?",
+   "expected_answer": "alpha beta",
+   "must_include": [
+    "alpha"
+   ],
+   "must_not_include": [
+    "gamma"
+   ],
+   "citation": {
+    "document": "eval self-test fixture source",
+    "revision": "n/a",
+    "section": "intro",
+    "file": "tools/fixtures/source.md",
+    "quote": "the **fixture quote** used by the planted-defect self-test"
+   }
+  },
+  {
+   "id": "fx-a-003",
+   "question": "q?",
+   "expected_answer": "alpha beta",
+   "must_include": [
+    "alpha"
+   ],
+   "must_not_include": [
+    "gamma"
+   ]
+  },
+  {
+   "id": "fx-a-004",
+   "question": "q?",
+   "expected_answer": "alpha beta",
+   "must_include": [],
+   "must_not_include": [
+    "gamma"
+   ],
+   "citation": {
+    "document": "eval self-test fixture source",
+    "revision": "n/a",
+    "section": "intro",
+    "file": "tools/fixtures/source.md",
+    "quote": "the **fixture quote** used by the planted-defect self-test"
+   }
+  },
+  {
+   "id": "fx-a-005",
+   "question": "q?",
+   "expected_answer": "alpha beta",
+   "must_include": [
+    "alpha"
+   ],
+   "must_not_include": [
+    "gamma"
+   ],
+   "citation": {
+    "document": "eval self-test fixture source",
+    "revision": "n/a",
+    "section": "intro",
+    "file": "skills/does-not-exist/x.txt",
+    "quote": "the **fixture quote** used by the planted-defect self-test"
+   }
+  },
+  {
+   "id": "fx-a-006",
+   "question": "q?",
+   "expected_answer": "alpha beta",
+   "must_include": [
+    "alpha"
+   ],
+   "must_not_include": [
+    "gamma"
+   ],
+   "citation": {
+    "document": "eval self-test fixture source",
+    "revision": "n/a",
+    "section": "intro",
+    "file": "tools/fixtures/source.md",
+    "quote": "this sentence is not in the fixture source"
+   }
+  },
+  {
+   "id": "fx-a-007",
+   "question": "q?",
+   "expected_answer": "alpha beta",
+   "must_include": [
+    "alpha"
+   ],
+   "must_not_include": [
+    "gamma"
+   ],
+   "citation": {
+    "document": "eval self-test fixture source",
+    "revision": "n/a",
+    "section": "intro",
+    "file": "tools/fixtures/source.md",
+    "quote": "the **fixture quote** used by the planted-defect self-test",
+    "lines": "1-2"
+   }
+  },
+  {
+   "id": "fx-a-008",
+   "question": "q?",
+   "expected_answer": "delta only",
+   "must_include": [
+    "alpha"
+   ],
+   "must_not_include": [
+    "gamma"
+   ],
+   "citation": {
+    "document": "eval self-test fixture source",
+    "revision": "n/a",
+    "section": "intro",
+    "file": "tools/fixtures/source.md",
+    "quote": "the **fixture quote** used by the planted-defect self-test"
+   }
+  },
+  {
+   "id": "fx-a-002",
+   "question": "q?",
+   "expected_answer": "alpha beta",
+   "must_include": [
+    "alpha"
+   ],
+   "must_not_include": [
+    "gamma"
+   ],
+   "citation": {
+    "document": "eval self-test fixture source",
+    "revision": "n/a",
+    "section": "intro",
+    "file": "tools/fixtures/source.md",
+    "quote": "the **fixture quote** used by the planted-defect self-test"
+   }
+  },
+  {
+   "id": "wrongprefix-001",
+   "question": "q?",
+   "expected_answer": "alpha beta",
+   "must_include": [
+    "alpha"
+   ],
+   "must_not_include": [
+    "gamma"
+   ],
+   "citation": {
+    "document": "eval self-test fixture source",
+    "revision": "n/a",
+    "section": "intro",
+    "file": "tools/fixtures/source.md",
+    "quote": "the **fixture quote** used by the planted-defect self-test"
+   }
+  },
+  {
+   "id": "fx-a-010",
+   "question": "q?",
+   "expected_answer": "alpha beta",
+   "must_include": [
+    "alpha"
+   ],
+   "must_not_include": [
+    "gamma"
+   ],
+   "citation": {
+    "document": "eval self-test fixture source",
+    "revision": "n/a",
+    "section": "intro",
+    "file": "tools/fixtures/source.md",
+    "quote": "the **fixture quote** used by the planted-defect self-test",
+    "page": 3
+   }
+  },
+  {
+   "id": "fx-a-011",
+   "question": "q?",
+   "expected_answer": "alpha beta",
+   "must_include": [
+    "alpha"
+   ],
+   "must_not_include": [
+    "gamma"
+   ],
+   "citation": {
+    "document": "eval self-test fixture source",
+    "revision": "n/a",
+    "section": "intro",
+    "file": "nosuchalias:foo.txt",
+    "quote": "the **fixture quote** used by the planted-defect self-test"
+   }
+  }
+ ]
+}

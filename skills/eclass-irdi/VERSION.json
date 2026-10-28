@@ -1,0 +1,56 @@
+{
+  "skill": "eclass-irdi",
+  "version": "1.1.0",
+  "last_verified": "2026-10-28",
+  "sources": [
+    {
+      "document": "IDTA-01001 Part 1 Metamodel (PDF, incl. Annex H 'Metamodel Changes' and security change tables)",
+      "revision": "3.0 (sha256 8ba8171554de...)",
+      "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+      "url": "https://industrialdigitaltwin.io/aas-specifications/IDTA-01001/v3.0/",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02006 Digital Nameplate for Industrial Equipment (txt extraction with page markers)",
+      "revision": "3.0.1 (sha256 4a3ce949d3a6...) (admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06)",
+      "file": "idta-pdfs:txt/published/Digital nameplate/3/0/1/IDTA 02006-3-0-1_Submodel_Digital Nameplate.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02006 Digital Nameplate for Industrial Equipment (PDF)",
+      "revision": "3.0.1 (sha256 0c1d21e7743a...) (admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06)",
+      "file": "idta-pdfs:pdf/published/Digital nameplate/3/0/1/IDTA 02006-3-0-1_Submodel_Digital Nameplate.pdf",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02004 Handover Documentation (txt extraction with page markers)",
+      "revision": "2.0 (sha256 92647da03216...) (admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06)",
+      "file": "idta-pdfs:txt/published/Handover Documentation/2/0/IDTA 02004-2-0_Submodel_Handover Documentation.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02004 Handover Documentation (PDF)",
+      "revision": "2.0 (sha256 772a94bca797...) (admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06)",
+      "file": "idta-pdfs:pdf/published/Handover Documentation/2/0/IDTA 02004-2-0_Submodel_Handover Documentation.pdf",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02004 Handover Documentation - official template JSON",
+      "revision": "2.0.2 forAASMetamodelV3.1 (sha256 e49961488c83...; mirror f3790038b6c9)",
+      "file": "idta-pdfs:json/published/Handover Documentation/2/0/2/IDTA 02004-2-0-2_Template_HandoverDocumentation__forAASMetamodelV3.1.json",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    }
+  ],
+  "claims_not_verifiable_on_disk": [
+    "ISO/IEC 11179-6 and ISO 29002-5 IRDI grammar (RAI#DI#VI anatomy, code-type prefixes 01/02/05/07, 3-digit VI): the standards are only referenced by Part 1, not on disk",
+    "ISO 6523 ICD 0173 = ECLASS and 0112 = IEC assignment",
+    "ECLASS CDP (cdp.eclass-cdp.com, api.eclass-cdp.com '#'->'-' convention as an official rule) and IEC CDD (cdd.iec.ch) registry content",
+    "Handover 1.2 IRDIs 0173-1#02-AAY813#001 / AAY814#001 and Nameplate 2.0 IRDIs (no Handover 1.2 or Nameplate 2.0 document in the mirror)"
+  ],
+  "notes": "Evals cite Part 1 v3.0 (identifier types, matching strategies) and the Nameplate 3.0.1 / Handover 2.0 txt extractions; the printing anomalies (~0, cdp-URL-only, hyphen loss) are still present in Handover 2.0.1 / Nameplate 3.0.1."
+}

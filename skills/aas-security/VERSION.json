@@ -1,0 +1,48 @@
+{
+  "skill": "aas-security",
+  "version": "1.1.0",
+  "last_verified": "2026-10-28",
+  "sources": [
+    {
+      "document": "IDTA-01001 Part 1 Metamodel (PDF, incl. Annex H 'Metamodel Changes' and security change tables)",
+      "revision": "3.0 (sha256 8ba8171554de...)",
+      "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+      "url": "https://industrialdigitaltwin.io/aas-specifications/IDTA-01001/v3.0/",
+      "bundled": false
+    },
+    {
+      "document": "Regulation (EU) 2023/1542 (Batteries Regulation), Official Journal text",
+      "revision": "OJ L 191, 28.7.2023 (sha256 2c6c1b423397...)",
+      "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32023R1542.html",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R1542",
+      "bundled": true
+    },
+    {
+      "document": "IDTA-01004 Part 4 Security (PDF, paged text)",
+      "revision": "3.0.2 (official file, sha256 cc36ef5e3280..., 4549490 bytes, retrieved 2026-10-28)",
+      "file": "idta-specs:txt/IDTA-01004-3-0-2_AAS-Specification_Part4_Security.txt",
+      "url": "https://industrialdigitaltwin.org/en/wp-content/uploads/sites/2/2025/06/IDTA-01004-3-0-2_AAS-Specification_Part4_Security.pdf",
+      "bundled": false
+    },
+    {
+      "document": "IDTA-01004 Part 4 Security (PDF, paged text)",
+      "revision": "3.1 (official file, sha256 5fddd4c1f718..., 4743310 bytes, retrieved 2026-10-28)",
+      "file": "idta-specs:txt/IDTA-01004-3-1_AAS-Specification_Part4_Security.txt",
+      "url": "https://industrialdigitaltwin.org/en/wp-content/uploads/sites/2/2026/07/IDTA-01004-3-1_AAS-Specification_Part4_Security.pdf",
+      "bundled": false
+    },
+    {
+      "document": "IDTA-01002 Part 2 API (PDF, paged text)",
+      "revision": "3.2 (official file, sha256 46ea63ecba6a..., 1406546 bytes, retrieved 2026-10-28)",
+      "file": "idta-specs:txt/IDTA-01002-3-2_SpecificationAssetAdministrationShell_Part2_API.txt",
+      "url": "https://industrialdigitaltwin.org/en/wp-content/uploads/sites/2/2026/07/IDTA-01002-3-2_SpecificationAssetAdministrationShell_Part2_API.pdf",
+      "bundled": false
+    }
+  ],
+  "claims_not_verifiable_on_disk": [
+    "IDTA-01004 Part 4 Security v3.0.2 (the skill's stated source): ABAC Access Rule Model, CLAIM/GLOBAL/REFERENCE attributes, DEFATTRIBUTES/DEFACLS/DEFOBJECTS/DEFFORMULAS, AccessPermissionRule composition, rights list, BNF and JSON Schema serialisations, the quoted 'Explanation of the Access Rule Model BNF' passage, and the claim that Part 4 defines no authentication or signing formats",
+    "RFC 6749, OpenID Connect Core, RFC 8705, RFC 7515, RFC 8785 (production auth/signing; labelled non-IDTA by the skill)",
+    "CIRPASS 4-tier stakeholder taxonomy; Catena-X IATP"
+  ],
+  "notes": "Part 4 v3.0.2/v3.1 now on disk: evals 014-015 cover signed JWT access tokens (RFC 7519) and the absence of native content signatures (pointer to IDTA-01002 /$signed)."
+}

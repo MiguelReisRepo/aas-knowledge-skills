@@ -1,0 +1,4568 @@
+{
+ "template": "Quality Control for Machining",
+ "version": "1.0.0",
+ "submodelIdShort": "QualityControlForMachining",
+ "submodelSemanticId": null,
+ "json": {
+  "path": "published/Quality Control for Machining/1/0/IDTA_02049_Template_QualityControlForMachining.json",
+  "gitBlob": "7974a554d00731c20c0394321ad3360a0a516317"
+ },
+ "pdf": {
+  "path": "published/Quality Control for Machining/1/0/IDTA 02049_Submodel_QualityControlForMachining.pdf",
+  "relation": "same folder",
+  "sha256": "690a97bfd8b36a7626729251dba46d88d405db858b513b3d126f3dcc93903e38",
+  "annexA": [
+   {
+    "page": 42,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 42,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 172,
+  "json-only": 8,
+  "unverified": 3
+ },
+ "elements": [
+  {
+   "path": "QualityFeatures",
+   "idShort": "QualityFeatures",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/QualityFeatures/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "QualityFeatures",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/QualityFeatures/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > LinearFeaturesList",
+   "idShort": "LinearFeaturesList",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/LinearFeaturesList/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[SML]",
+     "idShort": "LinearFeaturesList",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/LinearFeaturesList/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > LinearFeaturesList > LinearFeature",
+   "idShort": "LinearFeature",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/LinearFeature/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > LinearFeaturesList > LinearFeature > LinearFeatureName",
+   "idShort": "LinearFeatureName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/LinearFeatureName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "LinearFeatureName",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/LinearFeatureName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > LinearFeaturesList > LinearFeature > DimensionDescription",
+   "idShort": "DimensionDescription",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/DimensionDescription/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "DimensionDescription",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/DimensionDescription/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > LinearFeaturesList > LinearFeature > MeasurementProcedure",
+   "idShort": "MeasurementProcedure",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MeasurementProcedure/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > LinearFeaturesList > LinearFeature > InspectionRelevant",
+   "idShort": "InspectionRelevant",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/InspectionRelevant/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     20,
+     23,
+     27
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "InspectionRelevant",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/InspectionRelevant/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > LinearFeaturesList > LinearFeature > ToleranceNorm",
+   "idShort": "ToleranceNorm",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ToleranceNorm/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     23,
+     27
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "ToleranceNorm",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ToleranceNorm/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > LinearFeaturesList > LinearFeature > NominalValue",
+   "idShort": "NominalValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/NominalValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "NominalValue",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/NominalValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > LinearFeaturesList > LinearFeature > UpperTolerance",
+   "idShort": "UpperTolerance",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/UpperTolerance/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "UpperTolerance",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/UpperTolerance/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > LinearFeaturesList > LinearFeature > LowerTolerance",
+   "idShort": "LowerTolerance",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/LowerTolerance/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "LowerTolerance",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/LowerTolerance/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > LinearFeaturesList > LinearFeature > OneSided",
+   "idShort": "OneSided",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/OneSided/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "OneSided",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/OneSided/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > LinearFeaturesList > LinearFeature > EngineeringUnit",
+   "idShort": "EngineeringUnit",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/EngineeringUnit/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     19,
+     25,
+     39
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > LinearFeaturesList > LinearFeature > GeometryReferenceList",
+   "idShort": "GeometryReferenceList",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GeometryReferenceList/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19,
+     21,
+     23,
+     27
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SML]",
+     "idShort": "GeometryReferenceList",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GeometryReferenceList/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > LinearFeaturesList > LinearFeature > GeometryReferenceList > ReferenceGeometry3DModel",
+   "idShort": "ReferenceGeometry3DModel",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ReferenceGeometry3DModel/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[Ref]",
+     "idShort": "ReferenceGeometry3DModel",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ReferenceGeometry3DModel/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > LinearFeaturesList > LinearFeature > IDList3DModel",
+   "idShort": "IDList3DModel",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/IDList3DModel/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19,
+     21,
+     23,
+     27
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SML]",
+     "idShort": "IDList3DModel",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/IDList3DModel/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > LinearFeaturesList > LinearFeature > IDList3DModel > ElementID",
+   "idShort": "ElementID",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ElementID/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[Prop]",
+     "idShort": "ElementID",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ElementID/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > LinearFeaturesList > LinearFeature > Reference2DList",
+   "idShort": "Reference2DList",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Reference2DList/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19,
+     21,
+     23,
+     27
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SML]",
+     "idShort": "Reference2DList",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Reference2DList/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > LinearFeaturesList > LinearFeature > Reference2DList > Reference2D",
+   "idShort": "Reference2D",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Reference2D/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[SMC]",
+     "idShort": "Reference2D",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Reference2D/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > LinearFeaturesList > LinearFeature > Reference2DList > Reference2D > Page",
+   "idShort": "Page",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Page/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Prop]",
+     "idShort": "Page",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Page/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > LinearFeaturesList > LinearFeature > Reference2DList > Reference2D > Coordinate",
+   "idShort": "Coordinate",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Coordinate/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Prop]",
+     "idShort": "Coordinate",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Coordinate/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > AttributiveFeaturesList",
+   "idShort": "AttributiveFeaturesList",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/AttributiveFeaturesList/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[SML]",
+     "idShort": "AttributiveFeaturesList",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/AttributiveFeaturesList/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > AttributiveFeaturesList > AttributiveFeature",
+   "idShort": "AttributiveFeature",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/AttributiveFeature/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[SMC]",
+     "idShort": "AttributiveFeature",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/AttributiveFeature/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > AttributiveFeaturesList > AttributiveFeature > AttributiveFeatureName",
+   "idShort": "AttributiveFeatureName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/AttributiveFeatureName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "AttributiveFeatureName",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/AttributiveFeatureName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > AttributiveFeaturesList > AttributiveFeature > AttibutiveFeatureDescription",
+   "idShort": "AttibutiveFeatureDescription",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/AttibutiveFeatureDescription/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "AttibutiveFeatureDescription",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/AttibutiveFeatureDescription/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > AttributiveFeaturesList > AttributiveFeature > MeasurementProcedure",
+   "idShort": "MeasurementProcedure",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MeasurementProcedure/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > AttributiveFeaturesList > AttributiveFeature > ToleranceNorm",
+   "idShort": "ToleranceNorm",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ToleranceNorm/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     23,
+     27
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "ToleranceNorm",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ToleranceNorm/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > AttributiveFeaturesList > AttributiveFeature > InspectionRelevant",
+   "idShort": "InspectionRelevant",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/InspectionRelevant/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     20,
+     23,
+     27
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "InspectionRelevant",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/InspectionRelevant/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > AttributiveFeaturesList > AttributiveFeature > GeometryReferenceList",
+   "idShort": "GeometryReferenceList",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GeometryReferenceList/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19,
+     21,
+     23,
+     27
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SML]",
+     "idShort": "GeometryReferenceList",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GeometryReferenceList/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > AttributiveFeaturesList > AttributiveFeature > GeometryReferenceList > ReferenceGeometry3DModel",
+   "idShort": "ReferenceGeometry3DModel",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ReferenceGeometry3DModel/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[Ref]",
+     "idShort": "ReferenceGeometry3DModel",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ReferenceGeometry3DModel/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > AttributiveFeaturesList > AttributiveFeature > IDList3DModel",
+   "idShort": "IDList3DModel",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/IDList3DModel/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19,
+     21,
+     23,
+     27
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SML]",
+     "idShort": "IDList3DModel",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/IDList3DModel/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > AttributiveFeaturesList > AttributiveFeature > IDList3DModel > ElementID",
+   "idShort": "ElementID",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ElementID/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[Prop]",
+     "idShort": "ElementID",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ElementID/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > AttributiveFeaturesList > AttributiveFeature > Reference2DList",
+   "idShort": "Reference2DList",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Reference2DList/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19,
+     21,
+     23,
+     27
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SML]",
+     "idShort": "Reference2DList",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Reference2DList/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > AttributiveFeaturesList > AttributiveFeature > Reference2DList > Reference2D",
+   "idShort": "Reference2D",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Reference2D/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[SMC]",
+     "idShort": "Reference2D",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Reference2D/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > AttributiveFeaturesList > AttributiveFeature > Reference2DList > Reference2D > Page",
+   "idShort": "Page",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Page/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Prop]",
+     "idShort": "Page",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Page/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > AttributiveFeaturesList > AttributiveFeature > Reference2DList > Reference2D > Coordinate",
+   "idShort": "Coordinate",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Coordinate/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Prop]",
+     "idShort": "Coordinate",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Coordinate/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > AttributiveFeaturesList > AttributiveFeature > OKAttributesList",
+   "idShort": "OKAttributesList",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/OKAttributesList/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[SML]",
+     "idShort": "OKAttributesList",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/OKAttributesList/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > AttributiveFeaturesList > AttributiveFeature > OKAttributesList > OKAttributName",
+   "idShort": "OKAttributName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/OKAttributName/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Prop]",
+     "idShort": "OKAttributName",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/OKAttributName/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > AttributiveFeaturesList > AttributiveFeature > NOKAttributesList",
+   "idShort": "NOKAttributesList",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/NOKAttributesList/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[SML]",
+     "idShort": "NOKAttributesList",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/NOKAttributesList/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > AttributiveFeaturesList > AttributiveFeature > NOKAttributesList > NOKAttributName",
+   "idShort": "NOKAttributName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/NOKAttributName/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "NOKAttributName",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/NOKAttributName/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList",
+   "idShort": "GeometricFeaturesList",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GeometricFeaturesList/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[SML]",
+     "idShort": "GeometricFeaturesList",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GeometricFeaturesList/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature",
+   "idShort": "GeometricFeature",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GeometricFeature/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[SMC]",
+     "idShort": "GeometricFeature",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GeometricFeature/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > GPS_FeatureName",
+   "idShort": "GPS_FeatureName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GPS_FeatureName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "GPS_FeatureName",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GPS_FeatureName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > GPS_Description",
+   "idShort": "GPS_Description",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GPS_Description/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "GPS_Description",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GPS_Description/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > MeasurementProcedure",
+   "idShort": "MeasurementProcedure",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MeasurementProcedure/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > ToleranceNorm",
+   "idShort": "ToleranceNorm",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ToleranceNorm/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     23,
+     27
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "ToleranceNorm",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ToleranceNorm/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > InspectionRelevant",
+   "idShort": "InspectionRelevant",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/InspectionRelevant/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     20,
+     23,
+     27
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "InspectionRelevant",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/InspectionRelevant/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > GPS_Type",
+   "idShort": "GPS_Type",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GPS_Type/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Prop]",
+     "idShort": "GPS_Type",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GPS_Type/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > GPS_ReferenceRequired",
+   "idShort": "GPS_ReferenceRequired",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GPS_ReferenceRequired/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Prop]",
+     "idShort": "GPS_ReferenceRequired",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GPS_ReferenceRequired/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > GPS_ToleranceZone",
+   "idShort": "GPS_ToleranceZone",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GPS_ToleranceZone/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[SMC]",
+     "idShort": "GPS_ToleranceZone",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GPS_ToleranceZone/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > GPS_ToleranceZone > Shape",
+   "idShort": "Shape",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Shape/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Prop]",
+     "idShort": "Shape",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Shape/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > GPS_ToleranceZone > ToleranceZoneDescription",
+   "idShort": "ToleranceZoneDescription",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ToleranceZoneDescription/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Prop]",
+     "idShort": "ToleranceZoneDescription",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ToleranceZoneDescription/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > GPS_ToleranceZone > SpecificationModificator",
+   "idShort": "SpecificationModificator",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SpecificationModificator/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Prop]",
+     "idShort": "SpecificationModificator",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SpecificationModificator/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > GPS_ToleranceZone > WidthExtendValue",
+   "idShort": "WidthExtendValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/WidthExtendValue/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Prop]",
+     "idShort": "WidthExtendValue",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/WidthExtendValue/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > GPS_ToleranceZone > WidthExtendTolerance1",
+   "idShort": "WidthExtendTolerance1",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/WidthExtendTolerance1/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Prop]",
+     "idShort": "WidthExtendTolerance1",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/WidthExtendTolerance1/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > GPS_ToleranceZone > WidthExtendSign1",
+   "idShort": "WidthExtendSign1",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/WidthExtendSign1/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Prop]",
+     "idShort": "WidthExtendSign1",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/WidthExtendSign1/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > GPS_ToleranceZone > WidthExtendTolerance2",
+   "idShort": "WidthExtendTolerance2",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/WidthExtendTolerance2/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Prop]",
+     "idShort": "WidthExtendTolerance2",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/WidthExtendTolerance2/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > GPS_ToleranceZone > WidthExtendSign2",
+   "idShort": "WidthExtendSign2",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/WidthExtendSign2/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Prop]",
+     "idShort": "WidthExtendSign2",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/WidthExtendSign2/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > GPS_ToleranceZone > EngineeringUnit",
+   "idShort": "EngineeringUnit",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/EngineeringUnit/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     19,
+     25,
+     39
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > GeometryReferenceList",
+   "idShort": "GeometryReferenceList",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GeometryReferenceList/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19,
+     21,
+     23,
+     27
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SML]",
+     "idShort": "GeometryReferenceList",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GeometryReferenceList/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > GeometryReferenceList > ReferenceGeometry3DModel",
+   "idShort": "ReferenceGeometry3DModel",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ReferenceGeometry3DModel/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[Ref]",
+     "idShort": "ReferenceGeometry3DModel",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ReferenceGeometry3DModel/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > IDList3DModel",
+   "idShort": "IDList3DModel",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/IDList3DModel/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19,
+     21,
+     23,
+     27
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SML]",
+     "idShort": "IDList3DModel",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/IDList3DModel/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > IDList3DModel > ElementID",
+   "idShort": "ElementID",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ElementID/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[Prop]",
+     "idShort": "ElementID",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ElementID/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > Reference2DList",
+   "idShort": "Reference2DList",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Reference2DList/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19,
+     21,
+     23,
+     27
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SML]",
+     "idShort": "Reference2DList",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Reference2DList/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > Reference2DList > Reference2D",
+   "idShort": "Reference2D",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Reference2D/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[SMC]",
+     "idShort": "Reference2D",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Reference2D/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > Reference2DList > Reference2D > Page",
+   "idShort": "Page",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Page/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Prop]",
+     "idShort": "Page",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Page/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > Reference2DList > Reference2D > Coordinate",
+   "idShort": "Coordinate",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Coordinate/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Prop]",
+     "idShort": "Coordinate",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Coordinate/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > DatumField1",
+   "idShort": "DatumField1",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/DatumField1/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Prop]",
+     "idShort": "DatumField1",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/DatumField1/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > DatumField2",
+   "idShort": "DatumField2",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/DatumField2/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Prop]",
+     "idShort": "DatumField2",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/DatumField2/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > DatumField3",
+   "idShort": "DatumField3",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/DatumField3/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Prop]",
+     "idShort": "DatumField3",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/DatumField3/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > AdditionalInformationList",
+   "idShort": "AdditionalInformationList",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/AdditionalInformationList/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[SML]",
+     "idShort": "AdditionalInformationList",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/AdditionalInformationList/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > AdditionalInformationList > AdditionalInformation",
+   "idShort": "AdditionalInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/AdditionalInformation/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[SMC]",
+     "idShort": "AdditionalInformation",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/AdditionalInformation/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > AdditionalInformationList > AdditionalInformation > GPS_Identifier",
+   "idShort": "GPS_Identifier",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GPS_Identifier/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Prop]",
+     "idShort": "GPS_Identifier",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GPS_Identifier/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > GeometricFeaturesList > GeometricFeature > AdditionalInformationList > AdditionalInformation > GPS_Value",
+   "idShort": "GPS_Value",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GPS_Value/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Prop]",
+     "idShort": "GPS_Value",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GPS_Value/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList",
+   "idShort": "ArealSurfaceFeaturesList",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ArealSurfaceFeaturesList/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[SML]",
+     "idShort": "ArealSurfaceFeaturesList",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ArealSurfaceFeaturesList/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature",
+   "idShort": "ArealSurfaceFeature",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ArealSurfaceFeature/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[SMC]",
+     "idShort": "ArealSurfaceFeature",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ArealSurfaceFeature/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > ASF_FeatureName",
+   "idShort": "ASF_FeatureName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ASF_FeatureName/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Prop]",
+     "idShort": "ASF_FeatureName",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ASF_FeatureName/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > ASF_Description",
+   "idShort": "ASF_Description",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ASF_Description/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Prop]",
+     "idShort": "ASF_Description",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ASF_Description/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > MeasurementProcedure",
+   "idShort": "MeasurementProcedure",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MeasurementProcedure/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > ToleranceNorm",
+   "idShort": "ToleranceNorm",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ToleranceNorm/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18,
+     23,
+     27
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "ToleranceNorm",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ToleranceNorm/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > InspectionRelevant",
+   "idShort": "InspectionRelevant",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/InspectionRelevant/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     20,
+     23,
+     27
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "InspectionRelevant",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/InspectionRelevant/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > ArealSurfaceFeatureType",
+   "idShort": "ArealSurfaceFeatureType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ArealSurfaceFeatureType/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[Prop]",
+     "idShort": "ArealSurfaceFeatureType",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ArealSurfaceFeatureType/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > GeometryReferenceList",
+   "idShort": "GeometryReferenceList",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GeometryReferenceList/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19,
+     21,
+     23,
+     27
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SML]",
+     "idShort": "GeometryReferenceList",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/GeometryReferenceList/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > GeometryReferenceList > ReferenceGeometry3DModel",
+   "idShort": "ReferenceGeometry3DModel",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ReferenceGeometry3DModel/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[Ref]",
+     "idShort": "ReferenceGeometry3DModel",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ReferenceGeometry3DModel/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > IDList3DModel",
+   "idShort": "IDList3DModel",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/IDList3DModel/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19,
+     21,
+     23,
+     27
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SML]",
+     "idShort": "IDList3DModel",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/IDList3DModel/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > IDList3DModel > ElementID",
+   "idShort": "ElementID",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ElementID/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[Prop]",
+     "idShort": "ElementID",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ElementID/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > Reference2DList",
+   "idShort": "Reference2DList",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Reference2DList/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19,
+     21,
+     23,
+     27
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SML]",
+     "idShort": "Reference2DList",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Reference2DList/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > Reference2DList > Reference2D",
+   "idShort": "Reference2D",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Reference2D/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[SMC]",
+     "idShort": "Reference2D",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Reference2D/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > Reference2DList > Reference2D > Page",
+   "idShort": "Page",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Page/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Prop]",
+     "idShort": "Page",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Page/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > Reference2DList > Reference2D > Coordinate",
+   "idShort": "Coordinate",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Coordinate/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Prop]",
+     "idShort": "Coordinate",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Coordinate/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > SL_Parameters",
+   "idShort": "SL_Parameters",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SL_Parameters/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[SMC]",
+     "idShort": "SL_Parameters",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SL_Parameters/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > SL_Parameters > SL_ASP_Limit",
+   "idShort": "SL_ASP_Limit",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SL_ASP_Limit/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Prop]",
+     "idShort": "SL_ASP_Limit",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SL_ASP_Limit/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > SL_Parameters > SL_ASP_S_FilterType",
+   "idShort": "SL_ASP_S_FilterType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SL_ASP_S_FilterType/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Prop]",
+     "idShort": "SL_ASP_S_FilterType",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SL_ASP_S_FilterType/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > SL_Parameters > SL_ASP_S_FilterNestingIndex",
+   "idShort": "SL_ASP_S_FilterNestingIndex",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SL_ASP_S_FilterNestingIndex/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Prop]",
+     "idShort": "SL_ASP_S_FilterNestingIndex",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SL_ASP_S_FilterNestingIndex/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > SL_Parameters > SL_ASP_L_FilterType",
+   "idShort": "SL_ASP_L_FilterType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SL_ASP_L_FilterType/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Prop]",
+     "idShort": "SL_ASP_L_FilterType",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SL_ASP_L_FilterType/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > SL_Parameters > SL_ASP_L_FilterNestingIndex",
+   "idShort": "SL_ASP_L_FilterNestingIndex",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SL_ASP_L_FilterNestingIndex/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Prop]",
+     "idShort": "SL_ASP_L_FilterNestingIndex",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SL_ASP_L_FilterNestingIndex/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > SL_Parameters > SL_ASP_F_Operator",
+   "idShort": "SL_ASP_F_Operator",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SL_ASP_F_Operator/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Prop]",
+     "idShort": "SL_ASP_F_Operator",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SL_ASP_F_Operator/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > SL_Parameters > SL_ASP_Indicator",
+   "idShort": "SL_ASP_Indicator",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SL_ASP_Indicator/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Prop]",
+     "idShort": "SL_ASP_Indicator",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SL_ASP_Indicator/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > SL_Parameters > SL_ASP_Value",
+   "idShort": "SL_ASP_Value",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SL_ASP_Value/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Prop]",
+     "idShort": "SL_ASP_Value",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SL_ASP_Value/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > SL_Parameters > SL_ASP_Unit",
+   "idShort": "SL_ASP_Unit",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SL_ASP_Unit/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Prop]",
+     "idShort": "SL_ASP_Unit",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SL_ASP_Unit/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > SL_Parameters > SL_ASP_Or",
+   "idShort": "SL_ASP_Or",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SL_ASP_Or/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Prop]",
+     "idShort": "SL_ASP_Or",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SL_ASP_Or/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > SF_Parameters",
+   "idShort": "SF_Parameters",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SF_Parameters/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[SMC]",
+     "idShort": "SF_Parameters",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SF_Parameters/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > SF_Parameters > SF_ASP_Limit",
+   "idShort": "SF_ASP_Limit",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SF_ASP_Limit/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Prop]",
+     "idShort": "SF_ASP_Limit",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SF_ASP_Limit/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > SF_Parameters > SF_ASP_S_FilterType",
+   "idShort": "SF_ASP_S_FilterType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SF_ASP_S_FilterType/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Prop]",
+     "idShort": "SF_ASP_S_FilterType",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SF_ASP_S_FilterType/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > SF_Parameters > SF_ASP_S_FilterNestingIndex",
+   "idShort": "SF_ASP_S_FilterNestingIndex",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SF_ASP_S_FilterNestingIndex/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Prop]",
+     "idShort": "SF_ASP_S_FilterNestingIndex",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SF_ASP_S_FilterNestingIndex/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > SF_Parameters > SF_ASP_F_Operator",
+   "idShort": "SF_ASP_F_Operator",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SF_ASP_F_Operator/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Prop]",
+     "idShort": "SF_ASP_F_Operator",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SF_ASP_F_Operator/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > SF_Parameters > SF_ASP_Indicator",
+   "idShort": "SF_ASP_Indicator",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SF_ASP_Indicator/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Prop]",
+     "idShort": "SF_ASP_Indicator",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SF_ASP_Indicator/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > SF_Parameters > SF_ASP_Value",
+   "idShort": "SF_ASP_Value",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SF_ASP_Value/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Prop]",
+     "idShort": "SF_ASP_Value",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SF_ASP_Value/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > SF_Parameters > SF_ASP_Unit",
+   "idShort": "SF_ASP_Unit",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SF_ASP_Unit/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Prop]",
+     "idShort": "SF_ASP_Unit",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SF_ASP_Unit/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > SF_Parameters > SF_ASP_ES",
+   "idShort": "SF_ASP_ES",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SF_ASP_ES/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Prop]",
+     "idShort": "SF_ASP_ES",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SF_ASP_ES/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > SF_Parameters > SF_ASP_Or",
+   "idShort": "SF_ASP_Or",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SF_ASP_Or/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Prop]",
+     "idShort": "SF_ASP_Or",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/SF_ASP_Or/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > Smr_Parameters",
+   "idShort": "Smr_Parameters",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Smr_Parameters/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[SMC]",
+     "idShort": "Smr_Parameters",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Smr_Parameters/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > Smr_Parameters > Smr_RefCValue",
+   "idShort": "Smr_RefCValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Smr_RefCValue/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Prop]",
+     "idShort": "Smr_RefCValue",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Smr_RefCValue/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > Smr_Parameters > Smr_CValue",
+   "idShort": "Smr_CValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Smr_CValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Prop]",
+     "idShort": "Smr_CValue",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Smr_CValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > Smr_Parameters > Smr_Value",
+   "idShort": "Smr_Value",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Smr_Value/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Prop]",
+     "idShort": "Smr_Value",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Smr_Value/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityFeatures > ArealSurfaceFeaturesList > ArealSurfaceFeature > Smr_Parameters > Smr_Unit",
+   "idShort": "Smr_Unit",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Smr_Unit/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[Prop]",
+     "idShort": "Smr_Unit",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Smr_Unit/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductionCriteria",
+   "idShort": "ProductionCriteria",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ProductionCriteria/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "ProductionCriteria",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ProductionCriteria/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductionCriteria > TechnicalData",
+   "idShort": "TechnicalData",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/TechnicalData/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33
+    ],
+    "row": {
+     "page": 33,
+     "type": "[Ref]",
+     "idShort": "TechnicalData",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/TechnicalData/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductionCriteria > ProductionJobOrderParameters",
+   "idShort": "ProductionJobOrderParameters",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ProductionJobOrderParameters/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     33
+    ],
+    "row": {
+     "page": 33,
+     "type": "[SMC]",
+     "idShort": "ProductionJobOrderParameters",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ProductionJobOrderParameters/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductionCriteria > ProductionJobOrderParameters > ProductionStart",
+   "idShort": "ProductionStart",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ProductionStart/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     33
+    ],
+    "row": {
+     "page": 33,
+     "type": "[Prop]",
+     "idShort": "ProductionStart",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ProductionStart/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductionCriteria > ProductionJobOrderParameters > ProductionEnd",
+   "idShort": "ProductionEnd",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ProductionEnd/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33
+    ],
+    "row": {
+     "page": 33,
+     "type": "[Prop]",
+     "idShort": "ProductionEnd",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ProductionEnd/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductionCriteria > ProductionJobOrderParameters > JobName",
+   "idShort": "JobName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/JobName/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33,
+     38
+    ],
+    "row": {
+     "page": 33,
+     "type": "[Prop]",
+     "idShort": "JobName",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/JobName/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductionCriteria > ProductionJobOrderParameters > JobOrderNumber",
+   "idShort": "JobOrderNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/JobOrderNumber/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     33,
+     38
+    ],
+    "row": {
+     "page": 33,
+     "type": "[Prop]",
+     "idShort": "JobOrderNumber",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/JobOrderNumber/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "ProductionCriteria > ProductionJobOrderParameters > PlannedPartsPerRun",
+   "idShort": "PlannedPartsPerRun",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/PlannedPartsPerRun/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33,
+     38
+    ],
+    "row": {
+     "page": 33,
+     "type": "[Prop]",
+     "idShort": "PlannedPartsPerRun",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/PlannedPartsPerRun/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductionCriteria > ProductionJobOrderParameters > PlannedOrderQuantity",
+   "idShort": "PlannedOrderQuantity",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/PlannedOrderQuantity/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "1",
+    "pages": [
+     34
+    ]
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductionCriteria > ProductionJobOrderParameters > ActualPartsInRun",
+   "idShort": "ActualPartsInRun",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ActualPartsInRun/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     38
+    ],
+    "row": {
+     "page": 38,
+     "type": "[Prop]",
+     "idShort": "ActualPartsInRun",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ActualPartsInRun/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductionCriteria > ProductionJobOrderParameters > JobFinished",
+   "idShort": "JobFinished",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/JobFinished/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     38
+    ],
+    "row": {
+     "page": 38,
+     "type": "[Prop]",
+     "idShort": "JobFinished",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/JobFinished/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PartInformation",
+   "idShort": "PartInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/PartInformation/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "PartInformation",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/PartInformation/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PartInformation > DigitalNameplate",
+   "idShort": "DigitalNameplate",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/DigitalNameplate/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     34
+    ],
+    "row": {
+     "page": 34,
+     "type": "[Ref]",
+     "idShort": "DigitalNameplate",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/DigitalNameplate/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PartInformation > PartIdentifier",
+   "idShort": "PartIdentifier",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/PartIdentifier/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     34
+    ],
+    "row": {
+     "page": 34,
+     "type": "[Prop]",
+     "idShort": "PartIdentifier",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/PartIdentifier/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PartInformation > PartNumber",
+   "idShort": "PartNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/PartNumber/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     34
+    ],
+    "row": {
+     "page": 34,
+     "type": "[Prop]",
+     "idShort": "PartNumber",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/PartNumber/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PartInformation > OrderNumber",
+   "idShort": "OrderNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/OrderNumber/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     34
+    ],
+    "row": {
+     "page": 34,
+     "type": "[Prop]",
+     "idShort": "OrderNumber",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/OrderNumber/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PartInformation > LotNumber",
+   "idShort": "LotNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/LotNumber/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     34
+    ],
+    "row": {
+     "page": 34,
+     "type": "[Prop]",
+     "idShort": "LotNumber",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/LotNumber/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PartInformation > SubmodelReference3D",
+   "idShort": "SubmodelReference3D",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/3DSubmodelReference/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PartInformation > DrawingReference2D",
+   "idShort": "DrawingReference2D",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/DrawingReference2D/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     35
+    ],
+    "row": {
+     "page": 35,
+     "type": "[Prop]",
+     "idShort": "DrawingReference2D",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/DrawingReference2D/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PartInformation > CADFileReference3D",
+   "idShort": "CADFileReference3D",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/CADFileReference3D/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityResponsibilityList",
+   "idShort": "QualityResponsibilityList",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/QualityResponsibilityList/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SML]",
+     "idShort": "QualityResponsibilityList",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/QualityResponsibilityList/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "QualityResponsibilityList > QualityResponsibility",
+   "idShort": "QualityResponsibility",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/QualityResponsibility/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     35
+    ],
+    "row": {
+     "page": 35,
+     "type": "[SMC]",
+     "idShort": "QualityResponsibility",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/QualityResponsibility/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "QualityResponsibilityList > QualityResponsibility > DepartmentName",
+   "idShort": "DepartmentName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/DepartmentName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     35
+    ],
+    "row": {
+     "page": 35,
+     "type": "[Prop]",
+     "idShort": "DepartmentName",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/DepartmentName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityResponsibilityList > QualityResponsibility > Role",
+   "idShort": "Role",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Role/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     36
+    ],
+    "row": {
+     "page": 36,
+     "type": "[Prop]",
+     "idShort": "Role",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Role/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "QualityResponsibilityList > QualityResponsibility > ContactInformation",
+   "idShort": "ContactInformation",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ContactInformation/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     36
+    ],
+    "row": {
+     "page": 36,
+     "type": "[Ref]",
+     "idShort": "ContactInformation",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ContactInformation/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TestingDevicesList",
+   "idShort": "TestingDevicesList",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/TestingDevicesList/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SML]",
+     "idShort": "TestingDevicesList",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/TestingDevicesList/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TestingDevicesList > TestingDeviceProperties",
+   "idShort": "TestingDeviceProperties",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/TestingDeviceProperties/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     36
+    ],
+    "row": {
+     "page": 36,
+     "type": "[SMC]",
+     "idShort": "TestingDeviceProperties",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/TestingDeviceProperties/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "TestingDevicesList > TestingDeviceProperties > Responsibility",
+   "idShort": "Responsibility",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Responsibility/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     36
+    ],
+    "row": {
+     "page": 36,
+     "type": "[Ref]",
+     "idShort": "Responsibility",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Responsibility/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TestingDevicesList > TestingDeviceProperties > DigitalNameplateTestingDevice",
+   "idShort": "DigitalNameplateTestingDevice",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/DigitalNameplateTestingDevice/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     36
+    ],
+    "row": {
+     "page": 36,
+     "type": "[Ref]",
+     "idShort": "DigitalNameplateTestingDevice",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/DigitalNameplateTestingDevice/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TestingDevicesList > TestingDeviceProperties > DeviceName",
+   "idShort": "DeviceName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/DeviceName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     37
+    ],
+    "row": {
+     "page": 37,
+     "type": "[Prop]",
+     "idShort": "DeviceName",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/DeviceName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TestingDevicesList > TestingDeviceProperties > MeasuringType",
+   "idShort": "MeasuringType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MeasuringType/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     37
+    ],
+    "row": {
+     "page": 37,
+     "type": "[Prop]",
+     "idShort": "MeasuringType",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MeasuringType/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TestingDevicesList > TestingDeviceProperties > MeasuringUnit",
+   "idShort": "MeasuringUnit",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MeasuringUnit/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     37
+    ],
+    "row": {
+     "page": 37,
+     "type": "[Prop]",
+     "idShort": "MeasuringUnit",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MeasuringUnit/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TestingDevicesList > TestingDeviceProperties > MeasuringRange",
+   "idShort": "MeasuringRange",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MeasuringRange/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     37
+    ],
+    "row": {
+     "page": 37,
+     "type": "[Range]",
+     "idShort": "MeasuringRange",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MeasuringRange/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TestingDevicesList > TestingDeviceProperties > Resolution",
+   "idShort": "Resolution",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Resolution/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     37
+    ],
+    "row": {
+     "page": 37,
+     "type": "[Prop]",
+     "idShort": "Resolution",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Resolution/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TestingDevicesList > TestingDeviceProperties > Accuracy",
+   "idShort": "Accuracy",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Accuracy/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     37
+    ],
+    "row": {
+     "page": 37,
+     "type": "[Prop]",
+     "idShort": "Accuracy",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Accuracy/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TestingDevicesList > TestingDeviceProperties > Norm",
+   "idShort": "Norm",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Norm/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     37
+    ],
+    "row": {
+     "page": 37,
+     "type": "[Prop]",
+     "idShort": "Norm",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Norm/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "TestingDevicesList > TestingDeviceProperties > CalibrationCertificate",
+   "idShort": "CalibrationCertificate",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/CalibrationCertificate/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     37
+    ],
+    "row": {
+     "page": 37,
+     "type": "[Ref]",
+     "idShort": "CalibrationCertificate",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/CalibrationCertificate/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "MetrologyJobResults",
+   "idShort": "MetrologyJobResults",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MetrologyJobResults/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "MetrologyJobResults",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MetrologyJobResults/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "MetrologyJobResults > JobStart",
+   "idShort": "JobStart",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/JobStart/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     38
+    ],
+    "row": {
+     "page": 38,
+     "type": "[Prop]",
+     "idShort": "JobStart",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/JobStart/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MetrologyJobResults > JobEnd",
+   "idShort": "JobEnd",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/JobEnd/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     38
+    ],
+    "row": {
+     "page": 38,
+     "type": "[Prop]",
+     "idShort": "JobEnd",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/JobEnd/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MetrologyJobResults > JobName",
+   "idShort": "JobName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/JobName/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33,
+     38
+    ],
+    "row": {
+     "page": 33,
+     "type": "[Prop]",
+     "idShort": "JobName",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/JobName/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MetrologyJobResults > JobOrderNumber",
+   "idShort": "JobOrderNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/JobOrderNumber/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     33,
+     38
+    ],
+    "row": {
+     "page": 33,
+     "type": "[Prop]",
+     "idShort": "JobOrderNumber",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/JobOrderNumber/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "MetrologyJobResults > PlannedPartsPerRun",
+   "idShort": "PlannedPartsPerRun",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/PlannedPartsPerRun/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33,
+     38
+    ],
+    "row": {
+     "page": 33,
+     "type": "[Prop]",
+     "idShort": "PlannedPartsPerRun",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/PlannedPartsPerRun/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MetrologyJobResults > ActualPartsInRun",
+   "idShort": "ActualPartsInRun",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ActualPartsInRun/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     38
+    ],
+    "row": {
+     "page": 38,
+     "type": "[Prop]",
+     "idShort": "ActualPartsInRun",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ActualPartsInRun/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MetrologyJobResults > JobFinished",
+   "idShort": "JobFinished",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/JobFinished/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     38
+    ],
+    "row": {
+     "page": 38,
+     "type": "[Prop]",
+     "idShort": "JobFinished",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/JobFinished/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MetrologyJobResults > MetrologyResultsList",
+   "idShort": "MetrologyResultsList",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MetrologyResultsList/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     38
+    ],
+    "row": {
+     "page": 38,
+     "type": "[SML]",
+     "idShort": "MetrologyResultsList",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MetrologyResultsList/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MetrologyJobResults > MetrologyResultsList > MetrologyData",
+   "idShort": "MetrologyData",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MetrologyData/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     39
+    ],
+    "row": {
+     "page": 39,
+     "type": "[SMC]",
+     "idShort": "MetrologyData",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MetrologyData/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "MetrologyJobResults > MetrologyResultsList > MetrologyData > QualityFeatureReference",
+   "idShort": "QualityFeatureReference",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/QualityFeatureReference/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     39
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Ref]",
+     "idShort": "QualityFeatureReference",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/QualityFeatureReference/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MetrologyJobResults > MetrologyResultsList > MetrologyData > TestingDeviceReference",
+   "idShort": "TestingDeviceReference",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/TestingDeviceReference/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     39
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Ref]",
+     "idShort": "TestingDeviceReference",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/TestingDeviceReference/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MetrologyJobResults > MetrologyResultsList > MetrologyData > PartReference",
+   "idShort": "PartReference",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/PartReference/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     39
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Ref]",
+     "idShort": "PartReference",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/PartReference/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MetrologyJobResults > MetrologyResultsList > MetrologyData > ID",
+   "idShort": "ID",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ID/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Prop]",
+     "idShort": "ID",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/ID/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MetrologyJobResults > MetrologyResultsList > MetrologyData > Description",
+   "idShort": "Description",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Description/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Prop]",
+     "idShort": "Description",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Description/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MetrologyJobResults > MetrologyResultsList > MetrologyData > EngineeringUnit",
+   "idShort": "EngineeringUnit",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/EngineeringUnit/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     19,
+     25,
+     39
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "MetrologyJobResults > MetrologyResultsList > MetrologyData > QualityActualValue",
+   "idShort": "QualityActualValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/QualityActualValue/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     39
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Prop]",
+     "idShort": "QualityActualValue",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/QualityActualValue/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "MetrologyJobResults > MetrologyResultsList > MetrologyData > QualityActualAttribute",
+   "idShort": "QualityActualAttribute",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/QualityActualAttribute/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     40
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Prop]",
+     "idShort": "QualityActualAttribute",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/QualityActualAttribute/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "MetrologyJobResults > MetrologyResultsList > MetrologyData > QualityInSpec",
+   "idShort": "QualityInSpec",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/QualityInSpec/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     40
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Prop]",
+     "idShort": "QualityInSpec",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/QualityInSpec/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MetrologyJobResults > MetrologyResultsList > MetrologyData > Deviation",
+   "idShort": "Deviation",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Deviation/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Prop]",
+     "idShort": "Deviation",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Deviation/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MetrologyJobResults > MetrologyResultsList > MetrologyData > AverageValue",
+   "idShort": "AverageValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/AverageValue/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Prop]",
+     "idShort": "AverageValue",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/AverageValue/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MetrologyJobResults > MetrologyResultsList > MetrologyData > MinValue",
+   "idShort": "MinValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MinValue/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Prop]",
+     "idShort": "MinValue",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MinValue/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MetrologyJobResults > MetrologyResultsList > MetrologyData > MaxValue",
+   "idShort": "MaxValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MaxValue/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Prop]",
+     "idShort": "MaxValue",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MaxValue/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MetrologyJobResults > MetrologyResultsList > MetrologyData > Standarddeviation",
+   "idShort": "Standarddeviation",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Standarddeviation/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Prop]",
+     "idShort": "Standarddeviation",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/Standarddeviation/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MetrologyJobResults > MetrologyResultsList > MetrologyData > DataAggregatedFromSeries",
+   "idShort": "DataAggregatedFromSeries",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/DataAggregatedFromSeries/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     40
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Prop]",
+     "idShort": "DataAggregatedFromSeries",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/DataAggregatedFromSeries/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MetrologyJobResults > MetrologyResultsList > MetrologyData > MeasuredValuesList",
+   "idShort": "MeasuredValuesList",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MeasuredValuesList/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     40
+    ],
+    "row": {
+     "page": 40,
+     "type": "[SML]",
+     "idShort": "MeasuredValuesList",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MeasuredValuesList/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MetrologyJobResults > MetrologyResultsList > MetrologyData > MeasuredValuesList > MeasuredValue",
+   "idShort": "MeasuredValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MeasuredValue/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     41
+    ],
+    "row": {
+     "page": 41,
+     "type": "[Prop]",
+     "idShort": "MeasuredValue",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MeasuredValue/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "MetrologyJobResults > MetrologyResultsList > MetrologyData > MetrologyDataFile",
+   "idShort": "MetrologyDataFile",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MetrologyDataFile/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     41
+    ],
+    "row": {
+     "page": 41,
+     "type": "[SMC]",
+     "idShort": "MetrologyDataFile",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MetrologyDataFile/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MetrologyJobResults > MetrologyResultsList > MetrologyData > MetrologyDataFile > FileLink",
+   "idShort": "FileLink",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/File/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "MetrologyJobResults > MetrologyResultsList > MetrologyData > MetrologyDataFile > MimeType",
+   "idShort": "MimeType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MimeType/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     41
+    ],
+    "row": {
+     "page": 41,
+     "type": "[Prop]",
+     "idShort": "MimeType",
+     "semanticId": "https://admin-shell.io/idta/QualityControlForMachining/MimeType/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  }
+ ]
+}

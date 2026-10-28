@@ -1,0 +1,344 @@
+{
+ "skill": "aasx-format",
+ "skill_version": "1.1.0",
+ "description": "Probes the metamodel side of AASX packaging that IS verifiable on disk: File/Blob value and contentType rules per revision, package-relative File paths, defaultThumbnail Resource, the removed aas-spec-split relationship. Since 2026-10-28 also Part 5 v3.1/v3.2 (package MIME type, relationship namespace).",
+ "items": [
+  {
+   "id": "aasx-format-001",
+   "question": "Under AAS metamodel V3.0 (JSON serialization), may a File submodel element omit contentType?",
+   "expected_answer": "No. In V3.0 File/contentType is mandatory: the 3.0 JSON schema lists contentType as required for File (it only became optional in 3.1).",
+   "must_include": [
+    [
+     "mandatory",
+     "required"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Official AAS JSON schema",
+    "revision": "3.0",
+    "section": "definitions/File (allOf[1].required)",
+    "file": "vendor/schemas/3.0/aas.json",
+    "lines": "697-702",
+    "quote": "\"const\": \"File\" } }, \"required\": [ \"contentType\" ]"
+   },
+   "tags": [
+    "revision-specific",
+    "cardinality",
+    "File"
+   ]
+  },
+  {
+   "id": "aasx-format-002",
+   "question": "In AAS 3.1 XML, is a <file> element that carries a <value> but no <contentType> schema-valid?",
+   "expected_answer": "Yes. In 3.1 File/contentType is optional (minOccurs=\"0\" in the 3.1 XSD); it was mandatory only in 3.0.",
+   "must_include": [
+    "optional"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Official AAS XML schema",
+    "revision": "3.1",
+    "section": "xs:group name=\"file\", element contentType",
+    "file": "vendor/schemas/3.1/AAS.xsd",
+    "lines": "412",
+    "quote": "<xs:element name=\"contentType\" minOccurs=\"0\" maxOccurs=\"1\">"
+   },
+   "tags": [
+    "revision-specific",
+    "cardinality",
+    "commonly-misreported-invalid",
+    "File"
+   ]
+  },
+  {
+   "id": "aasx-format-003",
+   "question": "What is the maximum length of a File/Blob contentType string under AAS metamodel V3.0?",
+   "expected_answer": "100 characters in V3.0 (V3.1 raised it to 128).",
+   "must_include": [
+    "100"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (as formalised in aas-core-meta)",
+    "revision": "3.0",
+    "section": "class Content_type (invariants)",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_0.py",
+    "lines": "1378-1381",
+    "quote": "Content type shall have a maximum length of 100 characters."
+   },
+   "tags": [
+    "revision-specific",
+    "length-limit"
+   ]
+  },
+  {
+   "id": "aasx-format-004",
+   "question": "What is the maximum length of a File/Blob contentType string under AAS metamodel V3.1?",
+   "expected_answer": "128 characters in V3.1 (it was 100 in V3.0).",
+   "must_include": [
+    "128"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (as formalised in aas-core-meta)",
+    "revision": "3.1",
+    "section": "class Content_type (invariants)",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+    "lines": "1366-1369",
+    "quote": "Content type shall have a maximum length of 128 characters."
+   },
+   "tags": [
+    "revision-specific",
+    "length-limit"
+   ]
+  },
+  {
+   "id": "aasx-format-005",
+   "question": "A packager writes contentType \"pdf\" on a File element that points at a datasheet inside the .aasx. Is that a conformant contentType in AAS 3.1?",
+   "expected_answer": "No. contentType must be a valid MIME media type according to RFC 2046 (type/subtype), e.g. application/pdf; a bare extension like \"pdf\" is not.",
+   "must_include": [
+    "application/pdf",
+    [
+     "RFC 2046",
+     "RFC2046"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (as formalised in aas-core-meta)",
+    "revision": "3.1",
+    "section": "class Content_type (invariant matches_MIME_type)",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+    "lines": "1362-1365",
+    "quote": "The value must represent a valid content MIME type according to RFC 2046."
+   },
+   "tags": [
+    "value-syntax",
+    "File"
+   ]
+  },
+  {
+   "id": "aasx-format-006",
+   "question": "A PDF is packed inside the .aasx as a supplementary file. Should the File element's value be an absolute path or a relative one, and relative to what?",
+   "expected_answer": "A relative path, relative to the package root, should be used when the file is part of the serialized package; an absolute path is for a file that exists independently of the AAS.",
+   "must_include": [
+    "relative",
+    "package root"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel",
+    "revision": "3.0",
+    "section": "5.3.7.9 File Attributes (note before Class: File)",
+    "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+    "page": 72,
+    "quote": "A relative path, relative to the package root, should be used if the file is part of a serialized package of the Asset Administration Shell."
+   },
+   "tags": [
+    "File",
+    "package-path"
+   ]
+  },
+  {
+   "id": "aasx-format-007",
+   "question": "Is a File element that has a contentType but no value (no file attached yet) schema-valid in AAS 3.1 XML?",
+   "expected_answer": "Yes. File/value is optional (minOccurs=\"0\", cardinality 0..1), so an empty File without a value is valid.",
+   "must_include": [
+    "optional"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Official AAS XML schema",
+    "revision": "3.1",
+    "section": "xs:group name=\"file\", element value",
+    "file": "vendor/schemas/3.1/AAS.xsd",
+    "lines": "403",
+    "quote": "<xs:element name=\"value\" minOccurs=\"0\" maxOccurs=\"1\">"
+   },
+   "tags": [
+    "cardinality",
+    "commonly-misreported-invalid",
+    "File"
+   ]
+  },
+  {
+   "id": "aasx-format-008",
+   "question": "In AAS 3.1, what syntax and maximum length must the value of a File element (Path_type) satisfy?",
+   "expected_answer": "Path_type: a string of 1 to 2048 characters conformant to a URI as per RFC 2396.",
+   "must_include": [
+    "2048",
+    [
+     "RFC 2396",
+     "RFC2396"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (as formalised in aas-core-meta)",
+    "revision": "3.1",
+    "section": "class Path_type (invariant matches_RFC_2396)",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+    "lines": "1389-1392",
+    "quote": "String with max 2048 and min 1 characters conformant to a URI as per RFC 2396."
+   },
+   "tags": [
+    "value-syntax",
+    "length-limit",
+    "File"
+   ]
+  },
+  {
+   "id": "aasx-format-009",
+   "question": "Does a Blob submodel element point at a supplementary part inside the .aasx the way a File element does?",
+   "expected_answer": "No. In contrast to File, a Blob stores the file content directly as its value; only File holds a path/locator to a file.",
+   "must_include": [
+    "directly"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (as formalised in aas-core-meta)",
+    "revision": "3.1",
+    "section": "class Blob, attribute value (note)",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+    "lines": "3218-3221",
+    "quote": "In contrast to the file property the file content is stored directly as value"
+   },
+   "tags": [
+    "Blob",
+    "File-vs-Blob"
+   ]
+  },
+  {
+   "id": "aasx-format-010",
+   "question": "How must the value of a Blob be encoded in the AAS serializations?",
+   "expected_answer": "As a base64 string.",
+   "must_include": [
+    "base64"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel",
+    "revision": "3.0",
+    "section": "7.2.2 Encoding",
+    "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+    "page": 112,
+    "quote": "Blobs require the following encoding: base64 string."
+   },
+   "tags": [
+    "Blob",
+    "encoding"
+   ]
+  },
+  {
+   "id": "aasx-format-011",
+   "question": "Can a V3 AASX split a single Asset Administration Shell across several parts using the aas-spec-split relationship?",
+   "expected_answer": "No. Splitting an AAS in the AASX is no longer allowed since V3.0; the relationship type aas-spec-split was removed.",
+   "must_include": [
+    "removed"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (Annex: Metamodel Changes V3.0RC01 vs. V2.0.1)",
+    "revision": "3.0",
+    "section": "Metamodel Changes V3.0RC01 w/o Security Part, major changes",
+    "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+    "page": 199,
+    "quote": "no splitting of an Asset Administration Shell allowed any longer (i.e. relationship type aas-spec-split removed)"
+   },
+   "tags": [
+    "removed-between-revisions",
+    "relationships"
+   ]
+  },
+  {
+   "id": "aasx-format-012",
+   "question": "Which part of the AAS specification series defines the AASX package exchange format?",
+   "expected_answer": "Part 5 (IDTA-01005); Part 1 covers the metamodel, Part 4 security, the Part 3 series data specifications.",
+   "must_include": [
+    [
+     "Part 5",
+     "01005"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel (Preamble)",
+    "revision": "3.0",
+    "section": "Preamble / document split",
+    "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+    "page": 12,
+    "quote": "Part 5 covers the AASX package exchange format"
+   },
+   "tags": [
+    "document-series"
+   ]
+  },
+  {
+   "id": "aasx-format-013",
+   "question": "In AAS 3.1, what must AssetInformation/defaultThumbnail (type Resource) contain: is its contentType required?",
+   "expected_answer": "Only path is required; contentType of a Resource is optional.",
+   "must_include": [
+    "path",
+    "optional"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Official AAS JSON schema",
+    "revision": "3.1",
+    "section": "definitions/Resource (required)",
+    "file": "vendor/schemas/3.1/aas.json",
+    "lines": "1305-1308",
+    "quote": "\"required\": [ \"path\" ]"
+   },
+   "tags": [
+    "thumbnail",
+    "cardinality"
+   ]
+  },
+  {
+   "id": "aasx-format-014",
+   "question": "Which MIME type does IDTA-01005 Part 5 v3.2 define for an .aasx package, and what did it replace?",
+   "expected_answer": "application/aas+zip, registered at IANA; it replaced the provisory application/asset-administration-shell-package of v3.1.",
+   "must_include": [
+    "application/aas+zip",
+    "application/asset-administration-shell-package"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01005 Part 5 AASX Package File Format (official PDF, paged text)",
+    "revision": "3.2",
+    "file": "idta-specs:txt/IDTA-01005-3-2_SpecificationAssetAdministrationShell_Part5_PackageFileFormat.txt",
+    "page": 14,
+    "quote": "MIME-type for the AASX format: application/aas+zip",
+    "section": "Conventions for the AASX"
+   },
+   "tags": [
+    "revision-specific",
+    "mime-type"
+   ]
+  },
+  {
+   "id": "aasx-format-015",
+   "question": "Is http://www.admin-shell.io/aasx/relationships a valid relationship namespace for AASX, and which form should a writer emit?",
+   "expected_answer": "It is deprecated, not forbidden: readers should still accept it, but writers should emit the non-www namespace http://admin-shell.io/aasx/relationships.",
+   "must_include": [
+    "deprecated",
+    "http://admin-shell.io/aasx/relationships"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01005 Part 5 AASX Package File Format (official PDF, paged text)",
+    "revision": "3.1 (release 25-01)",
+    "file": "idta-specs:txt/IDTA_01005-25-01_AAS-Specification_Part5_AASXPackageFileFormat.txt",
+    "page": 15,
+    "quote": "The following relationship path is deprecated: http://www.admin-shell.io/aasx/relationships",
+    "section": "Conventions for the AASX"
+   },
+   "tags": [
+    "namespace",
+    "commonly-misreported-invalid"
+   ]
+  }
+ ]
+}

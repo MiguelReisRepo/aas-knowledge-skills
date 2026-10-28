@@ -1,0 +1,305 @@
+{
+  "skill": "aas-bom",
+  "skill_version": "1.0.0",
+  "description": "IDTA 02011 Hierarchical Structures (BoM) 1.0/1.1: ArcheTypes, EntryNode/Node rules, HasPart XOR IsPartOf, BulkCount, SameAs, version-paired semanticIds, AASd-014 across metamodel revisions.",
+  "items": [
+    {
+      "id": "aas-bom-001",
+      "question": "Which values may the ArcheType property of a HierarchicalStructures submodel take?",
+      "expected_answer": "Exactly three: Full, OneDown and OneUp.",
+      "must_include": [
+        "Full",
+        "OneDown",
+        "OneUp"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02011 Hierarchical Structures enabling Bills of Material",
+        "revision": "1.0 (April 2023)",
+        "section": "2.2, Table 3, row ArcheType",
+        "file": "skills/aas-bom/IDTA-02011-1-0_HierarchicalStructures.txt",
+        "page": 14,
+        "quote": "ArcheType of the Submodel, there are three allowed enumeration entries: 1. \"Full\", 2. \"OneDown\" and 3. \"OneUp\"."
+      },
+      "tags": [
+        "value-list"
+      ]
+    },
+    {
+      "id": "aas-bom-002",
+      "question": "May the EntryNode of a Bill-of-Material submodel be a co-managed Entity for a part without its own AAS?",
+      "expected_answer": "No. The EntryNode must be a self-managed Entity reflecting the asset administered by the AAS the submodel belongs to.",
+      "must_include": [
+        [
+          "self-managed",
+          "SelfManagedEntity"
+        ]
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02011 Hierarchical Structures enabling Bills of Material",
+        "revision": "1.0 (April 2023)",
+        "section": "2.2, Table 3, row EntryNode",
+        "file": "skills/aas-bom/IDTA-02011-1-0_HierarchicalStructures.txt",
+        "page": 14,
+        "quote": "Base entry point for the Entity tree in this Submodel, this must be a Self-managed Entity reflecting the Assets administrated in the AAS this Submodel is part of."
+      },
+      "tags": [
+        "mandatory",
+        "EntryNode"
+      ]
+    },
+    {
+      "id": "aas-bom-003",
+      "question": "Can one HierarchicalStructures submodel use both HasPart and IsPartOf relationships?",
+      "expected_answer": "No. Either HasPart or IsPartOf must be used, not both.",
+      "must_include": [
+        [
+          "not both",
+          "never both",
+          "XOR",
+          "not combine",
+          "cannot use both"
+        ]
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02011 Hierarchical Structures enabling Bills of Material",
+        "revision": "1.0 (April 2023)",
+        "section": "2.3, Table 4, row HasPart",
+        "file": "skills/aas-bom/IDTA-02011-1-0_HierarchicalStructures.txt",
+        "page": 16,
+        "quote": "Modeling of logical connections between components and sub-components. Either this or \"IsPartOf\" must be used, not both."
+      },
+      "tags": [
+        "relationship-rules"
+      ]
+    },
+    {
+      "id": "aas-bom-004",
+      "question": "We need both a OneDown and a OneUp view of the same machine. Can one submodel instance carry both archetypes?",
+      "expected_answer": "No. An instance must only use one archetype; a second (or third) submodel with the other archetype must be created next to it.",
+      "must_include": [
+        [
+          "second",
+          "separate",
+          "another",
+          "additional"
+        ]
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02011 Hierarchical Structures enabling Bills of Material",
+        "revision": "1.0 (April 2023)",
+        "section": "1.5.1.5 Other design decisions",
+        "file": "skills/aas-bom/IDTA-02011-1-0_HierarchicalStructures.txt",
+        "page": 11,
+        "quote": "An instance of this Submodel must only use one archetype. If more than one type shall be modeled a second or third Submodel with the specific archetype must be created next to the existing Submodel."
+      },
+      "tags": [
+        "archetype"
+      ]
+    },
+    {
+      "id": "aas-bom-005",
+      "question": "For a distributed hierarchy built from several submodels, which archetypes may be mixed?",
+      "expected_answer": "Only Full and OneDown; the OneUp archetype cannot be mixed with the other two.",
+      "must_include": [
+        "Full",
+        "OneDown"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02011 Hierarchical Structures enabling Bills of Material",
+        "revision": "1.0 (April 2023)",
+        "section": "1.5.1.5 Other design decisions",
+        "file": "skills/aas-bom/IDTA-02011-1-0_HierarchicalStructures.txt",
+        "page": 11,
+        "quote": "The \"OneUp\" archetype cannot be used in a mixed (only Full and OneDown) form with the other two forms."
+      },
+      "tags": [
+        "archetype"
+      ]
+    },
+    {
+      "id": "aas-bom-006",
+      "question": "Our motor's BoM Node for a specific serial-numbered sensor (an instance asset) carries BulkCount=1. Is that allowed, and what is BulkCount's valueType?",
+      "expected_answer": "No - BulkCount (0..1, xs:unsignedLong) may only be used when the Node references an asset of kind Type (e.g. a 10x M4x30 type screw), not an instance.",
+      "must_include": [
+        "unsignedLong",
+        [
+          "kind type",
+          "Type"
+        ]
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02011 Hierarchical Structures enabling Bills of Material",
+        "revision": "1.0 (April 2023)",
+        "section": "2.4, Table 5, row BulkCount",
+        "file": "skills/aas-bom/IDTA-02011-1-0_HierarchicalStructures.txt",
+        "page": 18,
+        "quote": "Additional constraint: With bulk count only a reference to an asset with kind type is allowed, e.g., the M4x30 type asset. [unsignedLong] 0..1"
+      },
+      "tags": [
+        "BulkCount",
+        "datatype"
+      ]
+    },
+    {
+      "id": "aas-bom-007",
+      "question": "May a HasPart relationship's second attribute be an ExternalReference to the child asset's globalAssetId?",
+      "expected_answer": "No. HasPart/IsPartOf must contain an EntryNode or Node as first and second and shall only reference EntryNodes or Nodes in the same Submodel; the asset link is the Node Entity's globalAssetId.",
+      "must_include": [
+        "same Submodel"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02011 Hierarchical Structures enabling Bills of Material",
+        "revision": "1.0 (April 2023)",
+        "section": "1.5.1.5 Other design decisions",
+        "file": "skills/aas-bom/IDTA-02011-1-0_HierarchicalStructures.txt",
+        "page": 11,
+        "quote": "The relationships must contain an EntryNode or Node as first and second attribute. The relationships shall only reference EntryNodes or Nodes in the same Submodel."
+      },
+      "tags": [
+        "relationship-rules",
+        "reference-form"
+      ]
+    },
+    {
+      "id": "aas-bom-008",
+      "question": "Inside a Node, which relationship may have its second attribute point to an Entity in a different submodel?",
+      "expected_answer": "SameAs - its second attribute may contain an Entity element in a different Submodel (even of another specification); HasPart/IsPartOf stay within the same Submodel.",
+      "must_include": [
+        "SameAs"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02011 Hierarchical Structures enabling Bills of Material",
+        "revision": "1.0 (April 2023)",
+        "section": "2.4, Table 5, row SameAs",
+        "file": "skills/aas-bom/IDTA-02011-1-0_HierarchicalStructures.txt",
+        "page": 17,
+        "quote": "The Second attribute may contain an Entity element in a different Submodel, including Submodels of a different specification."
+      },
+      "tags": [
+        "relationship-rules"
+      ]
+    },
+    {
+      "id": "aas-bom-009",
+      "question": "What submodel semanticId does IDTA 02011 v1.1 use, and what changed against v1.0?",
+      "expected_answer": "https://admin-shell.io/idta/HierarchicalStructures/1/1/Submodel; v1.1 changed only the submodel semanticId (v1.0: .../1/0/Submodel) - the element semanticIds such as EntryNode/1/0 stay at 1/0.",
+      "must_include": [
+        "HierarchicalStructures/1/1/Submodel"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02011 Hierarchical Structures enabling Bills of Material",
+        "revision": "1.1 (June 2024, admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06)",
+        "section": "Annex B, Changes Version 1.0 to Version 1.1, Table 1",
+        "file": "idta-pdfs:txt/published/Hierarchical Structures enabling Bills of Material/1/1/IDTA 02011-1-1_Submodel_HierarchicalStructuresEnablingBoM.txt",
+        "page": 20,
+        "quote": "Change of semanticId to https://admin-shell.io/idta/HierarchicalStructures/1/1/Submodel"
+      },
+      "tags": [
+        "semanticId",
+        "version-pairing",
+        "revision-specific"
+      ],
+      "notes": "Official 1.1.1 template JSON keeps EntryNode/Node/HasPart/IsPartOf/SameAs/BulkCount/ArcheType at .../1/0."
+    },
+    {
+      "id": "aas-bom-010",
+      "question": "What submodel semanticId does the IDTA 02011 v1.0 specification give?",
+      "expected_answer": "https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel (v1.1 later changed it to .../1/1/Submodel).",
+      "must_include": [
+        "HierarchicalStructures/1/0/Submodel"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02011 Hierarchical Structures enabling Bills of Material",
+        "revision": "1.0 (April 2023)",
+        "section": "2.2, Table 3 Attribute of the Submodel",
+        "file": "skills/aas-bom/IDTA-02011-1-0_HierarchicalStructures.txt",
+        "page": 14,
+        "quote": "[IRI] https://admin-shell.io/idta/HierarchicalStructures/1/0/Submodel"
+      },
+      "tags": [
+        "semanticId",
+        "revision-specific"
+      ]
+    },
+    {
+      "id": "aas-bom-011",
+      "question": "Under AAS metamodel 3.0, may a co-managed Node Entity in a Full BoM carry a globalAssetId? What changed in 3.1?",
+      "expected_answer": "Not under 3.0: AASd-014 requires globalAssetId or specificAssetIds for self-managed entities and says they are not existing otherwise. 3.1 dropped that last sentence, so a co-managed entity may carry them.",
+      "must_include": [
+        [
+          "AASd-014",
+          "AASd-14"
+        ],
+        "3.1"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA-01001 Part 1 Metamodel (as formalised in aas-core-meta)",
+        "revision": "3.0",
+        "section": "Constraint AASd-014 (class Entity invariant)",
+        "file": "vendor/aas-core-meta/aas-core-meta-v3_0.py",
+        "lines": "3490-3494",
+        "quote": ":attr:`Entity_type.Self_managed_entity`. They are not existing otherwise."
+      },
+      "tags": [
+        "metamodel-revision",
+        "AASd-014",
+        "commonly-misreported-invalid"
+      ],
+      "notes": "aas-core-meta-v3_1.py lines 3437-3440 (and v3_2 3676-3679) keep only the self-managed requirement."
+    },
+    {
+      "id": "aas-bom-012",
+      "question": "Can an EntryNode have no child Node?",
+      "expected_answer": "No. At least one nested Node shall be created under the EntryNode (Node cardinality 1..*), and HasPart or IsPartOf (per ArcheType) uses that Node as second attribute.",
+      "must_include": [
+        [
+          "at least one",
+          "1..*"
+        ]
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02011 Hierarchical Structures enabling Bills of Material",
+        "revision": "1.0 (April 2023)",
+        "section": "2.3, Table 4, row Node",
+        "file": "skills/aas-bom/IDTA-02011-1-0_HierarchicalStructures.txt",
+        "page": 15,
+        "quote": "At least one nested Node shall be created as a SubmodelElement for the EntryNode."
+      },
+      "tags": [
+        "cardinality"
+      ]
+    },
+    {
+      "id": "aas-bom-013",
+      "question": "Two sibling child Nodes under the same parent both want idShort 'Sensor'. Is that acceptable?",
+      "expected_answer": "No. A Node's name can be chosen freely but must be unique in its hierarchical (sub-)level, so the siblings need distinct idShorts.",
+      "must_include": [
+        "unique"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02011 Hierarchical Structures enabling Bills of Material",
+        "revision": "1.0 (April 2023)",
+        "section": "2.4, Table 5 SubmodelElements of Node (Explanation)",
+        "file": "skills/aas-bom/IDTA-02011-1-0_HierarchicalStructures.txt",
+        "page": 17,
+        "quote": "The name of a node can be picked freely but it must be unique in its hierarchical (sub-)level."
+      },
+      "tags": [
+        "idShort"
+      ]
+    }
+  ]
+}

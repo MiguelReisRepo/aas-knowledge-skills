@@ -1,0 +1,2686 @@
+{
+ "template": "Provision of 3D Models",
+ "version": "1.0.1",
+ "submodelIdShort": "Models3D",
+ "submodelSemanticId": "https://admin-shell.io/idta/Models3D/1/0",
+ "json": {
+  "path": "published/Provision of 3D Models/1/0/1/IDTA 02026-1-0-1_Template_ProvisionOf3DModels_forAASMetamodelV3.1.json",
+  "gitBlob": "403688525535af0787f910b88823dea13da171ae"
+ },
+ "pdf": {
+  "path": "published/Provision of 3D Models/1/0/IDTA_02026-1-0_Submodel_ProvisionOf3DModels.pdf",
+  "relation": "ancestor folder (bug-fix release without its own PDF)",
+  "sha256": "4f1fc842d82e269827a6770577cad17ac5c4c8e49e5a515d92dc25770d5328d9",
+  "annexA": [
+   {
+    "page": 124,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 124,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "unverified": 36,
+  "agree": 71,
+  "divergent": 1,
+  "json-only": 7,
+  "none": 2
+ },
+ "elements": [
+  {
+   "path": "Model3D",
+   "idShort": "Model3D",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1"
+    ],
+    "pages": [
+     18
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1"
+    ],
+    "pages": [
+     18
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "Model3D > [0] > File",
+   "idShort": "File",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "File",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileId",
+   "idShort": "FileId",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileId/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1"
+    ],
+    "pages": [
+     21
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileId > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileId/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1"
+    ],
+    "pages": [
+     21
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "Model3D > [0] > File > FileId > [0] > FileDomainId",
+   "idShort": "FileDomainId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileId/FileDomaniId/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "FileDomainId",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileId/FileDomaniId/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileId > [0] > ValueId",
+   "idShort": "ValueId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileId/ValueId/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "ValueId",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileId/ValueId/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileId > [0] > IsPrimary",
+   "idShort": "IsPrimary",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileId/IsPrimary/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "IsPrimary",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileId/IsPrimary/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..*"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion",
+   "idShort": "FileVersion",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     21
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     21
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > Title",
+   "idShort": "Title",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/Title/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[MLP]",
+     "idShort": "Title",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/Title/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > FileName",
+   "idShort": "FileName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/FileName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Prop]",
+     "idShort": "FileName",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/FileName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > FileVersionId",
+   "idShort": "FileVersionId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/FileVersionID/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Prop]",
+     "idShort": "FileVersionId",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/FileVersionID/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > StatusValue",
+   "idShort": "StatusValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/StatusValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Prop]",
+     "idShort": "StatusValue",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/StatusValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > SetDate",
+   "idShort": "SetDate",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SetDate/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Prop]",
+     "idShort": "SetDate",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SetDate/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > BasedOn",
+   "idShort": "BasedOn",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/BasedOn/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     26
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > BasedOn > [0]",
+   "idShort": "",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/BasedOn/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     26
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > RefersTo",
+   "idShort": "RefersTo",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/RefersTo/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     26
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > RefersTo > [0]",
+   "idShort": "",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/RefersTo/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     26
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > PreviewFile",
+   "idShort": "PreviewFile",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/PreviewFile/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[File]",
+     "idShort": "PreviewFile",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/PreviewFile/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > DigitalFile",
+   "idShort": "DigitalFile",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/DigitalFile/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[File]",
+     "idShort": "DigitalFile",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/DigitalFile/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > ExternalFile",
+   "idShort": "ExternalFile",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ExternalFile/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[SML]",
+     "idShort": "ExternalFile",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ExternalFile/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > ExternalFile > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ExternalFile/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     26
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > ExternalFile > [0] > ExternalUrl",
+   "idShort": "ExternalUrl",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ExternalFile/ExternalUrl/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     34
+    ],
+    "row": {
+     "page": 34,
+     "type": "[Prop]",
+     "idShort": "ExternalUrl",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ExternalFile/ExternalUrl/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > ExternalFile > [0] > FileIdentifier",
+   "idShort": "FileIdentifier",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ExternalFile/FileIdentifier/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     34
+    ],
+    "row": {
+     "page": 34,
+     "type": "[Prop]",
+     "idShort": "FileIdentifier",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ExternalFile/FileIdentifier/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > ExternalFile > [0] > HostOrganization",
+   "idShort": "HostOrganization",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ExternalFile/HostOrganization/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     34
+    ],
+    "row": {
+     "page": 34,
+     "type": "[SMC]",
+     "idShort": "HostOrganization",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ExternalFile/HostOrganization/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > ExternalFile > [0] > HostOrganization > OrganizationName",
+   "idShort": "OrganizationName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ExternalFile/HostOrganization/OrganizationName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > ExternalFile > [0] > HostOrganization > OrganizationOfficialName",
+   "idShort": "OrganizationOfficialName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ExternalFile/HostOrganization/OrganizationOfficialName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > ExternalFile > [0] > Api",
+   "idShort": "Api",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ExternalFile/Api/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     34
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > ExternalFile > [0] > Api > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ExternalFile/Api/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     34
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > ExternalFile > [0] > Api > [0] > ApiVersion",
+   "idShort": "ApiVersion",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ExternalFile/Api/ApiVersion/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     38
+    ],
+    "row": {
+     "page": 38,
+     "type": "[Prop]",
+     "idShort": "ApiVersion",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ExternalFile/Api/ApiVersion/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > ExternalFile > [0] > Api > [0] > ApiDocumentationUrl",
+   "idShort": "ApiDocumentationUrl",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ExternalFile/Api/ApiDocumentationUrl/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     38
+    ],
+    "row": {
+     "page": 38,
+     "type": "[Prop]",
+     "idShort": "ApiDocumentationUrl",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ExternalFile/Api/ApiDocumentationUrl/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > ExternalFile > [0] > Api > [0] > ApiSpecificationUrl",
+   "idShort": "ApiSpecificationUrl",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ExternalFile/Api/ApiSpecificationUrl/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     38
+    ],
+    "row": {
+     "page": 38,
+     "type": "[Prop]",
+     "idShort": "ApiSpecificationUrl",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ExternalFile/Api/ApiSpecificationUrl/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > FileFormat",
+   "idShort": "FileFormat",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/FileFormat/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[SMC]",
+     "idShort": "FileFormat",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/FileFormat/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > FileFormat > FormatName",
+   "idShort": "FormatName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/FileFormat/FormatName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     41
+    ],
+    "row": {
+     "page": 41,
+     "type": "[Prop]",
+     "idShort": "FormatName",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/FileFormat/FormatName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > FileFormat > FormatVersion",
+   "idShort": "FormatVersion",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/FileFormat/FormatVersion/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > FileFormat > FormatQualifier",
+   "idShort": "FormatQualifier",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/FileFormat/FormatQualifier/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     41
+    ],
+    "row": {
+     "page": 41,
+     "type": "[Prop]",
+     "idShort": "FormatQualifier",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/FileFormat/FormatQualifier/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > SourceApplication",
+   "idShort": "SourceApplication",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SourceApplication/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[SMC]",
+     "idShort": "SourceApplication",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SourceApplication/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > SourceApplication > ApplicationName",
+   "idShort": "ApplicationName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SourceApplication/ApplicationName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     44
+    ],
+    "row": {
+     "page": 44,
+     "type": "[Prop]",
+     "idShort": "ApplicationName",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SourceApplication/ApplicationName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > SourceApplication > ApplicationVersion",
+   "idShort": "ApplicationVersion",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SourceApplication/ApplicationVersion/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     44
+    ],
+    "row": {
+     "page": 44,
+     "type": "[Prop]",
+     "idShort": "ApplicationVersion",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SourceApplication/ApplicationVersion/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > SourceApplication > ApplicationQualifier",
+   "idShort": "ApplicationQualifier",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SourceApplication/ApplicationQualifier/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     44
+    ],
+    "row": {
+     "page": 44,
+     "type": "[Prop]",
+     "idShort": "ApplicationQualifier",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SourceApplication/ApplicationQualifier/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > SourceApplication > Api",
+   "idShort": "Api",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SourceApplication/Api/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     44
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > SourceApplication > Api > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SourceApplication/Api/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     44
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > SourceApplication > Api > [0] > ApiVersion",
+   "idShort": "ApiVersion",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SourceApplication/Api/ApiVersion/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     47
+    ],
+    "row": {
+     "page": 47,
+     "type": "[Prop]",
+     "idShort": "ApiVersion",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SourceApplication/Api/ApiVersion/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > SourceApplication > Api > [0] > ApiDocumentationUrl",
+   "idShort": "ApiDocumentationUrl",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SourceApplication/Api/ApiDocumentationUrl/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     47
+    ],
+    "row": {
+     "page": 47,
+     "type": "[Prop]",
+     "idShort": "ApiDocumentationUrl",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SourceApplication/Api/ApiDocumentationUrl/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > SourceApplication > Api > [0] > ApiSpecificationUrl",
+   "idShort": "ApiSpecificationUrl",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SourceApplication/Api/ApiSpecificationUrl/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     47
+    ],
+    "row": {
+     "page": 47,
+     "type": "[Prop]",
+     "idShort": "ApiSpecificationUrl",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SourceApplication/Api/ApiSpecificationUrl/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > SourceApplication > VendorOrganization",
+   "idShort": "VendorOrganization",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SourceApplication/VendorOrganization/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     44
+    ],
+    "row": {
+     "page": 44,
+     "type": "[SMC]",
+     "idShort": "VendorOrganization",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SourceApplication/VendorOrganization/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > SourceApplication > VendorOrganization > OrganizationName",
+   "idShort": "OrganizationName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SourceApplication/VendorOrganization/OrganizationName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     50
+    ],
+    "row": {
+     "page": 50,
+     "type": "[Prop]",
+     "idShort": "OrganizationName",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SourceApplication/VendorOrganization/OrganizationName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > SourceApplication > VendorOrganization > OrganizationOfficialName",
+   "idShort": "OrganizationOfficialName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SourceApplication/VendorOrganization/OrganizationOfficialName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     50
+    ],
+    "row": {
+     "page": 50,
+     "type": "[Prop]",
+     "idShort": "OrganizationOfficialName",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/SourceApplication/VendorOrganization/OrganizationOfficialName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > ProvidingOrganization",
+   "idShort": "ProvidingOrganization",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ProvidingOrganization/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[SMC]",
+     "idShort": "ProvidingOrganization",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ProvidingOrganization/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > ProvidingOrganization > OrganizationName",
+   "idShort": "OrganizationName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ProvidingOrganization/OrganizationName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     53
+    ],
+    "row": {
+     "page": 53,
+     "type": "[Prop]",
+     "idShort": "OrganizationName",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ProvidingOrganization/OrganizationName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileVersion > [0] > ProvidingOrganization > OrganizationOfficialName",
+   "idShort": "OrganizationOfficialName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ProvidingOrganization//OrganizationOfficialName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     53
+    ],
+    "row": {
+     "page": 53,
+     "type": "[Prop]",
+     "idShort": "OrganizationOfficialName",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileVersion/ProvidingOrganization//OrganizationOfficialName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > ConsumingApplication",
+   "idShort": "ConsumingApplication",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/ConsumingApplication/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     21
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > File > ConsumingApplication > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/ConsumingApplication/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     21
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "Model3D > [0] > File > ConsumingApplication > [0] > ApplicationName",
+   "idShort": "ApplicationName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/ConsumingApplication/ApplicationName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     55
+    ],
+    "row": {
+     "page": 55,
+     "type": "[Prop]",
+     "idShort": "ApplicationName",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/ConsumingApplication/ApplicationName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > ConsumingApplication > [0] > ApplicationVersion",
+   "idShort": "ApplicationVersion",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/ConsumingApplication/ApplicationVersion/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     55
+    ],
+    "row": {
+     "page": 55,
+     "type": "[Prop]",
+     "idShort": "ApplicationVersion",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/ConsumingApplication/ApplicationVersion/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > ConsumingApplication > [0] > ApplicationQualifier",
+   "idShort": "ApplicationQualifier",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/ConsumingApplication/ApplicationQualifier1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     55
+    ],
+    "row": {
+     "page": 55,
+     "type": "[Prop]",
+     "idShort": "ApplicationQualifier",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/ConsumingApplication/ApplicationQualifier1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > ConsumingApplication > [0] > VendorOrganization",
+   "idShort": "VendorOrganization",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/ConsumingApplication/VendorOrganization/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > ConsumingApplication > [0] > VendorOrganization > OrganizationName",
+   "idShort": "OrganizationName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/ConsumingApplication/VendorOrganization/OrganizationName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     61
+    ],
+    "row": {
+     "page": 61,
+     "type": "[Prop]",
+     "idShort": "OrganizationName",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/ConsumingApplication/VendorOrganization/OrganizationName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > ConsumingApplication > [0] > VendorOrganization > OrganizationOfficialName",
+   "idShort": "OrganizationOfficialName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/ConsumingApplication/VendorOrganization/OrganizationOfficialName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     61
+    ],
+    "row": {
+     "page": 61,
+     "type": "[Prop]",
+     "idShort": "OrganizationOfficialName",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/ConsumingApplication/VendorOrganization/OrganizationOfficialName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > ConsumingApplication > [0] > Api",
+   "idShort": "Api",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/ConsumingApplication/Api/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     55
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > File > ConsumingApplication > [0] > Api > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/ConsumingApplication/Api/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     55
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "Model3D > [0] > File > ConsumingApplication > [0] > Api > [0] > ApiVersion",
+   "idShort": "ApiVersion",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/ConsumingApplication/Api/ApiVersion/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     58
+    ],
+    "row": {
+     "page": 58,
+     "type": "[Prop]",
+     "idShort": "ApiVersion",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/ConsumingApplication/Api/ApiVersion/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > ConsumingApplication > [0] > Api > [0] > ApiDocumentationUrl",
+   "idShort": "ApiDocumentationUrl",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/ConsumingApplication/Api/ApiDocumentationUrl/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > File > ConsumingApplication > [0] > Api > [0] > ApiSpecificationUrl",
+   "idShort": "ApiSpecificationUrl",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/ConsumingApplication/Api/ApiSpecificationUrl/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     58
+    ],
+    "row": {
+     "page": 58,
+     "type": "[Prop]",
+     "idShort": "ApiSpecificationUrl",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/ConsumingApplication/Api/ApiSpecificationUrl/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileClassification",
+   "idShort": "FileClassification",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileClassification/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1"
+    ],
+    "pages": [
+     21
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileClassification > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileClassification/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1"
+    ],
+    "pages": [
+     21
+    ]
+   },
+   "status": "unverified",
+   "effective": "1..*"
+  },
+  {
+   "path": "Model3D > [0] > File > FileClassification > [0] > ClassId",
+   "idShort": "ClassId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileClassification/ClassId/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     64
+    ],
+    "row": {
+     "page": 64,
+     "type": "[Prop]",
+     "idShort": "ClassId",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileClassification/ClassId/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileClassification > [0] > ClassName",
+   "idShort": "ClassName",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileClassification/ClassName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     64
+    ],
+    "row": {
+     "page": 64,
+     "type": "[MLP]",
+     "idShort": "ClassName",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/FileClassification/ClassName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > File > FileClassification > [0] > ClassificationSystem",
+   "idShort": "ClassificationSystem",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/ClassificationSystem/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     64
+    ],
+    "row": {
+     "page": 64,
+     "type": "[Prop]",
+     "idShort": "ClassificationSystem",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/File/ClassificationSystem/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > Capability",
+   "idShort": "Capability",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Capability/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "Capability",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Capability/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > Capability > PosModelPurpose",
+   "idShort": "PosModelPurpose",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Capability/PosModelPurpose/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1"
+    ],
+    "pages": [
+     67
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > Capability > PosModelPurpose > [0]",
+   "idShort": "",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Capability/PosModelPurpose/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1"
+    ],
+    "pages": [
+     67
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "Model3D > [0] > Capability > NegModelPurpose",
+   "idShort": "NegModelPurpose",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Capability/NegModelPurpos/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     67
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > Capability > NegModelPurpose > [0]",
+   "idShort": "",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Capability/NegModelPurpos/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     67
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "Model3D > [0] > Capability > EmbeddedInfo",
+   "idShort": "EmbeddedInfo",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Capability/EmbeddedInfo/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     67
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > Capability > EmbeddedInfo > [0]",
+   "idShort": "",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Capability/EmbeddedInfo/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     67
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "Model3D > [0] > Capability > State",
+   "idShort": "State",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Capability/State/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     67
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > Capability > State > [0]",
+   "idShort": "",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Capability/State/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     67
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "Model3D > [0] > Capability > ObjectType",
+   "idShort": "ObjectType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Capability/ObjectType/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     68
+    ],
+    "row": {
+     "page": 68,
+     "type": "[Prop]",
+     "idShort": "ObjectType",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Capability/ObjectType/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > Capability > Origin",
+   "idShort": "Origin",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Capability/Origin/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     68
+    ],
+    "row": {
+     "page": 68,
+     "type": "[Prop]",
+     "idShort": "Origin",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Capability/Origin/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > Capability > Simplification",
+   "idShort": "Simplification",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Capability/Simplification/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     68
+    ],
+    "row": {
+     "page": 68,
+     "type": "[SMC]",
+     "idShort": "Simplification",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Capability/Simplification/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > Capability > Simplification > Description",
+   "idShort": "Description",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Capability/Simplification/LevelDescription/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     74
+    ],
+    "row": {
+     "page": 74,
+     "type": "[Prop]",
+     "idShort": "Description",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Capability/Simplification/LevelDescription/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > Capability > Simplification > ReducedElements",
+   "idShort": "ReducedElements",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Capability/Simplification/ReducedElements/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     74
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > Capability > Simplification > ReducedElements > [0]",
+   "idShort": "",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Capability/Simplification/ReducedElements/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     74
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "Model3D > [0] > Capability > Simplification > DerivedFrom",
+   "idShort": "DerivedFrom",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Capability/Simplification/DerivedFrom/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     74
+    ],
+    "row": {
+     "page": 74,
+     "type": "[Ref]",
+     "idShort": "DerivedFrom",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Capability/Simplification/DerivedFrom/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry",
+   "idShort": "Geometry",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "Geometry",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > Representation",
+   "idShort": "Representation",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/Representation/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     77
+    ],
+    "row": {
+     "page": 77,
+     "type": "[Prop]",
+     "idShort": "Representation",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/Representation/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > LengthUnit",
+   "idShort": "LengthUnit",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/LengthUnit/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     77
+    ],
+    "row": {
+     "page": 77,
+     "type": "[Prop]",
+     "idShort": "LengthUnit",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/LengthUnit/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartBoundingBox",
+   "idShort": "CartBoundingBox",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     77
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartBoundingBox > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     77
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartBoundingBox > [0] > BoundingBoxKind",
+   "idShort": "BoundingBoxKind",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/BoundingBoxKind/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     79
+    ],
+    "row": {
+     "page": 79,
+     "type": "[Prop]",
+     "idShort": "BoundingBoxKind",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/BoundingBoxKind/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartBoundingBox > [0] > CartRefSystem",
+   "idShort": "CartRefSystem",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartRefSystem/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     79
+    ],
+    "row": {
+     "page": 79,
+     "type": "[SMC]",
+     "idShort": "CartRefSystem",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartRefSystem/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartBoundingBox > [0] > CartRefSystem > CartOffsetVector",
+   "idShort": "CartOffsetVector",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartRefSystem/CartOffsetVector/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     81
+    ],
+    "row": {
+     "page": 81,
+     "type": "[SMC]",
+     "idShort": "CartOffsetVector",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartRefSystem/CartOffsetVector/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartBoundingBox > [0] > CartRefSystem > CartOffsetVector > X",
+   "idShort": "X",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartRefSystem/CartOffsetVector/X/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     82
+    ],
+    "row": {
+     "page": 82,
+     "type": "[Prop]",
+     "idShort": "X",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartRefSystem/CartOffsetVector/X/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartBoundingBox > [0] > CartRefSystem > CartOffsetVector > Y",
+   "idShort": "Y",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartRefSystem/CartOffsetVector/Y/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     82
+    ],
+    "row": {
+     "page": 82,
+     "type": "[Prop]",
+     "idShort": "Y",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartRefSystem/CartOffsetVector/Y/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartBoundingBox > [0] > CartRefSystem > CartOffsetVector > Z",
+   "idShort": "Z",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartRefSystem/CartOffsetVector/Z/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     82
+    ],
+    "row": {
+     "page": 82,
+     "type": "[Prop]",
+     "idShort": "Z",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartRefSystem/CartOffsetVector/Z/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartBoundingBox > [0] > CartRefSystem > NormOrientationVector",
+   "idShort": "NormOrientationVector",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartRefSystem/NormOrientationVector/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartBoundingBox > [0] > CartRefSystem > NormOrientationVector > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartRefSystem/NormOrientationVector/1/0",
+   "json": null,
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartBoundingBox > [0] > CartRefSystem > NormOrientationVector > [0] > X",
+   "idShort": "X",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartRefSystem/NormOrientationVector/X/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     86
+    ],
+    "row": {
+     "page": 86,
+     "type": "[Prop]",
+     "idShort": "X",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartRefSystem/NormOrientationVector/X/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartBoundingBox > [0] > CartRefSystem > NormOrientationVector > [0] > Y",
+   "idShort": "Y",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartRefSystem/NormOrientationVector/Y/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     86
+    ],
+    "row": {
+     "page": 86,
+     "type": "[Prop]",
+     "idShort": "Y",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartRefSystem/NormOrientationVector/Y/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartBoundingBox > [0] > CartRefSystem > NormOrientationVector > [0] > Z",
+   "idShort": "Z",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartRefSystem/NormOrientationVector/Z/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     86
+    ],
+    "row": {
+     "page": 86,
+     "type": "[Prop]",
+     "idShort": "Z",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartRefSystem/NormOrientationVector/Z/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartBoundingBox > [0] > CartBoundingVector",
+   "idShort": "CartBoundingVector",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartBoundingVector/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartBoundingBox > [0] > CartBoundingVector > X",
+   "idShort": "X",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartBoundingVector/X/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     90
+    ],
+    "row": {
+     "page": 90,
+     "type": "[Prop]",
+     "idShort": "X",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartBoundingVector/X/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartBoundingBox > [0] > CartBoundingVector > Y",
+   "idShort": "Y",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartBoundingVector/Y/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     90
+    ],
+    "row": {
+     "page": 90,
+     "type": "[Prop]",
+     "idShort": "Y",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartBoundingVector/Y/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartBoundingBox > [0] > CartBoundingVector > Z",
+   "idShort": "Z",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartBoundingVector/Z/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     90
+    ],
+    "row": {
+     "page": 90,
+     "type": "[Prop]",
+     "idShort": "Z",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartBoundingBox/CartBoundingVector/Z/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartRefSystem",
+   "idShort": "CartRefSystem",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartRefSystem/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     77
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartRefSystem > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartRefSystem/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     77
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartRefSystem > [0] > CartOffsetVector",
+   "idShort": "CartOffsetVector",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartRefSystem/CartOffsetVector/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     94
+    ],
+    "row": {
+     "page": 94,
+     "type": "[SMC]",
+     "idShort": "CartOffsetVector",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartRefSystem/CartOffsetVector/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartRefSystem > [0] > CartOffsetVector > X",
+   "idShort": "X",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartRefSystem/CartOffsetVector/X/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     95
+    ],
+    "row": {
+     "page": 95,
+     "type": "[Prop]",
+     "idShort": "X",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartRefSystem/CartOffsetVector/X/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartRefSystem > [0] > CartOffsetVector > Y",
+   "idShort": "Y",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartRefSystem/CartOffsetVector/Y/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     95
+    ],
+    "row": {
+     "page": 95,
+     "type": "[Prop]",
+     "idShort": "Y",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartRefSystem/CartOffsetVector/Y/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartRefSystem > [0] > CartOffsetVector > Z",
+   "idShort": "Z",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartRefSystem/CartOffsetVector/Z/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     95
+    ],
+    "row": {
+     "page": 95,
+     "type": "[Prop]",
+     "idShort": "Z",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartRefSystem/CartOffsetVector/Z/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartRefSystem > [0] > NormOrientationVector",
+   "idShort": "NormOrientationVector",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartRefSystem/NormOrientationVector/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1"
+    ],
+    "pages": [
+     94
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartRefSystem > [0] > NormOrientationVector > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartRefSystem/NormOrientationVector/1/0",
+   "json": null,
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1"
+    ],
+    "pages": [
+     94
+    ]
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartRefSystem > [0] > NormOrientationVector > [0] > X",
+   "idShort": "X",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartRefSystem/NormOrientationVector/X/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     98
+    ],
+    "row": {
+     "page": 98,
+     "type": "[Prop]",
+     "idShort": "X",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartRefSystem/NormOrientationVector/X/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartRefSystem > [0] > NormOrientationVector > [0] > Y",
+   "idShort": "Y",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartRefSystem/NormOrientationVector/Y/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     98
+    ],
+    "row": {
+     "page": 98,
+     "type": "[Prop]",
+     "idShort": "Y",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartRefSystem/NormOrientationVector/Y/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Model3D > [0] > Geometry > CartRefSystem > [0] > NormOrientationVector > [0] > Z",
+   "idShort": "Z",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartRefSystem/NormOrientationVector/Z/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     98
+    ],
+    "row": {
+     "page": 98,
+     "type": "[Prop]",
+     "idShort": "Z",
+     "semanticId": "https://admin-shell.io/idta/Models3D/Model3D/Geometry/CartRefSystem/NormOrientationVector/Z/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  }
+ ]
+}

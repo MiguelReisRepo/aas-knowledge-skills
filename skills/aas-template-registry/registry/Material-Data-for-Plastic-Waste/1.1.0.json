@@ -1,0 +1,2253 @@
+{
+ "template": "Material Data for Plastic Waste",
+ "version": "1.1.0",
+ "submodelIdShort": "MaterialDataForEN18065ClassificationOfPlastics",
+ "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/en18065materialdata/en18065MaterialData/1/0",
+ "json": {
+  "path": "published/Material Data for Plastic Waste/1/1/IDTA_02080_Template_Material Data for Plastic Waste.json",
+  "gitBlob": "53eb645f872d2425784f58c79ba8fbdd25c251af"
+ },
+ "pdf": {
+  "path": "published/Material Data for Plastic Waste/1/1/IDTA_02080_Submodel_Material Data for Plastic Waste.pdf",
+  "relation": "same folder",
+  "sha256": "4954039f6f57a9ef26ad92629f0860e46d5db74ec26aad71504e7f05830d7ead",
+  "annexA": [
+   {
+    "page": 27,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 27,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 80,
+  "unverified": 2
+ },
+ "elements": [
+  {
+   "path": "DataQuality",
+   "idShort": "DataQuality",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/DataQuality/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "DataQuality",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/DataQuality/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DataQuality > DataQualityLevel",
+   "idShort": "DataQualityLevel",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/DataQualityLevel/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "DataQualityLevel",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/DataQualityLevel/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationSpecificStandards",
+   "idShort": "ApplicationSpecificStandards",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/ApplicationSpecificStandards/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SML]",
+     "idShort": "ApplicationSpecificStandards",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/ApplicationSpecificStandards/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicationSpecificStandards > [0]",
+   "idShort": "",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/StandardOrNorm/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1"
+    ],
+    "pages": [
+     10,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationCharacteristics",
+   "idShort": "InformationCharacteristics",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/InformationCharacteristics/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "InformationCharacteristics",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/InformationCharacteristics/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationCharacteristics > MainMaterialType",
+   "idShort": "MainMaterialType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/MainMaterialType/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Prop]",
+     "idShort": "MainMaterialType",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/MainMaterialType/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationCharacteristics > TypeOfPackaging",
+   "idShort": "TypeOfPackaging",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/TypeOfPackaging/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Prop]",
+     "idShort": "TypeOfPackaging",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/TypeOfPackaging/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationCharacteristics > ColorByVisualInspection",
+   "idShort": "ColorByVisualInspection",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/ColorByVisualInspection/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Prop]",
+     "idShort": "ColorByVisualInspection",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/ColorByVisualInspection/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationCharacteristics > Form",
+   "idShort": "Form",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/Form/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Prop]",
+     "idShort": "Form",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/Form/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationCharacteristics > TradeName",
+   "idShort": "TradeName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/TradeName/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Prop]",
+     "idShort": "TradeName",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/TradeName/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationCharacteristics > RecycledContent",
+   "idShort": "RecycledContent",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/RecycledContent/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Prop]",
+     "idShort": "RecycledContent",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/RecycledContent/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationCharacteristics > ChainOfCustody",
+   "idShort": "ChainOfCustody",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/ChainOfCustody/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "ChainOfCustody",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/ChainOfCustody/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationCharacteristics > ChainOfCustody > AttributionModel",
+   "idShort": "AttributionModel",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/ChainOfCustody/AttributionModel/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "AttributionModel",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/ChainOfCustody/AttributionModel/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationCharacteristics > ChainOfCustody > RelevantEuropeanOrInternationalNorm",
+   "idShort": "RelevantEuropeanOrInternationalNorm",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/ChainOfCustody/RelevantEuropeanOrInternationalNorm/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "RelevantEuropeanOrInternationalNorm",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/ChainOfCustody/RelevantEuropeanOrInternationalNorm/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationCharacteristics > RecyclingMethod",
+   "idShort": "RecyclingMethod",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/RecyclingMethod/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "RecyclingMethod",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/RecyclingMethod/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationCharacteristics > Source",
+   "idShort": "Source",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/Source/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "Source",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/Source/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationCharacteristics > TypesOfFillers",
+   "idShort": "TypesOfFillers",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/TypesOfFillers/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SML]",
+     "idShort": "TypesOfFillers",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/TypesOfFillers/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationCharacteristics > TypesOfFillers > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/TypeOfFiller/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..*",
+    "pages": [
+     14
+    ]
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationCharacteristics > TypesOfFillers > [0] > Filler",
+   "idShort": "Filler",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/TypesOfFillers/Filler/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "Filler",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/TypesOfFillers/Filler/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "InformationCharacteristics > TypesOfFillers > [0] > FillerMassPercentage",
+   "idShort": "FillerMassPercentage",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/TypesOfFillers/FillerMassPercentage/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "FillerMassPercentage",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/TypesOfFillers/FillerMassPercentage/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "InformationCharacteristics > LotNumber",
+   "idShort": "LotNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/LotNumber/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "LotNumber",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/LotNumber/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationCharacteristics > CertificateOfAnalysis",
+   "idShort": "CertificateOfAnalysis",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/CertificateOfAnalysis/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "CertificateOfAnalysis",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/CertificateOfAnalysis/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationCharacteristics > CertificateOfAnalysis > TypeOfInspectionCertificate",
+   "idShort": "TypeOfInspectionCertificate",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/CertificateOfAnalysis/TypeOfInspectionCertificate/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "TypeOfInspectionCertificate",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/CertificateOfAnalysis/TypeOfInspectionCertificate/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "InformationCharacteristics > CertificateOfAnalysis > Documentation",
+   "idShort": "Documentation",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/CertificateOfAnalysis/Documentation/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[File]",
+     "idShort": "Documentation",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/CertificateOfAnalysis/Documentation/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "InformationCharacteristics > ContentOfTheMainPlasticType",
+   "idShort": "ContentOfTheMainPlasticType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/ContentOfTheMainPlasticType/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "ContentOfTheMainPlasticType",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/ContentOfTheMainPlasticType/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationCharacteristics > PercentConfidenceOfCertificateOfAnalysis",
+   "idShort": "PercentConfidenceOfCertificateOfAnalysis",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/PercentConfidenceOfCertificateOfAnalysis/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "PercentConfidenceOfCertificateOfAnalysis",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/PercentConfidenceOfCertificateOfAnalysis/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationCharacteristics > CoefficientOfVariationWRTCertificateOfAnalysis",
+   "idShort": "CoefficientOfVariationWRTCertificateOfAnalysis",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/CoefficientOfVariationWRTCertificateOfAnalysis/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "CoefficientOfVariationWRTCertificateOfAnalysis",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/CoefficientOfVariationWRTCertificateOfAnalysis/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationCharacteristics > PresenceOfModifyingAdditives",
+   "idShort": "PresenceOfModifyingAdditives",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/PresenceOfModifyingAdditives/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SML]",
+     "idShort": "PresenceOfModifyingAdditives",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/PresenceOfModifyingAdditives/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationCharacteristics > PresenceOfModifyingAdditives > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/PresenceOfModifyingAdditives/ModifyingAdditive/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..*",
+    "pages": [
+     15
+    ]
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "InformationCharacteristics > PresenceOfModifyingAdditives > [0] > ModifyingAdditiveName",
+   "idShort": "ModifyingAdditiveName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/PresenceOfModifyingAdditives/ModifyingAdditive/ModifyingAdditiveName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "ModifyingAdditiveName",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/PresenceOfModifyingAdditives/ModifyingAdditive/ModifyingAdditiveName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "InformationCharacteristics > PresenceOfModifyingAdditives > [0] > ModifyingAdditiveCASNumber",
+   "idShort": "ModifyingAdditiveCASNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/PresenceOfModifyingAdditives/ModifyingAdditive/ModifyingAdditiveCASNumber/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "ModifyingAdditiveCASNumber",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/PresenceOfModifyingAdditives/ModifyingAdditive/ModifyingAdditiveCASNumber/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "InformationCharacteristics > OriginalUseOfMaterial",
+   "idShort": "OriginalUseOfMaterial",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/OriginalUseOfMaterial/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "OriginalUseOfMaterial",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/OriginalUseOfMaterial/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "InformationCharacteristics > RecyclingFeedstockConversionTechnology",
+   "idShort": "RecyclingFeedstockConversionTechnology",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/OriginalUseOfMaterial/RecyclingFeedstockConversionTechnology/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "RecyclingFeedstockConversionTechnology",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/OriginalUseOfMaterial/RecyclingFeedstockConversionTechnology/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PropertyCharacteristics",
+   "idShort": "PropertyCharacteristics",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/PropertyCharacteristics/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "PropertyCharacteristics",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/PropertyCharacteristics/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PropertyCharacteristics > Viscosity",
+   "idShort": "Viscosity",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/Viscosity/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "Viscosity",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/Viscosity/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PropertyCharacteristics > Viscosity > StandardOrNorm",
+   "idShort": "StandardOrNorm",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/StandardOrNorm/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "StandardOrNorm",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/StandardOrNorm/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PropertyCharacteristics > Viscosity > MeasuredValue",
+   "idShort": "MeasuredValue",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/measuredvalue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     25
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "MeasuredValue",
+     "semanticId": "https://admin-shell.io/idta/measurementvalue/measuredvalue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > Viscosity > MeasuredValue > Value",
+   "idShort": "Value",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/value/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     20,
+     21,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Value",
+     "semanticId": "https://admin-shell.io/idta/measurementvalue/value/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > Viscosity > MeasuredValue > Unit",
+   "idShort": "Unit",
+   "modelType": "Property",
+   "semanticId": "0112/2///62720#UBA000",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     20,
+     22,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Unit",
+     "semanticId": "0112/2///62720#UBA000",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > Viscosity > MeasuredValue > Kind",
+   "idShort": "Kind",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACI144",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     21,
+     22,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Kind",
+     "semanticId": "0112/2///62683#ACI144",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > AshContent",
+   "idShort": "AshContent",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/AshContent/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "AshContent",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/AshContent/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PropertyCharacteristics > AshContent > StandardOrNorm",
+   "idShort": "StandardOrNorm",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/StandardOrNorm/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "StandardOrNorm",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/StandardOrNorm/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PropertyCharacteristics > AshContent > MeasuredValue",
+   "idShort": "MeasuredValue",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/measuredvalue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     25
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "MeasuredValue",
+     "semanticId": "https://admin-shell.io/idta/measurementvalue/measuredvalue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > AshContent > MeasuredValue > Value",
+   "idShort": "Value",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/value/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     20,
+     21,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Value",
+     "semanticId": "https://admin-shell.io/idta/measurementvalue/value/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > AshContent > MeasuredValue > Unit",
+   "idShort": "Unit",
+   "modelType": "Property",
+   "semanticId": "0112/2///62720#UBA000",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     20,
+     22,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Unit",
+     "semanticId": "0112/2///62720#UBA000",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > AshContent > MeasuredValue > Kind",
+   "idShort": "Kind",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACI144",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     21,
+     22,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Kind",
+     "semanticId": "0112/2///62683#ACI144",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > ResidualHumidity",
+   "idShort": "ResidualHumidity",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/ResidualHumidity/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[SMC]",
+     "idShort": "ResidualHumidity",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/ResidualHumidity/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PropertyCharacteristics > ResidualHumidity > StandardOrNorm",
+   "idShort": "StandardOrNorm",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/StandardOrNorm/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "StandardOrNorm",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/StandardOrNorm/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PropertyCharacteristics > ResidualHumidity > MeasuredValue",
+   "idShort": "MeasuredValue",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/measuredvalue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     25
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "MeasuredValue",
+     "semanticId": "https://admin-shell.io/idta/measurementvalue/measuredvalue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > ResidualHumidity > MeasuredValue > Value",
+   "idShort": "Value",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/value/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     20,
+     21,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Value",
+     "semanticId": "https://admin-shell.io/idta/measurementvalue/value/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > ResidualHumidity > MeasuredValue > Unit",
+   "idShort": "Unit",
+   "modelType": "Property",
+   "semanticId": "0112/2///62720#UBA000",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     20,
+     22,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Unit",
+     "semanticId": "0112/2///62720#UBA000",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > ResidualHumidity > MeasuredValue > Kind",
+   "idShort": "Kind",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACI144",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     21,
+     22,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Kind",
+     "semanticId": "0112/2///62683#ACI144",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > Density",
+   "idShort": "Density",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/Density/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[SMC]",
+     "idShort": "Density",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/Density/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PropertyCharacteristics > Density > StandardOrNorm",
+   "idShort": "StandardOrNorm",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/StandardOrNorm/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "StandardOrNorm",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/StandardOrNorm/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PropertyCharacteristics > Density > MeasuredValue",
+   "idShort": "MeasuredValue",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/measuredvalue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     25
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "MeasuredValue",
+     "semanticId": "https://admin-shell.io/idta/measurementvalue/measuredvalue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > Density > MeasuredValue > Value",
+   "idShort": "Value",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/value/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     20,
+     21,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Value",
+     "semanticId": "https://admin-shell.io/idta/measurementvalue/value/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > Density > MeasuredValue > Unit",
+   "idShort": "Unit",
+   "modelType": "Property",
+   "semanticId": "0112/2///62720#UBA000",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     20,
+     22,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Unit",
+     "semanticId": "0112/2///62720#UBA000",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > Density > MeasuredValue > Kind",
+   "idShort": "Kind",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACI144",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     21,
+     22,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Kind",
+     "semanticId": "0112/2///62683#ACI144",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > BulkDensity",
+   "idShort": "BulkDensity",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/BulkDensity/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[SMC]",
+     "idShort": "BulkDensity",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/BulkDensity/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PropertyCharacteristics > BulkDensity > StandardOrNorm",
+   "idShort": "StandardOrNorm",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/StandardOrNorm/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "StandardOrNorm",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/StandardOrNorm/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PropertyCharacteristics > BulkDensity > MeasuredValue",
+   "idShort": "MeasuredValue",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/measuredvalue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     25
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "MeasuredValue",
+     "semanticId": "https://admin-shell.io/idta/measurementvalue/measuredvalue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > BulkDensity > MeasuredValue > Value",
+   "idShort": "Value",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/value/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     20,
+     21,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Value",
+     "semanticId": "https://admin-shell.io/idta/measurementvalue/value/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > BulkDensity > MeasuredValue > Unit",
+   "idShort": "Unit",
+   "modelType": "Property",
+   "semanticId": "0112/2///62720#UBA000",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     20,
+     22,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Unit",
+     "semanticId": "0112/2///62720#UBA000",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > BulkDensity > MeasuredValue > Kind",
+   "idShort": "Kind",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACI144",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     21,
+     22,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Kind",
+     "semanticId": "0112/2///62683#ACI144",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > ParticleSizeDistribution",
+   "idShort": "ParticleSizeDistribution",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/ParticleSizeDistribution/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[SMC]",
+     "idShort": "ParticleSizeDistribution",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/ParticleSizeDistribution/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PropertyCharacteristics > ParticleSizeDistribution > StandardOrNorm",
+   "idShort": "StandardOrNorm",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/StandardOrNorm/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "StandardOrNorm",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/StandardOrNorm/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PropertyCharacteristics > ParticleSizeDistribution > MeasuredValue",
+   "idShort": "MeasuredValue",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/measuredvalue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     25
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "MeasuredValue",
+     "semanticId": "https://admin-shell.io/idta/measurementvalue/measuredvalue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > ParticleSizeDistribution > MeasuredValue > Value",
+   "idShort": "Value",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/value/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     20,
+     21,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Value",
+     "semanticId": "https://admin-shell.io/idta/measurementvalue/value/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > ParticleSizeDistribution > MeasuredValue > Unit",
+   "idShort": "Unit",
+   "modelType": "Property",
+   "semanticId": "0112/2///62720#UBA000",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     20,
+     22,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Unit",
+     "semanticId": "0112/2///62720#UBA000",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > ParticleSizeDistribution > MeasuredValue > Kind",
+   "idShort": "Kind",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACI144",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     21,
+     22,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Kind",
+     "semanticId": "0112/2///62683#ACI144",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > TensileProperties",
+   "idShort": "TensileProperties",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/TensileProperties/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[SMC]",
+     "idShort": "TensileProperties",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/TensileProperties/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PropertyCharacteristics > TensileProperties > MeasuredValues",
+   "idShort": "MeasuredValues",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/MeasuredValues/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[SML]",
+     "idShort": "MeasuredValues",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/MeasuredValues/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > TensileProperties > MeasuredValues > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/measuredvalue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1"
+    ],
+    "pages": [
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     25
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > TensileProperties > MeasuredValues > [0] > Value",
+   "idShort": "Value",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/measurementvalue/value/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     20,
+     21,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Value",
+     "semanticId": "https://admin-shell.io/idta/measurementvalue/value/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > TensileProperties > MeasuredValues > [0] > Unit",
+   "idShort": "Unit",
+   "modelType": "Property",
+   "semanticId": "0112/2///62720#UBA000",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     20,
+     22,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Unit",
+     "semanticId": "0112/2///62720#UBA000",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > TensileProperties > MeasuredValues > [0] > Kind",
+   "idShort": "Kind",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACI144",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     19,
+     21,
+     22,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Kind",
+     "semanticId": "0112/2///62683#ACI144",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "PropertyCharacteristics > TensileProperties > StandardOrNorm",
+   "idShort": "StandardOrNorm",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/StandardOrNorm/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "StandardOrNorm",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/StandardOrNorm/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PropertyCharacteristics > MaterialIdentification",
+   "idShort": "MaterialIdentification",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/MaterialIdentification/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[SMC]",
+     "idShort": "MaterialIdentification",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/MaterialIdentification/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PropertyCharacteristics > MaterialIdentification > FTIR",
+   "idShort": "FTIR",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/MaterialIdentification/FTIR/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[SMC]",
+     "idShort": "FTIR",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/MaterialIdentification/FTIR/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PropertyCharacteristics > MaterialIdentification > FTIR > Documentation",
+   "idShort": "Documentation",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/MaterialIdentification/FTIR/Documentation/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[File]",
+     "idShort": "Documentation",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/MaterialIdentification/FTIR/Documentation/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PropertyCharacteristics > MaterialIdentification > DSC",
+   "idShort": "DSC",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/MaterialIdentification/DSC/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[SMC]",
+     "idShort": "DSC",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/MaterialIdentification/DSC/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "PropertyCharacteristics > MaterialIdentification > DSC > Documentation",
+   "idShort": "Documentation",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/en18065materialdata/MaterialIdentification/DSC/Documentation/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[File]",
+     "idShort": "Documentation",
+     "semanticId": "https://admin-shell.io/idta/en18065materialdata/MaterialIdentification/DSC/Documentation/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  }
+ ]
+}

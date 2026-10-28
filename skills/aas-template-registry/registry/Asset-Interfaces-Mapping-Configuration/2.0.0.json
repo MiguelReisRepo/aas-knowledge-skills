@@ -1,0 +1,349 @@
+{
+ "template": "Asset Interfaces Mapping Configuration",
+ "version": "2.0.0",
+ "submodelIdShort": "AssetInterfacesMappingConfiguration",
+ "submodelSemanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/Submodel",
+ "json": {
+  "path": "published/Asset Interfaces Mapping Configuration/2/0/IDTA 02027_Template_AIMC_without_examplevalues.json",
+  "gitBlob": "2a64dbde51c5a2e50b583f02da867bffd4a2c430"
+ },
+ "pdf": {
+  "path": "published/Asset Interfaces Mapping Configuration/2/0/IDTA 02027_Submodel Asset Interfaces Mapping Configuration.pdf",
+  "relation": "same folder",
+  "sha256": "eed7e414c7396202af9e8486010f927c25fce9d73285ea338b09fc446b76dc07",
+  "annexA": [
+   {
+    "page": 16,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 16,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 11,
+  "unverified": 2
+ },
+ "elements": [
+  {
+   "path": "MappingConfigurations",
+   "idShort": "MappingConfigurations",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/1/0/MappingConfigurations",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SML]",
+     "idShort": "MappingConfigurations",
+     "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/1/0/MappingConfigurations",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MappingConfigurations > MappingConfiguration",
+   "idShort": "MappingConfiguration",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/MappingConfiguration",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "MappingConfiguration",
+     "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/MappingConfiguration",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "MappingConfigurations > MappingConfiguration > DefaultPollingInterval",
+   "idShort": "DefaultPollingInterval",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/MappingConfiguration/DefaultPollingInterval",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "DefaultPollingInterval",
+     "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/MappingConfiguration/DefaultPollingInterval",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MappingConfigurations > MappingConfiguration > Transformation",
+   "idShort": "Transformation",
+   "modelType": "Blob",
+   "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/MappingConfiguration/Transformation",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Blob]",
+     "idShort": "Transformation",
+     "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/MappingConfiguration/Transformation",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MappingConfigurations > MappingConfiguration > Sources",
+   "idShort": "Sources",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/MappingConfiguration/Sources",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SML]",
+     "idShort": "Sources",
+     "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/MappingConfiguration/Sources",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MappingConfigurations > MappingConfiguration > Sources > Source",
+   "idShort": "Source",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/MappingConfiguration/Source",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1",
+     "1..*"
+    ],
+    "pages": [
+     13
+    ]
+   },
+   "status": "unverified",
+   "effective": "1..*"
+  },
+  {
+   "path": "MappingConfigurations > MappingConfiguration > Sources > Source > Source",
+   "idShort": "Source",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/MappingConfiguration/Source/Source",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Ref]",
+     "idShort": "Source",
+     "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/MappingConfiguration/Source/Source",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MappingConfigurations > MappingConfiguration > Sources > Source > PollingInterval",
+   "idShort": "PollingInterval",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/MappingConfiguration/Source/PollingInterval",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "PollingInterval",
+     "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/MappingConfiguration/Source/PollingInterval",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MappingConfigurations > MappingConfiguration > Sources > Source > SourceId",
+   "idShort": "SourceId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/MappingConfiguration/Source/SourceId",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "SourceId",
+     "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/MappingConfiguration/Source/SourceId",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MappingConfigurations > MappingConfiguration > Sinks",
+   "idShort": "Sinks",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/MappingConfiguration/Sinks",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SML]",
+     "idShort": "Sinks",
+     "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/MappingConfiguration/Sinks",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MappingConfigurations > MappingConfiguration > Sinks > Sink",
+   "idShort": "Sink",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/MappingConfiguration/Sink",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1",
+     "1..*"
+    ],
+    "pages": [
+     14,
+     15
+    ]
+   },
+   "status": "unverified",
+   "effective": "1..*"
+  },
+  {
+   "path": "MappingConfigurations > MappingConfiguration > Sinks > Sink > Sink",
+   "idShort": "Sink",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/MappingConfiguration/Sink/Sink",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Ref]",
+     "idShort": "Sink",
+     "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/MappingConfiguration/Sink/Sink",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MappingConfigurations > MappingConfiguration > Sinks > Sink > SinkId",
+   "idShort": "SinkId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/MappingConfiguration/Sink/SinkId",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "SinkId",
+     "semanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/MappingConfiguration/Sink/SinkId",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  }
+ ]
+}

@@ -1,0 +1,330 @@
+{
+ "skill": "eclass-irdi",
+ "skill_version": "1.1.0",
+ "description": "Probes IRDI grammar basis, semanticId matching/versioning rules (Part 1 v3.0) and verbatim IRDI conventions and printing anomalies in the official Nameplate 3.0.1 and Handover 2.0 PDFs (primary vs supplemental, version-suffix drift, pair form, ~0 infix, cdp-URL-only rows, ECLASS 15 re-keying).",
+ "items": [
+  {
+   "id": "eclass-irdi-001",
+   "question": "On which standards does the AAS specification base the IRDI identifier scheme used for ECLASS / IEC CDD semanticIds?",
+   "expected_answer": "ISO 29002-5, ISO/IEC 6523 and ISO/IEC 11179-6.",
+   "must_include": [
+    "29002-5",
+    "6523",
+    "11179-6"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel",
+    "revision": "3.0",
+    "section": "4.3.3 What Type of Identifiers Exist?",
+    "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+    "page": 29,
+    "quote": "IRDI – ISO29002-5, ISO IEC 6523 and ISO IEC 11179- 6 [20] as an identifier scheme for properties and classifications."
+   },
+   "tags": [
+    "grammar",
+    "standards"
+   ]
+  },
+  {
+   "id": "eclass-irdi-002",
+   "question": "Under the default (exact) matching strategy, do semanticIds 0173-1#02-AAO677#002 and 0173-1#02-AAO677#003 match?",
+   "expected_answer": "No. Exact matching, the default, requires the two semantic IDs to be string-identical; only intelligent matching that ignores versioning treats them as equal.",
+   "must_include": [
+    [
+     "string-identical",
+     "string identical"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel",
+    "revision": "3.0",
+    "section": "4.4.1 Matching Strategies for Semantic Identifiers (Exact Matching - DEFAULT)",
+    "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+    "page": 34,
+    "quote": "With exact matching, two semantic IDs need to be string-identical."
+   },
+   "tags": [
+    "version-suffix",
+    "matching"
+   ]
+  },
+  {
+   "id": "eclass-irdi-003",
+   "question": "When ECLASS makes a semantically breaking change to a property, does it just bump the #00n version suffix of the same IRDI?",
+   "expected_answer": "No. ECLASS keeps new versions of an IRDI backward compatible; a breaking change gets a new IRDI.",
+   "must_include": [
+    "new IRDI",
+    "backward compatible"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel",
+    "revision": "3.0",
+    "section": "4.4.1 Matching Strategies (Intelligent Matching - Ignore Versioning, note)",
+    "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+    "page": 34,
+    "quote": "ECLASS rules ensure that the semantics is always backward compatible for new versions; a new IRDI would be created for breaking changes."
+   },
+   "tags": [
+    "version-suffix",
+    "re-keying"
+   ]
+  },
+  {
+   "id": "eclass-irdi-004",
+   "question": "Part 1 gives 0112/2///61360_4#AAE530 (IEC CDD) and 0173-1#02-AAI048#004 (ECLASS) for the nominal capacity of a battery. Is that an established IEC CDD to ECLASS equivalence you can rely on?",
+   "expected_answer": "No. The specification says the example does not represent an existing semantic mapping; it is only a candidate.",
+   "must_include": [
+    "candidate"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel",
+    "revision": "3.0",
+    "section": "4.4.1 Matching Strategies (Consider Semantic Mappings, note)",
+    "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+    "page": 34,
+    "quote": "Note: this example does not represent an existing semantic mapping; it is only a candidate."
+   },
+   "tags": [
+    "iec-cdd",
+    "mapping"
+   ]
+  },
+  {
+   "id": "eclass-irdi-005",
+   "question": "In the Digital Nameplate 3.0.1 template, which identifier is ManufacturerName's semanticId and which is its supplementalSemanticId?",
+   "expected_answer": "semanticId is the IEC CDD IRDI 0112/2///61987#ABA565#009; supplementalSemanticId is the ECLASS IRDI 0173-1#02-AAO677#004.",
+   "must_include": [
+    "0112/2///61987#ABA565#009",
+    "0173-1#02-AAO677#004"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02006 Digital Nameplate for Industrial Equipment",
+    "revision": "3.0.1",
+    "section": "Table: elements of Submodel Nameplate, ManufacturerName row",
+    "file": "idta-pdfs:txt/published/Digital nameplate/3/0/1/IDTA 02006-3-0-1_Submodel_Digital Nameplate.txt",
+    "page": 9,
+    "quote": "0112/2///61987#ABA565#009 supplementalSemanticId: 0173-1#02-AAO677#004"
+   },
+   "tags": [
+    "primary-vs-supplemental",
+    "iec-cdd"
+   ]
+  },
+  {
+   "id": "eclass-irdi-006",
+   "question": "A Nameplate 3.0.1 instance gives URIOfTheProduct the semanticId 0173-1#02-ABH173#003. Is that the primary semanticId the template prints?",
+   "expected_answer": "No. The primary semanticId is the IEC CDD IRDI 0112/2///61987#ABN590#002; 0173-1#02-ABH173#003 is the supplementalSemanticId (pair flipped).",
+   "must_include": [
+    "0112/2///61987#ABN590#002",
+    "supplemental"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02006 Digital Nameplate for Industrial Equipment",
+    "revision": "3.0.1",
+    "section": "Table: elements of Submodel Nameplate, URIOfTheProduct row",
+    "file": "idta-pdfs:txt/published/Digital nameplate/3/0/1/IDTA 02006-3-0-1_Submodel_Digital Nameplate.txt",
+    "page": 8,
+    "quote": "0112/2///61987#ABN590#002 supplementalSemanticId: 0173-1#02-ABH173#003"
+   },
+   "tags": [
+    "primary-vs-supplemental",
+    "flipped-pair"
+   ]
+  },
+  {
+   "id": "eclass-irdi-007",
+   "question": "A parser emits 0173-1#02-AAM985#003 as FirmwareVersion's supplementalSemanticId for Nameplate 3.0.1. Which version suffix does the 3.0.1 PDF print?",
+   "expected_answer": "#004: the PDF prints 0173-1#02AAM985#004 (hyphen lost at a line break, i.e. 0173-1#02-AAM985#004), so #003 lags the template.",
+   "must_include": [
+    "AAM985#004"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02006 Digital Nameplate for Industrial Equipment",
+    "revision": "3.0.1",
+    "section": "Table: elements of Submodel Nameplate, FirmwareVersion row",
+    "file": "idta-pdfs:txt/published/Digital nameplate/3/0/1/IDTA 02006-3-0-1_Submodel_Digital Nameplate.txt",
+    "page": 10,
+    "quote": "0112/2///61987#ABA302#006 supplementalSemanticId: 0173-1#02AAM985#004"
+   },
+   "tags": [
+    "version-suffix",
+    "printing-anomaly"
+   ]
+  },
+  {
+   "id": "eclass-irdi-008",
+   "question": "What supplementalSemanticId does the Nameplate 3.0.1 PDF print for SoftwareVersion?",
+   "expected_answer": "0173-1#02-AAM985#004, identical to FirmwareVersion's supplemental; record it verbatim and flag it for verification rather than correcting it.",
+   "must_include": [
+    "0173-1#02-AAM985#004"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02006 Digital Nameplate for Industrial Equipment",
+    "revision": "3.0.1",
+    "section": "Table: elements of Submodel Nameplate, SoftwareVersion row",
+    "file": "idta-pdfs:txt/published/Digital nameplate/3/0/1/IDTA 02006-3-0-1_Submodel_Digital Nameplate.txt",
+    "page": 10,
+    "quote": "0112/2///61987#ABA601#008 supplementalSemanticId: 0173-1#02-AAM985#004"
+   },
+   "tags": [
+    "printing-anomaly",
+    "duplicate-concept"
+   ]
+  },
+  {
+   "id": "eclass-irdi-009",
+   "question": "In Nameplate 3.0.1, what semanticId does the SML GuidelineSpecificProperties carry, and should the pair be stored as two keys?",
+   "expected_answer": "The ECLASS pair 0173-1#02-ABI219#003/0173-1#01-AHD205#004, printed as one semanticId string; keep it as one value, not two keys.",
+   "must_include": [
+    "0173-1#02-ABI219#003/0173-1#01-AHD205#004"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02006 Digital Nameplate for Industrial Equipment",
+    "revision": "3.0.1",
+    "section": "Table: AssetSpecificProperties, GuidelineSpecificProperties row",
+    "file": "idta-pdfs:txt/published/Digital nameplate/3/0/1/IDTA 02006-3-0-1_Submodel_Digital Nameplate.txt",
+    "page": 15,
+    "quote": "GuidelineSpeci ficProperties 0173-1#02-ABI219#003/0173-1#01-AHD205#004"
+   },
+   "tags": [
+    "pair-form"
+   ]
+  },
+  {
+   "id": "eclass-irdi-010",
+   "question": "Does the SMC GuidelineSpecificProperties__00__ inside that SML reuse the SML's IRDI pair as its semanticId?",
+   "expected_answer": "No. The SMC's semanticId is the class IRDI alone, 0173-1#01-AHD205#004.",
+   "must_include": [
+    "0173-1#01-AHD205#004"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02006 Digital Nameplate for Industrial Equipment",
+    "revision": "3.0.1",
+    "section": "3.5 Properties of the SMC GuidelineSpecificProperties, table header",
+    "file": "idta-pdfs:txt/published/Digital nameplate/3/0/1/IDTA 02006-3-0-1_Submodel_Digital Nameplate.txt",
+    "page": 16,
+    "quote": "Class: SubmodelElementCollection semanticId: 0173-1#01-AHD205#004 Parent: GuidelineSpecificProperties"
+   },
+   "tags": [
+    "pair-form",
+    "class-irdi"
+   ]
+  },
+  {
+   "id": "eclass-irdi-011",
+   "question": "Is the HandoverDocumentation 2.0 submodel semanticId an IEC CDD IRDI, an IRI, or an ECLASS IRDI?",
+   "expected_answer": "An ECLASS class IRDI used as the primary semanticId: 0173-1#01-AHF578#003.",
+   "must_include": [
+    "0173-1#01-AHF578#003"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02004 Handover Documentation",
+    "revision": "2.0",
+    "section": "2.4 Attributes of the Submodel instance, Table 2",
+    "file": "idta-pdfs:txt/published/Handover Documentation/2/0/IDTA 02004-2-0_Submodel_Handover Documentation.txt",
+    "page": 9,
+    "quote": "idShort: HandoverDocumentation Class: Submodel semanticId: 0173-1#01-AHF578#003"
+   },
+   "tags": [
+    "primary-vs-supplemental",
+    "eclass-primary"
+   ]
+  },
+  {
+   "id": "eclass-irdi-012",
+   "question": "The Handover 2.0 PDF prints the Document SMC's supplementalSemanticId with a '~0' after the property IRDI. What exactly is printed?",
+   "expected_answer": "0173-1#02-ABI500#003~0/0173-1#01-AHF579#003 (plus the eclass-cdp URL); the '~0' is a printing anomaly to copy verbatim and flag, not to hand-fix.",
+   "must_include": [
+    "ABI500#003~0/0173-1#01-AHF579#003"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02004 Handover Documentation",
+    "revision": "2.0",
+    "section": "Table: SMC Document row",
+    "file": "idta-pdfs:txt/published/Handover Documentation/2/0/IDTA 02004-2-0_Submodel_Handover Documentation.txt",
+    "page": 10,
+    "quote": "supplementalSemanticId: 0173-1#02-ABI500#003~0/0173-1#01-AHF579#003"
+   },
+   "tags": [
+    "printing-anomaly"
+   ]
+  },
+  {
+   "id": "eclass-irdi-013",
+   "question": "What IRDI does the Handover 2.0 PDF print for the property OrganizationShortName?",
+   "expected_answer": "None. It prints only the eclass-cdp URL https://api.eclass-cdp.com/0173-1-02-ABI002-003; an IRDI 0173-1#02-ABI002#003 would only be inferred, not printed.",
+   "must_include": [
+    "api.eclass-cdp.com/0173-1-02-ABI002-003"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02004 Handover Documentation",
+    "revision": "2.0",
+    "section": "Table: OrganizationShortName row",
+    "file": "idta-pdfs:txt/published/Handover Documentation/2/0/IDTA 02004-2-0_Submodel_Handover Documentation.txt",
+    "page": 14,
+    "quote": "OrganizationS hortName https://api.eclass-cdp.com/0173-1-02-ABI002-003"
+   },
+   "tags": [
+    "printing-anomaly",
+    "cdp-url"
+   ]
+  },
+  {
+   "id": "eclass-irdi-014",
+   "question": "Can a Handover Documentation 1.2 ECLASS IRDI be carried into 2.0 by just bumping its version suffix?",
+   "expected_answer": "No. Version 2.0 updated all ECLASS IRDIs to ECLASS 15 IRDIs, marked as a non-backward-compatible change; every element has to be re-keyed from the 2.0 PDF.",
+   "must_include": [
+    [
+     "ECLASS 15",
+     "Release 15"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02004 Handover Documentation",
+    "revision": "2.0",
+    "section": "Annex C, Table 15 List of changes, change 2",
+    "file": "idta-pdfs:txt/published/Handover Documentation/2/0/IDTA 02004-2-0_Submodel_Handover Documentation.txt",
+    "page": 21,
+    "quote": "ALL ECLASS IRDIs are updated with ECLASS 15 IRDIs."
+   },
+   "tags": [
+    "re-keying",
+    "release"
+   ]
+  },
+  {
+   "id": "eclass-irdi-015",
+   "question": "In the official Handover Documentation 2.0.2 template JSON, what is the semanticId of OrganizationShortName: an ECLASS IRDI or something else?",
+   "expected_answer": "Not an IRDI: the template uses the eclass-cdp URL https://api.eclass-cdp.com/0173-1-02-ABI002-003 itself as the semanticId (ExternalReference, GlobalReference key), matching the PDF print; do not substitute 0173-1#02-ABI002#003.",
+   "must_include": [
+    "https://api.eclass-cdp.com/0173-1-02-ABI002-003"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02004 Handover Documentation - official template JSON",
+    "revision": "2.0.2 (forAASMetamodelV3.1; submodel-templates mirror f3790038b6c9)",
+    "file": "idta-pdfs:json/published/Handover Documentation/2/0/2/IDTA 02004-2-0-2_Template_HandoverDocumentation__forAASMetamodelV3.1.json",
+    "lines": "1552-1558",
+    "quote": "\"value\": \"https://api.eclass-cdp.com/0173-1-02-ABI002-003\""
+   },
+   "tags": [
+    "cdp-url",
+    "printing-anomaly"
+   ]
+  }
+ ]
+}

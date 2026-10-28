@@ -1,0 +1,247 @@
+{
+  "skill": "aas-asset-interfaces-description",
+  "skill_version": "1.0.0",
+  "description": "IDTA 02017 Asset Interfaces Description (AID) 1.0/1.1/1.2: version-specific semanticIds (1/0 core elements vs 1/x Submodel), base/forms/href cardinalities, protocol prefixes, 1.2 additions (protocolVersion, SNMP, CAN).",
+  "items": [
+    {
+      "id": "aas-asset-interfaces-description-001",
+      "question": "What is the Submodel semanticId of an AID submodel conforming to IDTA 02017 Version 1.2?",
+      "expected_answer": "https://admin-shell.io/idta/AssetInterfacesDescription/1/2/Submodel (with the /Submodel suffix).",
+      "must_include": ["AssetInterfacesDescription/1/2/Submodel"],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02017 Asset Interfaces Description",
+        "revision": "1.2",
+        "section": "2.3, Table 2 Attributes of AssetInterfacesDescription Submodel",
+        "file": "skills/aas-asset-interfaces-description/IDTA-02017-1-2_Submodel_Asset-Interfaces-Description.txt",
+        "page": 15,
+        "quote": "semanticId: [IRI] https://admin-shell.io/idta/AssetInterfacesDescription/1/2/Submodel"
+      },
+      "tags": ["semanticId", "revision-specific"]
+    },
+    {
+      "id": "aas-asset-interfaces-description-002",
+      "question": "AID 1.2 moved the Submodel semanticId to version 1/2. Which semanticId does the Interface SMC (Interface__00__) carry in AID 1.2?",
+      "expected_answer": "It stays at version 1/0: https://admin-shell.io/idta/AssetInterfacesDescription/1/0/Interface. Only the Submodel semanticId changes between editions.",
+      "must_include": ["AssetInterfacesDescription/1/0/Interface"],
+      "must_not_include": ["AssetInterfacesDescription/1/2/Interface"],
+      "citation": {
+        "document": "IDTA 02017 Asset Interfaces Description",
+        "revision": "1.2",
+        "section": "2.4, Table 3 Elements of SMC Interface",
+        "file": "skills/aas-asset-interfaces-description/IDTA-02017-1-2_Submodel_Asset-Interfaces-Description.txt",
+        "page": 16,
+        "quote": "Class: SubmodelElementCollection (SMC) semanticId: [IRI] https://admin-shell.io/idta/AssetInterfacesDescription/1/0/Interface"
+      },
+      "tags": ["semanticId", "revision-specific", "trap"]
+    },
+    {
+      "id": "aas-asset-interfaces-description-003",
+      "question": "The AID 1.1 change log (Annex F) says Interface, EndpointMetadata, InteractionMetadata and other core elements had their semanticId 'changed to version 1.1'. In the AID 1.2 edition of that same Annex F, which 1.0-to-1.1 semanticId change is still listed?",
+      "expected_answer": "Only the Submodel itself (AssetInterfacesDescription, location Submodel). The element rows are gone; the Submodel row is followed directly by uav_browsePath, consistent with the tables printing the core elements with 1/0.",
+      "must_include": ["Submodel"],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02017 Asset Interfaces Description",
+        "revision": "1.2",
+        "section": "Annex F. Changes between version 1.0 and 1.1 (term table)",
+        "file": "skills/aas-asset-interfaces-description/IDTA-02017-1-2_Submodel_Asset-Interfaces-Description.txt",
+        "page": 102,
+        "quote": "AssetInterfacesDescription Update Submodel Changed semanticId to version 1.1 uav_browsePath New forms SMC"
+      },
+      "tags": ["revision-specific", "change-log", "trap"]
+    },
+    {
+      "id": "aas-asset-interfaces-description-004",
+      "question": "Which Submodel semanticId identifies an AID 1.0 submodel (IDTA 02017-1-0)?",
+      "expected_answer": "https://admin-shell.io/idta/AssetInterfacesDescription/1/0/Submodel.",
+      "must_include": ["AssetInterfacesDescription/1/0/Submodel"],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02017-1-0 Asset Interfaces Description",
+        "revision": "1.0",
+        "section": "2.3, Table 2 Attributes of AssetInterfacesDescription submodel",
+        "file": "idta-pdfs:txt/published/Asset Interfaces Description/1/0/IDTA 02017-1-0_Submodel_Asset Interfaces Description.txt",
+        "page": 13,
+        "quote": "semanticId: [IRI] https://admin-shell.io/idta/AssetInterfacesDescription/1/0/Submodel"
+      },
+      "tags": ["semanticId", "revision-specific"]
+    },
+    {
+      "id": "aas-asset-interfaces-description-005",
+      "question": "In an AID 1.1 submodel, may EndpointMetadata omit the 'base' Property?",
+      "expected_answer": "No. In AID 1.1 base (td#baseURI) has cardinality 1, i.e. mandatory. It only became optional (0..1) in AID 1.2.",
+      "must_include": ["mandatory"],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02017-1-1 Asset Interfaces Description",
+        "revision": "1.1",
+        "section": "2.5, Table 4 Elements of SMC EndpointMetadata, row base",
+        "file": "idta-pdfs:txt/published/Asset Interfaces Description/1/1/IDTA 02017-1-1_Submodel_Asset Interfaces Description.txt",
+        "page": 17,
+        "quote": "Defines asset connection entry point. Each protocol specifies a base pattern. Please see Annex B.1 for more details. [string] modbus+tcp://192.168.99.159:502/ 1"
+      },
+      "tags": ["cardinality", "revision-specific"]
+    },
+    {
+      "id": "aas-asset-interfaces-description-006",
+      "question": "Our validator flags an AID 1.2 interface whose EndpointMetadata has no 'base'. Is that a template violation?",
+      "expected_answer": "No. AID 1.2 made base optional (0..1); the Annex G change log says 'Make base optional'. It was mandatory only in 1.0/1.1.",
+      "must_include": ["optional"],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02017 Asset Interfaces Description",
+        "revision": "1.2",
+        "section": "Annex G. Changes between version 1.1 and 1.2",
+        "file": "skills/aas-asset-interfaces-description/IDTA-02017-1-2_Submodel_Asset-Interfaces-Description.txt",
+        "page": 103,
+        "quote": "Section 2.5 Update Make “base” optional"
+      },
+      "tags": ["cardinality", "revision-specific", "commonly-misreported-invalid"]
+    },
+    {
+      "id": "aas-asset-interfaces-description-007",
+      "question": "Which element did AID 1.2 add to EndpointMetadata to state the protocol version (e.g. SNMPv1 vs SNMPv2c), and what is its semanticId?",
+      "expected_answer": "protocolVersion, a string Property (0..1) with semanticId https://www.w3.org/2019/wot/td#versionInfo.",
+      "must_include": ["protocolVersion", "td#versionInfo"],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02017 Asset Interfaces Description",
+        "revision": "1.2",
+        "section": "2.5, Table 4 Elements of SMC EndpointMetadata, row protocolVersion",
+        "file": "skills/aas-asset-interfaces-description/IDTA-02017-1-2_Submodel_Asset-Interfaces-Description.txt",
+        "page": 20,
+        "quote": "protocolVersion [IRI] https://www.w3.org/2019/wot/td#versionInfo Used by multi-versioned protocols to indicate the specific protocol version of the interface"
+      },
+      "tags": ["revision-specific", "semanticId"]
+    },
+    {
+      "id": "aas-asset-interfaces-description-008",
+      "question": "Is the 'forms' SMC optional on an AID datapoint ({property_name}), and can nested object members carry their own forms?",
+      "expected_answer": "forms (td#hasForm) is mandatory with cardinality 1 on every top-level {property_name}; it exists only at the top level, so nested members have no forms.",
+      "must_include": ["mandatory", "top"],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02017 Asset Interfaces Description",
+        "revision": "1.2",
+        "section": "2.9, Table 8 Elements of SMC {property_name} for boolean schema, row forms",
+        "file": "skills/aas-asset-interfaces-description/IDTA-02017-1-2_Submodel_Asset-Interfaces-Description.txt",
+        "page": 23,
+        "quote": "Contains information about datapoint resource location. Note, forms is only available at the top level {property_name} See Section 2.12 1"
+      },
+      "tags": ["cardinality", "mandatory"]
+    },
+    {
+      "id": "aas-asset-interfaces-description-009",
+      "question": "In AID, a datapoint's forms/href is '/properties/voltage'. What is it relative to?",
+      "expected_answer": "A relative href is always resolved against the base defined in the interface's EndpointMetadata (href itself is mandatory, card 1).",
+      "must_include": ["base", "EndpointMetadata"],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02017 Asset Interfaces Description",
+        "revision": "1.2",
+        "section": "2.23, Table 22 Elements of SMC forms, row href",
+        "file": "skills/aas-asset-interfaces-description/IDTA-02017-1-2_Submodel_Asset-Interfaces-Description.txt",
+        "page": 50,
+        "quote": "The relative endpoint definition in href is always relative to base defined in EndpointMetadata."
+      },
+      "tags": ["structure"]
+    },
+    {
+      "id": "aas-asset-interfaces-description-010",
+      "question": "Which idShort prefixes does AID use for the protocol-specific terms inside forms for HTTP, Modbus and MQTT?",
+      "expected_answer": "htv_ for HTTP, modv_ for Modbus and mqv_ for MQTT (e.g. htv_methodName, modv_function, mqv_retain).",
+      "must_include": ["htv_", "modv_", "mqv_"],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02017 Asset Interfaces Description",
+        "revision": "1.2",
+        "section": "2.24 Communication Protocol Bindings",
+        "file": "skills/aas-asset-interfaces-description/IDTA-02017-1-2_Submodel_Asset-Interfaces-Description.txt",
+        "page": 51,
+        "quote": "namespace tag htv_{parameter name} is used as a pattern. For Modbus modv_{parameter}, for MQTT mqv_{parameter} and so on."
+      },
+      "tags": ["idShort"]
+    },
+    {
+      "id": "aas-asset-interfaces-description-011",
+      "question": "In the AID 1.2 specification tables, is htv_methodName optional in an HTTP form?",
+      "expected_answer": "No. Table 23 gives htv_methodName (http#methodName, e.g. GET) cardinality 1, so it is mandatory for HTTP forms.",
+      "must_include": ["htv_methodName", "mandatory"],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02017 Asset Interfaces Description",
+        "revision": "1.2",
+        "section": "2.24.1, Table 23 Elements of HTTP specific terms in SMC forms",
+        "file": "skills/aas-asset-interfaces-description/IDTA-02017-1-2_Submodel_Asset-Interfaces-Description.txt",
+        "page": 52,
+        "quote": "htv_methodName [IRI]https://www.w3.org/2011/http#methodName Defines the action to be performed datapoint IRI [string] GET 1"
+      },
+      "tags": ["cardinality"]
+    },
+    {
+      "id": "aas-asset-interfaces-description-012",
+      "question": "An object-type AID datapoint has nested members under its 'properties' SMC. Which semanticId do those nested {property_name} SMCs use, and do they carry forms?",
+      "expected_answer": "https://www.w3.org/2019/wot/json-schema#propertyName (not .../1/0/PropertyDefinition), and they have no forms SMC and no observable property.",
+      "must_include": ["json-schema#propertyName"],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02017 Asset Interfaces Description",
+        "revision": "1.2",
+        "section": "2.17, Table 16 Elements of Nested SMC {property_name} for Boolean schema",
+        "file": "skills/aas-asset-interfaces-description/IDTA-02017-1-2_Submodel_Asset-Interfaces-Description.txt",
+        "page": 38,
+        "quote": "except for the semanticId and the absent of the forms SMC and observable property."
+      },
+      "tags": ["semanticId", "structure", "trap"]
+    },
+    {
+      "id": "aas-asset-interfaces-description-013",
+      "question": "Our asset's interface has no security at all. Can we leave the EndpointMetadata security list empty in AID?",
+      "expected_answer": "The spec says the security list should still have an entry referencing a nosec_sc security definition (declared in securityDefinitions).",
+      "must_include": ["nosec_sc"],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02017 Asset Interfaces Description",
+        "revision": "1.2",
+        "section": "2.5, Table 4 Elements of SMC EndpointMetadata, row security",
+        "file": "skills/aas-asset-interfaces-description/IDTA-02017-1-2_Submodel_Asset-Interfaces-Description.txt",
+        "page": 19,
+        "quote": "Even if the interface does not support any security mechanisms, the security should have a list entry with a reference to a nosec_sc security definition."
+      },
+      "tags": ["security"]
+    },
+    {
+      "id": "aas-asset-interfaces-description-014",
+      "question": "For a CAN interface described with AID 1.2, what should EndpointMetadata/base contain?",
+      "expected_answer": "Nothing: for CAN the base field in EndpointMetadata is not used (CAN is the only non-IP protocol in AID 1.2).",
+      "must_include": ["not used"],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02017 Asset Interfaces Description",
+        "revision": "1.2",
+        "section": "2.24.8 Elements of CAN binding for SMC forms",
+        "file": "skills/aas-asset-interfaces-description/IDTA-02017-1-2_Submodel_Asset-Interfaces-Description.txt",
+        "page": 69,
+        "quote": "The “base” field in “EndpointMetadata” is not used."
+      },
+      "tags": ["revision-specific"]
+    },
+    {
+      "id": "aas-asset-interfaces-description-015",
+      "question": "Can an AID 1.2 submodel be used to describe write operations or function calls on an asset?",
+      "expected_answer": "No. AID 1.0, 1.1 and 1.2 cover only readable and monitoring operations; function calls are announced for an upcoming version.",
+      "must_include": ["monitoring"],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02017 Asset Interfaces Description",
+        "revision": "1.2",
+        "section": "2.23 (note after Table 22)",
+        "file": "skills/aas-asset-interfaces-description/IDTA-02017-1-2_Submodel_Asset-Interfaces-Description.txt",
+        "page": 51,
+        "quote": "Note: Currently AID 1.0, 1.1, and 1.2 cover only readable and monitoring operations."
+      },
+      "tags": ["scope"]
+    }
+  ]
+}

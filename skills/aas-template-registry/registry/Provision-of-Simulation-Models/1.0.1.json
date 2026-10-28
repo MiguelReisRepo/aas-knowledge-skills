@@ -1,0 +1,1690 @@
+{
+ "template": "Provision of Simulation Models",
+ "version": "1.0.1",
+ "submodelIdShort": "SimulationModels",
+ "submodelSemanticId": "https://admin-shell.io/idta/SimulationModels/SimulationModels/1/0",
+ "json": {
+  "path": "published/Provision of Simulation Models/1/0/1/IDTA 02005-1-0-1_Template_ProvisionOfSimulationModels_forAASMetamodelV3.1.json",
+  "gitBlob": "c2bac89aa27c6a08fbe08e9afd6ed509393afadc"
+ },
+ "pdf": {
+  "path": "published/Provision of Simulation Models/1/0/IDTA 02005-1-0_Submodel_ProvisionOfSimulationModels.pdf",
+  "relation": "ancestor folder (bug-fix release without its own PDF)",
+  "sha256": "ddafbcec17644014d56009c329b679ae4cb75bfc92891c5cb02dc786f51b6428",
+  "annexA": [
+   {
+    "page": 44,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 44,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 63,
+  "json-only": 6
+ },
+ "elements": [
+  {
+   "path": "SimulationModel",
+   "idShort": "SimulationModel",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/SimulationModel/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "SimulationModel",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/SimulationModel/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SimulationModel > Summary",
+   "idShort": "Summary",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/Summary/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[MLP]",
+     "idShort": "Summary",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/Summary/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > SimPurpose",
+   "idShort": "SimPurpose",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/SimPurpose/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[SMC]",
+     "idShort": "SimPurpose",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/SimPurpose/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SimulationModel > SimPurpose > PosSimPurpose",
+   "idShort": "PosSimPurpose",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/PosSimPurpose/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "PosSimPurpose",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/PosSimPurpose/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "SimulationModel > SimPurpose > NegSimPurpose",
+   "idShort": "NegSimPurpose",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/NegSimPurpose/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "NegSimPurpose",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/NegSimPurpose/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SimulationModel > TypeOfModel",
+   "idShort": "TypeOfModel",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/TypeOfModel/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "TypeOfModel",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/TypeOfModel/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SimulationModel > ScopeOfModel",
+   "idShort": "ScopeOfModel",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/ScopeOfModel/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "ScopeOfModel",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/ScopeOfModel/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "SimulationModel > LicenseModel",
+   "idShort": "LicenseModel",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/LicenseModel/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "LicenseModel",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/LicenseModel/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > EngineeringDomain",
+   "idShort": "EngineeringDomain",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/EngineeringDomain/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "EngineeringDomain",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/EngineeringDomain/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SimulationModel > Environment",
+   "idShort": "Environment",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/Environment/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "Environment",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/Environment/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SimulationModel > Environment > OperatingSystem",
+   "idShort": "OperatingSystem",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/OperatingSystem/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Property]",
+     "idShort": "OperatingSystem",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/OperatingSystem/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SimulationModel > Environment > ToolEnvironment",
+   "idShort": "ToolEnvironment",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/ToolEnvironment/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Property]",
+     "idShort": "ToolEnvironment",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/ToolEnvironment/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SimulationModel > Environment > DependencyEnvironment",
+   "idShort": "DependencyEnvironment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/DependencyEnvironment/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[MLP]",
+     "idShort": "DependencyEnvironment",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/DependencyEnvironment/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > Environment > VisualizationInformation",
+   "idShort": "VisualizationInformation",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/VisualizationInformation/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Property]",
+     "idShort": "VisualizationInformation",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/VisualizationInformation/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > Environment > SimulationTool",
+   "idShort": "SimulationTool",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/SimulationTool/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[SMC]",
+     "idShort": "SimulationTool",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/SimulationTool/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "SimulationModel > Environment > SimulationTool > SimToolName",
+   "idShort": "SimToolName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModel/SimToolName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SimulationModel > Environment > SimulationTool > DependencySimTool",
+   "idShort": "DependencySimTool",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/DependencySimTool/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Property]",
+     "idShort": "DependencySimTool",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/DependencySimTool/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SimulationModel > Environment > SimulationTool > Compiler",
+   "idShort": "Compiler",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/Compiler/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SimulationModel > Environment > SimulationTool > SolverAndTolerances",
+   "idShort": "SolverAndTolerances",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/SolverAndTolerances/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[SMC]",
+     "idShort": "SolverAndTolerances",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/SolverAndTolerances/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SimulationModel > Environment > SimulationTool > SolverAndTolerances > StepSizeControlNeeded",
+   "idShort": "StepSizeControlNeeded",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/StepSizeControlNeeded/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Property]",
+     "idShort": "StepSizeControlNeeded",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/StepSizeControlNeeded/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SimulationModel > Environment > SimulationTool > SolverAndTolerances > FixedStepSize",
+   "idShort": "FixedStepSize",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/FixedStepSize/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Property]",
+     "idShort": "FixedStepSize",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/FixedStepSize/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > Environment > SimulationTool > SolverAndTolerances > StiffSolverNeeded",
+   "idShort": "StiffSolverNeeded",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/StiffSolverNeeded/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Property]",
+     "idShort": "StiffSolverNeeded",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/StiffSolverNeeded/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SimulationModel > Environment > SimulationTool > SolverAndTolerances > SolverIncluded",
+   "idShort": "SolverIncluded",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/SolverIncluded/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Property]",
+     "idShort": "SolverIncluded",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/SolverIncluded/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SimulationModel > Environment > SimulationTool > SolverAndTolerances > TestedToolSolverAlgorithm",
+   "idShort": "TestedToolSolverAlgorithm",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/TestedToolSolverAlgorithm/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[SMC]",
+     "idShort": "TestedToolSolverAlgorithm",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/TestedToolSolverAlgorithm/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SimulationModel > Environment > SimulationTool > SolverAndTolerances > TestedToolSolverAlgorithm > SolverAlgorithm",
+   "idShort": "SolverAlgorithm",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/SolverAlgorithm/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "SolverAlgorithm",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/SolverAlgorithm/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SimulationModel > Environment > SimulationTool > SolverAndTolerances > TestedToolSolverAlgorithm > ToolSolverFurtherDescription",
+   "idShort": "ToolSolverFurtherDescription",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/ToolSolverFurtherDescription/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "ToolSolverFurtherDescription",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/ToolSolverFurtherDescription/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > Environment > SimulationTool > SolverAndTolerances > TestedToolSolverAlgorithm > Tolerance",
+   "idShort": "Tolerance",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/Tolerance/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > RefSimDocumentation",
+   "idShort": "RefSimDocumentation",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/RefSimDocumentation/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[File]",
+     "idShort": "RefSimDocumentation",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/RefSimDocumentation/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SimulationModel > ModelFile",
+   "idShort": "ModelFile",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/ModelFile/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "ModelFile",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/ModelFile/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SimulationModel > ModelFile > ModelFileType",
+   "idShort": "ModelFileType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/ModelFileType/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Property]",
+     "idShort": "ModelFileType",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/ModelFileType/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > ModelFile > ModelFileVersion",
+   "idShort": "ModelFileVersion",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/ModelFileVersion/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[SMC]",
+     "idShort": "ModelFileVersion",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/ModelFileVersion/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "SimulationModel > ModelFile > ModelFileVersion > ModelVersionId",
+   "idShort": "ModelVersionId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/ModelVersionId/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Property]",
+     "idShort": "ModelVersionId",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/ModelVersionId/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SimulationModel > ModelFile > ModelFileVersion > ModelPreviewImage",
+   "idShort": "ModelPreviewImage",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/ModelPreviewImage/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[File]",
+     "idShort": "ModelPreviewImage",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/ModelPreviewImage/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > ModelFile > ModelFileVersion > DigitalFile",
+   "idShort": "DigitalFile",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/DigitalFile/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[File]",
+     "idShort": "DigitalFile",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/DigitalFile/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SimulationModel > ModelFile > ModelFileVersion > ModelFileReleaseNotesTxt",
+   "idShort": "ModelFileReleaseNotesTxt",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/ModelFileReleaseNotesTxt/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[MLP]",
+     "idShort": "ModelFileReleaseNotesTxt",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/ModelFileReleaseNotesTxt/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > ModelFile > ModelFileVersion > ModelFileReleaseNotesFile",
+   "idShort": "ModelFileReleaseNotesFile",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/ModelFileReleaseNotesFile/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[File]",
+     "idShort": "ModelFileReleaseNotesFile",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/ModelFileReleaseNotesFile/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > ParamMethod",
+   "idShort": "ParamMethod",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/ParamMethod/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Property]",
+     "idShort": "ParamMethod",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/ParamMethod/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SimulationModel > ParamFile",
+   "idShort": "ParamFile",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/ParamFile/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[File]",
+     "idShort": "ParamFile",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/ParamFile/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > InitStateMethod",
+   "idShort": "InitStateMethod",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/InitStateMethod/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Property]",
+     "idShort": "InitStateMethod",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/InitStateMethod/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SimulationModel > InitStateFile",
+   "idShort": "InitStateFile",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/InitStateFile/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[File]",
+     "idShort": "InitStateFile",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/InitStateFile/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > DefaultSimTime",
+   "idShort": "DefaultSimTime",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/DefaultSimTime/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Property]",
+     "idShort": "DefaultSimTime",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/DefaultSimTime/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > SimModManufacturerInformation",
+   "idShort": "SimModManufacturerInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/SimModManufacturerInformation/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "SimModManufacturerInformation",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/SimModManufacturerInformation/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SimulationModel > SimModManufacturerInformation > Company",
+   "idShort": "Company",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAW001#001",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Property]",
+     "idShort": "Company",
+     "semanticId": "0173-1#02-AAW001#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SimulationModel > SimModManufacturerInformation > Language",
+   "idShort": "Language",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO895#003",
+   "json": "1..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Property]",
+     "idShort": "Language",
+     "semanticId": "0173-1#02-AAO895#003",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "SimulationModel > SimModManufacturerInformation > Email",
+   "idShort": "Email",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-AAQ836#005",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[SMC]",
+     "idShort": "Email",
+     "semanticId": "0173-1#02-AAQ836#005",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > SimModManufacturerInformation > Email > TypeOfEmailAddress",
+   "idShort": "TypeOfEmailAddress",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO199#003",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[Property]",
+     "idShort": "TypeOfEmailAddress",
+     "semanticId": "0173-1#02-AAO199#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > SimModManufacturerInformation > Email > EmailAddress",
+   "idShort": "EmailAddress",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO198#002",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[Property]",
+     "idShort": "EmailAddress",
+     "semanticId": "0173-1#02-AAO198#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SimulationModel > SimModManufacturerInformation > Email > TypeOfPublicKey",
+   "idShort": "TypeOfPublicKey",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO201#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[Property]",
+     "idShort": "TypeOfPublicKey",
+     "semanticId": "0173-1#02-AAO201#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > SimModManufacturerInformation > Email > PublicKey",
+   "idShort": "PublicKey",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO200#002",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[Property]",
+     "idShort": "PublicKey",
+     "semanticId": "0173-1#02-AAO200#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > SimModManufacturerInformation > Phone",
+   "idShort": "Phone",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/Phone",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[SMC]",
+     "idShort": "Phone",
+     "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/Phone",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > SimModManufacturerInformation > Phone > TypeOfTelephone",
+   "idShort": "TypeOfTelephone",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO137#003",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "TypeOfTelephone",
+     "semanticId": "0173-1#02-AAO137#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > SimModManufacturerInformation > Phone > TelephoneNumber",
+   "idShort": "TelephoneNumber",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO136#002",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "TelephoneNumber",
+     "semanticId": "0173-1#02-AAO136#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SimulationModel > SimModManufacturerInformation > Phone > AvailableTime",
+   "idShort": "AvailableTime",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation/AvailableTime/",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > Ports",
+   "idShort": "Ports",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/Ports/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "Ports",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/Ports/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > Ports > PortsConnector",
+   "idShort": "PortsConnector",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/PortsConnector/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[SMC]",
+     "idShort": "PortsConnector",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/PortsConnector/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SimulationModel > Ports > PortsConnector > PortConnectorName",
+   "idShort": "PortConnectorName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/PortsConnectorName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SimulationModel > Ports > PortsConnector > PortConDescription",
+   "idShort": "PortConDescription",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/SimulationModel/portConDescription/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > Ports > PortsConnector > Variable",
+   "idShort": "Variable",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/Variable/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[SMC]",
+     "idShort": "Variable",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/Variable/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SimulationModel > Ports > PortsConnector > Variable > VariableName",
+   "idShort": "VariableName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/VariableName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[Property]",
+     "idShort": "VariableName",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/VariableName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SimulationModel > Ports > PortsConnector > Variable > Range",
+   "idShort": "Range",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/Range/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[Property]",
+     "idShort": "Range",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/Range/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > Ports > PortsConnector > Variable > VariableType",
+   "idShort": "VariableType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/VariableType/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[Property]",
+     "idShort": "VariableType",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/VariableType/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SimulationModel > Ports > PortsConnector > Variable > VariableDescription",
+   "idShort": "VariableDescription",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/VariableDescription/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[MLP]",
+     "idShort": "VariableDescription",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/VariableDescription/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > Ports > PortsConnector > Variable > UnitList",
+   "idShort": "UnitList",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/UnitList/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[Property]",
+     "idShort": "UnitList",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/UnitList/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SimulationModel > Ports > PortsConnector > Variable > UnitDescription",
+   "idShort": "UnitDescription",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/UnitDescription/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[MLP]",
+     "idShort": "UnitDescription",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/UnitDescription/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > Ports > PortsConnector > Variable > VariableCausality",
+   "idShort": "VariableCausality",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/VariableCausality/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[Property]",
+     "idShort": "VariableCausality",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/VariableCausality/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SimulationModel > Ports > PortsConnector > Variable > VariablePrefix",
+   "idShort": "VariablePrefix",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/VariablePrefix/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[Property]",
+     "idShort": "VariablePrefix",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/VariablePrefix/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SimulationModel > Ports > BinaryConnector",
+   "idShort": "BinaryConnector",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/BinaryConnector/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[SMC]",
+     "idShort": "BinaryConnector",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/BinaryConnector/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SimulationModel > Ports > BinaryConnector > BinaryConName",
+   "idShort": "BinaryConName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/BinaryConnectorName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Property]",
+     "idShort": "BinaryConName",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/BinaryConnectorName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SimulationModel > Ports > BinaryConnector > BinaryConDescription",
+   "idShort": "BinaryConDescription",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/SimulationModels/BinaryConDescription/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Property]",
+     "idShort": "BinaryConDescription",
+     "semanticId": "https://admin-shell.io/idta/SimulationModels/BinaryConDescription/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  }
+ ]
+}

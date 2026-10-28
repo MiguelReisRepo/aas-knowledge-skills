@@ -1,0 +1,2680 @@
+{
+ "template": "Provision of Company Data",
+ "version": "1.0.0",
+ "submodelIdShort": "CompanyData",
+ "submodelSemanticId": "https://admin-shell.io/idta/CompanyData/1/0/CompanyData",
+ "json": {
+  "path": "published/Provision of Company Data/1/0/IDTA 02068_Template_Provision Of Company Data_forAASMetamodelV3.1.json",
+  "gitBlob": "3f0696d9a46aa9ade91d041757e8a83dc72d6056"
+ },
+ "pdf": {
+  "path": "published/Provision of Company Data/1/0/IDTA 02068_Submodel Provision of Company Data.pdf",
+  "relation": "same folder",
+  "sha256": "03c98861ed3bf158a9288c78b5541b2c02710f14890a6054a971261c1196cfa3",
+  "annexA": [
+   {
+    "page": 32,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 32,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 106
+ },
+ "elements": [
+  {
+   "path": "CompanyIdentification",
+   "idShort": "CompanyIdentification",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/CompanyIdentification/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "CompanyIdentification",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/CompanyIdentification/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CompanyIdentification > CompanyName",
+   "idShort": "CompanyName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/CompanyName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "CompanyName",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/CompanyName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CompanyIdentification > CompanyDescription",
+   "idShort": "CompanyDescription",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/CompanyDescription/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[MLP]",
+     "idShort": "CompanyDescription",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/CompanyDescription/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyIdentification > HomepageURL",
+   "idShort": "HomepageURL",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/HomepageURL/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[MLP]",
+     "idShort": "HomepageURL",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/HomepageURL/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyIdentification > VATNumber",
+   "idShort": "VATNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/VATNumber/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "VATNumber",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/VATNumber/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyIdentification > TaxNumber",
+   "idShort": "TaxNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/TaxNumber/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "TaxNumber",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/TaxNumber/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyIdentification > DUNS",
+   "idShort": "DUNS",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/DUNS/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "DUNS",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/DUNS/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyIdentification > CommercialRegisterNumber",
+   "idShort": "CommercialRegisterNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/CommercialRegisterNumber/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "CommercialRegisterNumber",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/CommercialRegisterNumber/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyIdentification > FoundingYear",
+   "idShort": "FoundingYear",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/FoundingYear/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "FoundingYear",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/FoundingYear/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyIdentification > OrderCurrency",
+   "idShort": "OrderCurrency",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/OrderCurrency/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "OrderCurrency",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/OrderCurrency/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyIdentification > MainProductGroups",
+   "idShort": "MainProductGroups",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/MainProductGroups/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SML]",
+     "idShort": "MainProductGroups",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/MainProductGroups/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyIdentification > MainProductGroups > MainProductGroup",
+   "idShort": "MainProductGroup",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/MainProductGroup/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "MainProductGroup",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/MainProductGroup/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "CompanyIdentification > Industries",
+   "idShort": "Industries",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/Industries/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SML]",
+     "idShort": "Industries",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/Industries/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyIdentification > Industries > Industry",
+   "idShort": "Industry",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/Industry/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[MLP]",
+     "idShort": "Industry",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/Industry/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "CompanyIdentification > CompanyLogo",
+   "idShort": "CompanyLogo",
+   "modelType": "File",
+   "semanticId": "0173-1#02-ABI776#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[File]",
+     "idShort": "CompanyLogo",
+     "semanticId": "0173-1#02-ABI776#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "BankAccounts",
+   "idShort": "BankAccounts",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/BankAccounts/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "BankAccounts",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/BankAccounts/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "BankAccounts > MainAccount",
+   "idShort": "MainAccount",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/MainAccount/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Ref]",
+     "idShort": "MainAccount",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/MainAccount/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "BankAccounts > BankAccount__00__",
+   "idShort": "BankAccount__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/BankAccount/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[SMC]",
+     "idShort": "BankAccount__00__",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/BankAccount/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "BankAccounts > BankAccount__00__ > AccountHolder",
+   "idShort": "AccountHolder",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/AccountHolder/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "AccountHolder",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/AccountHolder/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "BankAccounts > BankAccount__00__ > BankAccountType",
+   "idShort": "BankAccountType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/BankAccountType/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "BankAccountType",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/BankAccountType/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "BankAccounts > BankAccount__00__ > IBAN",
+   "idShort": "IBAN",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/IBAN/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "IBAN",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/IBAN/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "BankAccounts > BankAccount__00__ > BIC",
+   "idShort": "BIC",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/BIC/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "BIC",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/BIC/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DigitalInterfaces",
+   "idShort": "DigitalInterfaces",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/DigitalInterfaces/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "DigitalInterfaces",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/DigitalInterfaces/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DigitalInterfaces > CompanySystems",
+   "idShort": "CompanySystems",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/CompanySystems/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "CompanySystems",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/CompanySystems/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DigitalInterfaces > CompanySystems > ERPSystem",
+   "idShort": "ERPSystem",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/ERPSystem/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "ERPSystem",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/ERPSystem/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DigitalInterfaces > CompanySystems > ERPSystem > ERPName",
+   "idShort": "ERPName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/ERPName/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "ERPName",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/ERPName/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DigitalInterfaces > CompanySystems > ERPSystem > ERPVersion",
+   "idShort": "ERPVersion",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/ERPVersion/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "ERPVersion",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/ERPVersion/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DigitalInterfaces > CompanySystems > ERPSystem > ERPReference",
+   "idShort": "ERPReference",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/ERPReference/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Ref]",
+     "idShort": "ERPReference",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/ERPReference/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DigitalInterfaces > CompanySystems > EmailSystem",
+   "idShort": "EmailSystem",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/EmailSystem/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "EmailSystem",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/EmailSystem/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DigitalInterfaces > CompanySystems > EmailSystem > EmailSystemName",
+   "idShort": "EmailSystemName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/EmailSystemName/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "EmailSystemName",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/EmailSystemName/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DigitalInterfaces > CompanySystems > EmailSystem > EmailSystemReference",
+   "idShort": "EmailSystemReference",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/EmailSystemReference/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Ref]",
+     "idShort": "EmailSystemReference",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/EmailSystemReference/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DigitalInterfaces > CompanySystems > CADTools",
+   "idShort": "CADTools",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/CADTools/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SML]",
+     "idShort": "CADTools",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/CADTools/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DigitalInterfaces > CompanySystems > CADTools > Tool",
+   "idShort": "Tool",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/CADTool/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Tool",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/CADTool/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "DigitalInterfaces > DataExchange",
+   "idShort": "DataExchange",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/DataExchange/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "DataExchange",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/DataExchange/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DigitalInterfaces > DataExchange > EncryptedDataTransmission",
+   "idShort": "EncryptedDataTransmission",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/EncryptedDataTransmission/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "EncryptedDataTransmission",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/EncryptedDataTransmission/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DigitalInterfaces > DataExchange > OutgoingEInvoiceFormat",
+   "idShort": "OutgoingEInvoiceFormat",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/OutgoingEInvoiceFormat/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "OutgoingEInvoiceFormat",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/OutgoingEInvoiceFormat/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DigitalInterfaces > DataExchange > EDI",
+   "idShort": "EDI",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/EDI/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "EDI",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/EDI/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DigitalInterfaces > DataExchange > WebEDI",
+   "idShort": "WebEDI",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/WebEDI/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "WebEDI",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/WebEDI/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DigitalInterfaces > DataExchange > CADFormats",
+   "idShort": "CADFormats",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/CADFormats/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SML]",
+     "idShort": "CADFormats",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/CADFormats/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DigitalInterfaces > DataExchange > CADFormats > CADFormat",
+   "idShort": "CADFormat",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/CADFormat/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "CADFormat",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/CADFormat/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "BusinessReportFigures",
+   "idShort": "BusinessReportFigures",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/BusinessReportFigures/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "BusinessReportFigures",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/BusinessReportFigures/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "BusinessReportFigures > LastReport",
+   "idShort": "LastReport",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/LastReport/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Ref]",
+     "idShort": "LastReport",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/LastReport/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "BusinessReportFigures > BusinessReportFigure__00__",
+   "idShort": "BusinessReportFigure__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/BusinessReportFigure/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[SMC]",
+     "idShort": "BusinessReportFigure__00__",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/BusinessReportFigure/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "BusinessReportFigures > BusinessReportFigure__00__ > FinancialYear",
+   "idShort": "FinancialYear",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/FinancialYear/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "FinancialYear",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/FinancialYear/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "BusinessReportFigures > BusinessReportFigure__00__ > BeginOfReporttimeFrame",
+   "idShort": "BeginOfReporttimeFrame",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/BeginOfReporttimeFrame/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "BeginOfReporttimeFrame",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/BeginOfReporttimeFrame/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "BusinessReportFigures > BusinessReportFigure__00__ > EndOfReporttimeFrame",
+   "idShort": "EndOfReporttimeFrame",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/EndOfReporttimeFrame/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "EndOfReporttimeFrame",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/EndOfReporttimeFrame/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "BusinessReportFigures > BusinessReportFigure__00__ > YearOfPublication",
+   "idShort": "YearOfPublication",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/YearOfPublication/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "YearOfPublication",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/YearOfPublication/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "BusinessReportFigures > BusinessReportFigure__00__ > Turnover",
+   "idShort": "Turnover",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/Turnover/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "Turnover",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/Turnover/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "BusinessReportFigures > BusinessReportFigure__00__ > InvestmentVolume",
+   "idShort": "InvestmentVolume",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/InvestmentVolume/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Prop]",
+     "idShort": "InvestmentVolume",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/InvestmentVolume/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "BusinessReportFigures > BusinessReportFigure__00__ > EquityRatio",
+   "idShort": "EquityRatio",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/EquityRatio/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Prop]",
+     "idShort": "EquityRatio",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/EquityRatio/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "BusinessReportFigures > BusinessReportFigure__00__ > Customers",
+   "idShort": "Customers",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/Customers/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[SMC]",
+     "idShort": "Customers",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/Customers/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "BusinessReportFigures > BusinessReportFigure__00__ > Customers > TotalNumberCustomers",
+   "idShort": "TotalNumberCustomers",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/TotalNumberCustomers/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Prop]",
+     "idShort": "TotalNumberCustomers",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/TotalNumberCustomers/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "BusinessReportFigures > BusinessReportFigure__00__ > Customers > ReferenceCustomer__00__",
+   "idShort": "ReferenceCustomer__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/ReferenceCustomer/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[SMC]",
+     "idShort": "ReferenceCustomer__00__",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/ReferenceCustomer/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "BusinessReportFigures > BusinessReportFigure__00__ > Customers > ReferenceCustomer__00__ > ReferenceToCustomer",
+   "idShort": "ReferenceToCustomer",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/ReferenceToCustomer/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Ref]",
+     "idShort": "ReferenceToCustomer",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/ReferenceToCustomer/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "BusinessReportFigures > BusinessReportFigure__00__ > Customers > ReferenceCustomer__00__ > CustomerWebsite",
+   "idShort": "CustomerWebsite",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/CustomerWebsite/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "CustomerWebsite",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/CustomerWebsite/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "BusinessReportFigures > BusinessReportFigure__00__ > TotalEmployees",
+   "idShort": "TotalEmployees",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/TotalEmployees/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Prop]",
+     "idShort": "TotalEmployees",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/TotalEmployees/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "BusinessReportFigures > BusinessReportFigure__00__ > ConsolidatedDataFile",
+   "idShort": "ConsolidatedDataFile",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/ConsolidatedDataFile/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[File]",
+     "idShort": "ConsolidatedDataFile",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/ConsolidatedDataFile/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance",
+   "idShort": "CompanyGovernance",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/CompanyGovernance/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "CompanyGovernance",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/CompanyGovernance/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > CorporatePolicies",
+   "idShort": "CorporatePolicies",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/CorporatePolicies/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[SMC]",
+     "idShort": "CorporatePolicies",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/CorporatePolicies/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > CorporatePolicies > CodeOfConduct",
+   "idShort": "CodeOfConduct",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/CodeOfConduct/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Ref]",
+     "idShort": "CodeOfConduct",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/CodeOfConduct/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > CorporatePolicies > GeneralTermsAndConditions",
+   "idShort": "GeneralTermsAndConditions",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/GeneralTermsAndConditions/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Ref]",
+     "idShort": "GeneralTermsAndConditions",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/GeneralTermsAndConditions/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > CorporatePolicies > QualityAssuranceAgreements",
+   "idShort": "QualityAssuranceAgreements",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/QualityAssuranceAgreements/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Ref]",
+     "idShort": "QualityAssuranceAgreements",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/QualityAssuranceAgreements/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > IndustryStandards",
+   "idShort": "IndustryStandards",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/IndustryStandards/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[SMC]",
+     "idShort": "IndustryStandards",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/IndustryStandards/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > IndustryStandards > Memberships",
+   "idShort": "Memberships",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/Memberships/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[SML]",
+     "idShort": "Memberships",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/Memberships/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > IndustryStandards > Memberships > Membership",
+   "idShort": "Membership",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/Association/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Prop]",
+     "idShort": "Membership",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/Association/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "CompanyGovernance > IndustryStandards > Certifications",
+   "idShort": "Certifications",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/Certifications/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[SML]",
+     "idShort": "Certifications",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/Certifications/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > IndustryStandards > Certifications > Certification",
+   "idShort": "Certification",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/Certification/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[SMC]",
+     "idShort": "Certification",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/Certification/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "CompanyGovernance > IndustryStandards > Certifications > Certification > CertificationStandard",
+   "idShort": "CertificationStandard",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/CertificationStandard/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Prop]",
+     "idShort": "CertificationStandard",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/CertificationStandard/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > IndustryStandards > Certifications > Certification > ApprovalAgency",
+   "idShort": "ApprovalAgency",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/ApprovalAgency/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Prop]",
+     "idShort": "ApprovalAgency",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/ApprovalAgency/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > IndustryStandards > Certifications > Certification > CertificateNumber",
+   "idShort": "CertificateNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/CertificateNumber/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Prop]",
+     "idShort": "CertificateNumber",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/CertificateNumber/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > IndustryStandards > Certifications > Certification > IssueDate",
+   "idShort": "IssueDate",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/IssueDate/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Prop]",
+     "idShort": "IssueDate",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/IssueDate/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > IndustryStandards > Certifications > Certification > ExpiryDate",
+   "idShort": "ExpiryDate",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/ExpiryDate/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Prop]",
+     "idShort": "ExpiryDate",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/ExpiryDate/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > IndustryStandards > Certifications > Certification > CertificationDocument__00__",
+   "idShort": "CertificationDocument__00__",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/CertificationDocument/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Ref]",
+     "idShort": "CertificationDocument__00__",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/CertificationDocument/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "CompanyGovernance > IndustryStandards > Certifications > Certification > CertificationURL",
+   "idShort": "CertificationURL",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/CertificationURL/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Prop]",
+     "idShort": "CertificationURL",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/CertificationURL/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement",
+   "idShort": "RiskManagement",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/RiskManagement/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[SMC]",
+     "idShort": "RiskManagement",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/RiskManagement/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > BusinessContinuityPlan",
+   "idShort": "BusinessContinuityPlan",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/BusinessContinuityPlan/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Prop]",
+     "idShort": "BusinessContinuityPlan",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/BusinessContinuityPlan/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > EmployeeTrainings",
+   "idShort": "EmployeeTrainings",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/EmployeeTrainings/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[SML]",
+     "idShort": "EmployeeTrainings",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/EmployeeTrainings/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > EmployeeTrainings > EmployeeTraining",
+   "idShort": "EmployeeTraining",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/EmployeeTraining/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[SMC]",
+     "idShort": "EmployeeTraining",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/EmployeeTraining/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > EmployeeTrainings > EmployeeTraining > TypeOfTraining",
+   "idShort": "TypeOfTraining",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/TypeOfTraining/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[Prop]",
+     "idShort": "TypeOfTraining",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/TypeOfTraining/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > EmployeeTrainings > EmployeeTraining > TrainingDocumentation",
+   "idShort": "TrainingDocumentation",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/TrainingDocumentation/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[Ref]",
+     "idShort": "TrainingDocumentation",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/TrainingDocumentation/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > SecurityPolicies",
+   "idShort": "SecurityPolicies",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/SecurityPolicies/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[SMC]",
+     "idShort": "SecurityPolicies",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/SecurityPolicies/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > SecurityPolicies > InformationSecurityPolicy",
+   "idShort": "InformationSecurityPolicy",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/InformationSecurityPolicy/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Prop]",
+     "idShort": "InformationSecurityPolicy",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/InformationSecurityPolicy/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > SecurityPolicies > DataProtectionPolicy",
+   "idShort": "DataProtectionPolicy",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/DataProtectionPolicy/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Prop]",
+     "idShort": "DataProtectionPolicy",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/DataProtectionPolicy/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > SecurityPolicies > PasswordPolicy",
+   "idShort": "PasswordPolicy",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/PasswordPolicy/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Prop]",
+     "idShort": "PasswordPolicy",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/PasswordPolicy/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > SecurityPolicies > AuthorizationConcept",
+   "idShort": "AuthorizationConcept",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/AuthorizationConcept/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Prop]",
+     "idShort": "AuthorizationConcept",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/AuthorizationConcept/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > SecurityPolicies > AccessControlProcess",
+   "idShort": "AccessControlProcess",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/AccessControlProcess/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Prop]",
+     "idShort": "AccessControlProcess",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/AccessControlProcess/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > SecurityPolicies > UserAccessInventory",
+   "idShort": "UserAccessInventory",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/UserAccessInventory/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Prop]",
+     "idShort": "UserAccessInventory",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/UserAccessInventory/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > SecurityPolicies > PermissionDocumentation",
+   "idShort": "PermissionDocumentation",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/PermissionDocumentation/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Prop]",
+     "idShort": "PermissionDocumentation",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/PermissionDocumentation/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > SecurityPolicies > LockingSystem",
+   "idShort": "LockingSystem",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/LockingSystem/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Prop]",
+     "idShort": "LockingSystem",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/LockingSystem/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > SecurityPolicies > KeyAllocation",
+   "idShort": "KeyAllocation",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/KeyAllocation/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Prop]",
+     "idShort": "KeyAllocation",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/KeyAllocation/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > SecurityPolicies > VisitorLog",
+   "idShort": "VisitorLog",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/VisitorLog/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Prop]",
+     "idShort": "VisitorLog",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/VisitorLog/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > SecurityPolicies > VisitorEscort",
+   "idShort": "VisitorEscort",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/VisitorEscort/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Prop]",
+     "idShort": "VisitorEscort",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/VisitorEscort/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > SecurityPolicies > VisitorBadge",
+   "idShort": "VisitorBadge",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/VisitorBadge/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Prop]",
+     "idShort": "VisitorBadge",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/VisitorBadge/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > SecurityPolicies > CustomerAudits",
+   "idShort": "CustomerAudits",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/CustomerAudits/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Prop]",
+     "idShort": "CustomerAudits",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/CustomerAudits/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > Insurances",
+   "idShort": "Insurances",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/Insurances/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[SML]",
+     "idShort": "Insurances",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/Insurances/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > Insurances > Insurance",
+   "idShort": "Insurance",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/Insurance/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[SMC]",
+     "idShort": "Insurance",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/Insurance/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > Insurances > Insurance > InsuranceCompany",
+   "idShort": "InsuranceCompany",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/InsuranceCompany/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Prop]",
+     "idShort": "InsuranceCompany",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/InsuranceCompany/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > Insurances > Insurance > InsuranceType",
+   "idShort": "InsuranceType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/InsuranceType/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Prop]",
+     "idShort": "InsuranceType",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/InsuranceType/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CompanyGovernance > RiskManagement > Insurances > Insurance > InsuranceSum",
+   "idShort": "InsuranceSum",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/InsuranceSum/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Prop]",
+     "idShort": "InsuranceSum",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/InsuranceSum/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > LegalCompliance",
+   "idShort": "LegalCompliance",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/LegalCompliance/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[SML]",
+     "idShort": "LegalCompliance",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/LegalCompliance/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > LegalCompliance > Regulation",
+   "idShort": "Regulation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/Regulation/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[SMC]",
+     "idShort": "Regulation",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/Regulation/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "CompanyGovernance > LegalCompliance > Regulation > ComplianceStatus",
+   "idShort": "ComplianceStatus",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/ComplianceStatus/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[Prop]",
+     "idShort": "ComplianceStatus",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/ComplianceStatus/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CompanyGovernance > LegalCompliance > Regulation > ComplianceStatement",
+   "idShort": "ComplianceStatement",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/ComplianceStatement/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[MLP]",
+     "idShort": "ComplianceStatement",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/ComplianceStatement/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompanyGovernance > LegalCompliance > Regulation > DocumentationURI__00__",
+   "idShort": "DocumentationURI__00__",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/DocumentationURI /1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[Prop]",
+     "idShort": "DocumentationURI__00__",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/DocumentationURI/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "CompanyGovernance > LegalCompliance > Regulation > DocumentationReference__00__",
+   "idShort": "DocumentationReference__00__",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/DocumentationReference/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[Ref]",
+     "idShort": "DocumentationReference__00__",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/DocumentationReference/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "CompanyGovernance > LegalCompliance > Regulation > RegulationName",
+   "idShort": "RegulationName",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/CompanyData/RegulationName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Prop]",
+     "idShort": "RegulationName",
+     "semanticId": "https://admin-shell.io/idta/CompanyData/RegulationName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  }
+ ]
+}

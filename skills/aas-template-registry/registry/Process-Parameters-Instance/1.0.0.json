@@ -1,0 +1,680 @@
+{
+ "template": "Process Parameters Instance",
+ "version": "1.0.0",
+ "submodelIdShort": "ExecutedProcesses",
+ "submodelSemanticId": "https://admin-shell.io/idta/ExecutedProcesses/1/0",
+ "json": {
+  "path": "published/Process Parameters Instance/1/0/IDTA 02031-2_Template_ProcessParameters_Instance_forAASMetamodelV3.1.json",
+  "gitBlob": "be7376544303725fa7a55d0f2efd6dd0d65d3cd9"
+ },
+ "pdf": {
+  "path": "published/Process Parameters Instance/1/0/IDTA 02031-2_Submodel_ProcessParameters_Instance.pdf",
+  "relation": "same folder",
+  "sha256": "2cd5a0f2ae7bbb3838b8628d221bb56d8b76b39d17579a9d3b823bcf62070780",
+  "annexA": [
+   {
+    "page": 19,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 19,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 26
+ },
+ "elements": [
+  {
+   "path": "Run__00__",
+   "idShort": "Run__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/Run/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "Run__00__",
+     "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/Run/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "Run__00__ > RunResult",
+   "idShort": "RunResult",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/RunResult/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Property]",
+     "idShort": "RunResult",
+     "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/RunResult/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Run__00__ > Process__00__",
+   "idShort": "Process__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/Process/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "Process__00__",
+     "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/Process/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > ProcessId",
+   "idShort": "ProcessId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessParameters/ProcessId/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Property]",
+     "idShort": "ProcessId",
+     "semanticId": "https://admin-shell.io/idta/ProcessParameters/ProcessId/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > ProcessName",
+   "idShort": "ProcessName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessParameters/ProcessName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Property]",
+     "idShort": "ProcessName",
+     "semanticId": "https://admin-shell.io/idta/ProcessParameters/ProcessName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > ProcessDescription",
+   "idShort": "ProcessDescription",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/ProcessParameters/ProcessDescription/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "ProcessDescription",
+     "semanticId": "https://admin-shell.io/idta/ProcessParameters/ProcessDescription/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > PlannedProcessTime",
+   "idShort": "PlannedProcessTime",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProcessParameters/PlannedProcessTime/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Property]",
+     "idShort": "PlannedProcessTime",
+     "semanticId": "https://admin-shell.io/idta/ProcessParameters/PlannedProcessTime/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > ProductParameters",
+   "idShort": "ProductParameters",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ProcessParameters/ProductParameters/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "ProductParameters",
+     "semanticId": "https://admin-shell.io/idta/ProcessParameters/ProductParameters/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > ProcessParameters",
+   "idShort": "ProcessParameters",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ProcessParameters/ProcessParameters/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "ProcessParameters",
+     "semanticId": "https://admin-shell.io/idta/ProcessParameters/ProcessParameters/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > ResourceParameters",
+   "idShort": "ResourceParameters",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ProcessParameters/ResourceParameters/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "ResourceParameters",
+     "semanticId": "https://admin-shell.io/idta/ProcessParameters/ResourceParameters/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > ProcessBoM",
+   "idShort": "ProcessBoM",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ProcessParameters/ProcessBoM/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "ProcessBoM",
+     "semanticId": "https://admin-shell.io/idta/ProcessParameters/ProcessBoM/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > ProcessStatus",
+   "idShort": "ProcessStatus",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessStatus/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Property]",
+     "idShort": "ProcessStatus",
+     "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessStatus/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > ProcessResult",
+   "idShort": "ProcessResult",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessResult/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Property]",
+     "idShort": "ProcessResult",
+     "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessResult/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > OperatorRole",
+   "idShort": "OperatorRole",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/OperatorRole/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Property]",
+     "idShort": "OperatorRole",
+     "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/OperatorRole/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > ProcessStartTime",
+   "idShort": "ProcessStartTime",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessStartTime/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "ProcessStartTime",
+     "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessStartTime/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > ProcessEndTime",
+   "idShort": "ProcessEndTime",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessEndTime/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "ProcessEndTime",
+     "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessEndTime/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > ProcessStages",
+   "idShort": "ProcessStages",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessStages/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[SMC]",
+     "idShort": "ProcessStages",
+     "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessStages/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > ProcessStages > ProcessStage__00__",
+   "idShort": "ProcessStage__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessStage/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "ProcessStage__00__",
+     "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessStage/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > ProcessStages > ProcessStage__00__ > StageId",
+   "idShort": "StageId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessStage/StageId/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Property]",
+     "idShort": "StageId",
+     "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessStage/StageId/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > ProcessStages > ProcessStage__00__ > StartTime",
+   "idShort": "StartTime",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessStage/StartTime/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Property]",
+     "idShort": "StartTime",
+     "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessStage/StartTime/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > ProcessStages > ProcessStage__00__ > EndTime",
+   "idShort": "EndTime",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessStage/EndTime/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Property]",
+     "idShort": "EndTime",
+     "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessStage/EndTime/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > ProcessStages > ProcessStage__00__ > Result",
+   "idShort": "Result",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessStage/Result/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Property]",
+     "idShort": "Result",
+     "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessStage/Result/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > ProcessErrors",
+   "idShort": "ProcessErrors",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessErrors/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[SMC]",
+     "idShort": "ProcessErrors",
+     "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessErrors/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > ProcessErrors > ProcessError__00__",
+   "idShort": "ProcessError__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessError/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[SMC]",
+     "idShort": "ProcessError__00__",
+     "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessError/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > ProcessErrors > ProcessError__00__ > ErrorCode",
+   "idShort": "ErrorCode",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessError/ErrorCode/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Property]",
+     "idShort": "ErrorCode",
+     "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessError/ErrorCode/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Run__00__ > Process__00__ > ProcessErrors > ProcessError__00__ > ErrorDescription",
+   "idShort": "ErrorDescription",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessError/ErrorDescription/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Property]",
+     "idShort": "ErrorDescription",
+     "semanticId": "https://admin-shell.io/idta/ExecutedProcesses/ProcessError/ErrorDescription/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  }
+ ]
+}

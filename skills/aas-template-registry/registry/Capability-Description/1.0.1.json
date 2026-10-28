@@ -1,0 +1,905 @@
+{
+ "template": "Capability Description",
+ "version": "1.0.1",
+ "submodelIdShort": "CapabilityDescription",
+ "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/CapabilityDescription/1/0",
+ "json": {
+  "path": "published/Capability Description/1/0/1/IDTA 02020_Template_Capability_Description.json",
+  "gitBlob": "f04c69d805f04abe3dbea8d20d9c2da10c7d10ff"
+ },
+ "pdf": {
+  "path": "published/Capability Description/1/0/1/IDTA 02020_Submodel_Capability_Description.pdf",
+  "relation": "same folder",
+  "sha256": "0d306f79465639dd40c50ca6e79d75e3a676f2e69b282650a1363f1fc8e1cf5c",
+  "annexA": [
+   {
+    "page": 36,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 36,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 22,
+  "json-only": 2,
+  "divergent": 7,
+  "unverified": 5,
+  "none": 1
+ },
+ "elements": [
+  {
+   "path": "CapabilitySet",
+   "idShort": "CapabilitySet",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/CapabilitySet/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[SMC]",
+     "idShort": "CapabilitySet",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/CapabilitySet/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer",
+   "idShort": "CapabilityContainer",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/CapabilityContainer/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "CapabilityContainer",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/CapabilityContainer/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > Capability",
+   "idShort": "Capability",
+   "modelType": "Capability",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/Capability/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Cap]",
+     "idShort": "Capability",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/Capability/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > CapabilityComment",
+   "idShort": "CapabilityComment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/CapabilityComment/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[MLP]",
+     "idShort": "CapabilityComment",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/CapabilityComment/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > PropertySet",
+   "idShort": "PropertySet",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/PropertySet/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "PropertySet",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/PropertySet/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > PropertySet > PropertyContainer",
+   "idShort": "PropertyContainer",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/PropertyContainer/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[SMC]",
+     "idShort": "PropertyContainer",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/PropertyContainer/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > PropertySet > PropertyContainer > SameProperty",
+   "idShort": "SameProperty",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/SameProperty/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Rel]",
+     "idShort": "SameProperty",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/SameProperty/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > PropertySet > PropertyContainer > PropertyRange",
+   "idShort": "PropertyRange",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/CapabilityPropertyEnumType/Range/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > PropertySet > PropertyContainer > PropertyProperty",
+   "idShort": "PropertyProperty",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CapabilityPropertyType/Property/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Prop]",
+     "idShort": "PropertyProperty",
+     "semanticId": "https://admin-shell.io/idta/CapabilityPropertyType/Property/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..*"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > PropertySet > PropertyContainer > PropertyMultiLanguageProperty",
+   "idShort": "PropertyMultiLanguageProperty",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/CapabilityPropertyType/MultiLanguageProperty/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[MLP]",
+     "idShort": "PropertyMultiLanguageProperty",
+     "semanticId": "https://admin-shell.io/idta/CapabilityPropertyType/MultiLanguageProperty/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..*"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > PropertySet > PropertyContainer > PropertySubmodelList",
+   "idShort": "PropertySubmodelList",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/CapabilityPropertyType/SubmodelElementList/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1"
+    ],
+    "pages": [
+     22,
+     25
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > PropertySet > PropertyContainer > PropertySubmodelList > [0]",
+   "idShort": "",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/CapabilityPropertyType/Range/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     22,
+     23,
+     25
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > PropertySet > PropertyContainer > PropertySubmodelList > [1]",
+   "idShort": "",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CapabilityPropertyType/Property/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     22,
+     23,
+     25
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > PropertySet > PropertyContainer > PropertySubmodelList > [2]",
+   "idShort": "",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/CapabilityPropertyType/MultiLanguageProperty/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     22,
+     23,
+     25
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > PropertySet > PropertyContainer > PropertySubmodelList > [3]",
+   "idShort": "",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/CapabilityPropertyType/SubmodelElementList/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1"
+    ],
+    "pages": [
+     22,
+     25
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > PropertySet > PropertyContainer > PropertyComment",
+   "idShort": "PropertyComment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/PropertyComment/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[MLP]",
+     "idShort": "PropertyComment",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/PropertyComment/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > CapabilityRelations",
+   "idShort": "CapabilityRelations",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/CapabilityRelations/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "CapabilityRelations",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/CapabilityRelations/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > CapabilityRelations > CapabilityRealizedBy",
+   "idShort": "CapabilityRealizedBy",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/CapabilityRealizedBy/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Rel]",
+     "idShort": "CapabilityRealizedBy",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/CapabilityRealizedBy/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > CapabilityRelations > ComposedOfSet",
+   "idShort": "ComposedOfSet",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/ComposedOfSet/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[SMC]",
+     "idShort": "ComposedOfSet",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/ComposedOfSet/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > CapabilityRelations > ComposedOfSet > ComposedOfContainer",
+   "idShort": "ComposedOfContainer",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/ComposedOfContainer/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[SMC]",
+     "idShort": "ComposedOfContainer",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/ComposedOfContainer/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > CapabilityRelations > ComposedOfSet > ComposedOfContainer > CapabilityComposedOf",
+   "idShort": "CapabilityComposedOf",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/CapabilityComposedOf/1/0",
+   "json": null,
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > CapabilityRelations > ComposedOfSet > ComposedOfContainer > ComposedOfComment",
+   "idShort": "ComposedOfComment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/ComposedOfComment/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[MLP]",
+     "idShort": "ComposedOfComment",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/ComposedOfComment/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > CapabilityRelations > GeneralizedBySet",
+   "idShort": "GeneralizedBySet",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/GeneralizedBySet/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[SMC]",
+     "idShort": "GeneralizedBySet",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/GeneralizedBySet/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..*"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > CapabilityRelations > GeneralizedBySet > CapabilityGeneralizedBy",
+   "idShort": "CapabilityGeneralizedBy",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/CapabilityGeneralizedBy/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Rel]",
+     "idShort": "CapabilityGeneralizedBy",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/CapabilityGeneralizedBy/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > CapabilityRelations > ConstraintSet",
+   "idShort": "ConstraintSet",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/ConstraintSet/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[SMC]",
+     "idShort": "ConstraintSet",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/ConstraintSet/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > CapabilityRelations > ConstraintSet > PropertyConstraintContainer",
+   "idShort": "PropertyConstraintContainer",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/PropertyConstraintContainer/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[SMC]",
+     "idShort": "PropertyConstraintContainer",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/PropertyConstraintContainer/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > CapabilityRelations > ConstraintSet > PropertyConstraintContainer > BasicConstraint",
+   "idShort": "BasicConstraint",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/PropertyConstraintType/BasicConstraint/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Property]",
+     "idShort": "BasicConstraint",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/PropertyConstraintType/BasicConstraint/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..1"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > CapabilityRelations > ConstraintSet > PropertyConstraintContainer > CustomConstraint",
+   "idShort": "CustomConstraint",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/PropertyConstraintType/CustomConstraint/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[SME]",
+     "idShort": "CustomConstraint",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/PropertyConstraintType/CustomConstraint/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..1"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > CapabilityRelations > ConstraintSet > PropertyConstraintContainer > OCLConstraint",
+   "idShort": "OCLConstraint",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/PropertyConstraintType/OCLConstraint/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[File]",
+     "idShort": "OCLConstraint",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/PropertyConstraintType/OCLConstraint/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..1"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > CapabilityRelations > ConstraintSet > PropertyConstraintContainer > OperationConstraint",
+   "idShort": "OperationConstraint",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/PropertyConstraintType/OperationConstraint/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[Ref]",
+     "idShort": "OperationConstraint",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/PropertyConstraintType/OperationConstraint/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..1"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > CapabilityRelations > ConstraintSet > PropertyConstraintContainer > ConstraintType",
+   "idShort": "ConstraintType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/ConstraintType/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > CapabilityRelations > ConstraintSet > PropertyConstraintContainer > PropertyConditionalType",
+   "idShort": "PropertyConditionalType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/PropertyConditionalType/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     33
+    ],
+    "row": {
+     "page": 33,
+     "type": "[Property]",
+     "idShort": "PropertyConditionalType",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/PropertyConditionalType/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > CapabilityRelations > ConstraintSet > PropertyConstraintContainer > ConstraintPropertyRelations",
+   "idShort": "ConstraintPropertyRelations",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/ConstraintPropertyRelations/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     33
+    ],
+    "row": {
+     "page": 33,
+     "type": "[SMC]",
+     "idShort": "ConstraintPropertyRelations",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/ConstraintPropertyRelations/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > CapabilityRelations > ConstraintSet > PropertyConstraintContainer > ConstraintPropertyRelations > ConstraintHasProperty",
+   "idShort": "ConstraintHasProperty",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/ConstraintHasProperty/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Rel]",
+     "idShort": "ConstraintHasProperty",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/ConstraintHasProperty/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > CapabilityRelations > ConstraintSet > TransitionConstraintContainer",
+   "idShort": "TransitionConstraintContainer",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/TransitionConstraintContainer/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[SMC]",
+     "idShort": "TransitionConstraintContainer",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/TransitionConstraintContainer/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > CapabilityRelations > ConstraintSet > TransitionConstraintContainer > TransitionConstrainedBy",
+   "idShort": "TransitionConstrainedBy",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/TransitionConstrainedBy/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     35
+    ],
+    "row": {
+     "page": 35,
+     "type": "[Rel]",
+     "idShort": "TransitionConstrainedBy",
+     "semanticId": "https://admin-shell.io/idta/CapabilityDescription/TransitionConstrainedBy/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CapabilitySet > CapabilityContainer > CapabilityRelations > ConstraintSet > TransitionConstraintContainer > TransitionConditionalType",
+   "idShort": "TransitionConditionalType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/CapabilityDescription/TransitionConditionalType/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "1",
+    "pages": [
+     35
+    ]
+   },
+   "status": "agree",
+   "effective": "1"
+  }
+ ]
+}

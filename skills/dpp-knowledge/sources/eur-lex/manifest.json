@@ -1,0 +1,139 @@
+{
+ "description": "Primary legal texts retrieved from EUR-Lex (English HTML) for dpp-knowledge. Retrieved in a headless browser because EUR-Lex answers plain HTTP clients with a script challenge; the saved file is the page as rendered (page.content()).",
+ "retrieved_on": "2026-10-27",
+ "retrieved_by": "headless Chrome (Playwright), no login",
+ "files": [
+  {
+   "file": "CELEX_32023R1542.html",
+   "celex": "32023R1542",
+   "title": "Regulation (EU) 2023/1542 of 12 July 2023 concerning batteries and waste batteries (Batteries Regulation), OJ L 191, 28.7.2023, pp. 1-117",
+   "kind": "oj",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R1542",
+   "retrieved_on": "2026-10-27",
+   "bytes": 1171232,
+   "sha256": "2c6c1b423397571cea00af954ffd2666a677d03edd607a69ef48d267bc6db401",
+   "note": "Authentic Official Journal text as published."
+  },
+  {
+   "file": "CELEX_02023R1542-20260813.html",
+   "celex": "02023R1542-20260813",
+   "title": "Batteries Regulation, consolidated version of 13.08.2026",
+   "kind": "consolidated",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02023R1542-20260813",
+   "retrieved_on": "2026-10-27",
+   "bytes": 755815,
+   "sha256": "f0359e3b967318ee5f30c1e8119d150b72999be21b4792e8fea953ca9bc4d85f",
+   "note": "EUR-Lex documentation, not authentic. Includes Art. 77(10) added by Regulation (EU) 2024/1781 Art. 78, Art. 48(1) and (5) as amended by Regulation (EU) 2025/1561, Annex I as replaced by Regulation (EU) 2026/1738, and the corrigendum to Annex XIII point 1(q)."
+  },
+  {
+   "file": "CELEX_32023R1542R05.html",
+   "celex": "32023R1542R(05)",
+   "title": "Corrigendum to Regulation (EU) 2023/1542, OJ L 2024/90243, 17.4.2024 (Art. 1(6), Art. 92)",
+   "kind": "corrigendum",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R1542R(05)",
+   "retrieved_on": "2026-10-27",
+   "bytes": 9728,
+   "sha256": "b4b25ab531ed206b85a725f18efa077c07b8bdd8cb5db4209ef21cc1513e88b2",
+   "note": "Applies to all language versions."
+  },
+  {
+   "file": "CELEX_32023R1542R11.html",
+   "celex": "32023R1542R(11)",
+   "title": "Corrigendum to Regulation (EU) 2023/1542, OJ L 2025/90794, 8.10.2025 (Art. 32(4))",
+   "kind": "corrigendum",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R1542R(11)",
+   "retrieved_on": "2026-10-27",
+   "bytes": 6830,
+   "sha256": "16b1c6858c0f2576dd42399e662c66b8f25b990718d4d21d1168321f0e97ac32",
+   "note": "Applies to all language versions."
+  },
+  {
+   "file": "CELEX_32023R1542R13.html",
+   "celex": "32023R1542R(13)",
+   "title": "Corrigendum to Regulation (EU) 2023/1542, OJ L 2026/90285, 10.4.2026 (Annex XIII point 1(q): Article 13(4) and (5))",
+   "kind": "corrigendum",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R1542R(13)",
+   "retrieved_on": "2026-10-27",
+   "bytes": 7722,
+   "sha256": "c1102a3db2fad28586d15c987b7288ce81a0eb052353fc14e41367e7d31e0bb0",
+   "note": "Applies to all language versions; changes the battery passport field list."
+  },
+  {
+   "file": "CELEX_32025R1561.html",
+   "celex": "32025R1561",
+   "title": "Regulation (EU) 2025/1561 of 18 July 2025 amending Regulation (EU) 2023/1542 as regards battery due diligence (Art. 48(1): 18 August 2027; Art. 48(5): 26 July 2026)",
+   "kind": "amending-act",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025R1561",
+   "retrieved_on": "2026-10-27",
+   "bytes": 22554,
+   "sha256": "7e6d805ad60e1344445fb5ef232ec405486d1b59168d6baac1f0941dcf56a41d",
+   "note": "Authentic OJ text."
+  },
+  {
+   "file": "CELEX_32024R1781.html",
+   "celex": "32024R1781",
+   "title": "Regulation (EU) 2024/1781 of 13 June 2024 establishing a framework for the setting of ecodesign requirements for sustainable products (ESPR), OJ L, 2024/1781, 28.6.2024",
+   "kind": "oj",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1781",
+   "retrieved_on": "2026-10-27",
+   "bytes": 860532,
+   "sha256": "af6bce86c3b3241cae4ad5c1fc42118bec3ebfc1260ba70126a2ca4672ac5b30",
+   "note": "Authentic Official Journal text as published."
+  },
+  {
+   "file": "CELEX_32024R1781R01.html",
+   "celex": "32024R1781R(01)",
+   "title": "Corrigendum to Regulation (EU) 2024/1781, OJ L 2024/90493, 7.8.2024 (Articles 77 and 78, incl. the new Art. 77(10) of Regulation (EU) 2023/1542)",
+   "kind": "corrigendum",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1781R(01)",
+   "retrieved_on": "2026-10-27",
+   "bytes": 8598,
+   "sha256": "8fdf3dc6a4e162d7da7d2b37fb618b66c39583a742ef000cdd452cc108585530",
+   "note": "Applies to all language versions."
+  },
+  {
+   "file": "CELEX_32024R1781R02.html",
+   "celex": "32024R1781R(02)",
+   "title": "Corrigendum to Regulation (EU) 2024/1781, OJ L 2025/90356, 28.4.2025 (Art. 10(1)(d), 20, 41(4), 65(3), 69(5))",
+   "kind": "corrigendum",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1781R(02)",
+   "retrieved_on": "2026-10-27",
+   "bytes": 19528,
+   "sha256": "e585d347fc7238fba60d415a2515375d7afbc998c8f58850b633c1b7cd406039",
+   "note": "Applies to all language versions."
+  },
+  {
+   "file": "CELEX_52025DC0187.html",
+   "celex": "52025DC0187",
+   "title": "Communication COM(2025) 187 final of 16.4.2025, Ecodesign for Sustainable Products and Energy Labelling Working Plan 2025-2030",
+   "kind": "communication",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52025DC0187",
+   "retrieved_on": "2026-10-27",
+   "bytes": 102092,
+   "sha256": "4903e648f1b3fe64147a529518ccce502e7d75869146d256ed15b208dcca0261",
+   "note": "Its product table heads the year column 'Indicative timeline for adoption': the years are indicative adoption years of the delegated acts, not application dates."
+  },
+  {
+   "file": "ALL_32023R1542.html",
+   "celex": "32023R1542",
+   "title": "EUR-Lex 'ALL' page of Regulation (EU) 2023/1542: consolidated versions, corrections, modifications and completing acts",
+   "kind": "eur-lex-metadata",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32023R1542",
+   "retrieved_on": "2026-10-27",
+   "bytes": 1458052,
+   "sha256": "70919e4a378817a0edb5aa1e5e698c4d715711580288240de137bd951c799fb4",
+   "note": "Evidence of the relationship list on the retrieval date: modified by 32024R1781, 32025R1561, 32026R1738, 32026R1770; completed by 32025R0606 only (no Art. 7, Art. 8 or Art. 77(9) act listed)."
+  },
+  {
+   "file": "ALL_32024R1781.html",
+   "celex": "32024R1781",
+   "title": "EUR-Lex 'ALL' page of Regulation (EU) 2024/1781",
+   "kind": "eur-lex-metadata",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024R1781",
+   "retrieved_on": "2026-10-27",
+   "bytes": 1150950,
+   "sha256": "1d965c1fd16527e67c212b4f1ff2ea52623606c0f49dfcff63ab1bf946544071",
+   "note": "Evidence: consolidated version 28.06.2024 only; corrected by R(01)-R(04) (R(03) DE, R(04) CS); completed by 32026R0296 (destruction of unsold consumer products)."
+  }
+ ]
+}

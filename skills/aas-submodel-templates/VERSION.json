@@ -1,0 +1,49 @@
+{
+  "skill": "aas-submodel-templates",
+  "version": "1.0.0",
+  "last_verified": "2026-10-28",
+  "sources": [
+    {
+      "document": "IDTA submodel-templates repository mirror (PDF, txt extraction, template JSON)",
+      "revision": "tree sha f3790038b6c9, mirrored 2026-10-06",
+      "file": "idta-pdfs:txt/published",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02006 Digital Nameplate",
+      "revision": "3.0.1 (admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06)",
+      "file": "idta-pdfs:txt/published/Digital nameplate/3/0/1/IDTA 02006-3-0-1_Submodel_Digital Nameplate.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02004 Handover Documentation",
+      "revision": "2.0.1 (admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06)",
+      "file": "idta-pdfs:txt/published/Handover Documentation/2/0/1/IDTA 02004-2-0-1_Submodel_Handover Documentation.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02017 Asset Interfaces Description",
+      "revision": "1.2 (admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06)",
+      "file": "idta-pdfs:txt/published/Asset Interfaces Description/1/2/IDTA 02017_Submodel_Asset Interfaces Description.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02023 Carbon Footprint",
+      "revision": "1.0 (admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06)",
+      "file": "idta-pdfs:txt/published/Carbon Footprint/1/0/IDTA 02023_Submodel_CarbonFootprint.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    }
+  ],
+  "claims_not_verifiable_on_disk": [
+    "IDTA 02007 Software Nameplate title (the mirrored PDF's title page has no extractable text, so '02007 = Software Nameplate' rests on the file name only)",
+    "'127 element cardinality disagreements across 103 template versions': derived (aas-template-registry), not an official statement",
+    "aas-test-engines template-check behaviour and messages ('found 0 elements with semanticId X ...')",
+    "Nameplate 2.0 URIOfTheProduct IRDI 0173-1#02-AAY811#001 (no Nameplate 2.0 document in the mirror)"
+  ],
+  "notes": "Evals cite title pages, version histories and change annexes of the official template PDFs (txt extraction). Several versions in the SKILL.md table are behind the mirror (02004 2.0.1, 02017 1.2, 02003 2.0.1)."
+}

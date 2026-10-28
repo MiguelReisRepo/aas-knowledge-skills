@@ -1,0 +1,27 @@
+{
+  "skill": "aas-time-series",
+  "version": "1.0.0",
+  "last_verified": "2026-10-27",
+  "sources": [
+    {
+      "document": "IDTA 02008 Time Series Data (PDF + paged txt)",
+      "revision": "1.1 (March 2023); bundled PDF sha256 461890af1fc7... = mirror 1/1 PDF",
+      "file": "skills/aas-time-series/IDTA-02008-1-1_Submodel_TimeSeriesData.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": true
+    },
+    {
+      "document": "IDTA 02008 Time Series Data - official template JSON",
+      "revision": "1.1.1 (admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06)",
+      "file": "idta-pdfs:json/published/Time Series Data/1/1/1/IDTA 02008-1-1-1_Template_TimeSeriesData.json",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    }
+  ],
+  "latest_in_mirror": "Bundled 1.1 PDF is the latest spec in the mirror; the mirror adds template JSON 1.1.1 (also *_forAASMetamodelV3.1 and withOperations variants).",
+  "claims_not_verifiable_on_disk": [
+    "ISO 8601 and IEC/IEEE 61588 themselves (only as referenced)",
+    "IEC CDD definitions behind 0112/2///61360_4#ADA387/ADA386/AAE028 and the qualifier IRDIs (only as printed in the spec)"
+  ],
+  "notes": "Template JSON uses RelativePointInTime as the IRI (concept description idShort RelativeTimePoint) and xs:string for StartTime/EndTime/LastUpdate."
+}

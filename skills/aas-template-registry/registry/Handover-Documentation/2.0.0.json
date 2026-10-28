@@ -1,0 +1,909 @@
+{
+ "template": "Handover Documentation",
+ "version": "2.0.0",
+ "submodelIdShort": "HandoverDocumentation",
+ "submodelSemanticId": "0173-1#01-AHF578#003",
+ "json": {
+  "path": "published/Handover Documentation/2/0/IDTA 02004-2-0_Template_HandoverDocumentation.json",
+  "gitBlob": "685b9551d6eda7b3b2e9f3065d891848b8b15142"
+ },
+ "pdf": {
+  "path": "published/Handover Documentation/2/0/IDTA 02004-2-0_Submodel_Handover Documentation.pdf",
+  "relation": "same folder",
+  "sha256": "772a94bca7974e03b47920d127777033a99db6d05dc8a576815cbb8ff8f43131",
+  "annexA": [
+   {
+    "page": 19,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 30,
+  "json-only": 3,
+  "unverified": 5
+ },
+ "elements": [
+  {
+   "path": "Documents",
+   "idShort": "Documents",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABI500#003",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SML]",
+     "idShort": "Documents",
+     "semanticId": "0173-1#02-ABI500#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Documents > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABI500#003/0173-1#01-AHF579#003",
+   "json": "1..*",
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "1..*",
+    "pages": [
+     10
+    ]
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "Documents > [0] > DocumentIds",
+   "idShort": "DocumentIds",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABI501#003",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SML]",
+     "idShort": "DocumentIds",
+     "semanticId": "0173-1#02-ABI501#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Documents > [0] > DocumentIds > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABI501#003/0173-1#01-AHF580#003",
+   "json": "1..*",
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "Documents > [0] > DocumentIds > [0] > DocumentDomainId",
+   "idShort": "DocumentDomainId",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABH994#003",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "DocumentDomainId",
+     "semanticId": "0173-1#02-ABH994#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Documents > [0] > DocumentIds > [0] > DocumentIdentifier",
+   "idShort": "DocumentIdentifier",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO099#004",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "DocumentIdentifier",
+     "semanticId": "0173-1#02-AAO099#004",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Documents > [0] > DocumentIds > [0] > DocumentIsPrimary",
+   "idShort": "DocumentIsPrimary",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABH995#003",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "DocumentIsPrimary",
+     "semanticId": "0173-1#02-ABH995#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Documents > [0] > DocumentClassifications",
+   "idShort": "DocumentClassifications",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABI502#003",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SML]",
+     "idShort": "DocumentClassifications",
+     "semanticId": "0173-1#02-ABI502#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Documents > [0] > DocumentClassifications > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABI502#003/0173-1#01-AHF581#003",
+   "json": "1..*",
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "Documents > [0] > DocumentClassifications > [0] > ClassId",
+   "idShort": "ClassId",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABH996#003",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "ClassId",
+     "semanticId": "0173-1#02-ABH996#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Documents > [0] > DocumentClassifications > [0] > ClassName",
+   "idShort": "ClassName",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-ABJ219#002",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[MLP]",
+     "idShort": "ClassName",
+     "semanticId": "0173-1#02-ABJ219#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Documents > [0] > DocumentClassifications > [0] > ClassificationSystem",
+   "idShort": "ClassificationSystem",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABH997#003",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "ClassificationSystem",
+     "semanticId": "0173-1#02-ABH997#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Documents > [0] > DocumentVersions",
+   "idShort": "DocumentVersions",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABI503#003",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SML]",
+     "idShort": "DocumentVersions",
+     "semanticId": "0173-1#02-ABI503#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Documents > [0] > DocumentVersions > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABI503#003/0173-1#01-AHF582#003",
+   "json": "1..*",
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "Documents > [0] > DocumentVersions > [0] > Language",
+   "idShort": "Language",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-AAN468#008",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SML]",
+     "idShort": "Language",
+     "semanticId": "0173-1#02-AAN468#008",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Documents > [0] > DocumentVersions > [0] > Language > [0]",
+   "idShort": "",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAN468#008",
+   "json": "1..*",
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1",
+     "1..*"
+    ],
+    "pages": [
+     13,
+     16
+    ]
+   },
+   "status": "unverified",
+   "effective": "1..*"
+  },
+  {
+   "path": "Documents > [0] > DocumentVersions > [0] > Version",
+   "idShort": "Version",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAP003#005",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "Version",
+     "semanticId": "0173-1#02-AAP003#005",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Documents > [0] > DocumentVersions > [0] > Title",
+   "idShort": "Title",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-ABG940#003",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[MLP]",
+     "idShort": "Title",
+     "semanticId": "0173-1#02-ABG940#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Documents > [0] > DocumentVersions > [0] > Subtitle",
+   "idShort": "Subtitle",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-ABH998#003",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[MLP]",
+     "idShort": "Subtitle",
+     "semanticId": "0173-1#02-ABH998#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Documents > [0] > DocumentVersions > [0] > Description",
+   "idShort": "Description",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAN466#004",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[MLP]",
+     "idShort": "Description",
+     "semanticId": "0173-1#02-AAN466#004",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Documents > [0] > DocumentVersions > [0] > KeyWords",
+   "idShort": "KeyWords",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-ABH999#003",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[MLP]",
+     "idShort": "KeyWords",
+     "semanticId": "0173-1#02-ABH999#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Documents > [0] > DocumentVersions > [0] > StatusSetDate",
+   "idShort": "StatusSetDate",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABI000#003",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "StatusSetDate",
+     "semanticId": "0173-1#02-ABI000#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Documents > [0] > DocumentVersions > [0] > StatusValue",
+   "idShort": "StatusValue",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABI001#003",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "StatusValue",
+     "semanticId": "0173-1#02-ABI001#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Documents > [0] > DocumentVersions > [0] > OrganizationShortName",
+   "idShort": "OrganizationShortName",
+   "modelType": "Property",
+   "semanticId": "https://api.eclass-cdp.com/0173-1-02-ABI002-003",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "OrganizationShortName",
+     "semanticId": "https://api.eclass-cdp.com/0173-1-02-ABI002-003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Documents > [0] > DocumentVersions > [0] > OrganizationOfficialName",
+   "idShort": "OrganizationOfficialName",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABI004#003",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "OrganizationOfficialName",
+     "semanticId": "0173-1#02-ABI004#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Documents > [0] > DocumentVersions > [0] > RefersToEntities",
+   "idShort": "RefersToEntities",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABK288#002",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SML]",
+     "idShort": "RefersToEntities",
+     "semanticId": "0173-1#02-ABK288#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Documents > [0] > DocumentVersions > [0] > RefersToEntities > [0]",
+   "idShort": "",
+   "modelType": "ReferenceElement",
+   "semanticId": "0173-1#02-ABK288#002",
+   "json": "1..*",
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1..*"
+    ],
+    "pages": [
+     15,
+     16
+    ]
+   },
+   "status": "unverified",
+   "effective": "1..*"
+  },
+  {
+   "path": "Documents > [0] > DocumentVersions > [0] > BasedOnReferences",
+   "idShort": "BasedOnReferences",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABK289#002",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SML]",
+     "idShort": "BasedOnReferences",
+     "semanticId": "0173-1#02-ABK289#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Documents > [0] > DocumentVersions > [0] > BasedOnReferences > [0]",
+   "idShort": "",
+   "modelType": "ReferenceElement",
+   "semanticId": "0173-1#02-ABK289#002",
+   "json": "1..*",
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1..*"
+    ],
+    "pages": [
+     15,
+     17
+    ]
+   },
+   "status": "unverified",
+   "effective": "1..*"
+  },
+  {
+   "path": "Documents > [0] > DocumentVersions > [0] > TranslationOfEntities",
+   "idShort": "TranslationOfEntities",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABK290#002",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SML]",
+     "idShort": "TranslationOfEntities",
+     "semanticId": "0173-1#02-ABK290#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Documents > [0] > DocumentVersions > [0] > TranslationOfEntities > [0]",
+   "idShort": "",
+   "modelType": "ReferenceElement",
+   "semanticId": "0173-1#02-ABK290#002",
+   "json": "1..*",
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1..*"
+    ],
+    "pages": [
+     15,
+     17
+    ]
+   },
+   "status": "unverified",
+   "effective": "1..*"
+  },
+  {
+   "path": "Documents > [0] > DocumentVersions > [0] > DigitalFiles",
+   "idShort": "DigitalFiles",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABK126#002",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SML]",
+     "idShort": "DigitalFiles",
+     "semanticId": "0173-1#02-ABK126#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Documents > [0] > DocumentVersions > [0] > DigitalFiles > [0]",
+   "idShort": "",
+   "modelType": "File",
+   "semanticId": "0173-1#02-ABK126#002",
+   "json": "1..*",
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1",
+     "1..*"
+    ],
+    "pages": [
+     15,
+     17
+    ]
+   },
+   "status": "unverified",
+   "effective": "1..*"
+  },
+  {
+   "path": "Documents > [0] > DocumentVersions > [0] > PreviewFile",
+   "idShort": "PreviewFile",
+   "modelType": "File",
+   "semanticId": "0173-1#02-ABK127#002",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[File]",
+     "idShort": "PreviewFile",
+     "semanticId": "0173-1#02-ABK127#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Documents > [0] > DocumentedEntities",
+   "idShort": "DocumentedEntities",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/vdi/2770/1/0/Document/DocumentedEntities",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SML]",
+     "idShort": "DocumentedEntities",
+     "semanticId": "https://admin-shell.io/vdi/2770/1/0/Document/DocumentedEntities",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Documents > [0] > DocumentedEntities > [0]",
+   "idShort": "",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/vdi/2770/1/0/Document/DocumentedEntity",
+   "json": "1..*",
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "1..*",
+    "pages": [
+     18
+    ]
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "Entities",
+   "idShort": "Entities",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/vdi/2770/1/0/EntitiesForDocumentation",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SML]",
+     "idShort": "Entities",
+     "semanticId": "https://admin-shell.io/vdi/2770/1/0/EntitiesForDocumentation",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Entities > [0]",
+   "idShort": "",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/vdi/2770/1/0/EntityForDocumentation",
+   "json": "1..*",
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "1..*",
+    "pages": [
+     10
+    ]
+   },
+   "status": "agree",
+   "effective": "1..*"
+  }
+ ]
+}

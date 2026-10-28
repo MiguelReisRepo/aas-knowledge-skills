@@ -1,0 +1,198 @@
+{
+ "template": "Safety Instrumented Functions / Part 2 Safety Instrumented System",
+ "version": "1.0.0",
+ "submodelIdShort": "SafetyInstrumentedSystem",
+ "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/SafetyInstrumentedSystem/1/0",
+ "json": {
+  "path": "published/Safety Instrumented Functions/Part 2 Safety Instrumented System/1/0/IDTA 02097_Template_SafetyInstrumentedSystem.json",
+  "gitBlob": "e60743e14833a16987a8cd7f79396cc75ee433f8"
+ },
+ "pdf": {
+  "path": "published/Safety Instrumented Functions/Part 2 Safety Instrumented System/1/0/IDTA 02097_Submodel_SafetyInstrumentedSystem.pdf",
+  "relation": "same folder",
+  "sha256": "ac6949de6966012b92e825cb04548b43e5fa33b987604e4efec14f348f503e2d",
+  "annexA": [
+   {
+    "page": 10,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 10,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "json-only": 12
+ },
+ "elements": [
+  {
+   "path": "SISName",
+   "idShort": "SISName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/SISName/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SRSRequirements",
+   "idShort": "SRSRequirements",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/SRSRequirements/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SRSRequirements > SurvivabilityRequirement",
+   "idShort": "SurvivabilityRequirement",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/SurvivabilityRequirement/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SRSRequirements > RequirementForStartingUpAndRestartingSIS",
+   "idShort": "RequirementForStartingUpAndRestartingSIS",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/RequirementForStartingUpAndRestartingSIS/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SRSRequirements > InterfacingSystemSpecification",
+   "idShort": "InterfacingSystemSpecification",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/InterfacingSystemSpecification/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SRSRequirements > InterfacingSystemSpecification > InterfacingSystem",
+   "idShort": "InterfacingSystem",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/InterfacingSystem/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SRSRequirements > InterfacingSystemSpecification > NetworkType",
+   "idShort": "NetworkType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SafetyInstrumentedSystem/TypeOfNetwork/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SRSRequirements > InterfacingSystemSpecification > TypeOfLinksHardwiredOrSoftware",
+   "idShort": "TypeOfLinksHardwiredOrSoftware",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SafetyInstrumentedSystem/TypeOfLinks/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SRSRequirements > PerformanceStandard",
+   "idShort": "PerformanceStandard",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/cds/PerformanceStandard/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SRSRequirements > ApplicationProgramSafetyRequirements",
+   "idShort": "ApplicationProgramSafetyRequirements",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/cds/ApplicationProgramSafetyRequirements/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SRSRequirements > DALSpec",
+   "idShort": "DALSpec",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/cds/DALSpec/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SRSRequirements > Document",
+   "idShort": "Document",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/cds/Document/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  }
+ ]
+}

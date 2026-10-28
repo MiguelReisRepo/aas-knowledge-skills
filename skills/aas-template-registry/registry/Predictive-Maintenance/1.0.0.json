@@ -1,0 +1,818 @@
+{
+ "template": "Predictive Maintenance",
+ "version": "1.0.0",
+ "submodelIdShort": "PredictiveMaintenance",
+ "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/PredictiveMaintenance/1/0",
+ "json": {
+  "path": "published/Predictive Maintenance/1/0/IDTA 02048_Template_PredictiveMaintenance_forAASMetamodelV3.1.json",
+  "gitBlob": "b768917a6c97223756f52ace398d017fbe53ae14"
+ },
+ "pdf": {
+  "path": "published/Predictive Maintenance/1/0/IDTA 02048_Submodel_PredictiveMaintenance.pdf",
+  "relation": "same folder",
+  "sha256": "443c01dcccbd8a75003620eead27529eec9eed6b596482d128db1b8c4038ef6a",
+  "annexA": [
+   {
+    "page": 21,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 21,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 29,
+  "unverified": 1,
+  "divergent": 2
+ },
+ "elements": [
+  {
+   "path": "RemainingUsefulLifePrediction",
+   "idShort": "RemainingUsefulLifePrediction",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/RemainingUsefulLifePrediction/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[SMC]",
+     "idShort": "RemainingUsefulLifePrediction",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/RemainingUsefulLifePrediction/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > RemainingUsefulLifetime",
+   "idShort": "RemainingUsefulLifetime",
+   "modelType": "Entity",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/RemainingUsefulLifetime/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Ent]",
+     "idShort": "RemainingUsefulLifetime",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/RemainingUsefulLifetime/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > RemainingUsefulLifetime > IndicationType",
+   "idShort": "IndicationType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/IndicationType/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "IndicationType",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/IndicationType/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > RemainingUsefulLifetime > DurationValue",
+   "idShort": "DurationValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/DurationValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "DurationValue",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/DurationValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > RemainingUsefulLifetime > EngineeringUnit",
+   "idShort": "EngineeringUnit",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/EngineeringUnit/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "EngineeringUnit",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/EngineeringUnit/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > RemainingUsefulLifetime > StartValue",
+   "idShort": "StartValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/StartValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "StartValue",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/StartValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > RemainingUsefulLifetime > StartDateTime",
+   "idShort": "StartDateTime",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/StartDateTime/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "StartDateTime",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/StartDateTime/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > RemainingUsefulLifetime > Description",
+   "idShort": "Description",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/Description/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "Description",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/Description/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > RemainingUsfulLifeDateTime",
+   "idShort": "RemainingUsfulLifeDateTime",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/RemainingUsfulLifeDateTime/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "RemainingUsfulLifeDateTime",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/RemainingUsfulLifeDateTime/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > ConfidenceInterval",
+   "idShort": "ConfidenceInterval",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/ConfidenceInterval/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Range]",
+     "idShort": "ConfidenceInterval",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/ConfidenceInterval/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > ListRULBoundaryConditions",
+   "idShort": "ListRULBoundaryConditions",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/ListRULBoundaryConditions/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SML]",
+     "idShort": "ListRULBoundaryConditions",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/ListRULBoundaryConditions/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > ListRULBoundaryConditions > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/RULCondition/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "1",
+    "pages": [
+     17
+    ]
+   },
+   "status": "unverified",
+   "effective": "1..*"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > ListRULBoundaryConditions > [0] > ConditionName",
+   "idShort": "ConditionName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/ConditionName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "ConditionName",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/ConditionName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > ListRULBoundaryConditions > [0] > IsBoundaryConditionUsedInModel",
+   "idShort": "IsBoundaryConditionUsedInModel",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/IsBoundaryConditionUsedInModel/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "IsBoundaryConditionUsedInModel",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/IsBoundaryConditionUsedInModel/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > ListRULBoundaryConditions > [0] > BoundaryValueRange",
+   "idShort": "BoundaryValueRange",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/BoundaryValueRange/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Range]",
+     "idShort": "BoundaryValueRange",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/BoundaryValueRange/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > ListRULBoundaryConditions > [0] > BoundaryEngineeringUnit",
+   "idShort": "BoundaryEngineeringUnit",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/BoundaryEngineeringUnit/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "BoundaryEngineeringUnit",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/BoundaryEngineeringUnit/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > ListRULBoundaryConditions > [0] > DriftInfoAIModel",
+   "idShort": "DriftInfoAIModel",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/DriftInfoAIModel/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "DriftInfoAIModel",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/DriftInfoAIModel/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > ListRULBoundaryConditions > [0] > MeanValue",
+   "idShort": "MeanValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/MeanValue/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "MeanValue",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/MeanValue/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > ListRULBoundaryConditions > [0] > Standarddeviation",
+   "idShort": "Standarddeviation",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/Standarddeviation/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Standarddeviation",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/Standarddeviation/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > ListRULBoundaryConditions > [0] > Skewness",
+   "idShort": "Skewness",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/Skewness/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "Skewness",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/Skewness/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > ListRULBoundaryConditions > [0] > BoundaryDescription",
+   "idShort": "BoundaryDescription",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/BoundaryDescription/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "BoundaryDescription",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/BoundaryDescription/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > PredictionModelInformation",
+   "idShort": "PredictionModelInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/PredictionModelInformation/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "PredictionModelInformation",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/PredictionModelInformation/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > PredictionModelInformation > ModelType",
+   "idShort": "ModelType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/ModelType/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "ModelType",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/ModelType/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > PredictionModelInformation > ModelDescription",
+   "idShort": "ModelDescription",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/ModelDescription/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "ModelDescription",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/ModelDescription/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > PredictionModelInformation > SMAIModelNamePlate",
+   "idShort": "SMAIModelNamePlate",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/SMAIModelNamePlate/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Ref]",
+     "idShort": "SMAIModelNamePlate",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/SMAIModelNamePlate/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > ListPreAlerts",
+   "idShort": "ListPreAlerts",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/ListPreAlerts/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SML]",
+     "idShort": "ListPreAlerts",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/ListPreAlerts/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > ListPreAlerts > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/PreAlerts/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..*",
+    "pages": [
+     19
+    ]
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > ListPreAlerts > [0] > PreAlertMessage",
+   "idShort": "PreAlertMessage",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/PreAlertMessage/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "PreAlertMessage",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/PreAlertMessage/1/0",
+     "card": "1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > ListPreAlerts > [0] > PreAlertValue",
+   "idShort": "PreAlertValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/PreAlertValue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "PreAlertValue",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/PreAlertValue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > AlertAfterExceedingRemainingUsableLife",
+   "idShort": "AlertAfterExceedingRemainingUsableLife",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/AlertAfterExceedingRemainingUsableLife/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "AlertAfterExceedingRemainingUsableLife",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/AlertAfterExceedingRemainingUsableLife/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > AlertAfterExceedingRemainingUsableLife > AlertMessage",
+   "idShort": "AlertMessage",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/AlertMessage/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "AlertMessage",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/AlertMessage/1/0",
+     "card": "1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..1"
+  },
+  {
+   "path": "RemainingUsefulLifePrediction > AlertAfterExceedingRemainingUsableLife > MaintenanceRequired",
+   "idShort": "MaintenanceRequired",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/MaintenanceRequired/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "MaintenanceRequired",
+     "semanticId": "https://admin-shell.io/idta/PredictiveMaintenance/MaintenanceRequired/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  }
+ ]
+}

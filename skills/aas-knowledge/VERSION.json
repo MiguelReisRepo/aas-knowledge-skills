@@ -1,0 +1,100 @@
+{
+  "skill": "aas-knowledge",
+  "version": "1.1.0",
+  "last_verified": "2026-10-28",
+  "sources": [
+    {
+      "document": "Official AAS XML schema",
+      "revision": "3.0 (sha256 40eb128b1684...)",
+      "file": "vendor/schemas/3.0/AAS.xsd",
+      "url": "https://github.com/admin-shell-io/aas-specs-metamodel",
+      "bundled": true
+    },
+    {
+      "document": "Official AAS XML schema",
+      "revision": "3.1 (sha256 9270966e703a...)",
+      "file": "vendor/schemas/3.1/AAS.xsd",
+      "url": "https://github.com/admin-shell-io/aas-specs-metamodel",
+      "bundled": true
+    },
+    {
+      "document": "Official AAS XML schema",
+      "revision": "3.2 (sha256 c04279e26606...)",
+      "file": "vendor/schemas/3.2/AAS.xsd",
+      "url": "https://github.com/admin-shell-io/aas-specs-metamodel",
+      "bundled": true
+    },
+    {
+      "document": "IDTA-01001 Part 1 Metamodel",
+      "revision": "3.1 via aas-core-meta v3_1.py (sha256 d60dbaca77e3...)",
+      "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+      "url": "https://github.com/aas-core-works/aas-core-meta",
+      "bundled": true
+    },
+    {
+      "document": "IDTA-01001 Part 1 Metamodel (PDF, incl. Annex 'Metamodel Changes')",
+      "revision": "3.0 (sha256 8ba8171554de...)",
+      "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+      "url": "https://industrialdigitaltwin.io/aas-specifications/IDTA-01001/v3.0/",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02006 Digital Nameplate",
+      "revision": "3.0.1 (txt sha256 4a3ce949d3a6...; mirror tree f3790038b6c9, 2026-10-06)",
+      "file": "idta-pdfs:txt/published/Digital nameplate/3/0/1/IDTA 02006-3-0-1_Submodel_Digital Nameplate.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02004 Handover Documentation",
+      "revision": "2.0.1 (txt sha256 ea57cecf5951...; mirror tree f3790038b6c9, 2026-10-06)",
+      "file": "idta-pdfs:txt/published/Handover Documentation/2/0/1/IDTA 02004-2-0-1_Submodel_Handover Documentation.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02003 Technical Data",
+      "revision": "2.0.1 (txt sha256 969632c9c09a...; mirror tree f3790038b6c9, 2026-10-06)",
+      "file": "idta-pdfs:txt/published/Technical_Data/2/0/1/IDTA 02003_2-0-1_Template_TechnicalData.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02023 Carbon Footprint",
+      "revision": "1.0 (txt sha256 4e3a276e3ca0...; mirror tree f3790038b6c9, 2026-10-06)",
+      "file": "idta-pdfs:txt/published/Carbon Footprint/1/0/IDTA 02023_Submodel_CarbonFootprint.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02035 Digital Battery Passport Parts 1 and 5",
+      "revision": "1.0 (mirror tree f3790038b6c9, 2026-10-06)",
+      "file": "idta-pdfs:txt/published/Digital Battery Passport/",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "Regulation (EU) 2023/1542 (Batteries Regulation), OJ text",
+      "revision": "CELEX 32023R1542, retrieved 2026-10-27 (sha256 2c6c1b423397...)",
+      "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32023R1542.html",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R1542",
+      "bundled": true
+    },
+    {
+      "document": "IDTA-01001 Part 1 Metamodel (PDF, paged text)",
+      "revision": "3.1.2 (official file, sha256 63e0e15cd221..., 2492535 bytes, retrieved 2026-10-28)",
+      "file": "idta-specs:txt/IDTA-01001-3-1-2_AAS-Specification_Part1_Metamodel.txt",
+      "url": "https://industrialdigitaltwin.org/en/wp-content/uploads/sites/2/2025/11/IDTA-01001-3-1-2_AAS-Specification_Part1_Metamodel.pdf",
+      "bundled": false
+    }
+  ],
+  "claims_not_verifiable_on_disk": [
+    "IDTA-01001 Part 1 v3.1 / v3.1.x PDF (the skill's stated base revision 'IDTA V3.1'); only the 3.1 XSD/JSON schema and aas-core-meta v3_1 are on disk",
+    "IDTA 02003-1-2 Technical Data (semanticId https://admin-shell.io/ZVEI/TechnicalData/Submodel/1/2): not in the published mirror, which carries 2.0/2.0.1",
+    "CATENA-X SerialPart / PCF 6.0.0 / Traceability aspect models",
+    "VDI 2770",
+    "aas-test-engines conformance claims ('6 submodel families pass IDTA today')",
+    "BatteryPass SAMM TTL enums (lmt/ev/industrial/stationary, battery status literals)"
+  ],
+  "notes": "Template semanticIds verified against the IDTA submodel-templates mirror PDFs (txt extracts); legal scope against the EUR-Lex OJ HTML."
+}

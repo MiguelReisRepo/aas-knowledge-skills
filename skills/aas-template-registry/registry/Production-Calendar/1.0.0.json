@@ -1,0 +1,322 @@
+{
+ "template": "Production Calendar",
+ "version": "1.0.0",
+ "submodelIdShort": "ProductionCalendar",
+ "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/ProductionCalendar/1/0",
+ "json": {
+  "path": "published/Production Calendar/1/0/IDTA 02067_Template_ProductionCalendar_forAASMetamodelV3.1.json",
+  "gitBlob": "7eac95dff96248c8546c24733806e32310a05ecc"
+ },
+ "pdf": {
+  "path": "published/Production Calendar/1/0/IDTA 02067_Submodel_ProductionCalendar.pdf",
+  "relation": "same folder",
+  "sha256": "a2b749f9244a09fdd8969f23199a54bc5480730c021087326fc6266482e8d442",
+  "annexA": [
+   {
+    "page": 17,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 17,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 9,
+  "unverified": 3
+ },
+ "elements": [
+  {
+   "path": "calendar",
+   "idShort": "calendar",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/ProductionCalendar/calendar/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[File]",
+     "idShort": "calendar",
+     "semanticId": "https://admin-shell.io/idta/ProductionCalendar/calendar/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "inheritedFrom",
+   "idShort": "inheritedFrom",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/ProductionCalendar/inheritedFrom/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Ref]",
+     "idShort": "inheritedFrom",
+     "semanticId": "https://admin-shell.io/idta/ProductionCalendar/inheritedFrom/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "specificationExtensionVariables",
+   "idShort": "specificationExtensionVariables",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/ProductionCalendar/specificationExtensionVariables/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[SML]",
+     "idShort": "specificationExtensionVariables",
+     "semanticId": "https://admin-shell.io/idta/ProductionCalendar/specificationExtensionVariables/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "specificationExtensionVariables > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ProductionCalendar/specificationExtensionVariables/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1",
+     "1..*"
+    ],
+    "pages": [
+     14,
+     15
+    ]
+   },
+   "status": "unverified",
+   "effective": "1..*"
+  },
+  {
+   "path": "specificationExtensionVariables > [0] > variableName",
+   "idShort": "variableName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProductionCalendar/variableName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Property]",
+     "idShort": "variableName",
+     "semanticId": "https://admin-shell.io/idta/ProductionCalendar/variableName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "specificationExtensionVariables > [0] > variableSpecification",
+   "idShort": "variableSpecification",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/ProductionCalendar/variableSpecification/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[File]",
+     "idShort": "variableSpecification",
+     "semanticId": "https://admin-shell.io/idta/ProductionCalendar/variableSpecification/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "specificationExtensionVariables > [1]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ProductionCalendar/specificationExtensionVariables/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1",
+     "1..*"
+    ],
+    "pages": [
+     14,
+     15
+    ]
+   },
+   "status": "unverified",
+   "effective": "1..*"
+  },
+  {
+   "path": "specificationExtensionVariables > [1] > variableName",
+   "idShort": "variableName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProductionCalendar/variableName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Property]",
+     "idShort": "variableName",
+     "semanticId": "https://admin-shell.io/idta/ProductionCalendar/variableName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "specificationExtensionVariables > [1] > variableSpecification",
+   "idShort": "variableSpecification",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/ProductionCalendar/variableSpecification/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[File]",
+     "idShort": "variableSpecification",
+     "semanticId": "https://admin-shell.io/idta/ProductionCalendar/variableSpecification/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "specificationExtensionVariables > [2]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ProductionCalendar/specificationExtensionVariables/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1",
+     "1..*"
+    ],
+    "pages": [
+     14,
+     15
+    ]
+   },
+   "status": "unverified",
+   "effective": "1..*"
+  },
+  {
+   "path": "specificationExtensionVariables > [2] > variableName",
+   "idShort": "variableName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ProductionCalendar/variableName/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Property]",
+     "idShort": "variableName",
+     "semanticId": "https://admin-shell.io/idta/ProductionCalendar/variableName/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "specificationExtensionVariables > [2] > variableSpecification",
+   "idShort": "variableSpecification",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/ProductionCalendar/variableSpecification/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[File]",
+     "idShort": "variableSpecification",
+     "semanticId": "https://admin-shell.io/idta/ProductionCalendar/variableSpecification/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  }
+ ]
+}

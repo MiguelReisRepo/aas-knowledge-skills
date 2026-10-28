@@ -1,0 +1,245 @@
+{
+ "template": "Creation and Classification of Materials",
+ "version": "1.0.0",
+ "submodelIdShort": "BackendSpecificMaterialInformation",
+ "submodelSemanticId": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/1/0/",
+ "json": {
+  "path": "published/Creation and Classification of Materials/1/0/IDTA 02034-1-0 Template_BackendSpecificMaterialInformation.json",
+  "gitBlob": "2ef90f0a8bd5f3ec07c10fa26bf7f8b778a50959"
+ },
+ "pdf": {
+  "path": "published/Creation and Classification of Materials/1/0/IDTA 02034-1-0 Submodel_CreationAndClassificationOfMaterial.pdf",
+  "relation": "same folder",
+  "sha256": "9a9d15bb02e5debb4d10be269c2d6b88ffbe05a973e41ef8ee5fa18ea2f9adb1",
+  "annexA": [
+   {
+    "page": 13,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 13,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "pdf-only": 8,
+  "none": 1
+ },
+ "elements": [
+  {
+   "path": "MaterialSystemProperties",
+   "idShort": "MaterialSystemProperties",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/1/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[SMC]",
+     "idShort": "MaterialSystemProperties",
+     "semanticId": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/1/0",
+     "card": "1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "1"
+  },
+  {
+   "path": "MaterialSystemProperties > MaterialType",
+   "idShort": "MaterialType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/MaterialType/1/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Property]",
+     "idShort": "MaterialType",
+     "semanticId": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/MaterialType/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "MaterialSystemProperties > BaseUnitOfMeasure",
+   "idShort": "BaseUnitOfMeasure",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/BaseUnitOfMeasure/1/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[MLP]",
+     "idShort": "BaseUnitOfMeasure",
+     "semanticId": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/BaseUnitOfMeasure/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "MaterialSystemProperties > MaterialStatus",
+   "idShort": "MaterialStatus",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/MaterialStatus/1/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Property]",
+     "idShort": "MaterialStatus",
+     "semanticId": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/MaterialStatus/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "MaterialSystemProperties > Industry",
+   "idShort": "Industry",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/Industry/1/0https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/Industry/1/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "MaterialSystemProperties > ProductName",
+   "idShort": "ProductName",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/ProductName/1/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[MLP]",
+     "idShort": "ProductName",
+     "semanticId": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/ProductName/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "MaterialSystemProperties > MaterialNumber",
+   "idShort": "MaterialNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/MaterialNumber/1/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Property]",
+     "idShort": "MaterialNumber",
+     "semanticId": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/MaterialNumber/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "MaterialSystemProperties > Description",
+   "idShort": "Description",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/Description/1/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[MLP]",
+     "idShort": "Description",
+     "semanticId": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/Description/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "MaterialSystemProperties > Plant",
+   "idShort": "Plant",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/Plant/1/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Property]",
+     "idShort": "Plant",
+     "semanticId": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/MaterialSystemProperties/Plant/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "0..1"
+  }
+ ]
+}

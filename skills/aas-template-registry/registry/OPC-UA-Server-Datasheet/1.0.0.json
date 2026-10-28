@@ -1,0 +1,1022 @@
+{
+ "template": "OPC UA Server Datasheet",
+ "version": "1.0.0",
+ "submodelIdShort": "UAServerDataSheet",
+ "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/opcuaserverdatasheet/1/0",
+ "json": {
+  "path": "published/OPC UA Server Datasheet/1/0/IDTA 02009-1-0-Template-OPCUA-Server Datasheet.json",
+  "gitBlob": "3b53baed50de16f005cb8aa22d895dc179cd9a01"
+ },
+ "pdf": {
+  "path": "published/OPC UA Server Datasheet/1/0/IDTA 02009-1-0_Submodel_OPC UA Server Data Sheet.pdf",
+  "relation": "same folder",
+  "sha256": "7fee6597f06d5efb1fce297a417f861d29ef7b19db811b84c1dc5bc2564b11c3",
+  "annexA": [
+   {
+    "page": 20,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 20,
+    "quote": "For this reason, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 36,
+  "json-only": 3,
+  "unverified": 4
+ },
+ "elements": [
+  {
+   "path": "Configuration",
+   "idShort": "Configuration",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/Configuration",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "Configuration",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/Configuration",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Configuration > NodeSets",
+   "idShort": "NodeSets",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/NodeSets",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SML]",
+     "idShort": "NodeSets",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/NodeSets",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Configuration > NodeSets > DI",
+   "idShort": "DI",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/NodeSetFile",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..*",
+    "pages": [
+     13
+    ]
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "Configuration > AllowAnonymousUser",
+   "idShort": "AllowAnonymousUser",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/AllowAnonymous",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Property]",
+     "idShort": "AllowAnonymousUser",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/AllowAnonymous",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Configuration > SupportSecurityModeNone",
+   "idShort": "SupportSecurityModeNone",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/SecurityModeNone",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Property]",
+     "idShort": "SupportSecurityModeNone",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/SecurityModeNone",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Configuration > SupportSecurityModeSign",
+   "idShort": "SupportSecurityModeSign",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/SecurityModeSign",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Property]",
+     "idShort": "SupportSecurityModeSign",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/SecurityModeSign",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Configuration > SupportSecurityModeSignEncrypt",
+   "idShort": "SupportSecurityModeSignEncrypt",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/SecurityModeSignEncrypt",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Property]",
+     "idShort": "SupportSecurityModeSignEncrypt",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/SecurityModeSignEncrypt",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Configuration > SupportSecurityPolicyUris",
+   "idShort": "SupportSecurityPolicyUris",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/SupportSecurityPolicyUris",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Configuration > SupportSecurityPolicyUris > SecurityPolicyUriBasic256Sha256",
+   "idShort": "SecurityPolicyUriBasic256Sha256",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/SecurityPolicyUri",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..*",
+     "0..1"
+    ],
+    "pages": [
+     13,
+     16,
+     19
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "Configuration > SupportRedundancy",
+   "idShort": "SupportRedundancy",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/SupportRedundancy",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Identification",
+   "idShort": "Identification",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/Identification",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "Identification",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/Identification",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Identification > ProductUri",
+   "idShort": "ProductUri",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAY811#001",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "ProductUri",
+     "semanticId": "0173-1#02-AAY811#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Identification > ManufacturerName",
+   "idShort": "ManufacturerName",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO677#002",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "ManufacturerName",
+     "semanticId": "0173-1#02-AAO677#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Identification > ProductName",
+   "idShort": "ProductName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/ProductName",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "ProductName",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/ProductName",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Identification > SoftwareVersion",
+   "idShort": "SoftwareVersion",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABA601#008",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "SoftwareVersion",
+     "semanticId": "0112/2///61987#ABA601#008",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Identification > BuildNumber",
+   "idShort": "BuildNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/BuildNumber",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "BuildNumber",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/BuildNumber",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Identification > BuildDate",
+   "idShort": "BuildDate",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/BuildDate",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "BuildDate",
+     "semanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0/SoftwareNameplate/SoftwareNameplateType/BuildDate",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "EndpointDescriptions",
+   "idShort": "EndpointDescriptions",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/EndpointDescriptions",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SML]",
+     "idShort": "EndpointDescriptions",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/EndpointDescriptions",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01",
+   "idShort": "EndpointDescription01",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/EndpointDescription",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..*",
+     "0..1"
+    ],
+    "pages": [
+     11,
+     15
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01 > EndpointUri",
+   "idShort": "EndpointUri",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/EndpointUri",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Property]",
+     "idShort": "EndpointUri",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/EndpointUri",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01 > Server",
+   "idShort": "Server",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/Server",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "Server",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/Server",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01 > Server > ApplicationUri",
+   "idShort": "ApplicationUri",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/ApplicationUri",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01 > Server > ProductUri",
+   "idShort": "ProductUri",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAY811#001",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "ProductUri",
+     "semanticId": "0173-1#02-AAY811#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01 > Server > ApplicationName",
+   "idShort": "ApplicationName",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/ApplicationName",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[MultiLanguageProp erty]",
+     "idShort": "ApplicationName",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/ApplicationName",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01 > Server > ApplicationType",
+   "idShort": "ApplicationType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/ApplicationType",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "ApplicationType",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/ApplicationType",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01 > Server > GatewayServerUri",
+   "idShort": "GatewayServerUri",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/GatewayServerUri",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "GatewayServerUri",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/GatewayServerUri",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01 > Server > DiscoveryProfileUri",
+   "idShort": "DiscoveryProfileUri",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/DiscoveryProfileUri",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "DiscoveryProfileUri",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/DiscoveryProfileUri",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01 > Server > DiscoveryUrls",
+   "idShort": "DiscoveryUrls",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/DiscoveryUrls",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[SML]",
+     "idShort": "DiscoveryUrls",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/DiscoveryUrls",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01 > Server > DiscoveryUrls > DiscoveryUrl",
+   "idShort": "DiscoveryUrl",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/DiscoveryUrl",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..*",
+     "0..1"
+    ],
+    "pages": [
+     11,
+     17
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01 > ServerCertificate",
+   "idShort": "ServerCertificate",
+   "modelType": "Blob",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/Servercertificate",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Blob]",
+     "idShort": "ServerCertificate",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/Servercertificate",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01 > SecurityMode",
+   "idShort": "SecurityMode",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/SecurityMode",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..1",
+    "pages": [
+     12,
+     16
+    ]
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01 > SecurityPolicyUri",
+   "idShort": "SecurityPolicyUri",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/SecurityPolicyUri",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "SecurityPolicyUri",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/SecurityPolicyUri",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01 > UserIdentityTokens",
+   "idShort": "UserIdentityTokens",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/UserIdentityTokens",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..1",
+    "pages": [
+     16
+    ]
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01 > UserIdentityTokens > UserIdentityToken",
+   "idShort": "UserIdentityToken",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/UserIdentityToken",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "UserIdentityToken",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/UserIdentityToken",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01 > UserIdentityTokens > UserIdentityToken > PolicyId",
+   "idShort": "PolicyId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/PolicyId",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "PolicyId",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/PolicyId",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01 > UserIdentityTokens > UserIdentityToken > TokenType",
+   "idShort": "TokenType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/TokenType",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "TokenType",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/TokenType",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01 > UserIdentityTokens > UserIdentityToken > IssuedTokenType",
+   "idShort": "IssuedTokenType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/IssuedTokenType",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "IssuedTokenType",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/IssuedTokenType",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01 > UserIdentityTokens > UserIdentityToken > IssuerEndpointUri",
+   "idShort": "IssuerEndpointUri",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/IssuerEndpointUri",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..1",
+    "pages": [
+     19
+    ]
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01 > UserIdentityTokens > UserIdentityToken > SecurityPolicyUri",
+   "idShort": "SecurityPolicyUri",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/SecurityPolicyUri",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "SecurityPolicyUri",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/SecurityPolicyUri",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01 > TransportProfileUri",
+   "idShort": "TransportProfileUri",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/TransportProfileUri",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..1",
+    "pages": [
+     16
+    ]
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "EndpointDescriptions > EndpointDescription01 > SecurityLevel",
+   "idShort": "SecurityLevel",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/SecurityLevel",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..1",
+    "pages": [
+     16
+    ]
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DiscoveryUrls",
+   "idShort": "DiscoveryUrls",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/DiscoveryUrls",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[SML]",
+     "idShort": "DiscoveryUrls",
+     "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/DiscoveryUrls",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DiscoveryUrls > DiscoveryUrl",
+   "idShort": "DiscoveryUrl",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/UAServerDatasheet/1/0/DiscoveryUrl",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..*",
+     "0..1"
+    ],
+    "pages": [
+     11,
+     17
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  }
+ ]
+}

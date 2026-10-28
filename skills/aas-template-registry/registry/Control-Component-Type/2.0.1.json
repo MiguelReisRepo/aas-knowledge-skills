@@ -1,0 +1,559 @@
+{
+ "template": "Control Component Type",
+ "version": "2.0.1",
+ "submodelIdShort": "ControlComponentType",
+ "submodelSemanticId": "https://admin-shell.io/idta/ControlComponent/Type/2/0",
+ "json": {
+  "path": "published/Control Component Type/2/0/1/IDTA 02015-2-0-1 _Template_ControlComponentType_forAASMetamodelV3.1.json",
+  "gitBlob": "ec6154b74676d3ab694950c11abd1c4eaef07fe6"
+ },
+ "pdf": {
+  "path": "published/Control Component Type/2/0/IDTA 02015-2-0 _Submodel_CCType.pdf",
+  "relation": "ancestor folder (bug-fix release without its own PDF)",
+  "sha256": "11a1c42e17bdef6b0583f1e2f7b69263081a1ac4edcabdcd20af7fac798275b3",
+  "annexA": [
+   {
+    "page": 25,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 25,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "pdf-only": 20,
+  "none": 2
+ },
+ "elements": [
+  {
+   "path": "Interfaces",
+   "idShort": "Interfaces",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ControlComponent/Type/Interfaces/2/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "Interfaces",
+     "semanticId": "https://admin-shell.io/idta/ControlComponent/Type/Interfaces/2/0",
+     "card": "1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "1"
+  },
+  {
+   "path": "Interfaces > Interface",
+   "idShort": "Interface",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ControlComponent/Type/Interface/2/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "Interfaces > Interface > InterfaceProfile",
+   "idShort": "InterfaceProfile",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ControlComponent/Type/Interface/Profile/2/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "InterfaceProfile",
+     "semanticId": "https://admin-shell.io/idta/ControlComponent/Type/Interface/Profile/2/0",
+     "card": "1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "1"
+  },
+  {
+   "path": "Interfaces > Interface > InterfaceProfileSupplement",
+   "idShort": "InterfaceProfileSupplement",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ControlComponent/Type/Interface/ProfileSupplement/2/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "InterfaceProfileSupplement",
+     "semanticId": "https://admin-shell.io/idta/ControlComponent/Type/Interface/ProfileSupplement/2/0",
+     "card": "0..1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Interfaces > Interface > InterfaceReference",
+   "idShort": "InterfaceReference",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/ControlComponent/Type/Interface/Reference/2/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Ref]",
+     "idShort": "InterfaceReference",
+     "semanticId": "https://admin-shell.io/idta/ControlComponent/Type/Interface/Reference/2/0",
+     "card": "0..1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Errors",
+   "idShort": "Errors",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ControlComponent/Type/Errors/2/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "Errors",
+     "semanticId": "https://admin-shell.io/idta/ControlComponent/Type/Errors/2/0",
+     "card": "1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "1"
+  },
+  {
+   "path": "Errors > Error",
+   "idShort": "Error",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ControlComponent/Type/Error/2/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "Error",
+     "semanticId": "https://admin-shell.io/idta/ControlComponent/Type/Error/2/0",
+     "card": "0..*"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "Errors > Error > ErrorCode",
+   "idShort": "ErrorCode",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ControlComponent/Type/Error/Code/2/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "ErrorCode",
+     "semanticId": "https://admin-shell.io/idta/ControlComponent/Type/Error/Code/2/0",
+     "card": "1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "1"
+  },
+  {
+   "path": "Skills",
+   "idShort": "Skills",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ControlComponent/Skills/2/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "Skills",
+     "semanticId": "https://admin-shell.io/idta/ControlComponent/Skills/2/0",
+     "card": "1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "1"
+  },
+  {
+   "path": "Skills > Skill",
+   "idShort": "Skill",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/2/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[SMC]",
+     "idShort": "Skill",
+     "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/2/0",
+     "card": "0..*"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "Skills > Skill > Disabled",
+   "idShort": "Disabled",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/Disabled/2/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Property]",
+     "idShort": "Disabled",
+     "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/Disabled/2/0",
+     "card": "1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "1"
+  },
+  {
+   "path": "Skills > Skill > Modes",
+   "idShort": "Modes",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/Modes/2/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[SMC]",
+     "idShort": "Modes",
+     "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/Modes/2/0",
+     "card": "1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "1"
+  },
+  {
+   "path": "Skills > Skill > Modes > Mode__00__",
+   "idShort": "Mode__00__",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/Mode/2/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Property]",
+     "idShort": "Mode__00__",
+     "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/Mode/2/0",
+     "card": "1..*"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "Skills > Skill > Parameters",
+   "idShort": "Parameters",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/Parameters/2/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[SMC]",
+     "idShort": "Parameters",
+     "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/Parameters/2/0",
+     "card": "1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "1"
+  },
+  {
+   "path": "Skills > Skill > Parameters > Parameter",
+   "idShort": "Parameter",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/Parameter/2/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "Skills > Skill > Parameters > Parameter > Direction",
+   "idShort": "Direction",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/Parameter/Direction/2/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "Direction",
+     "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/Parameter/Direction/2/0",
+     "card": "1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "1"
+  },
+  {
+   "path": "Skills > Skill > Parameters > Parameter > Type",
+   "idShort": "Type",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/Parameter/Type/2/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "Type",
+     "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/Parameter/Type/2/0",
+     "card": "1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "1"
+  },
+  {
+   "path": "Skills > Skill > Parameters > Parameter > Values",
+   "idShort": "Values",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/Parameter/Values/2/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[SMC]",
+     "idShort": "Values",
+     "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/Parameter/Values/2/0",
+     "card": "1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "1"
+  },
+  {
+   "path": "Skills > Skill > Errors",
+   "idShort": "Errors",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/Errors/2/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[SMC]",
+     "idShort": "Errors",
+     "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/Errors/2/0",
+     "card": "1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "1"
+  },
+  {
+   "path": "Skills > Skill > Errors > ErrorReference__00__",
+   "idShort": "ErrorReference__00__",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/ErrorReference/2/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Property]",
+     "idShort": "ErrorReference__00__",
+     "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/ErrorReference/2/0",
+     "card": "0..*"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "Skills > Skill > Uses",
+   "idShort": "Uses",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/Uses/2/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[SMC]",
+     "idShort": "Uses",
+     "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/Uses/2/0",
+     "card": "1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "1"
+  },
+  {
+   "path": "Skills > Skill > Uses > SkillReference__00__",
+   "idShort": "SkillReference__00__",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/SkillReference/2/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Property]",
+     "idShort": "SkillReference__00__",
+     "semanticId": "https://admin-shell.io/idta/ControlComponent/Skill/SkillReference/2/0",
+     "card": "0..*"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "0..*"
+  }
+ ]
+}

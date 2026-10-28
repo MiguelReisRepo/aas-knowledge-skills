@@ -1,0 +1,50 @@
+{
+  "skill": "aas-nameplate",
+  "version": "1.1.0",
+  "last_verified": "2026-10-28",
+  "sources": [
+    {
+      "document": "IDTA 02006 Digital Nameplate for Industrial Equipment (PDF + paged txt)",
+      "revision": "3.0.1 (October 2025); bundled PDF sha256 acbb194da3a3... (bytes differ from the mirror PDF 0c1d21e7743a..., extracted text identical)",
+      "file": "skills/aas-nameplate/IDTA-02006-3-0-1_Submodel_Digital-Nameplate.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": true
+    },
+    {
+      "document": "IDTA 02006 Digital Nameplate - official template JSON",
+      "revision": "3.0.1 (admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06)",
+      "file": "idta-pdfs:json/published/Digital nameplate/3/0/1/IDTA 02006-3-0-1_Template_Digital Nameplate.json",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02006 Digital Nameplate (previous release, for drift checks)",
+      "revision": "3.0 (admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06)",
+      "file": "idta-pdfs:txt/published/Digital nameplate/3/0/IDTA 02006-3-0_Submodel_Digital Nameplate.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02002 Contact Information (AddressInformation children Street/Zipcode/CityTown/NationalCode IRDIs)",
+      "revision": "1.0 / 1.0.1 (admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06)",
+      "file": "idta-pdfs:txt/published/Contact Information/1/0/IDTA 02002-1-0_Submodel_ContactInformation.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA-01001 Part 1 Metamodel (AASd-120) as formalised in aas-core-meta",
+      "revision": "3.0 via aas-core-meta-v3_0.py (sha256 2ef62ab51fee...)",
+      "file": "vendor/aas-core-meta/aas-core-meta-v3_0.py",
+      "url": "https://github.com/aas-core-works/aas-core-meta",
+      "bundled": false
+    }
+  ],
+  "latest_in_mirror": "3.0.1 is the latest in the mirror (folder 3/0/2 holds a byte-identical copy of the 3.0.1 PDF under a 3-0 file name). Bundled = latest.",
+  "claims_not_verifiable_on_disk": [
+    "IDTA 02006 2.0 (ZVEI 2/0 legacy) element IRDIs in the '2/0 legacy' column of the SKILL.md table - no 2.0 document in the mirror; only the Annex B change list of 3.0.1 is citable",
+    "EU 'Blue Guide' 2022 (CE marking mandatory) - only quoted indirectly by the 02006 PDF",
+    "aas-test-engines behaviour ('only template-checks ZVEI 2/0, skips 3/0')",
+    "RFC 3986 section 6.2.2.1 (URIOfTheProduct lower-casing note)"
+  ],
+  "notes": "Spec PDF and template JSON disagree on SoftwareVersion's ECLASS supplemental (PDF AAM985#004, JSON AAM737#004); evals cite the JSON for that item, and semanticid-map-3-0-1.json carries AAM737#004 since 2026-10-28."
+}

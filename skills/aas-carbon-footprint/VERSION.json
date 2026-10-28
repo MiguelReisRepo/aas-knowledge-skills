@@ -1,0 +1,36 @@
+{
+  "skill": "aas-carbon-footprint",
+  "version": "1.1.0",
+  "last_verified": "2026-10-28",
+  "sources": [
+    {
+      "document": "IDTA 02023 Carbon Footprint (PDF + paged txt)",
+      "revision": "1.0 (March 2025); bundled PDF sha256 6f047415b9f4... (bytes differ from mirror 1/0 PDF acccc2b7d72c..., extracted text identical)",
+      "file": "skills/aas-carbon-footprint/IDTA-02023_Submodel_CarbonFootprint.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": true
+    },
+    {
+      "document": "IDTA 02023 Carbon Footprint (re-issued PDF, still titled Version 1.0)",
+      "revision": "1/0/2 folder (admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06); PDF sha256 ec3cc1dd97b1...",
+      "file": "idta-pdfs:pdf/published/Carbon Footprint/1/0/2/IDTA 02023_Submodel_CarbonFootprint.pdf",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02023 Carbon Footprint - official template JSON",
+      "revision": "1.0.1 (admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06)",
+      "file": "idta-pdfs:json/published/Carbon Footprint/1/0/1/IDTA 02023-1-0-1 _Template_CarbonFootprint.json",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    }
+  ],
+  "latest_in_mirror": "Spec text = mirror 1.0; the mirror's 1/0/2 PDF differs only by fixing 'ArbitratyContent' -> 'ArbitraryContent' in Table 10; template JSON is at 1.0.1.",
+  "claims_not_verifiable_on_disk": [
+    "EN 15804+A2 module names (A1 raw material supply ... D benefits beyond the system) as listed in SKILL.md - the spec's value list uses different wording",
+    "ISO 14067 / GHG Protocol / PEF / PACT specifications themselves",
+    "GoodsHandoverAddress child elements (Street, HouseNumber, ZipCode, CityTown, Country, Latitude, Longitude) - not in the 02023 PDF, empty in the template JSON",
+    "draft 0.9 details (flat PcfCalculationMethod/PcfLifeCyclePhase, #001 IRDIs) - no 0.9 document on disk"
+  ],
+  "notes": "PDF Table 4 says GoodsHandoverAddress card 1, the template JSON says ZeroToOne; PcfApiEndpoint is [string] in the PDF and xs:anyURI in the JSON."
+}

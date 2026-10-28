@@ -1,0 +1,6505 @@
+{
+ "template": "Energy Flexibility Data Model",
+ "version": "1.0.0",
+ "submodelIdShort": "EnergyFlexibilityDataModel",
+ "submodelSemanticId": null,
+ "json": {
+  "path": "published/Energy Flexibility Data Model/1/0/IDTA 02076_Template_EnergyFlexibilityDataModel.json",
+  "gitBlob": "3313a9840a9131238f61cd37e230b46ebe4e2b1a"
+ },
+ "pdf": {
+  "path": "published/Energy Flexibility Data Model/1/0/IDTA 02076_Submodel_EnergyFlexibilityDataModel.pdf",
+  "relation": "same folder",
+  "sha256": "d92a2d584c56cc08ea532e96b597a27ce51648f21149e83d1fa5ef072b172994",
+  "annexA": [
+   {
+    "page": 54,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 54,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 199,
+  "unverified": 38,
+  "json-only": 20,
+  "divergent": 5,
+  "none": 1
+ },
+ "elements": [
+  {
+   "path": "flexibleLoadMeasuresPackage",
+   "idShort": "flexibleLoadMeasuresPackage",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoadMeasuresPackage",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "flexibleLoadMeasuresPackage",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoadMeasuresPackage",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibleLoadMeasuresPackage > metadata",
+   "idShort": "metadata",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/metadata",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     41
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "metadata",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/metadata",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasuresPackage > metadata > instanceId",
+   "idShort": "instanceId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1"
+    ],
+    "pages": [
+     20,
+     21,
+     24,
+     32,
+     34,
+     37,
+     39,
+     40,
+     43,
+     46,
+     47,
+     49,
+     52
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasuresPackage > metadata > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/comment",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibleLoadMeasuresPackage > metadata > efdmVersion",
+   "idShort": "efdmVersion",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/efdmVersion",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasuresPackage > metadata > efdmVersion > versionNumber",
+   "idShort": "versionNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/versionNumber",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Property]",
+     "idShort": "versionNumber",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/versionNumber",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasuresPackage > metadata > efdmVersion > schemaLink",
+   "idShort": "schemaLink",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/schemaLink",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Property]",
+     "idShort": "schemaLink",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/schemaLink",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasuresPackage > metadata > origin",
+   "idShort": "origin",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/origin",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "origin",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/origin",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasuresPackage > metadata > origin > originId",
+   "idShort": "originId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Property]",
+     "idShort": "originId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasuresPackage > metadata > origin > timestamp",
+   "idShort": "timestamp",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF198#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     20,
+     21,
+     35,
+     51,
+     53
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasuresPackage > metadata > modification",
+   "idShort": "modification",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/modification",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "modification",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/modification",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasuresPackage > metadata > modification > modificationId",
+   "idShort": "modificationId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Property]",
+     "idShort": "modificationId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasuresPackage > metadata > modification > timestamp",
+   "idShort": "timestamp",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF198#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     20,
+     21,
+     35,
+     51,
+     53
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasuresPackage > flexibleLoadMeasures",
+   "idShort": "flexibleLoadMeasures",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoadMeasures",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     48
+    ],
+    "row": {
+     "page": 48,
+     "type": "[SML]",
+     "idShort": "flexibleLoadMeasures",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoadMeasures",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasuresPackage > flexibleLoadMeasures > flexibleLoadMeasure",
+   "idShort": "flexibleLoadMeasure",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoad",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     48
+    ],
+    "row": {
+     "page": 48,
+     "type": "[SMC]",
+     "idShort": "flexibleLoadMeasure",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoad",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "flexibleLoadMeasuresPackage > flexibleLoadMeasures > flexibleLoadMeasure > flexibleLoadMeasureId",
+   "idShort": "flexibleLoadMeasureId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     49,
+     52
+    ],
+    "row": {
+     "page": 49,
+     "type": "[Property]",
+     "idShort": "flexibleLoadMeasureId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasuresPackage > flexibleLoadMeasures > flexibleLoadMeasure > status",
+   "idShort": "status",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/status",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     21,
+     41,
+     49
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasuresPackage > flexibleLoadMeasures > flexibleLoadMeasure > flexibleLoadId",
+   "idShort": "flexibleLoadId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     24,
+     34,
+     43,
+     47,
+     49
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Property]",
+     "idShort": "flexibleLoadId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasuresPackage > flexibleLoadMeasures > flexibleLoadMeasure > reward",
+   "idShort": "reward",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/reward",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     49,
+     52
+    ],
+    "row": {
+     "page": 49,
+     "type": "[Property]",
+     "idShort": "reward",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/reward",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibleLoadMeasuresPackage > flexibleLoadMeasures > flexibleLoadMeasure > loadChangeProfiles",
+   "idShort": "loadChangeProfiles",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/loadChangeProfiles",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     52
+    ],
+    "row": {
+     "page": 52,
+     "type": "[SML]",
+     "idShort": "loadChangeProfiles",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/loadChangeProfiles",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasuresPackage > flexibleLoadMeasures > flexibleLoadMeasure > loadChangeProfiles > loadChangeProfile",
+   "idShort": "loadChangeProfile",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/powerState",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1",
+     "1..*"
+    ],
+    "pages": [
+     24,
+     27,
+     43,
+     44
+    ]
+   },
+   "status": "unverified",
+   "effective": "1..*"
+  },
+  {
+   "path": "flexibleLoadMeasuresPackage > flexibleLoadMeasures > flexibleLoadMeasure > loadChangeProfiles > loadChangeProfile > power",
+   "idShort": "power",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAZ820#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     27,
+     35,
+     44,
+     50,
+     53
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasuresPackage > flexibleLoadMeasures > flexibleLoadMeasure > loadChangeProfiles > loadChangeProfile > timestamp",
+   "idShort": "timestamp",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF198#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     20,
+     21,
+     35,
+     51,
+     53
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential",
+   "idShort": "flexibilitySpace_operationalPotential",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibilitySpace_operationalPotential",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "flexibilitySpace_operationalPotential",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibilitySpace_operationalPotential",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > metadata",
+   "idShort": "metadata",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/metadata",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     41
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "metadata",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/metadata",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > metadata > instanceId",
+   "idShort": "instanceId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1"
+    ],
+    "pages": [
+     20,
+     21,
+     24,
+     32,
+     34,
+     37,
+     39,
+     40,
+     43,
+     46,
+     47,
+     49,
+     52
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > metadata > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/comment",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > metadata > efdmVersion",
+   "idShort": "efdmVersion",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/efdmVersion",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > metadata > efdmVersion > versionNumber",
+   "idShort": "versionNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/versionNumber",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Property]",
+     "idShort": "versionNumber",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/versionNumber",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > metadata > efdmVersion > schemaLink",
+   "idShort": "schemaLink",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/schemaLink",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Property]",
+     "idShort": "schemaLink",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/schemaLink",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > metadata > origin",
+   "idShort": "origin",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/origin",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "origin",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/origin",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > metadata > origin > originId",
+   "idShort": "originId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Property]",
+     "idShort": "originId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > metadata > origin > timestamp",
+   "idShort": "timestamp",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF198#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     20,
+     21,
+     35,
+     51,
+     53
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > metadata > modification",
+   "idShort": "modification",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/modification",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "modification",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/modification",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > metadata > modification > modificationId",
+   "idShort": "modificationId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Property]",
+     "idShort": "modificationId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > metadata > modification > timestamp",
+   "idShort": "timestamp",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF198#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     20,
+     21,
+     35,
+     51,
+     53
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > utilizationContext",
+   "idShort": "utilizationContext",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/utilizationContext",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     41
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "utilizationContext",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/utilizationContext",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > utilizationContext > status",
+   "idShort": "status",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/status",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     21,
+     41,
+     49
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > utilizationContext > modellingScope",
+   "idShort": "modellingScope",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/modellingScope",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21,
+     41
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Property]",
+     "idShort": "modellingScope",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/modellingScope",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > utilizationContext > trading",
+   "idShort": "trading",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/trading",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[SMC]",
+     "idShort": "trading",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/trading",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > utilizationContext > trading > externallyTradeable",
+   "idShort": "externallyTradeable",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/externallyTradeable",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Property]",
+     "idShort": "externallyTradeable",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/externallyTradeable",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > utilizationContext > trading > autoTradeable",
+   "idShort": "autoTradeable",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/autoTradeable",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Property]",
+     "idShort": "autoTradeable",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/autoTradeable",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads",
+   "idShort": "flexibleLoads",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoads",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     41
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SML]",
+     "idShort": "flexibleLoads",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoads",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad",
+   "idShort": "flexibleLoad",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoad",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     42
+    ],
+    "row": {
+     "page": 42,
+     "type": "[SMC]",
+     "idShort": "flexibleLoad",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoad",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > flexibleLoadId",
+   "idShort": "flexibleLoadId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     24,
+     34,
+     43,
+     47,
+     49
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Property]",
+     "idShort": "flexibleLoadId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > reactionDuration",
+   "idShort": "reactionDuration",
+   "modelType": "Range",
+   "semanticId": "0173-1#02-AAV535#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     24,
+     43
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > validity",
+   "idShort": "validity",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/validity",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[SMC]",
+     "idShort": "validity",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/validity",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > validity > from",
+   "idShort": "from",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF198#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Property]",
+     "idShort": "from",
+     "semanticId": "0173-1#02-ABF198#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > validity > until",
+   "idShort": "until",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF198#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Property]",
+     "idShort": "until",
+     "semanticId": "0173-1#02-ABF198#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > validity > temporalType",
+   "idShort": "temporalType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/temporalType",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26,
+     39,
+     40
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Property]",
+     "idShort": "temporalType",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/temporalType",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > powerStates",
+   "idShort": "powerStates",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/powerStates",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     24,
+     43
+    ],
+    "row": {
+     "page": 24,
+     "type": "[SML]",
+     "idShort": "powerStates",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/powerStates",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > powerStates > powerState",
+   "idShort": "powerState",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/powerState",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     27,
+     44
+    ],
+    "row": {
+     "page": 27,
+     "type": "[SMC]",
+     "idShort": "powerState",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/powerState",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > powerStates > powerState > power",
+   "idShort": "power",
+   "modelType": "Range",
+   "semanticId": "0173-1#02-AAZ820#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     27,
+     35,
+     44,
+     50,
+     53
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > powerStates > powerState > duration",
+   "idShort": "duration",
+   "modelType": "Range",
+   "semanticId": "0173-1#02-AAQ203#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > powerStates > powerState > referencePoint",
+   "idShort": "referencePoint",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAZ820#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[Property]",
+     "idShort": "referencePoint",
+     "semanticId": "0173-1#02-AAZ820#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > powerStates > powerState > durationType",
+   "idShort": "durationType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/durationType",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[Property]",
+     "idShort": "durationType",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/durationType",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > usageNumber",
+   "idShort": "usageNumber",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/usageNumber",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Range]",
+     "idShort": "usageNumber",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/usageNumber",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > modulationNumber",
+   "idShort": "modulationNumber",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/modulationNumber",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24,
+     43
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Range]",
+     "idShort": "modulationNumber",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/modulationNumber",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > powerGradients",
+   "idShort": "powerGradients",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/powerGradients",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25,
+     43
+    ],
+    "row": {
+     "page": 25,
+     "type": "[SMC]",
+     "idShort": "powerGradients",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/powerGradients",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > powerGradients > activationGradient",
+   "idShort": "activationGradient",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PowerGradient",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28,
+     44
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "activationGradient",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PowerGradient",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > powerGradients > modulationGradient",
+   "idShort": "modulationGradient",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PowerGradient",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28,
+     45
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "modulationGradient",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PowerGradient",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > powerGradients > deactivationGradient",
+   "idShort": "deactivationGradient",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PowerGradient",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28,
+     45
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "deactivationGradient",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PowerGradient",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > regenerationDuration",
+   "idShort": "regenerationDuration",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV535#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     24,
+     43
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > flexibleLoadCosts",
+   "idShort": "flexibleLoadCosts",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoadCosts",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[SMC]",
+     "idShort": "flexibleLoadCosts",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoadCosts",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > flexibleLoadCosts > variableCost",
+   "idShort": "variableCost",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/CostPerEnergyConverted",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28,
+     33
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "variableCost",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/CostPerEnergyConverted",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > flexibleLoadCosts > costPerUsage",
+   "idShort": "costPerUsage",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/CostPerUsage",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28,
+     33
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "costPerUsage",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/CostPerUsage",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > flexibleLoadCosts > fixedCost",
+   "idShort": "fixedCost",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/fixedCost",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     29,
+     34
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Property]",
+     "idShort": "fixedCost",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/fixedCost",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > orderConfirmationDeadline",
+   "idShort": "orderConfirmationDeadline",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/orderConfirmationDeadline",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[SMC]",
+     "idShort": "orderConfirmationDeadline",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/orderConfirmationDeadline",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > orderConfirmationDeadline > orderConfirmationDeadlineAbsolute",
+   "idShort": "orderConfirmationDeadlineAbsolute",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF198#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Property]",
+     "idShort": "orderConfirmationDeadlineAbsolute",
+     "semanticId": "0173-1#02-ABF198#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > orderConfirmationDeadline > orderConfirmationDeadlineRelative",
+   "idShort": "orderConfirmationDeadlineRelative",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAQ203#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > prices",
+   "idShort": "prices",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/prices",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[SMC]",
+     "idShort": "prices",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/prices",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > prices > variablePrice",
+   "idShort": "variablePrice",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PricePerEnergyConverted",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Property]",
+     "idShort": "variablePrice",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PricePerEnergyConverted",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > prices > pricePerUsage",
+   "idShort": "pricePerUsage",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PricePerUsage",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > prices > fixedPrice",
+   "idShort": "fixedPrice",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/fixedPrice",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Property]",
+     "idShort": "fixedPrice",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/fixedPrice",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > location",
+   "idShort": "location",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/location",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[SMC]",
+     "idShort": "location",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/location",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > location > meterLocation",
+   "idShort": "meterLocation",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/MeterPointDesignation",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Property]",
+     "idShort": "meterLocation",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/MeterPointDesignation",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > flexibleLoads > flexibleLoad > location > voltageLevel",
+   "idShort": "voltageLevel",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/GridVoltageLevel",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Property]",
+     "idShort": "voltageLevel",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/GridVoltageLevel",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > storages",
+   "idShort": "storages",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/storages",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18,
+     41
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SML]",
+     "idShort": "storages",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/storages",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > storages > storage",
+   "idShort": "storage",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/storage",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     31,
+     45
+    ],
+    "row": {
+     "page": 31,
+     "type": "[SMC]",
+     "idShort": "storage",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/storage",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > storages > storage > storageId",
+   "idShort": "storageId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     32,
+     46
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Property]",
+     "idShort": "storageId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > storages > storage > storageCosts",
+   "idShort": "storageCosts",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/storageCosts",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33
+    ],
+    "row": {
+     "page": 33,
+     "type": "[SMC]",
+     "idShort": "storageCosts",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/storageCosts",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > storages > storage > storageCosts > variableCost",
+   "idShort": "variableCost",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/CostPerEnergyConverted",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28,
+     33
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "variableCost",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/CostPerEnergyConverted",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > storages > storage > storageCosts > costPerUsage",
+   "idShort": "costPerUsage",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/CostPerUsage",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28,
+     33
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "costPerUsage",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/CostPerUsage",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > storages > storage > storageCosts > fixedCost",
+   "idShort": "fixedCost",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/fixedCost",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     29,
+     34
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Property]",
+     "idShort": "fixedCost",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/fixedCost",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > storages > storage > usableCapacity",
+   "idShort": "usableCapacity",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/ElectricalEnergyStorageContent",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     32,
+     46
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Range]",
+     "idShort": "usableCapacity",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/ElectricalEnergyStorageContent",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > storages > storage > initialEnergyContent",
+   "idShort": "initialEnergyContent",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/ElectricalEnergyStorageContent",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     32,
+     46
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Range]",
+     "idShort": "initialEnergyContent",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/ElectricalEnergyStorageContent",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > storages > storage > targetEnergyContent",
+   "idShort": "targetEnergyContent",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/ElectricalEnergyStorageContent",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Range]",
+     "idShort": "targetEnergyContent",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/ElectricalEnergyStorageContent",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > storages > storage > energyLoss",
+   "idShort": "energyLoss",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/EnergyContentLossPerHour",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33,
+     46
+    ],
+    "row": {
+     "page": 33,
+     "type": "[Property]",
+     "idShort": "energyLoss",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/EnergyContentLossPerHour",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > storages > storage > suppliers",
+   "idShort": "suppliers",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/suppliers",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33,
+     46
+    ],
+    "row": {
+     "page": 33,
+     "type": "[SML]",
+     "idShort": "suppliers",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/suppliers",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > storages > storage > suppliers > supplier",
+   "idShort": "supplier",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/supplier",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     34,
+     47
+    ],
+    "row": {
+     "page": 34,
+     "type": "[SMC]",
+     "idShort": "supplier",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/supplier",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > storages > storage > suppliers > supplier > flexibleLoadId",
+   "idShort": "flexibleLoadId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     24,
+     34,
+     43,
+     47,
+     49
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Property]",
+     "idShort": "flexibleLoadId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > storages > storage > suppliers > supplier > conversionEfficiency",
+   "idShort": "conversionEfficiency",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/EnergyConversionEfficiency",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     35,
+     47
+    ],
+    "row": {
+     "page": 35,
+     "type": "[Property]",
+     "idShort": "conversionEfficiency",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/EnergyConversionEfficiency",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > storages > storage > drains",
+   "idShort": "drains",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/drains",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33
+    ],
+    "row": {
+     "page": 33,
+     "type": "[SML]",
+     "idShort": "drains",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/drains",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > storages > storage > drains > drain",
+   "idShort": "drain",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/drain",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     35
+    ],
+    "row": {
+     "page": 35,
+     "type": "[SMC]",
+     "idShort": "drain",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/drain",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > storages > storage > drains > drain > power",
+   "idShort": "power",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAZ820#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     27,
+     35,
+     44,
+     50,
+     53
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > storages > storage > drains > drain > timestamp",
+   "idShort": "timestamp",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF198#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     20,
+     21,
+     35,
+     51,
+     53
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > dependencies",
+   "idShort": "dependencies",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/dependencies",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18,
+     41
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SML]",
+     "idShort": "dependencies",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/dependencies",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > dependencies > dependency",
+   "idShort": "dependency",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/dependency",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     36
+    ],
+    "row": {
+     "page": 36,
+     "type": "[SMC]",
+     "idShort": "dependency",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/dependency",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > dependencies > dependency > dependencyId",
+   "idShort": "dependencyId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     37
+    ],
+    "row": {
+     "page": 37,
+     "type": "[Property]",
+     "idShort": "dependencyId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > dependencies > dependency > applicabilityDuration",
+   "idShort": "applicabilityDuration",
+   "modelType": "Range",
+   "semanticId": "0173-1#02-AAQ203#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > dependencies > dependency > applicabilityConditions",
+   "idShort": "applicabilityConditions",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/applicabilityConditions",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     38
+    ],
+    "row": {
+     "page": 38,
+     "type": "[SML]",
+     "idShort": "applicabilityConditions",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/applicabilityConditions",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > dependencies > dependency > applicabilityConditions > applicabilityCondition",
+   "idShort": "applicabilityCondition",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/applicabilityCondition",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     38
+    ],
+    "row": {
+     "page": 38,
+     "type": "[SMC]",
+     "idShort": "applicabilityCondition",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/applicabilityCondition",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > dependencies > dependency > applicabilityConditions > applicabilityCondition > comparator",
+   "idShort": "comparator",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/comparator",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "comparator",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/comparator",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > dependencies > dependency > applicabilityConditions > applicabilityCondition > formulaRight",
+   "idShort": "formulaRight",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/formulaRight",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "formulaRight",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/formulaRight",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > dependencies > dependency > applicabilityConditions > applicabilityCondition > formulaLeft",
+   "idShort": "formulaLeft",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/formulaLeft",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "formulaLeft",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/formulaLeft",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > dependencies > dependency > triggeringFlexibleLoad",
+   "idShort": "triggeringFlexibleLoad",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/triggeringFlexibleLoad",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     37
+    ],
+    "row": {
+     "page": 37,
+     "type": "[SMC]",
+     "idShort": "triggeringFlexibleLoad",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/triggeringFlexibleLoad",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > dependencies > dependency > triggeringFlexibleLoad > temporalType",
+   "idShort": "temporalType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/temporalType",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26,
+     39,
+     40
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Property]",
+     "idShort": "temporalType",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/temporalType",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > dependencies > dependency > triggeringFlexibleLoad > triggeringFlexibleLoadId",
+   "idShort": "triggeringFlexibleLoadId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     39
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "triggeringFlexibleLoadId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > dependencies > dependency > targetFlexibleLoad",
+   "idShort": "targetFlexibleLoad",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > dependencies > dependency > targetFlexibleLoad > temporalType",
+   "idShort": "temporalType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/temporalType",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26,
+     39,
+     40
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Property]",
+     "idShort": "temporalType",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/temporalType",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > dependencies > dependency > targetFlexibleLoad > targetFlexibleLoadId",
+   "idShort": "targetFlexibleLoadId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     40
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Property]",
+     "idShort": "targetFlexibleLoadId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_operationalPotential > dependencies > dependency > logicalType",
+   "idShort": "logicalType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/logicalType",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     37
+    ],
+    "row": {
+     "page": 37,
+     "type": "[Property]",
+     "idShort": "logicalType",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/logicalType",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential",
+   "idShort": "flexibilitySpace_applicationTailoredPotential",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibilitySpace_applicationTailoredPotential",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "flexibilitySpace_applicationTailoredPotential",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibilitySpace_applicationTailoredPotential",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > metadata",
+   "idShort": "metadata",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/metadata",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     41
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "metadata",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/metadata",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > metadata > instanceId",
+   "idShort": "instanceId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1"
+    ],
+    "pages": [
+     20,
+     21,
+     24,
+     32,
+     34,
+     37,
+     39,
+     40,
+     43,
+     46,
+     47,
+     49,
+     52
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > metadata > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/comment",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > metadata > efdmVersion",
+   "idShort": "efdmVersion",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/efdmVersion",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > metadata > efdmVersion > versionNumber",
+   "idShort": "versionNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/versionNumber",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Property]",
+     "idShort": "versionNumber",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/versionNumber",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > metadata > efdmVersion > schemaLink",
+   "idShort": "schemaLink",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/schemaLink",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Property]",
+     "idShort": "schemaLink",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/schemaLink",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > metadata > origin",
+   "idShort": "origin",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/origin",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "origin",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/origin",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > metadata > origin > originId",
+   "idShort": "originId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Property]",
+     "idShort": "originId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > metadata > origin > timestamp",
+   "idShort": "timestamp",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF198#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     20,
+     21,
+     35,
+     51,
+     53
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > metadata > modification",
+   "idShort": "modification",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/modification",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "modification",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/modification",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > metadata > modification > modificationId",
+   "idShort": "modificationId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Property]",
+     "idShort": "modificationId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > metadata > modification > timestamp",
+   "idShort": "timestamp",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF198#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     20,
+     21,
+     35,
+     51,
+     53
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > utilizationContext",
+   "idShort": "utilizationContext",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/utilizationContext",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     41
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "utilizationContext",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/utilizationContext",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > utilizationContext > status",
+   "idShort": "status",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/status",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     21,
+     41,
+     49
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > utilizationContext > modellingScope",
+   "idShort": "modellingScope",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/modellingScope",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21,
+     41
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Property]",
+     "idShort": "modellingScope",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/modellingScope",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > utilizationContext > trading",
+   "idShort": "trading",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/trading",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[SMC]",
+     "idShort": "trading",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/trading",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > utilizationContext > trading > externallyTradeable",
+   "idShort": "externallyTradeable",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/externallyTradeable",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Property]",
+     "idShort": "externallyTradeable",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/externallyTradeable",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > utilizationContext > trading > autoTradeable",
+   "idShort": "autoTradeable",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/autoTradeable",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Property]",
+     "idShort": "autoTradeable",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/autoTradeable",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads",
+   "idShort": "flexibleLoads",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoads",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     41
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SML]",
+     "idShort": "flexibleLoads",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoads",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad",
+   "idShort": "flexibleLoad",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoad",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     42
+    ],
+    "row": {
+     "page": 42,
+     "type": "[SMC]",
+     "idShort": "flexibleLoad",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoad",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > flexibleLoadId",
+   "idShort": "flexibleLoadId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     24,
+     34,
+     43,
+     47,
+     49
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Property]",
+     "idShort": "flexibleLoadId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > reactionDuration",
+   "idShort": "reactionDuration",
+   "modelType": "Range",
+   "semanticId": "0173-1#02-AAV535#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     24,
+     43
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > validity",
+   "idShort": "validity",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/validity",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[SMC]",
+     "idShort": "validity",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/validity",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > validity > from",
+   "idShort": "from",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF198#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Property]",
+     "idShort": "from",
+     "semanticId": "0173-1#02-ABF198#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > validity > until",
+   "idShort": "until",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF198#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Property]",
+     "idShort": "until",
+     "semanticId": "0173-1#02-ABF198#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > validity > temporalType",
+   "idShort": "temporalType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/temporalType",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26,
+     39,
+     40
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Property]",
+     "idShort": "temporalType",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/temporalType",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > powerStates",
+   "idShort": "powerStates",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/powerStates",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     24,
+     43
+    ],
+    "row": {
+     "page": 24,
+     "type": "[SML]",
+     "idShort": "powerStates",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/powerStates",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > powerStates > powerState",
+   "idShort": "powerState",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/powerState",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     27,
+     44
+    ],
+    "row": {
+     "page": 27,
+     "type": "[SMC]",
+     "idShort": "powerState",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/powerState",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > powerStates > powerState > power",
+   "idShort": "power",
+   "modelType": "Range",
+   "semanticId": "0173-1#02-AAZ820#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     27,
+     35,
+     44,
+     50,
+     53
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > powerStates > powerState > duration",
+   "idShort": "duration",
+   "modelType": "Range",
+   "semanticId": "0173-1#02-AAQ203#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > powerStates > powerState > durationType",
+   "idShort": "durationType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/durationType",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[Property]",
+     "idShort": "durationType",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/durationType",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > powerStates > powerState > referencePoint",
+   "idShort": "referencePoint",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAZ820#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[Property]",
+     "idShort": "referencePoint",
+     "semanticId": "0173-1#02-AAZ820#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > usageNumber",
+   "idShort": "usageNumber",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/usageNumber",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Range]",
+     "idShort": "usageNumber",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/usageNumber",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > modulationNumber",
+   "idShort": "modulationNumber",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/modulationNumber",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24,
+     43
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Range]",
+     "idShort": "modulationNumber",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/modulationNumber",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > powerGradients",
+   "idShort": "powerGradients",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/powerGradients",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25,
+     43
+    ],
+    "row": {
+     "page": 25,
+     "type": "[SMC]",
+     "idShort": "powerGradients",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/powerGradients",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > powerGradients > activationGradient",
+   "idShort": "activationGradient",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PowerGradient",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28,
+     44
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "activationGradient",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PowerGradient",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > powerGradients > modulationGradient",
+   "idShort": "modulationGradient",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PowerGradient",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28,
+     45
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "modulationGradient",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PowerGradient",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > powerGradients > deactivationGradient",
+   "idShort": "deactivationGradient",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PowerGradient",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28,
+     45
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "deactivationGradient",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PowerGradient",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > regenerationDuration",
+   "idShort": "regenerationDuration",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV535#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     24,
+     43
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > flexibleLoadCosts",
+   "idShort": "flexibleLoadCosts",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoadCosts",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[SMC]",
+     "idShort": "flexibleLoadCosts",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoadCosts",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > flexibleLoadCosts > variableCost",
+   "idShort": "variableCost",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/CostPerEnergyConverted",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28,
+     33
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "variableCost",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/CostPerEnergyConverted",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > flexibleLoadCosts > costPerUsage",
+   "idShort": "costPerUsage",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/CostPerUsage",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28,
+     33
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "costPerUsage",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/CostPerUsage",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > flexibleLoadCosts > fixedCost",
+   "idShort": "fixedCost",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/fixedCost",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     29,
+     34
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Property]",
+     "idShort": "fixedCost",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/fixedCost",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > orderConfirmationDeadline",
+   "idShort": "orderConfirmationDeadline",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/orderConfirmationDeadline",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[SMC]",
+     "idShort": "orderConfirmationDeadline",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/orderConfirmationDeadline",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > orderConfirmationDeadline > orderConfirmationDeadlineAbsolute",
+   "idShort": "orderConfirmationDeadlineAbsolute",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF198#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Property]",
+     "idShort": "orderConfirmationDeadlineAbsolute",
+     "semanticId": "0173-1#02-ABF198#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > orderConfirmationDeadline > orderConfirmationDeadlineRelative",
+   "idShort": "orderConfirmationDeadlineRelative",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAQ203#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > prices",
+   "idShort": "prices",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/prices",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[SMC]",
+     "idShort": "prices",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/prices",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > prices > variablePrice",
+   "idShort": "variablePrice",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PricePerEnergyConverted",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Property]",
+     "idShort": "variablePrice",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PricePerEnergyConverted",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > prices > pricePerUsage",
+   "idShort": "pricePerUsage",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PricePerUsage",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > prices > fixedPrice",
+   "idShort": "fixedPrice",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/fixedPrice",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Property]",
+     "idShort": "fixedPrice",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/fixedPrice",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > location",
+   "idShort": "location",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/location",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[SMC]",
+     "idShort": "location",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/location",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > location > meterLocation",
+   "idShort": "meterLocation",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/MeterPointDesignation",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Property]",
+     "idShort": "meterLocation",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/MeterPointDesignation",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > flexibleLoads > flexibleLoad > location > voltageLevel",
+   "idShort": "voltageLevel",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/GridVoltageLevel",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Property]",
+     "idShort": "voltageLevel",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/GridVoltageLevel",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > storages",
+   "idShort": "storages",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/storages",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18,
+     41
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SML]",
+     "idShort": "storages",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/storages",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > storages > storage",
+   "idShort": "storage",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/storage",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     31,
+     45
+    ],
+    "row": {
+     "page": 31,
+     "type": "[SMC]",
+     "idShort": "storage",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/storage",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > storages > storage > storageId",
+   "idShort": "storageId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     32,
+     46
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Property]",
+     "idShort": "storageId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > storages > storage > storageCosts",
+   "idShort": "storageCosts",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/storageCosts",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33
+    ],
+    "row": {
+     "page": 33,
+     "type": "[SMC]",
+     "idShort": "storageCosts",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/storageCosts",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > storages > storage > storageCosts > variableCost",
+   "idShort": "variableCost",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/CostPerEnergyConverted",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28,
+     33
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "variableCost",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/CostPerEnergyConverted",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > storages > storage > storageCosts > costPerUsage",
+   "idShort": "costPerUsage",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/CostPerUsage",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28,
+     33
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "costPerUsage",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/CostPerUsage",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > storages > storage > storageCosts > fixedCost",
+   "idShort": "fixedCost",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/fixedCost",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     29,
+     34
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Property]",
+     "idShort": "fixedCost",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/fixedCost",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > storages > storage > usableCapacity",
+   "idShort": "usableCapacity",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/ElectricalEnergyStorageContent",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     32,
+     46
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Range]",
+     "idShort": "usableCapacity",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/ElectricalEnergyStorageContent",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > storages > storage > initialEnergyContent",
+   "idShort": "initialEnergyContent",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/ElectricalEnergyStorageContent",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     32,
+     46
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Range]",
+     "idShort": "initialEnergyContent",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/ElectricalEnergyStorageContent",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > storages > storage > targetEnergyContent",
+   "idShort": "targetEnergyContent",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/ElectricalEnergyStorageContent",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Range]",
+     "idShort": "targetEnergyContent",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/ElectricalEnergyStorageContent",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > storages > storage > energyLoss",
+   "idShort": "energyLoss",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/EnergyContentLossPerHour",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33,
+     46
+    ],
+    "row": {
+     "page": 33,
+     "type": "[Property]",
+     "idShort": "energyLoss",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/EnergyContentLossPerHour",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > storages > storage > suppliers",
+   "idShort": "suppliers",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/suppliers",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33,
+     46
+    ],
+    "row": {
+     "page": 33,
+     "type": "[SML]",
+     "idShort": "suppliers",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/suppliers",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > storages > storage > suppliers > supplier",
+   "idShort": "supplier",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/supplier",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     34,
+     47
+    ],
+    "row": {
+     "page": 34,
+     "type": "[SMC]",
+     "idShort": "supplier",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/supplier",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > storages > storage > suppliers > supplier > flexibleLoadId",
+   "idShort": "flexibleLoadId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     24,
+     34,
+     43,
+     47,
+     49
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Property]",
+     "idShort": "flexibleLoadId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > storages > storage > suppliers > supplier > conversionEfficiency",
+   "idShort": "conversionEfficiency",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/EnergyConversionEfficiency",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     35,
+     47
+    ],
+    "row": {
+     "page": 35,
+     "type": "[Property]",
+     "idShort": "conversionEfficiency",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/EnergyConversionEfficiency",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > storages > storage > drains",
+   "idShort": "drains",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/drains",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33
+    ],
+    "row": {
+     "page": 33,
+     "type": "[SML]",
+     "idShort": "drains",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/drains",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > storages > storage > drains > drain",
+   "idShort": "drain",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/drain",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     35
+    ],
+    "row": {
+     "page": 35,
+     "type": "[SMC]",
+     "idShort": "drain",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/drain",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > storages > storage > drains > drain > power",
+   "idShort": "power",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAZ820#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     27,
+     35,
+     44,
+     50,
+     53
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > storages > storage > drains > drain > timestamp",
+   "idShort": "timestamp",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF198#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     20,
+     21,
+     35,
+     51,
+     53
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > dependencies",
+   "idShort": "dependencies",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/dependencies",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18,
+     41
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SML]",
+     "idShort": "dependencies",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/dependencies",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > dependencies > dependency",
+   "idShort": "dependency",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/dependency",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     36
+    ],
+    "row": {
+     "page": 36,
+     "type": "[SMC]",
+     "idShort": "dependency",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/dependency",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > dependencies > dependency > dependencyId",
+   "idShort": "dependencyId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     37
+    ],
+    "row": {
+     "page": 37,
+     "type": "[Property]",
+     "idShort": "dependencyId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > dependencies > dependency > applicabilityDuration",
+   "idShort": "applicabilityDuration",
+   "modelType": "Range",
+   "semanticId": "0173-1#02-AAQ203#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > dependencies > dependency > applicabilityConditions",
+   "idShort": "applicabilityConditions",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/applicabilityConditions",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     38
+    ],
+    "row": {
+     "page": 38,
+     "type": "[SML]",
+     "idShort": "applicabilityConditions",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/applicabilityConditions",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > dependencies > dependency > applicabilityConditions > applicabilityCondition",
+   "idShort": "applicabilityCondition",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/applicabilityCondition",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     38
+    ],
+    "row": {
+     "page": 38,
+     "type": "[SMC]",
+     "idShort": "applicabilityCondition",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/applicabilityCondition",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > dependencies > dependency > applicabilityConditions > applicabilityCondition > comparator",
+   "idShort": "comparator",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/comparator",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "comparator",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/comparator",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > dependencies > dependency > applicabilityConditions > applicabilityCondition > formulaRight",
+   "idShort": "formulaRight",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/formulaRight",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "formulaRight",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/formulaRight",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > dependencies > dependency > applicabilityConditions > applicabilityCondition > formulaLeft",
+   "idShort": "formulaLeft",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/formulaLeft",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     39
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "formulaLeft",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/formulaLeft",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > dependencies > dependency > triggeringFlexibleLoad",
+   "idShort": "triggeringFlexibleLoad",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/triggeringFlexibleLoad",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     37
+    ],
+    "row": {
+     "page": 37,
+     "type": "[SMC]",
+     "idShort": "triggeringFlexibleLoad",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/triggeringFlexibleLoad",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > dependencies > dependency > triggeringFlexibleLoad > temporalType",
+   "idShort": "temporalType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/temporalType",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26,
+     39,
+     40
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Property]",
+     "idShort": "temporalType",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/temporalType",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > dependencies > dependency > triggeringFlexibleLoad > triggeringFlexibleLoadId",
+   "idShort": "triggeringFlexibleLoadId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     39
+    ],
+    "row": {
+     "page": 39,
+     "type": "[Property]",
+     "idShort": "triggeringFlexibleLoadId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > dependencies > dependency > targetFlexibleLoad",
+   "idShort": "targetFlexibleLoad",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > dependencies > dependency > targetFlexibleLoad > temporalType",
+   "idShort": "temporalType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/temporalType",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     26,
+     39,
+     40
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Property]",
+     "idShort": "temporalType",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/temporalType",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > dependencies > dependency > targetFlexibleLoad > targetFlexibleLoadId",
+   "idShort": "targetFlexibleLoadId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     40
+    ],
+    "row": {
+     "page": 40,
+     "type": "[Property]",
+     "idShort": "targetFlexibleLoadId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_applicationTailoredPotential > dependencies > dependency > logicalType",
+   "idShort": "logicalType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/logicalType",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     37
+    ],
+    "row": {
+     "page": 37,
+     "type": "[Property]",
+     "idShort": "logicalType",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/logicalType",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential",
+   "idShort": "flexibilitySpace_generalTechnicalPotential",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibilitySpace_generalTechnicalPotential",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "flexibilitySpace_generalTechnicalPotential",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibilitySpace_generalTechnicalPotential",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > metadata",
+   "idShort": "metadata",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/metadata",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     41
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "metadata",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/metadata",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > metadata > instanceId",
+   "idShort": "instanceId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1"
+    ],
+    "pages": [
+     20,
+     21,
+     24,
+     32,
+     34,
+     37,
+     39,
+     40,
+     43,
+     46,
+     47,
+     49,
+     52
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > metadata > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/comment",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > metadata > efdmVersion",
+   "idShort": "efdmVersion",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/efdmVersion",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > metadata > efdmVersion > versionNumber",
+   "idShort": "versionNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/versionNumber",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Property]",
+     "idShort": "versionNumber",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/versionNumber",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > metadata > efdmVersion > schemaLink",
+   "idShort": "schemaLink",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/schemaLink",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Property]",
+     "idShort": "schemaLink",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/schemaLink",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > metadata > origin",
+   "idShort": "origin",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/origin",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "origin",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/origin",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > metadata > origin > originId",
+   "idShort": "originId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Property]",
+     "idShort": "originId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > metadata > origin > timestamp",
+   "idShort": "timestamp",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF198#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     20,
+     21,
+     35,
+     51,
+     53
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > metadata > modification",
+   "idShort": "modification",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/modification",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "modification",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/modification",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > metadata > modification > modificationId",
+   "idShort": "modificationId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Property]",
+     "idShort": "modificationId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > metadata > modification > timestamp",
+   "idShort": "timestamp",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF198#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     20,
+     21,
+     35,
+     51,
+     53
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > utilizationContext",
+   "idShort": "utilizationContext",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/utilizationContext",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     41
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "utilizationContext",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/utilizationContext",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > utilizationContext > status",
+   "idShort": "status",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/status",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     21,
+     41,
+     49
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > utilizationContext > modellingScope",
+   "idShort": "modellingScope",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/modellingScope",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21,
+     41
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Property]",
+     "idShort": "modellingScope",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/modellingScope",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > flexibleLoads",
+   "idShort": "flexibleLoads",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoads",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     41
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SML]",
+     "idShort": "flexibleLoads",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoads",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > flexibleLoads > flexibleLoad",
+   "idShort": "flexibleLoad",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoad",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     42
+    ],
+    "row": {
+     "page": 42,
+     "type": "[SMC]",
+     "idShort": "flexibleLoad",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoad",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > flexibleLoads > flexibleLoad > flexibleLoadId",
+   "idShort": "flexibleLoadId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     24,
+     34,
+     43,
+     47,
+     49
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Property]",
+     "idShort": "flexibleLoadId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > flexibleLoads > flexibleLoad > reactionDuration",
+   "idShort": "reactionDuration",
+   "modelType": "Range",
+   "semanticId": "0173-1#02-AAV535#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     24,
+     43
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > flexibleLoads > flexibleLoad > regenerationDuration",
+   "idShort": "regenerationDuration",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV535#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     24,
+     43
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > flexibleLoads > flexibleLoad > powerGradients",
+   "idShort": "powerGradients",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/powerGradients",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25,
+     43
+    ],
+    "row": {
+     "page": 25,
+     "type": "[SMC]",
+     "idShort": "powerGradients",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/powerGradients",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > flexibleLoads > flexibleLoad > powerGradients > activationGradient",
+   "idShort": "activationGradient",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PowerGradient",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28,
+     44
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "activationGradient",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PowerGradient",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > flexibleLoads > flexibleLoad > powerGradients > modulationGradient",
+   "idShort": "modulationGradient",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PowerGradient",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28,
+     45
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "modulationGradient",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PowerGradient",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > flexibleLoads > flexibleLoad > powerGradients > deactivationGradient",
+   "idShort": "deactivationGradient",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PowerGradient",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     28,
+     45
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Property]",
+     "idShort": "deactivationGradient",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/PowerGradient",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > flexibleLoads > flexibleLoad > modulationNumber",
+   "idShort": "modulationNumber",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/modulationNumber",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     24,
+     43
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Range]",
+     "idShort": "modulationNumber",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/modulationNumber",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > flexibleLoads > flexibleLoad > powerStates",
+   "idShort": "powerStates",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/powerStates",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     24,
+     43
+    ],
+    "row": {
+     "page": 24,
+     "type": "[SML]",
+     "idShort": "powerStates",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/powerStates",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > flexibleLoads > flexibleLoad > powerStates > powerState",
+   "idShort": "powerState",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/powerState",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     27,
+     44
+    ],
+    "row": {
+     "page": 27,
+     "type": "[SMC]",
+     "idShort": "powerState",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/powerState",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > flexibleLoads > flexibleLoad > powerStates > powerState > power",
+   "idShort": "power",
+   "modelType": "Range",
+   "semanticId": "0173-1#02-AAZ820#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     27,
+     35,
+     44,
+     50,
+     53
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > storages",
+   "idShort": "storages",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/storages",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18,
+     41
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SML]",
+     "idShort": "storages",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/storages",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > storages > storage",
+   "idShort": "storage",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/storage",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     31,
+     45
+    ],
+    "row": {
+     "page": 31,
+     "type": "[SMC]",
+     "idShort": "storage",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/storage",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > storages > storage > storageId",
+   "idShort": "storageId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     32,
+     46
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Property]",
+     "idShort": "storageId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > storages > storage > usableCapacity",
+   "idShort": "usableCapacity",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/ElectricalEnergyStorageContent",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     32,
+     46
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Range]",
+     "idShort": "usableCapacity",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/ElectricalEnergyStorageContent",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > storages > storage > initialEnergyContent",
+   "idShort": "initialEnergyContent",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/ElectricalEnergyStorageContent",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     32,
+     46
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Range]",
+     "idShort": "initialEnergyContent",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/ElectricalEnergyStorageContent",
+     "card": "1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > storages > storage > energyLoss",
+   "idShort": "energyLoss",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/EnergyContentLossPerHour",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33,
+     46
+    ],
+    "row": {
+     "page": 33,
+     "type": "[Property]",
+     "idShort": "energyLoss",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/EnergyContentLossPerHour",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > storages > storage > suppliers",
+   "idShort": "suppliers",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/suppliers",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33,
+     46
+    ],
+    "row": {
+     "page": 33,
+     "type": "[SML]",
+     "idShort": "suppliers",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/suppliers",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > storages > storage > suppliers > supplier",
+   "idShort": "supplier",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/supplier",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     34,
+     47
+    ],
+    "row": {
+     "page": 34,
+     "type": "[SMC]",
+     "idShort": "supplier",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/supplier",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > storages > storage > suppliers > supplier > flexibleLoadId",
+   "idShort": "flexibleLoadId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     24,
+     34,
+     43,
+     47,
+     49
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Property]",
+     "idShort": "flexibleLoadId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibilitySpace_generalTechnicalPotential > storages > storage > suppliers > supplier > conversionEfficiency",
+   "idShort": "conversionEfficiency",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/EnergyConversionEfficiency",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     35,
+     47
+    ],
+    "row": {
+     "page": 35,
+     "type": "[Property]",
+     "idShort": "conversionEfficiency",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/EnergyConversionEfficiency",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog",
+   "idShort": "flexibleLoadMeasureExecutionLog",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoadMeasureExecutionLog",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "flexibleLoadMeasureExecutionLog",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/flexibleLoadMeasureExecutionLog",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog > metadata",
+   "idShort": "metadata",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/metadata",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18,
+     41
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "metadata",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/metadata",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog > metadata > instanceId",
+   "idShort": "instanceId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1"
+    ],
+    "pages": [
+     20,
+     21,
+     24,
+     32,
+     34,
+     37,
+     39,
+     40,
+     43,
+     46,
+     47,
+     49,
+     52
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog > metadata > comment",
+   "idShort": "comment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/comment",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog > metadata > efdmVersion",
+   "idShort": "efdmVersion",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/efdmVersion",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog > metadata > efdmVersion > versionNumber",
+   "idShort": "versionNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/versionNumber",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Property]",
+     "idShort": "versionNumber",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/versionNumber",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog > metadata > efdmVersion > schemaLink",
+   "idShort": "schemaLink",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/schemaLink",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Property]",
+     "idShort": "schemaLink",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/schemaLink",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog > metadata > origin",
+   "idShort": "origin",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/origin",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "origin",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/origin",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog > metadata > origin > originId",
+   "idShort": "originId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Property]",
+     "idShort": "originId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog > metadata > origin > timestamp",
+   "idShort": "timestamp",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF198#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     20,
+     21,
+     35,
+     51,
+     53
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog > metadata > modification",
+   "idShort": "modification",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/modification",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "modification",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/modification",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog > metadata > modification > modificationId",
+   "idShort": "modificationId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Property]",
+     "idShort": "modificationId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog > metadata > modification > timestamp",
+   "idShort": "timestamp",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF198#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     20,
+     21,
+     35,
+     51,
+     53
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog > executionLogEntries",
+   "idShort": "executionLogEntries",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/executionLogEntries",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     51
+    ],
+    "row": {
+     "page": 51,
+     "type": "[SML]",
+     "idShort": "executionLogEntries",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/executionLogEntries",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog > executionLogEntries > executionLogEntry",
+   "idShort": "executionLogEntry",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/executionLogEntry00",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog > executionLogEntries > executionLogEntry > flexibleLoadMeasureId",
+   "idShort": "flexibleLoadMeasureId",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     49,
+     52
+    ],
+    "row": {
+     "page": 49,
+     "type": "[Property]",
+     "idShort": "flexibleLoadMeasureId",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/UUID",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog > executionLogEntries > executionLogEntry > reward",
+   "idShort": "reward",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/reward",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     49,
+     52
+    ],
+    "row": {
+     "page": 49,
+     "type": "[Property]",
+     "idShort": "reward",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/reward",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog > executionLogEntries > executionLogEntry > exceptions",
+   "idShort": "exceptions",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/exceptions",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     52
+    ],
+    "row": {
+     "page": 52,
+     "type": "[Property]",
+     "idShort": "exceptions",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/exceptions",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog > executionLogEntries > executionLogEntry > loadChangeProfiles",
+   "idShort": "loadChangeProfiles",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/loadChangeProfiles",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     52
+    ],
+    "row": {
+     "page": 52,
+     "type": "[SML]",
+     "idShort": "loadChangeProfiles",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/loadChangeProfiles",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog > executionLogEntries > executionLogEntry > loadChangeProfiles > loadChangeProfile",
+   "idShort": "loadChangeProfile",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/powerState",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "1",
+     "1..*"
+    ],
+    "pages": [
+     24,
+     27,
+     43,
+     44
+    ]
+   },
+   "status": "unverified",
+   "effective": "1..*"
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog > executionLogEntries > executionLogEntry > loadChangeProfiles > loadChangeProfile > power",
+   "idShort": "power",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAZ820#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     27,
+     35,
+     44,
+     50,
+     53
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog > executionLogEntries > executionLogEntry > loadChangeProfiles > loadChangeProfile > timestamp",
+   "idShort": "timestamp",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF198#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     20,
+     21,
+     35,
+     51,
+     53
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "flexibleLoadMeasureExecutionLog > executionLogEntries > executionLogEntry > loadChangeProfiles > loadChangeProfile > referencePoint",
+   "idShort": "referencePoint",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/referencePoint",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     53
+    ],
+    "row": {
+     "page": 53,
+     "type": "[Ref]",
+     "idShort": "referencePoint",
+     "semanticId": "https://admin-shell.io/idta/EnergyFlexibilityDataModel/1/0/referencePoint",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  }
+ ]
+}

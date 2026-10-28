@@ -1,0 +1,1024 @@
+{
+ "template": "Artificial Intelligence Model Nameplate",
+ "version": "1.0.1",
+ "submodelIdShort": "AIModelNameplate",
+ "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/AIModelNameplate/1/0",
+ "json": {
+  "path": "published/Artificial Intelligence Model Nameplate/1/0/1/IDTA 02060-1-0-1_Template_AIModelNameplate_forAASMetamodelV3.1.json",
+  "gitBlob": "05e5a60447e86cec3c6142a5b92919feae4855c8"
+ },
+ "pdf": {
+  "path": "published/Artificial Intelligence Model Nameplate/1/0/IDTA 02060-1-0_Submodel_AIModelNameplate.pdf",
+  "relation": "ancestor folder (bug-fix release without its own PDF)",
+  "sha256": "f072c7a2cd3d11b3ece19b1806cd8ecf5f2de130aa26857f205ab3fdc1551b74",
+  "annexA": [
+   {
+    "page": 18,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 18,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 36,
+  "json-only": 3,
+  "divergent": 2
+ },
+ "elements": [
+  {
+   "path": "URIOfTheProduct",
+   "idShort": "URIOfTheProduct",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABN590#002 ",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "URIOfTheProduct",
+     "semanticId": "0112/2///61987#ABN590#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Version",
+   "idShort": "Version",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAS354#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "Version",
+     "semanticId": "0173-1#02-AAS354#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ContactInformation",
+   "idShort": "ContactInformation",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Contactinformation/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Ref]",
+     "idShort": "ContactInformation",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Contactinformation/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Storage",
+   "idShort": "Storage",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Storage/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Prop]",
+     "idShort": "Storage",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Storage/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "KindOfLearning",
+   "idShort": "KindOfLearning",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/KindOfLearning/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[MLP]",
+     "idShort": "KindOfLearning",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/KindOfLearning/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Inputs",
+   "idShort": "Inputs",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Inputs/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "Inputs",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Inputs/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Inputs > KindOfInput",
+   "idShort": "KindOfInput",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Inputs/KindOfInput/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "KindOfInput",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Inputs/KindOfInput/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Inputs > DimensionN",
+   "idShort": "DimensionN",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Inputs/DimensionN/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[SMC]",
+     "idShort": "DimensionN",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Inputs/DimensionN/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "Inputs > DimensionN > Size",
+   "idShort": "Size",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Inputs/DimensionN/Size/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Inputs > DimensionN > Information",
+   "idShort": "Information",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Inputs/DimensionN/Information/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Prop]",
+     "idShort": "Information",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Inputs/DimensionN/Information/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Inputs > Preprocessing",
+   "idShort": "Preprocessing",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Inputs/Preprocessing/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[File]",
+     "idShort": "Preprocessing",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Inputs/Preprocessing/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Outputs",
+   "idShort": "Outputs",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Outputs/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "Outputs",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Outputs/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Outputs > DimensionN",
+   "idShort": "DimensionN",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Outputs/DimensionN/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "DimensionN",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Outputs/DimensionN/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "Outputs > DimensionN > Size",
+   "idShort": "Size",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Outputs/DimensionN/Size/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "Size",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Outputs/DimensionN/Size/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Outputs > DimensionN > Result",
+   "idShort": "Result",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Outputs/DimensionN/Result/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[MLP]",
+     "idShort": "Result",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Outputs/DimensionN/Result/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TrainingResults",
+   "idShort": "TrainingResults",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/TrainingResults/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "TrainingResults",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/TrainingResults/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "TrainingResults > ExampleResult",
+   "idShort": "ExampleResult",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/TrainingResults/Result/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Prop]",
+     "idShort": "ExampleResult",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/TrainingResults/Result/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Plots",
+   "idShort": "Plots",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Plots/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[SMC]",
+     "idShort": "Plots",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Plots/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Plots > TrainingTesting",
+   "idShort": "TrainingTesting",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Plots/TrainingTesting/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "TrainingTesting",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Plots/TrainingTesting/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Plots > TrainingTesting > ExamplePlot",
+   "idShort": "ExamplePlot",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Plots/TrainingTesting/Plot/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[File]",
+     "idShort": "ExamplePlot",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Plots/TrainingTesting/Plot/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "Plots > Structure",
+   "idShort": "Structure",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Plots/Structure/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "Structure",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Plots/Structure/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Plots > Structure > ExampleStructurePlot",
+   "idShort": "ExampleStructurePlot",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Plots/Structure/StructurePlot/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[File]",
+     "idShort": "ExampleStructurePlot",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Plots/Structure/StructurePlot/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "Plots > GeneralPlots",
+   "idShort": "GeneralPlots",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Plots/GeneralPlots/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "GeneralPlots",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Plots/GeneralPlots/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Plots > GeneralPlots > ExamplePlot",
+   "idShort": "ExamplePlot",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Plots/GeneralPlots/Plot/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[File]",
+     "idShort": "ExamplePlot",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Plots/GeneralPlots/Plot/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "Details",
+   "idShort": "Details",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Details/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[SMC]",
+     "idShort": "Details",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Details/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Details > FileExtension",
+   "idShort": "FileExtension",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Details/DataEnding/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "FileExtension",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Details/DataEnding/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Details > AIFramework",
+   "idShort": "AIFramework",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Details/AIFramework/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "AIFramework",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Details/AIFramework/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Details > ProgramLanguage",
+   "idShort": "ProgramLanguage",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Details/ProgramLanguage/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "ProgramLanguage",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Details/ProgramLanguage/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Details > Requirements",
+   "idShort": "Requirements",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Details/Requirements/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[File]",
+     "idShort": "Requirements",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/Details/Requirements/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AIDataset",
+   "idShort": "AIDataset",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/AIDataset/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[SMC]",
+     "idShort": "AIDataset",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/AIDataset/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..*"
+  },
+  {
+   "path": "AIDataset > AIDatasetReference",
+   "idShort": "AIDatasetReference",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/AIDataset/DatasetReference/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AIDataset > TimeStamp",
+   "idShort": "TimeStamp",
+   "modelType": "Range",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/AIDataset/TimeStamp/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Range]",
+     "idShort": "TimeStamp",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/AIDataset/TimeStamp/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AITypeSpecificInformation",
+   "idShort": "AITypeSpecificInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/AITypeSpecificInformation/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[SMC]",
+     "idShort": "AITypeSpecificInformation",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/AITypeSpecificInformation/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AITypeSpecificInformation > TransferLearning",
+   "idShort": "TransferLearning",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/AITypeSpecificInformation/TransferLearning/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "TransferLearning",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/AITypeSpecificInformation/TransferLearning/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AITypeSpecificInformation > TransferLearning > Name",
+   "idShort": "Name",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/AITypeSpecificInformation/NeuralNetwork/TransferLearning/Name/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "Name",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/AITypeSpecificInformation/NeuralNetwork/TransferLearning/Name/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AITypeSpecificInformation > TransferLearning > TimeStamp",
+   "idShort": "TimeStamp",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/AITypeSpecificInformation/NeuralNetwork/TransferLearning/TimeStamp/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "TimeStamp",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/AITypeSpecificInformation/NeuralNetwork/TransferLearning/TimeStamp/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AITypeSpecificInformation > TransferLearning > Weights",
+   "idShort": "Weights",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/AITypeSpecificInformation/NeuralNetwork/TransferLearning/Weights/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[File]",
+     "idShort": "Weights",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/AITypeSpecificInformation/NeuralNetwork/TransferLearning/Weights/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AITypeSpecificInformation > TransferLearning > AIModelNameplate",
+   "idShort": "AIModelNameplate",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/AITypeSpecificInformation/NeuralNetwork/TransferLearning/ModelnameplateRef/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "AITypeSpecificInformation > Hyperparameter",
+   "idShort": "Hyperparameter",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/AITypeSpecificInformation/Hyperparameter/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "Hyperparameter",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/AITypeSpecificInformation/Hyperparameter/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AITypeSpecificInformation > Hyperparameter > Example",
+   "idShort": "Example",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/AITypeSpecificInformation/Hyperparameter/LearningRate/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "Example",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/AITypeSpecificInformation/Hyperparameter/LearningRate/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "AITypeSpecificInformation > Type",
+   "idShort": "Type",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/AIModelNameplate/AITypeSpecificInformation/Type/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[MLP]",
+     "idShort": "Type",
+     "semanticId": "https://admin-shell.io/idta/AIModelNameplate/AITypeSpecificInformation/Type/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..1"
+  }
+ ]
+}

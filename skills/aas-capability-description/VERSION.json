@@ -1,0 +1,27 @@
+{
+  "skill": "aas-capability-description",
+  "version": "1.0.0",
+  "last_verified": "2026-10-27",
+  "sources": [
+    {
+      "document": "IDTA 02020 Capability Description (PDF + paged txt)",
+      "revision": "1.0 (April 2026, history 15.04.2026); bundled PDF sha256 c6bd72ece6b5... differs from mirror 1/0 and 1/0/1 PDF (0d306f794656...): body text identical, only the table of contents differs (bundled TOC lists 1.6.8 SemanticIds; mirror TOC has a broken 'Error! Bookmark not defined' entry and renumbers 1.8.x as 1.9.x)",
+      "file": "skills/aas-capability-description/IDTA-02020_Submodel_Capability_Description.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/main/published/Capability%20Description/1/0",
+      "bundled": true
+    },
+    {
+      "document": "IDTA 02020 Capability Description - official template JSON",
+      "revision": "1.0, sha256 c7de3a10da90...",
+      "file": "idta-pdfs:json/published/Capability Description/1/0/IDTA 02020_Template_Capability_Description.json",
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/main/published/Capability%20Description/1/0",
+      "bundled": false
+    }
+  ],
+  "latest_in_mirror": "1.0 is the only Capability Description version in the mirror (folder 1/0/1 holds the same PDF as 1/0).",
+  "claims_not_verifiable_on_disk": [
+    "IDTA-02007 Software Nameplate content beyond its title/number (mirror txt of 02007 is mostly empty text layer)",
+    "VDI/VDE 2206 or ontology sources (OntoProCap, DIN 8580, TGL 25000) referenced by the PDF"
+  ],
+  "notes": "Official template JSON uses .../idta/SubmodelTemplate/CapabilityDescription/1/0 as Submodel id/semanticId but its internal ModelReferences start with a Submodel key .../idta/CapabilityDescription/1/0/Submodel (the 1.6.8 illustrative IRI) - upstream inconsistency worth an IDTA issue."
+}

@@ -1,0 +1,331 @@
+{
+ "skill": "dpp-knowledge",
+ "skill_version": "1.1.0",
+ "description": "Probes the legal anchors of the DPP: ESPR 2024/1781 article numbers and dates, Batteries Regulation 2023/1542 Art. 77 scope/access tiers, OJ vs consolidated text, corrigenda and amending acts, and the Working Plan's indicative years.",
+ "items": [
+  {
+   "id": "dpp-knowledge-001",
+   "question": "Which batteries need a battery passport under Regulation (EU) 2023/1542, and from what date? Is it only industrial and EV batteries above 2 kWh?",
+   "expected_answer": "Under Art. 77(1), from 18 February 2027 each LMT battery, each industrial battery with a capacity greater than 2 kWh and each electric vehicle battery placed on the market or put into service needs a battery passport. The 2 kWh threshold applies only to industrial batteries; LMT and EV batteries are in scope regardless.",
+   "must_include": [
+    "18 February 2027",
+    "LMT",
+    [
+     "2 kWh",
+     "2kWh"
+    ],
+    "77(1)"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Regulation (EU) 2023/1542 (Batteries Regulation), OJ L 191, 28.7.2023",
+    "revision": "OJ text as published (CELEX 32023R1542)",
+    "section": "Article 77(1)",
+    "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32023R1542.html",
+    "quote": "From 18 February 2027 each LMT battery, each industrial battery with a capacity greater than 2 kWh and each electric vehicle battery placed on the market or put into service shall have an electronic record"
+   },
+   "tags": [
+    "scope",
+    "date",
+    "battery-category"
+   ]
+  },
+  {
+   "id": "dpp-knowledge-002",
+   "question": "Under Article 77(2) of Regulation (EU) 2023/1542, who may access the battery-passport information in point 3 of Annex XIII (test reports proving compliance)? Can persons with a legitimate interest (repairers, recyclers) see it?",
+   "expected_answer": "Points 2 and 3 of Annex XIII are accessible only to notified bodies, market surveillance authorities and the Commission (Art. 77(2)(b)). Legitimate-interest persons get points 2 and 4 (Art. 77(2)(c)), not point 3.",
+   "must_include": [
+    "notified bodies",
+    "market surveillance",
+    "Commission",
+    "77(2)"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Regulation (EU) 2023/1542 (Batteries Regulation), OJ L 191, 28.7.2023",
+    "revision": "OJ text as published (CELEX 32023R1542)",
+    "section": "Article 77(2), second subparagraph, point (b)",
+    "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32023R1542.html",
+    "quote": "information accessible only to notified bodies, market surveillance authorities and the Commission in accordance with points 2 and 3 of Annex XIII"
+   },
+   "tags": [
+    "access-tiers",
+    "annex-xiii"
+   ]
+  },
+  {
+   "id": "dpp-knowledge-003",
+   "question": "Annex XIII point 1(q) of the Batteries Regulation lists marking requirements for the public part of the battery passport. Which paragraphs of Article 13 does it refer to today?",
+   "expected_answer": "Article 13(4) and (5). The OJ text said Article 13(3) and (4); the corrigendum OJ L 2026/90285 of 10.4.2026 corrected it, and the consolidated version of 13.08.2026 reads 13(4) and (5).",
+   "must_include": [
+    "13(4) and (5)",
+    [
+     "corrigendum",
+     "2026/90285"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Corrigendum to Regulation (EU) 2023/1542, OJ L 2026/90285, 10.4.2026",
+    "revision": "CELEX 32023R1542R(13)",
+    "section": "Annex XIII, point 1(q)",
+    "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32023R1542R13.html",
+    "quote": "the marking requirements laid down in Article 13(4) and (5);"
+   },
+   "tags": [
+    "corrigendum",
+    "oj-vs-consolidated"
+   ]
+  },
+  {
+   "id": "dpp-knowledge-004",
+   "question": "Does Article 77 of the Batteries Regulation, as published in the OJ in July 2023, oblige the operator to upload the battery's unique identifier to the ESPR DPP registry?",
+   "expected_answer": "Not in the 2023 OJ text, which ends at Art. 77(9). Art. 77(10) was added by Article 78 of the ESPR, Regulation (EU) 2024/1781 (as corrected by OJ L 2024/90493): the operator placing the battery on the market or putting it into service shall upload the unique identifier in the registry of ESPR Art. 13(1). It appears in the consolidated version.",
+   "must_include": [
+    "77(10)",
+    [
+     "2024/1781",
+     "ESPR"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Corrigendum to Regulation (EU) 2024/1781, OJ L 2024/90493, 7.8.2024",
+    "revision": "CELEX 32024R1781R(01)",
+    "section": "Article 78 (Amendment of Regulation (EU) 2023/1542), adding Art. 77(10)",
+    "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32024R1781R01.html",
+    "quote": "In Article 77 of Regulation (EU) 2023/1542, the following paragraph is added"
+   },
+   "tags": [
+    "amendment",
+    "oj-vs-consolidated",
+    "registry"
+   ]
+  },
+  {
+   "id": "dpp-knowledge-005",
+   "question": "From when do the battery due diligence obligations of Article 48(1) of Regulation (EU) 2023/1542 apply?",
+   "expected_answer": "From 18 August 2027. Regulation (EU) 2025/1561 replaced the original date of 18 August 2025 in Art. 48(1) with 18 August 2027 (and in Art. 48(5) replaced 18 February 2025 with 26 July 2026).",
+   "must_include": [
+    "18 August 2027",
+    "2025/1561"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Regulation (EU) 2025/1561 amending Regulation (EU) 2023/1542 as regards battery due diligence",
+    "revision": "OJ text (CELEX 32025R1561)",
+    "section": "Article 1, point (a)",
+    "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32025R1561.html",
+    "quote": "in paragraph 1, the date ‘18 August 2025’ is replaced by ‘18 August 2027’"
+   },
+   "tags": [
+    "amending-act",
+    "date"
+   ]
+  },
+  {
+   "id": "dpp-knowledge-006",
+   "question": "Which ESPR article creates the EU digital product passport registry, by when, and what must it store at minimum?",
+   "expected_answer": "Article 13(1) of Regulation (EU) 2024/1781: by 19 July 2026 the Commission sets up a registry that stores at least the unique identifiers (plus the commodity code for products released for free circulation, and battery identifiers of 2023/1542 Art. 77(3)).",
+   "must_include": [
+    [
+     "13(1)",
+     "Article 13"
+    ],
+    "19 July 2026",
+    "unique identifier"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Regulation (EU) 2024/1781 (ESPR), OJ L, 2024/1781, 28.6.2024",
+    "revision": "OJ text as published (CELEX 32024R1781)",
+    "section": "Article 13(1)",
+    "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32024R1781.html",
+    "quote": "By 19 July 2026, the Commission shall set up a digital registry (the ‘registry’) which stores in a secure manner at least the unique identifiers."
+   },
+   "tags": [
+    "article-number",
+    "registry",
+    "date"
+   ]
+  },
+  {
+   "id": "dpp-knowledge-007",
+   "question": "Once my product is registered in the ESPR DPP registry and I receive a unique registration identifier, is that proof that the product complies with the ESPR?",
+   "expected_answer": "No. Under ESPR Art. 13(5) the communication of the unique registration identifier by the registry shall not be deemed to be proof of compliance with the Regulation or other Union law.",
+   "must_include": [
+    "13(5)",
+    "proof"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Regulation (EU) 2024/1781 (ESPR), OJ L, 2024/1781, 28.6.2024",
+    "revision": "OJ text as published (CELEX 32024R1781)",
+    "section": "Article 13(5)",
+    "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32024R1781.html",
+    "quote": "That communication by the registry shall not be deemed to be proof of compliance with this Regulation or other Union law"
+   },
+   "tags": [
+    "registry",
+    "commonly-misreported"
+   ]
+  },
+  {
+   "id": "dpp-knowledge-008",
+   "question": "How long must an ESPR digital product passport remain available? Is there a default retention period (e.g. 10 years) in the ESPR itself?",
+   "expected_answer": "The ESPR sets no fixed number of years. Art. 9(2)(i) leaves the availability period to each delegated act, with the floor that it shall correspond to at least the expected lifetime of the specific product; Art. 11(e) adds that it remains available even after insolvency, liquidation or cessation of activity.",
+   "must_include": [
+    "9(2)",
+    "expected lifetime",
+    "delegated act"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Regulation (EU) 2024/1781 (ESPR), OJ L, 2024/1781, 28.6.2024",
+    "revision": "OJ text as published (CELEX 32024R1781)",
+    "section": "Article 9(2), point (i)",
+    "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32024R1781.html",
+    "quote": "the period during which the digital product passport is to remain available, which shall correspond to at least the expected lifetime of a specific product"
+   },
+   "tags": [
+    "retention",
+    "commonly-misreported"
+   ]
+  },
+  {
+   "id": "dpp-knowledge-009",
+   "question": "Under the ESPR, what must happen to a digital product passport if the economic operator that created it goes insolvent or stops its activity in the Union?",
+   "expected_answer": "Under Art. 11(e) the DPP shall remain available for the period specified in the delegated acts, including after an insolvency, a liquidation or a cessation of activity in the Union of the operator responsible for its creation; the Art. 10(4) back-up copy through a DPP service provider supports this.",
+   "must_include": [
+    "11(e)",
+    "insolvency"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Regulation (EU) 2024/1781 (ESPR), OJ L, 2024/1781, 28.6.2024",
+    "revision": "OJ text as published (CELEX 32024R1781)",
+    "section": "Article 11, point (e)",
+    "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32024R1781.html",
+    "quote": "including after an insolvency, a liquidation or a cessation of activity in the Union of the economic operator responsible for the creation of the digital product passport"
+   },
+   "tags": [
+    "article-number",
+    "retention"
+   ]
+  },
+  {
+   "id": "dpp-knowledge-010",
+   "question": "Under the ESPR, which provision requires a back-up copy of the DPP, and which economic-operator obligations make the manufacturer and the importer ensure it before placing the product on the market?",
+   "expected_answer": "Art. 10(4): the operator placing the product on the market makes a back-up copy available through a DPP service provider. The manufacturer (Art. 27(1)(c)) and the importer (Art. 29(2)(c)) must ensure a back-up copy of the most up-to-date version is stored by a DPP service provider in accordance with Art. 10(4).",
+   "must_include": [
+    "10(4)",
+    "service provider",
+    "27(1)",
+    "29(2)"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Regulation (EU) 2024/1781 (ESPR), OJ L, 2024/1781, 28.6.2024",
+    "revision": "OJ text as published (CELEX 32024R1781)",
+    "section": "Article 27(1)(c) and Article 29(2)(c) (identical wording)",
+    "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32024R1781.html",
+    "quote": "including a back-up copy of the most up-to-date version of the digital product passport stored by a digital product passport service provider in accordance with Article 10(4)"
+   },
+   "tags": [
+    "article-number",
+    "obligations"
+   ]
+  },
+  {
+   "id": "dpp-knowledge-011",
+   "question": "If our DPP conforms to the harmonised EN standards whose references are published in the OJ, is it thereby compliant with the ESPR's DPP requirements?",
+   "expected_answer": "It is presumed to conform to the essential requirements of Articles 10 and 11 only to the extent those requirements are covered by the harmonised standards (ESPR Art. 41(2)). It is a presumption, limited to the covered requirements, not proof of compliance with everything.",
+   "must_include": [
+    "41(2)",
+    "presum",
+    "10 and 11",
+    "to the extent"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Regulation (EU) 2024/1781 (ESPR), OJ L, 2024/1781, 28.6.2024",
+    "revision": "OJ text as published (CELEX 32024R1781)",
+    "section": "Article 41(2)",
+    "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32024R1781.html",
+    "quote": "shall be presumed to be in conformity with the requirements set out in Articles 10 and 11 to the extent that those requirements are covered by such harmonised standards or parts thereof"
+   },
+   "tags": [
+    "presumption",
+    "standards"
+   ]
+  },
+  {
+   "id": "dpp-knowledge-012",
+   "question": "The ESPR Working Plan COM(2025) 187 lists textiles with the year 2027. Does that mean a textile DPP is mandatory from 2027?",
+   "expected_answer": "No. The column is headed 'Indicative timeline for adoption': 2027 is the indicative year for adopting the textiles delegated act, not the date from which obligations apply; application dates will be set in the delegated act itself.",
+   "must_include": [
+    "indicative",
+    "adoption"
+   ],
+   "must_not_include": [
+    "mandatory from 2027"
+   ],
+   "citation": {
+    "document": "Communication COM(2025) 187 final, Ecodesign for Sustainable Products and Energy Labelling Working Plan 2025-2030",
+    "revision": "16.4.2025 (CELEX 52025DC0187)",
+    "section": "Section 2.2.1, table 'New products to be included in the working plan', last column",
+    "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_52025DC0187.html",
+    "quote": "Improvement potential Indicative timeline for adoption Final products Textiles/Apparel"
+   },
+   "tags": [
+    "date",
+    "commonly-misreported"
+   ]
+  },
+  {
+   "id": "dpp-knowledge-013",
+   "question": "What happens to a battery passport when the battery is remanufactured or repurposed, and when it is recycled?",
+   "expected_answer": "A remanufactured or repurposed battery gets a new battery passport linked to the passport(s) of the original battery, and responsibility moves to the operator placing it on the market (Art. 77(7)). A battery passport ceases to exist after the battery has been recycled (Art. 77(8)).",
+   "must_include": [
+    "77(7)",
+    "77(8)",
+    "linked",
+    "recycl"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Regulation (EU) 2023/1542 (Batteries Regulation), OJ L 191, 28.7.2023",
+    "revision": "OJ text as published (CELEX 32023R1542)",
+    "section": "Article 77(8)",
+    "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32023R1542.html",
+    "quote": "A battery passport shall cease to exist after the battery has been recycled."
+   },
+   "tags": [
+    "lifecycle",
+    "article-number"
+   ]
+  },
+  {
+   "id": "dpp-knowledge-014",
+   "question": "Through what is the battery passport accessed, and which standards must its QR code and unique identifier comply with under Regulation (EU) 2023/1542?",
+   "expected_answer": "Through the QR code of Article 13(6), which links to a unique identifier attributed by the economic operator placing the battery on the market (Art. 77(3)); the QR code and identifier comply with the ISO/IEC 15459 series (parts 1 to 6) or equivalent.",
+   "must_include": [
+    "13(6)",
+    "15459",
+    "77(3)"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "Regulation (EU) 2023/1542 (Batteries Regulation), OJ L 191, 28.7.2023",
+    "revision": "OJ text as published (CELEX 32023R1542)",
+    "section": "Article 77(3)",
+    "file": "skills/dpp-knowledge/sources/eur-lex/CELEX_32023R1542.html",
+    "quote": "The battery passport shall be accessible through the QR code referred to in Article 13(6) which links to a unique identifier that the economic operator placing the battery on the market shall attribute to it."
+   },
+   "tags": [
+    "identifier",
+    "article-number"
+   ]
+  }
+ ]
+}

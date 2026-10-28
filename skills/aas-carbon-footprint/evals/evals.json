@@ -1,0 +1,340 @@
+{
+ "skill": "aas-carbon-footprint",
+ "skill_version": "1.1.0",
+ "description": "IDTA 02023 Carbon Footprint 1.0: removed TCF, ECLASS 15 IRDIs, PCF mandatory set, value lists (methods, units, lifecycle phases), spec misprints and PDF-vs-template-JSON differences.",
+ "items": [
+  {
+   "id": "aas-carbon-footprint-001",
+   "question": "What is the submodel semanticId of IDTA 02023 Carbon Footprint 1.0?",
+   "expected_answer": "The IRI https://admin-shell.io/idta/CarbonFootprint/CarbonFootprint/1/0.",
+   "must_include": [
+    "https://admin-shell.io/idta/CarbonFootprint/CarbonFootprint/1/0"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02023 Carbon Footprint",
+    "revision": "1.0 (March 2025)",
+    "section": "2.2, Table 1 Carbon Footprint Submodel Template",
+    "file": "skills/aas-carbon-footprint/IDTA-02023_Submodel_CarbonFootprint.txt",
+    "page": 15,
+    "quote": "[IRI] https://admin-shell.io/idta/CarbonFootprint/CarbonFootprint/1/0"
+   },
+   "tags": [
+    "semanticId"
+   ]
+  },
+  {
+   "id": "aas-carbon-footprint-002",
+   "question": "Our 0.9-based Carbon Footprint submodel has a TransportCarbonFootprint (TCF) block. Does it still exist in 1.0?",
+   "expected_answer": "No. The Transport Carbon Footprint was removed in 1.0; only Product Carbon Footprints (plus the optional product/sector-specific PCFs) remain.",
+   "must_include": [
+    "removed"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02023 Carbon Footprint",
+    "revision": "1.0 (March 2025)",
+    "section": "Version history (1.0 changes)",
+    "file": "skills/aas-carbon-footprint/IDTA-02023_Submodel_CarbonFootprint.txt",
+    "page": 2,
+    "quote": "Transport Carbon Footprint removed"
+   },
+   "tags": [
+    "removed-element",
+    "revision-specific"
+   ]
+  },
+  {
+   "id": "aas-carbon-footprint-003",
+   "question": "Which ECLASS release do the Carbon Footprint 1.0 IRDIs come from?",
+   "expected_answer": "ECLASS 15 (updated from ECLASS 13 IRDIs in the 0.9 pre-release).",
+   "must_include": [
+    [
+     "ECLASS 15",
+     "ECLASS Release 15",
+     "ECLASS 15.0"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02023 Carbon Footprint",
+    "revision": "1.0 (March 2025)",
+    "section": "Version history (1.0 changes)",
+    "file": "skills/aas-carbon-footprint/IDTA-02023_Submodel_CarbonFootprint.txt",
+    "page": 2,
+    "quote": "Update from ECLASS 13 IRDIs to ECLASS 15"
+   },
+   "tags": [
+    "revision-specific",
+    "ECLASS"
+   ]
+  },
+  {
+   "id": "aas-carbon-footprint-004",
+   "question": "What semanticId and valueType does PcfCO2eq have?",
+   "expected_answer": "ECLASS IRDI 0173-1#02-ABG855#003, valueType decimal, cardinality 1.",
+   "must_include": [
+    "ABG855#003",
+    "decimal"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02023 Carbon Footprint",
+    "revision": "1.0 (March 2025)",
+    "section": "2.2.3, Table 4 SMC Product Carbon Footprint, row PcfCO2eq",
+    "file": "skills/aas-carbon-footprint/IDTA-02023_Submodel_CarbonFootprint.txt",
+    "page": 17,
+    "quote": "PcfCO2eq [IRDI] 0173-1#02-ABG855#003 Sum of all greenhouse gas emissions of a product according to the quantification requirements of the standard. [decimal]"
+   },
+   "tags": [
+    "semanticId",
+    "datatype"
+   ]
+  },
+  {
+   "id": "aas-carbon-footprint-005",
+   "question": "We put 'ISO 14067:2018' in PcfCalculationMethod. What value and valueId does the 1.0 value list give for ISO 14067?",
+   "expected_answer": "Value \"ISO 14067\" with valueId 0173-1#07-ABU218#003 (value list 0173-1#09-AAO115#003); methods not in the table go into ProductOrSectorSpecificRule.",
+   "must_include": [
+    "ABU218#003"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02023 Carbon Footprint",
+    "revision": "1.0 (March 2025)",
+    "section": "2.5, Table 11 Value List PcfCalculationMethods",
+    "file": "skills/aas-carbon-footprint/IDTA-02023_Submodel_CarbonFootprint.txt",
+    "page": 25,
+    "quote": "ISO 14067 0173-1#07-ABU218#003"
+   },
+   "tags": [
+    "value-list"
+   ]
+  },
+  {
+   "id": "aas-carbon-footprint-006",
+   "question": "Which LifeCyclePhase value and valueId express a cradle-to-gate PCF?",
+   "expected_answer": "\"A1-A3\" with valueId 0173-1#07-ABZ789#003.",
+   "must_include": [
+    "A1-A3",
+    "ABZ789#003"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02023 Carbon Footprint",
+    "revision": "1.0 (March 2025)",
+    "section": "2.7, Table 13 Value List LifeCyclePhase",
+    "file": "skills/aas-carbon-footprint/IDTA-02023_Submodel_CarbonFootprint.txt",
+    "page": 26,
+    "quote": "A1-A3 0173-1#07-ABZ789#003"
+   },
+   "tags": [
+    "value-list",
+    "lifecycle-phases"
+   ]
+  },
+  {
+   "id": "aas-carbon-footprint-007",
+   "question": "Table 6 of IDTA 02023 1.0 gives the LifeCyclePhases list the semanticId .../PcfCalculationMethods/1/0. What should the LifeCyclePhases SML carry?",
+   "expected_answer": "https://admin-shell.io/idta/CarbonFootprint/LifeCyclePhases/1/0, as printed in Table 4 (and in the official template); Table 6 repeats the PcfCalculationMethods IRI by mistake.",
+   "must_include": [
+    "CarbonFootprint/LifeCyclePhases/1/0"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02023 Carbon Footprint",
+    "revision": "1.0 (March 2025)",
+    "section": "2.2.3, Table 4, row LifeCyclePhases",
+    "file": "skills/aas-carbon-footprint/IDTA-02023_Submodel_CarbonFootprint.txt",
+    "page": 17,
+    "quote": "LifeCyclePhases [IRI] https://admin-shell.io/idta/CarbonFootprint/LifeCyclePhases/1/0"
+   },
+   "tags": [
+    "semanticId",
+    "spec-misprint"
+   ]
+  },
+  {
+   "id": "aas-carbon-footprint-008",
+   "question": "Is PublicationDate optional in a ProductCarbonFootprint, and which valueType does it have?",
+   "expected_answer": "It is mandatory (cardinality 1) with valueType dateTime - the UTC timestamp when the PCF was created and published.",
+   "must_include": [
+    "dateTime",
+    "mandatory"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02023 Carbon Footprint",
+    "revision": "1.0 (March 2025)",
+    "section": "2.2.3, Table 4, row PublicationDate",
+    "file": "skills/aas-carbon-footprint/IDTA-02023_Submodel_CarbonFootprint.txt",
+    "page": 18,
+    "quote": "was created and published [dateTime] 1"
+   },
+   "tags": [
+    "mandatory",
+    "datatype"
+   ]
+  },
+  {
+   "id": "aas-carbon-footprint-009",
+   "question": "Is GoodsHandoverAddress mandatory in ProductCarbonFootprint according to the IDTA 02023 1.0 specification table, and does the official template file agree?",
+   "expected_answer": "The specification (Table 4) prints cardinality 1, i.e. mandatory; the official 1.0 and 1.0.1 template JSON qualify it as ZeroToOne (0..1). The two official artefacts disagree.",
+   "must_include": [
+    "mandatory",
+    [
+     "ZeroToOne",
+     "0..1"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02023 Carbon Footprint",
+    "revision": "1.0 (March 2025)",
+    "section": "2.2.3, Table 4, row GoodsHandoverAddress",
+    "file": "skills/aas-carbon-footprint/IDTA-02023_Submodel_CarbonFootprint.txt",
+    "page": 18,
+    "quote": "indicates the hand-over address of the goods transport. Note: this set of information is defined by SMT drop-in \"Address Information\" n/a 1"
+   },
+   "tags": [
+    "cardinality",
+    "pdf-vs-template-json"
+   ],
+   "notes": "Template JSON 1.0.1: GoodsHandoverAddress SMT/Cardinality = ZeroToOne (lines 470-529 of IDTA 02023-1-0-1 _Template_CarbonFootprint.json)."
+  },
+  {
+   "id": "aas-carbon-footprint-010",
+   "question": "Which valueType does PcfApiEndpoint (ExternalPcfApi) have in the official Carbon Footprint template?",
+   "expected_answer": "xs:anyURI in the official 1.0.1 template JSON (the PDF table prints [string]).",
+   "must_include": [
+    "anyURI"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02023 Carbon Footprint - official template JSON",
+    "revision": "1.0.1 (admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06)",
+    "section": "ProductOrSectorSpecificCarbonFootprint/ExternalPcfApi/PcfApiEndpoint",
+    "file": "idta-pdfs:json/published/Carbon Footprint/1/0/1/IDTA 02023-1-0-1 _Template_CarbonFootprint.json",
+    "lines": "1014-1052",
+    "quote": "\"valueType\": \"xs:anyURI\", \"modelType\": \"Property\""
+   },
+   "tags": [
+    "datatype",
+    "pdf-vs-template-json"
+   ],
+   "notes": "PDF Table 9 (txt page 22) prints [string]."
+  },
+  {
+   "id": "aas-carbon-footprint-011",
+   "question": "We have PCFs per ISO 14067 and per GHG Protocol for different lifecycle scopes. One ProductCarbonFootprint or several?",
+   "expected_answer": "Several: if multiple calculation methods or lifecycle phases are supplied, multiple ProductCarbonFootprint SMC instances shall be instantiated in the ProductCarbonFootprints list.",
+   "must_include": [
+    [
+     "multiple",
+     "several",
+     "separate"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02023 Carbon Footprint",
+    "revision": "1.0 (March 2025)",
+    "section": "2.2.3 SMC Product Carbon Footprint Calculation (PCF)",
+    "file": "skills/aas-carbon-footprint/IDTA-02023_Submodel_CarbonFootprint.txt",
+    "page": 17,
+    "quote": "If multiple calculation methods or lifecycle phases are to be supplied with the Submodel template, multiple instances of this SMC shall be instantiated."
+   },
+   "tags": [
+    "structure",
+    "cardinality"
+   ]
+  },
+  {
+   "id": "aas-carbon-footprint-012",
+   "question": "Which value and valueId should ReferenceImpactUnitForCalculation use when the PCF refers to one piece?",
+   "expected_answer": "\"piece\" with valueId 0173-1#07-ABZ603#003 (value list 0173-1#09-AAO323#003).",
+   "must_include": [
+    "piece",
+    "ABZ603#003"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02023 Carbon Footprint",
+    "revision": "1.0 (March 2025)",
+    "section": "2.6, Table 12 Value List PCFReferenceValueForCalculation",
+    "file": "skills/aas-carbon-footprint/IDTA-02023_Submodel_CarbonFootprint.txt",
+    "page": 26,
+    "quote": "piece 0173-1#07-ABZ603#003"
+   },
+   "tags": [
+    "value-list"
+   ]
+  },
+  {
+   "id": "aas-carbon-footprint-013",
+   "question": "What semanticId does the arbitrary content element in PcfInformation use - a CarbonFootprint IRI?",
+   "expected_answer": "No: https://admin-shell.io/SMT/General/Arbitrary (cardinality 0..n). The 1.0 PDF misspells the idShort as ArbitratyContent; the template uses ArbitraryContent.",
+   "must_include": [
+    "SMT/General/Arbitrary"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02023 Carbon Footprint",
+    "revision": "1.0 (March 2025)",
+    "section": "2.2.9, Table 10 SMC PcfInformation",
+    "file": "skills/aas-carbon-footprint/IDTA-02023_Submodel_CarbonFootprint.txt",
+    "page": 22,
+    "quote": "ArbitratyContent [IRI] https://admin-shell.io/SMT/General/Arbitrary"
+   },
+   "tags": [
+    "semanticId",
+    "idShort-spelling"
+   ]
+  },
+  {
+   "id": "aas-carbon-footprint-014",
+   "question": "Is PcfRuleOnlineReference in ProductOrSectorSpecificRule a Property holding a URL?",
+   "expected_answer": "No. It is a File element (0..1), semanticId https://admin-shell.io/idta/CarbonFootprint/ProductOrSectorSpecificRule/OnlineReference/1/0.",
+   "must_include": [
+    "File"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02023 Carbon Footprint",
+    "revision": "1.0 (March 2025)",
+    "section": "2.2.7, Table 8 SMC ProductOrSectorSpecificRule, row PcfRuleOnlineReference",
+    "file": "skills/aas-carbon-footprint/IDTA-02023_Submodel_CarbonFootprint.txt",
+    "page": 21,
+    "quote": "[File] PcfRuleOnlineReference [IRI] https://admin-shell.io/idta/CarbonFootprint/ProductOrSectorSpecificRule/OnlineReference/1/0"
+   },
+   "tags": [
+    "element-type"
+   ]
+  },
+  {
+   "id": "aas-carbon-footprint-015",
+   "question": "A LifeCyclePhases entry holds the value 'A3 - production'. Is that a valid value of the IDTA-02023 LifeCyclePhase value list, or must it be the bare code 'A3'?",
+   "expected_answer": "It is valid. Table 13 lists the value as the label string 'A3 - production' (valueId 0173-1#07-ABU210#003); only the ranges such as A1-A3 are bare codes. A checker must not flag the label.",
+   "must_include": [
+    "A3 - production",
+    [
+     "valid",
+     "is in the list"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA 02023 Carbon Footprint (PDF + paged txt)",
+    "revision": "1.0",
+    "file": "skills/aas-carbon-footprint/IDTA-02023_Submodel_CarbonFootprint.txt",
+    "page": 26,
+    "quote": "A3 - production",
+    "section": "Table 13: Value List LifeCyclePhase"
+   },
+   "tags": [
+    "value-list",
+    "commonly-misreported-invalid"
+   ]
+  }
+ ]
+}

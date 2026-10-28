@@ -1,0 +1,57 @@
+{
+  "skill": "aas-handover",
+  "version": "1.1.0",
+  "last_verified": "2026-10-28",
+  "sources": [
+    {
+      "document": "IDTA 02004 Handover Documentation (PDF + paged txt)",
+      "revision": "2.0 (June 2025); bundled PDF sha256 772a94bca797... = mirror 2/0 PDF",
+      "file": "skills/aas-handover/IDTA-02004-2-0_Submodel_Handover-Documentation.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": true
+    },
+    {
+      "document": "IDTA 02004 Handover Documentation (bug-fix release)",
+      "revision": "2.0.1 (November 2025, admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06); PDF sha256 0e8c34c7c2af...",
+      "file": "idta-pdfs:txt/published/Handover Documentation/2/0/1/IDTA 02004-2-0-1_Submodel_Handover Documentation.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02004 Handover Documentation - official template JSON",
+      "revision": "2.0.1 (admin-shell-io/submodel-templates mirror, tree sha f3790038b6c9, mirrored 2026-10-06)",
+      "file": "idta-pdfs:json/published/Handover Documentation/2/0/1/IDTA 02004-2-0-1_Template_HandoverDocumentation.json",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02004 Handover Documentation - official template JSON",
+      "revision": "2.0.2 forAASMetamodelV3.1 (sha256 e49961488c83...; mirror f3790038b6c9)",
+      "file": "idta-pdfs:json/published/Handover Documentation/2/0/2/IDTA 02004-2-0-2_Template_HandoverDocumentation__forAASMetamodelV3.1.json",
+      "url": "https://github.com/admin-shell-io/submodel-templates",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02004 Handover Documentation - official template JSON (deprecated)",
+      "revision": "1.2 (git blob 621bc51d) (official file, sha256 7a29de3148f9..., 108035 bytes, retrieved 2026-10-28)",
+      "file": "idta-specs:templates/handover-1-2/IDTA 02004-1-2_Template_Handover Documentation.json",
+      "url": "https://raw.githubusercontent.com/admin-shell-io/submodel-templates/main/deprecated/Handover%20Documentation/1/2/IDTA%2002004-1-2_Template_Handover%20Documentation.json",
+      "bundled": false
+    },
+    {
+      "document": "IDTA-01001 Part 1 Metamodel (PDF, paged text)",
+      "revision": "3.1.2 (official file, sha256 63e0e15cd221..., 2492535 bytes, retrieved 2026-10-28)",
+      "file": "idta-specs:txt/IDTA-01001-3-1-2_AAS-Specification_Part1_Metamodel.txt",
+      "url": "https://industrialdigitaltwin.org/en/wp-content/uploads/sites/2/2025/11/IDTA-01001-3-1-2_AAS-Specification_Part1_Metamodel.pdf",
+      "bundled": false
+    }
+  ],
+  "latest_in_mirror": "NOT latest: bundled 2.0; mirror has 2.0.1 (2025-11-03; issue #196 ClassName displayName 'en' twice -> 'de'; #147 typos). Folder 2/0/2 holds the 2.0.1 PDF under a 2-0 file name.",
+  "claims_not_verifiable_on_disk": [
+    "VDI 2770 Blatt 1:2020 itself (only as quoted by IDTA 02004)",
+    "IDTA-01005 Part 5 AASX package rules (aas-suppl relationship, [Content_Types].xml) used in the package-test assertions",
+    "ISO 19005 (PDF/A) itself",
+    "Directive 2006/42/EC wording"
+  ],
+  "notes": "semanticid-map-2-0.json VERIFY items settled 2026-10-28 against the 2.0/2.0.1/2.0.2 template JSONs (OneToMany cardinalities, SML typeValueListElement, orderRelevant absent = default True per Part 1 v3.1.2 p.59, '~0' infix, OrganizationShortName = eclass-cdp URL) and the 1.2 JSON (submodel semanticId 0173-1#01-AHF578#001)."
+}

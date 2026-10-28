@@ -1,0 +1,1500 @@
+{
+ "template": "Safety Instrumented Functions / Part 1 Safety Instrumented Function",
+ "version": "1.0.0",
+ "submodelIdShort": "SafetyInstrumentedFunction",
+ "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/SafetyInstrumentedFunction/1/0",
+ "json": {
+  "path": "published/Safety Instrumented Functions/Part 1 Safety Instrumented Function/1/0/IDTA 02064_Template_SafetyInstrumentedFunction.json",
+  "gitBlob": "6e5a90fd955fce6c2e0522492cf8889e55e348d0"
+ },
+ "pdf": {
+  "path": "published/Safety Instrumented Functions/Part 1 Safety Instrumented Function/1/0/IDTA 02064_Submodel_SafetyInstrumentedFunction.pdf",
+  "relation": "same folder",
+  "sha256": "1315dff75535e1a7821e7085f4e3450b93ff7dfe4d2bb9969b52a3bae7e97b94",
+  "annexA": [
+   {
+    "page": 18,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 18,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "json-only": 105
+ },
+ "elements": [
+  {
+   "path": "SIFSpecificationIndividualSIF",
+   "idShort": "SIFSpecificationIndividualSIF",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/SIFSpecificationIndividualSIF/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SIFSpecificationIndividualSIF > SIFID",
+   "idShort": "SIFID",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/SIFID/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SIFSpecificationIndividualSIF > SIFName",
+   "idShort": "SIFName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/SIFName/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SIFSpecificationIndividualSIF > SIFDescription",
+   "idShort": "SIFDescription",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/SIFDescription/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SIFSpecificationIndividualSIF > SafeStateOfProcess",
+   "idShort": "SafeStateOfProcess",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/SafeStateOfProcess/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SIFSpecificationIndividualSIF > SIFType",
+   "idShort": "SIFType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/SIFType/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SIFSpecificationIndividualSIF > ModeOfOperation",
+   "idShort": "ModeOfOperation",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/ModeOfOperation/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SIFSpecificationIndividualSIF > Document",
+   "idShort": "Document",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/cds/Document/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SIFSpecificationIndividualSIF > Cause",
+   "idShort": "Cause",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/Cause/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SIFSpecificationIndividualSIF > Effect",
+   "idShort": "Effect",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/Effect/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SIFSpecificationIndividualSIF > CauseAndEffectMatrix",
+   "idShort": "CauseAndEffectMatrix",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/cds/CauseAndEffectMatrix/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SIFSpecificationIndividualSIF > SILAllocationMethod",
+   "idShort": "SILAllocationMethod",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/SILAllocationMethod/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SIFSpecificationIndividualSIF > QuantificationMethodOrTool",
+   "idShort": "QuantificationMethodOrTool",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/QuantificationMethodOrTool/1",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "SIFSpecificationIndividualSIF > ReferenceToEquipmentUnderControl",
+   "idShort": "ReferenceToEquipmentUnderControl",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/cds/ReferenceToEquipmentUnderControl/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SIFSpecificationIndividualSIF > ReferenceToHazardousEvent",
+   "idShort": "ReferenceToHazardousEvent",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/cds/ReferenceToHazardousEvent/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SIFSpecificationIndividualSIF > ReferenceToSISType",
+   "idShort": "ReferenceToSISType",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/cds/ReferenceToSISType/1",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "SIFSpecificationIndividualSIF > ReferenceToIndependentSIF",
+   "idShort": "ReferenceToIndependentSIF",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/cds/ReferenceToIndependentSIF/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SIFSpecificationIndividualSIF > RegulatoryReferenceForSIF",
+   "idShort": "RegulatoryReferenceForSIF",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/RegulatoryReferenceForSIF/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SIFSpecificationIndividualSIF > RegulatoryReferenceForSIF > ReferenceName",
+   "idShort": "ReferenceName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/ReferenceName/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SIFSpecificationIndividualSIF > RegulatoryReferenceForSIF > ReferenceVersion",
+   "idShort": "ReferenceVersion",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/ReferenceVersion/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SIFSpecificationIndividualSIF > ReferenceToBarrier",
+   "idShort": "ReferenceToBarrier",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/ReferenceToBarrier/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SIFSpecificationIndividualSIF > SIFTypicalID",
+   "idShort": "SIFTypicalID",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/SIFTypicalID/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SRSRequirements",
+   "idShort": "SRSRequirements",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/SRSRequirements/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SRSRequirements > SafetyIntegrityLevelRequirement",
+   "idShort": "SafetyIntegrityLevelRequirement",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/SafetyIntegrityLevelRequirement/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SRSRequirements > EnvironmentalIntegrityLevelRequirement",
+   "idShort": "EnvironmentalIntegrityLevelRequirement",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/EnvironmentalIntegrityLevelRequirement/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SRSRequirements > AssetIntegrityLevelRequirement",
+   "idShort": "AssetIntegrityLevelRequirement",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/AssetIntegrityLevelRequirement/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SRSRequirements > PlantOperatingMode",
+   "idShort": "PlantOperatingMode",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/PlantOperatingMode/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SRSRequirements > PFDRequirement",
+   "idShort": "PFDRequirement",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/PFDRequirement/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SRSRequirements > PFHRequirement",
+   "idShort": "PFHRequirement",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/PFHRequirement/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SRSRequirements > DemandSource",
+   "idShort": "DemandSource",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/DemandSource/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SRSRequirements > MaximumAllowableDemandRate",
+   "idShort": "MaximumAllowableDemandRate",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/MaximumAllowableDemandRate/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SRSRequirements > MaximumAllowableSpuriousTripRate",
+   "idShort": "MaximumAllowableSpuriousTripRate",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/MaximumAllowableSpuriousTripRate/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SRSRequirements > MaximumAllowableSIFResponseTime",
+   "idShort": "MaximumAllowableSIFResponseTime",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/MaximumAllowableSIFResponseTime/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SRSRequirements > ManualActivatedShutdownRequirement",
+   "idShort": "ManualActivatedShutdownRequirement",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/ManualActivatedShutdownRequirement/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SRSRequirements > MeasureToAvoidCommonCauseFailure",
+   "idShort": "MeasureToAvoidCommonCauseFailure",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/MeasureToAvoidCommonCauseFailure/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SRSRequirements > BypassProcedure",
+   "idShort": "BypassProcedure",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/cds/BypassProcedure/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SRSRequirements > TehnicalPhilosophyDocument",
+   "idShort": "TehnicalPhilosophyDocument",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/SafetyInstrumentedFunction/TechnicalPhilosophyDocument/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SRSRequirements > BasisOfDesignDocument",
+   "idShort": "BasisOfDesignDocument",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/cds/BasisOfDesignDocument/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SRSRequirements > PlantAssumptions",
+   "idShort": "PlantAssumptions",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/PlantAssumptions/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SRSRequirements > PlantAssumptions > Assumption",
+   "idShort": "Assumption",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/Assumption/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SRSRequirements > PlantAssumptions > ReferenceToAssumption",
+   "idShort": "ReferenceToAssumption",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/cds/ReferenceToAssumption/1",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SRSRequirements > PlantRequirements",
+   "idShort": "PlantRequirements",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/PlantRequirements/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SRSRequirements > PlantRequirements > Requirement",
+   "idShort": "Requirement",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABI478#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SRSRequirements > PlantRequirements > ReferenceToRequirement",
+   "idShort": "ReferenceToRequirement",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/ReferenceToRequirement/1",
+   "json": "1",
+   "jsonQualifierKind": "ConceptQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SRSRequirements > AssociatedStandardOperatingProcedure",
+   "idShort": "AssociatedStandardOperatingProcedure",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/cds/AssociatedStandardOperatingProcedure/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "EUCSpecification",
+   "idShort": "EUCSpecification",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/EUCSpecification/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "EUCSpecification > TagName",
+   "idShort": "TagName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/TagName/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "EUCSpecification > TagDescription",
+   "idShort": "TagDescription",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/TagDescription/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "EUCSpecification > ProcessSafetyTime",
+   "idShort": "ProcessSafetyTime",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/ProcessSafetyTime/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "HazardousEvent",
+   "idShort": "HazardousEvent",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/HazardousEvent/1",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "HazardousEvent > HazardousEventDescription",
+   "idShort": "HazardousEventDescription",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/HazardousEventDescription/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "HazardousEvent > HazardID",
+   "idShort": "HazardID",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/HazardID/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "HazardousEvent > HazardIsFromCombinedSafeProcessStates",
+   "idShort": "HazardIsFromCombinedSafeProcessStates",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SafetyInstrumentedFunctionSRSRequirements/HazardFromCombinedSafeProcessStates/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "HazardousEvent > MeasureToAvoidHazardFromCombinedSafeProcessStates",
+   "idShort": "MeasureToAvoidHazardFromCombinedSafeProcessStates",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/MeasureToAvoidHazardFromCombinedSafeProcessStates/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "HazardousEvent > IndependentProtectionLayer",
+   "idShort": "IndependentProtectionLayer",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/IndependentProtectionLayer/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "HazardousEvent > HAZOP",
+   "idShort": "HAZOP",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/cds/HAZOP/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "HazardousEvent > LOPA",
+   "idShort": "LOPA",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/cds/LOPA/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SIFConfiguration",
+   "idShort": "SIFConfiguration",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/SIFConfiguration/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SIFConfiguration > InputDeviceGroup",
+   "idShort": "InputDeviceGroup",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/InputDeviceGroup/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SIFConfiguration > InputDeviceGroup > ReferenceToTag",
+   "idShort": "ReferenceToTag",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/cds/ReferenceToTag/1",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "SIFConfiguration > InputDeviceGroup > VotingWithinGroup",
+   "idShort": "VotingWithinGroup",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/VotingWithinGroup/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SIFConfiguration > InputDeviceGroup > VotingWithinGroup > NumberOfDevicesWithinGroup",
+   "idShort": "NumberOfDevicesWithinGroup",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/NumberOfDevicesWithinGroup/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SIFConfiguration > InputDeviceGroup > VotingWithinGroup > MInVotingMooN",
+   "idShort": "MInVotingMooN",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/MInVotingMooN/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SIFConfiguration > LogicSolverGroup",
+   "idShort": "LogicSolverGroup",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/LogicSolverGroup/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SIFConfiguration > LogicSolverGroup > ReferenceToTag",
+   "idShort": "ReferenceToTag",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/cds/ReferenceToTag/1",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "SIFConfiguration > LogicSolverGroup > VotingWithinGroup",
+   "idShort": "VotingWithinGroup",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/VotingWithinGroup/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SIFConfiguration > LogicSolverGroup > VotingWithinGroup > NumberOfDevicesWithinGroup",
+   "idShort": "NumberOfDevicesWithinGroup",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/NumberOfDevicesWithinGroup/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SIFConfiguration > LogicSolverGroup > VotingWithinGroup > MInVotingMooN",
+   "idShort": "MInVotingMooN",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/MInVotingMooN/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SIFConfiguration > FinalElementGroup",
+   "idShort": "FinalElementGroup",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/FinalElementGroup/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SIFConfiguration > FinalElementGroup > ReferenceToTag",
+   "idShort": "ReferenceToTag",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/cds/ReferenceToTag/1",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "SIFConfiguration > FinalElementGroup > VotingWithinGroup",
+   "idShort": "VotingWithinGroup",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/VotingWithinGroup/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SIFConfiguration > FinalElementGroup > VotingWithinGroup > NumberOfDevicesWithinGroup",
+   "idShort": "NumberOfDevicesWithinGroup",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/NumberOfDevicesWithinGroup/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SIFConfiguration > FinalElementGroup > VotingWithinGroup > MInVotingMooN",
+   "idShort": "MInVotingMooN",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/MInVotingMooN/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SIFConfiguration > VotingBetweenGroups",
+   "idShort": "VotingBetweenGroups",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/VotingBetweenGroups/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SIFConfiguration > VotingBetweenGroups > ReferenceToGroup",
+   "idShort": "ReferenceToGroup",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/cds/ReferenceToGroup/1",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "SIFConfiguration > VotingBetweenGroups > NumberOfGroups",
+   "idShort": "NumberOfGroups",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/NumberOfGroups/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SIFConfiguration > VotingBetweenGroups > MInVotingMooN",
+   "idShort": "MInVotingMooN",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/MInVotingMooN/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "SIFConfiguration > ReliabilityBlockDiagram",
+   "idShort": "ReliabilityBlockDiagram",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/ReliabilityBlockDiagram/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SIFConfiguration > ReliabilityBlockDiagram > RBDFormula",
+   "idShort": "RBDFormula",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/RBDFormula/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SIFConfiguration > ReliabilityBlockDiagram > RBDDrawing",
+   "idShort": "RBDDrawing",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/cds/RBDDrawing/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DemandData",
+   "idShort": "DemandData",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/DemandData/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DemandData > OperationalDemandRate",
+   "idShort": "OperationalDemandRate",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/OperationalDemandRate/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "DemandData > NumberOfDemands",
+   "idShort": "NumberOfDemands",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/NumberOfDemands/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "DemandData > OperationalSpuriousTripRate",
+   "idShort": "OperationalSpuriousTripRate",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/SafetyInstrumentedFunction/SpuriousTripRateOperational/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "DemandData > NumberOfSpuriousTrips",
+   "idShort": "NumberOfSpuriousTrips",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/NumberOfSpuriousTrips/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "DemandData > SIFDemandEvent",
+   "idShort": "SIFDemandEvent",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/SIFDemandEvent/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "DemandData > SIFDemandEvent > TimeStampDateAndTime",
+   "idShort": "TimeStampDateAndTime",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABN627#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "DemandData > SIFDemandEvent > DemandDescription",
+   "idShort": "DemandDescription",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/DemandDescription/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "DemandData > SIFDemandEvent > ReferenceToDeviceDemandEvent",
+   "idShort": "ReferenceToDeviceDemandEvent",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/cds/ReferenceToDeviceDemandEvent/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "DemandData > SIFDemandEvent > SIFResponseTimeActual",
+   "idShort": "SIFResponseTimeActual",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/SIFResponseTimeActual/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "LoopTestData",
+   "idShort": "LoopTestData",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/LoopTestData/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "LoopTestData > NumberOfPerformedTests",
+   "idShort": "NumberOfPerformedTests",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/NumberOfPerformedTests/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "LoopTestData > NumberOfFailedTests",
+   "idShort": "NumberOfFailedTests",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/NumberOfFailedTests/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "LoopTestData > LoopTestEvent",
+   "idShort": "LoopTestEvent",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/LoopTestEvent/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "LoopTestData > LoopTestEvent > TimeStampDateAndTime",
+   "idShort": "TimeStampDateAndTime",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABN627#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "LoopTestData > LoopTestEvent > TestLocation",
+   "idShort": "TestLocation",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/TestLocation/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "LoopTestData > LoopTestEvent > TestResultFailedOrPassed",
+   "idShort": "TestResultFailedOrPassed",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/TestResultFailedOrPassed/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "LoopTestData > LoopTestEvent > TestResultNumeric",
+   "idShort": "TestResultNumeric",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/TestResultNumeric/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "LoopTestData > LoopTestEvent > TestResultText",
+   "idShort": "TestResultText",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/TestResultText/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "LoopTestData > LoopTestEvent > CommentToTestResult",
+   "idShort": "CommentToTestResult",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/CommentToTestResult/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "LoopTestData > LoopTestEvent > ReferenceToFailureEvent",
+   "idShort": "ReferenceToFailureEvent",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/cds/ReferenceToFailureEvent/1",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "PerformanceMeasures",
+   "idShort": "PerformanceMeasures",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/PerformanceMeasures/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PerformanceMeasures > PFDAverageBasedOnOperationalData",
+   "idShort": "PFDAverageBasedOnOperationalData",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/PFDAverageBasedOnOperationalData/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PerformanceMeasures > PFHAverageBasedOnOperationalData",
+   "idShort": "PFHAverageBasedOnOperationalData",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/PFHAverageBasedOnOperationalData/1",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PerformanceMeasures > SafetyIntegrityLevelAchieved",
+   "idShort": "SafetyIntegrityLevelAchieved",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/SafetyIntegrityLevelAchieved/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  }
+ ]
+}

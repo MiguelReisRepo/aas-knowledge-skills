@@ -1,0 +1,3121 @@
+{
+ "template": "Inspection Documents of Steel Products",
+ "version": "1.0.1",
+ "submodelIdShort": "InspectionDocumentsOfSteelProducts",
+ "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/InspectionDocumentsOfSteelProducts/1/0",
+ "json": {
+  "path": "published/Inspection Documents of Steel Products/1/0/1/IDTA 02032-1-0-1_Template Inspection Documents of Steel Products_forAASMetamodelV3.1.json",
+  "gitBlob": "f6e6cbc92da3b43c7bec4207e25e65a537d17fc4"
+ },
+ "pdf": {
+  "path": "published/Inspection Documents of Steel Products/1/0/IDTA 02032-1-0_Submodel Inspection Documents of Steel Products.pdf",
+  "relation": "ancestor folder (bug-fix release without its own PDF)",
+  "sha256": "c8841846a430adb162d7a1af5fcc1912334edbdec28c7863a6e654e8e64c98c8",
+  "annexA": [
+   {
+    "page": 26,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 26,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 103,
+  "divergent": 5,
+  "json-only": 21
+ },
+ "elements": [
+  {
+   "path": "Manufacturer",
+   "idShort": "Manufacturer",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/Manufacturer/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "Manufacturer",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/Manufacturer/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Manufacturer > CompanyName",
+   "idShort": "CompanyName",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO677#003",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9,
+     10
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Property]",
+     "idShort": "CompanyName",
+     "semanticId": "0173-1#02-AAO677#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Manufacturer > Street",
+   "idShort": "Street",
+   "modelType": "Property",
+   "semanticId": "0173-1#07-ABL858#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "Street",
+     "semanticId": "0173-1#07-ABL858#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Manufacturer > ZIPCode",
+   "idShort": "ZIPCode",
+   "modelType": "Property",
+   "semanticId": "0173-1#07-ABL861#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "ZIPCode",
+     "semanticId": "0173-1#07-ABL861#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Manufacturer > City",
+   "idShort": "City",
+   "modelType": "Property",
+   "semanticId": "0173-1#07-ABL860#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "City",
+     "semanticId": "0173-1#07-ABL860#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Manufacturer > NationalCode",
+   "idShort": "NationalCode",
+   "modelType": "Property",
+   "semanticId": "0173-1#07-ABL863#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10,
+     11
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "NationalCode",
+     "semanticId": "0173-1#07-ABL863#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Manufacturer > MailAddress__00__",
+   "idShort": "MailAddress__00__",
+   "modelType": "Property",
+   "semanticId": "0173-1#07-ABA042#003",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     10,
+     11
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "MailAddress__00__",
+     "semanticId": "0173-1#07-ABA042#003",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "Customer__00__",
+   "idShort": "Customer__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/Customer/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "Customer__00__",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/Customer/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "Customer__00__ > CompanyName",
+   "idShort": "CompanyName",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO677#003",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9,
+     10
+    ],
+    "row": {
+     "page": 9,
+     "type": "[Property]",
+     "idShort": "CompanyName",
+     "semanticId": "0173-1#02-AAO677#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Customer__00__ > CustomerRole",
+   "idShort": "CustomerRole",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/CustomerRole/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "CustomerRole",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/CustomerRole/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "Customer__00__ > Street",
+   "idShort": "Street",
+   "modelType": "Property",
+   "semanticId": "0173-1#07-ABL858#002",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "Street",
+     "semanticId": "0173-1#07-ABL858#002",
+     "card": "1"
+    }
+   },
+   "status": "divergent",
+   "effective": "1..*"
+  },
+  {
+   "path": "Customer__00__ > ZIPCode",
+   "idShort": "ZIPCode",
+   "modelType": "Property",
+   "semanticId": "0173-1#07-ABL861#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "ZIPCode",
+     "semanticId": "0173-1#07-ABL861#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Customer__00__ > City",
+   "idShort": "City",
+   "modelType": "Property",
+   "semanticId": "0173-1#07-ABL860#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "City",
+     "semanticId": "0173-1#07-ABL860#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Customer__00__ > NationalCode",
+   "idShort": "NationalCode",
+   "modelType": "Property",
+   "semanticId": "0173-1#07-ABL863#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10,
+     11
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "NationalCode",
+     "semanticId": "0173-1#07-ABL863#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Customer__00__ > MailAddress__00__",
+   "idShort": "MailAddress__00__",
+   "modelType": "Property",
+   "semanticId": "0173-1#07-ABA042#003",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     10,
+     11
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "MailAddress__00__",
+     "semanticId": "0173-1#07-ABA042#003",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "OrderData",
+   "idShort": "OrderData",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/OrderData/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "OrderData",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/OrderData/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "OrderData > TypeOfInspectionDocument",
+   "idShort": "TypeOfInspectionDocument",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/KindOfInspectionDocument/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Property]",
+     "idShort": "TypeOfInspectionDocument",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/KindOfInspectionDocument/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "OrderData > OrderDate",
+   "idShort": "OrderDate",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/OrderDate/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Property]",
+     "idShort": "OrderDate",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/OrderDate/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "OrderData > ManufacturerOrderNumber",
+   "idShort": "ManufacturerOrderNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/ManufacturerOrderNumber/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Property]",
+     "idShort": "ManufacturerOrderNumber",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/ManufacturerOrderNumber/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "OrderData > PurchaserOrderNumber",
+   "idShort": "PurchaserOrderNumber",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF517#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Property]",
+     "idShort": "PurchaserOrderNumber",
+     "semanticId": "0173-1#02-ABF517#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "OrderData > DeliveryNoteNumber",
+   "idShort": "DeliveryNoteNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/DeliveryNoteNumber/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Property]",
+     "idShort": "DeliveryNoteNumber",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/DeliveryNoteNumber/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData",
+   "idShort": "ProductData",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/ProductData/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "ProductData",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/ProductData/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductData > ManufacturerProductNumber",
+   "idShort": "ManufacturerProductNumber",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO689#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Property]",
+     "idShort": "ManufacturerProductNumber",
+     "semanticId": "0173-1#02-AAO689#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData > PurchaserArticleNumber",
+   "idShort": "PurchaserArticleNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/PurchaserArticleNumber/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData > ProductDescription",
+   "idShort": "ProductDescription",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAU734#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[MLP]",
+     "idShort": "ProductDescription",
+     "semanticId": "0173-1#02-AAU734#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData > AdditionalProductRequirements",
+   "idShort": "AdditionalProductRequirements",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/AdditionalProductRequirements/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[MLP]",
+     "idShort": "AdditionalProductRequirements",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/AdditionalProductRequirements/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData > BatchNumber",
+   "idShort": "BatchNumber",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAQ196#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Property]",
+     "idShort": "BatchNumber",
+     "semanticId": "0173-1#02-AAQ196#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData > MaterialNumber",
+   "idShort": "MaterialNumber",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAZ538#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Property]",
+     "idShort": "MaterialNumber",
+     "semanticId": "0173-1#02-AAZ538#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData > MaterialShortName",
+   "idShort": "MaterialShortName",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAZ536#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Property]",
+     "idShort": "MaterialShortName",
+     "semanticId": "0173-1#02-AAZ536#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData > MaterialAdditionalInformation",
+   "idShort": "MaterialAdditionalInformation",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/MaterialAdditionalInformation/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[MLP]",
+     "idShort": "MaterialAdditionalInformation",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/MaterialAdditionalInformation/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData > NumberOfPieces",
+   "idShort": "NumberOfPieces",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/NumberOfPieces/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Property]",
+     "idShort": "NumberOfPieces",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/NumberOfPieces/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData > TheoreticalMass",
+   "idShort": "TheoreticalMass",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/TheoreticalMass/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Property]",
+     "idShort": "TheoreticalMass",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/TheoreticalMass/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData > ActualMass",
+   "idShort": "ActualMass",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAZ533#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Property]",
+     "idShort": "ActualMass",
+     "semanticId": "0173-1#02-AAZ533#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification",
+   "idShort": "SemiFinishedProductSpecification",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AGO030#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "SemiFinishedProductSpecification",
+     "semanticId": "0173-1#01-AGO030#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > Tube",
+   "idShort": "Tube",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AGU746#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "Tube",
+     "semanticId": "0173-1#01-AGU746#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > Tube > WallThickness",
+   "idShort": "WallThickness",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAG269#006",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14,
+     15
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "WallThickness",
+     "semanticId": "0173-1#02-BAG269#006",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > Tube > OuterDiameter",
+   "idShort": "OuterDiameter",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABG720#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14,
+     15
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "OuterDiameter",
+     "semanticId": "0173-1#02-ABG720#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > Tube > Length",
+   "idShort": "Length",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAA018#008",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14,
+     15,
+     16,
+     17,
+     18
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "Length",
+     "semanticId": "0173-1#02-BAA018#008",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > Tube > StandardReference",
+   "idShort": "StandardReference",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAZ523#004",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     14,
+     15,
+     16,
+     17,
+     18
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "StandardReference",
+     "semanticId": "0173-1#02-AAZ523#004",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > RectangularTube",
+   "idShort": "RectangularTube",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AGV504#005",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "RectangularTube",
+     "semanticId": "0173-1#01-AGV504#005",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > RectangularTube > WallThickness",
+   "idShort": "WallThickness",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAG269#006",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14,
+     15
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "WallThickness",
+     "semanticId": "0173-1#02-BAG269#006",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > RectangularTube > Height",
+   "idShort": "Height",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAA020#011",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     18
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Property]",
+     "idShort": "Height",
+     "semanticId": "0173-1#02-BAA020#011",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > RectangularTube > Width",
+   "idShort": "Width",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAF016#007",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     17,
+     18
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Property]",
+     "idShort": "Width",
+     "semanticId": "0173-1#02-BAF016#007",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > RectangularTube > Length",
+   "idShort": "Length",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAA018#008",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14,
+     15,
+     16,
+     17,
+     18
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "Length",
+     "semanticId": "0173-1#02-BAA018#008",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > RectangularTube > StandardReference",
+   "idShort": "StandardReference",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAZ523#004",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     14,
+     15,
+     16,
+     17,
+     18
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "StandardReference",
+     "semanticId": "0173-1#02-AAZ523#004",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > RoundBar",
+   "idShort": "RoundBar",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AGV490#005",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SMC]",
+     "idShort": "RoundBar",
+     "semanticId": "0173-1#01-AGV490#005",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > RoundBar > OuterDiameter",
+   "idShort": "OuterDiameter",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABG720#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14,
+     15
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "OuterDiameter",
+     "semanticId": "0173-1#02-ABG720#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > RoundBar > Length",
+   "idShort": "Length",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAA018#008",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14,
+     15,
+     16,
+     17,
+     18
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "Length",
+     "semanticId": "0173-1#02-BAA018#008",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > RoundBar > StandardReference",
+   "idShort": "StandardReference",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAZ523#004",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     14,
+     15,
+     16,
+     17,
+     18
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "StandardReference",
+     "semanticId": "0173-1#02-AAZ523#004",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > HexagonalBar",
+   "idShort": "HexagonalBar",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AGV493#005",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[SMC]",
+     "idShort": "HexagonalBar",
+     "semanticId": "0173-1#01-AGV493#005",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > HexagonalBar > WidthAcrossFlats",
+   "idShort": "WidthAcrossFlats",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAA103#008",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Property]",
+     "idShort": "WidthAcrossFlats",
+     "semanticId": "0173-1#02-AAA103#008",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > HexagonalBar > Length",
+   "idShort": "Length",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAA018#008",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14,
+     15,
+     16,
+     17,
+     18
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "Length",
+     "semanticId": "0173-1#02-BAA018#008",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > HexagonalBar > StandardReference",
+   "idShort": "StandardReference",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAZ523#004",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     14,
+     15,
+     16,
+     17,
+     18
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "StandardReference",
+     "semanticId": "0173-1#02-AAZ523#004",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > RectangularBar",
+   "idShort": "RectangularBar",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AGV492#005",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[SMC]",
+     "idShort": "RectangularBar",
+     "semanticId": "0173-1#01-AGV492#005",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > RectangularBar > Height",
+   "idShort": "Height",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAA020#011",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     18
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Property]",
+     "idShort": "Height",
+     "semanticId": "0173-1#02-BAA020#011",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > RectangularBar > Width",
+   "idShort": "Width",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAF016#007",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     17,
+     18
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Property]",
+     "idShort": "Width",
+     "semanticId": "0173-1#02-BAF016#007",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > RectangularBar > Length",
+   "idShort": "Length",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAA018#008",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14,
+     15,
+     16,
+     17,
+     18
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "Length",
+     "semanticId": "0173-1#02-BAA018#008",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > RectangularBar > StandardReference",
+   "idShort": "StandardReference",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAZ523#004",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     14,
+     15,
+     16,
+     17,
+     18
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "StandardReference",
+     "semanticId": "0173-1#02-AAZ523#004",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > SheetMetal",
+   "idShort": "SheetMetal",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AGU743#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[SMC]",
+     "idShort": "SheetMetal",
+     "semanticId": "0173-1#01-AGU743#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > SheetMetal > Thickness",
+   "idShort": "Thickness",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV127#003",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Property]",
+     "idShort": "Thickness",
+     "semanticId": "0173-1#02-AAV127#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > SheetMetal > Width",
+   "idShort": "Width",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAF016#007",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     17,
+     18
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Property]",
+     "idShort": "Width",
+     "semanticId": "0173-1#02-BAF016#007",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > SheetMetal > Length",
+   "idShort": "Length",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAA018#008",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14,
+     15,
+     16,
+     17,
+     18
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "Length",
+     "semanticId": "0173-1#02-BAA018#008",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > SheetMetal > StandardReference",
+   "idShort": "StandardReference",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAZ523#004",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     14,
+     15,
+     16,
+     17,
+     18
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "StandardReference",
+     "semanticId": "0173-1#02-AAZ523#004",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > Profile",
+   "idShort": "Profile",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AGU744#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[SMC]",
+     "idShort": "Profile",
+     "semanticId": "0173-1#01-AGU744#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > Profile > ProfileSpecification",
+   "idShort": "ProfileSpecification",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAZ528#005",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Property]",
+     "idShort": "ProfileSpecification",
+     "semanticId": "0173-1#02-AAZ528#005",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > Profile > Height",
+   "idShort": "Height",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAA020#011",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     18
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Property]",
+     "idShort": "Height",
+     "semanticId": "0173-1#02-BAA020#011",
+     "card": "1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > Profile > Width",
+   "idShort": "Width",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAF016#007",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     17,
+     18
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Property]",
+     "idShort": "Width",
+     "semanticId": "0173-1#02-BAF016#007",
+     "card": "1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > Profile > Length",
+   "idShort": "Length",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAA018#008",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14,
+     15,
+     16,
+     17,
+     18
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "Length",
+     "semanticId": "0173-1#02-BAA018#008",
+     "card": "1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..1"
+  },
+  {
+   "path": "ProductData > SemiFinishedProductSpecification > Profile > StandardReference",
+   "idShort": "StandardReference",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAZ523#004",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     14,
+     15,
+     16,
+     17,
+     18
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "StandardReference",
+     "semanticId": "0173-1#02-AAZ523#004",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "ProductData > Drawing__00__",
+   "idShort": "Drawing__00__",
+   "modelType": "Blob",
+   "semanticId": "0173-1#02-AAQ318#002",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Blob]",
+     "idShort": "Drawing__00__",
+     "semanticId": "0173-1#02-AAQ318#002",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "MechanicalTests",
+   "idShort": "MechanicalTests",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AKG420#020",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "MechanicalTests",
+     "semanticId": "0173-1#01-AKG420#020",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MechanicalTests > TensileTest__00__",
+   "idShort": "TensileTest__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/TensileTest/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "TensileTest__00__",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/TensileTest/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "MechanicalTests > TensileTest__00__ > YieldOrProofStrengthMean",
+   "idShort": "YieldOrProofStrengthMean",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/YieldOrProofStrengthMean/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "YieldOrProofStrengthMean",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/YieldOrProofStrengthMean/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MechanicalTests > TensileTest__00__ > TensileStrengthMean",
+   "idShort": "TensileStrengthMean",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/TensileStrengthMean/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Property]",
+     "idShort": "TensileStrengthMean",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/TensileStrengthMean/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MechanicalTests > TensileTest__00__ > ElongationAfterFractureMean",
+   "idShort": "ElongationAfterFractureMean",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/ElongationAfterFractureMean/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Property]",
+     "idShort": "ElongationAfterFractureMean",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/ElongationAfterFractureMean/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MechanicalTests > TensileTest__00__ > YieldOrProofStrengthIndividualValues",
+   "idShort": "YieldOrProofStrengthIndividualValues",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/YieldOrProofStrengthInidivualValues/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[SML]",
+     "idShort": "YieldOrProofStrengthIndividualValues",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/YieldOrProofStrengthInidivualValues/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MechanicalTests > TensileTest__00__ > TensileStrengthIndividualValues",
+   "idShort": "TensileStrengthIndividualValues",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/TensileStrengthIndividualValues/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[SML]",
+     "idShort": "TensileStrengthIndividualValues",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/TensileStrengthIndividualValues/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MechanicalTests > TensileTest__00__ > ElongationAfterFractureIndividualValues",
+   "idShort": "ElongationAfterFractureIndividualValues",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/ElongationAfterFractureIndividualValues/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[SML]",
+     "idShort": "ElongationAfterFractureIndividualValues",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/ElongationAfterFractureIndividualValues/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MechanicalTests > TensileTest__00__ > TestTemperature",
+   "idShort": "TestTemperature",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/TestTemperature/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20,
+     21,
+     23
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Property]",
+     "idShort": "TestTemperature",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/TestTemperature/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MechanicalTests > TensileTest__00__ > SampleShape",
+   "idShort": "SampleShape",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/SampleShape/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[MLP]",
+     "idShort": "SampleShape",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/SampleShape/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MechanicalTests > TensileTest__00__ > LocationOfSample__00__",
+   "idShort": "LocationOfSample__00__",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/LocationOfSample/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     20,
+     21,
+     23
+    ],
+    "row": {
+     "page": 20,
+     "type": "[MLP]",
+     "idShort": "LocationOfSample__00__",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/LocationOfSample/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "MechanicalTests > TensileTest__00__ > DirectionOfSample__00__",
+   "idShort": "DirectionOfSample__00__",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/DirectionOfSample/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     21,
+     22,
+     23
+    ],
+    "row": {
+     "page": 21,
+     "type": "[MLP]",
+     "idShort": "DirectionOfSample__00__",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/DirectionOfSample/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "MechanicalTests > HardnessTest__00__",
+   "idShort": "HardnessTest__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/HardnessTest/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "HardnessTest__00__",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/HardnessTest/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "MechanicalTests > HardnessTest__00__ > HardnessTestingMethod",
+   "idShort": "HardnessTestingMethod",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/HardnessTestingMethod/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Property]",
+     "idShort": "HardnessTestingMethod",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/HardnessTestingMethod/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MechanicalTests > HardnessTest__00__ > HardnessMean",
+   "idShort": "HardnessMean",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/HardnessMean/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Property]",
+     "idShort": "HardnessMean",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/HardnessMean/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MechanicalTests > HardnessTest__00__ > HardnessIndividualValues",
+   "idShort": "HardnessIndividualValues",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/HardnessIndividualValues/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[SML]",
+     "idShort": "HardnessIndividualValues",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/HardnessIndividualValues/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MechanicalTests > HardnessTest__00__ > TestTemperature",
+   "idShort": "TestTemperature",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/TestTemperature/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20,
+     21,
+     23
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Property]",
+     "idShort": "TestTemperature",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/TestTemperature/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MechanicalTests > HardnessTest__00__ > LocationOfSample__00__",
+   "idShort": "LocationOfSample__00__",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/LocationOfSample/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     20,
+     21,
+     23
+    ],
+    "row": {
+     "page": 20,
+     "type": "[MLP]",
+     "idShort": "LocationOfSample__00__",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/LocationOfSample/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "MechanicalTests > HardnessTest__00__ > DirectionOfSample__00__",
+   "idShort": "DirectionOfSample__00__",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/DirectionOfSample/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     21,
+     22,
+     23
+    ],
+    "row": {
+     "page": 21,
+     "type": "[MLP]",
+     "idShort": "DirectionOfSample__00__",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/DirectionOfSample/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "MechanicalTests > NotchImpactTest__00__",
+   "idShort": "NotchImpactTest__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/NotchImpactTest/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "NotchImpactTest__00__",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/NotchImpactTest/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "MechanicalTests > NotchImpactTest__00__ > NotchImpactStrengthMean",
+   "idShort": "NotchImpactStrengthMean",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/NotchImpactStrengthMean/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Property]",
+     "idShort": "NotchImpactStrengthMean",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/NotchImpactStrengthMean/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MechanicalTests > NotchImpactTest__00__ > NotchImpactStrengthIndividualValues",
+   "idShort": "NotchImpactStrengthIndividualValues",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/NotchImpactStrengthIndividualValues/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[SML]",
+     "idShort": "NotchImpactStrengthIndividualValues",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/NotchImpactStrengthIndividualValues/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MechanicalTests > NotchImpactTest__00__ > NotchImpactWorkMean",
+   "idShort": "NotchImpactWorkMean",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/NotchImpactWorkMean/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Property]",
+     "idShort": "NotchImpactWorkMean",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/NotchImpactWorkMean/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MechanicalTests > NotchImpactTest__00__ > NotchImpactWorkIndividualValues",
+   "idShort": "NotchImpactWorkIndividualValues",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/NotchImpactWorkIndividualValues/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[SML]",
+     "idShort": "NotchImpactWorkIndividualValues",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/NotchImpactWorkIndividualValues/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MechanicalTests > NotchImpactTest__00__ > SampleType",
+   "idShort": "SampleType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/SampleType/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "SampleType",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/SampleType/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MechanicalTests > NotchImpactTest__00__ > SampleWidth",
+   "idShort": "SampleWidth",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/SampleWidth/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Property]",
+     "idShort": "SampleWidth",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/SampleWidth/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MechanicalTests > NotchImpactTest__00__ > TestTemperature",
+   "idShort": "TestTemperature",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/TestTemperature/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20,
+     21,
+     23
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Property]",
+     "idShort": "TestTemperature",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/TestTemperature/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MechanicalTests > NotchImpactTest__00__ > LocationOfSample__00__",
+   "idShort": "LocationOfSample__00__",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/LocationOfSample/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     20,
+     21,
+     23
+    ],
+    "row": {
+     "page": 20,
+     "type": "[MLP]",
+     "idShort": "LocationOfSample__00__",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/LocationOfSample/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "MechanicalTests > NotchImpactTest__00__ > DirectionOfSample__00__",
+   "idShort": "DirectionOfSample__00__",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/DirectionOfSample/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     21,
+     22,
+     23
+    ],
+    "row": {
+     "page": 21,
+     "type": "[MLP]",
+     "idShort": "DirectionOfSample__00__",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/DirectionOfSample/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "ChemicalAnalysis",
+   "idShort": "ChemicalAnalysis",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AKG373#020",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "ChemicalAnalysis",
+     "semanticId": "0173-1#01-AKG373#020",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ChemicalAnalysis > MassFraction_Al",
+   "idShort": "MassFraction_Al",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/MassFraction_Al/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "ChemicalAnalysis > MassFraction_Be",
+   "idShort": "MassFraction_Be",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/MassFraction_Be/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "ChemicalAnalysis > MassFraction_C",
+   "idShort": "MassFraction_C",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/MassFraction_C/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "ChemicalAnalysis > MassFraction_Cr",
+   "idShort": "MassFraction_Cr",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/MassFraction_Cr/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "ChemicalAnalysis > MassFraction_Cu",
+   "idShort": "MassFraction_Cu",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/MassFraction_Cu/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "ChemicalAnalysis > MassFraction_Mn",
+   "idShort": "MassFraction_Mn",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/MassFraction_Mn/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "ChemicalAnalysis > MassFraction_Mo",
+   "idShort": "MassFraction_Mo",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/MassFraction_Mo/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "ChemicalAnalysis > MassFraction_N",
+   "idShort": "MassFraction_N",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/MassFraction_N/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "ChemicalAnalysis > MassFraction_Nb",
+   "idShort": "MassFraction_Nb",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/MassFraction_Nb/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "ChemicalAnalysis > MassFraction_Ni",
+   "idShort": "MassFraction_Ni",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/MassFraction_Ni/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "ChemicalAnalysis > MassFraction_P",
+   "idShort": "MassFraction_P",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/MassFraction_P/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "ChemicalAnalysis > MassFraction_Pb",
+   "idShort": "MassFraction_Pb",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/MassFraction_Pb/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "ChemicalAnalysis > MassFraction_S",
+   "idShort": "MassFraction_S",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/MassFraction_S/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "ChemicalAnalysis > MassFraction_Si",
+   "idShort": "MassFraction_Si",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/MassFraction_Si/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "ChemicalAnalysis > MassFraction_Ta",
+   "idShort": "MassFraction_Ta",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/MassFraction_Ta/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "ChemicalAnalysis > MassFraction_Ti",
+   "idShort": "MassFraction_Ti",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/MassFraction_Ti/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "ChemicalAnalysis > MassFraction_V",
+   "idShort": "MassFraction_V",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/MassFraction_V/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "ChemicalAnalysis > MassFraction_W",
+   "idShort": "MassFraction_W",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/MassFraction_W/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "ChemicalAnalysis > SteelmakingProcess",
+   "idShort": "SteelmakingProcess",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/SteelmakingProcess/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Validation",
+   "idShort": "Validation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/Validation/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "Validation",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/Validation/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Validation > StatementOfCompliance",
+   "idShort": "StatementOfCompliance",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/StatementOfCompliance/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Property]",
+     "idShort": "StatementOfCompliance",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/StatementOfCompliance/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Validation > DateOfIssue",
+   "idShort": "DateOfIssue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/DateOfIssue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Property]",
+     "idShort": "DateOfIssue",
+     "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/DateOfIssue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Validation > OriginatorOfDocument",
+   "idShort": "OriginatorOfDocument",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/InspectionDocumentsOfSteelProducts/OriginatorOfDocument/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Validation > CEMarking",
+   "idShort": "CEMarking",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AHD206#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[SMC]",
+     "idShort": "CEMarking",
+     "semanticId": "0173-1#01-AHD206#001",
+     "card": "0..*"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..*"
+  },
+  {
+   "path": "Validation > CEMarking > MarkingName",
+   "idShort": "MarkingName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/2/0/Nameplate/Markings/Marking/MarkingName",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Property]",
+     "idShort": "MarkingName",
+     "semanticId": "https://admin-shell.io/zvei/nameplate/2/0/Nameplate/Markings/Marking/MarkingName",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Validation > CEMarking > DesignationOfCertificateOrApproval",
+   "idShort": "DesignationOfCertificateOrApproval",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABH783#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Property]",
+     "idShort": "DesignationOfCertificateOrApproval",
+     "semanticId": "0112/2///61987#ABH783#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Validation > CEMarking > IssueDate",
+   "idShort": "IssueDate",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/2/0/Nameplate/Markings/Marking/IssueDate",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Property]",
+     "idShort": "IssueDate",
+     "semanticId": "https://admin-shell.io/zvei/nameplate/2/0/Nameplate/Markings/Marking/IssueDate",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Validation > CEMarking > MarkingFile",
+   "idShort": "MarkingFile",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/2/0/Nameplate/Markings/Marking/MarkingFile",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[File]",
+     "idShort": "MarkingFile",
+     "semanticId": "https://admin-shell.io/zvei/nameplate/2/0/Nameplate/Markings/Marking/MarkingFile",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Validation > CEMarking > MarkingAdditionalText__00__",
+   "idShort": "MarkingAdditionalText__00__",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/2/0/Nameplate/Markings/Marking/MarkingAdditionalText",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Property]",
+     "idShort": "MarkingAdditionalText__00__",
+     "semanticId": "https://admin-shell.io/zvei/nameplate/2/0/Nameplate/Markings/Marking/MarkingAdditionalText",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  }
+ ]
+}

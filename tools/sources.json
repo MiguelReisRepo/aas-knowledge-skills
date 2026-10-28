@@ -1,0 +1,5 @@
+{
+  "_comment": "Aliases for official source files that are cited by the evals but not redistributed here. A citation file written as '<alias>:<path>' resolves to <dir>/<path>. Override per machine with env AAS_SOURCES_<ALIAS> (upper case, '-' -> '_'), e.g. AAS_SOURCES_IDTA_PDFS=/path/to/mirror. 'idta-pdfs': a mirror of github.com/admin-shell-io/submodel-templates laid out as pdf/published/..., json/published/... and txt/published/... (txt = per-page text of each PDF with '===== PAGE n/N =====' markers). 'idta-specs': a folder holding IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf. Without them, run 'python3 tools/run-evals.py selftest --skip-missing-sources'.",
+  "idta-pdfs": "~/idta-pdfs",
+  "idta-specs": "~/idta-specs"
+}

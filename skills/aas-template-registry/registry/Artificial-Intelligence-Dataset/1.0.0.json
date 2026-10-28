@@ -1,0 +1,976 @@
+{
+ "template": "Artificial Intelligence Dataset",
+ "version": "1.0.0",
+ "submodelIdShort": "AIDataset",
+ "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/AIDataset/1/0",
+ "json": {
+  "path": "published/Artificial Intelligence Dataset/1/0/IDTA 02058-1-0_Template_AIDataset.json",
+  "gitBlob": "64a73e9fe2e55bb29db6b4858b9aa3b52fade95e"
+ },
+ "pdf": {
+  "path": "published/Artificial Intelligence Dataset/1/0/IDTA 02058-1-0_Submodel_AIDataset.pdf",
+  "relation": "same folder",
+  "sha256": "268aa7898fc90de2d889e3e5a2e0ccfb82c144c6e1e478d7bdacaa1b75556eb8",
+  "annexA": [
+   {
+    "page": 21,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 21,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 23,
+  "json-only": 24,
+  "none": 1,
+  "divergent": 1
+ },
+ "elements": [
+  {
+   "path": "URIOfTheProduct",
+   "idShort": "URIOfTheProduct",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABN590#002 ",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "URIOfTheProduct",
+     "semanticId": "0112/2///61987#ABN590#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Version",
+   "idShort": "Version",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAS354#002",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "Version",
+     "semanticId": "0173-1#02-AAS354#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ContactInformation",
+   "idShort": "ContactInformation",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/ContactInformation/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Ref]",
+     "idShort": "ContactInformation",
+     "semanticId": "https://admin-shell.io/idta/AIDataset/ContactInformation/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Storage",
+   "idShort": "Storage",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/Storage/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Prop]",
+     "idShort": "Storage",
+     "semanticId": "https://admin-shell.io/idta/AIDataset/Storage/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Labeled",
+   "idShort": "Labeled",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Labeled > Classification",
+   "idShort": "Classification",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/Labeled/Classification/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "Classification",
+     "semanticId": "https://admin-shell.io/idta/AIDataset/Labeled/Classification/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "Labeled > Classification > NumberLables",
+   "idShort": "NumberLables",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Classification/NumberLabels/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Labeled > Classification > Labels",
+   "idShort": "Labels",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Classification/Labels/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Labeled > Classification > Labels > ExampleLabel",
+   "idShort": "ExampleLabel",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Classification/Labels/Label/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "Labeled > Classification > Labels > ExampleLabel > ClassName",
+   "idShort": "ClassName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Classification/Labels/Label/ClassName/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Labeled > Classification > Labels > ExampleLabel > NumberOfSamples",
+   "idShort": "NumberOfSamples",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Classification/Labels/Label/NumberOfSamples/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Labeled > Classification > SingleFiles",
+   "idShort": "SingleFiles",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Classification/SingleFiles/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Labeled > Classification > SingleFiles > ExampleSingleFile",
+   "idShort": "ExampleSingleFile",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Classification/SingleFiles/SingleFile/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "Labeled > Classification > SingleFiles > ExampleSingleFile > Name",
+   "idShort": "Name",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Classification/SingleFiles/SingleFile/Name/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Labeled > Classification > SingleFiles > ExampleSingleFile > Labels",
+   "idShort": "Labels",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Classification/SingleFiles/SingleFile/Labels/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Labeled > Classification > SingleFiles > ExampleSingleFile > Labels > NumberLabels",
+   "idShort": "NumberLabels",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Classification/SingleFiles/SingleFile/Labels/NumberLabels/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Labeled > Classification > SingleFiles > ExampleSingleFile > Labels > Label",
+   "idShort": "Label",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Classification/SingleFiles/SingleFile/Labels/Label/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "Labeled > Classification > SingleFiles > ExampleSingleFile > SingleFilePath",
+   "idShort": "SingleFilePath",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Classification/SingleFiles/SingleFile/SingleFilePath/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Labeled > Classification > SingleFiles > ExampleSingleFile > AnnotationFile",
+   "idShort": "AnnotationFile",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Classification/SingleFiles/SingleFile/AnnotationFile/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Labeled > Classification > SingleFiles > ExampleSingleFile > SingleFileDetails",
+   "idShort": "SingleFileDetails",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Classification/SingleFiles/SingleFile/SingleFileDetails/1/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "Labeled > Classification > SingleFiles > ExampleSingleFile > SingleFileDetails > ExampleSingleFileDetail",
+   "idShort": "ExampleSingleFileDetail",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Classification/SingleFiles/SingleFile/SingleFileDetails/SingleFileDetail/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Labeled > Classification > Balance",
+   "idShort": "Balance",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Classification/Balance/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Labeled > Classification > AnnotationFile",
+   "idShort": "AnnotationFile",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Classification/AnnotationFile/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Labeled > Regression",
+   "idShort": "Regression",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/Labeled/Regression/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "Regression",
+     "semanticId": "https://admin-shell.io/idta/AIDataset/Labeled/Regression/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "Labeled > Regression > labeledescription",
+   "idShort": "labeledescription",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Regression/labeledescription/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Labeled > Regression > AnnotationFile",
+   "idShort": "AnnotationFile",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Regression/AnnotationFile/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Labeled > Regression > SingleFiles",
+   "idShort": "SingleFiles",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Regression/SingleFiles/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Labeled > Regression > SingleFiles > ExampleAnnotation",
+   "idShort": "ExampleAnnotation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Regression/SingleFiles/Annotation/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "Labeled > Regression > SingleFiles > ExampleAnnotation > AnnotationFile",
+   "idShort": "AnnotationFile",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Regression/SingleFiles/Annotation/AnnotationFile/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Labeled > Regression > SingleFiles > ExampleAnnotation > SingleFileDetails",
+   "idShort": "SingleFileDetails",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Regression/SingleFiles/Annotation/SingleFileDetails/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Labeled > Regression > SingleFiles > ExampleAnnotation > SingleFileDetails > ExampleDetails",
+   "idShort": "ExampleDetails",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/labeled/Regression/SingleFiles/Annotation/SingleFileDetails/Detail/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SizeInformation",
+   "idShort": "SizeInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/SizeInformation/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[SMC]",
+     "idShort": "SizeInformation",
+     "semanticId": "https://admin-shell.io/idta/AIDataset/SizeInformation/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SizeInformation > CompleteSize",
+   "idShort": "CompleteSize",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDataset//SizeInformation/CompleteSize/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "CompleteSize",
+     "semanticId": "https://admin-shell.io/idta/AIDataset//SizeInformation/CompleteSize/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SizeInformation > TrainSize",
+   "idShort": "TrainSize",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/SizeInformation/TrainSize/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "TrainSize",
+     "semanticId": "https://admin-shell.io/idta/AIDataset/SizeInformation/TrainSize/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizeInformation > ValSize",
+   "idShort": "ValSize",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/SizeInformationValSize/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "ValSize",
+     "semanticId": "https://admin-shell.io/idta/AIDataset/SizeInformationValSize/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizeInformation > TestSize",
+   "idShort": "TestSize",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/SizeInformation/TestSize/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "TestSize",
+     "semanticId": "https://admin-shell.io/idta/AIDataset/SizeInformation/TestSize/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SizeInformation > SplitRatio",
+   "idShort": "SplitRatio",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/SizeInformation/SplitRatio/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "SplitRatio",
+     "semanticId": "https://admin-shell.io/idta/AIDataset/SizeInformation/SplitRatio/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MetaData",
+   "idShort": "MetaData",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/MetaData/1/0",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[SMC]",
+     "idShort": "MetaData",
+     "semanticId": "https://admin-shell.io/idta/AIDataset/MetaData/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "MetaData > FileType",
+   "idShort": "FileType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/MetaData/FileType/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "FileType",
+     "semanticId": "https://admin-shell.io/idta/AIDataset/MetaData/FileType/1/0",
+     "card": "1"
+    }
+   },
+   "status": "divergent",
+   "effective": "1..*"
+  },
+  {
+   "path": "MetaData > AdditionalInformation",
+   "idShort": "AdditionalInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/MetaData/AdditionalInformation/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "AdditionalInformation",
+     "semanticId": "https://admin-shell.io/idta/AIDataset/MetaData/AdditionalInformation/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "MetaData > AdditionalInformation > ExampleInfo",
+   "idShort": "ExampleInfo",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/MetaData/AdditionalInformation/Info/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MLP]",
+     "idShort": "ExampleInfo",
+     "semanticId": "https://admin-shell.io/idta/AIDataset/MetaData/AdditionalInformation/Info/1/0",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "Metrics",
+   "idShort": "Metrics",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/Metrics/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[SMC]",
+     "idShort": "Metrics",
+     "semanticId": "https://admin-shell.io/idta/AIDataset/Metrics/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Metrics > ExampleMetric",
+   "idShort": "ExampleMetric",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/MetaData/Metrics/Metric/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "ExampleMetric",
+     "semanticId": "https://admin-shell.io/idta/AIDataset/MetaData/Metrics/Metric/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "BoundaryConditions",
+   "idShort": "BoundaryConditions",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/BoundaryConditions/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[SMC]",
+     "idShort": "BoundaryConditions",
+     "semanticId": "https://admin-shell.io/idta/AIDataset/BoundaryConditions/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "BoundaryConditions > DataCollectors",
+   "idShort": "DataCollectors",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/BoundaryConditions/DataCollectors/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "DataCollectors",
+     "semanticId": "https://admin-shell.io/idta/AIDataset/BoundaryConditions/DataCollectors/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "BoundaryConditions > DataCollectors > Collector",
+   "idShort": "Collector",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/BoundaryConditions/DataCollectors/CollectorDescription/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Ref]",
+     "idShort": "Collector",
+     "semanticId": "https://admin-shell.io/idta/AIDataset/BoundaryConditions/DataCollectors/CollectorDescription/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "BoundaryConditions > EnviromentConditions",
+   "idShort": "EnviromentConditions",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/BoundaryConditions/EnviromentConditions/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..1",
+    "pages": [
+     19
+    ]
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "BoundaryConditions > EnviromentConditions > ExampleCondition",
+   "idShort": "ExampleCondition",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/BoundaryConditions/EnviromentConditions/Condition/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "ExampleCondition",
+     "semanticId": "https://admin-shell.io/idta/AIDataset/BoundaryConditions/EnviromentConditions/Condition/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "BoundaryConditions > SyntheticData",
+   "idShort": "SyntheticData",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/AIDataset/BoundaryConditions/SyntheticData/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MLP]",
+     "idShort": "SyntheticData",
+     "semanticId": "https://admin-shell.io/idta/AIDataset/BoundaryConditions/SyntheticData/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  }
+ ]
+}

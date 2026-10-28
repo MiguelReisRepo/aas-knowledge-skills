@@ -1,0 +1,809 @@
+{
+ "template": "Functional Safety",
+ "version": "1.0.2",
+ "submodelIdShort": "FunctionalSafety",
+ "submodelSemanticId": "https://admin-shell.io/idta/iec62683/1/0/FunctionalSafety",
+ "json": {
+  "path": "published/Functional Safety/1/0/2/IDTA 02014-1-0-2_Template_FunctionalSafety_forAASMetamodelV3.1.json",
+  "gitBlob": "a7dbebe7900848e0555a6c57c552b83a615d2e99"
+ },
+ "pdf": {
+  "path": "published/Functional Safety/1/0/IDTA 02014-1-0_Submodel_FunctionalSafety.pdf",
+  "relation": "ancestor folder (bug-fix release without its own PDF)",
+  "sha256": "f3bc08c5adb57e245f1ea11066509dce331ff67eda779fb43251cebe70e258f9",
+  "annexA": [
+   {
+    "page": 19,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 19,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 31
+ },
+ "elements": [
+  {
+   "path": "NumberOfFunctionalSafetySetsOfCharacteristics",
+   "idShort": "NumberOfFunctionalSafetySetsOfCharacteristics",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE005#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "1",
+    "pages": [
+     9
+    ]
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "OperatingConditionsOfFunctionalSafetyCharacteristics",
+   "idShort": "OperatingConditionsOfFunctionalSafetyCharacteristics",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0112/2///62683#ACG057#001",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "OperatingConditionsOfFunctionalSafetyCharacteristics",
+     "semanticId": "0112/2///62683#ACG057#001",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "OperatingConditionsOfFunctionalSafetyCharacteristics > TypeOfVoltage",
+   "idShort": "TypeOfVoltage",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABA969#007",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "TypeOfVoltage",
+     "semanticId": "0112/2///61987#ABA969#007",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "OperatingConditionsOfFunctionalSafetyCharacteristics > RatedVoltage",
+   "idShort": "RatedVoltage",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABA588#004",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "RatedVoltage",
+     "semanticId": "0112/2///61987#ABA588#004",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "OperatingConditionsOfFunctionalSafetyCharacteristics > MinimumRatedVoltage",
+   "idShort": "MinimumRatedVoltage",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABD461#004",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "MinimumRatedVoltage",
+     "semanticId": "0112/2///61987#ABD461#004",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "OperatingConditionsOfFunctionalSafetyCharacteristics > MaximumRatedVoltage",
+   "idShort": "MaximumRatedVoltage",
+   "modelType": "Property",
+   "semanticId": "0112/2///61987#ABD462#004",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "MaximumRatedVoltage",
+     "semanticId": "0112/2///61987#ABD462#004",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "OperatingConditionsOfFunctionalSafetyCharacteristics > RatedOperationalCurrent",
+   "idShort": "RatedOperationalCurrent",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/FunctionalSafety/RatedOperationalCurrent/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "RatedOperationalCurrent",
+     "semanticId": "https://admin-shell.io/idta/FunctionalSafety/RatedOperationalCurrent/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "OperatingConditionsOfFunctionalSafetyCharacteristics > TypeOfInterlockingDevice",
+   "idShort": "TypeOfInterlockingDevice",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE053#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     10
+    ],
+    "row": {
+     "page": 10,
+     "type": "[Property]",
+     "idShort": "TypeOfInterlockingDevice",
+     "semanticId": "0112/2///62683#ACE053#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "OperatingConditionsOfFunctionalSafetyCharacteristics > OtherOperatingConditions",
+   "idShort": "OtherOperatingConditions",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE070#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Property]",
+     "idShort": "OtherOperatingConditions",
+     "semanticId": "0112/2///62683#ACE070#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "OperatingConditionsOfFunctionalSafetyCharacteristics > UsefulLifeInNumberOfOperations",
+   "idShort": "UsefulLifeInNumberOfOperations",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE055#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Property]",
+     "idShort": "UsefulLifeInNumberOfOperations",
+     "semanticId": "0112/2///62683#ACE055#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "OperatingConditionsOfFunctionalSafetyCharacteristics > UsefulLifeInTimeInterval",
+   "idShort": "UsefulLifeInTimeInterval",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE054#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[Property]",
+     "idShort": "UsefulLifeInTimeInterval",
+     "semanticId": "0112/2///62683#ACE054#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SafetyDeviceTypes",
+   "idShort": "SafetyDeviceTypes",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0112/2///62683#ACG070#001",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     9
+    ],
+    "row": {
+     "page": 9,
+     "type": "[SMC]",
+     "idShort": "SafetyDeviceTypes",
+     "semanticId": "0112/2///62683#ACG070#001",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SafetyDeviceTypes > FunctionalSafetyDeviceType",
+   "idShort": "FunctionalSafetyDeviceType",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE071#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[Property]",
+     "idShort": "FunctionalSafetyDeviceType",
+     "semanticId": "0112/2///62683#ACE071#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SafetyDeviceTypes > SafetySubsystem",
+   "idShort": "SafetySubsystem",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0112/2///62683#ACG065#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "SafetySubsystem",
+     "semanticId": "0112/2///62683#ACG065#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SafetyDeviceTypes > SafetySubsystem > SIL",
+   "idShort": "SIL",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE051#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     17
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Property]",
+     "idShort": "SIL",
+     "semanticId": "0112/2///62683#ACE051#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SafetyDeviceTypes > SafetySubsystem > PFH",
+   "idShort": "PFH",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE052#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Property]",
+     "idShort": "PFH",
+     "semanticId": "0112/2///62683#ACE052#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SafetyDeviceTypes > SafetySubsystem > ProofTestInterval",
+   "idShort": "ProofTestInterval",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE058#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13,
+     15,
+     16,
+     17
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Property]",
+     "idShort": "ProofTestInterval",
+     "semanticId": "0112/2///62683#ACE058#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SafetyDeviceTypes > SafetySubsystem > PL",
+   "idShort": "PL",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE060#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14,
+     17
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "PL",
+     "semanticId": "0112/2///62683#ACE060#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SafetyDeviceTypes > SafetySubsystem > Category",
+   "idShort": "Category",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE063#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14,
+     18
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "Category",
+     "semanticId": "0112/2///62683#ACE063#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SafetyDeviceTypes > ElectronicElement",
+   "idShort": "ElectronicElement",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0112/2///62683#ACG066#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "ElectronicElement",
+     "semanticId": "0112/2///62683#ACG066#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SafetyDeviceTypes > ElectronicElement > MTTFD",
+   "idShort": "MTTFD",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE057#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Property]",
+     "idShort": "MTTFD",
+     "semanticId": "0112/2///62683#ACE057#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SafetyDeviceTypes > ElectronicElement > RDF",
+   "idShort": "RDF",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/FunctionalSafety/RDF/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Property]",
+     "idShort": "RDF",
+     "semanticId": "https://admin-shell.io/idta/FunctionalSafety/RDF/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SafetyDeviceTypes > ElectronicElement > ProofTestInterval",
+   "idShort": "ProofTestInterval",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE058#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13,
+     15,
+     16,
+     17
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Property]",
+     "idShort": "ProofTestInterval",
+     "semanticId": "0112/2///62683#ACE058#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SafetyDeviceTypes > ElectromechanicalElement",
+   "idShort": "ElectromechanicalElement",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0112/2///62683#ACG067#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "ElectromechanicalElement",
+     "semanticId": "0112/2///62683#ACG067#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SafetyDeviceTypes > ElectromechanicalElement > B10D",
+   "idShort": "B10D",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE056#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..1",
+    "pages": [
+     16
+    ]
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SafetyDeviceTypes > ElectromechanicalElement > ProofTestInterval",
+   "idShort": "ProofTestInterval",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE058#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13,
+     15,
+     16,
+     17
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Property]",
+     "idShort": "ProofTestInterval",
+     "semanticId": "0112/2///62683#ACE058#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SafetyDeviceTypes > InherentlySafeSubsystem",
+   "idShort": "InherentlySafeSubsystem",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0112/2///62683#ACG069#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "InherentlySafeSubsystem",
+     "semanticId": "0112/2///62683#ACG069#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SafetyDeviceTypes > InherentlySafeSubsystem > SIL",
+   "idShort": "SIL",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE051#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     17
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Property]",
+     "idShort": "SIL",
+     "semanticId": "0112/2///62683#ACE051#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SafetyDeviceTypes > InherentlySafeSubsystem > ProofTestInterval",
+   "idShort": "ProofTestInterval",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE058#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13,
+     15,
+     16,
+     17
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Property]",
+     "idShort": "ProofTestInterval",
+     "semanticId": "0112/2///62683#ACE058#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SafetyDeviceTypes > InherentlySafeSubsystem > PL",
+   "idShort": "PL",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE060#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14,
+     17
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "PL",
+     "semanticId": "0112/2///62683#ACE060#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SafetyDeviceTypes > InherentlySafeSubsystem > Category",
+   "idShort": "Category",
+   "modelType": "Property",
+   "semanticId": "0112/2///62683#ACE063#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14,
+     18
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Property]",
+     "idShort": "Category",
+     "semanticId": "0112/2///62683#ACE063#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  }
+ ]
+}

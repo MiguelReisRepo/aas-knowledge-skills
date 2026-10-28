@@ -1,0 +1,2273 @@
+{
+ "template": "Technical Data for Automated Guided Vehicles",
+ "version": "1.0.1",
+ "submodelIdShort": "TechnicalDataAGV",
+ "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/technicaldataagv/1/0",
+ "json": {
+  "path": "published/Technical Data for Automated Guided Vehicles/1/0/1/IDTA 02047-1-0-1 Template_TechnicalDataForAGV_forAASMetamodelV3.1.json",
+  "gitBlob": "c9c01337b318ccbca970efe20f6c15d3ccd2af4d"
+ },
+ "pdf": {
+  "path": "published/Technical Data for Automated Guided Vehicles/1/0/IDTA 02047-1-0 Submodel_Technical Data for AGV .pdf",
+  "relation": "ancestor folder (bug-fix release without its own PDF)",
+  "sha256": "e49917894a620bc56162410fca2db2f3ef776ddddb3e946eca41e37b7dcb4f39",
+  "annexA": [
+   {
+    "page": 27,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 27,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 83,
+  "json-only": 9,
+  "none": 2,
+  "pdf-only": 1
+ },
+ "elements": [
+  {
+   "path": "GeneralInformation",
+   "idShort": "GeneralInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABK161#002/0173-1#01-AHX838#002",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     11
+    ],
+    "row": {
+     "page": 11,
+     "type": "[SMC]",
+     "idShort": "GeneralInformation",
+     "semanticId": "0173-1#02-ABK161#002/0173-1#01-AHX838#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > ManufacturerName",
+   "idShort": "ManufacturerName",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO677#004",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > CompanyLogo",
+   "idShort": "CompanyLogo",
+   "modelType": "File",
+   "semanticId": "0173-1#02-ABI776#002",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "GeneralInformation > ManufacturerProductDesignation",
+   "idShort": "ManufacturerProductDesignation",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAW338#003",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > ProductArticleNumberOfManufacturer",
+   "idShort": "ProductArticleNumberOfManufacturer",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO054#003",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > ManufacturerOrderCode",
+   "idShort": "ManufacturerOrderCode",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO227#004",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > ProductImages",
+   "idShort": "ProductImages",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABM220#001",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "GeneralInformation > ProductImages > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABM220#001/0173-1#01-AHY911#001",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "GeneralInformation > ProductImages > [0] > ImageFile",
+   "idShort": "ImageFile",
+   "modelType": "File",
+   "semanticId": "0173-1#02-ABK291#002",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > ProductImages > [0] > ImageNote",
+   "idShort": "ImageNote",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-ABL423#001",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions",
+   "idShort": "SpecificDescriptions",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABM221#001",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "SpecificDescriptions > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABM221#001/0173-1#01-AHY912#001",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  },
+  {
+   "path": "SpecificDescriptions > [0] > DataSheet",
+   "idShort": "DataSheet",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/datasheet/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[File]",
+     "idShort": "DataSheet",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/datasheet/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TypeAndApplicationInformation",
+   "idShort": "TypeAndApplicationInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/typeandapplicationinformation/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "TypeAndApplicationInformation",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/typeandapplicationinformation/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TypeAndApplicationInformation > AgvKinematic",
+   "idShort": "AgvKinematic",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/agvkinematic/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "AgvKinematic",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/agvkinematic/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TypeAndApplicationInformation > AgvClass",
+   "idShort": "AgvClass",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/agvclass/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "AgvClass",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/agvclass/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TypeAndApplicationInformation > TravelDirection",
+   "idShort": "TravelDirection",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/traveldirection/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "TravelDirection",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/traveldirection/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TypeAndApplicationInformation > TransportPrinciple",
+   "idShort": "TransportPrinciple",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/transportprinciple/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "TransportPrinciple",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/transportprinciple/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TypeAndApplicationInformation > LocalizationType",
+   "idShort": "LocalizationType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/localizationtype/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "LocalizationType",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/localizationtype/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TypeAndApplicationInformation > NavigationType",
+   "idShort": "NavigationType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/navigationtype/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "NavigationType",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/navigationtype/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TypeAndApplicationInformation > SpecialApplications",
+   "idShort": "SpecialApplications",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/specialapplications/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[MLP]",
+     "idShort": "SpecialApplications",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/specialapplications/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TypeAndApplicationInformation > SpecialCapabilities",
+   "idShort": "SpecialCapabilities",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/specialcapabilities/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[MLP]",
+     "idShort": "SpecialCapabilities",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/specialcapabilities/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TypeAndApplicationInformation > ProtectionClassIP",
+   "idShort": "ProtectionClassIP",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV695#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "ProtectionClassIP",
+     "semanticId": "0173-1#02-AAV695#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TypeAndApplicationInformation > SuitableForOutdoorUse",
+   "idShort": "SuitableForOutdoorUse",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAD676#009",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "SuitableForOutdoorUse",
+     "semanticId": "0173-1#02-BAD676#009",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TypeAndApplicationInformation > RequiredEnvironmentalConditions",
+   "idShort": "RequiredEnvironmentalConditions",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/requiredenvironmentalconditions/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[MLP]",
+     "idShort": "RequiredEnvironmentalConditions",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/requiredenvironmentalconditions/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TypeAndApplicationInformation > SpecialQualificationDemand",
+   "idShort": "SpecialQualificationDemand",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/specialqualificationdemand/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[MLP]",
+     "idShort": "SpecialQualificationDemand",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/specialqualificationdemand/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters",
+   "idShort": "TechnicalParameters",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/technicalparameters/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "TechnicalParameters",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/technicalparameters/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > MaxLateralInclinationMaxLoad",
+   "idShort": "MaxLateralInclinationMaxLoad",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/maxlateralinclination/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "MaxLateralInclinationMaxLoad",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/maxlateralinclination/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > MaxLateralInclinationWithoutLoad",
+   "idShort": "MaxLateralInclinationWithoutLoad",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/maxlateralinclination/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "MaxLateralInclinationWithoutLoad",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/maxlateralinclination/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > MaxClimbingInclinationMaxLoad",
+   "idShort": "MaxClimbingInclinationMaxLoad",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/maxclimbinginclination/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "MaxClimbingInclinationMaxLoad",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/maxclimbinginclination/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > MaxClimbingInclinationWithoutLoad",
+   "idShort": "MaxClimbingInclinationWithoutLoad",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/maxclimbinginclination/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "MaxClimbingInclinationWithoutLoad",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/maxclimbinginclination/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > LocalizationSensorDetails",
+   "idShort": "LocalizationSensorDetails",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/localizationsensordetails/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[MLP]",
+     "idShort": "LocalizationSensorDetails",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/localizationsensordetails/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > LocalizationAccuracy",
+   "idShort": "LocalizationAccuracy",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/localizationaccuracy/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "LocalizationAccuracy",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/localizationaccuracy/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > PositioningAccuracy",
+   "idShort": "PositioningAccuracy",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/positioningaccuracy/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "PositioningAccuracy",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/positioningaccuracy/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > MaxLoadMass",
+   "idShort": "MaxLoadMass",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABJ258#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "MaxLoadMass",
+     "semanticId": "0173-1#02-ABJ258#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > InterfacesForAttachments",
+   "idShort": "InterfacesForAttachments",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/interfacesforattachments/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[MLP]",
+     "idShort": "InterfacesForAttachments",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/interfacesforattachments/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > SystemAvailability",
+   "idShort": "SystemAvailability",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABA730#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "SystemAvailability",
+     "semanticId": "0173-1#02-ABA730#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > MaxRunTimeAsSpecified",
+   "idShort": "MaxRunTimeAsSpecified",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAJ479#004",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "MaxRunTimeAsSpecified",
+     "semanticId": "0173-1#02-AAJ479#004",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > MaxRunTimeAsOperated",
+   "idShort": "MaxRunTimeAsOperated",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAJ479#004",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "MaxRunTimeAsOperated",
+     "semanticId": "0173-1#02-AAJ479#004",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > SpeedMin",
+   "idShort": "SpeedMin",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/speedmin/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "SpeedMin",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/speedmin/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > SpeedMaxEmptyAsSpecified",
+   "idShort": "SpeedMaxEmptyAsSpecified",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/speedmaxempty/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "SpeedMaxEmptyAsSpecified",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/speedmaxempty/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > SpeedMaxEmptyAsOperated",
+   "idShort": "SpeedMaxEmptyAsOperated",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/speedmaxempty/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "SpeedMaxEmptyAsOperated",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/speedmaxempty/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > SpeedMaxWithMaxLoadAsSpecified",
+   "idShort": "SpeedMaxWithMaxLoadAsSpecified",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/speedmaxwithmaxload/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "SpeedMaxWithMaxLoadAsSpecified",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/speedmaxwithmaxload/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > SpeedMaxWithMaxLoadAsOperated",
+   "idShort": "SpeedMaxWithMaxLoadAsOperated",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/speedmaxwithmaxload/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "SpeedMaxWithMaxLoadAsOperated",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/speedmaxwithmaxload/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > AccelerationMax",
+   "idShort": "AccelerationMax",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABG746#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "AccelerationMax",
+     "semanticId": "0173-1#02-ABG746#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > DecelerationMax",
+   "idShort": "DecelerationMax",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/decelerationmax/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "DecelerationMax",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/decelerationmax/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > VehicleHeightMax",
+   "idShort": "VehicleHeightMax",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAE355#006",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "VehicleHeightMax",
+     "semanticId": "0173-1#02-BAE355#006",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > VehicleWidth",
+   "idShort": "VehicleWidth",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAG933#004",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "VehicleWidth",
+     "semanticId": "0173-1#02-AAG933#004",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > VehicleLength",
+   "idShort": "VehicleLength",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABE774#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "VehicleLength",
+     "semanticId": "0173-1#02-ABE774#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > VehicleWeight",
+   "idShort": "VehicleWeight",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABD800#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "VehicleWeight",
+     "semanticId": "0173-1#02-ABD800#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > Emissions",
+   "idShort": "Emissions",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/emissions/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[MLP]",
+     "idShort": "Emissions",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/emissions/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > MapProcessingInformation",
+   "idShort": "MapProcessingInformation",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/mapprocessinginformation/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[MLP]",
+     "idShort": "MapProcessingInformation",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/mapprocessinginformation/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > ManualControllerInformation",
+   "idShort": "ManualControllerInformation",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/manualcontrollerinformation/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[MLP]",
+     "idShort": "ManualControllerInformation",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/manualcontrollerinformation/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TechnicalParameters > DigitalAnalogInterfaces",
+   "idShort": "DigitalAnalogInterfaces",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/digitalanaloginterfaces/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[MLP]",
+     "idShort": "DigitalAnalogInterfaces",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/digitalanaloginterfaces/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > VDA5050Factsheet",
+   "idShort": "VDA5050Factsheet",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/vda5050factsheet/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "VDA5050Factsheet",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/vda5050factsheet/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > VDA5050Factsheet > TypeSpecification",
+   "idShort": "TypeSpecification",
+   "modelType": "Blob",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/typespecification/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Blob]",
+     "idShort": "TypeSpecification",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/typespecification/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > VDA5050Factsheet > PhysicalParameters",
+   "idShort": "PhysicalParameters",
+   "modelType": "Blob",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/pysicalparameters/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Blob]",
+     "idShort": "PhysicalParameters",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/pysicalparameters/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > VDA5050Factsheet > ProtocolLimits",
+   "idShort": "ProtocolLimits",
+   "modelType": "Blob",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/protocollimits/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Blob]",
+     "idShort": "ProtocolLimits",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/protocollimits/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > VDA5050Factsheet > ProtocolFeatures",
+   "idShort": "ProtocolFeatures",
+   "modelType": "Blob",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/protocolfeatures/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Blob]",
+     "idShort": "ProtocolFeatures",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/protocolfeatures/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > VDA5050Factsheet > AgvGeometry",
+   "idShort": "AgvGeometry",
+   "modelType": "Blob",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/agvgeometry/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Blob]",
+     "idShort": "AgvGeometry",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/agvgeometry/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > VDA5050Factsheet > LoadSpecification",
+   "idShort": "LoadSpecification",
+   "modelType": "Blob",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/loadspecification/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Blob]",
+     "idShort": "LoadSpecification",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/loadspecification/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > VDA5050Factsheet > LocalizationParameters",
+   "idShort": "LocalizationParameters",
+   "modelType": "Blob",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/localizationparameters/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Blob]",
+     "idShort": "LocalizationParameters",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/localizationparameters/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Energy",
+   "idShort": "Energy",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/energy/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "Energy",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/energy/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Energy > EnergySource",
+   "idShort": "EnergySource",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/energysource/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "EnergySource",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/energysource/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Energy > EnergyAbsorption",
+   "idShort": "EnergyAbsorption",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/energyabsorption/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "EnergyAbsorption",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/energyabsorption/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Energy > EnergyStorage",
+   "idShort": "EnergyStorage",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/energystorage/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "EnergyStorage",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/energystorage/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Energy > Battery",
+   "idShort": "Battery",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/battery/1/0",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SMC]",
+     "idShort": "Battery",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/battery/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Energy > Battery > ChargingDeviceRequirements",
+   "idShort": "ChargingDeviceRequirements",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/chargingdevicerequirements/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[MLP]",
+     "idShort": "ChargingDeviceRequirements",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/chargingdevicerequirements/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Energy > Battery > BatteryInformation",
+   "idShort": "BatteryInformation",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/batteryinformation/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[MLP]",
+     "idShort": "BatteryInformation",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/batteryinformation/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Energy > Battery > ChargingTimeAsSpecified",
+   "idShort": "ChargingTimeAsSpecified",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAF391#006",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "ChargingTimeAsSpecified",
+     "semanticId": "0173-1#02-AAF391#006",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Energy > Battery > ChargingTimeAsOperated",
+   "idShort": "ChargingTimeAsOperated",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAF391#006",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "ChargingTimeAsOperated",
+     "semanticId": "0173-1#02-AAF391#006",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Energy > Battery > RemainingChargeCycles",
+   "idShort": "RemainingChargeCycles",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/remainingchargecycles/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "RemainingChargeCycles",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/remainingchargecycles/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Energy > PowerTransmissionToExternal",
+   "idShort": "PowerTransmissionToExternal",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/powertransmissionexternal/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MLP]",
+     "idShort": "PowerTransmissionToExternal",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/powertransmissionexternal/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > CommunicationAndControl",
+   "idShort": "CommunicationAndControl",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/communicationandcontrol/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "CommunicationAndControl",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/communicationandcontrol/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > CommunicationAndControl > CommunicationProtocol",
+   "idShort": "CommunicationProtocol",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/communicationprotocol/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[MLP]",
+     "idShort": "CommunicationProtocol",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/communicationprotocol/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > CommunicationAndControl > CommunicationNetwork",
+   "idShort": "CommunicationNetwork",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/communicationnetwork/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[MLP]",
+     "idShort": "CommunicationNetwork",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/communicationnetwork/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > CommunicationAndControl > VDA5050InterfaceDescription",
+   "idShort": "VDA5050InterfaceDescription",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/vda5050interfacedescription/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[MLP]",
+     "idShort": "VDA5050InterfaceDescription",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/vda5050interfacedescription/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > CommunicationAndControl > AutomationInterface",
+   "idShort": "AutomationInterface",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/automationinterface/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[MLP]",
+     "idShort": "AutomationInterface",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/automationinterface/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > CommunicationAndControl > ControlSystemInformation",
+   "idShort": "ControlSystemInformation",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/controlsysteminformation/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[MLP]",
+     "idShort": "ControlSystemInformation",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/controlsysteminformation/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Safety",
+   "idShort": "Safety",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/safety/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "Safety",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/safety/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Safety > ConformityToSafetyStandards",
+   "idShort": "ConformityToSafetyStandards",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/conformitytosafetystandards/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[MLP]",
+     "idShort": "ConformityToSafetyStandards",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/conformitytosafetystandards/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Safety > ManualControlInformation",
+   "idShort": "ManualControlInformation",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/manualcontrolinformation/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[MLP]",
+     "idShort": "ManualControlInformation",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/manualcontrolinformation/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Safety > SafetySensorTechnology",
+   "idShort": "SafetySensorTechnology",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/safetysensortechnology/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[MLP]",
+     "idShort": "SafetySensorTechnology",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/safetysensortechnology/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > Safety > SafetyMechanics",
+   "idShort": "SafetyMechanics",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/safetymechanics/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[MLP]",
+     "idShort": "SafetyMechanics",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/safetymechanics/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TemporaryTechnicalData",
+   "idShort": "TemporaryTechnicalData",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/temporarytechnicaldata/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "TemporaryTechnicalData",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/temporarytechnicaldata/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TemporaryTechnicalData > CurrentWorkingSetupName",
+   "idShort": "CurrentWorkingSetupName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/currentworkingsetup/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "CurrentWorkingSetupName",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/currentworkingsetup/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TemporaryTechnicalData > ActiveLoading",
+   "idShort": "ActiveLoading",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/activeloading/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "ActiveLoading",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/activeloading/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TemporaryTechnicalData > LoadingType",
+   "idShort": "LoadingType",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/loadingtype/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "LoadingType",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/loadingtype/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TemporaryTechnicalData > LoadingRequirements",
+   "idShort": "LoadingRequirements",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/loadingrequirements/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[MLP]",
+     "idShort": "LoadingRequirements",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/loadingrequirements/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TemporaryTechnicalData > CurrentAttachments",
+   "idShort": "CurrentAttachments",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/currentattachments/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[SML]",
+     "idShort": "CurrentAttachments",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/currentattachments/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TemporaryTechnicalData > CurrentAttachments > [0]",
+   "idShort": "",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/attachmentid/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..*",
+    "pages": [
+     23
+    ]
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TemporaryTechnicalData > ProprietaryConfigurationOptions",
+   "idShort": "ProprietaryConfigurationOptions",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/proprietaryconfigurationoptions/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[SML]",
+     "idShort": "ProprietaryConfigurationOptions",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/proprietaryconfigurationoptions/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TemporaryTechnicalData > ProprietaryConfigurationOptions > [0]",
+   "idShort": "",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/proprietaryconfigurationoptionsrecord/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..*",
+    "pages": [
+     24
+    ]
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TemporaryTechnicalData > ProprietaryConfigurationOptions > [0] > OptionName",
+   "idShort": "OptionName",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/optionname/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Prop]",
+     "idShort": "OptionName",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/optionname/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SpecificDescriptions > [0] > TemporaryTechnicalData > ProprietaryConfigurationOptions > [0] > OptionValue",
+   "idShort": "OptionValue",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/technicaldataagv/optionvalue/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Prop]",
+     "idShort": "OptionValue",
+     "semanticId": "https://admin-shell.io/idta/technicaldataagv/optionvalue/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  }
+ ]
+}

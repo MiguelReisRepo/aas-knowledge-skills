@@ -1,0 +1,1839 @@
+{
+ "template": "Factory Automation Data for Plant Planning",
+ "version": "1.0.0",
+ "submodelIdShort": "FactoryAutomationDataForPlant",
+ "submodelSemanticId": "https://admin-shell.io/idta/cds/factoryAutomationDataForPlant/1",
+ "json": {
+  "path": "published/Factory Automation Data for Plant Planning/1/0/IDTA 02075_Template_FactoryAutomationDataForPlantPlanning.json",
+  "gitBlob": "6f36376a2c491f93d68ca484862b1d57f3991259"
+ },
+ "pdf": {
+  "path": "published/Factory Automation Data for Plant Planning/1/0/IDTA 02075_Submodel_FactoryAutomationDataForPlantPlanning.pdf",
+  "relation": "same folder",
+  "sha256": "0c7cbc64a5d64592ccff661c6451224ca2d0b641556fba6967243b0000e93275",
+  "annexA": [
+   {
+    "page": 35,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 35,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "json-only": 25,
+  "agree": 42
+ },
+ "elements": [
+  {
+   "path": "AutomationMLData",
+   "idShort": "AutomationMLData",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/cds/automationMLData/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLVersion",
+   "idShort": "AutomationMLVersion",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/automationMLVersion/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLElementReference",
+   "idShort": "AutomationMLElementReference",
+   "modelType": "ReferenceElement",
+   "semanticId": "https://admin-shell.io/idta/cds/automationMLElementReference/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList",
+   "idShort": "AutomationMLAttributeAndInterfaceList",
+   "modelType": "SubmodelElementList",
+   "semanticId": "https://admin-shell.io/idta/cds/automationMLAttributeAndInterfaceList/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > OnOff",
+   "idShort": "OnOff",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/attributeContainer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > OnOff > onOff",
+   "idShort": "onOff",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/onOff/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "onOff",
+     "semanticId": "https://admin-shell.io/idta/cds/onOff/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > OnOff > RelationBetweenPropertyAndAttribute",
+   "idShort": "RelationBetweenPropertyAndAttribute",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Rel]",
+     "idShort": "RelationBetweenPropertyAndAttribute",
+     "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > articleNumber",
+   "idShort": "articleNumber",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/attributeContainer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > articleNumber > ArticleNumber",
+   "idShort": "ArticleNumber",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/articleNumber/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "1",
+    "pages": [
+     9,
+     14
+    ]
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > articleNumber > RelationBetweenPropertyAndAttribute",
+   "idShort": "RelationBetweenPropertyAndAttribute",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Rel]",
+     "idShort": "RelationBetweenPropertyAndAttribute",
+     "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > nameOfSupplier",
+   "idShort": "nameOfSupplier",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/attributeContainer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > nameOfSupplier > NameOfSupplier",
+   "idShort": "NameOfSupplier",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/nameOfSupplier/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "1",
+    "pages": [
+     9,
+     15
+    ]
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > nameOfSupplier > RelationBetweenPropertyAndAttribute",
+   "idShort": "RelationBetweenPropertyAndAttribute",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Rel]",
+     "idShort": "RelationBetweenPropertyAndAttribute",
+     "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > name",
+   "idShort": "name",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/attributeContainer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > name > name",
+   "idShort": "name",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/name/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "name",
+     "semanticId": "https://admin-shell.io/idta/cds/name/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > name > RelationBetweenPropertyAndAttribute",
+   "idShort": "RelationBetweenPropertyAndAttribute",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Rel]",
+     "idShort": "RelationBetweenPropertyAndAttribute",
+     "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > description",
+   "idShort": "description",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/attributeContainer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > description > description",
+   "idShort": "description",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/description/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "description",
+     "semanticId": "https://admin-shell.io/idta/cds/description/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > description > RelationBetweenPropertyAndAttribute",
+   "idShort": "RelationBetweenPropertyAndAttribute",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Rel]",
+     "idShort": "RelationBetweenPropertyAndAttribute",
+     "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > medium",
+   "idShort": "medium",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/attributeContainer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > medium > medium",
+   "idShort": "medium",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/medium/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "medium",
+     "semanticId": "https://admin-shell.io/idta/cds/medium/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > medium > RelationBetweenPropertyAndAttribute",
+   "idShort": "RelationBetweenPropertyAndAttribute",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Rel]",
+     "idShort": "RelationBetweenPropertyAndAttribute",
+     "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > comment",
+   "idShort": "comment",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/attributeContainer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > comment > comment",
+   "idShort": "comment",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/comment/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "comment",
+     "semanticId": "https://admin-shell.io/idta/cds/comment/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > comment > RelationBetweenPropertyAndAttribute",
+   "idShort": "RelationBetweenPropertyAndAttribute",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Rel]",
+     "idShort": "RelationBetweenPropertyAndAttribute",
+     "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > plant",
+   "idShort": "plant",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/attributeContainer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > plant > plant",
+   "idShort": "plant",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/plant/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "plant",
+     "semanticId": "https://admin-shell.io/idta/cds/plant/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > plant > RelationBetweenPropertyAndAttribute",
+   "idShort": "RelationBetweenPropertyAndAttribute",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Rel]",
+     "idShort": "RelationBetweenPropertyAndAttribute",
+     "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > diameter",
+   "idShort": "diameter",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/attributeContainer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > diameter > diameter",
+   "idShort": "diameter",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/diameter/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Prop]",
+     "idShort": "diameter",
+     "semanticId": "https://admin-shell.io/idta/cds/diameter/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > diameter > RelationBetweenPropertyAndAttribute",
+   "idShort": "RelationBetweenPropertyAndAttribute",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Rel]",
+     "idShort": "RelationBetweenPropertyAndAttribute",
+     "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > overallLength",
+   "idShort": "overallLength",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/attributeContainer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > overallLength > overallLength",
+   "idShort": "overallLength",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/overallLength/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "overallLength",
+     "semanticId": "https://admin-shell.io/idta/cds/overallLength/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > overallLength > RelationBetweenPropertyAndAttribute",
+   "idShort": "RelationBetweenPropertyAndAttribute",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Rel]",
+     "idShort": "RelationBetweenPropertyAndAttribute",
+     "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > NominalVoltage",
+   "idShort": "NominalVoltage",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/attributeContainer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > NominalVoltage > NominalVoltage",
+   "idShort": "NominalVoltage",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/nominalVoltage/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Prop]",
+     "idShort": "NominalVoltage",
+     "semanticId": "https://admin-shell.io/idta/cds/nominalVoltage/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > NominalVoltage > RelationBetweenPropertyAndAttribute",
+   "idShort": "RelationBetweenPropertyAndAttribute",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Rel]",
+     "idShort": "RelationBetweenPropertyAndAttribute",
+     "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > nominalPowerConsumption",
+   "idShort": "nominalPowerConsumption",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/attributeContainer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > nominalPowerConsumption > nominalPowerConsumption",
+   "idShort": "nominalPowerConsumption",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/nominalPowerConsumption/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[Prop]",
+     "idShort": "nominalPowerConsumption",
+     "semanticId": "https://admin-shell.io/idta/cds/nominalPowerConsumption/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > nominalPowerConsumption > RelationBetweenPropertyAndAttribute",
+   "idShort": "RelationBetweenPropertyAndAttribute",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Rel]",
+     "idShort": "RelationBetweenPropertyAndAttribute",
+     "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > maximalPowerConsumption",
+   "idShort": "maximalPowerConsumption",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/attributeContainer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > maximalPowerConsumption > maximalPowerConsumption",
+   "idShort": "maximalPowerConsumption",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/maximalPowerConsumption/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     25
+    ],
+    "row": {
+     "page": 25,
+     "type": "[Prop]",
+     "idShort": "maximalPowerConsumption",
+     "semanticId": "https://admin-shell.io/idta/cds/maximalPowerConsumption/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > maximalPowerConsumption > RelationBetweenPropertyAndAttribute",
+   "idShort": "RelationBetweenPropertyAndAttribute",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Rel]",
+     "idShort": "RelationBetweenPropertyAndAttribute",
+     "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > powerNominal",
+   "idShort": "powerNominal",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/attributeContainer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > powerNominal > powerNominal",
+   "idShort": "powerNominal",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/powerNominal/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[Prop]",
+     "idShort": "powerNominal",
+     "semanticId": "https://admin-shell.io/idta/cds/powerNominal/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > powerNominal > RelationBetweenPropertyAndAttribute",
+   "idShort": "RelationBetweenPropertyAndAttribute",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Rel]",
+     "idShort": "RelationBetweenPropertyAndAttribute",
+     "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > powerMaximal",
+   "idShort": "powerMaximal",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/attributeContainer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > powerMaximal > powerMaximal",
+   "idShort": "powerMaximal",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/powerMaximal/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Prop]",
+     "idShort": "powerMaximal",
+     "semanticId": "https://admin-shell.io/idta/cds/powerMaximal/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > powerMaximal > RelationBetweenPropertyAndAttribute",
+   "idShort": "RelationBetweenPropertyAndAttribute",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Rel]",
+     "idShort": "RelationBetweenPropertyAndAttribute",
+     "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > xframe",
+   "idShort": "xframe",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/attributeContainer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > xframe > xframe",
+   "idShort": "xframe",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/xframe/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Prop]",
+     "idShort": "xframe",
+     "semanticId": "https://admin-shell.io/idta/cds/xframe/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > xframe > RelationBetweenPropertyAndAttribute",
+   "idShort": "RelationBetweenPropertyAndAttribute",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Rel]",
+     "idShort": "RelationBetweenPropertyAndAttribute",
+     "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > yframe",
+   "idShort": "yframe",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/attributeContainer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > yframe > yframe",
+   "idShort": "yframe",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/yframe/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     30
+    ],
+    "row": {
+     "page": 30,
+     "type": "[Prop]",
+     "idShort": "yframe",
+     "semanticId": "https://admin-shell.io/idta/cds/yframe/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > yframe > RelationBetweenPropertyAndAttribute",
+   "idShort": "RelationBetweenPropertyAndAttribute",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Rel]",
+     "idShort": "RelationBetweenPropertyAndAttribute",
+     "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > zframe",
+   "idShort": "zframe",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/attributeContainer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > zframe > zframe",
+   "idShort": "zframe",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/zframe/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[Prop]",
+     "idShort": "zframe",
+     "semanticId": "https://admin-shell.io/idta/cds/zframe/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > zframe > RelationBetweenPropertyAndAttribute",
+   "idShort": "RelationBetweenPropertyAndAttribute",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Rel]",
+     "idShort": "RelationBetweenPropertyAndAttribute",
+     "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > rxframe",
+   "idShort": "rxframe",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/attributeContainer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > rxframe > rxframe",
+   "idShort": "rxframe",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/rxframe/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Prop]",
+     "idShort": "rxframe",
+     "semanticId": "https://admin-shell.io/idta/cds/rxframe/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > rxframe > RelationBetweenPropertyAndAttribute",
+   "idShort": "RelationBetweenPropertyAndAttribute",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Rel]",
+     "idShort": "RelationBetweenPropertyAndAttribute",
+     "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > ryframe",
+   "idShort": "ryframe",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/attributeContainer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > ryframe > ryframe",
+   "idShort": "ryframe",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/ryframe/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     33
+    ],
+    "row": {
+     "page": 33,
+     "type": "[Prop]",
+     "idShort": "ryframe",
+     "semanticId": "https://admin-shell.io/idta/cds/ryframe/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > ryframe > RelationBetweenPropertyAndAttribute",
+   "idShort": "RelationBetweenPropertyAndAttribute",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Rel]",
+     "idShort": "RelationBetweenPropertyAndAttribute",
+     "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > rzframe",
+   "idShort": "rzframe",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/cds/attributeContainer/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > rzframe > rzframe",
+   "idShort": "rzframe",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/cds/rzframe/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     34
+    ],
+    "row": {
+     "page": 34,
+     "type": "[Prop]",
+     "idShort": "rzframe",
+     "semanticId": "https://admin-shell.io/idta/cds/rzframe/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "AutomationMLAttributeAndInterfaceList > rzframe > RelationBetweenPropertyAndAttribute",
+   "idShort": "RelationBetweenPropertyAndAttribute",
+   "modelType": "RelationshipElement",
+   "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Rel]",
+     "idShort": "RelationBetweenPropertyAndAttribute",
+     "semanticId": "https://admin-shell.io/idta/cds/relationBetweenPropertyAndAttribute/1",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  }
+ ]
+}

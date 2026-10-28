@@ -1,0 +1,20 @@
+# Knowledge skills exported to the public copy by tools/export-public.sh.
+# One skill folder name per line. Everything not listed here stays private.
+aas-validation
+aas-knowledge
+iec61360
+aasx-format
+aas-security
+eclass-irdi
+aas-submodel-templates
+aas-template-registry
+dpp-knowledge
+aas-nameplate
+aas-handover
+aas-bom
+aas-time-series
+aas-carbon-footprint
+aas-asset-interfaces-description
+aas-asset-interfaces-mapping
+aas-capability-description
+dpp-aas-compliance

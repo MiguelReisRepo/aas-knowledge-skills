@@ -1,0 +1,44 @@
+{
+ "template": "MTP",
+ "version": "1.0.2",
+ "submodelIdShort": "AssetIdentification",
+ "submodelSemanticId": null,
+ "json": {
+  "path": "published/MTP/1/0/2/IDTA_02001-1-0-2_Submodel_MTPv1.0-rc2-with-documentation1_en_forAASMetamodelV3.1.json",
+  "gitBlob": "67b386c36696410f7d420879a40ffe1c9d3333d7"
+ },
+ "pdf": {
+  "path": "published/MTP/1/0/IDTA 02001-1-0_Submodel_MTP.pdf",
+  "relation": "ancestor folder (bug-fix release without its own PDF)",
+  "sha256": "19e55e165b5b0715a13f99bfe15acabfa9db0e7757dcbaa89cf6d8b489dfd1c8",
+  "annexA": [
+   {
+    "page": 16,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 16,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "none": 1
+ },
+ "elements": [
+  {
+   "path": "Manufacturer",
+   "idShort": "Manufacturer",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO677#002",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "none",
+   "effective": null
+  }
+ ]
+}

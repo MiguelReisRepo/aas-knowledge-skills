@@ -1,0 +1,331 @@
+{
+  "skill": "aas-submodel-templates",
+  "skill_version": "1.0.0",
+  "description": "Probes the IDTA template map: template numbers, titles and released versions from the official title pages / version histories, and the cardinality and naming changes between template versions that are commonly reported wrongly (Nameplate 3.0, Carbon Footprint 1.0, Handover 2.0, BoM 1.1).",
+  "items": [
+    {
+      "id": "aas-submodel-templates-001",
+      "question": "Which IDTA number is the Capability Description submodel template, and what is its first released version?",
+      "expected_answer": "IDTA 02020 Capability Description, Version 1.0 (April 2026).",
+      "must_include": [
+        "02020",
+        "1.0"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02020 Capability Description",
+        "revision": "1.0",
+        "section": "Title page",
+        "file": "idta-pdfs:txt/published/Capability Description/1/0/IDTA 02020_Submodel_Capability_Description.txt",
+        "page": 1,
+        "quote": "IDTA 02020 Capability Description Version 1.0 April 2026"
+      },
+      "tags": [
+        "numbering",
+        "version"
+      ]
+    },
+    {
+      "id": "aas-submodel-templates-002",
+      "question": "What is the latest published version of the Digital Nameplate template (IDTA 02006) in the official repository mirror, and when was it released?",
+      "expected_answer": "Version 3.0.1 (a bug-fix release), October 2025.",
+      "must_include": [
+        "3.0.1"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02006 Digital Nameplate for Industrial Equipment",
+        "revision": "3.0.1",
+        "section": "Title page",
+        "file": "idta-pdfs:txt/published/Digital nameplate/3/0/1/IDTA 02006-3-0-1_Submodel_Digital Nameplate.txt",
+        "page": 1,
+        "quote": "IDTA 02006 Digital Nameplate for Industrial Equipment Version 3.0.1 October 2025"
+      },
+      "tags": [
+        "version"
+      ]
+    },
+    {
+      "id": "aas-submodel-templates-003",
+      "question": "Is YearOfConstruction mandatory in Digital Nameplate 3.0?",
+      "expected_answer": "No. Version 3.0 changed YearOfConstruction from [1] (mandatory) to [0..1] (optional).",
+      "must_include": [
+        [
+          "optional",
+          "0..1"
+        ]
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02006 Digital Nameplate for Industrial Equipment",
+        "revision": "3.0.1",
+        "section": "Annex: Changes Version 2.0 to 3.0, major changes",
+        "file": "idta-pdfs:txt/published/Digital nameplate/3/0/1/IDTA 02006-3-0-1_Submodel_Digital Nameplate.txt",
+        "page": 20,
+        "quote": "Property \"YearOfConstruction\": changed cardinality from [1] (mandatory) to [0..1] (optional)"
+      },
+      "tags": [
+        "cardinality",
+        "mandatory-vs-optional",
+        "version-change"
+      ]
+    },
+    {
+      "id": "aas-submodel-templates-004",
+      "question": "In Digital Nameplate 3.0, what is the manufacturer's contact/address SMC called: ContactInformation or something else?",
+      "expected_answer": "AddressInformation: the SMC ContactInformation was renamed to AddressInformation and is now defined by the SMT drop-in Address Information.",
+      "must_include": [
+        "AddressInformation"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02006 Digital Nameplate for Industrial Equipment",
+        "revision": "3.0.1",
+        "section": "Annex: Changes Version 2.0 to 3.0, major changes",
+        "file": "idta-pdfs:txt/published/Digital nameplate/3/0/1/IDTA 02006-3-0-1_Submodel_Digital Nameplate.txt",
+        "page": 20,
+        "quote": "SMC \"ContactInformation\" was renamed to \"AddressInformation\" and is now defined by a drop-in from SMT drop-in \"Address Information\""
+      },
+      "tags": [
+        "idShort",
+        "version-change"
+      ]
+    },
+    {
+      "id": "aas-submodel-templates-005",
+      "question": "Is OrderCodeOfManufacturer optional in Digital Nameplate 3.0, as it was in 2.0?",
+      "expected_answer": "No. Version 3.0 changed OrderCodeOfManufacturer from [0..1] (optional) to [1] (mandatory).",
+      "must_include": [
+        "mandatory"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02006 Digital Nameplate for Industrial Equipment",
+        "revision": "3.0.1",
+        "section": "Annex: Changes Version 2.0 to 3.0, major changes",
+        "file": "idta-pdfs:txt/published/Digital nameplate/3/0/1/IDTA 02006-3-0-1_Submodel_Digital Nameplate.txt",
+        "page": 20,
+        "quote": "Property \"OrderCodeOfManufacturer\": changed cardinality from [0..1] (optional) to [1] (mandatory)"
+      },
+      "tags": [
+        "cardinality",
+        "mandatory-vs-optional",
+        "version-change"
+      ]
+    },
+    {
+      "id": "aas-submodel-templates-006",
+      "question": "Does the released IDTA 02023 Carbon Footprint v1.0 template still model a Transport Carbon Footprint (TCF)?",
+      "expected_answer": "No. Version 1.0 removed the Transport Carbon Footprint (it remains a product carbon footprint template).",
+      "must_include": [
+        "removed"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02023 Carbon Footprint",
+        "revision": "1.0",
+        "section": "Version history (1.0, 17.09.2024)",
+        "file": "idta-pdfs:txt/published/Carbon Footprint/1/0/IDTA 02023_Submodel_CarbonFootprint.txt",
+        "page": 2,
+        "quote": "Transport Carbon Footprint removed"
+      },
+      "tags": [
+        "removed-between-versions"
+      ]
+    },
+    {
+      "id": "aas-submodel-templates-007",
+      "question": "Which ECLASS release do the IRDIs in IDTA 02023 Carbon Footprint v1.0 come from?",
+      "expected_answer": "ECLASS 15 (v1.0 updated them from ECLASS 13 IRDIs).",
+      "must_include": [
+        [
+          "ECLASS 15",
+          "Release 15"
+        ]
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02023 Carbon Footprint",
+        "revision": "1.0",
+        "section": "Version history (1.0, 17.09.2024)",
+        "file": "idta-pdfs:txt/published/Carbon Footprint/1/0/IDTA 02023_Submodel_CarbonFootprint.txt",
+        "page": 2,
+        "quote": "Update from ECLASS 13 IRDIs to ECLASS 15"
+      },
+      "tags": [
+        "eclass-release",
+        "version-change"
+      ]
+    },
+    {
+      "id": "aas-submodel-templates-008",
+      "question": "Is IDTA 02004 Handover Documentation 2.0 (June 2025) the latest published version of that template?",
+      "expected_answer": "No. A bug-fix version 2.0.1 of IDTA 02004 was released on 2025-11-03 (November 2025).",
+      "must_include": [
+        "2.0.1"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02004 Handover Documentation",
+        "revision": "2.0.1",
+        "section": "Version history",
+        "file": "idta-pdfs:txt/published/Handover Documentation/2/0/1/IDTA 02004-2-0-1_Submodel_Handover Documentation.txt",
+        "page": 2,
+        "quote": "2025-11-03 2.0.1 Release of the bug fix version of the Submodel template published by IDTA"
+      },
+      "tags": [
+        "version"
+      ]
+    },
+    {
+      "id": "aas-submodel-templates-009",
+      "question": "Was IDTA 02008 Time Series Data version 1.0 ever officially published, or is 1.1 the first official release?",
+      "expected_answer": "1.0 was used for development only and never officially published; 1.1 (March 2023) is the first official IDTA release.",
+      "must_include": [
+        "1.1",
+        "development"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02008 Time Series Data",
+        "revision": "1.1",
+        "section": "Version history",
+        "file": "idta-pdfs:txt/published/Time Series Data/1/1/IDTA 02008-1-1_Submodel_TimeSeriesData.txt",
+        "page": 2,
+        "quote": "1.0 Used for development only. No official version published. 2023-03-01 1.1 Release of the official Submodel template published by IDTA."
+      },
+      "tags": [
+        "version"
+      ]
+    },
+    {
+      "id": "aas-submodel-templates-010",
+      "question": "Which version of IDTA 02011 Hierarchical Structures enabling Bills of Material targets AAS Metamodel V3, and is it guaranteed backward compatible with 1.0?",
+      "expected_answer": "Version 1.1; it is the adaptation to Metamodel Version 3 and may contain breaking changes, so backward compatibility with 1.0 is not guaranteed.",
+      "must_include": [
+        "1.1",
+        "breaking"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02011 Hierarchical Structures enabling Bills of Material",
+        "revision": "1.1",
+        "section": "Version history",
+        "file": "idta-pdfs:txt/published/Hierarchical Structures enabling Bills of Material/1/1/IDTA 02011-1-1_Submodel_HierarchicalStructuresEnablingBoM.txt",
+        "page": 2,
+        "quote": "Adaptation to Asset Administration Shell Metamodel Version 3. May contain breaking changes corresponding to the Metamodel."
+      },
+      "tags": [
+        "version",
+        "breaking-change"
+      ]
+    },
+    {
+      "id": "aas-submodel-templates-011",
+      "question": "Which IDTA template number and part carries the Digital Battery Passport's nameplate data?",
+      "expected_answer": "IDTA 02035-1, Digital Battery Passport Part 1 Digital Nameplate (February 2026).",
+      "must_include": [
+        "02035-1"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02035-1 Digital Battery Passport - Part 1 Digital Nameplate",
+        "revision": "1.0",
+        "section": "Title page",
+        "file": "idta-pdfs:txt/published/Digital Battery Passport/1_Digital Nameplate/1/0/IDTA 02035-1_DBP-Part-1_Digital Nameplate.txt",
+        "page": 1,
+        "quote": "IDTA 02035-1: Digital Battery Passport – Part 1 Digital Nameplate February 2026"
+      },
+      "tags": [
+        "numbering",
+        "dpp"
+      ]
+    },
+    {
+      "id": "aas-submodel-templates-012",
+      "question": "What is IDTA 02099-1 and when was it released?",
+      "expected_answer": "IDTA 02099-1 Digital Product Passport - Part 1 Metadata (DppMetadata), released May 2026.",
+      "must_include": [
+        "Metadata",
+        [
+          "May 2026",
+          "2026"
+        ]
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02099-1 Digital Product Passport - Part 1 Metadata",
+        "revision": "1.0",
+        "section": "Title page",
+        "file": "idta-pdfs:txt/published/Digital Product Passport/Digital Product Passport Part-1/1/0/0/IDTA 02099-1_Submodel Digital Product Passport - Part 1.txt",
+        "page": 1,
+        "quote": "IDTA 02099-1: Digital Product Passport - Part 1 Metadata May 2026"
+      },
+      "tags": [
+        "numbering",
+        "dpp"
+      ]
+    },
+    {
+      "id": "aas-submodel-templates-013",
+      "question": "Which IDTA submodel template declares data retention policies, and which version is published?",
+      "expected_answer": "IDTA 02056 Data Retention Policies, version 1.0 (IDTA 02056-1-0, June 2024).",
+      "must_include": [
+        "02056"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02056 Data Retention Policies",
+        "revision": "1.0",
+        "section": "Title page",
+        "file": "idta-pdfs:txt/published/Data Retention Policies/1/0/IDTA 02056-1-0_Submodel_Data Retention Policies.txt",
+        "page": 1,
+        "quote": "IDTA 02056-1-0 Data Retention Policies June 2024"
+      },
+      "tags": [
+        "numbering"
+      ]
+    },
+    {
+      "id": "aas-submodel-templates-014",
+      "question": "Is IDTA 02003 Technical Data version 2.0 (March 2025) the latest published release?",
+      "expected_answer": "No. A bug-fix version 2.0.1 was released in November 2025 (03-11-2025).",
+      "must_include": [
+        "2.0.1"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02003 Generic Frame for Technical Data for Industrial Equipment in Manufacturing",
+        "revision": "2.0.1",
+        "section": "Version history",
+        "file": "idta-pdfs:txt/published/Technical_Data/2/0/1/IDTA 02003_2-0-1_Template_TechnicalData.txt",
+        "page": 2,
+        "quote": "03-11-2025 2.0.1 Release of the bug fix version of the Submodel template published by IDTA"
+      },
+      "tags": [
+        "version"
+      ]
+    },
+    {
+      "id": "aas-submodel-templates-015",
+      "question": "Is version 1.1 (April 2026) still the latest released version of IDTA 02017 Asset Interfaces Description?",
+      "expected_answer": "No. Version 1.2 was released on 05.10.2026 (after 1.0 in January 2024 and 1.1 in April 2026).",
+      "must_include": [
+        "1.2"
+      ],
+      "must_not_include": [],
+      "citation": {
+        "document": "IDTA 02017 Asset Interfaces Description",
+        "revision": "1.2",
+        "section": "Version history",
+        "file": "idta-pdfs:txt/published/Asset Interfaces Description/1/2/IDTA 02017_Submodel_Asset Interfaces Description.txt",
+        "page": 2,
+        "quote": "05.10.2026 1.2 Release of the official Submodel template published by IDTA."
+      },
+      "tags": [
+        "version",
+        "drift"
+      ]
+    }
+  ]
+}

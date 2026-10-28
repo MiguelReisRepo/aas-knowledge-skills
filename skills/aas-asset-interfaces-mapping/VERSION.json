@@ -1,0 +1,33 @@
+{
+  "skill": "aas-asset-interfaces-mapping",
+  "version": "1.0.0",
+  "last_verified": "2026-10-27",
+  "sources": [
+    {
+      "document": "IDTA 02027 Asset Interfaces Mapping Configuration (PDF + unpaged txt)",
+      "revision": "2.0, May 2026 edition (22 pages); bundled PDF sha256 02a631205cb0... is NOT in the mirror; the mirror 2/0 and 2/1 folders carry the July 2026 re-upload (sha256 eed7e414c739..., 21 pages, cover misprinted 'Version 1.0'), same semanticIds/cardinalities",
+      "file": "skills/aas-asset-interfaces-mapping/IDTA-02027_Submodel_Asset-Interfaces-Mapping-Configuration.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/main/published/Asset%20Interfaces%20Mapping%20Configuration/2/0",
+      "bundled": true
+    },
+    {
+      "document": "IDTA 02027 AIMC - official template JSON",
+      "revision": "2.1 bug-fix folder (administration version 2 revision 0), sha256 2d6699e52f00...",
+      "file": "idta-pdfs:json/published/Asset Interfaces Mapping Configuration/2/1/IDTA 02027_Template_AIMC.json",
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/main/published/Asset%20Interfaces%20Mapping%20Configuration/2/1",
+      "bundled": false
+    },
+    {
+      "document": "IDTA 02027-1-0 AIMC (paged txt of the mirror PDF)",
+      "revision": "1.0; mirror PDF sha256 aadadb998e21...",
+      "file": "idta-pdfs:txt/published/Asset Interfaces Mapping Configuration/1/0/IDTA 02027-1-0_Submodel_AssetInterfacesMappingConfiguration.txt",
+      "url": "https://github.com/admin-shell-io/submodel-templates/tree/main/published/Asset%20Interfaces%20Mapping%20Configuration/1/0",
+      "bundled": false
+    }
+  ],
+  "latest_in_mirror": "Latest spec content is 2.0 (folder 2/1 is a JSON-only bug-fix with the same PDF). Bundled PDF is the earlier May edition of 2.0, not byte-equal to the mirror's July edition; text differs only in layout/cover/missing description text layer.",
+  "claims_not_verifiable_on_disk": [
+    "Lua 5.x language semantics and the Python/lupa prototype behaviour (Annex B) beyond what the PDF prints"
+  ],
+  "notes": "SKILL's AAS 3.1 RelationshipElement first/second minOccurs=0 claim checked against vendored schemas/3.1/AAS.xsd (group relationshipElement, line 791); 3.0 has no minOccurs (mandatory)."
+}

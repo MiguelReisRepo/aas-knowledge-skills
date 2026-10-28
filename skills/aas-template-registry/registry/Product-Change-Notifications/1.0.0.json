@@ -1,0 +1,1854 @@
+{
+ "template": "Product Change Notifications",
+ "version": "1.0.0",
+ "submodelIdShort": "ProductChangeNotifications",
+ "submodelSemanticId": "0173-1#01-AHE582#003",
+ "json": {
+  "path": "published/Product Change Notifications/1/0/IDTA_02036_Template_ProductChangeNotifications.json",
+  "gitBlob": "99de4642f5f8dfcf7cb20524754ef0ed74b0f235"
+ },
+ "pdf": {
+  "path": "published/Product Change Notifications/1/0/IDTA_02036_Submodel_ProductChangeNotifications.pdf",
+  "relation": "same folder",
+  "sha256": "dff63ec8f53252ad4898392b517ab6dce1d4a28ef065c6a29ddd54b77c31b64e",
+  "annexA": [
+   {
+    "page": 39,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 39,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 57,
+  "unverified": 6,
+  "json-only": 6,
+  "divergent": 1,
+  "pdf-only": 8
+ },
+ "elements": [
+  {
+   "path": "PcnEventsOutgoing",
+   "idShort": "PcnEventsOutgoing",
+   "modelType": "BasicEventElement",
+   "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/EventsOutgoing/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Evt]",
+     "idShort": "PcnEventsOutgoing",
+     "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/EventsOutgoing/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records",
+   "idShort": "Records",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABI294#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[SML]",
+     "idShort": "Records",
+     "semanticId": "0173-1#02-ABI294#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__",
+   "idShort": "Record__0000__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABI294#003/0173-1#01-AHE583#003",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..*",
+    "pages": [
+     14
+    ]
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "Records > Record__0000__ > Manufacturer",
+   "idShort": "Manufacturer",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABI295#003/0173-1#01-AHE584#003",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SMC]",
+     "idShort": "Manufacturer",
+     "semanticId": "0173-1#02-ABI295#003/0173-1#01-AHE584#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > Manufacturer > ManufacturerName",
+   "idShort": "ManufacturerName",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO677#004",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     24
+    ],
+    "row": {
+     "page": 24,
+     "type": "[MLP]",
+     "idShort": "ManufacturerName",
+     "semanticId": "0173-1#02-AAO677#004",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > Manufacturer > PhysicalAddress__0__",
+   "idShort": "PhysicalAddress__0__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations/ContactInformation",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "1",
+    "pages": [
+     24
+    ]
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > Manufacturer > PhysicalAddress__1__",
+   "idShort": "PhysicalAddress__1__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0112/2///61360_7#AAS034",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "medium",
+    "card": "1",
+    "pages": [
+     24
+    ]
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > ManufacturerChangeID",
+   "idShort": "ManufacturerChangeID",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABG772#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "ManufacturerChangeID",
+     "semanticId": "0173-1#02-ABG772#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > PcnType",
+   "idShort": "PcnType",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/PcnType/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "PcnType",
+     "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/PcnType/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > LifeCycleData",
+   "idShort": "LifeCycleData",
+   "modelType": "SubmodelElementList",
+   "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/LifeCycleData/List/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SML]",
+     "idShort": "LifeCycleData",
+     "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/LifeCycleData/List/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > LifeCycleData > Milestone__00__",
+   "idShort": "Milestone__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/LifeCycleData/Milestone/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..*",
+    "pages": [
+     25
+    ]
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "Records > Record__0000__ > LifeCycleData > Milestone__00__ > MilestoneClassification",
+   "idShort": "MilestoneClassification",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABG773#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Prop]",
+     "idShort": "MilestoneClassification",
+     "semanticId": "0173-1#02-ABG773#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > LifeCycleData > Milestone__00__ > DateOfValidity",
+   "idShort": "DateOfValidity",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF815#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     26
+    ],
+    "row": {
+     "page": 26,
+     "type": "[Prop]",
+     "idShort": "DateOfValidity",
+     "semanticId": "0173-1#02-ABF815#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > ReasonsOfChange",
+   "idShort": "ReasonsOfChange",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABI296#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SML]",
+     "idShort": "ReasonsOfChange",
+     "semanticId": "0173-1#02-ABI296#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > ReasonsOfChange > ReasonOfChange__00__",
+   "idShort": "ReasonOfChange__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABI296#002/0173-1#01-AHE585#002",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "1..*",
+    "pages": [
+     26
+    ]
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "Records > Record__0000__ > ReasonsOfChange > ReasonOfChange__00__ > ReasonClassificationSystem",
+   "idShort": "ReasonClassificationSystem",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF813#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     27
+    ],
+    "row": {
+     "page": 27,
+     "type": "[Prop]",
+     "idShort": "ReasonClassificationSystem",
+     "semanticId": "0173-1#02-ABF813#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > ReasonsOfChange > ReasonOfChange__00__ > VersionOfClassificationSystem",
+   "idShort": "VersionOfClassificationSystem",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAR710#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     27,
+     29,
+     32
+    ],
+    "row": {
+     "page": 27,
+     "type": "[Prop]",
+     "idShort": "VersionOfClassificationSystem",
+     "semanticId": "0173-1#02-AAR710#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > ReasonsOfChange > ReasonOfChange__00__ > ReasonId",
+   "idShort": "ReasonId",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABG774#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     27,
+     34
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemCategories",
+   "idShort": "ItemCategories",
+   "modelType": "SubmodelElementList",
+   "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/ItemCategory/List/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[SML]",
+     "idShort": "ItemCategories",
+     "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/ItemCategory/List/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemCategories > ItemCategory__00__",
+   "idShort": "ItemCategory__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/ItemCategory/1/0",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "1..*",
+    "pages": [
+     28
+    ]
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemCategories > ItemCategory__00__ > ItemClassificationSystem",
+   "idShort": "ItemClassificationSystem",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/ItemCategory/ItemClassificationSystem/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     28
+    ],
+    "row": {
+     "page": 28,
+     "type": "[Prop]",
+     "idShort": "ItemClassificationSystem",
+     "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/ItemCategory/ItemClassificationSystem/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemCategories > ItemCategory__00__ > VersionOfClassificationSystem",
+   "idShort": "VersionOfClassificationSystem",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAR710#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     27,
+     29,
+     32
+    ],
+    "row": {
+     "page": 27,
+     "type": "[Prop]",
+     "idShort": "VersionOfClassificationSystem",
+     "semanticId": "0173-1#02-AAR710#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemCategories > ItemCategory__00__ > ItemCategory",
+   "idShort": "ItemCategory",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/ItemCategory/ItemCategory/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     29
+    ],
+    "row": {
+     "page": 29,
+     "type": "[Prop]",
+     "idShort": "ItemCategory",
+     "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/ItemCategory/ItemCategory/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > AffectedPartNumbers",
+   "idShort": "AffectedPartNumbers",
+   "modelType": "SubmodelElementList",
+   "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/AffectedPartNumber/List/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[SML]",
+     "idShort": "AffectedPartNumbers",
+     "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/AffectedPartNumber/List/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > AffectedPartNumbers > AffectedPartNumber__00__",
+   "idShort": "AffectedPartNumber__00__",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/AffectedPartNumber/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..*",
+    "pages": [
+     30
+    ]
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "Records > Record__0000__ > PcnReasonComment",
+   "idShort": "PcnReasonComment",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-ABF814#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[MLP]",
+     "idShort": "PcnReasonComment",
+     "semanticId": "0173-1#02-ABF814#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > PcnChangeInformation",
+   "idShort": "PcnChangeInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/PcnChangeInformation/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[SMC]",
+     "idShort": "PcnChangeInformation",
+     "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/PcnChangeInformation/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > PcnChangeInformation > ChangeTitle",
+   "idShort": "ChangeTitle",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/PcnChangeInformation/ChangeTitle/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[MLP]",
+     "idShort": "ChangeTitle",
+     "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/PcnChangeInformation/ChangeTitle/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > PcnChangeInformation > ChangeDetail",
+   "idShort": "ChangeDetail",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/PcnChangeInformation/ChangeDetail/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     31
+    ],
+    "row": {
+     "page": 31,
+     "type": "[MLP]",
+     "idShort": "ChangeDetail",
+     "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/PcnChangeInformation/ChangeDetail/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > AdditionalInformation",
+   "idShort": "AdditionalInformation",
+   "modelType": "SubmodelElementList",
+   "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/AdditionalInformation/List/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[SML]",
+     "idShort": "AdditionalInformation",
+     "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/AdditionalInformation/List/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > AdditionalInformation > AdditionalInformation__00__",
+   "idShort": "AdditionalInformation__00__",
+   "modelType": "File",
+   "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/AdditionalInformation/AdditionalInformation/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "Records > Record__0000__ > DateOfRecord",
+   "idShort": "DateOfRecord",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABF816#003",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[Prop]",
+     "idShort": "DateOfRecord",
+     "semanticId": "0173-1#02-ABF816#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemOfChange",
+   "idShort": "ItemOfChange",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABI297#003/0173-1#01-AHE586#003",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     17
+    ],
+    "row": {
+     "page": 17,
+     "type": "[SMC]",
+     "idShort": "ItemOfChange",
+     "semanticId": "0173-1#02-ABI297#003/0173-1#01-AHE586#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemOfChange > ManufacturerProductFamily",
+   "idShort": "ManufacturerProductFamily",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAU731#003",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     21
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MLP]",
+     "idShort": "ManufacturerProductFamily",
+     "semanticId": "0173-1#02-AAU731#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemOfChange > ManufacturerProductDesignation",
+   "idShort": "ManufacturerProductDesignation",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAW338#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     21
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MLP]",
+     "idShort": "ManufacturerProductDesignation",
+     "semanticId": "0173-1#02-AAW338#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemOfChange > OrderCodeOfManufacturer",
+   "idShort": "OrderCodeOfManufacturer",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO227#004",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     19,
+     22
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemOfChange > ManufacturerAssetID",
+   "idShort": "ManufacturerAssetID",
+   "modelType": "ReferenceElement",
+   "semanticId": "0173-1#02-ABG775#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Ref]",
+     "idShort": "ManufacturerAssetID",
+     "semanticId": "0173-1#02-ABG775#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemOfChange > ProductClassifications",
+   "idShort": "ProductClassifications",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABI298#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19,
+     22
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SML]",
+     "idShort": "ProductClassifications",
+     "semanticId": "0173-1#02-ABI298#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemOfChange > ProductClassifications > ProductClassification__00__",
+   "idShort": "ProductClassification__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABI298#002/0173-1#01-AHE587#002",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..*"
+    ],
+    "pages": [
+     31
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemOfChange > ProductClassifications > ProductClassification__00__ > ClassificationSystem",
+   "idShort": "ClassificationSystem",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAR709#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Prop]",
+     "idShort": "ClassificationSystem",
+     "semanticId": "0173-1#02-AAR709#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemOfChange > ProductClassifications > ProductClassification__00__ > VersionOfClassificationSystem",
+   "idShort": "VersionOfClassificationSystem",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAR710#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     27,
+     29,
+     32
+    ],
+    "row": {
+     "page": 27,
+     "type": "[Prop]",
+     "idShort": "VersionOfClassificationSystem",
+     "semanticId": "0173-1#02-AAR710#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemOfChange > ProductClassifications > ProductClassification__00__ > ProductClassId",
+   "idShort": "ProductClassId",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABG776#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Prop]",
+     "idShort": "ProductClassId",
+     "semanticId": "0173-1#02-ABG776#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemOfChange > HardwareVersion",
+   "idShort": "HardwareVersion",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAN270#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "HardwareVersion",
+     "semanticId": "0173-1#02-AAN270#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemOfChange > RemainingAmountAvailable",
+   "idShort": "RemainingAmountAvailable",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-BAF551#004",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "RemainingAmountAvailable",
+     "semanticId": "0173-1#02-BAF551#004",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemOfChange > TechnicalData_Changes",
+   "idShort": "TechnicalData_Changes",
+   "modelType": "SubmodelElementList",
+   "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/TechnicalData_Changes/List/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SML]",
+     "idShort": "TechnicalData_Changes",
+     "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/TechnicalData_Changes/List/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemOfChange > TechnicalData_Changes > SingleChange__00__",
+   "idShort": "SingleChange__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/TechnicalData_Changes/Change/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "medium",
+    "card": "0..*",
+    "pages": [
+     33
+    ]
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemOfChange > TechnicalData_Changes > SingleChange__00__ > Arbitrary",
+   "idShort": "Arbitrary",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33
+    ],
+    "row": {
+     "page": 33,
+     "type": "[Prop]",
+     "idShort": "Arbitrary",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemOfChange > TechnicalData_Changes > SingleChange__00__ > OriginOfChange",
+   "idShort": "OriginOfChange",
+   "modelType": "ReferenceElement",
+   "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/TechnicalData_Changes/OriginOfChange/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     34
+    ],
+    "row": {
+     "page": 34,
+     "type": "[Ref]",
+     "idShort": "OriginOfChange",
+     "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/TechnicalData_Changes/OriginOfChange/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemOfChange > TechnicalData_Changes > SingleChange__00__ > ReasonId",
+   "idShort": "ReasonId",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABG774#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     27,
+     34
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemOfChange > TechnicalData_CurrentState",
+   "idShort": "TechnicalData_CurrentState",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/TechnicalData_CurrentState/List/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[SMC]",
+     "idShort": "TechnicalData_CurrentState",
+     "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/TechnicalData_CurrentState/List/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > ItemOfChange > TechnicalData_CurrentState > Arbitrary",
+   "idShort": "Arbitrary",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33
+    ],
+    "row": {
+     "page": 33,
+     "type": "[Prop]",
+     "idShort": "Arbitrary",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..1"
+    }
+   },
+   "status": "divergent",
+   "effective": "0..*"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems",
+   "idShort": "RecommendedItems",
+   "modelType": "SubmodelElementList",
+   "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/RecommendedItem/List/1/0",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SML]",
+     "idShort": "RecommendedItems",
+     "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/RecommendedItem/List/1/0",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__",
+   "idShort": "RecommendedItem__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/VDMA/Fluidics/ProductChangeNotification/RecommendedItem/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > ManufacturerProductFamily",
+   "idShort": "ManufacturerProductFamily",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAU731#003",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     21
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MLP]",
+     "idShort": "ManufacturerProductFamily",
+     "semanticId": "0173-1#02-AAU731#003",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > ManufacturerProductDesignation",
+   "idShort": "ManufacturerProductDesignation",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAW338#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19,
+     21
+    ],
+    "row": {
+     "page": 19,
+     "type": "[MLP]",
+     "idShort": "ManufacturerProductDesignation",
+     "semanticId": "0173-1#02-AAW338#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > OrderCodeOfManufacturer",
+   "idShort": "OrderCodeOfManufacturer",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "0173-1#02-AAO227#004",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     19,
+     22
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > ProductClassifications",
+   "idShort": "ProductClassifications",
+   "modelType": "SubmodelElementList",
+   "semanticId": "0173-1#02-ABI298#002",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19,
+     22
+    ],
+    "row": {
+     "page": 19,
+     "type": "[SML]",
+     "idShort": "ProductClassifications",
+     "semanticId": "0173-1#02-ABI298#002",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > ProductClassifications > ProductClassification__00__",
+   "idShort": "ProductClassification__00__",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABI298#002/0173-1#01-AHE587#002",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": true,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..*"
+    ],
+    "pages": [
+     31
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..*"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > ProductClassifications > ProductClassification__00__ > ClassificationSystem",
+   "idShort": "ClassificationSystem",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAR709#002",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Prop]",
+     "idShort": "ClassificationSystem",
+     "semanticId": "0173-1#02-AAR709#002",
+     "card": "1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > ProductClassifications > ProductClassification__00__ > VersionOfClassificationSystem",
+   "idShort": "VersionOfClassificationSystem",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAR710#002",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     27,
+     29,
+     32
+    ],
+    "row": {
+     "page": 27,
+     "type": "[Prop]",
+     "idShort": "VersionOfClassificationSystem",
+     "semanticId": "0173-1#02-AAR710#002",
+     "card": "0..1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > ProductClassifications > ProductClassification__00__ > ProductClassId",
+   "idShort": "ProductClassId",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABG776#002",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     32
+    ],
+    "row": {
+     "page": 32,
+     "type": "[Prop]",
+     "idShort": "ProductClassId",
+     "semanticId": "0173-1#02-ABG776#002",
+     "card": "1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > TechnicalData_Fit",
+   "idShort": "TechnicalData_Fit",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABI299#003/0173-1#01-AHE588#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[SMC]",
+     "idShort": "TechnicalData_Fit",
+     "semanticId": "0173-1#02-ABI299#003/0173-1#01-AHE588#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > TechnicalData_Fit > TargetEstimate",
+   "idShort": "TargetEstimate",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABG777#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > TechnicalData_Fit > Arbitrary",
+   "idShort": "Arbitrary",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33
+    ],
+    "row": {
+     "page": 33,
+     "type": "[Prop]",
+     "idShort": "Arbitrary",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > TechnicalData_Form",
+   "idShort": "TechnicalData_Form",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABI300#003/0173-1#01-AHE589#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[SMC]",
+     "idShort": "TechnicalData_Form",
+     "semanticId": "0173-1#02-ABI300#003/0173-1#01-AHE589#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > TechnicalData_Form > TargetEstimate",
+   "idShort": "TargetEstimate",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABG777#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > TechnicalData_Form > Arbitrary",
+   "idShort": "Arbitrary",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33
+    ],
+    "row": {
+     "page": 33,
+     "type": "[Prop]",
+     "idShort": "Arbitrary",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > TechnicalData_Function",
+   "idShort": "TechnicalData_Function",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABI301#003/0173-1#01-AHE590#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[SMC]",
+     "idShort": "TechnicalData_Function",
+     "semanticId": "0173-1#02-ABI301#003/0173-1#01-AHE590#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > TechnicalData_Function > TargetEstimate",
+   "idShort": "TargetEstimate",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABG777#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > TechnicalData_Function > Arbitrary",
+   "idShort": "Arbitrary",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33
+    ],
+    "row": {
+     "page": 33,
+     "type": "[Prop]",
+     "idShort": "Arbitrary",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > TechnicalData_Other",
+   "idShort": "TechnicalData_Other",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABI302#003/0173-1#01-AHE591#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[SMC]",
+     "idShort": "TechnicalData_Other",
+     "semanticId": "0173-1#02-ABI302#003/0173-1#01-AHE591#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > TechnicalData_Other > TargetEstimate",
+   "idShort": "TargetEstimate",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABG777#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > TechnicalData_Other > Arbitrary",
+   "idShort": "Arbitrary",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33
+    ],
+    "row": {
+     "page": 33,
+     "type": "[Prop]",
+     "idShort": "Arbitrary",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > IncotermCode",
+   "idShort": "IncotermCode",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAO280#004",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Prop]",
+     "idShort": "IncotermCode",
+     "semanticId": "0173-1#02-AAO280#004",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > DeliveryTimeClassOtherRegion",
+   "idShort": "DeliveryTimeClassOtherRegion",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABG779#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Prop]",
+     "idShort": "DeliveryTimeClassOtherRegion",
+     "semanticId": "0173-1#02-ABG779#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > DeliveryTimeClassSameRegion",
+   "idShort": "DeliveryTimeClassSameRegion",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-ABG778#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[Prop]",
+     "idShort": "DeliveryTimeClassSameRegion",
+     "semanticId": "0173-1#02-ABG778#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > ConformityDeclarations",
+   "idShort": "ConformityDeclarations",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#02-ABI303#003/0173-1#01-AHE592#003",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     23
+    ],
+    "row": {
+     "page": 23,
+     "type": "[SMC]",
+     "idShort": "ConformityDeclarations",
+     "semanticId": "0173-1#02-ABI303#003/0173-1#01-AHE592#003",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "Records > Record__0000__ > RecommendedItems > RecommendedItem__00__ > ConformityDeclarations > Arbitrary",
+   "idShort": "Arbitrary",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+   "json": null,
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     33
+    ],
+    "row": {
+     "page": 33,
+     "type": "[Prop]",
+     "idShort": "Arbitrary",
+     "semanticId": "https://admin-shell.io/SMT/General/Arbitrary",
+     "card": "0..1"
+    }
+   },
+   "status": "pdf-only",
+   "effective": "0..1"
+  }
+ ]
+}

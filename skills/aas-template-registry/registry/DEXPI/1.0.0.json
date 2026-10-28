@@ -1,0 +1,4011 @@
+{
+ "template": "DEXPI",
+ "version": "1.0.0",
+ "submodelIdShort": "DEXPI",
+ "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/DEXPI/1/0",
+ "json": {
+  "path": "published/DEXPI/1/0/IDTA 02012-1-0_Template_DEXPI.json",
+  "gitBlob": "0d2a277b99665328c5923554f8585bb994141002"
+ },
+ "pdf": {
+  "path": "published/DEXPI/1/0/IDTA 02012-1-0_Submodel_DEXPI.pdf",
+  "relation": "same folder",
+  "sha256": "7772a3394bf93fad26192057f59a7969975da3f8dbbe789899ac89de5a5a633f",
+  "annexA": []
+ },
+ "counts": {
+  "json-only": 285
+ },
+ "elements": [
+  {
+   "path": "PlantMetadata",
+   "idShort": "PlantMetadata",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/PlantMetadata",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "PlantMetadata > EnterpriseReference",
+   "idShort": "EnterpriseReference",
+   "modelType": "ReferenceElement",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/EnterpriseReference",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlantMetadata > SiteReference",
+   "idShort": "SiteReference",
+   "modelType": "ReferenceElement",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SiteReference",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlantMetadata > IndustrialComplexReference",
+   "idShort": "IndustrialComplexReference",
+   "modelType": "ReferenceElement",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/IndustrialComplexReference",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlantMetadata > ProcessPlantReference",
+   "idShort": "ProcessPlantReference",
+   "modelType": "ReferenceElement",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ProcessPlantReference",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlantMetadata > PlantSectionReference",
+   "idShort": "PlantSectionReference",
+   "modelType": "ReferenceElement",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/PlantSectionReference",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlantMetadata > EnterpriseIdentificationCode",
+   "idShort": "EnterpriseIdentificationCode",
+   "modelType": "Property",
+   "semanticId": "http://sandbox.dexpi.org/rdl/EnterpriseIdentificationCodeAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlantMetadata > EnterpriseName",
+   "idShort": "EnterpriseName",
+   "modelType": "Property",
+   "semanticId": "http://sandbox.dexpi.org/rdl/EnterpriseNameAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlantMetadata > IndustrialComplexIdentificationCode",
+   "idShort": "IndustrialComplexIdentificationCode",
+   "modelType": "Property",
+   "semanticId": "http://sandbox.dexpi.org/rdl/IndustrialComplexIdentificationCodeAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlantMetadata > IndustrialComplexName",
+   "idShort": "IndustrialComplexName",
+   "modelType": "Property",
+   "semanticId": "http://sandbox.dexpi.org/rdl/IndustrialComplexNameAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlantMetadata > PlantSectionIdentificationCode",
+   "idShort": "PlantSectionIdentificationCode",
+   "modelType": "Property",
+   "semanticId": "http://sandbox.dexpi.org/rdl/PlantSectionIdentificationCodeAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlantMetadata > PlantSectionName",
+   "idShort": "PlantSectionName",
+   "modelType": "Property",
+   "semanticId": "http://sandbox.dexpi.org/rdl/PlantSectionNameAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlantMetadata > ProcessPlantIdentificationCode",
+   "idShort": "ProcessPlantIdentificationCode",
+   "modelType": "Property",
+   "semanticId": "http://sandbox.dexpi.org/rdl/ProcessPlantIdentificationCodeAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlantMetadata > ProcessPlantName",
+   "idShort": "ProcessPlantName",
+   "modelType": "Property",
+   "semanticId": "http://sandbox.dexpi.org/rdl/ProcessPlantNameAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlantMetadata > ProjectName",
+   "idShort": "ProjectName",
+   "modelType": "Property",
+   "semanticId": "http://sandbox.dexpi.org/rdl/ProjectNameAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlantMetadata > ProjectNumber",
+   "idShort": "ProjectNumber",
+   "modelType": "Property",
+   "semanticId": "http://sandbox.dexpi.org/rdl/ProjectNumberAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlantMetadata > SiteIdentificationCode",
+   "idShort": "SiteIdentificationCode",
+   "modelType": "Property",
+   "semanticId": "http://sandbox.dexpi.org/rdl/SiteIdentificationCodeAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlantMetadata > SiteName",
+   "idShort": "SiteName",
+   "modelType": "Property",
+   "semanticId": "http://sandbox.dexpi.org/rdl/SiteNameAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlantMetadata > SubProjectName",
+   "idShort": "SubProjectName",
+   "modelType": "Property",
+   "semanticId": "http://sandbox.dexpi.org/rdl/SubProjectNameAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlantMetadata > SubProjectNumber",
+   "idShort": "SubProjectNumber",
+   "modelType": "Property",
+   "semanticId": "http://sandbox.dexpi.org/rdl/SubProjectNumberAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlantMetadata > ManufacturerName",
+   "idShort": "ManufacturerName",
+   "modelType": "Property",
+   "semanticId": "",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlantMetadata > DateOfManufacture",
+   "idShort": "DateOfManufacture",
+   "modelType": "Property",
+   "semanticId": "",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "PlantMetadata > EndProductCASName",
+   "idShort": "EndProductCASName",
+   "modelType": "Property",
+   "semanticId": "",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "PlantMetadata > EndProductName",
+   "idShort": "EndProductName",
+   "modelType": "Property",
+   "semanticId": "",
+   "json": "0..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..*"
+  },
+  {
+   "path": "Model01",
+   "idShort": "Model01",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Model",
+   "json": "1..*",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1..*"
+  },
+  {
+   "path": "Model01 > ModelMetadata",
+   "idShort": "ModelMetadata",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ModelMetadata",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > ModelMetadata > ApprovalDate",
+   "idShort": "ApprovalDate",
+   "modelType": "Property",
+   "semanticId": "http://sandbox.dexpi.org/rdl/ApprovalDateRepresentationAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > ModelMetadata > ApprovalDescription",
+   "idShort": "ApprovalDescription",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "http://sandbox.dexpi.org/rdl/ApprovalDescriptionAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > ModelMetadata > ArchiveNumber",
+   "idShort": "ArchiveNumber",
+   "modelType": "Property",
+   "semanticId": "http://sandbox.dexpi.org/rdl/ArchiveNumberAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > ModelMetadata > CheckerName",
+   "idShort": "CheckerName",
+   "modelType": "Property",
+   "semanticId": "http://sandbox.dexpi.org/rdl/CheckerNameAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > ModelMetadata > CreationDate",
+   "idShort": "CreationDate",
+   "modelType": "Property",
+   "semanticId": "http://sandbox.dexpi.org/rdl/CreationDateRepresentationAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > ModelMetadata > CreatorName",
+   "idShort": "CreatorName",
+   "modelType": "Property",
+   "semanticId": "http://sandbox.dexpi.org/rdl/CreatorNameAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > ModelMetadata > DesignerName",
+   "idShort": "DesignerName",
+   "modelType": "Property",
+   "semanticId": "http://sandbox.dexpi.org/rdl/DesignerNameAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > ModelMetadata > DrawingNumber",
+   "idShort": "DrawingNumber",
+   "modelType": "Property",
+   "semanticId": "http://sandbox.dexpi.org/rdl/DrawingNumberAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > ModelMetadata > DrawingSubTitle",
+   "idShort": "DrawingSubTitle",
+   "modelType": "MultiLanguageProperty",
+   "semanticId": "http://sandbox.dexpi.org/rdl/DrawingSubTitleAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > ModelMetadata > LastModificationDate",
+   "idShort": "LastModificationDate",
+   "modelType": "Property",
+   "semanticId": "http://sandbox.dexpi.org/rdl/LastModificationDateRepresentationAssignmentClass",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > ModelFile",
+   "idShort": "ModelFile",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/DEXPI/1/0/ModelFile",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > ModelRepresentation",
+   "idShort": "ModelRepresentation",
+   "modelType": "File",
+   "semanticId": "https://admin-shell.io/idta/DEXPI/1/0/ModelRepresentation",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory",
+   "idShort": "MappingDirectory",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/idta/DEXPI/1/0/MappingDirectory",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ProcessInstrumentationFunction_1",
+   "idShort": "ProcessInstrumentationFunction_1",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/DEXPI/1/0/TagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ProcessInstrumentationFunction_1 > TagName",
+   "idShort": "TagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/TagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ProcessInstrumentationFunction_1 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ProcessInstrumentationFunction_1 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ProcessInstrumentationFunction_1 > ProcessInstrumentationFunction_1_rel",
+   "idShort": "ProcessInstrumentationFunction_1_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ProcessInstrumentationFunction_2",
+   "idShort": "ProcessInstrumentationFunction_2",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/DEXPI/1/0/TagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ProcessInstrumentationFunction_2 > TagName",
+   "idShort": "TagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/TagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ProcessInstrumentationFunction_2 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ProcessInstrumentationFunction_2 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ProcessInstrumentationFunction_2 > ProcessInstrumentationFunction_2_rel",
+   "idShort": "ProcessInstrumentationFunction_2_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ProcessInstrumentationFunction_3",
+   "idShort": "ProcessInstrumentationFunction_3",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/DEXPI/1/0/TagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ProcessInstrumentationFunction_3 > TagName",
+   "idShort": "TagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/TagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ProcessInstrumentationFunction_3 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ProcessInstrumentationFunction_3 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ProcessInstrumentationFunction_3 > ProcessInstrumentationFunction_3_rel",
+   "idShort": "ProcessInstrumentationFunction_3_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ProcessInstrumentationFunction_4",
+   "idShort": "ProcessInstrumentationFunction_4",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/DEXPI/1/0/TagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ProcessInstrumentationFunction_4 > TagName",
+   "idShort": "TagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/TagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ProcessInstrumentationFunction_4 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ProcessInstrumentationFunction_4 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ProcessInstrumentationFunction_4 > ProcessInstrumentationFunction_4_rel",
+   "idShort": "ProcessInstrumentationFunction_4_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ActuatingFunction_1",
+   "idShort": "ActuatingFunction_1",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/DEXPI/1/0/TagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ActuatingFunction_1 > TagName",
+   "idShort": "TagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/TagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ActuatingFunction_1 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ActuatingFunction_1 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ActuatingFunction_1 > ActuatingFunction_1_rel",
+   "idShort": "ActuatingFunction_1_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ActuatingFunction_2",
+   "idShort": "ActuatingFunction_2",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/DEXPI/1/0/TagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ActuatingFunction_2 > TagName",
+   "idShort": "TagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/TagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ActuatingFunction_2 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ActuatingFunction_2 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ActuatingFunction_2 > ActuatingFunction_2_rel",
+   "idShort": "ActuatingFunction_2_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ActuatingFunction_3",
+   "idShort": "ActuatingFunction_3",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/DEXPI/1/0/TagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ActuatingFunction_3 > TagName",
+   "idShort": "TagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/TagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ActuatingFunction_3 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ActuatingFunction_3 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ActuatingFunction_3 > ActuatingFunction_3_rel",
+   "idShort": "ActuatingFunction_3_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > PlateHeatExchanger_1",
+   "idShort": "PlateHeatExchanger_1",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/DEXPI/1/0/TagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > PlateHeatExchanger_1 > TagName",
+   "idShort": "TagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/TagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > PlateHeatExchanger_1 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > PlateHeatExchanger_1 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > PlateHeatExchanger_1 > PlateHeatExchanger_1_rel",
+   "idShort": "PlateHeatExchanger_1_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > TubularHeatExchanger_1",
+   "idShort": "TubularHeatExchanger_1",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/DEXPI/1/0/TagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > TubularHeatExchanger_1 > TagName",
+   "idShort": "TagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/TagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > TubularHeatExchanger_1 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > TubularHeatExchanger_1 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > TubularHeatExchanger_1 > TubularHeatExchanger_1_rel",
+   "idShort": "TubularHeatExchanger_1_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > CentrifugalPump_1",
+   "idShort": "CentrifugalPump_1",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/DEXPI/1/0/TagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > CentrifugalPump_1 > TagName",
+   "idShort": "TagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/TagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > CentrifugalPump_1 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > CentrifugalPump_1 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > CentrifugalPump_1 > CentrifugalPump_1_rel",
+   "idShort": "CentrifugalPump_1_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ReciprocatingPump_1",
+   "idShort": "ReciprocatingPump_1",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/DEXPI/1/0/TagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ReciprocatingPump_1 > TagName",
+   "idShort": "TagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/TagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ReciprocatingPump_1 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ReciprocatingPump_1 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ReciprocatingPump_1 > ReciprocatingPump_1_rel",
+   "idShort": "ReciprocatingPump_1_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Tank_1",
+   "idShort": "Tank_1",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/DEXPI/1/0/TagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Tank_1 > TagName",
+   "idShort": "TagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/TagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Tank_1 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Tank_1 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Tank_1 > Tank_1_rel",
+   "idShort": "Tank_1_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ControlledActuator_1",
+   "idShort": "ControlledActuator_1",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ControlledActuator_1 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ControlledActuator_1 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ControlledActuator_1 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ControlledActuator_1 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ControlledActuator_1 > ControlledActuator_1_rel",
+   "idShort": "ControlledActuator_1_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > OperatedValveReference_1",
+   "idShort": "OperatedValveReference_1",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > OperatedValveReference_1 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > OperatedValveReference_1 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > OperatedValveReference_1 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > OperatedValveReference_1 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > OperatedValveReference_1 > OperatedValveReference_1_rel",
+   "idShort": "OperatedValveReference_1_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ControlledActuator_2",
+   "idShort": "ControlledActuator_2",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ControlledActuator_2 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ControlledActuator_2 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ControlledActuator_2 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ControlledActuator_2 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ControlledActuator_2 > ControlledActuator_2_rel",
+   "idShort": "ControlledActuator_2_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > OperatedValveReference_2",
+   "idShort": "OperatedValveReference_2",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > OperatedValveReference_2 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > OperatedValveReference_2 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > OperatedValveReference_2 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > OperatedValveReference_2 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > OperatedValveReference_2 > OperatedValveReference_2_rel",
+   "idShort": "OperatedValveReference_2_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ControlledActuator_3",
+   "idShort": "ControlledActuator_3",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ControlledActuator_3 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ControlledActuator_3 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ControlledActuator_3 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ControlledActuator_3 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > ControlledActuator_3 > ControlledActuator_3_rel",
+   "idShort": "ControlledActuator_3_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > OperatedValveReference_3",
+   "idShort": "OperatedValveReference_3",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > OperatedValveReference_3 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > OperatedValveReference_3 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > OperatedValveReference_3 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > OperatedValveReference_3 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > OperatedValveReference_3 > OperatedValveReference_3_rel",
+   "idShort": "OperatedValveReference_3_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_3",
+   "idShort": "Nozzle_3",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_3 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_3 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_3 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_3 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_3 > Nozzle_3_rel",
+   "idShort": "Nozzle_3_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_4",
+   "idShort": "Nozzle_4",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_4 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_4 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_4 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_4 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_4 > Nozzle_4_rel",
+   "idShort": "Nozzle_4_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_13",
+   "idShort": "Nozzle_13",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_13 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_13 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_13 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_13 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_13 > Nozzle_13_rel",
+   "idShort": "Nozzle_13_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_14",
+   "idShort": "Nozzle_14",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_14 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_14 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_14 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_14 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_14 > Nozzle_14_rel",
+   "idShort": "Nozzle_14_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_1",
+   "idShort": "Chamber_1",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_1 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_1 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_1 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_1 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_1 > Chamber_1_rel",
+   "idShort": "Chamber_1_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_2",
+   "idShort": "Chamber_2",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_2 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_2 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_2 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_2 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_2 > Chamber_2_rel",
+   "idShort": "Chamber_2_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_10",
+   "idShort": "Nozzle_10",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_10 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_10 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_10 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_10 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_10 > Nozzle_10_rel",
+   "idShort": "Nozzle_10_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_11",
+   "idShort": "Nozzle_11",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_11 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_11 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_11 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_11 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_11 > Nozzle_11_rel",
+   "idShort": "Nozzle_11_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_16",
+   "idShort": "Nozzle_16",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_16 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_16 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_16 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_16 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_16 > Nozzle_16_rel",
+   "idShort": "Nozzle_16_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_15",
+   "idShort": "Nozzle_15",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_15 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_15 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_15 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_15 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_15 > Nozzle_15_rel",
+   "idShort": "Nozzle_15_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_3",
+   "idShort": "Chamber_3",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_3 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_3 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_3 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_3 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_3 > Chamber_3_rel",
+   "idShort": "Chamber_3_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_4",
+   "idShort": "Chamber_4",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_4 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_4 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_4 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_4 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_4 > Chamber_4_rel",
+   "idShort": "Chamber_4_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_1",
+   "idShort": "Nozzle_1",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_1 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_1 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_1 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_1 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_1 > Nozzle_1_rel",
+   "idShort": "Nozzle_1_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_2",
+   "idShort": "Nozzle_2",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_2 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_2 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_2 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_2 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_2 > Nozzle_2_rel",
+   "idShort": "Nozzle_2_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_7",
+   "idShort": "Nozzle_7",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_7 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_7 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_7 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_7 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_7 > Nozzle_7_rel",
+   "idShort": "Nozzle_7_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_9",
+   "idShort": "Nozzle_9",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_9 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_9 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_9 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_9 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_9 > Nozzle_9_rel",
+   "idShort": "Nozzle_9_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_5",
+   "idShort": "Nozzle_5",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_5 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_5 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_5 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_5 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_5 > Nozzle_5_rel",
+   "idShort": "Nozzle_5_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_6",
+   "idShort": "Nozzle_6",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_6 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_6 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_6 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_6 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_6 > Nozzle_6_rel",
+   "idShort": "Nozzle_6_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_18",
+   "idShort": "Nozzle_18",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_18 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_18 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_18 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_18 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_18 > Nozzle_18_rel",
+   "idShort": "Nozzle_18_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_8",
+   "idShort": "Nozzle_8",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_8 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_8 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_8 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_8 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_8 > Nozzle_8_rel",
+   "idShort": "Nozzle_8_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_12",
+   "idShort": "Nozzle_12",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_12 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_12 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_12 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_12 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_12 > Nozzle_12_rel",
+   "idShort": "Nozzle_12_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_17",
+   "idShort": "Nozzle_17",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_17 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_17 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_17 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_17 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_17 > Nozzle_17_rel",
+   "idShort": "Nozzle_17_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_19",
+   "idShort": "Nozzle_19",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_19 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_19 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_19 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_19 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Nozzle_19 > Nozzle_19_rel",
+   "idShort": "Nozzle_19_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_7",
+   "idShort": "Chamber_7",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_7 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_7 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_7 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_7 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_7 > Chamber_7_rel",
+   "idShort": "Chamber_7_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_8",
+   "idShort": "Chamber_8",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagMapping",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_8 > SubTagName",
+   "idShort": "SubTagName",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/SubTagName",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_8 > ParentLocalId",
+   "idShort": "ParentLocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/ParentTagLocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_8 > Class",
+   "idShort": "Class",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/Class",
+   "json": "0..1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "0..1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_8 > LocalId",
+   "idShort": "LocalId",
+   "modelType": "Property",
+   "semanticId": "http://admin-shell.io/dexpi/1/0/LocalId",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  },
+  {
+   "path": "Model01 > MappingDirectory > Chamber_8 > Chamber_8_rel",
+   "idShort": "Chamber_8_rel",
+   "modelType": "RelationshipElement",
+   "semanticId": "",
+   "json": "1",
+   "jsonQualifierKind": null,
+   "listChild": false,
+   "pdf": {
+    "confidence": "none"
+   },
+   "status": "json-only",
+   "effective": "1"
+  }
+ ]
+}

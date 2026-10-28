@@ -1,0 +1,360 @@
+{
+ "skill": "iec61360",
+ "skill_version": "1.1.0",
+ "description": "DataSpecificationIec61360 facts as formalised in aas-core-meta and the official schemas: langString length limits, AASc-3a-* constraints and their exceptions, dataType enum, levelType, removed AASd category rules, the data-specification IRI.",
+ "items": [
+  {
+   "id": "iec61360-001",
+   "question": "What is the maximum length of a preferredName text (per language) in DataSpecificationIec61360, and what length is advised?",
+   "expected_answer": "At most 255 characters per langString (LangStringPreferredNameTypeIec61360); it is advised to keep the name to 35 characters.",
+   "must_include": [
+    "255",
+    "35"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01003-a Part 3a Data Specification IEC 61360 (as formalised in aas-core-meta)",
+    "revision": "3.1",
+    "section": "class Lang_string_preferred_name_type_IEC_61360",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+    "lines": "5398-5408",
+    "quote": "String with length 255 maximum and minimum 1 characters and with language tags"
+   },
+   "tags": [
+    "length-limit",
+    "langString"
+   ]
+  },
+  {
+   "id": "iec61360-002",
+   "question": "What is the maximum length of a shortName text (per language) in DataSpecificationIec61360?",
+   "expected_answer": "18 characters per langString (LangStringShortNameTypeIec61360).",
+   "must_include": [
+    "18"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01003-a Part 3a Data Specification IEC 61360 (as formalised in aas-core-meta)",
+    "revision": "3.1",
+    "section": "class Lang_string_short_name_type_IEC_61360",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+    "lines": "5418-5425",
+    "quote": "String with length 18 maximum and minimum 1 characters and with language tags"
+   },
+   "tags": [
+    "length-limit",
+    "langString"
+   ]
+  },
+  {
+   "id": "iec61360-003",
+   "question": "We want to paste a 3,000-character prose definition into a ConceptDescription's IEC 61360 definition (one language). Is the definition text length unbounded?",
+   "expected_answer": "No. A LangStringDefinitionTypeIec61360 text has a maximum length of 1023 characters (minimum 1), so a 3,000-character definition is invalid; shorten it.",
+   "must_include": [
+    "1023"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01003-a Part 3a Data Specification IEC 61360 (as formalised in aas-core-meta)",
+    "revision": "3.1",
+    "section": "class Lang_string_definition_type_IEC_61360",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+    "lines": "5433-5440",
+    "quote": "String with length 1023 maximum and minimum 1 characters and with language tags"
+   },
+   "tags": [
+    "length-limit",
+    "langString"
+   ]
+  },
+  {
+   "id": "iec61360-004",
+   "question": "A ConceptDescription's IEC 61360 preferredName exists only in German ('Herstellername'). Which constraint does that touch?",
+   "expected_answer": "AASc-3a-002: the preferredName shall be provided at least in English, so a German-only preferredName violates it.",
+   "must_include": [
+    "AASc-3a-002",
+    "English"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01003-a Part 3a Data Specification IEC 61360 (as formalised in aas-core-meta)",
+    "revision": "3.1",
+    "section": "Data_specification_IEC_61360.preferred_name, :constraint AASc-3a-002",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+    "lines": "5578-5582",
+    "quote": "shall be provided at least in English."
+   },
+   "tags": [
+    "AASc-3a",
+    "language"
+   ]
+  },
+  {
+   "id": "iec61360-005",
+   "question": "Our checker flags every ConceptDescription whose DataSpecificationIec61360 has a value (a value CD) but no definition, citing AASc-3a-008. Is that correct?",
+   "expected_answer": "No. AASc-3a-008 makes the definition mandatory (at least in English) with an exception: the concept description describes a value, i.e. its value is defined. Value CDs need no definition.",
+   "must_include": [
+    "AASc-3a-008",
+    [
+     "exception",
+     "except"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01003-a Part 3a Data Specification IEC 61360 (as formalised in aas-core-meta)",
+    "revision": "3.1",
+    "section": "Constraint AASc-3a-008 (invariant of class Concept_description)",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+    "lines": "4262-4265",
+    "quote": "Exception: The concept description describes a value."
+   },
+   "tags": [
+    "AASc-3a",
+    "exception",
+    "false-invalid"
+   ]
+  },
+  {
+   "id": "iec61360-006",
+   "question": "A ConceptDescription declares dataType REAL_MEASURE in its IEC 61360 data specification but has neither unit nor unitId. Is that valid?",
+   "expected_answer": "No. AASc-3a-009: if the data type is an integer, real or rational measure or a currency (INTEGER_MEASURE, REAL_MEASURE, RATIONAL_MEASURE, INTEGER_CURRENCY, REAL_CURRENCY), unit or unitId shall be defined.",
+   "must_include": [
+    "AASc-3a-009",
+    "unit"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01003-a Part 3a Data Specification IEC 61360 (as formalised in aas-core-meta)",
+    "revision": "3.1",
+    "section": "Constraint AASc-3a-009 (invariant of class Data_specification_IEC_61360)",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+    "lines": "5507-5508",
+    "quote": "a measure or currency, unit or unit ID shall be defined."
+   },
+   "tags": [
+    "AASc-3a",
+    "unit"
+   ]
+  },
+  {
+   "id": "iec61360-007",
+   "question": "What does AASc-3a-010 require, and may an IEC 61360 data specification leave both value and valueList empty?",
+   "expected_answer": "AASc-3a-010: if value is not empty then valueList shall be empty, and vice versa. Both empty is allowed (a CD that defines a property without an enumeration). It is not a language-uniqueness rule.",
+   "must_include": [
+    [
+     "valueList",
+     "value list",
+     "value_list"
+    ],
+    [
+     "both empty",
+     "both be empty",
+     "both are empty",
+     "both can be empty",
+     "both may be empty",
+     "neither"
+    ]
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01003-a Part 3a Data Specification IEC 61360 (as formalised in aas-core-meta)",
+    "revision": "3.1",
+    "section": "Data_specification_IEC_61360, :constraint AASc-3a-010 and its note",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+    "lines": "5543-5552",
+    "quote": "It is also possible that both :attr:`value` and :attr:`value_list` are empty."
+   },
+   "tags": [
+    "AASc-3a",
+    "mislabelled-rule"
+   ]
+  },
+  {
+   "id": "iec61360-008",
+   "question": "Which IEC 61360 dataType values are allowed for a ConceptDescription with category REFERENCE?",
+   "expected_answer": "STRING, IRI or IRDI (AASc-3a-005).",
+   "must_include": [
+    "STRING",
+    "IRI",
+    "IRDI"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01003-a Part 3a Data Specification IEC 61360 (as formalised in aas-core-meta)",
+    "revision": "3.1",
+    "section": "Constraint AASc-3a-005 (invariant of class Concept_description)",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+    "lines": "4217-4219",
+    "quote": "shall be one of: STRING, IRI, IRDI."
+   },
+   "tags": [
+    "AASc-3a",
+    "dataType",
+    "category"
+   ]
+  },
+  {
+   "id": "iec61360-009",
+   "question": "Which IEC 61360 dataType values are allowed for a ConceptDescription with category DOCUMENT?",
+   "expected_answer": "FILE, BLOB or HTML (AASc-3a-006).",
+   "must_include": [
+    "FILE",
+    "BLOB",
+    "HTML"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01003-a Part 3a Data Specification IEC 61360 (as formalised in aas-core-meta)",
+    "revision": "3.1",
+    "section": "Constraint AASc-3a-006 (invariant of class Concept_description)",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+    "lines": "4232-4234",
+    "quote": "shall be one of: FILE, BLOB, HTML."
+   },
+   "tags": [
+    "AASc-3a",
+    "dataType",
+    "category"
+   ]
+  },
+  {
+   "id": "iec61360-010",
+   "question": "Which DataTypeIec61360 enumeration value should a ConceptDescription use for a property whose values are web URLs?",
+   "expected_answer": "IRI: the IRI data type (values conformant to RFC 3987) allows in particular to express a URL or a URI.",
+   "must_include": [
+    "IRI"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01003-a Part 3a Data Specification IEC 61360 (as formalised in aas-core-meta)",
+    "revision": "3.1",
+    "section": "enum Data_type_IEC_61360, literal IRI",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+    "lines": "5140-5148",
+    "quote": "An IRI type allows in particular to express an URL or an URI."
+   },
+   "tags": [
+    "dataType",
+    "enum"
+   ]
+  },
+  {
+   "id": "iec61360-011",
+   "question": "In an AAS 3.1 XML document, in which order must the four levelType flags be serialised?",
+   "expected_answer": "min, nom, typ, max — an xs:sequence of four xs:boolean elements, each required once levelType is present.",
+   "must_include": [
+    [
+     "min, nom, typ, max",
+     "min, nom, typ and max",
+     "min, nom, typ, and max",
+     "min/nom/typ/max",
+     "min → nom → typ → max",
+     "min -> nom -> typ -> max",
+     "min nom typ max"
+    ]
+   ],
+   "must_not_include": [
+    "min, max, nom, typ"
+   ],
+   "citation": {
+    "document": "Official AAS XML schema (aas-specs-metamodel)",
+    "revision": "3.1",
+    "section": "AAS.xsd, group levelType",
+    "file": "vendor/schemas/3.1/AAS.xsd",
+    "lines": "591-597",
+    "quote": "<xs:element name=\"min\" type=\"xs:boolean\"/> <xs:element name=\"nom\" type=\"xs:boolean\"/> <xs:element name=\"typ\" type=\"xs:boolean\"/> <xs:element name=\"max\" type=\"xs:boolean\"/>"
+   },
+   "tags": [
+    "levelType",
+    "serialization-order"
+   ]
+  },
+  {
+   "id": "iec61360-012",
+   "question": "A ConceptDescription's levelType has min=true and max=true (nom and typ false). To which submodel element type does the AAS map this concept?",
+   "expected_answer": "A Range (min and max set to true map the concept to a Range).",
+   "must_include": [
+    "Range"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01003-a Part 3a Data Specification IEC 61360 (as formalised in aas-core-meta)",
+    "revision": "3.1",
+    "section": "class Level_type, note on level-type combinations",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+    "lines": "5286-5290",
+    "quote": "Min and max are set to true. In this case the concept is mapped"
+   },
+   "tags": [
+    "levelType",
+    "Range"
+   ]
+  },
+  {
+   "id": "iec61360-013",
+   "question": "Should a 3.x validator report AASd-067 when the ConceptDescription referenced by a MultiLanguageProperty uses dataType STRING instead of STRING_TRANSLATABLE?",
+   "expected_answer": "No. AASd-067 was removed (Part 1 V3.0 change table, V3.0RC02 vs. V3.0RC01: 'removed, still recommended'). STRING_TRANSLATABLE for an MLP's CD is a recommendation, not a numbered violation.",
+   "must_include": [
+    "removed",
+    "STRING_TRANSLATABLE"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01001 Part 1 Metamodel",
+    "revision": "3.0",
+    "section": "Annex (Metamodel Changes), Changes V3.0RC02 vs. V3.0RC01, constraint table row AASd-067",
+    "file": "idta-specs:IDTA-01001-3-0_SpecificationAssetAdministrationShell_Part1_Metamodel.pdf",
+    "page": 191,
+    "quote": "AASd-067 Removed removed, still recommended; would be renamed to AASc if still needed"
+   },
+   "tags": [
+    "removed-rule",
+    "false-invalid"
+   ]
+  },
+  {
+   "id": "iec61360-014",
+   "question": "Constraint AASc-3a-050 names the IRI of the IEC 61360 data specification template that embeddedDataSpecifications must reference. What IRI does the constraint text give in the aas-core-meta formalisation of metamodel 3.1?",
+   "expected_answer": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0 (the same text appears in the 3.0 and 3.2 formalisations).",
+   "must_include": [
+    "DataSpecificationIEC61360/3/0"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01003-a Part 3a Data Specification IEC 61360 (as formalised in aas-core-meta)",
+    "revision": "3.1",
+    "section": "class Data_specification_content, :constraint AASc-3a-050",
+    "file": "vendor/aas-core-meta/aas-core-meta-v3_1.py",
+    "lines": "5053-5059",
+    "quote": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/3/0"
+   },
+   "tags": [
+    "data-specification-IRI",
+    "AASc-3a"
+   ]
+  },
+  {
+   "id": "iec61360-015",
+   "question": "Which IRI must HasDataSpecification/dataSpecification reference for an IEC 61360 data specification under Part 3a v3.1.1, and what is the status of .../DataSpecificationIEC61360/3/0?",
+   "expected_answer": "https://admin-shell.io/DataSpecificationTemplates/DataSpecificationIec61360/3 (AASc-3a-050). The /3/0 forms (IEC61360 or Iec61360 casing, http or https) are listed as deprecated, not as invalid.",
+   "must_include": [
+    "DataSpecificationIec61360/3",
+    "deprecated"
+   ],
+   "must_not_include": [],
+   "citation": {
+    "document": "IDTA-01003-a Part 3a Data Specification IEC 61360 (official PDF, paged text)",
+    "revision": "3.1.1",
+    "file": "idta-specs:txt/IDTA-01003-a-3-1-1_AAS-Specification_Part3a_DataSpecification.txt",
+    "page": 40,
+    "quote": "shall contain the external reference to the IRI of the corresponding data specification template",
+    "section": "Constraint AASc-3a-050"
+   },
+   "tags": [
+    "iri",
+    "revision-specific"
+   ]
+  }
+ ]
+}

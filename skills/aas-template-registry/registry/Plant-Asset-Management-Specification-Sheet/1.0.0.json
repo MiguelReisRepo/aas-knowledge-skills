@@ -1,0 +1,2038 @@
+{
+ "template": "Plant Asset Management Specification Sheet",
+ "version": "1.0.0",
+ "submodelIdShort": "PAMSpecificationSheet",
+ "submodelSemanticId": "0173-1#01-AGC973#003",
+ "json": {
+  "path": "published/Plant Asset Management Specification Sheet/1/0/IDTA 02019-1-0_Template_PlantAssetManagement.json",
+  "gitBlob": "f6d180e90c46959cf7326140d4fd0efb6a6556d8"
+ },
+ "pdf": {
+  "path": "published/Plant Asset Management Specification Sheet/1/0/IDTA 02019-1-0_Submodel_PlantAssetManagement.pdf",
+  "relation": "same folder",
+  "sha256": "ebfd2257bb914516f736a7dab03d66acd7f2d9e7238a6b71f3609113d268885f",
+  "annexA": [
+   {
+    "page": 23,
+    "quote": "The table heads abbreviate 'cardinality' with 'card'."
+   },
+   {
+    "page": 23,
+    "quote": "For this purpose, the definitive definitions are given by a separate file in form of an AASX file of the Submodel template and its elements."
+   }
+  ]
+ },
+ "counts": {
+  "agree": 75,
+  "unverified": 5
+ },
+ "elements": [
+  {
+   "path": "DocumentHeader",
+   "idShort": "DocumentHeader",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AGC974#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "DocumentHeader",
+     "semanticId": "0173-1#01-AGC974#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentHeader > PAMSpecificationSheetIdentification",
+   "idShort": "PAMSpecificationSheetIdentification",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV929#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     13,
+     16
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentHeader > AssetTypeClass",
+   "idShort": "AssetTypeClass",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV939#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "AssetTypeClass",
+     "semanticId": "0173-1#02-AAV939#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentHeader > AssetTypeIdentification",
+   "idShort": "AssetTypeIdentification",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV940#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     13
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "AssetTypeIdentification",
+     "semanticId": "0173-1#02-AAV940#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation",
+   "idShort": "GeneralInformation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AGC975#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "GeneralInformation",
+     "semanticId": "0173-1#01-AGC975#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > FunctionalLocation",
+   "idShort": "FunctionalLocation",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV946#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13,
+     16,
+     21
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "FunctionalLocation",
+     "semanticId": "0173-1#02-AAV946#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "GeneralInformation > TechnicalLocation",
+   "idShort": "TechnicalLocation",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV947#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13,
+     16
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "TechnicalLocation",
+     "semanticId": "0173-1#02-AAV947#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "GeneralInformation > Description",
+   "idShort": "Description",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV948#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "Description",
+     "semanticId": "0173-1#02-AAV948#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "GeneralInformation > AssetSubtype",
+   "idShort": "AssetSubtype",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV949#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "AssetSubtype",
+     "semanticId": "0173-1#02-AAV949#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "GeneralInformation > SpecificationSheetReference",
+   "idShort": "SpecificationSheetReference",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV952#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "SpecificationSheetReference",
+     "semanticId": "0173-1#02-AAV952#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "GeneralInformation > SafetyMeasure",
+   "idShort": "SafetyMeasure",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV950#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "SafetyMeasure",
+     "semanticId": "0173-1#02-AAV950#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "GeneralInformation > RedundantAssets",
+   "idShort": "RedundantAssets",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV951#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "RedundantAssets",
+     "semanticId": "0173-1#02-AAV951#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "GeneralInformation > SILCategory",
+   "idShort": "SILCategory",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV930#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "SILCategory",
+     "semanticId": "0173-1#02-AAV930#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "GeneralInformation > FailureProbability",
+   "idShort": "FailureProbability",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV942#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "FailureProbability",
+     "semanticId": "0173-1#02-AAV942#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "GeneralInformation > FailureSeverity",
+   "idShort": "FailureSeverity",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV943#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "FailureSeverity",
+     "semanticId": "0173-1#02-AAV943#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "GeneralInformation > CriticalityCategory",
+   "idShort": "CriticalityCategory",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV941#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "CriticalityCategory",
+     "semanticId": "0173-1#02-AAV941#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "GeneralInformation > FurtherInformation",
+   "idShort": "FurtherInformation",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAW617#001",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "FurtherInformation",
+     "semanticId": "0173-1#02-AAW617#001",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "GeneralInformation > FurtherInformationReference",
+   "idShort": "FurtherInformationReference",
+   "modelType": "Property",
+   "semanticId": "https://admin-shell.io/idta/prop/furtherinformationreference/1/0",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "FurtherInformationReference",
+     "semanticId": "https://admin-shell.io/idta/prop/furtherinformationreference/1/0",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "GeneralInformation > GeneralTask",
+   "idShort": "GeneralTask",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV956#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     14
+    ],
+    "row": {
+     "page": 14,
+     "type": "[Prop]",
+     "idShort": "GeneralTask",
+     "semanticId": "0173-1#02-AAV956#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompleteSystem",
+   "idShort": "CompleteSystem",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AGC979#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "CompleteSystem",
+     "semanticId": "0173-1#01-AGC979#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompleteSystem > StatusCondition",
+   "idShort": "StatusCondition",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AGC980#001",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     16
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "StatusCondition",
+     "semanticId": "0173-1#01-AGC980#001",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "CompleteSystem > StatusCondition > StatusConditionName",
+   "idShort": "StatusConditionName",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV958#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     17
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "StatusConditionName",
+     "semanticId": "0173-1#02-AAV958#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CompleteSystem > StatusCondition > MonitoringRequired",
+   "idShort": "MonitoringRequired",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV959#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     17
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "MonitoringRequired",
+     "semanticId": "0173-1#02-AAV959#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CompleteSystem > StatusCondition > Description",
+   "idShort": "Description",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV960#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     17
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "Description",
+     "semanticId": "0173-1#02-AAV960#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "CompleteSystem > StatusCondition > MethodAbbreviation",
+   "idShort": "MethodAbbreviation",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV961#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15,
+     17
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "MethodAbbreviation",
+     "semanticId": "0173-1#02-AAV961#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompleteSystem > StatusCondition > NE107Status",
+   "idShort": "NE107Status",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV962#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16,
+     17
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "NE107Status",
+     "semanticId": "0173-1#02-AAV962#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "CompleteSystem > StatusCondition > NE129AlarmCategory",
+   "idShort": "NE129AlarmCategory",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV963#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16,
+     17
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "NE129AlarmCategory",
+     "semanticId": "0173-1#02-AAV963#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SubSystem",
+   "idShort": "SubSystem",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AGC981#001",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "SubSystem",
+     "semanticId": "0173-1#01-AGC981#001",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SubSystem > SubSystemName",
+   "idShort": "SubSystemName",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV965#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "SubSystemName",
+     "semanticId": "0173-1#02-AAV965#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SubSystem > FunctionalLocation",
+   "idShort": "FunctionalLocation",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV946#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13,
+     16,
+     21
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "FunctionalLocation",
+     "semanticId": "0173-1#02-AAV946#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SubSystem > TechnicalLocation",
+   "idShort": "TechnicalLocation",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV947#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13,
+     16
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "TechnicalLocation",
+     "semanticId": "0173-1#02-AAV947#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SubSystem > StatusCondition",
+   "idShort": "StatusCondition",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AGC980#001",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     15,
+     16
+    ],
+    "row": {
+     "page": 15,
+     "type": "[SMC]",
+     "idShort": "StatusCondition",
+     "semanticId": "0173-1#01-AGC980#001",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "SubSystem > StatusCondition > StatusConditionName",
+   "idShort": "StatusConditionName",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV958#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     17
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "StatusConditionName",
+     "semanticId": "0173-1#02-AAV958#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SubSystem > StatusCondition > MonitoringRequired",
+   "idShort": "MonitoringRequired",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV959#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     17
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "MonitoringRequired",
+     "semanticId": "0173-1#02-AAV959#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SubSystem > StatusCondition > Description",
+   "idShort": "Description",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV960#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     15,
+     17
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "Description",
+     "semanticId": "0173-1#02-AAV960#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "SubSystem > StatusCondition > MethodAbbreviation",
+   "idShort": "MethodAbbreviation",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV961#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     15,
+     17
+    ],
+    "row": {
+     "page": 15,
+     "type": "[Prop]",
+     "idShort": "MethodAbbreviation",
+     "semanticId": "0173-1#02-AAV961#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SubSystem > StatusCondition > NE107Status",
+   "idShort": "NE107Status",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV962#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16,
+     17
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "NE107Status",
+     "semanticId": "0173-1#02-AAV962#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SubSystem > StatusCondition > NE129AlarmCategory",
+   "idShort": "NE129AlarmCategory",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV963#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16,
+     17
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "NE129AlarmCategory",
+     "semanticId": "0173-1#02-AAV963#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SubSystem > SubSystemReference",
+   "idShort": "SubSystemReference",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAW622#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "SubSystemReference",
+     "semanticId": "0173-1#02-AAW622#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "SubSystem > PAMSpecificationSheetIdentification",
+   "idShort": "PAMSpecificationSheetIdentification",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV929#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     13,
+     16
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "SubSystem > PAMSpecificationSheetReference",
+   "idShort": "PAMSpecificationSheetReference",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV967#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     16
+    ],
+    "row": {
+     "page": 16,
+     "type": "[Prop]",
+     "idShort": "PAMSpecificationSheetReference",
+     "semanticId": "0173-1#02-AAV967#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicableMethod",
+   "idShort": "ApplicableMethod",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AGC983#002",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "ApplicableMethod",
+     "semanticId": "0173-1#01-AGC983#002",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "ApplicableMethod > MethodHeader",
+   "idShort": "MethodHeader",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "https://admin-shell.io/idta/smc/methodheader/1/0",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "MethodHeader",
+     "semanticId": "https://admin-shell.io/idta/smc/methodheader/1/0",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicableMethod > MethodHeader > MethodName",
+   "idShort": "MethodName",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV969#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "MethodName",
+     "semanticId": "0173-1#02-AAV969#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicableMethod > MethodHeader > MethodAbbreviation",
+   "idShort": "MethodAbbreviation",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV970#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[Prop]",
+     "idShort": "MethodAbbreviation",
+     "semanticId": "0173-1#02-AAV970#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicableMethod > MethodHeader > MethodDescription",
+   "idShort": "MethodDescription",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV971#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "MethodDescription",
+     "semanticId": "0173-1#02-AAV971#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicableMethod > MethodHeader > Required",
+   "idShort": "Required",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV973#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "Required",
+     "semanticId": "0173-1#02-AAV973#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicableMethod > MethodHeader > ContinuousOrScheduledMonitoring",
+   "idShort": "ContinuousOrScheduledMonitoring",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV974#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "ContinuousOrScheduledMonitoring",
+     "semanticId": "0173-1#02-AAV974#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicableMethod > MethodHeader > Interval",
+   "idShort": "Interval",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV975#002",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "Interval",
+     "semanticId": "0173-1#02-AAV975#002",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "ApplicableMethod > MethodHeader > MethodSheetIdentification",
+   "idShort": "MethodSheetIdentification",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV972#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "MethodSheetIdentification",
+     "semanticId": "0173-1#02-AAV972#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicableMethod > MethodHeader > MethodSheetReference",
+   "idShort": "MethodSheetReference",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV976#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "MethodSheetReference",
+     "semanticId": "0173-1#02-AAV976#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicableMethod > StaticParameters",
+   "idShort": "StaticParameters",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AGC984#001",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "StaticParameters",
+     "semanticId": "0173-1#01-AGC984#001",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "ApplicableMethod > StaticParameters > ParameterName",
+   "idShort": "ParameterName",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV978#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "ParameterName",
+     "semanticId": "0173-1#02-AAV978#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicableMethod > StaticParameters > Description",
+   "idShort": "Description",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV979#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     19
+    ],
+    "row": {
+     "page": 19,
+     "type": "[Prop]",
+     "idShort": "Description",
+     "semanticId": "0173-1#02-AAV979#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicableMethod > StaticParameters > StaticParameterValue",
+   "idShort": "StaticParameterValue",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV980#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "StaticParameterValue",
+     "semanticId": "0173-1#02-AAV980#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicableMethod > StaticParameters > PhysicalUnit",
+   "idShort": "PhysicalUnit",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV981#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     20,
+     21
+    ]
+   },
+   "status": "unverified",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicableMethod > GeneratedSignals",
+   "idShort": "GeneratedSignals",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AGC985#001",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "GeneratedSignals",
+     "semanticId": "0173-1#01-AGC985#001",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "ApplicableMethod > GeneratedSignals > SignalName",
+   "idShort": "SignalName",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV983#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "SignalName",
+     "semanticId": "0173-1#02-AAV983#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicableMethod > GeneratedSignals > Description",
+   "idShort": "Description",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV984#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "Description",
+     "semanticId": "0173-1#02-AAV984#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicableMethod > GeneratedSignals > ValueRange",
+   "idShort": "ValueRange",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV985#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "ValueRange",
+     "semanticId": "0173-1#02-AAV985#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicableMethod > GeneratedSignals > PhysicalUnit",
+   "idShort": "PhysicalUnit",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV981#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     20,
+     21
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicableMethod > GeneratedSignals > RecordingRequired",
+   "idShort": "RecordingRequired",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV986#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "RecordingRequired",
+     "semanticId": "0173-1#02-AAV986#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicableMethod > GeneratedSignals > SignalType",
+   "idShort": "SignalType",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV987#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     20
+    ],
+    "row": {
+     "page": 20,
+     "type": "[Prop]",
+     "idShort": "SignalType",
+     "semanticId": "0173-1#02-AAV987#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicableMethod > RequiredInputSignals",
+   "idShort": "RequiredInputSignals",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AGC986#001",
+   "json": "0..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..*",
+    "pages": [
+     18
+    ],
+    "row": {
+     "page": 18,
+     "type": "[SMC]",
+     "idShort": "RequiredInputSignals",
+     "semanticId": "0173-1#01-AGC986#001",
+     "card": "0..*"
+    }
+   },
+   "status": "agree",
+   "effective": "0..*"
+  },
+  {
+   "path": "ApplicableMethod > RequiredInputSignals > Name",
+   "idShort": "Name",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV989#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Prop]",
+     "idShort": "Name",
+     "semanticId": "0173-1#02-AAV989#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicableMethod > RequiredInputSignals > Description",
+   "idShort": "Description",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV990#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Prop]",
+     "idShort": "Description",
+     "semanticId": "0173-1#02-AAV990#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicableMethod > RequiredInputSignals > ValueRange",
+   "idShort": "ValueRange",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV991#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Prop]",
+     "idShort": "ValueRange",
+     "semanticId": "0173-1#02-AAV991#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicableMethod > RequiredInputSignals > PhysicalUnit",
+   "idShort": "PhysicalUnit",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV981#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "low",
+    "cards": [
+     "0..1",
+     "1"
+    ],
+    "pages": [
+     20,
+     21
+    ]
+   },
+   "status": "unverified",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicableMethod > RequiredInputSignals > Required",
+   "idShort": "Required",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV992#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Prop]",
+     "idShort": "Required",
+     "semanticId": "0173-1#02-AAV992#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicableMethod > RequiredInputSignals > InputAvailable",
+   "idShort": "InputAvailable",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV993#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Prop]",
+     "idShort": "InputAvailable",
+     "semanticId": "0173-1#02-AAV993#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "ApplicableMethod > RequiredInputSignals > FunctionalLocation",
+   "idShort": "FunctionalLocation",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV946#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     13,
+     16,
+     21
+    ],
+    "row": {
+     "page": 13,
+     "type": "[Prop]",
+     "idShort": "FunctionalLocation",
+     "semanticId": "0173-1#02-AAV946#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "ApplicableMethod > RequiredInputSignals > RecordingRequired",
+   "idShort": "RecordingRequired",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV994#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[Prop]",
+     "idShort": "RecordingRequired",
+     "semanticId": "0173-1#02-AAV994#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentFooter",
+   "idShort": "DocumentFooter",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "173-1#02-AAW627#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     12
+    ],
+    "row": {
+     "page": 12,
+     "type": "[SMC]",
+     "idShort": "DocumentFooter",
+     "semanticId": "173-1#02-AAW627#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentFooter > DocumentConfirmation",
+   "idShort": "DocumentConfirmation",
+   "modelType": "SubmodelElementCollection",
+   "semanticId": "0173-1#01-AGC988#001",
+   "json": "1..*",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1..*",
+    "pages": [
+     21
+    ],
+    "row": {
+     "page": 21,
+     "type": "[SMC]",
+     "idShort": "DocumentConfirmation",
+     "semanticId": "0173-1#01-AGC988#001",
+     "card": "1..*"
+    }
+   },
+   "status": "agree",
+   "effective": "1..*"
+  },
+  {
+   "path": "DocumentFooter > DocumentConfirmation > Date",
+   "idShort": "Date",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAR969#002",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "Date",
+     "semanticId": "0173-1#02-AAR969#002",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentFooter > DocumentConfirmation > Author",
+   "idShort": "Author",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV997#001",
+   "json": "1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "Author",
+     "semanticId": "0173-1#02-AAV997#001",
+     "card": "1"
+    }
+   },
+   "status": "agree",
+   "effective": "1"
+  },
+  {
+   "path": "DocumentFooter > DocumentConfirmation > Checked",
+   "idShort": "Checked",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV999#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "Checked",
+     "semanticId": "0173-1#02-AAV999#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentFooter > DocumentConfirmation > Released",
+   "idShort": "Released",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAV998#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "Released",
+     "semanticId": "0173-1#02-AAV998#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentFooter > DocumentConfirmation > DocumentVersion",
+   "idShort": "DocumentVersion",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAW000#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "DocumentVersion",
+     "semanticId": "0173-1#02-AAW000#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  },
+  {
+   "path": "DocumentFooter > DocumentConfirmation > Company",
+   "idShort": "Company",
+   "modelType": "Property",
+   "semanticId": "0173-1#02-AAW001#001",
+   "json": "0..1",
+   "jsonQualifierKind": "TemplateQualifier",
+   "listChild": false,
+   "pdf": {
+    "confidence": "high",
+    "card": "0..1",
+    "pages": [
+     22
+    ],
+    "row": {
+     "page": 22,
+     "type": "[Prop]",
+     "idShort": "Company",
+     "semanticId": "0173-1#02-AAW001#001",
+     "card": "0..1"
+    }
+   },
+   "status": "agree",
+   "effective": "0..1"
+  }
+ ]
+}

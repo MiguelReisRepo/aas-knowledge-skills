@@ -1,0 +1,1979 @@
+[
+ {
+  "template": "Artificial Intelligence Dataset",
+  "version": "1.0.2",
+  "file": "Artificial-Intelligence-Dataset/1.0.2.json",
+  "card": "Artificial-Intelligence-Dataset/1.0.2.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/AIDataset/1/0",
+  "pdf": "published/Artificial Intelligence Dataset/1/0/IDTA 02058-1-0_Submodel_AIDataset.pdf",
+  "counts": {
+   "agree": 23,
+   "json-only": 24,
+   "none": 1,
+   "divergent": 1
+  }
+ },
+ {
+  "template": "Artificial Intelligence Dataset",
+  "version": "1.0.1",
+  "file": "Artificial-Intelligence-Dataset/1.0.1.json",
+  "card": "Artificial-Intelligence-Dataset/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/AIDataset/1/0",
+  "pdf": "published/Artificial Intelligence Dataset/1/0/IDTA 02058-1-0_Submodel_AIDataset.pdf",
+  "counts": {
+   "agree": 23,
+   "json-only": 24,
+   "none": 1,
+   "divergent": 1
+  }
+ },
+ {
+  "template": "Artificial Intelligence Dataset",
+  "version": "1.0.0",
+  "file": "Artificial-Intelligence-Dataset/1.0.0.json",
+  "card": "Artificial-Intelligence-Dataset/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/AIDataset/1/0",
+  "pdf": "published/Artificial Intelligence Dataset/1/0/IDTA 02058-1-0_Submodel_AIDataset.pdf",
+  "counts": {
+   "agree": 23,
+   "json-only": 24,
+   "none": 1,
+   "divergent": 1
+  }
+ },
+ {
+  "template": "Artificial Intelligence Deployment",
+  "version": "1.0.2",
+  "file": "Artificial-Intelligence-Deployment/1.0.2.json",
+  "card": "Artificial-Intelligence-Deployment/1.0.2.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/AIDeployment/1/0",
+  "pdf": "published/Artificial Intelligence Deployment/1/0/IDTA 02059-1-0_Submodel_AIDeployment.pdf",
+  "counts": {
+   "agree": 37,
+   "json-only": 1
+  }
+ },
+ {
+  "template": "Artificial Intelligence Deployment",
+  "version": "1.0.1",
+  "file": "Artificial-Intelligence-Deployment/1.0.1.json",
+  "card": "Artificial-Intelligence-Deployment/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/AIDeployment/1/0",
+  "pdf": "published/Artificial Intelligence Deployment/1/0/IDTA 02059-1-0_Submodel_AIDeployment.pdf",
+  "counts": {
+   "agree": 37,
+   "json-only": 1
+  }
+ },
+ {
+  "template": "Artificial Intelligence Deployment",
+  "version": "1.0.0",
+  "file": "Artificial-Intelligence-Deployment/1.0.0.json",
+  "card": "Artificial-Intelligence-Deployment/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/AIDeployment/1/0",
+  "pdf": "published/Artificial Intelligence Deployment/1/0/IDTA 02059-1-0_Submodel_AIDeployment.pdf",
+  "counts": {
+   "agree": 37,
+   "json-only": 1
+  }
+ },
+ {
+  "template": "Artificial Intelligence Model Nameplate",
+  "version": "1.0.1",
+  "file": "Artificial-Intelligence-Model-Nameplate/1.0.1.json",
+  "card": "Artificial-Intelligence-Model-Nameplate/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/AIModelNameplate/1/0",
+  "pdf": "published/Artificial Intelligence Model Nameplate/1/0/IDTA 02060-1-0_Submodel_AIModelNameplate.pdf",
+  "counts": {
+   "agree": 36,
+   "json-only": 3,
+   "divergent": 2
+  }
+ },
+ {
+  "template": "Artificial Intelligence Model Nameplate",
+  "version": "1.0.0",
+  "file": "Artificial-Intelligence-Model-Nameplate/1.0.0.json",
+  "card": "Artificial-Intelligence-Model-Nameplate/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/AIModelNameplate/1/0",
+  "pdf": "published/Artificial Intelligence Model Nameplate/1/0/IDTA 02060-1-0_Submodel_AIModelNameplate.pdf",
+  "counts": {
+   "agree": 36,
+   "json-only": 3,
+   "divergent": 2
+  }
+ },
+ {
+  "template": "Asset Interfaces Description",
+  "version": "1.2.0",
+  "file": "Asset-Interfaces-Description/1.2.0.json",
+  "card": "Asset-Interfaces-Description/1.2.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/AssetInterfacesDescription/1/2/Submodel",
+  "pdf": "published/Asset Interfaces Description/1/2/IDTA 02017_Submodel_Asset Interfaces Description.pdf",
+  "counts": {
+   "unverified": 102,
+   "agree": 828,
+   "json-only": 92,
+   "none": 18
+  }
+ },
+ {
+  "template": "Asset Interfaces Description",
+  "version": "1.1.1",
+  "file": "Asset-Interfaces-Description/1.1.1.json",
+  "card": "Asset-Interfaces-Description/1.1.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/AssetInterfacesDescription/1/1/Submodel",
+  "pdf": "published/Asset Interfaces Description/1/1/1/IDTA 02017-1-1_Submodel_Asset Interfaces Description.pdf",
+  "counts": {
+   "unverified": 74,
+   "agree": 601,
+   "json-only": 65,
+   "divergent": 19,
+   "none": 19,
+   "pdf-only": 6
+  }
+ },
+ {
+  "template": "Asset Interfaces Description",
+  "version": "1.1.0",
+  "file": "Asset-Interfaces-Description/1.1.0.json",
+  "card": "Asset-Interfaces-Description/1.1.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/AssetInterfacesDescription/1/1/Submodel",
+  "pdf": "published/Asset Interfaces Description/1/1/IDTA 02017-1-1_Submodel_Asset Interfaces Description.pdf",
+  "counts": {
+   "unverified": 74,
+   "agree": 601,
+   "json-only": 65,
+   "divergent": 19,
+   "none": 19,
+   "pdf-only": 6
+  }
+ },
+ {
+  "template": "Asset Interfaces Description",
+  "version": "1.0.1",
+  "file": "Asset-Interfaces-Description/1.0.1.json",
+  "card": "Asset-Interfaces-Description/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/AssetInterfacesDescription/1/0/Submodel",
+  "pdf": "published/Asset Interfaces Description/1/0/IDTA 02017-1-0_Submodel_Asset Interfaces Description.pdf",
+  "counts": {
+   "unverified": 31,
+   "agree": 274,
+   "json-only": 36,
+   "divergent": 7,
+   "none": 9,
+   "pdf-only": 3
+  }
+ },
+ {
+  "template": "Asset Interfaces Description",
+  "version": "1.0.0",
+  "file": "Asset-Interfaces-Description/1.0.0.json",
+  "card": "Asset-Interfaces-Description/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/AssetInterfacesDescription/1/0/Submodel",
+  "pdf": "published/Asset Interfaces Description/1/0/IDTA 02017-1-0_Submodel_Asset Interfaces Description.pdf",
+  "counts": {
+   "unverified": 31,
+   "agree": 274,
+   "json-only": 36,
+   "divergent": 7,
+   "none": 9,
+   "pdf-only": 3
+  }
+ },
+ {
+  "template": "Asset Interfaces Mapping Configuration",
+  "version": "2.1.0",
+  "file": "Asset-Interfaces-Mapping-Configuration/2.1.0.json",
+  "card": "Asset-Interfaces-Mapping-Configuration/2.1.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/Submodel",
+  "pdf": "published/Asset Interfaces Mapping Configuration/2/1/IDTA 02027_Submodel Asset Interfaces Mapping Configuration.pdf",
+  "counts": {
+   "agree": 10,
+   "unverified": 3
+  }
+ },
+ {
+  "template": "Asset Interfaces Mapping Configuration",
+  "version": "2.0.0",
+  "file": "Asset-Interfaces-Mapping-Configuration/2.0.0.json",
+  "card": "Asset-Interfaces-Mapping-Configuration/2.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/2/0/Submodel",
+  "pdf": "published/Asset Interfaces Mapping Configuration/2/0/IDTA 02027_Submodel Asset Interfaces Mapping Configuration.pdf",
+  "counts": {
+   "agree": 11,
+   "unverified": 2
+  }
+ },
+ {
+  "template": "Asset Interfaces Mapping Configuration",
+  "version": "1.0.1",
+  "file": "Asset-Interfaces-Mapping-Configuration/1.0.1.json",
+  "card": "Asset-Interfaces-Mapping-Configuration/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/1/0/Submodel",
+  "pdf": "published/Asset Interfaces Mapping Configuration/1/0/IDTA 02027-1-0_Submodel_AssetInterfacesMappingConfiguration.pdf",
+  "counts": {
+   "agree": 3,
+   "unverified": 2
+  }
+ },
+ {
+  "template": "Asset Interfaces Mapping Configuration",
+  "version": "1.0.0",
+  "file": "Asset-Interfaces-Mapping-Configuration/1.0.0.json",
+  "card": "Asset-Interfaces-Mapping-Configuration/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/AssetInterfacesMappingConfiguration/1/0/Submodel",
+  "pdf": "published/Asset Interfaces Mapping Configuration/1/0/IDTA 02027-1-0_Submodel_AssetInterfacesMappingConfiguration.pdf",
+  "counts": {
+   "agree": 3,
+   "unverified": 2
+  }
+ },
+ {
+  "template": "Capability Description",
+  "version": "1.0.1",
+  "file": "Capability-Description/1.0.1.json",
+  "card": "Capability-Description/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/CapabilityDescription/1/0",
+  "pdf": "published/Capability Description/1/0/1/IDTA 02020_Submodel_Capability_Description.pdf",
+  "counts": {
+   "agree": 22,
+   "json-only": 2,
+   "divergent": 7,
+   "unverified": 5,
+   "none": 1
+  }
+ },
+ {
+  "template": "Capability Description",
+  "version": "1.0.0",
+  "file": "Capability-Description/1.0.0.json",
+  "card": "Capability-Description/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/CapabilityDescription/1/0",
+  "pdf": "published/Capability Description/1/0/IDTA 02020_Submodel_Capability_Description.pdf",
+  "counts": {
+   "agree": 22,
+   "json-only": 2,
+   "divergent": 10,
+   "unverified": 2,
+   "none": 1
+  }
+ },
+ {
+  "template": "Carbon Footprint",
+  "version": "1.0.2",
+  "file": "Carbon-Footprint/1.0.2.json",
+  "card": "Carbon-Footprint/1.0.2.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/CarbonFootprint/CarbonFootprint/1/0",
+  "pdf": "published/Carbon Footprint/1/0/2/IDTA 02023_Submodel_CarbonFootprint.pdf",
+  "counts": {
+   "agree": 19,
+   "none": 2,
+   "unverified": 4,
+   "divergent": 2
+  }
+ },
+ {
+  "template": "Carbon Footprint",
+  "version": "1.0.1",
+  "file": "Carbon-Footprint/1.0.1.json",
+  "card": "Carbon-Footprint/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/CarbonFootprint/CarbonFootprint/1/0",
+  "pdf": "published/Carbon Footprint/1/0/IDTA 02023_Submodel_CarbonFootprint.pdf",
+  "counts": {
+   "agree": 20,
+   "none": 2,
+   "unverified": 4,
+   "divergent": 1
+  }
+ },
+ {
+  "template": "Carbon Footprint",
+  "version": "1.0.0",
+  "file": "Carbon-Footprint/1.0.0.json",
+  "card": "Carbon-Footprint/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/CarbonFootprint/CarbonFootprint/1/0",
+  "pdf": "published/Carbon Footprint/1/0/IDTA 02023_Submodel_CarbonFootprint.pdf",
+  "counts": {
+   "agree": 20,
+   "none": 2,
+   "unverified": 4,
+   "divergent": 1
+  }
+ },
+ {
+  "template": "Contact Information",
+  "version": "1.0.2",
+  "file": "Contact-Information/1.0.2.json",
+  "card": "Contact-Information/1.0.2.md",
+  "submodelSemanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations",
+  "pdf": "published/Contact Information/1/0/2/IDTA 02002-1-0_Submodel_ContactInformation.pdf",
+  "counts": {
+   "agree": 33,
+   "unverified": 3
+  }
+ },
+ {
+  "template": "Contact Information",
+  "version": "1.0.1",
+  "file": "Contact-Information/1.0.1.json",
+  "card": "Contact-Information/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations",
+  "pdf": "published/Contact Information/1/0/1/IDTA 02002-1-0-1_Submodel_ContactInformation.pdf",
+  "counts": {
+   "agree": 33,
+   "json-only": 1,
+   "unverified": 2
+  }
+ },
+ {
+  "template": "Contact Information",
+  "version": "1.0.0",
+  "file": "Contact-Information/1.0.0.json",
+  "card": "Contact-Information/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/zvei/nameplate/1/0/ContactInformations",
+  "pdf": "published/Contact Information/1/0/IDTA 02002-1-0_Submodel_ContactInformation.pdf",
+  "counts": {
+   "unverified": 4,
+   "agree": 32
+  }
+ },
+ {
+  "template": "Control Component Instance",
+  "version": "2.0.1",
+  "file": "Control-Component-Instance/2.0.1.json",
+  "card": "Control-Component-Instance/2.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/ControlComponent/Instance/2/0",
+  "pdf": "published/Control Component Instance/2/0/IDTA 02016-2-0 _Submodel_CCInstance.pdf",
+  "counts": {
+   "agree": 17,
+   "json-only": 2
+  }
+ },
+ {
+  "template": "Control Component Instance",
+  "version": "2.0.0",
+  "file": "Control-Component-Instance/2.0.0.json",
+  "card": "Control-Component-Instance/2.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/ControlComponent/Instance/2/0",
+  "pdf": "published/Control Component Instance/2/0/IDTA 02016-2-0 _Submodel_CCInstance.pdf",
+  "counts": {
+   "agree": 17,
+   "json-only": 2
+  }
+ },
+ {
+  "template": "Control Component Type",
+  "version": "2.0.2",
+  "file": "Control-Component-Type/2.0.2.json",
+  "card": "Control-Component-Type/2.0.2.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/ControlComponent/Type/2/0",
+  "pdf": "published/Control Component Type/2/0/IDTA 02015-2-0 _Submodel_CCType.pdf",
+  "counts": {
+   "pdf-only": 20,
+   "none": 2
+  }
+ },
+ {
+  "template": "Control Component Type",
+  "version": "2.0.1",
+  "file": "Control-Component-Type/2.0.1.json",
+  "card": "Control-Component-Type/2.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/ControlComponent/Type/2/0",
+  "pdf": "published/Control Component Type/2/0/IDTA 02015-2-0 _Submodel_CCType.pdf",
+  "counts": {
+   "pdf-only": 20,
+   "none": 2
+  }
+ },
+ {
+  "template": "Control Component Type",
+  "version": "2.0.0",
+  "file": "Control-Component-Type/2.0.0.json",
+  "card": "Control-Component-Type/2.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/ControlComponent/Type/2/0",
+  "pdf": "published/Control Component Type/2/0/IDTA 02015-2-0 _Submodel_CCType.pdf",
+  "counts": {
+   "pdf-only": 20,
+   "none": 2
+  }
+ },
+ {
+  "template": "Control Configuration and Parametrization for NC and CNC Machines",
+  "version": "1.0.2",
+  "file": "Control-Configuration-and-Parametrization-for-NC-and-CNC-Machines/1.0.2.json",
+  "card": "Control-Configuration-and-Parametrization-for-NC-and-CNC-Machines/1.0.2.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/ControlConfig/1/0",
+  "pdf": "published/Control Configuration and Parametrization for NC and CNC Machines/1/0/IDTA 02053-1-0_Submodel_ControlConfig.pdf",
+  "counts": {
+   "agree": 35,
+   "divergent": 10,
+   "json-only": 5,
+   "unverified": 1
+  }
+ },
+ {
+  "template": "Control Configuration and Parametrization for NC and CNC Machines",
+  "version": "1.0.1",
+  "file": "Control-Configuration-and-Parametrization-for-NC-and-CNC-Machines/1.0.1.json",
+  "card": "Control-Configuration-and-Parametrization-for-NC-and-CNC-Machines/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/ControlConfig/1/0",
+  "pdf": "published/Control Configuration and Parametrization for NC and CNC Machines/1/0/IDTA 02053-1-0_Submodel_ControlConfig.pdf",
+  "counts": {
+   "agree": 35,
+   "divergent": 10,
+   "json-only": 5,
+   "unverified": 1
+  }
+ },
+ {
+  "template": "Control Configuration and Parametrization for NC and CNC Machines",
+  "version": "1.0.0",
+  "file": "Control-Configuration-and-Parametrization-for-NC-and-CNC-Machines/1.0.0.json",
+  "card": "Control-Configuration-and-Parametrization-for-NC-and-CNC-Machines/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/ControlConfig/1/0",
+  "pdf": "published/Control Configuration and Parametrization for NC and CNC Machines/1/0/IDTA 02053-1-0_Submodel_ControlConfig.pdf",
+  "counts": {
+   "agree": 35,
+   "divergent": 10,
+   "json-only": 5,
+   "unverified": 1
+  }
+ },
+ {
+  "template": "Creation and Classification of Materials",
+  "version": "1.0.1",
+  "file": "Creation-and-Classification-of-Materials/1.0.1.json",
+  "card": "Creation-and-Classification-of-Materials/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/1/0",
+  "pdf": "published/Creation and Classification of Materials/1/0/IDTA 02034-1-0 Submodel_CreationAndClassificationOfMaterial.pdf",
+  "counts": {
+   "agree": 8,
+   "json-only": 1
+  }
+ },
+ {
+  "template": "Creation and Classification of Materials",
+  "version": "1.0.0",
+  "file": "Creation-and-Classification-of-Materials/1.0.0.json",
+  "card": "Creation-and-Classification-of-Materials/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/BackendSpecificMaterialInformation/1/0/",
+  "pdf": "published/Creation and Classification of Materials/1/0/IDTA 02034-1-0 Submodel_CreationAndClassificationOfMaterial.pdf",
+  "counts": {
+   "pdf-only": 8,
+   "none": 1
+  }
+ },
+ {
+  "template": "Data Model for Asset Location",
+  "version": "1.0.1",
+  "file": "Data-Model-for-Asset-Location/1.0.1.json",
+  "card": "Data-Model-for-Asset-Location/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/smt/assetlocation/1/0",
+  "pdf": "published/Data Model for Asset Location/1/0/IDTA 02045-1-0_Submodel_Data Model for Asset Location.pdf",
+  "counts": {
+   "agree": 66,
+   "none": 8,
+   "divergent": 1,
+   "json-only": 1
+  }
+ },
+ {
+  "template": "Data Model for Asset Location",
+  "version": "1.0.0",
+  "file": "Data-Model-for-Asset-Location/1.0.0.json",
+  "card": "Data-Model-for-Asset-Location/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/smt/assetlocation/1/0",
+  "pdf": "published/Data Model for Asset Location/1/0/IDTA 02045-1-0_Submodel_Data Model for Asset Location.pdf",
+  "counts": {
+   "agree": 66,
+   "none": 8,
+   "divergent": 1,
+   "json-only": 1
+  }
+ },
+ {
+  "template": "Data Retention Policies",
+  "version": "1.0.2",
+  "file": "Data-Retention-Policies/1.0.2.json",
+  "card": "Data-Retention-Policies/1.0.2.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/DataRetentionPolicies/1/0",
+  "pdf": "published/Data Retention Policies/1/0/IDTA 02056-1-0_Submodel_Data Retention Policies.pdf",
+  "counts": {
+   "agree": 24,
+   "unverified": 1
+  }
+ },
+ {
+  "template": "Data Retention Policies",
+  "version": "1.0.1",
+  "file": "Data-Retention-Policies/1.0.1.json",
+  "card": "Data-Retention-Policies/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/DataRetentionPolicies/1/0",
+  "pdf": "published/Data Retention Policies/1/0/IDTA 02056-1-0_Submodel_Data Retention Policies.pdf",
+  "counts": {
+   "agree": 24,
+   "unverified": 1
+  }
+ },
+ {
+  "template": "Data Retention Policies",
+  "version": "1.0.0",
+  "file": "Data-Retention-Policies/1.0.0.json",
+  "card": "Data-Retention-Policies/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/DataRetentionPolicies/1/0",
+  "pdf": "published/Data Retention Policies/1/0/IDTA 02056-1-0_Submodel_Data Retention Policies.pdf",
+  "counts": {
+   "agree": 24,
+   "unverified": 1
+  }
+ },
+ {
+  "template": "DEXPI",
+  "version": "1.0.1",
+  "file": "DEXPI/1.0.1.json",
+  "card": "DEXPI/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/DEXPI/1/0",
+  "pdf": "published/DEXPI/1/0/1/IDTA 02012-1-0_Submodel_DEXPI.pdf",
+  "counts": {
+   "json-only": 285
+  }
+ },
+ {
+  "template": "DEXPI",
+  "version": "1.0.0",
+  "file": "DEXPI/1.0.0.json",
+  "card": "DEXPI/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/DEXPI/1/0",
+  "pdf": "published/DEXPI/1/0/IDTA 02012-1-0_Submodel_DEXPI.pdf",
+  "counts": {
+   "json-only": 285
+  }
+ },
+ {
+  "template": "Digital Battery Passport / Circularity",
+  "version": "1.0.2",
+  "file": "Digital-Battery-Passport-Circularity/1.0.2.json",
+  "card": "Digital-Battery-Passport-Circularity/1.0.2.md",
+  "submodelSemanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#Circularity",
+  "pdf": "published/Digital Battery Passport/7_Circularity/1/0/2/IDTA 02035-7_DBP-Part-7_Circularity.pdf",
+  "counts": {
+   "agree": 31,
+   "unverified": 5,
+   "json-only": 1
+  }
+ },
+ {
+  "template": "Digital Battery Passport / Circularity",
+  "version": "1.0.1",
+  "file": "Digital-Battery-Passport-Circularity/1.0.1.json",
+  "card": "Digital-Battery-Passport-Circularity/1.0.1.md",
+  "submodelSemanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#Circularity",
+  "pdf": "published/Digital Battery Passport/7_Circularity/1/0/1/IDTA 02035-7_DBP-Part-7_Circularity.pdf",
+  "counts": {
+   "agree": 36,
+   "json-only": 1
+  }
+ },
+ {
+  "template": "Digital Battery Passport / Circularity",
+  "version": "1.0.0",
+  "file": "Digital-Battery-Passport-Circularity/1.0.0.json",
+  "card": "Digital-Battery-Passport-Circularity/1.0.0.md",
+  "submodelSemanticId": "urn:samm:io.admin-shell.idta.batterypass.circularity:1.0.0#Circularity",
+  "pdf": "published/Digital Battery Passport/7_Circularity/1/0/IDTA 02035-7_DBP-Part-7_Circularity.pdf",
+  "counts": {
+   "agree": 37
+  }
+ },
+ {
+  "template": "Digital Battery Passport / Digital Nameplate",
+  "version": "1.1.0",
+  "file": "Digital-Battery-Passport-Digital-Nameplate/1.1.0.json",
+  "card": "Digital-Battery-Passport-Digital-Nameplate/1.1.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/digitalbatterypassport/nameplate/1/0/Nameplate",
+  "pdf": "published/Digital Battery Passport/1_Digital Nameplate/1/1/IDTA 02035-1_DBP-Part-1_Digital Nameplate.pdf",
+  "counts": {
+   "agree": 19,
+   "json-only": 3
+  }
+ },
+ {
+  "template": "Digital Battery Passport / Digital Nameplate",
+  "version": "1.0.0",
+  "file": "Digital-Battery-Passport-Digital-Nameplate/1.0.0.json",
+  "card": "Digital-Battery-Passport-Digital-Nameplate/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/digitalbatterypassport/nameplate/1/0/Nameplate",
+  "pdf": "published/Digital Battery Passport/1_Digital Nameplate/1/0/IDTA 02035-1_DBP-Part-1_Digital Nameplate.pdf",
+  "counts": {
+   "agree": 19,
+   "json-only": 3
+  }
+ },
+ {
+  "template": "Digital Battery Passport / Handover Documentation",
+  "version": "1.1.0",
+  "file": "Digital-Battery-Passport-Handover-Documentation/1.1.0.json",
+  "card": "Digital-Battery-Passport-Handover-Documentation/1.1.0.md",
+  "submodelSemanticId": "0173-1#01-AHF578#003",
+  "pdf": "published/Digital Battery Passport/2_Handover Documentation/1/1/IDTA 02035-2_DBP-Part-2_HandoverDocumentation.pdf",
+  "counts": {
+   "agree": 15,
+   "json-only": 5,
+   "unverified": 2
+  }
+ },
+ {
+  "template": "Digital Battery Passport / Handover Documentation",
+  "version": "1.0.0",
+  "file": "Digital-Battery-Passport-Handover-Documentation/1.0.0.json",
+  "card": "Digital-Battery-Passport-Handover-Documentation/1.0.0.md",
+  "submodelSemanticId": "0173-1#01-AHF578#003",
+  "pdf": "published/Digital Battery Passport/2_Handover Documentation/1/0/IDTA 02035-2_DBP-Part-2_HandoverDocumentation.pdf",
+  "counts": {
+   "agree": 15,
+   "json-only": 5,
+   "unverified": 2
+  }
+ },
+ {
+  "template": "Digital Battery Passport / Material Composition",
+  "version": "1.0.1",
+  "file": "Digital-Battery-Passport-Material-Composition/1.0.1.json",
+  "card": "Digital-Battery-Passport-Material-Composition/1.0.1.md",
+  "submodelSemanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.0#MaterialComposition",
+  "pdf": "published/Digital Battery Passport/6_Material Composition/1/0/1/IDTA 02035-6_DBP-Part-6_MaterialComposition.pdf",
+  "counts": {
+   "json-only": 1,
+   "agree": 22
+  }
+ },
+ {
+  "template": "Digital Battery Passport / Material Composition",
+  "version": "1.0.0",
+  "file": "Digital-Battery-Passport-Material-Composition/1.0.0.json",
+  "card": "Digital-Battery-Passport-Material-Composition/1.0.0.md",
+  "submodelSemanticId": "urn:samm:io.admin-shell.idta.batterypass.material_composition:1.0.0#MaterialComposition",
+  "pdf": "published/Digital Battery Passport/6_Material Composition/1/0/IDTA 02035-6_DBP-Part-6_MaterialComposition.pdf",
+  "counts": {
+   "agree": 23
+  }
+ },
+ {
+  "template": "Digital Battery Passport / Product Carbon Footprint",
+  "version": "1.1.0",
+  "file": "Digital-Battery-Passport-Product-Carbon-Footprint/1.1.0.json",
+  "card": "Digital-Battery-Passport-Product-Carbon-Footprint/1.1.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/CarbonFootprint/CarbonFootprint/1/0",
+  "pdf": "published/Digital Battery Passport/3_Product Carbon Footprint/1/1/IDTA 02035-3_DBP-Part-3_ProductCarbonFootprint.pdf",
+  "counts": {
+   "agree": 11,
+   "none": 1
+  }
+ },
+ {
+  "template": "Digital Battery Passport / Product Carbon Footprint",
+  "version": "1.0.0",
+  "file": "Digital-Battery-Passport-Product-Carbon-Footprint/1.0.0.json",
+  "card": "Digital-Battery-Passport-Product-Carbon-Footprint/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/CarbonFootprint/CarbonFootprint/1/0",
+  "pdf": "published/Digital Battery Passport/3_Product Carbon Footprint/1/0/IDTA 02035-3_DBP-Part-3_ProductCarbonFootprint.pdf",
+  "counts": {
+   "agree": 11,
+   "none": 1
+  }
+ },
+ {
+  "template": "Digital Battery Passport / Product Condition",
+  "version": "1.0.2",
+  "file": "Digital-Battery-Passport-Product-Condition/1.0.2.json",
+  "card": "Digital-Battery-Passport-Product-Condition/1.0.2.md",
+  "submodelSemanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.2#ProductCondition",
+  "pdf": "published/Digital Battery Passport/5_Product Condition/1/0/2/IDTA 02035-5_DBP-Part-5_ProductCondition.pdf",
+  "counts": {
+   "agree": 49
+  }
+ },
+ {
+  "template": "Digital Battery Passport / Product Condition",
+  "version": "1.0.1",
+  "file": "Digital-Battery-Passport-Product-Condition/1.0.1.json",
+  "card": "Digital-Battery-Passport-Product-Condition/1.0.1.md",
+  "submodelSemanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.0#ProductCondition",
+  "pdf": "published/Digital Battery Passport/5_Product Condition/1/0/1/IDTA 02035-5_DBP-Part-5_ProductCondition.pdf",
+  "counts": {
+   "agree": 48,
+   "json-only": 1
+  }
+ },
+ {
+  "template": "Digital Battery Passport / Product Condition",
+  "version": "1.0.0",
+  "file": "Digital-Battery-Passport-Product-Condition/1.0.0.json",
+  "card": "Digital-Battery-Passport-Product-Condition/1.0.0.md",
+  "submodelSemanticId": "urn:samm:io.admin-shell.idta.batterypass.product_condition:1.0.0#ProductCondition",
+  "pdf": "published/Digital Battery Passport/5_Product Condition/1/0/IDTA 02035-5_DBP-Part-5_ProductCondition.pdf",
+  "counts": {
+   "agree": 48
+  }
+ },
+ {
+  "template": "Digital Battery Passport / Technical Data",
+  "version": "1.0.2",
+  "file": "Digital-Battery-Passport-Technical-Data/1.0.2.json",
+  "card": "Digital-Battery-Passport-Technical-Data/1.0.2.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/digitalbatterypassport/TechnicalData/1/0",
+  "pdf": "published/Digital Battery Passport/4_Technical Data/1/0/2/IDTA 02035-4_DBP-Part-4_TechnicalData.pdf",
+  "counts": {
+   "agree": 44,
+   "none": 1,
+   "json-only": 1
+  }
+ },
+ {
+  "template": "Digital Battery Passport / Technical Data",
+  "version": "1.0.1",
+  "file": "Digital-Battery-Passport-Technical-Data/1.0.1.json",
+  "card": "Digital-Battery-Passport-Technical-Data/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/digitalbatterypassport/TechnicalData/1/0",
+  "pdf": "published/Digital Battery Passport/4_Technical Data/1/0/1/IDTA 02035-4_DBP-Part-4_TechnicalData.pdf",
+  "counts": {
+   "agree": 44,
+   "none": 1,
+   "json-only": 1
+  }
+ },
+ {
+  "template": "Digital Battery Passport / Technical Data",
+  "version": "1.0.0",
+  "file": "Digital-Battery-Passport-Technical-Data/1.0.0.json",
+  "card": "Digital-Battery-Passport-Technical-Data/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/digitalbatterypassport/TechnicalData/1/0",
+  "pdf": "published/Digital Battery Passport/4_Technical Data/1/0/IDTA 02035-4_DBP-Part-4_TechnicalData.pdf",
+  "counts": {
+   "agree": 48,
+   "divergent": 2
+  }
+ },
+ {
+  "template": "Digital nameplate",
+  "version": "3.0.2",
+  "file": "Digital-nameplate/3.0.2.json",
+  "card": "Digital-nameplate/3.0.2.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/nameplate/3/0/Nameplate",
+  "pdf": "published/Digital nameplate/3/0/2/IDTA 02006-3-0_Submodel_Digital Nameplate.pdf",
+  "counts": {
+   "agree": 35,
+   "unverified": 1
+  }
+ },
+ {
+  "template": "Digital nameplate",
+  "version": "3.0.1",
+  "file": "Digital-nameplate/3.0.1.json",
+  "card": "Digital-nameplate/3.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/nameplate/3/0/Nameplate",
+  "pdf": "published/Digital nameplate/3/0/1/IDTA 02006-3-0-1_Submodel_Digital Nameplate.pdf",
+  "counts": {
+   "agree": 35,
+   "unverified": 1
+  }
+ },
+ {
+  "template": "Digital nameplate",
+  "version": "3.0.0",
+  "file": "Digital-nameplate/3.0.0.json",
+  "card": "Digital-nameplate/3.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/nameplate/3/0/Nameplate",
+  "pdf": "published/Digital nameplate/3/0/IDTA 02006-3-0_Submodel_Digital Nameplate.pdf",
+  "counts": {
+   "agree": 35,
+   "unverified": 1
+  }
+ },
+ {
+  "template": "Digital Product Passport / Digital Product Passport Part-1",
+  "version": "1.0.2",
+  "file": "Digital-Product-Passport-Digital-Product-Passport-Part-1/1.0.2.json",
+  "card": "Digital-Product-Passport-Digital-Product-Passport-Part-1/1.0.2.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/cds/dppMetadata/1",
+  "pdf": "published/Digital Product Passport/Digital Product Passport Part-1/1/0/2/IDTA 02099-1_Template Digital Product Passport - Part 1.pdf",
+  "counts": {
+   "agree": 10
+  }
+ },
+ {
+  "template": "Digital Product Passport / Digital Product Passport Part-1",
+  "version": "1.0.1",
+  "file": "Digital-Product-Passport-Digital-Product-Passport-Part-1/1.0.1.json",
+  "card": "Digital-Product-Passport-Digital-Product-Passport-Part-1/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/cds/dppMetadata/1",
+  "pdf": "published/Digital Product Passport/Digital Product Passport Part-1/1/0/1/IDTA 02099-1_Template Digital Product Passport - Part 1.pdf",
+  "counts": {
+   "agree": 10
+  }
+ },
+ {
+  "template": "Digital Product Passport / Digital Product Passport Part-1",
+  "version": "1.0.0",
+  "file": "Digital-Product-Passport-Digital-Product-Passport-Part-1/1.0.0.json",
+  "card": "Digital-Product-Passport-Digital-Product-Passport-Part-1/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/cds/dppMetadata/1",
+  "pdf": "published/Digital Product Passport/Digital Product Passport Part-1/1/0/0/IDTA 02099-1_Submodel Digital Product Passport - Part 1.pdf",
+  "counts": {
+   "agree": 10
+  }
+ },
+ {
+  "template": "Digital Quality Documents / Part 1 Core Elements",
+  "version": "1.1.0",
+  "file": "Digital-Quality-Documents-Part-1-Core-Elements/1.1.0.json",
+  "card": "Digital-Quality-Documents-Part-1-Core-Elements/1.1.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/DigitalQualityDocument/1/0",
+  "pdf": "published/Digital Quality Documents/Part 1 Core Elements/1/1/IDTA 02065-1_Submodel_DigitalQualityDocuments-part-1.pdf",
+  "counts": {
+   "agree": 33,
+   "none": 13,
+   "pdf-only": 1,
+   "unverified": 1,
+   "json-only": 26,
+   "divergent": 1
+  }
+ },
+ {
+  "template": "Digital Quality Documents / Part 1 Core Elements",
+  "version": "1.0.0",
+  "file": "Digital-Quality-Documents-Part-1-Core-Elements/1.0.0.json",
+  "card": "Digital-Quality-Documents-Part-1-Core-Elements/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/DigitalQualityDocument/1/0",
+  "pdf": "published/Digital Quality Documents/Part 1 Core Elements/1/0/IDTA 02065-1_Submodel_DigitalQualityDocuments-part-1.pdf",
+  "counts": {
+   "agree": 33,
+   "none": 12,
+   "pdf-only": 2,
+   "unverified": 1,
+   "json-only": 26,
+   "divergent": 1
+  }
+ },
+ {
+  "template": "Energy Flexibility Data Model",
+  "version": "1.1.0",
+  "file": "Energy-Flexibility-Data-Model/1.1.0.json",
+  "card": "Energy-Flexibility-Data-Model/1.1.0.md",
+  "submodelSemanticId": null,
+  "pdf": "published/Energy Flexibility Data Model/1/1/IDTA 02076_Submodel_EnergyFlexibilityDataModel.pdf",
+  "counts": {
+   "agree": 180,
+   "unverified": 57,
+   "json-only": 20,
+   "divergent": 5,
+   "none": 1
+  }
+ },
+ {
+  "template": "Energy Flexibility Data Model",
+  "version": "1.0.0",
+  "file": "Energy-Flexibility-Data-Model/1.0.0.json",
+  "card": "Energy-Flexibility-Data-Model/1.0.0.md",
+  "submodelSemanticId": null,
+  "pdf": "published/Energy Flexibility Data Model/1/0/IDTA 02076_Submodel_EnergyFlexibilityDataModel.pdf",
+  "counts": {
+   "agree": 199,
+   "unverified": 38,
+   "json-only": 20,
+   "divergent": 5,
+   "none": 1
+  }
+ },
+ {
+  "template": "Factory Automation Data for Plant Planning",
+  "version": "1.1.0",
+  "file": "Factory-Automation-Data-for-Plant-Planning/1.1.0.json",
+  "card": "Factory-Automation-Data-for-Plant-Planning/1.1.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/cds/factoryAutomationDataForPlant/1",
+  "pdf": "published/Factory Automation Data for Plant Planning/1/1/IDTA 02075_Submodel_FactoryAutomationDataForPlantPlanning.pdf",
+  "counts": {
+   "json-only": 25,
+   "agree": 42
+  }
+ },
+ {
+  "template": "Factory Automation Data for Plant Planning",
+  "version": "1.0.0",
+  "file": "Factory-Automation-Data-for-Plant-Planning/1.0.0.json",
+  "card": "Factory-Automation-Data-for-Plant-Planning/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/cds/factoryAutomationDataForPlant/1",
+  "pdf": "published/Factory Automation Data for Plant Planning/1/0/IDTA 02075_Submodel_FactoryAutomationDataForPlantPlanning.pdf",
+  "counts": {
+   "json-only": 25,
+   "agree": 42
+  }
+ },
+ {
+  "template": "Fire Protection on Railway Vehicles",
+  "version": "1.0.0",
+  "file": "Fire-Protection-on-Railway-Vehicles/1.0.0.json",
+  "card": "Fire-Protection-on-Railway-Vehicles/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/cds/RailwayFireProtection/1",
+  "pdf": "published/Fire Protection on Railway Vehicles/1/0/IDTA 02102_Template Fire Protection on Railway Vehicles.pdf",
+  "counts": {
+   "agree": 37
+  }
+ },
+ {
+  "template": "Functional Safety",
+  "version": "1.0.2",
+  "file": "Functional-Safety/1.0.2.json",
+  "card": "Functional-Safety/1.0.2.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/iec62683/1/0/FunctionalSafety",
+  "pdf": "published/Functional Safety/1/0/IDTA 02014-1-0_Submodel_FunctionalSafety.pdf",
+  "counts": {
+   "agree": 31
+  }
+ },
+ {
+  "template": "Functional Safety",
+  "version": "1.0.1",
+  "file": "Functional-Safety/1.0.1.json",
+  "card": "Functional-Safety/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/iec62683/1/0/FunctionalSafety",
+  "pdf": "published/Functional Safety/1/0/IDTA 02014-1-0_Submodel_FunctionalSafety.pdf",
+  "counts": {
+   "agree": 31
+  }
+ },
+ {
+  "template": "Functional Safety",
+  "version": "1.0.0",
+  "file": "Functional-Safety/1.0.0.json",
+  "card": "Functional-Safety/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/iec62683/1/0/FunctionalSafety",
+  "pdf": "published/Functional Safety/1/0/IDTA 02014-1-0_Submodel_FunctionalSafety.pdf",
+  "counts": {
+   "agree": 31
+  }
+ },
+ {
+  "template": "Handover Documentation",
+  "version": "2.0.2",
+  "file": "Handover-Documentation/2.0.2.json",
+  "card": "Handover-Documentation/2.0.2.md",
+  "submodelSemanticId": "0173-1#01-AHF578#003",
+  "pdf": "published/Handover Documentation/2/0/2/IDTA 02004-2-0_Submodel_Handover Documentation.pdf",
+  "counts": {
+   "agree": 30,
+   "json-only": 3,
+   "unverified": 5
+  }
+ },
+ {
+  "template": "Handover Documentation",
+  "version": "2.0.1",
+  "file": "Handover-Documentation/2.0.1.json",
+  "card": "Handover-Documentation/2.0.1.md",
+  "submodelSemanticId": "0173-1#01-AHF578#003",
+  "pdf": "published/Handover Documentation/2/0/1/IDTA 02004-2-0-1_Submodel_Handover Documentation.pdf",
+  "counts": {
+   "agree": 30,
+   "json-only": 3,
+   "unverified": 5
+  }
+ },
+ {
+  "template": "Handover Documentation",
+  "version": "2.0.0",
+  "file": "Handover-Documentation/2.0.0.json",
+  "card": "Handover-Documentation/2.0.0.md",
+  "submodelSemanticId": "0173-1#01-AHF578#003",
+  "pdf": "published/Handover Documentation/2/0/IDTA 02004-2-0_Submodel_Handover Documentation.pdf",
+  "counts": {
+   "agree": 30,
+   "json-only": 3,
+   "unverified": 5
+  }
+ },
+ {
+  "template": "Hierarchical Structures enabling Bills of Material",
+  "version": "1.1.2",
+  "file": "Hierarchical-Structures-enabling-Bills-of-Material/1.1.2.json",
+  "card": "Hierarchical-Structures-enabling-Bills-of-Material/1.1.2.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/HierarchicalStructures/1/1/Submodel",
+  "pdf": "published/Hierarchical Structures enabling Bills of Material/1/1/2/IDTA 02011-1-1_Submodel_HierarchicalStructuresEnablingBoM.pdf",
+  "counts": {
+   "agree": 9,
+   "unverified": 2
+  }
+ },
+ {
+  "template": "Hierarchical Structures enabling Bills of Material",
+  "version": "1.1.1",
+  "file": "Hierarchical-Structures-enabling-Bills-of-Material/1.1.1.json",
+  "card": "Hierarchical-Structures-enabling-Bills-of-Material/1.1.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/HierarchicalStructures/1/1/Submodel",
+  "pdf": "published/Hierarchical Structures enabling Bills of Material/1/1/IDTA 02011-1-1_Submodel_HierarchicalStructuresEnablingBoM.pdf",
+  "counts": {
+   "agree": 9,
+   "unverified": 2
+  }
+ },
+ {
+  "template": "Hierarchical Structures enabling Bills of Material",
+  "version": "1.1.0",
+  "file": "Hierarchical-Structures-enabling-Bills-of-Material/1.1.0.json",
+  "card": "Hierarchical-Structures-enabling-Bills-of-Material/1.1.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/HierarchicalStructures/1/1/Submodel",
+  "pdf": "published/Hierarchical Structures enabling Bills of Material/1/1/IDTA 02011-1-1_Submodel_HierarchicalStructuresEnablingBoM.pdf",
+  "counts": {
+   "agree": 9,
+   "unverified": 2
+  }
+ },
+ {
+  "template": "Hierarchical Structures enabling Bills of Material / Extension based on IEC 81346",
+  "version": "1.1.2",
+  "file": "Hierarchical-Structures-enabling-Bills-of-Material-Extension-based-on-IEC-81346/1.1.2.json",
+  "card": "Hierarchical-Structures-enabling-Bills-of-Material-Extension-based-on-IEC-81346/1.1.2.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/HierarchicalStructures/ExtensionIEC81346/1/0",
+  "pdf": "published/Hierarchical Structures enabling Bills of Material/Extension based on IEC 81346/1/0/IDTA 02011-1_Submodel_BoM_Extension based on IEC 81346.pdf",
+  "counts": {
+   "agree": 13,
+   "divergent": 1,
+   "json-only": 5
+  }
+ },
+ {
+  "template": "Hierarchical Structures enabling Bills of Material / Extension based on IEC 81346",
+  "version": "1.1.1",
+  "file": "Hierarchical-Structures-enabling-Bills-of-Material-Extension-based-on-IEC-81346/1.1.1.json",
+  "card": "Hierarchical-Structures-enabling-Bills-of-Material-Extension-based-on-IEC-81346/1.1.1.md",
+  "submodelSemanticId": null,
+  "pdf": "published/Hierarchical Structures enabling Bills of Material/Extension based on IEC 81346/1/0/IDTA 02011-1_Submodel_BoM_Extension based on IEC 81346.pdf",
+  "counts": {
+   "json-only": 6,
+   "divergent": 1,
+   "agree": 12
+  }
+ },
+ {
+  "template": "Hierarchical Structures enabling Bills of Material / Extension based on IEC 81346",
+  "version": "1.0.0",
+  "file": "Hierarchical-Structures-enabling-Bills-of-Material-Extension-based-on-IEC-81346/1.0.0.json",
+  "card": "Hierarchical-Structures-enabling-Bills-of-Material-Extension-based-on-IEC-81346/1.0.0.md",
+  "submodelSemanticId": null,
+  "pdf": "published/Hierarchical Structures enabling Bills of Material/Extension based on IEC 81346/1/0/IDTA 02011-1_Submodel_BoM_Extension based on IEC 81346.pdf",
+  "counts": {
+   "json-only": 6,
+   "divergent": 1,
+   "agree": 12
+  }
+ },
+ {
+  "template": "Inspection Documents of Steel Products",
+  "version": "1.0.1",
+  "file": "Inspection-Documents-of-Steel-Products/1.0.1.json",
+  "card": "Inspection-Documents-of-Steel-Products/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/InspectionDocumentsOfSteelProducts/1/0",
+  "pdf": "published/Inspection Documents of Steel Products/1/0/IDTA 02032-1-0_Submodel Inspection Documents of Steel Products.pdf",
+  "counts": {
+   "agree": 103,
+   "divergent": 5,
+   "json-only": 21
+  }
+ },
+ {
+  "template": "Inspection Documents of Steel Products",
+  "version": "1.0.0",
+  "file": "Inspection-Documents-of-Steel-Products/1.0.0.json",
+  "card": "Inspection-Documents-of-Steel-Products/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/InspectionDocumentsOfSteelProducts/1/0",
+  "pdf": "published/Inspection Documents of Steel Products/1/0/IDTA 02032-1-0_Submodel Inspection Documents of Steel Products.pdf",
+  "counts": {
+   "agree": 103,
+   "divergent": 5,
+   "json-only": 21
+  }
+ },
+ {
+  "template": "Intelligent Information  for Use",
+  "version": "1.0.2",
+  "file": "Intelligent-Information-for-Use/1.0.2.json",
+  "card": "Intelligent-Information-for-Use/1.0.2.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/IntelligentInformationForUse/1/0",
+  "pdf": "published/Intelligent Information  for Use/1/0/IDTA 02063-1-0_Submodel__IntelligentInformationForUse.pdf",
+  "counts": {
+   "unverified": 26,
+   "agree": 145,
+   "json-only": 3,
+   "divergent": 1
+  }
+ },
+ {
+  "template": "Intelligent Information  for Use",
+  "version": "1.0.1",
+  "file": "Intelligent-Information-for-Use/1.0.1.json",
+  "card": "Intelligent-Information-for-Use/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/IntelligentInformationForUse/1/0",
+  "pdf": "published/Intelligent Information  for Use/1/0/IDTA 02063-1-0_Submodel__IntelligentInformationForUse.pdf",
+  "counts": {
+   "unverified": 26,
+   "agree": 145,
+   "json-only": 3,
+   "divergent": 1
+  }
+ },
+ {
+  "template": "Intelligent Information  for Use",
+  "version": "1.0.0",
+  "file": "Intelligent-Information-for-Use/1.0.0.json",
+  "card": "Intelligent-Information-for-Use/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/IntelligentInformationForUse/1/0",
+  "pdf": "published/Intelligent Information  for Use/1/0/IDTA 02063-1-0_Submodel__IntelligentInformationForUse.pdf",
+  "counts": {
+   "unverified": 26,
+   "agree": 145,
+   "json-only": 3,
+   "divergent": 1
+  }
+ },
+ {
+  "template": "Maintenance Instructions",
+  "version": "1.0.1",
+  "file": "Maintenance-Instructions/1.0.1.json",
+  "card": "Maintenance-Instructions/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/MaintenanceInstructions/1/0",
+  "pdf": "published/Maintenance Instructions/1/0/1/IDTA_02018_Submodel_MaintenanceInstructions.pdf",
+  "counts": {
+   "agree": 89,
+   "json-only": 13,
+   "divergent": 13,
+   "unverified": 2
+  }
+ },
+ {
+  "template": "Maintenance Instructions",
+  "version": "1.0.0",
+  "file": "Maintenance-Instructions/1.0.0.json",
+  "card": "Maintenance-Instructions/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/MaintenanceInstructions/1/0",
+  "pdf": "published/Maintenance Instructions/1/0/IDTA_02018_Submodel_MaintenanceInstructions.pdf",
+  "counts": {
+   "agree": 92,
+   "json-only": 10,
+   "divergent": 14,
+   "unverified": 1
+  }
+ },
+ {
+  "template": "Material Data for Plastic Waste",
+  "version": "1.1.0",
+  "file": "Material-Data-for-Plastic-Waste/1.1.0.json",
+  "card": "Material-Data-for-Plastic-Waste/1.1.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/en18065materialdata/en18065MaterialData/1/0",
+  "pdf": "published/Material Data for Plastic Waste/1/1/IDTA_02080_Submodel_Material Data for Plastic Waste.pdf",
+  "counts": {
+   "agree": 80,
+   "unverified": 2
+  }
+ },
+ {
+  "template": "Material Data for Plastic Waste",
+  "version": "1.0.0",
+  "file": "Material-Data-for-Plastic-Waste/1.0.0.json",
+  "card": "Material-Data-for-Plastic-Waste/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/en18065materialdata/en18065MaterialData/1/0",
+  "pdf": "published/Material Data for Plastic Waste/1/0/IDTA_02080_Submodel_Material Data for Plastic Waste.pdf",
+  "counts": {
+   "agree": 82
+  }
+ },
+ {
+  "template": "MTP",
+  "version": "1.0.2",
+  "file": "MTP/1.0.2.json",
+  "card": "MTP/1.0.2.md",
+  "submodelSemanticId": null,
+  "pdf": "published/MTP/1/0/IDTA 02001-1-0_Submodel_MTP.pdf",
+  "counts": {
+   "none": 1
+  }
+ },
+ {
+  "template": "MTP",
+  "version": "1.0.1",
+  "file": "MTP/1.0.1.json",
+  "card": "MTP/1.0.1.md",
+  "submodelSemanticId": null,
+  "pdf": "published/MTP/1/0/IDTA 02001-1-0_Submodel_MTP.pdf",
+  "counts": {
+   "none": 1
+  }
+ },
+ {
+  "template": "MTP",
+  "version": "1.0.0",
+  "file": "MTP/1.0.0.json",
+  "card": "MTP/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/vdi/2658/1/0/MTPSubmodel",
+  "pdf": "published/MTP/1/0/IDTA 02001-1-0_Submodel_MTP.pdf",
+  "counts": {
+   "unverified": 3,
+   "divergent": 1
+  }
+ },
+ {
+  "template": "OPC UA Server Datasheet",
+  "version": "1.0.0",
+  "file": "OPC-UA-Server-Datasheet/1.0.0.json",
+  "card": "OPC-UA-Server-Datasheet/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/opcuaserverdatasheet/1/0",
+  "pdf": "published/OPC UA Server Datasheet/1/0/IDTA 02009-1-0_Submodel_OPC UA Server Data Sheet.pdf",
+  "counts": {
+   "agree": 36,
+   "json-only": 3,
+   "unverified": 4
+  }
+ },
+ {
+  "template": "Plant Asset Management Specification Sheet",
+  "version": "1.0.2",
+  "file": "Plant-Asset-Management-Specification-Sheet/1.0.2.json",
+  "card": "Plant-Asset-Management-Specification-Sheet/1.0.2.md",
+  "submodelSemanticId": "0173-1#01-AGC973#003",
+  "pdf": "published/Plant Asset Management Specification Sheet/1/0/IDTA 02019-1-0_Submodel_PlantAssetManagement.pdf",
+  "counts": {
+   "agree": 75,
+   "unverified": 5
+  }
+ },
+ {
+  "template": "Plant Asset Management Specification Sheet",
+  "version": "1.0.1",
+  "file": "Plant-Asset-Management-Specification-Sheet/1.0.1.json",
+  "card": "Plant-Asset-Management-Specification-Sheet/1.0.1.md",
+  "submodelSemanticId": "0173-1#01-AGC973#003",
+  "pdf": "published/Plant Asset Management Specification Sheet/1/0/IDTA 02019-1-0_Submodel_PlantAssetManagement.pdf",
+  "counts": {
+   "agree": 75,
+   "unverified": 5
+  }
+ },
+ {
+  "template": "Plant Asset Management Specification Sheet",
+  "version": "1.0.0",
+  "file": "Plant-Asset-Management-Specification-Sheet/1.0.0.json",
+  "card": "Plant-Asset-Management-Specification-Sheet/1.0.0.md",
+  "submodelSemanticId": "0173-1#01-AGC973#003",
+  "pdf": "published/Plant Asset Management Specification Sheet/1/0/IDTA 02019-1-0_Submodel_PlantAssetManagement.pdf",
+  "counts": {
+   "agree": 75,
+   "unverified": 5
+  }
+ },
+ {
+  "template": "Plastic and Rubber Moulds / Part 1 Identification",
+  "version": "1.1.0",
+  "file": "Plastic-and-Rubber-Moulds-Part-1-Identification/1.1.0.json",
+  "card": "Plastic-and-Rubber-Moulds-Part-1-Identification/1.1.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/euromap/Moulds/Identification/1/0",
+  "pdf": "published/Plastic and Rubber Moulds/Part 1 Identification/1/1/IDTA 02038-1_Submodel_Plastic and Rubber Moulds-Identification.pdf",
+  "counts": {
+   "agree": 13,
+   "json-only": 34,
+   "unverified": 1
+  }
+ },
+ {
+  "template": "Plastic and Rubber Moulds / Part 1 Identification",
+  "version": "1.0.0",
+  "file": "Plastic-and-Rubber-Moulds-Part-1-Identification/1.0.0.json",
+  "card": "Plastic-and-Rubber-Moulds-Part-1-Identification/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/euromap/Moulds/Identification/1/0",
+  "pdf": "published/Plastic and Rubber Moulds/Part 1 Identification/1/0/IDTA 02038-1_Submodel_Plastic and Rubber Moulds-Identification.pdf",
+  "counts": {
+   "agree": 13,
+   "json-only": 34,
+   "unverified": 1
+  }
+ },
+ {
+  "template": "Predictive Maintenance",
+  "version": "1.0.0",
+  "file": "Predictive-Maintenance/1.0.0.json",
+  "card": "Predictive-Maintenance/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/PredictiveMaintenance/1/0",
+  "pdf": "published/Predictive Maintenance/1/0/IDTA 02048_Submodel_PredictiveMaintenance.pdf",
+  "counts": {
+   "agree": 29,
+   "unverified": 1,
+   "divergent": 2
+  }
+ },
+ {
+  "template": "Process Parameters Instance",
+  "version": "1.0.0",
+  "file": "Process-Parameters-Instance/1.0.0.json",
+  "card": "Process-Parameters-Instance/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/ExecutedProcesses/1/0",
+  "pdf": "published/Process Parameters Instance/1/0/IDTA 02031-2_Submodel_ProcessParameters_Instance.pdf",
+  "counts": {
+   "agree": 26
+  }
+ },
+ {
+  "template": "Process Parameters Type",
+  "version": "1.0.0",
+  "file": "Process-Parameters-Type/1.0.0.json",
+  "card": "Process-Parameters-Type/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell-io/idta/SubmodelTemplate/ProcessParameters/1/0",
+  "pdf": "published/Process Parameters Type/1/0/IDTA 02031-1_Submodel_ProcessParameters_Type.pdf",
+  "counts": {
+   "agree": 9,
+   "json-only": 1
+  }
+ },
+ {
+  "template": "Process Variables for Manufacturing Key Performance Indicators",
+  "version": "1.0.0",
+  "file": "Process-Variables-for-Manufacturing-Key-Performance-Indicators/1.0.0.json",
+  "card": "Process-Variables-for-Manufacturing-Key-Performance-Indicators/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/ProcessVariablesForManufacturingKPICalculation/1/0",
+  "pdf": "published/Process Variables for Manufacturing Key Performance Indicators/1/0/IDTA 02066_Submodel_PVM.pdf",
+  "counts": {
+   "agree": 74,
+   "json-only": 2
+  }
+ },
+ {
+  "template": "Product Change Notifications",
+  "version": "1.1.0",
+  "file": "Product-Change-Notifications/1.1.0.json",
+  "card": "Product-Change-Notifications/1.1.0.md",
+  "submodelSemanticId": "0173-1#01-AHE582#003",
+  "pdf": "published/Product Change Notifications/1/1/IDTA_02036_Submodel_ProductChangeNotifications.pdf",
+  "counts": {
+   "agree": 57,
+   "unverified": 6,
+   "json-only": 6,
+   "divergent": 1,
+   "pdf-only": 8
+  }
+ },
+ {
+  "template": "Product Change Notifications",
+  "version": "1.0.0",
+  "file": "Product-Change-Notifications/1.0.0.json",
+  "card": "Product-Change-Notifications/1.0.0.md",
+  "submodelSemanticId": "0173-1#01-AHE582#003",
+  "pdf": "published/Product Change Notifications/1/0/IDTA_02036_Submodel_ProductChangeNotifications.pdf",
+  "counts": {
+   "agree": 57,
+   "unverified": 6,
+   "json-only": 6,
+   "divergent": 1,
+   "pdf-only": 8
+  }
+ },
+ {
+  "template": "Production Calendar",
+  "version": "1.1.0",
+  "file": "Production-Calendar/1.1.0.json",
+  "card": "Production-Calendar/1.1.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/ProductionCalendar/1/0",
+  "pdf": "published/Production Calendar/1/1/IDTA 02067_Submodel_ProductionCalendar.pdf",
+  "counts": {
+   "agree": 9,
+   "unverified": 3
+  }
+ },
+ {
+  "template": "Production Calendar",
+  "version": "1.0.0",
+  "file": "Production-Calendar/1.0.0.json",
+  "card": "Production-Calendar/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/ProductionCalendar/1/0",
+  "pdf": "published/Production Calendar/1/0/IDTA 02067_Submodel_ProductionCalendar.pdf",
+  "counts": {
+   "agree": 9,
+   "unverified": 3
+  }
+ },
+ {
+  "template": "Provision of 3D Models",
+  "version": "1.0.2",
+  "file": "Provision-of-3D-Models/1.0.2.json",
+  "card": "Provision-of-3D-Models/1.0.2.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/Models3D/1/0",
+  "pdf": "published/Provision of 3D Models/1/0/IDTA_02026-1-0_Submodel_ProvisionOf3DModels.pdf",
+  "counts": {
+   "unverified": 36,
+   "agree": 71,
+   "divergent": 1,
+   "json-only": 7,
+   "none": 2
+  }
+ },
+ {
+  "template": "Provision of 3D Models",
+  "version": "1.0.1",
+  "file": "Provision-of-3D-Models/1.0.1.json",
+  "card": "Provision-of-3D-Models/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/Models3D/1/0",
+  "pdf": "published/Provision of 3D Models/1/0/IDTA_02026-1-0_Submodel_ProvisionOf3DModels.pdf",
+  "counts": {
+   "unverified": 36,
+   "agree": 71,
+   "divergent": 1,
+   "json-only": 7,
+   "none": 2
+  }
+ },
+ {
+  "template": "Provision of 3D Models",
+  "version": "1.0.0",
+  "file": "Provision-of-3D-Models/1.0.0.json",
+  "card": "Provision-of-3D-Models/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/Models3D/1/0",
+  "pdf": "published/Provision of 3D Models/1/0/IDTA_02026-1-0_Submodel_ProvisionOf3DModels.pdf",
+  "counts": {
+   "unverified": 36,
+   "agree": 71,
+   "divergent": 1,
+   "json-only": 7,
+   "none": 2
+  }
+ },
+ {
+  "template": "Provision of Company Data",
+  "version": "1.0.1",
+  "file": "Provision-of-Company-Data/1.0.1.json",
+  "card": "Provision-of-Company-Data/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/CompanyData/1/0/CompanyData",
+  "pdf": "published/Provision of Company Data/1/0/1/IDTA 02068_Submodel Provision of Company Data.pdf",
+  "counts": {
+   "agree": 106
+  }
+ },
+ {
+  "template": "Provision of Company Data",
+  "version": "1.0.0",
+  "file": "Provision-of-Company-Data/1.0.0.json",
+  "card": "Provision-of-Company-Data/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/CompanyData/1/0/CompanyData",
+  "pdf": "published/Provision of Company Data/1/0/IDTA 02068_Submodel Provision of Company Data.pdf",
+  "counts": {
+   "agree": 106
+  }
+ },
+ {
+  "template": "Provision of Simulation Models",
+  "version": "1.2.0",
+  "file": "Provision-of-Simulation-Models/1.2.0.json",
+  "card": "Provision-of-Simulation-Models/1.2.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/SimulationModels/1/1",
+  "pdf": null,
+  "counts": {
+   "json-only": 75
+  }
+ },
+ {
+  "template": "Provision of Simulation Models",
+  "version": "1.1.0",
+  "file": "Provision-of-Simulation-Models/1.1.0.json",
+  "card": "Provision-of-Simulation-Models/1.1.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/SimulationModels/1/1",
+  "pdf": "published/Provision of Simulation Models/1/1/IDTA 02005_Template_ProvisionOfSimulationModel.pdf",
+  "counts": {
+   "agree": 75
+  }
+ },
+ {
+  "template": "Provision of Simulation Models",
+  "version": "1.0.1",
+  "file": "Provision-of-Simulation-Models/1.0.1.json",
+  "card": "Provision-of-Simulation-Models/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SimulationModels/SimulationModels/1/0",
+  "pdf": "published/Provision of Simulation Models/1/0/IDTA 02005-1-0_Submodel_ProvisionOfSimulationModels.pdf",
+  "counts": {
+   "agree": 63,
+   "json-only": 6
+  }
+ },
+ {
+  "template": "Provision of Simulation Models",
+  "version": "1.0.0",
+  "file": "Provision-of-Simulation-Models/1.0.0.json",
+  "card": "Provision-of-Simulation-Models/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SimulationModels/SimulationModels/1/0",
+  "pdf": "published/Provision of Simulation Models/1/0/IDTA 02005-1-0_Submodel_ProvisionOfSimulationModels.pdf",
+  "counts": {
+   "agree": 63,
+   "json-only": 6
+  }
+ },
+ {
+  "template": "Purchase Order",
+  "version": "1.0.1",
+  "file": "Purchase-Order/1.0.1.json",
+  "card": "Purchase-Order/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/PurchaseOrder/1/0",
+  "pdf": "published/Purchase Order/1/0/1/IDTA-02050_Submodel_PurchaseOrder.pdf",
+  "counts": {
+   "agree": 825,
+   "unverified": 11
+  }
+ },
+ {
+  "template": "Purchase Order",
+  "version": "1.0.0",
+  "file": "Purchase-Order/1.0.0.json",
+  "card": "Purchase-Order/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/PurchaseOrder/1/0",
+  "pdf": "published/Purchase Order/1/0/IDTA-02050_Submodel_PurchaseOrder.pdf",
+  "counts": {
+   "agree": 825,
+   "unverified": 11
+  }
+ },
+ {
+  "template": "Quality Control for Machining",
+  "version": "1.1.0",
+  "file": "Quality-Control-for-Machining/1.1.0.json",
+  "card": "Quality-Control-for-Machining/1.1.0.md",
+  "submodelSemanticId": null,
+  "pdf": "published/Quality Control for Machining/1/1/IDTA 02049_Submodel_QualityControlForMachining.pdf",
+  "counts": {
+   "agree": 160,
+   "json-only": 8,
+   "unverified": 15
+  }
+ },
+ {
+  "template": "Quality Control for Machining",
+  "version": "1.0.0",
+  "file": "Quality-Control-for-Machining/1.0.0.json",
+  "card": "Quality-Control-for-Machining/1.0.0.md",
+  "submodelSemanticId": null,
+  "pdf": "published/Quality Control for Machining/1/0/IDTA 02049_Submodel_QualityControlForMachining.pdf",
+  "counts": {
+   "agree": 172,
+   "json-only": 8,
+   "unverified": 3
+  }
+ },
+ {
+  "template": "Reliability",
+  "version": "1.0.2",
+  "file": "Reliability/1.0.2.json",
+  "card": "Reliability/1.0.2.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/iec62683/1/0/Reliability",
+  "pdf": "published/Reliability/1/0/IDTA 02013-1-0_Submodel_Reliability.pdf",
+  "counts": {
+   "agree": 3,
+   "divergent": 9,
+   "json-only": 3
+  }
+ },
+ {
+  "template": "Reliability",
+  "version": "1.0.1",
+  "file": "Reliability/1.0.1.json",
+  "card": "Reliability/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/iec62683/1/0/Reliability",
+  "pdf": "published/Reliability/1/0/IDTA 02013-1-0_Submodel_Reliability.pdf",
+  "counts": {
+   "agree": 3,
+   "divergent": 9,
+   "json-only": 3
+  }
+ },
+ {
+  "template": "Reliability",
+  "version": "1.0.0",
+  "file": "Reliability/1.0.0.json",
+  "card": "Reliability/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/iec62683/1/0/Reliability",
+  "pdf": "published/Reliability/1/0/IDTA 02013-1-0_Submodel_Reliability.pdf",
+  "counts": {
+   "agree": 3,
+   "divergent": 9,
+   "json-only": 3
+  }
+ },
+ {
+  "template": "Safety Instrumented Functions / Part 1 Safety Instrumented Function",
+  "version": "1.0.0",
+  "file": "Safety-Instrumented-Functions-Part-1-Safety-Instrumented-Function/1.0.0.json",
+  "card": "Safety-Instrumented-Functions-Part-1-Safety-Instrumented-Function/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/SafetyInstrumentedFunction/1/0",
+  "pdf": "published/Safety Instrumented Functions/Part 1 Safety Instrumented Function/1/0/IDTA 02064_Submodel_SafetyInstrumentedFunction.pdf",
+  "counts": {
+   "json-only": 105
+  }
+ },
+ {
+  "template": "Safety Instrumented Functions / Part 2 Safety Instrumented System",
+  "version": "1.0.0",
+  "file": "Safety-Instrumented-Functions-Part-2-Safety-Instrumented-System/1.0.0.json",
+  "card": "Safety-Instrumented-Functions-Part-2-Safety-Instrumented-System/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/SafetyInstrumentedSystem/1/0",
+  "pdf": "published/Safety Instrumented Functions/Part 2 Safety Instrumented System/1/0/IDTA 02097_Submodel_SafetyInstrumentedSystem.pdf",
+  "counts": {
+   "json-only": 12
+  }
+ },
+ {
+  "template": "Safety Instrumented Functions / Part 3 Safety Instrumented System Device",
+  "version": "1.0.0",
+  "file": "Safety-Instrumented-Functions-Part-3-Safety-Instrumented-System-Device/1.0.0.json",
+  "card": "Safety-Instrumented-Functions-Part-3-Safety-Instrumented-System-Device/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/SISDevice/1/0",
+  "pdf": "published/Safety Instrumented Functions/Part 3 Safety Instrumented System Device/1/0/IDTA 02079_Submodel_SafetyInstrumentedSystemDevice.pdf",
+  "counts": {
+   "json-only": 267
+  }
+ },
+ {
+  "template": "Safety Instrumented Functions / Part 4 Equipment Under Control",
+  "version": "1.0.0",
+  "file": "Safety-Instrumented-Functions-Part-4-Equipment-Under-Control/1.0.0.json",
+  "card": "Safety-Instrumented-Functions-Part-4-Equipment-Under-Control/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/EquipmentUnderControl/1/0",
+  "pdf": "published/Safety Instrumented Functions/Part 4 Equipment Under Control/1/0/IDTA 02096_Submodel_EquipmentUnderControl.pdf",
+  "counts": {
+   "json-only": 20
+  }
+ },
+ {
+  "template": "sensor4.0 / Part 1 Measurement Value",
+  "version": "1.0.1",
+  "file": "sensor4-0-Part-1-Measurement-Value/1.0.1.json",
+  "card": "sensor4-0-Part-1-Measurement-Value/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/measurementValue/1/0",
+  "pdf": "published/sensor4.0/Part 1 Measurement Value/1/0/1/IDTA 02029-1_Template_Sensor4.0_MeasurementValue.pdf",
+  "counts": {
+   "agree": 16
+  }
+ },
+ {
+  "template": "sensor4.0 / Part 1 Measurement Value",
+  "version": "1.0.0",
+  "file": "sensor4-0-Part-1-Measurement-Value/1.0.0.json",
+  "card": "sensor4-0-Part-1-Measurement-Value/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/measurementValue/1/0",
+  "pdf": "published/sensor4.0/Part 1 Measurement Value/1/0/IDTA 02029-1_Template_Sensor4.0_MeasurementValue.pdf",
+  "counts": {
+   "agree": 16
+  }
+ },
+ {
+  "template": "Service Request Notification",
+  "version": "1.0.2",
+  "file": "Service-Request-Notification/1.0.2.json",
+  "card": "Service-Request-Notification/1.0.2.md",
+  "submodelSemanticId": "0173-1#01-AHX443#001",
+  "pdf": "published/Service Request Notification/1/0/2/IDTA 02010-1-0_Submodel_ServiceRequestNotification.pdf",
+  "counts": {
+   "agree": 21,
+   "unverified": 2,
+   "divergent": 3
+  }
+ },
+ {
+  "template": "Service Request Notification",
+  "version": "1.0.1",
+  "file": "Service-Request-Notification/1.0.1.json",
+  "card": "Service-Request-Notification/1.0.1.md",
+  "submodelSemanticId": "0173-1#01-AHX443#001",
+  "pdf": "published/Service Request Notification/1/0/IDTA 02010-1-0_Submodel_ServiceRequestNotification.pdf",
+  "counts": {
+   "agree": 21,
+   "unverified": 2,
+   "divergent": 3
+  }
+ },
+ {
+  "template": "Service Request Notification",
+  "version": "1.0.0",
+  "file": "Service-Request-Notification/1.0.0.json",
+  "card": "Service-Request-Notification/1.0.0.md",
+  "submodelSemanticId": "0173-1#01-AHX443#001",
+  "pdf": "published/Service Request Notification/1/0/IDTA 02010-1-0_Submodel_ServiceRequestNotification.pdf",
+  "counts": {
+   "agree": 21,
+   "unverified": 2,
+   "divergent": 3
+  }
+ },
+ {
+  "template": "Sizing of Power Drive Trains",
+  "version": "1.0.2",
+  "file": "Sizing-of-Power-Drive-Trains/1.0.2.json",
+  "card": "Sizing-of-Power-Drive-Trains/1.0.2.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/1/0",
+  "pdf": "published/Sizing of Power Drive Trains/1/0/IDTA 02021-1-0_Submodel_Sizing of Power Drive Trains.pdf",
+  "counts": {
+   "json-only": 6,
+   "agree": 201,
+   "divergent": 3,
+   "unverified": 6
+  }
+ },
+ {
+  "template": "Sizing of Power Drive Trains",
+  "version": "1.0.1",
+  "file": "Sizing-of-Power-Drive-Trains/1.0.1.json",
+  "card": "Sizing-of-Power-Drive-Trains/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/1/0",
+  "pdf": "published/Sizing of Power Drive Trains/1/0/IDTA 02021-1-0_Submodel_Sizing of Power Drive Trains.pdf",
+  "counts": {
+   "json-only": 6,
+   "agree": 201,
+   "divergent": 3,
+   "unverified": 6
+  }
+ },
+ {
+  "template": "Sizing of Power Drive Trains",
+  "version": "1.0.0",
+  "file": "Sizing-of-Power-Drive-Trains/1.0.0.json",
+  "card": "Sizing-of-Power-Drive-Trains/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/PowerDriveTrainSizing/1/0",
+  "pdf": "published/Sizing of Power Drive Trains/1/0/IDTA 02021-1-0_Submodel_Sizing of Power Drive Trains.pdf",
+  "counts": {
+   "json-only": 6,
+   "agree": 201,
+   "divergent": 3,
+   "unverified": 6
+  }
+ },
+ {
+  "template": "Software Nameplate",
+  "version": "1.0.2",
+  "file": "Software-Nameplate/1.0.2.json",
+  "card": "Software-Nameplate/1.0.2.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0",
+  "pdf": "published/Software Nameplate/1/0/IDTA 02007-1-0_Submodel_Software Nameplate.pdf",
+  "counts": {
+   "json-only": 73
+  }
+ },
+ {
+  "template": "Software Nameplate",
+  "version": "1.0.1",
+  "file": "Software-Nameplate/1.0.1.json",
+  "card": "Software-Nameplate/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0",
+  "pdf": "published/Software Nameplate/1/0/IDTA 02007-1-0_Submodel_Software Nameplate.pdf",
+  "counts": {
+   "json-only": 73
+  }
+ },
+ {
+  "template": "Software Nameplate",
+  "version": "1.0.0",
+  "file": "Software-Nameplate/1.0.0.json",
+  "card": "Software-Nameplate/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SoftwareNameplate/1/0",
+  "pdf": "published/Software Nameplate/1/0/IDTA 02007-1-0_Submodel_Software Nameplate.pdf",
+  "counts": {
+   "json-only": 73
+  }
+ },
+ {
+  "template": "Technical Data",
+  "version": "2.0.2",
+  "file": "Technical-Data/2.0.2.json",
+  "card": "Technical-Data/2.0.2.md",
+  "submodelSemanticId": "0173-1#01-AHX837#002",
+  "pdf": "published/Technical_Data/2/0/2/IDTA 02003_2-0-1_Template_TechnicalData.pdf",
+  "counts": {
+   "agree": 57,
+   "none": 4,
+   "unverified": 1
+  }
+ },
+ {
+  "template": "Technical Data",
+  "version": "2.0.1",
+  "file": "Technical-Data/2.0.1.json",
+  "card": "Technical-Data/2.0.1.md",
+  "submodelSemanticId": "0173-1#01-AHX837#002",
+  "pdf": "published/Technical_Data/2/0/1/IDTA 02003_2-0-1_Template_TechnicalData.pdf",
+  "counts": {
+   "agree": 57,
+   "none": 4,
+   "unverified": 1
+  }
+ },
+ {
+  "template": "Technical Data",
+  "version": "2.0.0",
+  "file": "Technical-Data/2.0.0.json",
+  "card": "Technical-Data/2.0.0.md",
+  "submodelSemanticId": "0173-1#01-AHX837#002",
+  "pdf": "published/Technical_Data/2/0/IDTA 02003_Template_TechnicalData.pdf",
+  "counts": {
+   "agree": 58,
+   "none": 4
+  }
+ },
+ {
+  "template": "Technical Data for Automated Guided Vehicles",
+  "version": "1.0.2",
+  "file": "Technical-Data-for-Automated-Guided-Vehicles/1.0.2.json",
+  "card": "Technical-Data-for-Automated-Guided-Vehicles/1.0.2.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/technicaldataagv/1/0",
+  "pdf": "published/Technical Data for Automated Guided Vehicles/1/0/IDTA 02047-1-0 Submodel_Technical Data for AGV .pdf",
+  "counts": {
+   "agree": 83,
+   "json-only": 9,
+   "none": 2,
+   "pdf-only": 1
+  }
+ },
+ {
+  "template": "Technical Data for Automated Guided Vehicles",
+  "version": "1.0.1",
+  "file": "Technical-Data-for-Automated-Guided-Vehicles/1.0.1.json",
+  "card": "Technical-Data-for-Automated-Guided-Vehicles/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/technicaldataagv/1/0",
+  "pdf": "published/Technical Data for Automated Guided Vehicles/1/0/IDTA 02047-1-0 Submodel_Technical Data for AGV .pdf",
+  "counts": {
+   "agree": 83,
+   "json-only": 9,
+   "none": 2,
+   "pdf-only": 1
+  }
+ },
+ {
+  "template": "Technical Data for Automated Guided Vehicles",
+  "version": "1.0.0",
+  "file": "Technical-Data-for-Automated-Guided-Vehicles/1.0.0.json",
+  "card": "Technical-Data-for-Automated-Guided-Vehicles/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/technicaldataagv/1/0",
+  "pdf": "published/Technical Data for Automated Guided Vehicles/1/0/IDTA 02047-1-0 Submodel_Technical Data for AGV .pdf",
+  "counts": {
+   "agree": 83,
+   "json-only": 9,
+   "none": 2,
+   "pdf-only": 1
+  }
+ },
+ {
+  "template": "Time Series Data",
+  "version": "1.1.2",
+  "file": "Time-Series-Data/1.1.2.json",
+  "card": "Time-Series-Data/1.1.2.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/TimeSeries/1/1",
+  "pdf": "published/Time Series Data/1/1/IDTA 02008-1-1_Submodel_TimeSeriesData.pdf",
+  "counts": {
+   "agree": 39,
+   "unverified": 7,
+   "json-only": 6
+  }
+ },
+ {
+  "template": "Time Series Data",
+  "version": "1.1.1",
+  "file": "Time-Series-Data/1.1.1.json",
+  "card": "Time-Series-Data/1.1.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/TimeSeries/1/1",
+  "pdf": "published/Time Series Data/1/1/IDTA 02008-1-1_Submodel_TimeSeriesData.pdf",
+  "counts": {
+   "agree": 39,
+   "unverified": 7,
+   "json-only": 6
+  }
+ },
+ {
+  "template": "Time Series Data",
+  "version": "1.1.0",
+  "file": "Time-Series-Data/1.1.0.json",
+  "card": "Time-Series-Data/1.1.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/TimeSeries/1/1",
+  "pdf": "published/Time Series Data/1/1/IDTA 02008-1-1_Submodel_TimeSeriesData.pdf",
+  "counts": {
+   "agree": 39,
+   "unverified": 7,
+   "json-only": 6
+  }
+ },
+ {
+  "template": "Wireless Communication",
+  "version": "1.0.2",
+  "file": "Wireless-Communication/1.0.2.json",
+  "card": "Wireless-Communication/1.0.2.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/WirelessCommunication/1/0",
+  "pdf": "published/Wireless Communication/1/0/IDTA 02022-1-0_Submodel_Wireless Communication.pdf",
+  "counts": {
+   "json-only": 24,
+   "agree": 63,
+   "pdf-only": 1,
+   "divergent": 1,
+   "unverified": 1
+  }
+ },
+ {
+  "template": "Wireless Communication",
+  "version": "1.0.1",
+  "file": "Wireless-Communication/1.0.1.json",
+  "card": "Wireless-Communication/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/WirelessCommunication/1/0",
+  "pdf": "published/Wireless Communication/1/0/IDTA 02022-1-0_Submodel_Wireless Communication.pdf",
+  "counts": {
+   "json-only": 24,
+   "agree": 63,
+   "pdf-only": 1,
+   "divergent": 1,
+   "unverified": 1
+  }
+ },
+ {
+  "template": "Wireless Communication",
+  "version": "1.0.0",
+  "file": "Wireless-Communication/1.0.0.json",
+  "card": "Wireless-Communication/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/SubmodelTemplate/WirelessCommunication/1/0",
+  "pdf": "published/Wireless Communication/1/0/IDTA 02022-1-0_Submodel_Wireless Communication.pdf",
+  "counts": {
+   "json-only": 24,
+   "agree": 63,
+   "pdf-only": 1,
+   "divergent": 1,
+   "unverified": 1
+  }
+ },
+ {
+  "template": "Worskstation Worker Matching Data",
+  "version": "1.0.1",
+  "file": "Worskstation-Worker-Matching-Data/1.0.1.json",
+  "card": "Worskstation-Worker-Matching-Data/1.0.1.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/sm/workstationworkermatchingdata",
+  "pdf": "published/Worskstation Worker Matching Data/1/0/IDTA 02046-1-0_Submodel_WorkstationWorkerMatchingData.pdf",
+  "counts": {
+   "agree": 59,
+   "unverified": 4,
+   "none": 5,
+   "divergent": 1,
+   "json-only": 1,
+   "pdf-only": 1
+  }
+ },
+ {
+  "template": "Worskstation Worker Matching Data",
+  "version": "1.0.0",
+  "file": "Worskstation-Worker-Matching-Data/1.0.0.json",
+  "card": "Worskstation-Worker-Matching-Data/1.0.0.md",
+  "submodelSemanticId": "https://admin-shell.io/idta/sm/workstationworkermatchingdata",
+  "pdf": "published/Worskstation Worker Matching Data/1/0/IDTA 02046-1-0_Submodel_WorkstationWorkerMatchingData.pdf",
+  "counts": {
+   "agree": 59,
+   "unverified": 4,
+   "none": 5,
+   "divergent": 1,
+   "json-only": 1,
+   "pdf-only": 1
+  }
+ }
+]
